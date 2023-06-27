@@ -1,0 +1,2 @@
+pyam-iamc >= 1.0  # the `pyam` package is released on pypi under this name
+nomenclature-iamc >= 0.10
