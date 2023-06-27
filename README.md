@@ -1,28 +1,22 @@
-# Scenario Explorer Workflow Template
+# Common definitions for model comparison projects
 
-Copyright 2022-2023 IIASA
-
+[![License: CC0-1.0](https://img.shields.io/github/license/iamConsortium/common-definitions)](https://github.com/IAMconsortium/common-definitions/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Overview
 
-This is a template for project-specific scenario processing workflows.
+This repository holds definitions and mappings for model-comparison projects.
+The aim is to provide a central location to facilitate reuse of definitions and mappings across projects.
 
-To use this template for a project, do the following:
-- Create a new repository from this template
-- Update the title and overview section of this Readme
-- Start adding definitions and mappings 
+## Project nomenclature
 
-### Project nomenclature
-
-The folder `definitions` can contain the project nomenclature, i.e., list of allowed
+The folder `definitions` contains the project nomenclature, i.e., list of allowed
 variables and regions, for use in the validation workflow. See the **nomenclature**
 package for more information ([link](https://github.com/iamconsortium/nomenclature)).
 
-The folder `mappings` can contain model mappings that are used to register models and
-define how results should be processed upon upload to a Scenario Explorer.
+The folder `mappings` contains models-specific region-processing mappings.
 
-### Model registration
+## Model registration
 
 This is the step-by-step guide to registering your model:
 
@@ -34,7 +28,7 @@ Please make sure to follow the instructions completely, both the _Model mapping_
 4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock) as reviewers.
 5. Once everything is in order we will merge your pull request and your model will be registered.
 
-### Workflow
+## Workflow
 
 The module `workflow.py` has a function `main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:`.
 
