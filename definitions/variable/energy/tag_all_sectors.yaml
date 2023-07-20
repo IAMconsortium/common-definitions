@@ -1,0 +1,63 @@
+- Sector:
+    - Agriculture:
+        description: agriculture sector including fishing
+    - Industry:
+        description: industrial sector excluding non-energy use (e.g.feedstocks)
+    - Industry|Iron and Steel:
+        description: iron and steel sector excluding feedstocks
+    - Industry|Non-Ferrous Metals:
+        description: non-ferrous metals sector
+    - Industry|Non-Metallic Minerals:
+        description: non-metallic minerals sector
+    - Industry|Chemicals:
+        description: chemicals sector excluding feedstocks
+    - Industry|Chemicals|Ammonia:
+        description: ammonia sector
+    - Industry|Chemicals|Methanol:
+        description: menthanol sector
+    - Industry|Chemicals|High Value Chemicals:
+        description: high-value-chemicals sector
+    - Industry|Cement:
+        description: cement sector
+    - Industry|Plastics:
+        description: plastics sector
+    - Industry|Pulp and Paper:
+        description: other industrial sectors
+    - Industry|Other Sector:
+        description: other industrial sectors
+    - Residential:
+        description: residential sector
+    - Commercial:
+        description: commercial sector
+    - Residential and Commercial:
+        description: residential and commercial sector
+    - Transportation:
+        description: transportation sector excluding bunker fuels
+    - Transportation (w/ bunkers):
+        description: transportation sector including bunker fuels
+    - Transportation|Bus:
+        description: transportation sector by bus
+    - Transportation|Light Duty Vehicle:
+        description: transportation sector with light-duty vehicles
+    - Transportation|Rail:
+        description: rail transportation sector
+    - Transportation|Truck:
+        description: trucking sector
+    - Transportation|Domestic Aviation:
+        description: domestic aviation sector
+    - Transportation|Domestic Shipping:
+        description: domestic shipping sector
+    - Transportation|Passenger:
+        description: passenger transportation sector
+    - Transportation|Freight:
+        description: passenger transportation sector
+    - Bunkers:
+        description: bunker-fuels sector
+    - Carbon Removal:
+        description: carbon dioxide removal processes
+    - Carbon Removal|Direct Air Capture:
+        description: direct air capture sector
+    - Carbon Removal|Enhanced Weathering:
+        description: enhanced weathering sector
+    - Other Sector:
+        description: other sectors
