@@ -39,10 +39,10 @@
         description: transportation sector by bus
     - Transportation|Light Duty Vehicle:
         description: transportation sector with light-duty vehicles
-    - Transportation|Rail:
-        description: rail transportation sector
     - Transportation|Truck:
         description: trucking sector
+    - Transportation|Rail:
+        description: rail transportation sector
     - Transportation|Domestic Aviation:
         description: domestic aviation sector
     - Transportation|Domestic Shipping:
