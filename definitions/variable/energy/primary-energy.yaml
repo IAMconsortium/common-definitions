@@ -31,11 +31,17 @@
 - Primary Energy|Biomass|Residues:
     description: Primary energy consumption from residues
     unit: EJ/yr
+- Primary Energy|Biomass|Electricity:
+    description: Primary energy input of biomass for electricity generation
+    unit: EJ/yr
+- Primary Energy|Biomass|Electricity|{CCS}:
+    description: Primary energy input of biomass for electricity generation {CCS}
+    unit: EJ/yr
 - Primary Energy|Biomass|{Secondary Fuel}:
-    description: Primary energy input of biomass for {Secondary Fuel}
+    description: Primary energy input of biomass for conversion to {Secondary Fuel}
     unit: EJ/yr
 - Primary Energy|Biomass|{Secondary Fuel}|{CCS}:
-    description: Primary energy input of biomass for {Secondary Fuel} {CCS}
+    description: Primary energy input of biomass for conversion to {Secondary Fuel} {CCS}
     unit: EJ/yr
 
 - Primary Energy|Non-Biomass Renewables:
@@ -64,11 +70,21 @@
 - Primary Energy|{Primary Fossil Fuel}|{CCS}:
     description: Primary energy consumption of {Primary Fossil Fuel} {CCS}
     unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}|Electricity:
+    description: Primary energy consumption of {Primary Fossil Fuel}
+      for electricity generation
+    unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}|Electricity|{CCS}:
+    description: Primary energy consumption of {Primary Fossil Fuel}
+      for electricity generation {CCS}
+    unit: EJ/yr
 - Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}:
-    description: Primary energy consumption of {Primary Fossil Fuel} for {Secondary Fuel}
+    description: Primary energy consumption of {Primary Fossil Fuel}
+      for conversion to {Secondary Fuel}
     unit: EJ/yr
 - Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}|{CCS}:
-    description: Primary energy consumption of {Primary Fossil Fuel} for {Secondary Fuel} {CCS}
+    description: Primary energy consumption of {Primary Fossil Fuel} for
+      conversion to {Secondary Fuel} {CCS}
     unit: EJ/yr
 
 - Primary Energy|Secondary Energy Trade:
