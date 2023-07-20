@@ -1,0 +1,13 @@
+- Secondary Fuel:
+    - Electricity:
+        description: electricity generation
+    - Liquids:
+        description: conversion to liquid fuels
+    - Solids:
+        description: conversion to solid fuels
+    - Gases:
+        description: conversion to gaseous fuels not including hydrogen
+    - Hydrogen:
+        description: conversion to hydrogen
+    - Heat:
+        description: heat generation

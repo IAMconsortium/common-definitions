@@ -1,0 +1,84 @@
+- Primary Energy:
+    description: Total primary energy consumption (direct equivalent)
+    unit: EJ/yr
+
+- Primary Energy|Biomass:
+    description: Primary energy consumption of purpose-grown bioenergy crops, crop
+      and forestry residue, municipal solid waste bioenergy and traditional biomass
+    unit: EJ/yr
+- Primary Energy|Biomass|{CCS}:
+    description: Primary energy consumption of purpose-grown bioenergy crops, crop
+      and forestry residue, municipal solid waste bioenergy and traditional biomass {CCS}
+    unit: EJ/yr
+- Primary Energy|Biomass|Modern:
+    description: Primary energy consumption of modern biomass, including purpose-grown
+      bioenergy crops, crop and forestry residue and municipal solid waste bioenergy
+    unit: EJ/yr
+- Primary Energy|Biomass|Modern|{CCS}:
+    description: Primary energy consumption of modern biomass, including purpose-grown
+      bioenergy crops, crop and forestry residue and municipal solid waste bioenergy {CCS}
+    unit: EJ/yr
+- Primary Energy|Biomass|Traditional:
+    description: Primary energy consumption of traditional biomass
+    unit: EJ/yr
+- Primary Energy|Biomass|1st Generation:
+    description: Primary energy consumption from 1st generation biofuel crops
+      (e.g., sugar cane, rapeseed oil, maize, sugar beet)
+    unit: EJ/yr
+- Primary Energy|Biomass|Energy Crops:
+    description: Primary energy consumption from purpose-grown bioenergy crops
+    unit: EJ/yr
+- Primary Energy|Biomass|Residues:
+    description: Primary energy consumption from residues
+    unit: EJ/yr
+- Primary Energy|Biomass|{Secondary Fuel}:
+    description: Primary energy input of biomass for {Secondary Fuel}
+    unit: EJ/yr
+- Primary Energy|Biomass|{Secondary Fuel}|{CCS}:
+    description: Primary energy input of biomass for {Secondary Fuel} {CCS}
+    unit: EJ/yr
+
+- Primary Energy|Non-Biomass Renewables:
+    description: Primary energy consumption of renewable energy exluding biomass
+    unit: EJ/yr
+- Primary Energy|{Non-Biomass Renewables}:
+    description: Primary energy consumption of {Non-Biomass Renewables}
+    unit: EJ/yr
+
+- Primary Energy|Nuclear:
+    description: Primary energy consumption of nuclear power (direct equivalent),
+      includes electricity, heat and hydrogen production from nuclear energy)
+    unit: EJ/yr
+
+- Primary Energy|Fossil:
+    description: Primary energy consumption of fossil fuels including coal, natural gas
+      and conventional/unconventional oil
+    unit: EJ/yr
+- Primary Energy|Fossil|{CCS}:
+    description: Primary energy consumption of fossil fuels including coal, natural gas
+      and conventional/unconventional oil {CCS}
+    unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}:
+    description: Primary energy consumption of {Primary Fossil Fuel}
+    unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}|{CCS}:
+    description: Primary energy consumption of {Primary Fossil Fuel} {CCS}
+    unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}:
+    description: Primary energy consumption of {Primary Fossil Fuel} for {Secondary Fuel}
+    unit: EJ/yr
+- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}|{CCS}:
+    description: Primary energy consumption of {Primary Fossil Fuel} for {Secondary Fuel} {CCS}
+    unit: EJ/yr
+
+- Primary Energy|Secondary Energy Trade:
+    description: Primary energy consumption from trade in secondary energy carriers that
+      cannot be unambiguoulsy mapped to one of the existing primary energy categories,
+      e.g. electricity, hydrogen
+    note: Negative values indicate net exports of an energy carrier
+    unit: EJ/yr
+
+- Primary Energy|Other:
+    description: Primary energy consumption from sources that do not fit any other
+      category (direct equivalent)
+    unit: EJ/yr
