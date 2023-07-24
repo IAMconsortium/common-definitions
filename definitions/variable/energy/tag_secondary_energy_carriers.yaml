@@ -1,0 +1,13 @@
+- Secondary Fuel:
+    # Electricity is treated separately
+    - Liquids:
+        description: liquid fuels (conventional & unconventional oil, biofuels,
+          coal-to-liquids, gas-to-liquids)
+    - Solids:
+        description: solid fuels
+    - Gases:
+        description: gaseous fuels not including hydrogen
+    - Hydrogen:
+        description: hydrogen
+    - Heat:
+        description: heat
