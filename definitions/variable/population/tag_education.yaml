@@ -1,0 +1,13 @@
+- Education:
+    - No Education:
+        definition: without formal education
+    - Incomplete Primary Education:
+        definition: with incomplete primary education
+    - Primary Education:
+        definition: with completed primary education
+    - Lower Secondary Education:
+        definition: with completed lower secondary education
+    - Upper Secondary Education:
+        definition: with completed upper secondary education
+    - Post Secondary Education:
+        definition: with completed post secondary education
