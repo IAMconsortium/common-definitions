@@ -19,9 +19,6 @@
 - Final Energy|Non-Energy Use|Waste:
     description: Final energy consumption of non-renewable waste in non-combustion processes
     unit: EJ/yr
-- Final Energy|Non-Energy Use|Other:
-    description: Final energy consumption of other feedstocks in non-combustion processes
-    unit: EJ/yr
 - Final Energy|Non-Energy Use|{Non-Energy Sector}:
     description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
     unit: EJ/yr
@@ -36,6 +33,9 @@
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Other:
     description: Final energy consumption of other feedstocks by the {Non-Energy Sector}
       for non-combustion processes
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Other:
+    description: Final energy consumption of other feedstocks in non-combustion processes
     unit: EJ/yr
 
 # Final energy by fuel
@@ -75,7 +75,7 @@
     description: Final energy consumption by the industrial sector of other energy sources
     unit: EJ/yr
 
-# specific additional combinations of sector and energy-carriers
+# additional combinations of sector and energy-carriers not included in {Sector} x {Secondary Fuel}
 - Final Energy|Industry|Geothermal:
     description: Final energy consumption by the industrial sector of geothermal heat
     unit: EJ/yr
@@ -84,33 +84,15 @@
     unit: EJ/yr
 
 # additional variable for bunkers
-- Final Energy|Bunkers|International Shipping:
-    description: Final energy consumption of bunker fuels for international shipping
+- Final Energy|Bunkers|{Bunkers}:
+    description: Final energy consumption of bunker fuels for {Bunkers}
     unit: EJ/yr
-- Final Energy|Bunkers|International Aviation:
-    description: Final energy consumption of bunker fuels for international aviation
+- Final Energy|Bunkers|{Transport}:
+    description: Final energy consumption of bunker fuels for {Transport}
     unit: EJ/yr
-- Final Energy|Bunkers|Passenger:
-    description: Final energy consumption of bunker fuels for passenger transport
-    unit: EJ/yr
-- Final Energy|Bunkers|Passenger|International Shipping:
-    description: Final energy consumption of bunker fuels for passenger transport on
-      international shipping
-    unit: EJ/yr
-- Final Energy|Bunkers|Passenger|International Aviation:
-    description: Final energy consumption of bunker fuels for passenger transport on
-      international aviation
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight:
-    description: Final energy consumption of bunker fuels for freight transport
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight|International Shipping:
-    description: Final energy consumption of bunker fuels for freight transport on
-      international shipping
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight|International Aviation:
-    description: Final energy consumption of bunker fuels for freight transport on
-      international aviation
+- Final Energy|Bunkers|{Transport}|{Bunkers}:
+    description: Final energy consumption of bunker fuels for {Transport}
+      on {Bunkers}
     unit: EJ/yr
 
 # additional variables for the water sector
