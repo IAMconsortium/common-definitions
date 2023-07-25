@@ -75,7 +75,7 @@
     description: Final energy consumption by the industrial sector of other energy sources
     unit: EJ/yr
 
-# specific additional combinations of sector and energy-carriers
+# additional combinations of sector and energy-carriers not included in {Sector} x {Secondary Fuel}
 - Final Energy|Industry|Geothermal:
     description: Final energy consumption by the industrial sector of geothermal heat
     unit: EJ/yr
