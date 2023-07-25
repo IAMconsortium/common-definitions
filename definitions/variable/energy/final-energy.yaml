@@ -84,33 +84,21 @@
     unit: EJ/yr
 
 # additional variable for bunkers
-- Final Energy|Bunkers|International Shipping:
-    description: Final energy consumption of bunker fuels for international shipping
-    unit: EJ/yr
-- Final Energy|Bunkers|International Aviation:
-    description: Final energy consumption of bunker fuels for international aviation
+- Final Energy|Bunkers|{Bunkers}:
+    description: Final energy consumption of bunker fuels for {Bunkers}
     unit: EJ/yr
 - Final Energy|Bunkers|Passenger:
     description: Final energy consumption of bunker fuels for passenger transport
     unit: EJ/yr
-- Final Energy|Bunkers|Passenger|International Shipping:
-    description: Final energy consumption of bunker fuels for passenger transport on
-      international shipping
-    unit: EJ/yr
-- Final Energy|Bunkers|Passenger|International Aviation:
-    description: Final energy consumption of bunker fuels for passenger transport on
-      international aviation
+- Final Energy|Bunkers|Passenger|{Bunkers}:
+    description: Final energy consumption of bunker fuels for passenger transport
+      on {Bunkers}
     unit: EJ/yr
 - Final Energy|Bunkers|Freight:
     description: Final energy consumption of bunker fuels for freight transport
     unit: EJ/yr
-- Final Energy|Bunkers|Freight|International Shipping:
-    description: Final energy consumption of bunker fuels for freight transport on
-      international shipping
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight|International Aviation:
-    description: Final energy consumption of bunker fuels for freight transport on
-      international aviation
+- Final Energy|Bunkers|Freight|{Bunkers}:
+    description: Final energy consumption of bunker fuels for freight transport on {Bunkers}
     unit: EJ/yr
 
 # additional variables for the water sector
