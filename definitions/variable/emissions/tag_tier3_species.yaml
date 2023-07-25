@@ -1,5 +1,8 @@
 # please make sure that this is list is a subset of `Tier-2 Species`
 - Tier-3 Species:
+    - CO2:
+        description: carbon dioxide (CO2)
+        unit: Mt CO2/yr
     - Kyoto Gases:
         description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
         note: preferably use AR4 100-year GWPs for aggregation of different gases

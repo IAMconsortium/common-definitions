@@ -57,6 +57,9 @@
     description: Emissions of {Tier-2 Species} from fuel combustion in transportation sector
       (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Tier-2 Species}"
+- Emissions|{Tier-2 Species}|Energy|Demand|Other Sector:
+    description: Emissions of {Tier-2 Species} from fuel combustion in other sectors
+    unit: "{Tier-2 Species}"
 
 - Emissions|{Tier-3 Species}|Industrial Processes:
     description: Emissions of {Tier-3 Species} from industrial processes
