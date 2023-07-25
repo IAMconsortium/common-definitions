@@ -19,9 +19,6 @@
 - Final Energy|Non-Energy Use|Waste:
     description: Final energy consumption of non-renewable waste in non-combustion processes
     unit: EJ/yr
-- Final Energy|Non-Energy Use|Other:
-    description: Final energy consumption of other feedstocks in non-combustion processes
-    unit: EJ/yr
 - Final Energy|Non-Energy Use|{Non-Energy Sector}:
     description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
     unit: EJ/yr
@@ -36,6 +33,9 @@
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Other:
     description: Final energy consumption of other feedstocks by the {Non-Energy Sector}
       for non-combustion processes
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Other:
+    description: Final energy consumption of other feedstocks in non-combustion processes
     unit: EJ/yr
 
 # Final energy by fuel
