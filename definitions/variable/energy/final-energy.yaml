@@ -87,18 +87,12 @@
 - Final Energy|Bunkers|{Bunkers}:
     description: Final energy consumption of bunker fuels for {Bunkers}
     unit: EJ/yr
-- Final Energy|Bunkers|Passenger:
-    description: Final energy consumption of bunker fuels for passenger transport
+- Final Energy|Bunkers|{Transport}:
+    description: Final energy consumption of bunker fuels for {Transport}
     unit: EJ/yr
-- Final Energy|Bunkers|Passenger|{Bunkers}:
-    description: Final energy consumption of bunker fuels for passenger transport
+- Final Energy|Bunkers|{Transport}|{Bunkers}:
+    description: Final energy consumption of bunker fuels for {Transport}
       on {Bunkers}
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight:
-    description: Final energy consumption of bunker fuels for freight transport
-    unit: EJ/yr
-- Final Energy|Bunkers|Freight|{Bunkers}:
-    description: Final energy consumption of bunker fuels for freight transport on {Bunkers}
     unit: EJ/yr
 
 # additional variables for the water sector
