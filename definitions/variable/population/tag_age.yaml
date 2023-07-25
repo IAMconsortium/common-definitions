@@ -1,0 +1,43 @@
+- Age:
+    - Age 0-4:
+        definition: aged 0-4 years
+    - Age 5-9:
+        definition: aged 5-9 years
+    - Age 10-14:
+        definition: aged 10-14 years
+    - Age 15-19:
+        definition: aged 15-19 years
+    - Age 20-24:
+        definition: aged 20-24 years
+    - Age 25-29:
+        definition: aged 25-29 years
+    - Age 30-34:
+        definition: aged 30-34 years
+    - Age 35-39:
+        definition: aged 35-39 years
+    - Age 40-44:
+        definition: aged 40-44 years
+    - Age 45-49:
+        definition: aged 45-49 years
+    - Age 50-54:
+        definition: aged 50-54 years
+    - Age 55-59:
+        definition: aged 55-59 years
+    - Age 60-64:
+        definition: aged 60-64 years
+    - Age 65-69:
+        definition: aged 65-69 years
+    - Age 70-74:
+        definition: aged 70-74 years
+    - Age 75-79:
+        definition: aged 75-79 years
+    - Age 80-84:
+        definition: aged 80-84 years
+    - Age 85-89:
+        definition: aged 85-89 years
+    - Age 90-94:
+        definition: aged 90-94 years
+    - Age 95-99:
+        definition: aged 95-99 years
+    - Age 100+:
+        definition: aged 100 years and older

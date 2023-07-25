@@ -1,0 +1,18 @@
+- Population:
+    definition: Total population
+    unit: million
+- Population|Urban:
+    definition: Total population living in urban areas
+    unit: million
+- Population|{Gender}:
+    definition: Total {Gender} population
+    unit: million
+- Population|{Gender}|{Age}:
+    definition: Total {Gender} population {Age}
+    unit: million
+- Population|{Gender}|{Age}|{Education}:
+    definition: Total {Gender} population {Age} with {Education}
+    unit: million
+- Mean Years of Education|{Gender}|{Age}:
+    definition: Mean years of formal education of the {Gender} population {Age}
+    unit: years

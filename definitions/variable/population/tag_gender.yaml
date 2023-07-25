@@ -1,0 +1,5 @@
+- Gender:
+    - Male:
+        definition: male
+    - Female:
+        definition: female
