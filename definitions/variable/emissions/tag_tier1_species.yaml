@@ -1,0 +1,79 @@
+- Tier-1 Species:
+    - Kyoto Gases:
+        description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
+        note: preferably use AR4 100-year GWPs for aggregation of different gases
+        unit: Mt CO2-equiv/yr
+    - CH4:
+        description: methane (CH4)
+        unit: Mt CH4/yr
+    - N2O:
+        description: nitrous oxide (N2O)
+        unit: kt N2O/yr
+    - BC:
+        description: black carbon (soot, BC)
+        unit: Mt BC/yr
+    - OC:
+        description: organic compound
+        unit: Mt OC/yr
+    - CO:
+        description: carbon monoxide (CO)
+        unit: Mt CO/yr
+    - NH3:
+        description: ammonium (NH3)
+        unit: Mt NH3/yr
+    - NOx:
+        description: nitrous oxides (NOx)
+        unit: Mt NO2/yr
+    - Sulfur:
+        description: sulfur (SO2)
+        unit: Mt SO2/yr
+    - VOC:
+        description: volatile organic compound
+        unit: Mt VOC/yr
+    - C2F6:
+        description: C2F6
+        unit: kt C2F6/yr
+    - F-Gases:
+        description: F-gas emissions, including sulfur hexafluoride (SF6), hydrofluorocarbons
+          (HFCs), perfluorocarbons (PFCs)
+        note: preferably use AR4 100-year GWPs for aggregation of different F-gases
+        unit: Mt CO2-equiv/yr
+    - SF6:
+        description: sulfur hexafluoride (SF6)
+        unit: kt SF6/yr
+    - CF4:
+        description: carbon tetrafluoride (CF4)
+        unit: kt CF4/yr
+    - C6F14:
+        description: CF6F14
+        unit: kt C6F14/yr
+    - HFC:
+        description: hydrofluorocarbons (HFCs), provided as aggregate HFC134a-equivalents
+        unit: kt HFC134a-equiv/yr
+    - HFC|HFC125:
+        description: HFC125
+        unit: kt HFC125/yr
+    - HFC|HFC134a:
+        description: HFC134a
+        unit: kt HFC134a/yr
+    - HFC|HFC143a:
+        description: HFC143a
+        unit: kt HFC143a/yr
+    - HFC|HFC227ea:
+        description: HFC227ea
+        unit: kt HFC227ea/yr
+    - HFC|HFC23:
+        description: HFC23
+        unit: kt HFC23/yr
+    - HFC|HFC245fa:
+        description: HFC245fa
+        unit: kt HFC245fa/yr
+    - HFC|HFC32:
+        description: HFC32
+        unit: kt HFC32/yr
+    - HFC|HFC43-10:
+        description: HFC343-10
+        unit: kt HFC43-10/yr
+    - PFC:
+        description: perfluorocarbons (PFCs), provided as aggregate CF4-equivalents
+        unit: kt CF4-equiv/yr
