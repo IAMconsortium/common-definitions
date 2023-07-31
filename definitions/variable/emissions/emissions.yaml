@@ -40,6 +40,7 @@
       including emissions from international bunkers, net of negative emissions from
       bioenergy with CCS (BECCS) in these sectors
     unit: "{Tier-3 Species}"
+
 - Emissions|{Tier-2 Species}|Energy:
     description: Emissions of {Tier-2 Species} from energy use,
       including fugitive emissions from fuels (IPCC category 1A, 1B)
