@@ -87,7 +87,7 @@
       (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Tier-2 Species}"
 - Emissions|CO2|Energy|Demand|AFOFI:
-    definition: missions of carbon dioxide (CO2) from fuel combustion in agriculture,
+    definition: Emissions of carbon dioxide (CO2) from fuel combustion in agriculture,
       forestry, fishing (AFOFI) (IPCC category 1A4c)
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers:
