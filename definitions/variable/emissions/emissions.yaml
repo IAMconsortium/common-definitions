@@ -108,6 +108,7 @@
     unit: "{Tier-3 Species}"
 - Emissions|{Tier-3 Species}|Industrial Processes|{Non-Energy Sector}:
     description: Emissions of {Tier-3 Species} from industrial processes
+      in the {Non-Energy Sector}
     unit: "{Tier-3 Species}"
 
 - Emissions|{Tier-2 Species}|Waste:
