@@ -147,19 +147,21 @@
         Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
         Mozambique, Namibia, Niger, Nigeria, Palestine, Rwanda, Réunion, Senegal,
         Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini, Togo,
-        Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
+        Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe, Sao Tome and Principe
       note: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - China+ (R10):
       description: Centrally-planned Asia, primarily China.
       ar6: R10CHINA+
-      countries: China, Cambodia, Hong Kong, Laos, Mongolia, North Korea, Viet Nam
+      countries: China, Cambodia, Hong Kong, Laos, Mongolia, North Korea
   - Europe (R10):
       description: Europe (including Turkey).
       ar6: R10EUROPE
       countries: Austria, Belgium, Croatia, Denmark, France, Finland, Spain, Sweden,
         Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Netherlands, Norway,
-        Portugal, Switzerland, Turkey, United Kingdom
+        Portugal, Switzerland, Turkey, United Kingdom, Bulgaria, Bosnia and Herzegovina,
+        Cyprus, Czech Republic, Hungary, North Macedonia, Malta, Poland, Romania, Serbia,
+        Slovakia, Slovenia, Estonia, Lithuania, Latvia
   - India+ (R10):
       description: South Asia, primarily India.
       ar6: R10INDIA+
@@ -172,7 +174,7 @@
         Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guadeloupe,
         Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua,
         Panama, Paraguay, Peru, Puerto Rico, Suriname, Trinidad and Tobago, Uruguay,
-        Venezuela
+        Venezuela, Grenada, Saint Lucia, Saint Vincent and the Grenadines
   - Middle East (R10):
       description: Middle East.
       ar6: R10MIDDLE_EAST
@@ -198,7 +200,8 @@
       description: Other countries of Asia not included in China+ or India+.
       ar6: R10REST_ASIA
       countries: Afghanistan, Bangladesh, Bhutan, Fiji, Maldives, Nepal, Pakistan,
-        South Korea, Sri Lanka, Cambodia, Laos, Mongolia, Viet Nam
+        South Korea, Sri Lanka, Cambodia, Laos, Mongolia, Viet Nam, Papua New Guinea,
+        Tonga, , Brunei Darussalam, Indonesia, Malaysia, Phillipines, Singapore, Thailand
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
         can otherwise not be achieved.
