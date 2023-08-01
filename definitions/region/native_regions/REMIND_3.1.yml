@@ -1,23 +1,22 @@
 - REMIND 3.1:
   - REMIND 3.1|Canada, Australia, New Zealand:
-      countries: [AUS, CAN, HMD, NZL, SPM]
+      iso3_codes: [AUS, CAN, HMD, NZL, SPM]
   - REMIND 3.1|China and Taiwan:
-      countries: [CHN, HKG, MAC, TWN]
+      iso3_codes: [CHN, HKG, MAC, TWN]
   - REMIND 3.1|India:
-      countries: IND
+      iso3_codes: IND
   - REMIND 3.1|Japan:
-      countries: JPN
+      iso3_codes: JPN
   - REMIND 3.1|Other Asia:
       iso3_codes: [AFG, ASM, ATF, BGD, BRN, BTN, CCK, COK, CXR, FJI, FSM, GUM, IDN,
         IOT, KHM, KIR, KOR, LAO, LKA, MDV, MHL, MMR, MNG, MNP, MYS, NCL, NFK, NIU,
         NPL, NRU, PAK, PCN, PHL, PLW, PNG, PRK, PYF, SGP, SLB, TKL, TLS, TON, THA,
         TUV, UMI, VNM, VUT, WLF, WSM]
   - REMIND 3.1|Latin America and the Caribbean:
-      iso3_codes: [ABW, AIA, ARG, ATA, ATG, BHS, BLM, BLZ, BMU, BOL, BRA, BRB,
-        BVT, CHL, COL, CRI, CUB, CYM, DMA, DOM, ECU, FLK, GLP, GRD, GTM, GUF, GUY,
+      iso3_codes: [ABW, AIA, ARG, ATA, ATG, BES, BHS, BLM, BLZ, BMU, BOL, BRA, BRB,
+        BVT, CHL, COL, CRI, CUB, CUW, CYM, DMA, DOM, ECU, FLK, GLP, GRD, GTM, GUF, GUY,
         HND, HTI, JAM, KNA, LCA, MAF, MEX, MSR, MTQ, NIC, PAN, PER, PRI, PRY, SGS,
         SLV, SUR, TTO, URY, VCT, VEN, VGB, VIR, BES, CUW, SXM, TCA]
-        # ISO3 codes unknown to the pycountry package: ANT
   - REMIND 3.1|Middle East and North Africa:
       iso3_codes: [ARE, BHR, DZA, EGY, ESH, IRN, IRQ, ISR, JOR, KWT, LBN, LBY, MAR,
         OMN, PSE, QAT, SAU, SDN, TUN, YEM, SYR]
