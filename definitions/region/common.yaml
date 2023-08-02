@@ -42,8 +42,8 @@
         Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
         Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
         Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Saudi Arabia, Senegal, Sierra Leone, Somalia, South Africa,
-        South Sudan, Sudan, Eswatini, Syria, Togo, Tunisia, Uganda,
+        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Sierra Leone, Somalia,
+        South Africa, South Sudan, Sudan, Eswatini, Syria, Togo, Tunisia, Uganda,
         United Arab Emirates, Tanzania, Western Sahara, Yemen, Zambia, Zimbabwe
   - Latin America (R5):
       description: Latin and South American countries.
@@ -113,12 +113,12 @@
       countries: Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
         Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
         Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
-        Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+        Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
         Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
         Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
         Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Saudi Arabia, Senegal, Sierra Leone, Somalia, South Africa,
-        South Sudan, Sudan, Eswatini, Syria, Togo, Tunisia, Uganda,
+        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Sierra Leone, Somalia,
+        South Africa, South Sudan, Sudan, Syria, Togo, Tunisia, Uganda,
         United Arab Emirates, Tanzania, Western Sahara, Yemen, Zambia, Zimbabwe
   - Latin America (R9):
       description: Latin and South American countries.
@@ -145,9 +145,10 @@
         Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
         Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
         Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
-        Mozambique, Namibia, Niger, Nigeria, Palestine, Rwanda, Réunion, Senegal,
-        Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini, Togo,
-        Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe, Sao Tome and Principe
+        Mozambique, Namibia, Niger, Nigeria, Palestine, Rwanda, Réunion,
+        Sao Tome and Principe, Senegal, Sierra Leone, Somalia, South Africa,
+        South Sudan, Sudan, Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara,
+        Zambia, Zimbabwe
       note: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - China+ (R10):
@@ -158,11 +159,11 @@
   - Europe (R10):
       description: Europe (including Turkey).
       ar6: R10EUROPE
-      countries: Austria, Belgium, Croatia, Denmark, France, Finland, Spain, Sweden,
-        Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Netherlands, Norway,
-        Portugal, Switzerland, Turkey, United Kingdom, Bulgaria, Bosnia and Herzegovina,
-        Cyprus, Czech Republic, Hungary, North Macedonia, Malta, Poland, Romania, Serbia,
-        Slovakia, Slovenia, Estonia, Lithuania, Latvia
+      countries: Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus,
+        Czech Republic, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
+        Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Montenegro,
+        Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland, Romania,
+        Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
   - India+ (R10):
       description: South Asia, primarily India.
       ar6: R10INDIA+
@@ -172,10 +173,10 @@
       description: Latin America and the Caribbean.
       ar6: R10LATIN_AM
       countries: Argentina, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile, Colombia,
-        Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guadeloupe,
+        Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Grenada, Guadeloupe,
         Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua,
-        Panama, Paraguay, Peru, Puerto Rico, Suriname, Trinidad and Tobago, Uruguay,
-        Venezuela, Grenada, Saint Lucia, Saint Vincent and the Grenadines
+        Panama, Paraguay, Peru, Puerto Rico, Saint Lucia, Suriname, Trinidad and Tobago,
+        Uruguay, Venezuela
   - Middle East (R10):
       description: Middle East.
       ar6: R10MIDDLE_EAST
