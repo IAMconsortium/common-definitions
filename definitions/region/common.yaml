@@ -154,8 +154,8 @@
   - China+ (R10):
       description: Centrally-planned Asia, primarily China.
       ar6: R10CHINA+
-      countries: China, Cambodia, Hong Kong, Laos, Macao, Mongolia, North Korea,
-        Viet Nam
+      countries: China, Cambodia, Hong Kong, Laos, Macao, Mongolia, Myanmar,
+        North Korea, Viet Nam
   - Europe (R10):
       description: Europe (including Turkey).
       ar6: R10EUROPE
@@ -202,7 +202,7 @@
       description: Other countries of Asia not included in China+ or India+.
       ar6: R10REST_ASIA
       countries: Brunei Darussalam, Fiji, French Polynesia, Indonesia, Malaysia,
-        Micronesia, Myanmar, New Caledonia, Papua New Guinea, Philippines, South Korea,
+        Micronesia, New Caledonia, Papua New Guinea, Philippines, South Korea,
         Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Vanuatu
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
