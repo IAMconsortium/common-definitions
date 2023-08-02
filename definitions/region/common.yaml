@@ -28,9 +28,9 @@
       ssp: R5.2ASIA
       countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China,
         Fiji, French Polynesia, Hong Kong, India, Indonesia, Laos, Macao, Malaysia,
-        Maldives, Micronesia, Mongolia, Myanmar, Nepal, New Caledonia, Pakistan,
-        Papua New Guinea, Philippines, South Korea, Samoa, Singapore, Solomon Islands,
-        Sri Lanka, Taiwan, Thailand, Timor-Leste, Vanuatu, Viet Nam
+        Maldives, Micronesia, Mongolia, Myanmar, Nepal, New Caledonia, North Korea,
+        Pakistan, Papua New Guinea, Philippines, South Korea, Samoa, Singapore,
+        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Vanuatu, Viet Nam
   - Middle East & Africa (R5):
       description: Countries of the Middle East and Africa.
       ar6: R5MAF
@@ -99,9 +99,9 @@
       navigate: R9OTHERASIA
       countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, Fiji,
         French Polynesia, Indonesia, Laos, Malaysia, Maldives, Micronesia, Mongolia,
-        Myanmar, Nepal, New Caledonia, Pakistan, Papua New Guinea, Philippines,
-        South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, Taiwan, Thailand,
-        Timor-Leste, Vanuatu, Viet Nam
+        Myanmar, Nepal, New Caledonia, North Korea, Pakistan, Papua New Guinea,
+        Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, Taiwan,
+        Thailand, Timor-Leste, Vanuatu, Viet Nam
   - Reforming Economies (R9):
       description: Countries from the Reforming Economies of the Former Soviet Union.
       navigate: R9REF
@@ -153,7 +153,8 @@
   - China+ (R10):
       description: Centrally-planned Asia, primarily China.
       ar6: R10CHINA+
-      countries: China, Cambodia, Hong Kong, Laos, Mongolia, North Korea
+      countries: China, Cambodia, Hong Kong, Laos, Macao, Mongolia, North Korea,
+        Viet Nam
   - Europe (R10):
       description: Europe (including Turkey).
       ar6: R10EUROPE
@@ -199,9 +200,9 @@
   - Rest of Asia (R10):
       description: Other countries of Asia not included in China+ or India+.
       ar6: R10REST_ASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Fiji, Maldives, Nepal, Pakistan,
-        South Korea, Sri Lanka, Cambodia, Laos, Mongolia, Viet Nam, Papua New Guinea,
-        Tonga, , Brunei Darussalam, Indonesia, Malaysia, Phillipines, Singapore, Thailand
+      countries: Brunei Darussalam, Fiji, French Polynesia, Indonesia, Malaysia,
+        Micronesia, Myanmar, New Caledonia, Papua New Guinea, Philippines, South Korea,
+        Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Vanuatu
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
         can otherwise not be achieved.
