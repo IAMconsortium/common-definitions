@@ -6,7 +6,7 @@
 # https://data.ece.iiasa.ac.at/ar6-scenario-submission/#/about
 - R5:
   - OECD & EU (R5):
-      description: OECD 90 and EU member states and candidates
+      description: OECD (membership status 1990) and EU member states and candidates
       ar6: R5OECD90+EU
       ssp: R5.2OECD
       countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
@@ -65,7 +65,7 @@
 # (grant agreement no. 821124)
 - R9:
   - European Union (R9):
-      description: European Union.
+      description: European Union (membership status 2023)
       navigate: R9EU
       countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
         Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
@@ -85,6 +85,7 @@
       countries: Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
         Japan, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico, Serbia,
         United Kingdom, Switzerland, Turkey
+      note: This region is defined as 'OECD & EU (R5)' excluding EU and USA
   - China (R9):
       description: China.
       navigate: R9CHINA
@@ -189,7 +190,7 @@
       ar6: R10NORTH_AM
       countries: Canada, Guam, United States
   - Pacific OECD (R10):
-      description: Pacific OECD.
+      description: Pacific OECD (membership status 1990)
       ar6: R10PAC_OECD
       countries: Australia, Japan, New Caledonia, New Zealand, Samoa, Solomon Islands,
         Vanuatu
