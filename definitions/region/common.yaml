@@ -146,10 +146,9 @@
         Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
         Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
         Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
-        Mozambique, Namibia, Niger, Nigeria, Palestine, Rwanda, Réunion,
-        Sao Tome and Principe, Senegal, Sierra Leone, Somalia, South Africa,
-        South Sudan, Sudan, Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara,
-        Zambia, Zimbabwe
+        Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
+        Senegal, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
+        Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
       note: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - China+ (R10):
@@ -181,8 +180,8 @@
   - Middle East (R10):
       description: Middle East
       ar6: R10MIDDLE_EAST
-      countries: Bahrain, Iraq, Iran, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar,
-        Saudi Arabia, Syria, United Arab Emirates, Yemen
+      countries: Bahrain, Iraq, Iran, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
+        Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
       note: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - North America (R10):
