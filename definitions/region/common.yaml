@@ -189,17 +189,16 @@
       ar6: R10NORTH_AM
       countries: Canada, Guam, United States
   - Pacific OECD (R10):
-      description: Pacific OECD (membership status 1990)
+      description: Pacific OECD (membership status 1990) including Pacific islands
       ar6: R10PAC_OECD
-      countries: Australia, Japan, New Caledonia, New Zealand, Samoa, Solomon Islands,
-        Vanuatu
+      countries: Australia, Japan, New Zealand
   - Reforming Economies (R10):
       description: Former Soviet Union countries not included in Europe
       ar6: R10REF_ECON
       countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
         Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
   - Rest of Asia (R10):
-      description: Other countries of Asia not included in China+, India+ or Reforming Economies
+      description: Asia not included in China+, India+ or Reforming Economies
       ar6: R10REST_ASIA
       countries: Brunei Darussalam, Fiji, French Polynesia, Indonesia, Malaysia,
         Micronesia, New Caledonia, Papua New Guinea, Philippines, South Korea,
