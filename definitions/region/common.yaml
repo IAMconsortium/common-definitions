@@ -194,12 +194,12 @@
       countries: Australia, Japan, New Caledonia, New Zealand, Samoa, Solomon Islands,
         Vanuatu
   - Reforming Economies (R10):
-      description: Former Soviet Union
+      description: Former Soviet Union countries not included in Europe
       ar6: R10REF_ECON
       countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
         Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
   - Rest of Asia (R10):
-      description: Other countries of Asia not included in China+ or India+
+      description: Other countries of Asia not included in China+, India+ or Reforming Economies
       ar6: R10REST_ASIA
       countries: Brunei Darussalam, Fiji, French Polynesia, Indonesia, Malaysia,
         Micronesia, New Caledonia, Papua New Guinea, Philippines, South Korea,
