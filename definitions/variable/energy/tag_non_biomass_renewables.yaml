@@ -3,8 +3,20 @@
         description: hydropower
     - Solar:
         description: solar energy
+    - Solar|CSP:
+        description: utility-scale concentrated solar power (CSP)
+    - Solar|PV:
+        description: photovoltaics (PV)
+    - Solar|PV|Residential:
+        description: residential rooftop photovoltaics (PV)
+    - Solar|PV|Commercial:
+        description: commercial rooftop photovoltaics (PV)
     - Wind:
         description: wind power
+    - Wind|Onshore:
+        description: onshore wind power
+    - Wind|Offshore:
+        description: offshore wind power
     - Geothermal:
         description: geothermal sources
     - Ocean:
