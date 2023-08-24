@@ -22,7 +22,7 @@
     - Industry|Plastics:
         description: plastics sector
     - Industry|Pulp and Paper:
-        description: other industrial sectors
+        description: pulp and paper
     - Industry|Other Sector:
         description: other industrial sectors
     - Residential:
