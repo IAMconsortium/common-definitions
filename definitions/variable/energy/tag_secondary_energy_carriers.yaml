@@ -1,5 +1,6 @@
 - Secondary Fuel:
     # Electricity is treated separately
+    # see also `secondary-energy-other.yaml`
     - Liquids:
         description: liquid fuels (conventional & unconventional oil, biofuels,
           coal-to-liquids, gas-to-liquids)
