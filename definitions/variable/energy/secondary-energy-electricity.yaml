@@ -22,9 +22,11 @@
 - Secondary Energy|Electricity|Nuclear:
     description: Net electricity generation from nuclear power
     unit: EJ/yr
-
 - Secondary Energy|Electricity|Hydrogen:
     definition: Net electricity generation from hydrogen
+    unit: EJ/yr
+- Secondary Energy|Electricity|Ammonia:
+    definition: Net electricity generation from ammonia
     unit: EJ/yr
 
 - Secondary Energy|Electricity|Fossil:
