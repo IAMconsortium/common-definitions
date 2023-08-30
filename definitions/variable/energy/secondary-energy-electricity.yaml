@@ -13,7 +13,7 @@
 
 - Secondary Energy|Electricity|Non-Biomass Renewables:
     definition: Net electricity generation from hydro, wind, solar, geothermal, ocean,
-      and other renewable sources excluding biomass.
+      and other renewable sources excluding biomass
     unit: EJ/yr
 - Secondary Energy|Electricity|{Non-Biomass Renewables}:
     description: Net electricity generation from {Non-Biomass Renewables}
@@ -29,14 +29,6 @@
     definition: Net electricity generation from ammonia
     unit: EJ/yr
 
-- Secondary Energy|Electricity|Fossil:
-    description: Net electricity generation from fossil fuels including coal,
-      natural gas and conventional/unconventional oil
-    unit: EJ/yr
-- Secondary Energy|Electricity|Fossil|{CCS}:
-    description: Net electricity generation from fossil fuels including coal,
-      natural gas and conventional/unconventional oil {CCS}
-    unit: EJ/yr
 - Secondary Energy|Electricity|{Primary Fossil Fuel}:
     description: Net electricity generation from {Primary Fossil Fuel}
     unit: EJ/yr
