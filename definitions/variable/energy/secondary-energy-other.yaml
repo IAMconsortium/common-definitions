@@ -2,21 +2,120 @@
     definition: Total production of refined liquid fuels from all energy sources,
       including oil products, synthetic fossil fuels from gas and coal, and biofuels
     unit: EJ/yr
+- Secondary Energy|Liquids|Biomass:
+    description: Production of liquid fuels from biomass
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|{CCS}:
+    description: Production of liquid fuels from biomass {CCS}
+    unit: EJ/yr
+- Secondary Energy|Liquids|{Primary Fossil Fuel}:
+    description: Production of fossil liquid synfuels from {Primary Fossil Fuel}
+    unit: EJ/yr
+- Secondary Energy|Liquids|{Primary Fossil Fuel}|{CCS}:
+    description: Production of fossil liquid synfuels from {Primary Fossil Fuel} {CCS}
+    unit: EJ/yr
+- Secondary Energy|Liquids|Electricity:
+    description: Production of liquid fuels from electricity (e-fuels)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Other:
+    description: Production of liquids fuels from sources that do not fit any other category
+    unit: EJ/yr
 
 - Secondary Energy|Solids:
     definition: Total production of solid energy carriers, including coal, briquettes,
       coke, and wood pellets
+    unit: EJ/yr
+- Secondary Energy|Solids|Biomass:
+    description: Production of solid secondary energy carriers from biomass
+      (e.g., commercial charcoal, wood chips, wood pellets).
+      Use of tradional bioenergy is excluded.
+    unit: EJ/yr
+- Secondary Energy|Solids|Fossil:
+    description: Production of solid secondary energy carriers from fossils
+      (e.g., briquettes, coke)
     unit: EJ/yr
 
 - Secondary Energy|Gases:
     definition: Total production of gaseous fuels, including natural gas and biogas,
       not including hydrogen
     unit: EJ/yr
+- Secondary Energy|Gases|Biomass:
+    description: Production of biogas
+    unit: EJ/yr
+- Secondary Energy|Gases|Fossil:
+    description: Production of gaseous fuels from fossil energy carriers
+    unit: EJ/yr
+- Secondary Energy|Gases|Coal:
+    description: Production of coal gas from coal gasification
+    unit: EJ/yr
+- Secondary Energy|Gases|Gas:
+    description: Consumption of natural gas (fossil methane)
+    unit: EJ/yr
+- Secondary Energy|Gases|Electricity:
+    description: Production of gas from electricity (power-to-gas)
+    unit: EJ/yr
+- Secondary Energy|Gases|Other:
+    description: Production of gases from sources that do not fit any other category
+    unit: EJ/yr
 
 - Secondary Energy|Hydrogen:
     definition: Total production of hydrogen
     unit: EJ/yr
+- Secondary Energy|Hydrogen|Biomass:
+    description: Production of hydrogen from biomass
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Biomass|{CCS}:
+    description: Production of hydrogen from biomass {CCS}
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|{Primary Fossil Fuel}:
+    description: Production of hydrogen from {Primary Fossil Fuel}
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|{Primary Fossil Fuel}|{CCS}:
+    description: Production of hydrogen from {Primary Fossil Fuel} {CCS}
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Electricity:
+    description: Production of hydrogen from electricity via electrolysis
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Nuclear:
+    description: Production of hydrogen from nuclear energy
+      (e.g. thermochemical water splitting with nuclear heat)
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Solar:
+    description: Production of hydrogen from solar energy
+      (e.g. thermochemical water splitting with solar heat)
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Other:
+    description: Production of hydrogen from sources that do not fit any other category
+    unit: EJ/yr
 
 - Secondary Energy|Heat:
     definition: Total production of centralized heat
+    unit: EJ/yr
+- Secondary Energy|Heat|Biomass:
+    description: Centralized heat generation from biomass
+    unit: EJ/yr
+- Secondary Energy|Heat|Biomass|{CCS}:
+    description: Centralized heat generation from biomass {CCS}
+    unit: EJ/yr
+- Secondary Energy|Heat|Geothermal:
+    description: Centralized heat generation from geothermal energy
+      excluding ground-source heat pumps
+    unit: EJ/yr
+- Secondary Energy|Heat|{Primary Fossil Fuel}:
+    description: Centralized heat generation from {Primary Fossil Fuel}
+    unit: EJ/yr
+- Secondary Energy|Heat|{Primary Fossil Fuel}|{CCS}:
+    description: Centralized heat generation from {Primary Fossil Fuel} {CCS}
+    unit: EJ/yr
+- Secondary Energy|Heat|Electricity:
+    description: Centralized heat generation from electricity
+    unit: EJ/yr
+- Secondary Energy|Heat|Nuclear:
+    description: Centralized heat generation from nuclear energy
+    unit: EJ/yr
+- Secondary Energy|Heat|Solar:
+    description: Centralized heat generation from solar energy
+    unit: EJ/yr
+- Secondary Energy|Heat|Other:
+    description: Centralized heat generation from sources that do not fit any other category
     unit: EJ/yr
