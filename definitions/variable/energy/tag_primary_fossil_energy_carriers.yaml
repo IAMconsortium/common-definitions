@@ -1,4 +1,6 @@
 - Primary Fossil Fuel:
+    - Fossil:
+        description: fossil fuels including coal, natural gas and conventional/unconventional oil
     - Coal:
         description: coal including lignite
     - Oil:
