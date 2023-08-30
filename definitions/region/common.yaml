@@ -71,13 +71,13 @@
         Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
         Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
         Spain, Sweden
-      note: Depending on the spatial resolution, reporting by some models may differ
+      notes: Depending on the spatial resolution, reporting by some models may differ
         from the current list of EU27 members (2023).
   - USA (R9):
       description: United States of America
       navigate: R9USA
       countries: United States
-      note: Depending on the spatial resolution, some models report Canada as part of
+      notes: Depending on the spatial resolution, some models report Canada as part of
         the USA region.
   - Other OECD (R9):
       description: Other OECD (membership status 1990) and EU canditate countries
@@ -85,7 +85,7 @@
       countries: Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
         Japan, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico, Serbia,
         United Kingdom, Switzerland, Turkey
-      note: This region is defined as 'OECD & EU (R5)' excluding EU and USA
+      notes: This region is defined as 'OECD & EU (R5)' excluding EU and USA
   - China (R9):
       description: China
       navigate: R9CHINA
@@ -149,7 +149,7 @@
         Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
         Senegal, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
         Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
-      note: Depending on the spatial resolution, some models report Northern Africa
+      notes: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - China+ (R10):
       description: Centrally-planned Asia, primarily China
@@ -182,7 +182,7 @@
       ar6: R10MIDDLE_EAST
       countries: Bahrain, Iraq, Iran, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
         Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
-      note: Depending on the spatial resolution, some models report Northern Africa
+      notes: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - North America (R10):
       description: United States and Canada

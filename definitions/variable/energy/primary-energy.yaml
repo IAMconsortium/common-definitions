@@ -83,7 +83,7 @@
     description: Primary energy consumption from trade in secondary energy carriers that
       cannot be unambiguoulsy mapped to one of the existing primary energy categories,
       e.g. electricity, hydrogen
-    note: Negative values indicate net exports of an energy carrier
+    notes: Negative values indicate net exports of an energy carrier
     unit: EJ/yr
 
 - Primary Energy|Other:
