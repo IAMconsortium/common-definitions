@@ -38,8 +38,12 @@
       natural gas and conventional/unconventional oil {CCS}
     unit: EJ/yr
 - Secondary Energy|Electricity|{Primary Fossil Fuel}:
-    description:  Net electricity generation from {Primary Fossil Fuel}
+    description: Net electricity generation from {Primary Fossil Fuel}
     unit: EJ/yr
 - Secondary Energy|Electricity|{Primary Fossil Fuel}|{CCS}:
-    description:  Net electricity generation from {Primary Fossil Fuel} {CCS}
+    description: Net electricity generation from {Primary Fossil Fuel} {CCS}
+    unit: EJ/yr
+
+- Secondary Energy|Electricity|Other:
+    description: Net electricity generation from sources that do not fit any other category
     unit: EJ/yr
