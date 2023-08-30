@@ -4,7 +4,7 @@
         unit: Mt CO2/yr
     - Kyoto Gases:
         description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
-        note: preferably use AR4 100-year GWPs for aggregation of different gases
+        notes: Preferably use AR4 100-year GWPs for aggregation of different gases
         unit: Mt CO2-equiv/yr
     - CH4:
         description: methane (CH4)
@@ -39,7 +39,7 @@
     - F-Gases:
         description: F-gas emissions, including sulfur hexafluoride (SF6), hydrofluorocarbons
           (HFCs), perfluorocarbons (PFCs)
-        note: preferably use AR4 100-year GWPs for aggregation of different F-gases
+        notes: Preferably use AR4 100-year GWPs for aggregation of different F-gases
         unit: Mt CO2-equiv/yr
     - SF6:
         description: sulfur hexafluoride (SF6)

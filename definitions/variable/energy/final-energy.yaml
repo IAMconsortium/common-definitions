@@ -66,18 +66,21 @@
     description: Final energy consumption by the {Sector}
     unit: EJ/yr
 - Final Energy|{Sector}|Electricity:
-    description: Final energy consumption by the agriculture sector of electricity
+    description: Final energy consumption by the {Sector} of electricity
     unit: EJ/yr
 - Final Energy|{Sector}|{Secondary Fuel}:
-    description: Final energy consumption by the agriculture sector of {Secondary Fuel}
+    description: Final energy consumption by the {Sector} of {Secondary Fuel}
     unit: EJ/yr
 - Final Energy|{Sector}|Other:
-    description: Final energy consumption by the industrial sector of other energy sources
+    description: Final energy consumption by the {Sector} of other energy sources
     unit: EJ/yr
 
 # additional combinations of sector and energy-carriers not included in {Sector} x {Secondary Fuel}
 - Final Energy|Industry|Geothermal:
     description: Final energy consumption by the industrial sector of geothermal heat
+    unit: EJ/yr
+- Final Energy|Industry|Solar:
+    definition: Final energy consumption by the industrial sector of solar thermal heat
     unit: EJ/yr
 - Final Energy|Industry|Waste:
     description: Final energy consumption of non-renewable waste by the industrial sector
