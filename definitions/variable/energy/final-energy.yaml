@@ -79,6 +79,9 @@
 - Final Energy|Industry|Geothermal:
     description: Final energy consumption by the industrial sector of geothermal heat
     unit: EJ/yr
+- Final Energy|Industry|Solar:
+    definition: Final energy consumption by the industrial sector of solar thermal heat
+    unit: EJ/yr
 - Final Energy|Industry|Waste:
     description: Final energy consumption of non-renewable waste by the industrial sector
     unit: EJ/yr
