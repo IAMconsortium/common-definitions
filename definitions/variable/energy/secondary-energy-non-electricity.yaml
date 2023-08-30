@@ -5,14 +5,8 @@
 - Secondary Energy|Liquids|Biomass:
     description: Production of liquid fuels from biomass
     unit: EJ/yr
-- Secondary Energy|Liquids|Biomass|{CCS}:
-    description: Production of liquid fuels from biomass {CCS}
-    unit: EJ/yr
 - Secondary Energy|Liquids|{Primary Fossil Fuel}:
     description: Production of fossil liquid synfuels from {Primary Fossil Fuel}
-    unit: EJ/yr
-- Secondary Energy|Liquids|{Primary Fossil Fuel}|{CCS}:
-    description: Production of fossil liquid synfuels from {Primary Fossil Fuel} {CCS}
     unit: EJ/yr
 - Secondary Energy|Liquids|Electricity:
     description: Production of liquid fuels from electricity (e-fuels)
