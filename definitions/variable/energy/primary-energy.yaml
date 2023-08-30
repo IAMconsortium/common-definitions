@@ -56,14 +56,6 @@
       includes electricity, heat and hydrogen production from nuclear energy)
     unit: EJ/yr
 
-- Primary Energy|Fossil:
-    description: Primary energy consumption of fossil fuels including coal, natural gas
-      and conventional/unconventional oil
-    unit: EJ/yr
-- Primary Energy|Fossil|{CCS}:
-    description: Primary energy consumption of fossil fuels including coal, natural gas
-      and conventional/unconventional oil {CCS}
-    unit: EJ/yr
 - Primary Energy|{Primary Fossil Fuel}:
     description: Primary energy consumption of {Primary Fossil Fuel}
     unit: EJ/yr
