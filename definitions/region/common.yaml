@@ -138,6 +138,7 @@
 # funded by the EU's Seventh Framework Programme FP7/2007-2013
 # (grant agreement no. 282846)
 # updated to be consistent with IPCC AR6 WGIII Annex II R10 regions
+# https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Annex-II.pdf
 - R10:
   - Africa (R10):
       description: Africa
