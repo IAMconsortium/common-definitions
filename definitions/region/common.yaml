@@ -137,6 +137,8 @@
 # The R10 definitions were introduced by the LIMITS project
 # funded by the EU's Seventh Framework Programme FP7/2007-2013
 # (grant agreement no. 282846)
+# updated to be consistent with IPCC AR6 WGIII Annex II R10 regions
+# https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Annex-II.pdf
 - R10:
   - Africa (R10):
       description: Africa
@@ -154,13 +156,12 @@
   - China+ (R10):
       description: Centrally-planned Asia, primarily China
       ar6: R10CHINA+
-      countries: China, Cambodia, Hong Kong, Laos, Macao, Mongolia, Myanmar,
-        North Korea, Viet Nam
+      countries: China, Hong Kong, Macao, Mongolia, North Korea, South Korea
   - Europe (R10):
       description: Europe (including Turkey)
       ar6: R10EUROPE
-      countries: Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus,
-        Czech Republic, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
+      countries: Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus,
+        Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
         Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Montenegro,
         Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland, Romania,
         Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
@@ -173,7 +174,7 @@
       description: Latin America and the Caribbean
       ar6: R10LATIN_AM
       countries: Argentina, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile, Colombia,
-        Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Grenada, Guadeloupe,
+        Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe,
         Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua,
         Panama, Paraguay, Peru, Puerto Rico, Saint Lucia, Suriname, Trinidad and Tobago,
         Uruguay, Venezuela
@@ -200,9 +201,9 @@
   - Rest of Asia (R10):
       description: Asia not included in China+, India+ or Reforming Economies
       ar6: R10REST_ASIA
-      countries: Brunei Darussalam, Fiji, French Polynesia, Indonesia, Malaysia,
-        Micronesia, New Caledonia, Papua New Guinea, Philippines, South Korea,
-        Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Vanuatu
+      countries: Brunei Darussalam, Cambodia, Fiji, French Polynesia, Indonesia, Laos, Malaysia,
+        Micronesia, Myanmar, New Caledonia, Papua New Guinea, Philippines, 
+        Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Vanuatu, Viet Nam
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
         can otherwise not be achieved
