@@ -149,7 +149,7 @@
         Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
         Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
         Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
-        Senegal, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
+        Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
         Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
       notes: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
@@ -160,10 +160,10 @@
   - Europe (R10):
       description: Europe (including Turkey)
       ar6: R10EUROPE
-      countries: Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus,
+      countries: Albania, Andorra, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus,
         Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
-        Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Montenegro,
-        Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland, Romania,
+        Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Montenegro, Monaco
+        Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland, Romania, San Marino,
         Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
   - India+ (R10):
       description: South Asia, primarily India
@@ -173,11 +173,11 @@
   - Latin America (R10):
       description: Latin America and the Caribbean
       ar6: R10LATIN_AM
-      countries: Argentina, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile, Colombia,
+      countries: Antigua and Barbuda, Argentina, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile, Colombia,
         Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe,
         Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua,
-        Panama, Paraguay, Peru, Puerto Rico, Saint Lucia, Suriname, Trinidad and Tobago,
-        Uruguay, Venezuela
+        Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, 
+        Suriname, Trinidad and Tobago, Uruguay, Venezuela
   - Middle East (R10):
       description: Middle East
       ar6: R10MIDDLE_EAST
@@ -201,9 +201,10 @@
   - Rest of Asia (R10):
       description: Asia not included in China+, India+ or Reforming Economies
       ar6: R10REST_ASIA
-      countries: Brunei Darussalam, Cambodia, Fiji, French Polynesia, Indonesia, Laos, Malaysia,
-        Micronesia, Myanmar, New Caledonia, Papua New Guinea, Philippines, 
-        Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Vanuatu, Viet Nam
+      countries: Brunei Darussalam, Cambodia, Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, 
+        Laos, Malaysia, the Marshall Islands, Micronesia, Myanmar, Nauru, Niue, Palau, New Caledonia, 
+        Papua New Guinea, Philippines, Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, 
+        Tonga, Tuvalu, Vanuatu, Viet Nam
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
         can otherwise not be achieved
