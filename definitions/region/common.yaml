@@ -26,11 +26,13 @@
         the Middle East, Japan and Former Soviet Union states.
       ar6: R5ASIA
       ssp: R5.2ASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China,
-        Fiji, French Polynesia, Hong Kong, India, Indonesia, Laos, Macao, Malaysia,
-        Maldives, Micronesia, Mongolia, Myanmar, Nepal, New Caledonia, North Korea,
-        Pakistan, Papua New Guinea, Philippines, South Korea, Samoa, Singapore,
-        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Vanuatu, Viet Nam
+      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China, 
+        Cook Islands, Fiji, French Polynesia, Hong Kong, India, Indonesia, Kiribati, 
+        Laos, Macao, Malaysia, Maldives, the Marshall Islands, Micronesia, Mongolia, 
+        Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan, 
+        Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
+        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tuvalu, 
+        Vanuatu, Viet Nam
   - Middle East & Africa (R5):
       description: Countries of the Middle East and Africa
       ar6: R5MAF
@@ -42,18 +44,21 @@
         Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
         Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
         Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Sierra Leone, Somalia,
-        South Africa, South Sudan, Sudan, Eswatini, Syria, Togo, Tunisia, Uganda,
-        United Arab Emirates, Tanzania, Western Sahara, Yemen, Zambia, Zimbabwe
+        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles, 
+        Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini, 
+        Syria, Togo, Tunisia, Uganda, United Arab Emirates, Tanzania, 
+        Western Sahara, Yemen, Zambia, Zimbabwe
   - Latin America (R5):
       description: Latin and South American countries
       ar6: R5LAM
       ssp: R5.2LAM
-      countries: Argentina, Aruba, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile,
-        Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador,
-        French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica,
-        Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, Suriname,
-        Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
+      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, 
+        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
+        Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, 
+        Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, 
+        Paraguay, Peru, Saint Kitts and Nevis, Saint Vincent and the Grenadines, 
+        Suriname, Trinidad and Tobago, United States Virgin Islands, 
+        Uruguay, Venezuela
   - Other (R5):
       description: Rest of the World, to be used only if a match with the R5 regions
         can otherwise not be achieved.
@@ -98,11 +103,12 @@
       description: The region includes Asian countries with the exception of China,
         India, the Middle East, Japan and Former Soviet Union states
       navigate: R9OTHERASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, Fiji,
-        French Polynesia, Indonesia, Laos, Malaysia, Maldives, Micronesia, Mongolia,
-        Myanmar, Nepal, New Caledonia, North Korea, Pakistan, Papua New Guinea,
-        Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, Taiwan,
-        Thailand, Timor-Leste, Vanuatu, Viet Nam
+      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, 
+        Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, Laos, Malaysia, 
+        Maldives, the Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue, 
+        Nepal, New Caledonia, North Korea, Pakistan, Palau, Papua New Guinea,
+        Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, 
+        Taiwan, Tuvalu, Thailand, Timor-Leste, Vanuatu, Viet Nam
   - Reforming Economies (R9):
       description: Countries from the Reforming Economies of the Former Soviet Union
       navigate: R9REF
@@ -118,16 +124,18 @@
         Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
         Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
         Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Sierra Leone, Somalia,
-        South Africa, South Sudan, Sudan, Syria, Togo, Tunisia, Uganda,
-        United Arab Emirates, Tanzania, Western Sahara, Yemen, Zambia, Zimbabwe
+        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles, 
+        Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Syria, Togo, 
+        Tunisia, Uganda, United Arab Emirates, Tanzania, Western Sahara, Yemen, 
+        Zambia, Zimbabwe
   - Latin America (R9):
       description: Latin and South American countries
       navigate: R9LAM
-      countries: Argentina, Aruba, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile,
-        Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador,
-        French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica,
-        Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, Suriname,
+      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, 
+        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
+        Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, 
+        Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, 
+        Peru, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Suriname, 
         Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
   - Other (R9):
       description: Rest of the World, used only if a match with the R9 regions can
@@ -149,8 +157,8 @@
         Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
         Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
         Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
-        Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
-        Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
+        Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, 
+        Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
       notes: Depending on the spatial resolution, some models report Northern Africa
         as part of the Middle East region.
   - China+ (R10):
