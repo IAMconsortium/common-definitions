@@ -173,10 +173,11 @@
   - Latin America (R10):
       description: Latin America and the Caribbean
       ar6: R10LATIN_AM
-      countries: Antigua and Barbuda, Argentina, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile, Colombia,
-        Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe,
-        Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua,
-        Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, 
+      countries: Antigua and Barbuda, Argentina, Bahamas, Barbados, Belize, Bolivia, 
+        Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, 
+        El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, 
+        Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, 
+        Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, 
         Suriname, Trinidad and Tobago, Uruguay, Venezuela
   - Middle East (R10):
       description: Middle East
