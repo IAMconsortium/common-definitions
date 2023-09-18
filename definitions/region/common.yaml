@@ -11,10 +11,11 @@
       ssp: R5.2OECD
       countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
         Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
-        Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Lithuania,
-        Luxembourg, Malta, Montenegro, Netherlands, New Zealand, North Macedonia,
-        Norway, Poland, Portugal, Puerto Rico, Romania, Serbia, Slovakia, Slovenia,
-        Spain, Sweden, Switzerland, Turkey, United Kingdom, United States
+        Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Kosovo, Latvia, 
+        Lithuania, Luxembourg, Malta, Montenegro, Netherlands, New Zealand, 
+        North Macedonia, Norway, Poland, Portugal, Puerto Rico, Romania, Serbia, 
+        Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom, 
+        United States
   - Reforming Economies (R5):
       description: Countries from the Reforming Economies of the Former Soviet Union
       ar6: R5REF
@@ -85,11 +86,11 @@
       notes: Depending on the spatial resolution, some models report Canada as part of
         the USA region.
   - Other OECD (R9):
-      description: Other OECD (membership status 1990) and EU canditate countries
+      description: Other OECD (membership status 1990) and EU candidate countries
       navigate: R9OTHEROECD
       countries: Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
-        Japan, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico, Serbia,
-        United Kingdom, Switzerland, Turkey
+        Japan, Kosovo, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico, 
+        Serbia, United Kingdom, Switzerland, Turkey
       notes: This region is defined as 'OECD & EU (R5)' excluding EU and USA
   - China (R9):
       description: China
