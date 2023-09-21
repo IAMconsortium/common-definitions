@@ -1,0 +1,93 @@
+model: IMACLIM 2.0
+native_regions:
+- AFR: IMACLIM 2.0|Africa
+- BRA: IMACLIM 2.0|Brazil
+- CAN: IMACLIM 2.0|Canada
+- CHN: IMACLIM 2.0|China
+- CIS: IMACLIM 2.0|Former Soviet Union excluding EU Baltic countries
+- EUR: IMACLIM 2.0|Europe excluding FSU
+- IND: IMACLIM 2.0|India
+- JAN: IMACLIM 2.0|Japan, Australia, New Zealand and Korea
+- MDE: IMACLIM 2.0|Middle East
+- RAL: IMACLIM 2.0|Rest of Latin America
+- RAS: IMACLIM 2.0|Rest of Asia
+- USA: IMACLIM 2.0|USA
+
+common_regions:
+- World:
+  - AFR
+  - BRA
+  - CAN
+  - CHN
+  - CIS
+  - EUR
+  - IND
+  - JAN
+  - MDE
+  - RAL
+  - RAS
+  - USA
+
+- Asia (R5):
+  - IND
+  - CHN
+  - RAS
+- Latin America (R5):
+  - RAL
+  - BRA
+- Middle East & Africa (R5):
+  - MDE
+  - AFR
+- OECD & EU (R5):
+  - USA
+  - CAN
+  - JAN
+  - EUR
+- Reforming Economies (R5):
+  - CIS
+
+- European Union (R9):
+  - EUR
+- USA (R9):
+  - USA
+- Other OECD (R9):
+  - CAN
+  - JAN
+- China (R9):
+  - CHN
+- India (R9):
+  - IND
+- Other Asia (R9):
+  - RAS
+- Reforming Economies (R9):
+  - CIS
+- Middle East & Africa (R9):
+  - MDE
+  - AFR
+- Latin America (R9):
+  - BRA
+  - RAL
+
+- Africa (R10):
+  - AFR
+- China+ (R10):
+  - CHN
+- Europe (R10):
+  - EUR
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - RAL
+  - BRA
+- Middle East (R10):
+  - MDE
+- North America (R10):
+  - USA
+  - CAN
+- Pacific OECD (R10):
+  - JAN
+- Reforming Economies (R10):
+  - CIS
+- Rest of Asia (R10):
+  - RAS
+
