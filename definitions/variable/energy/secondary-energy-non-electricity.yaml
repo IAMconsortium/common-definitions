@@ -25,8 +25,8 @@
       Use of tradional bioenergy is excluded.
     unit: EJ/yr
 - Secondary Energy|Solids|Fossil:
-    description: Production of solid secondary energy carriers from fossils
-      (e.g., briquettes, coke)
+    description: Consumption of fossil solid secondary energy carriers
+      including coal and lignite and derived products (e.g., coke, briquettes)
     unit: EJ/yr
 
 - Secondary Energy|Gases:
