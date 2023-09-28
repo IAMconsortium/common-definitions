@@ -169,11 +169,11 @@
   - Europe (R10):
       description: Europe (including Turkey)
       ar6: R10EUROPE
-      countries: Albania, Andorra, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, 
+      countries: Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, 
         Cyprus, Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
-        Iceland, Ireland, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, 
-        Montenegro, Monaco, Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland,
-        Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
+        Iceland, Ireland, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta, 
+        Montenegro, Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland,
+        Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
   - India+ (R10):
       description: South Asia, primarily India
       ar6: R10INDIA+
