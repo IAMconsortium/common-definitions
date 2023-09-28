@@ -16,6 +16,7 @@
 - Final Energy|Non-Energy Use|{Secondary Fuel}:
     description: Final energy consumption of {Secondary Fuel} in non-combustion processes
     unit: EJ/yr
+    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
 - Final Energy|Non-Energy Use|Waste:
     description: Final energy consumption of non-renewable waste in non-combustion processes
     unit: EJ/yr
@@ -26,6 +27,7 @@
     description: Final energy consumption of {Secondary Fuel} by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
+    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Waste:
     description: Final energy consumption of non-renewable waste by the {Non-Energy Sector}
       for non-combustion processes
@@ -46,6 +48,7 @@
 - Final Energy|{Secondary Fuel}:
     description: Final energy fuel consumption of {Secondary Fuel}
     unit: EJ/yr
+    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
 - Final Energy|Geothermal:
     description: Final energy consumption of geothermal energy (e.g., from decentralized
       or small-scale geothermal heating systems) excluding geothermal heat pumps
@@ -71,6 +74,7 @@
 - Final Energy|{Sector}|{Secondary Fuel}:
     description: Final energy consumption by the {Sector} of {Secondary Fuel}
     unit: EJ/yr
+    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
 - Final Energy|{Sector}|Other:
     description: Final energy consumption by the {Sector} of other energy sources
     unit: EJ/yr
