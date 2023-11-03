@@ -24,7 +24,7 @@
         Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
   - Asia (R5):
       description: The region includes Asian countries with the exception of
-        the Middle East, Japan and Former Soviet Union states.
+        the Middle East, Japan and Former Soviet Union states
       ar6: R5ASIA
       ssp: R5.2ASIA
       countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China, 
