@@ -28,14 +28,11 @@ Please make sure to follow the instructions completely, both the _Model mapping_
 4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock) as reviewers.
 5. Once everything is in order we will merge your pull request and your model will be registered.
 
-## Workflow
+## Funding acknowledgement
 
-The module `workflow.py` has a function `main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:`.
+<img src="./_static/prisma-logo.png" width="200" align="right" alt="PRISMA logo" />
 
-Per default, this function takes an **IamDataFrame** and returns it without
-modifications. [Read the docs](https://pyam-iamc.readthedocs.io) for more information
-about the **pyam** package for scenario analysis and data visualization.
-
-**Important**: Do not change the name of the module `workflow.py` or the function `main`
-as they are called like this by the Job Execution Service. Details can be found
-[here](https://wiki.ece.iiasa.ac.at/wiki/index.php/Scenario_Explorer/Setup#Job_Execution_Service).
+<img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
+This repository was started as part of the <a href="https://www.net0prisma.eu">PRISMA project</a>
+with funding from the European Union’s Horizon Europe programme
+under grant agreement No. 101081604 (PRISMA).
