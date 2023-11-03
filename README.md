@@ -30,7 +30,7 @@ Please make sure to follow the instructions completely, both the _Model mapping_
 
 ## Funding acknowledgement
 
-<img src="./_static/prisma-logo.png" width="400" align="right" alt="PRISMA logo" />
+<img src="./_static/prisma-logo.png" width="200" align="right" alt="PRISMA logo" />
 
 <img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
 This repository was started as part of the PRISMA project with funding
