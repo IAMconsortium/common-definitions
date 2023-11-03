@@ -27,3 +27,12 @@ Please make sure to follow the instructions completely, both the _Model mapping_
 
 4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock) as reviewers.
 5. Once everything is in order we will merge your pull request and your model will be registered.
+
+## Funding acknowledgement
+
+<img src="./_static/prisma-logo.png" width="400" align="right" alt="PRISMA logo" />
+
+<img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
+This repository was started as part of the PRISMA project with funding
+from the European Union’s Horizon Europe programme
+under grant agreement No. 101081604 (PRISMA).
