@@ -24,15 +24,15 @@
         Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
   - Asia (R5):
       description: The region includes Asian countries with the exception of
-        the Middle East, Japan and Former Soviet Union states.
+        the Middle East, Japan and Former Soviet Union states
       ar6: R5ASIA
       ssp: R5.2ASIA
       countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China, 
         Cook Islands, Fiji, French Polynesia, Hong Kong, India, Indonesia, Kiribati, 
-        Laos, Macao, Malaysia, Maldives, the Marshall Islands, Micronesia, Mongolia, 
+        Laos, Macao, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
         Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan, 
         Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
-        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tuvalu, 
+        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
         Vanuatu, Viet Nam
   - Middle East & Africa (R5):
       description: Countries of the Middle East and Africa
@@ -57,9 +57,9 @@
         Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
         Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, 
         Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, 
-        Paraguay, Peru, Saint Kitts and Nevis, Saint Vincent and the Grenadines, 
-        Suriname, Trinidad and Tobago, United States Virgin Islands, 
-        Uruguay, Venezuela
+        Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
+        Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+        United States Virgin Islands, Uruguay, Venezuela
   - Other (R5):
       description: Rest of the World, to be used only if a match with the R5 regions
         can otherwise not be achieved.
@@ -106,10 +106,10 @@
       navigate: R9OTHERASIA
       countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, 
         Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, Laos, Malaysia, 
-        Maldives, the Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue, 
+        Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue,
         Nepal, New Caledonia, North Korea, Pakistan, Palau, Papua New Guinea,
         Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, 
-        Taiwan, Tuvalu, Thailand, Timor-Leste, Vanuatu, Viet Nam
+        Taiwan, Tuvalu, Thailand, Timor-Leste, Tonga, Vanuatu, Viet Nam
   - Reforming Economies (R9):
       description: Countries from the Reforming Economies of the Former Soviet Union
       navigate: R9REF
@@ -136,8 +136,8 @@
         Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
         Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, 
         Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, 
-        Peru, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Suriname, 
-        Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
+        Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines,
+        Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
   - Other (R9):
       description: Rest of the World, used only if a match with the R9 regions can
         otherwise not be achieved
@@ -182,12 +182,13 @@
   - Latin America (R10):
       description: Latin America and the Caribbean
       ar6: R10LATIN_AM
-      countries: Antigua and Barbuda, Argentina, Bahamas, Barbados, Belize, Bolivia, 
-        Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, 
+      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador,
         El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, 
         Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, 
-        Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, 
-        Suriname, Trinidad and Tobago, Uruguay, Venezuela
+        Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
+        Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+        United States Virgin Islands, Uruguay, Venezuela
   - Middle East (R10):
       description: Middle East
       ar6: R10MIDDLE_EAST
@@ -211,10 +212,11 @@
   - Rest of Asia (R10):
       description: Asia not included in China+, India+ or Reforming Economies
       ar6: R10REST_ASIA
-      countries: Brunei Darussalam, Cambodia, Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, 
-        Laos, Malaysia, the Marshall Islands, Micronesia, Myanmar, Nauru, Niue, Palau, New Caledonia, 
-        Papua New Guinea, Philippines, Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, 
-        Tonga, Tuvalu, Vanuatu, Viet Nam
+      countries: Brunei Darussalam, Cambodia, Cook Islands, Fiji, French Polynesia,
+        Indonesia, Kiribati, Laos, Malaysia, Marshall Islands, Micronesia, Myanmar,
+        Nauru, Niue, Palau, New Caledonia, Papua New Guinea, Philippines, Samoa,
+        Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
+        Vanuatu, Viet Nam
   - Other (R10):
       description: Rest of the World, to be used only if a match with the R10 regions
         can otherwise not be achieved
