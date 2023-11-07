@@ -46,7 +46,7 @@
     description: Consumption of natural gas (fossil methane)
     unit: EJ/yr
 - Secondary Energy|Gases|Electricity:
-    description: Production of gas from electricity (power-to-gas)
+    description: Production of methane from electricity (power-to-gas)
     unit: EJ/yr
 - Secondary Energy|Gases|Other:
     description: Production of gases from sources that do not fit any other category
@@ -83,7 +83,7 @@
     unit: EJ/yr
 
 - Secondary Energy|Heat:
-    definition: Total production of centralized heat
+    definition: Total generation of centralized heat
     unit: EJ/yr
 - Secondary Energy|Heat|Biomass:
     description: Centralized heat generation from biomass
