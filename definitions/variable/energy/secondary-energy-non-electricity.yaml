@@ -91,24 +91,14 @@
 - Secondary Energy|Heat|Biomass|{CCS}:
     description: Centralized heat generation from biomass {CCS}
     unit: EJ/yr
-- Secondary Energy|Heat|Geothermal:
-    description: Centralized heat generation from geothermal energy
-      excluding ground-source heat pumps
+- Secondary Energy|Heat|{Non-Fossil Heat Sources}:
+    description: Centralized heat generation from {Non-Fossil Heat Sources}
     unit: EJ/yr
 - Secondary Energy|Heat|{Primary Fossil Fuel}:
     description: Centralized heat generation from {Primary Fossil Fuel}
     unit: EJ/yr
 - Secondary Energy|Heat|{Primary Fossil Fuel}|{CCS}:
     description: Centralized heat generation from {Primary Fossil Fuel} {CCS}
-    unit: EJ/yr
-- Secondary Energy|Heat|Electricity:
-    description: Centralized heat generation from electricity
-    unit: EJ/yr
-- Secondary Energy|Heat|Nuclear:
-    description: Centralized heat generation from nuclear energy
-    unit: EJ/yr
-- Secondary Energy|Heat|Solar:
-    description: Centralized heat generation from solar energy
     unit: EJ/yr
 - Secondary Energy|Heat|Other:
     description: Centralized heat generation from sources that do not fit any other category
