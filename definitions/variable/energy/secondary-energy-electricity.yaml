@@ -1,41 +1,80 @@
 - Secondary Energy|Electricity:
     definition: Total net electricity generation
     unit: EJ/yr
+- Capacity|Electricity:
+    definition: Total installed (available) capacity of all power plants
+    unit: GW
 
 - Secondary Energy|Electricity|Biomass:
     definition: Net electricity generation from purpose-grown bioenergy crops, crop and
       forestry residue, municipal solid waste bioenergy and traditional biomass
     unit: EJ/yr
+- Capacity|Electricity|Biomass:
+    definition: Installed (available) capacity of all power plants using purpose-grown
+      bioenergy crops, crop and forestry residue, municipal solid waste bioenergy and
+      traditional biomass
+    unit: GW
 - Secondary Energy|Electricity|Biomass|{CCS}:
     definition: Net electricity generation from purpose-grown bioenergy crops, crop and
       forestry residue, municipal solid waste bioenergy and traditional biomass {CCS}
     unit: EJ/yr
+- Capacity|Electricity|Biomass|{CCS}:
+    definition: Installed (available) capacity of all power plants using purpose-grown
+        bioenergy crops, crop and forestry residue, municipal solid waste bioenergy and
+        traditional biomass {CCS}
+    unit: GW
 
 - Secondary Energy|Electricity|Non-Biomass Renewables:
     definition: Net electricity generation from hydro, wind, solar, geothermal, ocean,
       and other renewable sources excluding biomass
     unit: EJ/yr
+- Capacity|Electricity|Biomass|Non-Biomass Renewables:
+    definition: Installed (available) capacity of all power plants using hydro, wind,
+      solar, geothermal, ocean, and other renewable sources excluding biomass
+    unit: GW
 - Secondary Energy|Electricity|{Non-Biomass Renewables}:
     description: Net electricity generation from {Non-Biomass Renewables}
     unit: EJ/yr
+- Capacity|Electricity|{Non-Biomass Renewables}:
+    definition: Installed (available) capacity of all power plants using {Non-Biomass Renewables}
+    unit: GW
 
 - Secondary Energy|Electricity|Nuclear:
     description: Net electricity generation from nuclear power
     unit: EJ/yr
+- Capacity|Electricity|Nuclear:
+    definition: Installed (available) capacity of all nuclear power plants
+    unit: GW
 - Secondary Energy|Electricity|Hydrogen:
     definition: Net electricity generation from hydrogen
     unit: EJ/yr
+- Capacity|Electricity|Hydrogen:
+    definition: Installed (available) capacity of all power plants using hydrogen
+    unit: GW
 - Secondary Energy|Electricity|Ammonia:
     definition: Net electricity generation from ammonia
     unit: EJ/yr
+- Capacity|Electricity|Ammonia:
+    definition: Installed (available) capacity of all power plants using ammonia
+    unit: GW
 
 - Secondary Energy|Electricity|{Primary Fossil Fuel}:
     description: Net electricity generation from {Primary Fossil Fuel}
     unit: EJ/yr
+- Capacity|Electricity|{Primary Fossil Fuel}:
+    definition: Installed (available) capacity of all power plants using {Primary Fossil Fuel}
+    unit: GW
 - Secondary Energy|Electricity|{Primary Fossil Fuel}|{CCS}:
     description: Net electricity generation from {Primary Fossil Fuel} {CCS}
     unit: EJ/yr
+- Capacity|Electricity|{Primary Fossil Fuel}|{CCS}:
+    definition: Installed (available) capacity of all power plants using {Primary Fossil Fuel} {CCS}
+    unit: GW
 
 - Secondary Energy|Electricity|Other:
     description: Net electricity generation from sources that do not fit any other category
     unit: EJ/yr
+- Capacity|Electricity|Other:
+    definition: Installed (available) capacity of all power plants using sources that
+      do not fit any other category
+    unit: GW
