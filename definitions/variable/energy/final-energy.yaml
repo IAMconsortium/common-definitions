@@ -94,11 +94,11 @@
 - Final Energy|Bunkers|{Bunkers}:
     description: Final energy consumption of bunker fuels for {Bunkers}
     unit: EJ/yr
-- Final Energy|Bunkers|{Transport}:
-    description: Final energy consumption of bunker fuels for {Transport}
+- Final Energy|Bunkers|{Transportation Sector}:
+    description: Final energy consumption of bunker fuels for {Transportation Sector}
     unit: EJ/yr
-- Final Energy|Bunkers|{Transport}|{Bunkers}:
-    description: Final energy consumption of bunker fuels for {Transport}
+- Final Energy|Bunkers|{Transportation Sector}|{Bunkers}:
+    description: Final energy consumption of bunker fuels for {Transport Sector}
       on {Bunkers}
     unit: EJ/yr
 
