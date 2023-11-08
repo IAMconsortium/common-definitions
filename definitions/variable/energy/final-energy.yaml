@@ -101,6 +101,7 @@
     description: Final energy consumption of bunker fuels for {Transportation Sector}
       on {Bunker Sector}
     unit: EJ/yr
+    navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
 
 # additional variables for the water sector
 - Final Energy|Commercial|Water|Desalination:
