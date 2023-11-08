@@ -46,13 +46,13 @@
     unit: GW
 - Secondary Energy|Solids|Biomass:
     description: Production of solid secondary energy carriers from biomass
-      (e.g., commercial charcoal, wood chips, wood pellets).
-      Use of tradional bioenergy is excluded.
+      (e.g., commercial charcoal, wood chips, wood pellets),
+      not including tradional bioenergy
     unit: EJ/yr
 - Capacity|Solids|Biomass:
-    definition: Installed (available) capacity for the production of secondary energy
-      carriers from biomass (e.g., commercial charcoal, wood chips, wood pellets).
-      Use of tradional bioenergy is excluded.
+    definition: Installed (available) capacity for the production of solid secondary
+      energy carriers from biomass (e.g., commercial charcoal, wood chips, wood pellets),
+      not including tradional bioenergy
     unit: GW
 - Secondary Energy|Solids|Fossil:
     description: Consumption of fossil solid secondary energy carriers
@@ -96,14 +96,16 @@
     description: Consumption of natural gas (fossil methane)
     unit: EJ/yr
 - Capacity|Gases|Gas:
-    description: Installed (available) capacity of natural gas (fossil methane)
+    description: Installed (available) capacity for the production and processing
+      of natural gas (fossil methane)
     unit: GW
 - Secondary Energy|Gases|Electricity:
-    description: Production of methane from electricity (power-to-gas)
+    description: Production of gaseous fuels from electricity (power-to-gas),
+      not including hydrogen, e.g., methane, synfuel, LPG
     unit: EJ/yr
 - Capacity|Gases|Electricity:
-    definition: Installed (available) capacity for the production of methane
-      from electricity (power-to-gas)
+    definition: Installed (available) capacity for the production of gaseous fuels from
+      electricity (power-to-gas), not including hydrogen, e.g., methane, synfuel, LPG
     unit: GW
 - Secondary Energy|Gases|Other:
     description: Production of gases from sources that do not fit any other category
@@ -147,11 +149,12 @@
         from {Primary Fossil Fuel} {CCS}
       unit: GW
 - Secondary Energy|Hydrogen|Electricity:
-    description: Production of hydrogen from electricity via electrolysis
+    description: Production of hydrogen using electrolysis
     unit: EJ/yr
 - Capacity|Hydrogen|Electricity:
-    description: Installed (available) capacity for the production of hydrogen from
-      electricity via electrolysis
+    description: Installed (available) capacity for the production of hydrogen
+      using electrolysis, not including two-step power-to-gas for production of
+      other gaseous fuels
     unit: GW
 - Secondary Energy|Hydrogen|Nuclear:
     description: Production of hydrogen from nuclear energy
