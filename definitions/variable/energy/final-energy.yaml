@@ -91,16 +91,18 @@
     unit: EJ/yr
 
 # additional variable for bunkers
-- Final Energy|Bunkers|{Bunkers}:
-    description: Final energy consumption of bunker fuels for {Bunkers}
+- Final Energy|Bunkers|{Bunker Sector}:
+    description: Final energy consumption of bunker fuels for {Bunker Sector}
     unit: EJ/yr
-- Final Energy|Bunkers|{Transport}:
-    description: Final energy consumption of bunker fuels for {Transport}
+- Final Energy|Bunkers|{Transportation Sector}:
+    description: Final energy consumption of bunker fuels for {Transportation Sector}
     unit: EJ/yr
-- Final Energy|Bunkers|{Transport}|{Bunkers}:
-    description: Final energy consumption of bunker fuels for {Transport}
-      on {Bunkers}
+- Final Energy|Bunkers|{Bunker Sector}|{Transportation Sector}:
+    description: Final energy consumption of bunker fuels for {Transportation Sector}
+      on {Bunker Sector}
     unit: EJ/yr
+    engage: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
+    navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
 
 # additional variables for the water sector
 - Final Energy|Commercial|Water|Desalination:

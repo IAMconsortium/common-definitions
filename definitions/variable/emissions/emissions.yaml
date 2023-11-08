@@ -147,9 +147,9 @@
     definition: Emissions of carbon dioxide (CO2) from international bunker fuels
       (IPCC category 1A3ai and 1A3di)
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Bunkers|{Bunkers}:
+- Emissions|CO2|Energy|Demand|Bunkers|{Bunker Sector}:
     definition: Emissions of carbon dioxide (CO2) from international bunker fuels
-        for {Bunkers}
+        for {Bunker Sector}
     unit: Mt CO2/yr
 - Emissions|{Tier-2 Species}|Energy|Demand|Other Sector:
     description: Emissions of {Tier-2 Species} from fuel combustion in other sectors
