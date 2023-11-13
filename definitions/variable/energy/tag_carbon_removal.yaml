@@ -5,3 +5,7 @@
         description: enhanced weathering
     - Ocean Alkalinity Enhancement:
         description: enhancement of ocean alkalinity
+    - Biochar:
+        description: production of biochar using pyrolysis
+    - Other:
+        description: other methods not explicitly listed
