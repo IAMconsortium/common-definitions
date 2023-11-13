@@ -42,13 +42,13 @@
 - Emissions|{Tier-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Tier-3 Species} from energy use in supply and demand sectors
       (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E),
-      including emissions from international bunkers, net of negative emissions from
-      bioenergy with CCS (BECCS) in these sectors
+      including emissions from international bunker fuels, net of negative emissions
+      from bioenergy with CCS (BECCS) in these sectors
     unit: "{Tier-3 Species}"
 - Gross Emissions|CO2|Energy and Industrial Processes:
     definition: Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors
       (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E),
-      including emissions from international bunkers, not accounting for
+      including emissions from international bunker fuels, not accounting for
       negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
 
