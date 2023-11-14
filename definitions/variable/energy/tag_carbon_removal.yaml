@@ -1,0 +1,11 @@
+- Carbon Removal Option:
+    - Direct Air Capture:
+        description: direct air capture
+    - Enhanced Weathering:
+        description: enhanced weathering
+    - Ocean Alkalinity Enhancement:
+        description: enhancement of ocean alkalinity
+    - Biochar:
+        description: production of biochar using pyrolysis
+    - Other Method:
+        description: other methods not explicitly listed
