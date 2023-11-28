@@ -156,16 +156,17 @@
     unit: "{Tier-2 Species}"
 
 - Emissions|{Tier-3 Species}|Industrial Processes:
-    description: Emissions of {Tier-3 Species} from industrial processes,
-      net of negative emissions using CCS
+    description: Emissions of {Tier-3 Species} from industrial processes
+      (IPCC categories 2A, B, C, E), net of negative emissions using CCS
     unit: "{Tier-3 Species}"
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
+      (IPCC categories 2A, B, C, E), not accounting for negative emissions from
+      bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
 - Emissions|{Tier-3 Species}|Industrial Processes|{Non-Energy Sector}:
     description: Emissions of {Tier-3 Species} from industrial processes
-      in the {Non-Energy Sector}
+      (IPCC categories 2A, B, C, E) in the {Non-Energy Sector}
     unit: "{Tier-3 Species}"
 
 - Emissions|{Tier-2 Species}|Waste:
