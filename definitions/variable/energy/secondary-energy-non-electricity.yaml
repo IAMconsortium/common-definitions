@@ -21,8 +21,8 @@
     unit: EJ/yr
 - Secondary Energy|Solids|Biomass:
     description: Production of solid secondary energy carriers from biomass
-      (e.g., commercial charcoal, wood chips, wood pellets).
-      Use of tradional bioenergy is excluded.
+      (e.g., commercial charcoal, wood chips, wood pellets),
+      not including tradional bioenergy
     unit: EJ/yr
 - Secondary Energy|Solids|Fossil:
     description: Consumption of fossil solid secondary energy carriers
@@ -86,10 +86,10 @@
     definition: Total production of centralized heat
     unit: EJ/yr
 - Secondary Energy|Heat|Biomass:
-    description: Centralized heat generation from biomass
+    description: Centralized heat generation from biomass, including biogas
     unit: EJ/yr
 - Secondary Energy|Heat|Biomass|{CCS}:
-    description: Centralized heat generation from biomass {CCS}
+    description: Centralized heat generation from biomass, including biogas, {CCS}
     unit: EJ/yr
 - Secondary Energy|Heat|Geothermal:
     description: Centralized heat generation from geothermal energy
