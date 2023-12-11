@@ -112,14 +112,14 @@
     description: Electricity use for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
-    navigate: Final Energy|Carbon Removal|Electricity|Direct Air Capture
-    engage: Final Energy|Carbon Removal|Electricity|Direct Air Capture
+    navigate: Final Energy|Carbon Removal|Electricity|{Carbon Removal Option}
+    engage: Final Energy|Carbon Removal|Electricity|{Carbon Removal Option}
 - Final Energy|Carbon Removal|{Carbon Removal Option}|{Secondary Fuel}:
     description: Use of {Secondary Fuel} for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
     notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
-    navigate: Final Energy|Carbon Removal|{Secondary Fuel}|Direct Air Capture
-    engage: Final Energy|Carbon Removal|{Secondary Fuel}|Direct Air Capture
+    navigate: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Removal Option}
+    engage: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Removal Option}
 - Final Energy|Carbon Removal|{Carbon Removal Option}|Other:
     description: Use of other energy sources for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
