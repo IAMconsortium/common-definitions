@@ -49,9 +49,10 @@
     - Transportation|Domestic Shipping:
         description: domestic shipping sector
     - Transportation|Passenger:
-        description: passenger transportation sector
+        description: passenger transportation sector excluding international aviation
+          and shipping
     - Transportation|Freight:
-        description: passenger transportation sector
+        description: freight transportation sector excluding international aviation and shipping
     - Bunkers:
         description: international aviation and shipping
     - Other Sector:
