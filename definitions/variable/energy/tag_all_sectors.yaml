@@ -54,11 +54,5 @@
         description: passenger transportation sector
     - Bunkers:
         description: international aviation and shipping
-    - Carbon Removal:
-        description: carbon dioxide removal processes
-    - Carbon Removal|Direct Air Capture:
-        description: direct air capture sector
-    - Carbon Removal|Enhanced Weathering:
-        description: enhanced weathering sector
     - Other Sector:
         description: other sectors
