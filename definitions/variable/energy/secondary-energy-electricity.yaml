@@ -3,8 +3,8 @@
     unit: EJ/yr
 
 - Secondary Energy|Electricity|Biomass:
-    definition: Net electricity generation from purpose-grown bioenergy crops, crop and
-      forestry residue, municipal solid waste bioenergy and traditional biomass
+    definition: Net electricity generation from purpose-grown bioenergy crops, biogas,
+      crop and forestry residue, municipal solid waste bioenergy and traditional biomass
     unit: EJ/yr
 - Secondary Energy|Electricity|Biomass|{CCS}:
     definition: Net electricity generation from purpose-grown bioenergy crops, crop and
