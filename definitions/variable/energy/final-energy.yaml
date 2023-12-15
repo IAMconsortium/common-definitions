@@ -1,12 +1,12 @@
 # Aggregate variables
 - Final Energy:
     description: Final energy consumption by all end-use sectors and all fuels,
-      excluding transmission/distribution losses, including non-energy use
+      including non-energy use, excluding transmission/distribution losses
     unit: EJ/yr
 - Final Energy (w/o bunkers):
-    description: Final energy consumption by all end-use sectors and all fuels,
-      excluding transmission/distribution losses, including non-energy use,
-      excluding international bunker fuels
+    description: Final energy consumption by all end-use sectors and all fuels
+      including non-energy use, excluding international aviation and shipping (see "Bunkers"),
+      excluding transmission/distribution losses
     unit: EJ/yr
 
 # Non-energy use
@@ -124,16 +124,16 @@
     description: Use of other energy sources for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
 
-# additional variable for bunkers
+# additional variable for international aviation and shipping ("Bunkers")
 - Final Energy|Bunkers|{Bunker Sector}:
-    description: Final energy consumption of bunker fuels for {Bunker Sector}
+    description: Final energy consumption for {Bunker Sector}
     unit: EJ/yr
 - Final Energy|Bunkers|{Transportation Sector}:
-    description: Final energy consumption of bunker fuels for {Transportation Sector}
+    description: Final energy consumption for {Transportation Sector}
+      in international aviation and shipping
     unit: EJ/yr
 - Final Energy|Bunkers|{Bunker Sector}|{Transportation Sector}:
-    description: Final energy consumption of bunker fuels for {Transportation Sector}
-      on {Bunker Sector}
+    description: Final energy consumption for {Transportation Sector} in {Bunker Sector}
     unit: EJ/yr
     engage: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
     navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
