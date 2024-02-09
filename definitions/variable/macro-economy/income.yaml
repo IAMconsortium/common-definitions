@@ -1,0 +1,6 @@
+- Income|{Deciles}:
+    description: Net income share of total income for the {Deciles}
+    unit: %
+    min: 0
+    max: 100
+    weight: ???

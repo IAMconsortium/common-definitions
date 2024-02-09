@@ -1,0 +1,8 @@
+- COICOP:
+  - Food:
+    description: COICOP code CP01 (Food)
+  - Energy|Transportation:
+    description: COICOP code CP07 (Transport)
+  - Energy|Energy Use:
+    description: COICOP code CP045 (Electricity, gas and other fuels)
+# https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf
