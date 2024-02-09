@@ -1,0 +1,22 @@
+- Trade:
+  - Agriculture:
+    description: agricultural commodities
+  - Energy:
+    description: energy commodities
+  - Industry:
+    description: industrial (non-energy) commodities
+  # these elements below are Tier 2
+  - Industry|{Non-Energy Sector}:
+    description: {Non-Energy Sector}
+  - Industry|Chemicals|{Industry Chemicals}:
+    description: {Industry Chemicals}
+  - Industry|Iron and Steel|Primary Steel:
+    description: primary steel
+  - Industry|Iron and Steel|Secondary Steel:
+    description: secondary steel
+  - Industry|Non-Ferrous Metals|Aluminum:
+    description: aluminum
+  - Industry|Non-Metallic Minerals|Cement:
+    description: cement
+  - Other:
+    description: other commodities

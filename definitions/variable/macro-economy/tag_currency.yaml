@@ -1,0 +1,7 @@
+# remove that once specified by industry team
+- Currency:
+  description: unit used for Capital Stocks etc.
+  unit: billion US$2010
+- Currency/yr:
+  description: unit used for GDP, Consumption, Trade etc.
+  unit: billion US$2010/yr

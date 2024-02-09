@@ -1,16 +1,13 @@
 - Consumption:
     description: total consumption of all goods, by all consumers in a region
-    unit: billion US$2010/yr
+    unit: {Currency/yr}
     min: 0
-    check-aggregate: true
-    components:
-      - By deciles:
-         - Consumption|{Deciles}
 - Consumption|{Deciles}:
     definition: Share of total consumption accruing to the {Deciles}
     unit: %
     min: 0
     max: 100
+    # is there a test that they sum up to 1?
 - Consumption Share|{COICOP}:
     definition: share of consumption allocated to {COICOP}
     unit: %

@@ -5,7 +5,7 @@
     check-aggregate: true
     components:
       - By sectors:
-         - Employment|{Sector}
+         - Employment|{sector}
 - Unemployment:
     description: Number of unemployed inhabitants (based on ILO classification)
     unit: million
@@ -16,7 +16,7 @@
     min: 0
     max: 100
     weight: Population
-- Employment|{ILO Sectors}:
+- Employment|{ILO sectors}:
     description: Number of employed inhabitants working in {ILO Sectors} (based on ILO classification)
     unit: million
     min: 0
