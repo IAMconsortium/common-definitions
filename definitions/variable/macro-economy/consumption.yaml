@@ -7,9 +7,10 @@
       - By deciles:
          - Consumption|{Deciles}
 - Consumption|{Deciles}:
-    definition: total consumption of all goods for the {Deciles}
-    unit: billion US$2010/yr
+    definition: Share of total consumption accruing to the {Deciles}
+    unit: %
     min: 0
+    max: 100
 - Consumption Share|{COICOP}:
     definition: share of consumption allocated to {COICOP}
     unit: %
