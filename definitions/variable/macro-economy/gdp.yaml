@@ -1,0 +1,6 @@
+- GDP|MER:
+    definition: GDP converted to USD at market exchange rate (MER)
+    unit: billion USD_2010/yr
+- GDP|PPP:
+    definition: GDP converted to USD using purchasing power parity (PPP)
+    unit: billion USD_2010/yr
