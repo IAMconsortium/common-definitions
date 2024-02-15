@@ -108,9 +108,6 @@
 - Final Energy|Carbon Removal|{Carbon Removal Option}:
     description: Energy use for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
-- Final Energy|Carbon Removal|Electricity|{Carbon Removal Option}:
-    description: Electricity use for carbon removal by {Carbon Removal Option}
-    unit: EJ/yr
 - Final Energy|Carbon Removal|{Carbon Removal Option}|Electricity:
     description: Electricity use for carbon removal by {Carbon Removal Option}
     unit: EJ/yr
