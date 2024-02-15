@@ -1,0 +1,10 @@
+- Econ sectors:
+    - Agriculture:
+        description: the aggregated agricultural sectors
+        tier: 1
+    - Industry:
+        description: the aggregated industrial sector
+        tier: 1
+    - Service:
+        description: the aggregated services sector
+        tier: 1
