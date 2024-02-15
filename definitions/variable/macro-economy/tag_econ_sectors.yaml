@@ -5,6 +5,6 @@
     - Industry:
         description: the aggregated industrial sector
         tier: 1
-    - Service:
+    - Services:
         description: the aggregated services sector
         tier: 1
