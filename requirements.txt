@@ -1,1 +1,1 @@
-nomenclature-iamc >= 0.12
+nomenclature-iamc >= 0.16
