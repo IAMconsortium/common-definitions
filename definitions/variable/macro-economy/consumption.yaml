@@ -4,26 +4,26 @@
     min: 0
     tier: 1
 - Consumption|{Deciles}:
-    definition: total consumption of all goods accruing to the {Deciles}
+    description: total consumption of all goods accruing to the {Deciles}
     unit: billion USD_2010/yr
     min: 0
     tier: 3
 - Consumption|{Deciles} (Share):
-    definition: Share of total consumption accruing to the {Deciles}
+    description: Share of total consumption accruing to the {Deciles}
     unit: '%'
     min: 0
     max: 100
     tier: 3
     # is there a test that they sum 1?
 - Consumption|{COICOP} (Share):
-    definition: share of consumption allocated to {COICOP}
+    description: share of consumption allocated to {COICOP}
     unit: '%'
     min: 0
     max: 100
     tier: 3
     weight: Consumption
 - Consumption|{Deciles}|{COICOP} (Share):
-    definition: share of consumption allocated to {COICOP} for the {Deciles}
+    description: share of consumption allocated to {COICOP} for the {Deciles}
     unit: '%'
     min: 0
     max: 100
