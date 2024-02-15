@@ -1,26 +1,26 @@
 - Export:
     description: total exports measured in monetary quantities
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 1
 - Export|{Traded goods}:
     description: export of {Traded goods} measured in monetary units
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 2
 - Import:
     description: total imports measured in monetary quantities
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 1
 - Import|{Traded goods}:
     description: import of {Traded goods} measured in monetary units
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 2
 - Trade:
     description: net exports of all goods. At the global level these should add up to the trade losses only
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     tier: 1
 - Trade|{Traded Energy}|Volume:
     description: net exports of {Traded Energy}. At the global level these should add up to the trade losses only
@@ -28,7 +28,7 @@
     tier: 2
 - Trade|{Traded Energy}|Value:
     description: value of net exports of {Traded Energy}. At the global level these should add up to the trade losses only
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     tier: 2
 - Trade|Uranium|Mass:
     description: net exports of Uranium. At the global level these should add up to the trade losses only
@@ -36,5 +36,5 @@
     tier: 2
 - Trade|Uranium|Value:
     description: value of net exports of Uranium. At the global level these should add up to the trade losses only
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     tier: 2

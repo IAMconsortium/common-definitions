@@ -1,11 +1,11 @@
 - Income:
     description: total income, by all consumers in a region
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 2
 - Income|{Deciles}:
     description: total income for the {Deciles}
-    unit: {Currency per yr}
+    unit: billion USD_2010/yr
     min: 0
     tier: 3
 - Income|{Deciles} (Share):

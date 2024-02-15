@@ -1,0 +1,30 @@
+- Capital Formation:
+    description: net additions to the physical capital stock
+    unit: billion USD_2010/yr
+    tier: 1
+- Expenditure|Government:
+    description: total government expenditure
+    unit: billion USD_2010/yr
+    tier: 1
+- Expenditure|Household:
+    description: Total household expenditure
+    unit: billion USD_2010/yr
+    tier: 1
+- Price|Carbon:
+    description: Price of carbon
+    drop_negative_weights: false
+    unit: billion USD_2010/t CO2
+    weight: Final Energy
+    tier: 1
+- Revenue|Government:
+    description: government revenue
+    unit: billion USD_2010/yr
+    tier: 1
+- Value added:
+    description: value added
+    unit: billion USD_2010/yr
+    tier: 1
+- Value Added|{Econ sectors}:
+    description: value added of the {Econ sectors}
+    unit: billion USD_2010/yr
+    tier: {Econ sectors}
