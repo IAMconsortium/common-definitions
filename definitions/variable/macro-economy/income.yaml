@@ -10,7 +10,7 @@
     tier: 3
 - Income|{Deciles} (Share):
     description: Net income share of total income for the {Deciles}
-    unit: %
+    unit: '%'
     min: 0
     max: 100
     tier: 3

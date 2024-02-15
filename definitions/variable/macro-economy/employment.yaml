@@ -14,7 +14,7 @@
     tier: 1
 - Unemployment (Share):
     description: Fraction of unemployed inhabitants (based on ILO classification)
-    unit: %
+    unit: '%'
     min: 0
     max: 100
     weight: Population
