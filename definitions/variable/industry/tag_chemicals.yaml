@@ -1,10 +1,10 @@
 # used for trade
 - Industry Chemicals:
-  - Ammonia:
-    description: ammonia
-  - High Value Chemicals:
-    description: high value chemicals
-  - Methanol:
-    description: methanol
-  - Plastics:
-    description: plastics
+    - Ammonia:
+        description: ammonia
+    - High Value Chemicals:
+        description: high value chemicals
+    - Methanol:
+        description: methanol
+    - Plastics:
+        description: plastics

@@ -1,36 +1,34 @@
 - Econ sectors:
-  - Agriculture:
-    description: agriculture
-    tier: 1
-  - Commercial:
-    description: commercial
-    tier: 1
-  - Industry:
-    description: industry
-    tier: 1 
-  - Service:
-    description: the service sector
-    tier: 1
-  # these elements below are Tier 2
-  - Industry|{Non-Energy Sector}:
-    description: {Non-Energy Sector}
-    tier: 2
-  - Industry|Chemicals|{Industry Chemicals}:
-    description: {Industry Chemicals}
-    tier: 2
-  - Industry|Iron and Steel|Primary Steel:
-    description: primary steel
-    tier: 2
-  - Industry|Iron and Steel|Secondary Steel:
-    description: secondary steel
-    tier: 2
-  - Industry|Non-Ferrous Metals|Aluminum:
-    description: aluminum
-    tier: 2
-  - Industry|Non-Metallic Minerals|Cement:
-    description: cement
-    tier: 2
-  - Other:
-    description: other commodities
-    tier: 2
-# documentation? 
+    - Agriculture:
+        description: agriculture
+        tier: 1
+    - Commercial:
+        description: commercial
+        tier: 1
+    - Industry:
+        description: industry
+        tier: 1
+    - Service:
+        description: the service sector
+        tier: 1
+    - Industry|{Non-Energy Sector}:
+        description: {Non-Energy Sector}
+        tier: 2
+    - Industry|Chemicals|{Industry Chemicals}:
+        description: {Industry Chemicals}
+        tier: 2
+    - Industry|Iron and Steel|Primary Steel:
+        description: primary steel
+        tier: 2
+    - Industry|Iron and Steel|Secondary Steel:
+        description: secondary steel
+        tier: 2
+    - Industry|Non-Ferrous Metals|Aluminum:
+        description: aluminum
+        tier: 2
+    - Industry|Non-Metallic Minerals|Cement:
+        description: cement
+        tier: 2
+    - Other:
+        description: other commodities
+        tier: 2

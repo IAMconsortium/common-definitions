@@ -1,14 +1,14 @@
 - ILO sectors:
-  - Agriculture:
-    description: agriculture
-  - Industry:
-    description: industry
-  - Industry|Energy:
-    description: energy related industries
-  - Industry|Energy Intensive:
-    description: energy-intensive industry
-  - Industry|Manufacturing:
-    description: manufacturing industries
-  - Service:
-    description: the service sector
+    - Agriculture:
+        description: agriculture
+    - Industry:
+        description: industry
+    - Industry|Energy:
+        description: energy related industries
+    - Industry|Energy Intensive:
+        description: energy-intensive industry
+    - Industry|Manufacturing:
+        description: manufacturing industries
+    - Service:
+        description: the service sector
 # documentation? 

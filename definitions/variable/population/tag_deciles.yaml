@@ -1,21 +1,21 @@
 - Deciles:
-  - D1:
-    description: 1st decile, containing observations for 0% to 10% of the population
-  - D2:
-    description: 2nd decile, containing observations for 10% to 20% of the population
-  - D3:
-    description: 3rd decile, containing observations for 20% to 30% of the population
-  - D4:
-    description: 4th decile, containing observations for 30% to 40% of the population
-  - D5:
-    description: 5th decile, containing observations for 40% to 50% of the population
-  - D6:
-    description: 6th decile, containing observations for 50% to 60% of the population
-  - D7:
-    description: 7th decile, containing observations for 60% to 70% of the population
-  - D8:
-    description: 8th decile, containing observations for 70% to 80% of the population
-  - D9:
-    description: 9th decile, containing observations for 80% to 90% of the population
-  - D10:
-    description: 10th decile, containing observations for 90% to 100% of the population
+    - D1:
+        description: 1st decile, containing observations for 0% to 10% of the population
+    - D2:
+        description: 2nd decile, containing observations for 10% to 20% of the population
+    - D3:
+        description: 3rd decile, containing observations for 20% to 30% of the population
+    - D4:
+        description: 4th decile, containing observations for 30% to 40% of the population
+    - D5:
+        description: 5th decile, containing observations for 40% to 50% of the population
+    - D6:
+        description: 6th decile, containing observations for 50% to 60% of the population
+    - D7:
+        description: 7th decile, containing observations for 60% to 70% of the population
+    - D8:
+        description: 8th decile, containing observations for 70% to 80% of the population
+    - D9:
+        description: 9th decile, containing observations for 80% to 90% of the population
+    - D10:
+        description: 10th decile, containing observations for 90% to 100% of the population
