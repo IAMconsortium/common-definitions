@@ -5,3 +5,6 @@
 - Currency/yr:
   description: unit used for GDP, Consumption, Trade etc.
   unit: billion US$2010/yr
+- Currency/t CO2:
+  description: unit used for Price|Carbon etc.
+  unit: billion US$2010/t CO2

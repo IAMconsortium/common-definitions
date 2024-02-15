@@ -1,6 +1,17 @@
+- Income:
+    description: total income, by all consumers in a region
+    unit: {Currency/yr}
+    min: 0
+    tier: 2
 - Income|{Deciles}:
+    description: total income for the {Deciles}
+    unit: {Currency/yr}
+    min: 0
+    tier: 3
+- Income|{Deciles} (Share):
     description: Net income share of total income for the {Deciles}
     unit: %
     min: 0
     max: 100
-    weight: ???
+    tier: 3
+    weight: Income|Deciles
