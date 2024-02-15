@@ -1,11 +1,11 @@
 - Consumption:
     description: total consumption of all goods, by all consumers in a region
-    unit: {Currency/yr}
+    unit: {Currency per yr}
     min: 0
     tier: 1
 - Consumption|{Deciles}:
     definition: total consumption of all goods accruing to the {Deciles}
-    unit: {Currency/yr}
+    unit: {Currency per yr}
     min: 0
     tier: 3
 - Consumption|{Deciles} (Share):
