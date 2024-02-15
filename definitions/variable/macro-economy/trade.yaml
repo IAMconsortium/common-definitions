@@ -3,18 +3,20 @@
     unit: billion USD_2010/yr
     min: 0
     tier: 1
-- Export|{Traded goods}:
-    description: export of {Traded goods} measured in monetary units
+- Export|{Traded Goods}:
+    description: export of {Traded Goods} measured in monetary units
     unit: billion USD_2010/yr
     min: 0
     tier: 2
+- Export|Industry:
+
 - Import:
     description: total imports measured in monetary quantities
     unit: billion USD_2010/yr
     min: 0
     tier: 1
-- Import|{Traded goods}:
-    description: import of {Traded goods} measured in monetary units
+- Import|{Traded Goods}:
+    description: import of {Traded Goods} measured in monetary units
     unit: billion USD_2010/yr
     min: 0
     tier: 2

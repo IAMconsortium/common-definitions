@@ -11,11 +11,8 @@
     - Service:
         description: the service sector
         tier: 1
-    - Industry|{Non-Energy Sector}:
-        description: {Non-Energy Sector}
-        tier: 2
-    - Industry|Chemicals|{Industry Chemicals}:
-        description: {Industry Chemicals}
+    - Industry|Iron and Steel:
+        description: iron and steel sector
         tier: 2
     - Industry|Iron and Steel|Primary Steel:
         description: primary steel
@@ -23,11 +20,38 @@
     - Industry|Iron and Steel|Secondary Steel:
         description: secondary steel
         tier: 2
+    - Industry|Non-Ferrous Metals:
+        description: non-ferrous metals sector
+        tier: 2
     - Industry|Non-Ferrous Metals|Aluminum:
         description: aluminum
         tier: 2
+    - Industry|Non-Metallic Minerals:
+        description: non-metallic minerals sector
+        tier: 2
     - Industry|Non-Metallic Minerals|Cement:
         description: cement
+        tier: 2
+    - Industry|Chemicals:
+        description: chemical sector
+        tier: 2
+    - Industry|Chemicals|Ammonia:
+        description: ammonia
+        tier: 2
+    - Industry|Chemicals|High Value Chemicals:
+        description: high value chemicals
+        tier: 2
+    - Industry|Chemicals|Methanol:
+        description: methanol
+        tier: 2
+    - Industry|Chemicals|Plastics:
+        description: plastics
+        tier: 2
+    - Industry|Pulp and Paper:
+        description: pulp and paper sector
+        tier: 2
+    - Industry|Other Sector:
+        description: other industries
         tier: 2
     - Other:
         description: other commodities
