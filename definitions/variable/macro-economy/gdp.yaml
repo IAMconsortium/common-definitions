@@ -11,10 +11,6 @@
     unit: billion USD_2010/yr
     tier: 1
     tier: {Econ sectors}
-- Value Added|Industry:
-    description: value added of the industry sector
-    unit: billion USD_2010/yr
-    tier: 1
 - Capital Formation:
     description: net additions to the physical capital stock
     unit: billion USD_2010/yr
