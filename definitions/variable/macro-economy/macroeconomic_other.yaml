@@ -5,6 +5,6 @@
     drop_negative_weights: false
     weight: Emissions|CO2
 - Revenue|Government:
-    description: government revenue
+    description: Government revenue
     unit: billion USD_2010/yr
     tier: 1
