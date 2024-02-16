@@ -6,7 +6,7 @@
     definition: GDP converted to USD using purchasing power parity (PPP)
     unit: billion USD_2010/yr
     tier: 1
-- Value Added|{Econ sectors}:
+- Value Added|{Economic Sectors}:
     description: value added of the {Econ sectors}
     unit: billion USD_2010/yr
     tier: {Econ sectors}
