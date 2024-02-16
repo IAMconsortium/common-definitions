@@ -10,6 +10,7 @@
     description: Value added by the {Economic Sectors}
     unit: billion USD_2010/yr
     tier: {Econ sectors}
+    navigate: Value Added|Commercial
 - Capital Formation:
     description: net additions to the physical capital stock
     unit: billion USD_2010/yr
