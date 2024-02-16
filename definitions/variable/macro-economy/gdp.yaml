@@ -7,7 +7,7 @@
     unit: billion USD_2010/yr
     tier: 1
 - Value Added|{Economic Sectors}:
-    description: value added of the {Econ sectors}
+    description: Value added by the {Economic Sectors}
     unit: billion USD_2010/yr
     tier: {Econ sectors}
 - Capital Formation:
