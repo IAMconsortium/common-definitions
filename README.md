@@ -5,8 +5,10 @@
 
 ## Overview
 
-This repository holds definitions and mappings for model-comparison projects.
+This repository holds definitions and mappings for model-comparison projects using the IAMC data format.
 The aim is to provide a central location to facilitate reuse of definitions and mappings across projects.
+
+Read more about the [IAMC data format](https://docs.ece.iiasa.ac.at/iamc.html).
 
 ## Project nomenclature
 
