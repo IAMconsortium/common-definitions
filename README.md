@@ -7,16 +7,20 @@
 
 This repository holds definitions and mappings for model-comparison projects using the IAMC data format.
 The aim is to provide a central location to facilitate reuse of definitions and mappings across projects.
-
 Read more about the [IAMC data format](https://docs.ece.iiasa.ac.at/iamc.html).
 
-## Project nomenclature
+This project uses the Python package [nomenclature-iamc](https://nomenclature-iamc.readthedocs.io)
+for management of codelists and validation of scenario data in the IAMC data format.
 
-The folder `definitions` contains the project nomenclature, i.e., list of allowed
-variables and regions, for use in the validation workflow. See the **nomenclature**
-package for more information ([link](https://github.com/iamconsortium/nomenclature)).
+## Codelists and mappings
 
-The folder `mappings` contains models-specific region-processing mappings.
+The folder `definitions` contains the "codelists", i.e., list of allowed variables and
+regions, for use in the validation workflow. In the IAMC community, the word
+"variable template" is also used to refer to the codelists for variables.
+
+The folder `mappings` contains models-specific processing and automated
+aggregation of regions from "native model regions" (as reported by a model) to
+"common regions" used for comparison and analysis of results.
 
 ## Model registration
 
