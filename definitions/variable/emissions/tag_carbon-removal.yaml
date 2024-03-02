@@ -1,0 +1,25 @@
+- Carbon-Removal Option:
+    - Afforestation:
+        description: afforestation
+    - Agroforestry:
+        description: agroforestry
+    - Biochar:
+        description: production of biochar using pyrolysis
+    - Soil Management:
+        description: soil management
+    - Enhanced Weathering:
+        description: enhanced weathering
+    - Ocean Alkalinity Enhancement:
+        description: enhancement of ocean alkalinity
+    - Materials:
+        description: use of long-lived materials with centennial to millennial residence times
+    - Materials|Cement:
+        description: use of cement
+    - Materials|Plastics:
+        description: use of long-lived plastics
+    - Materials|Timber:
+        description: use of long-lived timber
+    - Materials|Other:
+        description: use of other long-lived materials
+    - Other Method:
+        description: other methods not explicitly listed
