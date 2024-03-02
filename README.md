@@ -29,9 +29,10 @@ This is the step-by-step guide to registering your model:
 1. Fork this repository
 2. Follow the instructions from the nomenclature documentation here: <https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html>. 
 Please make sure to follow the instructions completely, both the _Model mapping_ and the _Region definitions_ part. You'll have to end up with two files.
-3. Open a pull request into this repository. Make sure that the tests run through and correct any potential issues. If the tests are failing you can view the details by clicking on the failed test run.
-
-4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock) as reviewers.
+3. Open a pull request into this repository. Make sure that the tests pass and
+   correct any potential issues.
+4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock)
+   as reviewers (or mention them in the pull request text).
 5. Once everything is in order we will merge your pull request and your model will be registered.
 
 ## Funding acknowledgement
