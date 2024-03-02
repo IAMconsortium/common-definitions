@@ -90,38 +90,38 @@
     description: Final energy consumption of non-renewable waste by the industrial sector
     unit: EJ/yr
 
-# energy use for carbon removal technologies
-- Final Energy|Carbon Removal:
-    description: Total energy use for carbon removal
+# energy use for carbon capture and/or removal technologies
+- Final Energy|Carbon Management:
+    description: Total energy use for carbon management, i.e., capture and/or removal of CO2
     unit: EJ/yr
-- Final Energy|Carbon Removal|Electricity:
-    description: Electricity use for carbon removal
-    unit: EJ/yr
-    notes: See `Secondary Energy|Electricity|...` for the power generation mix
-- Final Energy|Carbon Removal|{Secondary Fuel}:
-    description: Use of {Secondary Fuel} for carbon removal
-    unit: EJ/yr
-    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
-- Final Energy|Carbon Removal|Other:
-    description: Use of other energy sources for carbon removal
-    unit: EJ/yr
-- Final Energy|Carbon Removal|{Carbon Removal Option}:
-    description: Energy use for carbon removal by {Carbon Removal Option}
-    unit: EJ/yr
-- Final Energy|Carbon Removal|{Carbon Removal Option}|Electricity:
-    description: Electricity use for carbon removal by {Carbon Removal Option}
+- Final Energy|Carbon Management|Electricity:
+    description: Electricity use for carbon management
     unit: EJ/yr
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
-    navigate: Final Energy|Carbon Removal|Electricity|{Carbon Removal Option}
-    engage: Final Energy|Carbon Removal|Electricity|{Carbon Removal Option}
-- Final Energy|Carbon Removal|{Carbon Removal Option}|{Secondary Fuel}:
-    description: Use of {Secondary Fuel} for carbon removal by {Carbon Removal Option}
+- Final Energy|Carbon Management|{Secondary Fuel}:
+    description: Use of {Secondary Fuel} for carbon management
     unit: EJ/yr
     notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
-    navigate: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Removal Option}
-    engage: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Removal Option}
-- Final Energy|Carbon Removal|{Carbon Removal Option}|Other:
-    description: Use of other energy sources for carbon removal by {Carbon Removal Option}
+- Final Energy|Carbon Management|Other:
+    description: Use of other energy sources for carbon management
+    unit: EJ/yr
+- Final Energy|Carbon Management|{Carbon Management Technology}:
+    description: Energy use for carbon management by {Carbon Management Technology}
+    unit: EJ/yr
+- Final Energy|Carbon Management|{Carbon Management Technology}|Electricity:
+    description: Electricity use for carbon management by {Carbon Management Technology}
+    unit: EJ/yr
+    notes: See `Secondary Energy|Electricity|...` for the power generation mix
+    navigate: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
+    engage: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
+- Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel}:
+    description: Use of {Secondary Fuel} for carbon management by {Carbon Management Technology}
+    unit: EJ/yr
+    notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
+    navigate: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Management Technology}
+    engage: Final Energy|Carbon Removal|{Secondary Fuel}|{Carbon Management Technology}
+- Final Energy|Carbon Management|{Carbon Management Technology}|Other:
+    description: Use of other energy sources for carbon removal by {Carbon Management Technology}
     unit: EJ/yr
 
 # additional variable for international aviation and shipping ("Bunkers")
