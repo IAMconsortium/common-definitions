@@ -172,6 +172,10 @@
     description: Emissions of {Level-3 Species} from industrial processes
       (IPCC categories 2A, B, C, E) in the {Non-Energy Sector}
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Industrial Processes|{Industrial-Process Sector}:
+    description: Emissions of {Level-3 Species} from industrial processes
+      (IPCC categories 2A, B, C, E) in the {Industrial-Process Sector}
+    unit: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|Waste:
     description: Emissions of {Level-2 Species} from waste (IPCC category 6)
