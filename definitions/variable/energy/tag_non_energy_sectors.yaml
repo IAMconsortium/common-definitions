@@ -1,5 +1,6 @@
 # This list has sectors that use energy carriers for non-energy purposes.
-# It is complementary to the `Industrial-Process Sector` tag list.
+# It is complementary to the `Industrial-Process Sector` tag list
+# and it must be a subset of the `Sector` tag list.
 - Non-Energy Sector:
     - Iron and Steel:
         description: iron and steel sector
@@ -9,5 +10,14 @@
         description: non-metallic minerals sector
     - Chemicals:
         description: chemical sector
+    # keep consistent with the sub-categories of `Industry|Chemicals` in the `Sector` tag list
+    - Chemicals|Ammonia:
+        description: ammonia sector
+    - Chemicals|Methanol:
+        description: methanol sector
+    - Chemicals|High Value Chemicals:
+        description: high-value-chemicals sector
+    - Plastics:
+        description: plastics sector
     - Other Sector:
         description: other industries

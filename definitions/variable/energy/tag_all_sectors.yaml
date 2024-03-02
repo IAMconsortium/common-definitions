@@ -11,6 +11,7 @@
         description: non-metallic minerals sector
     - Industry|Chemicals:
         description: chemicals sector excluding feedstocks
+    # keep consistent with the sub-categories of `Chemicals` in the `Industrial-Process Sector` tag list
     - Industry|Chemicals|Ammonia:
         description: ammonia sector
     - Industry|Chemicals|Methanol:
