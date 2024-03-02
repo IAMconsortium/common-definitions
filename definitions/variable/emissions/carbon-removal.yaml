@@ -1,0 +1,10 @@
+- Carbon Removal:
+    description: Gross removals of carbon dioxide (CO2) from atmospheric origin or biomass
+      through deliberate human activities
+    unit: Mt CO2/yr
+    notes: Values should be reported as positive numbers
+- Carbon Removal|{Carbon-Removal Option}:
+    description: Gross removals of carbon dioxide (CO2) from atmospheric origin or biomass
+      through deliberate human activities by {Carbon-Removal Option}
+    unit: Mt CO2/yr
+    notes: Values should be reported as positive numbers
