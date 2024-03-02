@@ -1,4 +1,6 @@
-- Tier-1 Species:
+# These species are reported for aggregate emissions variables.
+
+- Level-1 Species:
     - CO2:
         description: carbon dioxide (CO2)
         unit: Mt CO2/yr
