@@ -1,5 +1,7 @@
-# please make sure that this is list is a subset of `Tier-1 Species`
-- Tier-2 Species:
+# These species are reported for more disaggregated emissions variables.
+# Please make sure that this is list is a subset of `Level-1 Species`
+
+- Level-2 Species:
     - CO2:
         description: carbon dioxide (CO2)
         unit: Mt CO2/yr
