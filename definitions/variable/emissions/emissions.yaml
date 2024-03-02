@@ -11,6 +11,23 @@
       and other land use (AFOLU)
     unit: Mt CO2/yr
 
+- Emissions|CO2|Residual Emissions:
+    description: Gross emissions of carbon dioxide (CO2) from energy use in supply and
+      demand sectors (IPCC category 1A, 1B) and from industrial processes
+      (IPCC categories 2A, B, C, E), including emissions from international bunkers
+    unit: Mt CO2/yr
+    notes: Values should be reported as positive numbers. The sum of this variable and
+      the 'Emissions|CO2|Carbon Dioxide Removal' variable should be equal to the
+      'Emissions|CO2|Energy and Industrial Processes' variable.
+- Emissions|CO2|Carbon Dioxide Removal:
+    description: Removals of carbon dioxide (CO2) from the atmosphere inclusive of
+      negative emissions from bioenergy with CCS (BECCS), direct air carbon capture and
+      storage (DACCS), and other CO2 removal (exclusive of land-use change) in these sectors
+    unit: Mt CO2/yr
+    notes: Values should be reported as positive numbers. The sum of this variable and
+      the 'Emissions|CO2|Residual Emissions' variable should be equal to the
+      'Emissions|CO2|Energy and Industrial Processes' variable.
+
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
       and other land use (IPCC category 3)
