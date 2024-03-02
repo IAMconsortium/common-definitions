@@ -15,9 +15,11 @@
     - Industry|Chemicals|Ammonia:
         description: ammonia sector
     - Industry|Chemicals|Methanol:
-        description: menthanol sector
+        description: methanol sector
     - Industry|Chemicals|High Value Chemicals:
         description: high-value-chemicals sector
+    - Industry|Chemicals|Other Sector:
+        description: other use in the chemical sector
     - Industry|Cement:
         description: cement sector
     - Industry|Plastics:

@@ -17,6 +17,8 @@
         description: methanol sector
     - Chemicals|High Value Chemicals:
         description: high-value-chemicals sector
+    - Chemicals|Other Sector:
+        description: other use in the chemical sector
     - Plastics:
         description: plastics sector
     - Other Sector:
