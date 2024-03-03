@@ -1,0 +1,31 @@
+- Consumption:
+    description: total consumption of all goods, by all consumers in a region
+    unit: billion USD_2010/yr
+    min: 0
+    tier: 1
+- Consumption|{Deciles}:
+    description: total consumption of all goods accruing to the {Deciles}
+    unit: billion USD_2010/yr
+    min: 0
+    tier: 3
+- Consumption|{Deciles} (Share):
+    description: Share of total consumption accruing to the {Deciles}
+    unit: '%'
+    min: 0
+    max: 100
+    tier: 3
+    # is there a test that they sum 1?
+- Consumption|{COICOP} (Share):
+    description: share of consumption allocated to {COICOP}
+    unit: '%'
+    min: 0
+    max: 100
+    tier: 3
+    weight: Consumption
+- Consumption|{Deciles}|{COICOP} (Share):
+    description: share of consumption allocated to {COICOP} for the {Deciles}
+    unit: '%'
+    min: 0
+    max: 100
+    weight: Consumption|{Deciles}
+    tier: 3
