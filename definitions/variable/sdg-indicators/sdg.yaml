@@ -1,19 +1,19 @@
-- Population|Extreme Poverty|International poverty line:
+- Population|Extreme Poverty|International Poverty Line:
     definition: population living in extreme poverty with income <US$1.90 2011 PPP
       per day
     sdg: 1
     unit: million
-- Population|Poverty|LMIC poverty line:
+- Population|Poverty|LMIC Poverty Line:
     definition: population living in poverty with income <US$3.20 2011 PPP per day
       (World Bank LMIC definition)
     sdg: 1
     unit: million
-- Population|Poverty|UMIC poverty line:
+- Population|Poverty|UMIC Poverty Line:
     definition: population living in poverty with income <US$5.50 2011 PPP per day
       (World Bank LMIC definition)
     sdg: 1
     unit: million
-- Expenditure Share|Food:
+- Expenditure|Food [Share]:
     definition: Share of food expenditure in total income
     sdg: 1
     unit: '%'
@@ -55,32 +55,32 @@
       reference BMI, aged 0--14)
     sdg: 2
     unit: million
-- Food|Availability:
+- Food|Availability [per capita]:
     definition: Food available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Availability|Crops:
+- Food|Availability|Crops [per capita]:
     definition: Food crops available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Availability|Livestock:
+- Food|Availability|Livestock [per capita]:
     definition: Livestock products available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Intake:
+- Food|Intake [per capita]:
     definition: Food calorie intake per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Intake|Crops:
+- Food|Intake|Crops [per capita]:
     definition: Calorie intake from food crops per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Intake|Livestock:
+- Food|Intake|Livestock [per capita]:
     definition: Calorie intake from livestock products per capita
     sdg: 2
     unit: kcal/cap/day
@@ -108,25 +108,25 @@
     definition: Child mortality associated with indoor air pollution
     sdg: 3
     unit: million
-- Population|Without Education|Share:
+- Population|Without Education [Share]:
     definition: Share of people aged 15 or older without education (not counting those
       with incomplete primary education)
     sdg: 4
     unit: '%'
     weight: Population
-- Population|Primary Education|Leaving Cohort|Share:
+- Population|Primary Education|Leaving Cohort [Share]:
     definition: Share of school-leaving cohort ( age group 15-19) completing primary
       education
     sdg: 4
     unit: '%'
     weight: Population
-- Population|Secondary Education|Leaving Cohort|Share:
+- Population|Secondary Education|Leaving Cohort [Share]:
     definition: Share of school-leaving cohort (age group 20-24) completing secondary
       education (lower secondary or above)
     sdg: 4
     unit: '%'
     weight: Population
-- Population|Adults|Without Secondary Education|Share:
+- Population|Adults|Without Secondary Education [Share]:
     definition: Share of adults (age 20+) without secondary education
     sdg: 4
     unit: '%'
@@ -160,7 +160,7 @@
     definition: Nitrogen surplus of soil inputs over soil withdrawals in cropland
     sdg: 6
     unit: Tg N/yr
-- Nitrogen|Pollution|Surplus|Non-agricultural land:
+- Nitrogen|Pollution|Surplus|Non-agricultural Land:
     definition: Nitrogen surplus in non-agricultural land
     sdg: 6
     unit: Tg N/yr
@@ -180,17 +180,17 @@
     definition: Water withdrawals at the expense of environmental flow requirements
     sdg: 6
     unit: km3/yr
-- Useful Energy|Transportation|Passenger:
+- Useful Energy|Transportation|Passenger [per capita]:
     definition: Useful energy per capita for passenger transport.
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
-- Useful Energy|Industry:
+- Useful Energy|Industry [per capita]:
     definition: Useful energy per capita for industry.
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
-- Useful Energy|Residential and Commercial:
+- Useful Energy|Residential and Commercial [per capita]:
     definition: Useful energy per capita for buildings
     sdg: 7
     unit: GJ/cap/yr
@@ -199,12 +199,12 @@
     definition: energy service demand for passenger transport on roads
     sdg: 7
     unit: bn pkm/yr
-- Energy Service|Transportation|Passenger|ActiveTransport|Share:
+- Energy Service|Transportation|Passenger|ActiveTransport [Share]:
     definition: Walking and Cycling share of passenger transport
     sdg: 7
     unit: '%'
     weight: Energy Service|Transportation|Passenger
-- Energy Service|Transportation|Passenger|PublicTransport|Share:
+- Energy Service|Transportation|Passenger|PublicTransport [Share]:
     definition: Public share of passenger transport
     sdg: 7
     unit: '%'
@@ -219,7 +219,7 @@
     sdg: 7
     unit: C days
     weight: Energy Service|Residential|Floor Space
-- Final Energy|Industry|Electricity|Share:
+- Final Energy|Industry|Electricity [Share]:
     definition: Share of electrified final energy demand of industry
     sdg: 7
     unit: '%'
@@ -229,13 +229,13 @@
     sdg: 7
     unit: EJ/billion US$2010
     weight: GDP|PPP
-- GDPpcap|PPP|Growth rate:
+- GDP|PPP|per capita|Growth Rate:
     definition: GDP/cap (PPP) growth rate
     sdg: 8
     unit: '%'
     weight: GDP|PPP
-- GDPpcap|PPP|Ratio to OECD:
-    definition: Ratio of GDP/cap (PPP) of developing regions to OECD average
+- GDP|PPP|per capita|Relative to OECD [Ratio]:
+    definition: Ratio of GDP/cap (PPP) of country/region to OECD average
     sdg: 8
     unit: '%'
     weight: Population
@@ -259,18 +259,18 @@
     definition:
     sdg: 9
     unit: billion US$2010
-- Population|Relative Poverty|Share:
-    definition: Share of population living in relative poverty with income below theeir
+- Population|Relative Poverty [Share]:
+    definition: Share of population living in relative poverty with income below their
       respective national poverty lines.
     sdg: 10
     unit: '%'
     weight: Population
-- Population|Relative poverty|wrt median income|Share:
+- Population|Relative poverty|wrt median income [Share]:
     definition: Share of population below 50% of median national income
     sdg: 10
     unit: '%'
     weight: Population
-- Inequality|Bottom 40% average income|Ratio:
+- Inequality|Bottom 40% average income [Ratio]:
     definition: Average income of bottom 40% relative to national average
     sdg: 10
     unit: '%'
@@ -284,7 +284,7 @@
       that does not meet legal requirements and/or enable well being for the occupants
     sdg: 11
     unit: million
-- Population|Urban|Share:
+- Population|Urban [Share]:
     definition: share of population living in urban areas
     sdg: 11
     unit: '%'
@@ -306,27 +306,27 @@
     definition: Production of Recycled Aluminum
     sdg: 12
     unit: Mt/year
-- Material recycling|Steel|Share:
+- Material recycling|Steel [Share]:
     definition: Share of Recycled Steel
     sdg: 12
     unit: '%'
     weight: Production|Iron and Steel|Volume
-- Material recycling|Aluminum|Share:
+- Material recycling|Aluminum [Share]:
     definition: Share of Recycled Aluminum
     sdg: 12
     unit: '%'
     weight: Production|Non-Ferrous Metals|Aluminium|Volume
-- Material recycling|Plastic|Share:
+- Material recycling|Plastic [Share]:
     definition: Share of Recycled Plastic
     sdg: 12
     unit: '%'
     weight: Production|Chemicals|Plastics|Volume
-- Agricultural Material Footprint:
+- Agricultural Material Footprint [per capita]:
     definition: Biomass usage per capita (excluding pasture + forestry)
     sdg: 12
     unit: tDM/cap/yr
     weight: Population
-- Food Waste|Per capita:
+- Food Waste [per capita]:
     definition: Amount of food (agriculture and livestock) per capita that is disposed and not
       consumed
     unit: kcal/cap/day
@@ -419,12 +419,12 @@
     sdg: 16
     unit: '-'
     weight: Population
-- Price|Carbon|Ratio to OECD:
+- Price|Carbon|Relative to OECD [Ratio]:
     definition: Ratio of carbon price to OECD carbon price
     sdg: 17
     unit: '%'
     skip-region-aggregation: true
-- Policy Cost|GDP Loss|w/o transfers:
+- Policy Cost|GDP Loss|w/o Transfers:
     definition: GDP loss (without international transfers) in a policy scenario compared
       to the corresponding baseline (losses should be reported as positive numbers)
     sdg: 17
