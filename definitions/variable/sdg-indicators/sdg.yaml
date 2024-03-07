@@ -89,7 +89,8 @@
     definition: weighted average price index of livestock
     sdg: 2
     unit: Index (2020 = 1)
-    weight: Agricultural Production|Non-Energy
+    skip-region-aggregation: true
+#     weight: Agricultural Production|Non-Energy
 - Premature Deaths|PM2.5:
     definition: Premature deaths associated with increase health risks from exposure
       to PM2.5 air pollution
@@ -203,22 +204,26 @@
     definition: Walking and Cycling share of passenger transport
     sdg: 7
     unit: '%'
-    weight: Energy Service|Transportation|Passenger
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
 - Energy Service|Transportation|Passenger|PublicTransport [Share]:
     definition: Public share of passenger transport
     sdg: 7
     unit: '%'
-    weight: Energy Service|Transportation|Passenger
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
 - Energy Service|Residential|Cooling Degree Days:
     definition:
     sdg: 7
     unit: C days
-    weight: Energy Service|Residential|Floor Space
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
     definition:
     sdg: 7
     unit: C days
-    weight: Energy Service|Residential|Floor Space
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
 - Final Energy|Industry|Electricity [Share]:
     definition: Share of electrified final energy demand of industry
     sdg: 7
@@ -310,17 +315,20 @@
     definition: Share of Recycled Steel
     sdg: 12
     unit: '%'
-    weight: Production|Iron and Steel|Volume
+    skip-region-aggregation: true
+#     weight: Production|Iron and Steel|Volume
 - Material recycling|Aluminum [Share]:
     definition: Share of Recycled Aluminum
     sdg: 12
     unit: '%'
-    weight: Production|Non-Ferrous Metals|Aluminium|Volume
+    skip-region-aggregation: true
+#     weight: Production|Non-Ferrous Metals|Aluminium|Volume
 - Material recycling|Plastic [Share]:
     definition: Share of Recycled Plastic
     sdg: 12
     unit: '%'
-    weight: Production|Chemicals|Plastics|Volume
+    skip-region-aggregation: true
+#     weight: Production|Chemicals|Plastics|Volume
 - Agricultural Material Footprint [per capita]:
     definition: Biomass usage per capita (excluding pasture + forestry)
     sdg: 12
@@ -359,12 +367,14 @@
       Abundance (MSA)
     sdg: 15
     unit: '%'
-    weight: Land Cover
+    skip-region-aggregation: true
+#     weight: Land Cover
 - Terrestrial Biodiversity|BII|Cropland Landscapes:
     definition: Terrestrial biodiversity in landscapes containing cropland measured with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
-    weight: Land Cover|Cropland
+    skip-region-aggregation: true
+#     weight: Land Cover|Cropland
 - Terrestrial Biodiversity|BII|Biodiversity Hotspots:
     definition: Terrestrial biodiversity in biodiversity hotspot landscapes measured with Biodiversity Intactness Index (BII)
     sdg: 15
@@ -384,7 +394,8 @@
     definition: Crop diversity measured by the Shannon index accounting for crop richness and abundance
     sdg: 15
     unit: index
-    weight: Land Cover|Cropland
+    skip-region-aggregation: true
+#     weight: Land Cover|Cropland
 - Nitrogen|Cropland Budget|Inputs:
     definition: Total nitrogen inputs on cropland
     sdg: 15
