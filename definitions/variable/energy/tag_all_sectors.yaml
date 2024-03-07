@@ -32,9 +32,10 @@
     - Residential and Commercial:
         description: residential and commercial sector
     - Transportation:
-        description: transportation sector excluding bunker fuels
+        description: transportation sector excluding international aviation and shipping
+          (see "Bunkers")
     - Transportation (w/ bunkers):
-        description: transportation sector including bunker fuels
+        description: transportation sector including international aviation and shipping
     - Transportation|Bus:
         description: transportation sector by bus
     - Transportation|Light Duty Vehicle:
@@ -48,10 +49,11 @@
     - Transportation|Domestic Shipping:
         description: domestic shipping sector
     - Transportation|Passenger:
-        description: passenger transportation sector
+        description: passenger transportation sector excluding international aviation
+          and shipping
     - Transportation|Freight:
-        description: passenger transportation sector
+        description: freight transportation sector excluding international aviation and shipping
     - Bunkers:
-        description: bunker-fuels sector
+        description: international aviation and shipping
     - Other Sector:
         description: other sectors
