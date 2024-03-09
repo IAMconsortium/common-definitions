@@ -94,14 +94,17 @@
 - Final Energy|Carbon Management:
     description: Total energy use for carbon management, i.e., capture and/or removal of CO2
     unit: EJ/yr
+    navigate: Final Energy|Carbon Removal
 - Final Energy|Carbon Management|Electricity:
     description: Electricity use for carbon management
     unit: EJ/yr
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
+    navigate: Final Energy|Carbon Removal|Electricity
 - Final Energy|Carbon Management|{Secondary Fuel}:
     description: Use of {Secondary Fuel} for carbon management
     unit: EJ/yr
     notes: See `Secondary Energy|{Secondary Fuel}|...` for the sources of the energy carrier
+    navigate: Final Energy|Carbon Removal|{Secondary Fuel}
 - Final Energy|Carbon Management|Other:
     description: Use of other energy sources for carbon management
     unit: EJ/yr
