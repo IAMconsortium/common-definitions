@@ -1,0 +1,8 @@
+# This list has sectors that have emissions from industrial processes.
+# It is complementary to the `Non-Energy Sector` tag list
+# and it must be a subset of the `Sector` tag list.
+- Industrial-Process Sector:
+    - Cement:
+        description: cement sector
+    - Pulp and Paper:
+        description: pulp and paper sector
