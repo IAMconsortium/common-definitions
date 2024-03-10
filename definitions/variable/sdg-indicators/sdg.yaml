@@ -21,40 +21,44 @@
     weight: GDP|PPP
     shape: Expenditure Share|Food
 - Population|Prevalence of Underweight:
-    definition: Number of adults with BMI<18.5 and children with <-2SD from reference
-      BMI
+    definition: Number of adults with body mass index (BMI) lower than 18.5 and 
+      children with BMI lower than two standard deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Underweight|Children:
-    definition: Number of underweight children (<-2SD from reference BMI, aged 0--14)
+    definition: Number of children aged 0-14 years with BMI lower than two standard
+      deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Overweight:
-    definition: Number of adults with BMI>25 and children with >+1SD from reference
-      BMI
+    definition: Number of adults with body mass index (BMI) greater than 25 and
+      children with BMI greater than one standard deviation from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Overweight|Children:
-    definition: Number of overweight children (>+1SD from reference BMI, aged 0--14)
+    definition: Number of children aged 0-14 years with BMI greater than one standard
+      deviation from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Obesity:
-    definition: Number of adults with BMI>30 and children with >+2SD from reference
-      BMI
+    definition: Number of adults with with body mass index (BMI) greater than 30 and
+      children with BMI greater than two standard deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Obesity|Children:
-    definition: Number of obese children (+2SD from reference BMI, aged 0--14)
+    definition: Number of children aged 0-14 with BMI greater than two standard
+      deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Normal Weight:
-    definition: "Number of adults with BMI 18.5\u201325 and children within -2SD and\
-      \ +1SD relative to reference BMI"
+    definition: Number of adults with body mass index (BMI) BMI between 18.5 and 25 and
+      children with BMI within two standard deviations below reference (lower bound)
+        and one standard deviations above reference (upper bound)
     sdg: 2
     unit: million
 - Population|Prevalence of Normal Weight|Children:
-    definition: Number of normal-weight children (within -2SD and +1SD relative to
-      reference BMI, aged 0--14)
+    definition: Number of children aged 0-14 with BMI within two standard deviations
+      below reference (lower bound) and one standard deviations above reference (upper bound)
     sdg: 2
     unit: million
 - Food|Availability [per capita]:
