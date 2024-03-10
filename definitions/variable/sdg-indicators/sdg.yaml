@@ -299,20 +299,21 @@
       and not consumed
     unit: kcal/cap/day
     weight: Population
-- Ocean|pH value:
-    definition: 'Ocean acidification: pH value'
+- Ocean|Acidification:
+    definition: Ocean acidification
     sdg: 14
-    unit: '-'
+    unit: pH
     skip-region-aggregation: true
+    shape: Ocean|pH value
 - Ocean|Carbonate Saturation|Aragonite:
-    definition: Saturation state of aragonite (Omega_A)
+    definition: Saturation state of aragonite (Omega A)
     sdg: 14
-    unit: '-'
+    unit:
     skip-region-aggregation: true
 - Ocean|Carbonate Saturation|Calcite:
-    definition: Saturation state of calcite (Omega_C)
+    definition: Saturation state of calcite (Omega C)
     sdg: 14
-    unit: '-'
+    unit:
     skip-region-aggregation: true  
 - Land Cover|Forest|Natural Forest|Primary Forest:
     definition: Undisturbed primary natural forests
