@@ -203,13 +203,15 @@
 #     weight: Energy Service|Transportation|Passenger
     shape: Energy Service|Transportation|Passenger|PublicTransport|Share
 - Energy Service|Residential|Cooling Degree Days:
-    definition:
+    definition: Measure of how hot the temperature was over a given period
+      indicating higher energy needs for cooling
     sdg: 7
     unit: °C-days
     skip-region-aggregation: true
 #     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
-    definition:
+    definition: Measure of how cold the temperature was over a given period
+      indicating higher energy needs for heating
     sdg: 7
     unit: °C-days
     skip-region-aggregation: true
