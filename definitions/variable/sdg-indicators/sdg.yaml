@@ -324,35 +324,39 @@
     sdg: 15
     unit: million ha      
 - Terrestrial Biodiversity|MSA:
-    definition: Terrestrial biodiversity measured in Mean Species
-      Abundance (MSA)
+    definition: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 #     weight: Land Cover
 - Terrestrial Biodiversity|BII|Cropland Landscapes:
-    definition: Terrestrial biodiversity in landscapes containing cropland measured with Biodiversity Intactness Index (BII)
+    definition: Terrestrial biodiversity in landscapes containing cropland measured
+      with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 #     weight: Land Cover|Cropland
 - Terrestrial Biodiversity|BII|Biodiversity Hotspots:
-    definition: Terrestrial biodiversity in biodiversity hotspot landscapes measured with Biodiversity Intactness Index (BII)
+    definition: Terrestrial biodiversity in biodiversity hotspot landscapes measured
+      with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|BII|Key Conservation Landscapes:
-    definition: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes measured with Biodiversity Intactness Index (BII)
+    definition: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
+      measured with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|BII|Areas Outside Key Conservation and Cropland Landscapes:
-    definition: Terrestrial biodiversity in areas outside biodiversity hotspot, intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
+    definition: Terrestrial biodiversity in areas outside biodiversity hotspot,
+      intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
-    definition: Crop diversity measured by the Shannon index accounting for crop richness and abundance
+    definition: Crop diversity measured by the Shannon index accounting for crop richness
+      and abundance
     sdg: 15
     unit: index
     skip-region-aggregation: true
