@@ -225,16 +225,18 @@
     sdg: 7
     unit: EJ/billion USD_2010
     weight: GDP|PPP
-- GDP|PPP|per capita|Growth Rate:
-    definition: GDP/cap (PPP) growth rate
+- GDP|PPP [Growth Rate per capita]:
+    definition: Annual growth rate of GDP-per-capita (PPP)
     sdg: 8
     unit: '%'
     weight: GDP|PPP
-- GDP|PPP|per capita|Relative to OECD [Ratio]:
-    definition: Ratio of GDP/cap (PPP) of country/region to OECD average
+    shape: GDPpcap|PPP|Growth rate
+- GDP|PPP [per capita relative to OECD]:
+    definition: Ratio of GDP-per-capita (PPP) relative to OECD average
     sdg: 8
     unit: '%'
     weight: Population
+    shape: GDPpcap|PPP|Ratio to OECD
 - Production|Cement:
     definition: production of cement
     sdg: 9
