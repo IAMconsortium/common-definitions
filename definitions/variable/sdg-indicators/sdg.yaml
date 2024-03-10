@@ -289,13 +289,14 @@
 #     weight: Production|Iron and Steel|Volume
     shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
-    definition: Biomass usage per capita (excluding pasture + forestry)
+    definition: Biomass usage per capita excluding pasture and forestry
     sdg: 12
     unit: tDM/cap/yr
     weight: Population
+    shape: Agricultural Material Footprint
 - Food Waste [per capita]:
-    definition: Amount of food (agriculture and livestock) per capita that is disposed and not
-      consumed
+    definition: Amount of food (crops and livestock) per capita that is disposed
+      and not consumed
     unit: kcal/cap/day
     weight: Population
 - Ocean|pH value:
