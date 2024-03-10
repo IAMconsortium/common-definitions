@@ -82,7 +82,7 @@
     unit: kcal/cap/day
     weight: Population
 - Price|Agriculture|Livestock|Index:
-    definition: weighted average price index of livestock
+    definition: Weighted average price index of livestock
     sdg: 2
     unit: Index (2020 = 1)
     skip-region-aggregation: true
@@ -109,47 +109,47 @@
     unit: million
     shape: Population|Child Mortality|Indoor Air Pollution
 - Population|Without Education [Share]:
-    definition: Share of people aged 15 or older without education (not counting those
-      with incomplete primary education)
+    definition: Share of people aged 15 or older without education,
+      not counting those with incomplete primary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Primary Education|Leaving Cohort [Share]:
-    definition: Share of school-leaving cohort ( age group 15-19) completing primary
-      education
+    definition: Share of school-leaving cohort aged 15-19 completing primary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Secondary Education|Leaving Cohort [Share]:
-    definition: Share of school-leaving cohort (age group 20-24) completing secondary
-      education (lower secondary or above)
+    definition: Share of school-leaving cohort aged 20-24 completing secondary education
+      (lower secondary or above)
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Adults|Without Secondary Education [Share]:
-    definition: Share of adults (age 20+) without secondary education
+    definition: Share of adults aged 20+ without secondary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Gender Education Gap|Primary:
     definition: Difference of percentage of males and females in school-leaving cohort
-      (age 15-19) with at least primary education
+      aged 15-19 with at least primary education
     sdg: 5
     unit: percentage points
     skip-region-aggregation: true
 - Population|Gender Education Gap|Secondary:
     definition: Difference of percentage of males and females in school-leaving cohort
-      (age 20-24) with at least lower secondary education
+      aged 20-24 with at least lower secondary education
     sdg: 5
     unit: percentage points
     skip-region-aggregation: true
 - Gender Inequality Index:
-    definition: Andrijevic et al. 2020
+    definition: Geometric average of reproductive health, empowerment and labor market
+      force participation rate (see Andrijevic et al., 2020)
     sdg: 5
-    unit: '-'
+    unit:
     weight: Population
 - Population|Severe Water Stress:
-    definition: number of people living in areas with severe water stress
+    definition: Number of people living in areas with severe water stress
     sdg: 6
     unit: million
 - Nitrogen|Pollution|Surplus|Animal Waste Management:
