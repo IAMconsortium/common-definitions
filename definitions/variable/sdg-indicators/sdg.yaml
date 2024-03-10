@@ -277,36 +277,17 @@
     unit: ug/m3
     weight: Population|Urban
     shape: Air Pollution|PM2.5|Urban population
-- Material Recycling|Chemicals:
-    definition: Production of Recycled Chemicals
+- Material Recycling|{Recycled Materials}:
+    description: Production of recycled {Recycled Materials}
     sdg: 12
     unit: Mt/year
-- Material Recycling|Steel:
-    definition: Production of Recycled Steel
-    sdg: 12
-    unit: Mt/year
-- Material Recycling|Aluminum:
-    definition: Production of Recycled Aluminum
-    sdg: 12
-    unit: Mt/year
-- Material recycling|Steel [Share]:
-    definition: Share of Recycled Steel
+- Material Recycling|{Recycled Materials} [Share]:
+    description: Share of recycled {Recycled Materials}
     sdg: 12
     unit: '%'
     skip-region-aggregation: true
 #     weight: Production|Iron and Steel|Volume
-- Material recycling|Aluminum [Share]:
-    definition: Share of Recycled Aluminum
-    sdg: 12
-    unit: '%'
-    skip-region-aggregation: true
-#     weight: Production|Non-Ferrous Metals|Aluminium|Volume
-- Material recycling|Plastic [Share]:
-    definition: Share of Recycled Plastic
-    sdg: 12
-    unit: '%'
-    skip-region-aggregation: true
-#     weight: Production|Chemicals|Plastics|Volume
+    shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
     definition: Biomass usage per capita (excluding pasture + forestry)
     sdg: 12
