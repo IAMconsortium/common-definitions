@@ -1,155 +1,155 @@
 - Population|Poverty|Extreme Poverty:
-    definition: Number of people living in extreme poverty with income
+    description: Number of people living in extreme poverty with income
       below USD_2011 1.90 PPP per day
     sdg: 1
     unit: million
     shape: Population|Extreme Poverty|International poverty line
 - Population|Poverty|LMIC Poverty Line:
-    definition: Number of people living in poverty with income with income
+    description: Number of people living in poverty with income with income
       below USD_2011 3.20 PPP per day (World Bank LMIC definition)
     sdg: 1
     unit: million
 - Population|Poverty|UMIC Poverty Line:
-    definition: Number of people living in poverty with income
+    description: Number of people living in poverty with income
       below USD_2011 5.50 PPP per day (World Bank LMIC definition)
     sdg: 1
     unit: million
 - Expenditure|Households|Food [Share]:
-    definition: Share of food expenditure in total income
+    description: Share of food expenditure in total income
     sdg: 1
     unit: '%'
     weight: GDP|PPP
     shape: Expenditure Share|Food
 - Population|Prevalence of Underweight:
-    definition: Number of adults with body mass index (BMI) lower than 18.5 and 
+    description: Number of adults with body mass index (BMI) lower than 18.5 and 
       children with BMI lower than two standard deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Underweight|Children:
-    definition: Number of children aged 0-14 years with BMI lower than two standard
+    description: Number of children aged 0-14 years with BMI lower than two standard
       deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Overweight:
-    definition: Number of adults with body mass index (BMI) greater than 25 and
+    description: Number of adults with body mass index (BMI) greater than 25 and
       children with BMI greater than one standard deviation from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Overweight|Children:
-    definition: Number of children aged 0-14 years with BMI greater than one standard
+    description: Number of children aged 0-14 years with BMI greater than one standard
       deviation from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Obesity:
-    definition: Number of adults with with body mass index (BMI) greater than 30 and
+    description: Number of adults with with body mass index (BMI) greater than 30 and
       children with BMI greater than two standard deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Obesity|Children:
-    definition: Number of children aged 0-14 with BMI greater than two standard
+    description: Number of children aged 0-14 with BMI greater than two standard
       deviations from reference
     sdg: 2
     unit: million
 - Population|Prevalence of Normal Weight:
-    definition: Number of adults with body mass index (BMI) BMI between 18.5 and 25 and
+    description: Number of adults with body mass index (BMI) BMI between 18.5 and 25 and
       children with BMI within two standard deviations below reference (lower bound)
         and one standard deviations above reference (upper bound)
     sdg: 2
     unit: million
 - Population|Prevalence of Normal Weight|Children:
-    definition: Number of children aged 0-14 with BMI within two standard deviations
+    description: Number of children aged 0-14 with BMI within two standard deviations
       below reference (lower bound) and one standard deviations above reference (upper bound)
     sdg: 2
     unit: million
 - Food|Availability [per capita]:
-    definition: Amount of food available for consumption per capita
+    description: Amount of food available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
 - Food|Availability|{Food Options} [per capita]:
-    definition: Amount of {Food Options} available for consumption per capita
+    description: Amount of {Food Options} available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
 - Food|Intake [per capita]:
-    definition: Food calorie intake per capita
+    description: Food calorie intake per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
 - Food|Intake|{Food Options} [per capita]:
-    definition: Calorie intake of {Food Options} per capita
+    description: Calorie intake of {Food Options} per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
 - Price|Agriculture|Livestock|Index:
-    definition: Weighted average price index of livestock
+    description: Weighted average price index of livestock
     sdg: 2
     unit: Index (2020 = 1)
     skip-region-aggregation: true
 #     weight: Agricultural Production|Non-Energy
 - Health|Premature Deaths|PM2.5:
-    definition: Number of premature deaths associated with increased health risks from
+    description: Number of premature deaths associated with increased health risks from
       exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
     sdg: 3
     unit: million
 - Health|Disability-Adjusted Life Years|PM2.5:
-    definition: Disability adjusted life years lost per year from health impacts
+    description: Disability adjusted life years lost per year from health impacts
       due to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
     sdg: 3
     unit: DALY/yr
     shape: Disability-Adjusted Life Year|PM2.5
 - Health|Child Mortality:
-    definition: Child mortality
+    description: Child mortality
     sdg: 3
     unit: million
     shape: Population|Child Mortality
 - Health|Child Mortality|Indoor Air Pollution:
-    definition: Child mortality associated with indoor air pollution
+    description: Child mortality associated with indoor air pollution
     sdg: 3
     unit: million
     shape: Population|Child Mortality|Indoor Air Pollution
 - Population|Without Education [Share]:
-    definition: Share of people aged 15 or older without education,
+    description: Share of people aged 15 or older without education,
       not counting those with incomplete primary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Primary Education|Leaving Cohort [Share]:
-    definition: Share of school-leaving cohort aged 15-19 completing primary education
+    description: Share of school-leaving cohort aged 15-19 completing primary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Secondary Education|Leaving Cohort [Share]:
-    definition: Share of school-leaving cohort aged 20-24 completing secondary education
+    description: Share of school-leaving cohort aged 20-24 completing secondary education
       (lower secondary or above)
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Adults|Without Secondary Education [Share]:
-    definition: Share of adults aged 20+ without secondary education
+    description: Share of adults aged 20+ without secondary education
     sdg: 4
     unit: '%'
     weight: Population
 - Population|Gender Education Gap|Primary:
-    definition: Difference of percentage of males and females in school-leaving cohort
+    description: Difference of percentage of males and females in school-leaving cohort
       aged 15-19 with at least primary education
     sdg: 5
     unit: percentage points
     skip-region-aggregation: true
 - Population|Gender Education Gap|Secondary:
-    definition: Difference of percentage of males and females in school-leaving cohort
+    description: Difference of percentage of males and females in school-leaving cohort
       aged 20-24 with at least lower secondary education
     sdg: 5
     unit: percentage points
     skip-region-aggregation: true
 - Gender Inequality Index:
-    definition: Geometric average of reproductive health, empowerment and labor market
+    description: Geometric average of reproductive health, empowerment and labor market
       force participation rate (see Andrijevic et al., 2020)
     sdg: 5
     unit:
     weight: Population
 - Population|Severe Water Stress:
-    definition: Number of people living in areas with severe water stress
+    description: Number of people living in areas with severe water stress
     sdg: 6
     unit: million
 - Pollution|Nitrogen|Surplus|{Nitrogen Sources}:
@@ -158,123 +158,123 @@
     unit: Tg N/yr
     shape: Nitrogen|Pollution|Surplus|{Nitrogen Sources}
 - Water Quality|Nitrogen Concentration:
-    definition: Concentration of nitrogen in water at river mouths
+    description: Concentration of nitrogen in water at river mouths
     sdg: 6
     unit: mg N/l
 - Water Quality|Phosphorus Concentration:
-    definition: Concentration of phosphorus in water at river mouths
+    description: Concentration of phosphorus in water at river mouths
     sdg: 6
     unit: mg P/l
 - Freshwater|Environmental Flow Violations:
-    definition: Water withdrawals at the expense of environmental flow requirements
+    description: Water withdrawals at the expense of environmental flow requirements
     sdg: 6
     unit: km3/yr
 - Useful Energy|Transportation|Passenger [per capita]:
-    definition: Useful energy per capita for passenger transport
+    description: Useful energy per capita for passenger transport
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
 - Useful Energy|Industry [per capita]:
-    definition: Useful energy per capita for industry
+    description: Useful energy per capita for industry
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
 - Useful Energy|Residential and Commercial [per capita]:
-    definition: Useful energy per capita for buildings
+    description: Useful energy per capita for buildings
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
 - Energy Service|Passenger|Road:
-    definition: Energy service demand for passenger transport on roads
+    description: Energy service demand for passenger transport on roads
     sdg: 7
     unit: billion pkm/yr
 - Energy Service|Transportation|Passenger|Active Transport [Share]:
-    definition: Shae of walking and cycling in passenger transport
+    description: Shae of walking and cycling in passenger transport
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
 #     weight: Energy Service|Transportation|Passenger
     shape: Energy Service|Transportation|Passenger|ActiveTransport|Share
 - Energy Service|Transportation|Passenger|Public Transport [Share]:
-    definition: Share of public transit in passenger transport
+    description: Share of public transit in passenger transport
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
 #     weight: Energy Service|Transportation|Passenger
     shape: Energy Service|Transportation|Passenger|PublicTransport|Share
 - Energy Service|Residential|Cooling Degree Days:
-    definition: Measure of how hot the temperature was over a given period
+    description: Measure of how hot the temperature was over a given period
       indicating higher energy needs for cooling
     sdg: 7
     unit: °C-days
     skip-region-aggregation: true
 #     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
-    definition: Measure of how cold the temperature was over a given period
+    description: Measure of how cold the temperature was over a given period
       indicating higher energy needs for heating
     sdg: 7
     unit: °C-days
     skip-region-aggregation: true
 #     weight: Energy Service|Residential|Floor Space
 - Final Energy|Industry|Electricity [Share]:
-    definition: Share of electricity in final energy demand for industry
+    description: Share of electricity in final energy demand for industry
     sdg: 7
     unit: '%'
     weight: Final Energy|Industry|Electricity
     shape: Final Energy|Industry|Electricity|Share
 - Intensity|Final Energy:
-    definition: Final Energy intensity
+    description: Final Energy intensity
     sdg: 7
     unit: EJ/billion USD_2010
     weight: GDP|PPP
 - GDP|PPP [Growth Rate per capita]:
-    definition: Annual growth rate of GDP-per-capita (PPP)
+    description: Annual growth rate of GDP-per-capita (PPP)
     sdg: 8
     unit: '%'
     weight: GDP|PPP
     shape: GDPpcap|PPP|Growth rate
 - GDP|PPP [per capita relative to OECD]:
-    definition: Ratio of GDP-per-capita (PPP) relative to OECD average
+    description: Ratio of GDP-per-capita (PPP) relative to OECD average
     sdg: 8
     unit: '%'
     weight: Population
     shape: GDPpcap|PPP|Ratio to OECD
 - Population|Poverty|National Poverty Line [Share]:
-    definition: Share of population living in relative poverty with income below their
+    description: Share of population living in relative poverty with income below their
       respective national poverty lines
     sdg: 10
     unit: '%'
     weight: Population
     shape: Population|Relative Poverty|Share
 - Population|Poverty|Below 50% of National Median Income [Share]:
-    definition: Share of population below 50% of median national income
+    description: Share of population below 50% of median national income
     sdg: 10
     unit: '%'
     weight: Population
     shape: Population|Relative poverty|wrt median income|Share
 - Inequality|Average Income|Bottom 40% [Ratio]:
-    definition: Average income of bottom 40% of population relative to national average
+    description: Average income of bottom 40% of population relative to national average
     sdg: 10
     unit: '%'
     weight: Population
     shape: Inequality|Bottom 40% average income|Ratio
 - Population|Informal Settlements:
-    definition: Number of people living in informal settlements, e.g., slums
+    description: Number of people living in informal settlements, e.g., slums
     sdg: 11
     unit: million
 - Population|Substandard Accommodation:
-    definition: Number of people living in substandard accommodation, e.g., accommodation
+    description: Number of people living in substandard accommodation, e.g., accommodation
       that does not meet legal requirements and/or enable well being for the occupants
     sdg: 11
     unit: million
     shape: Population|substandard accommodation
 - Population|Urban [Share]:
-    definition: Share of population living in urban areas
+    description: Share of population living in urban areas
     sdg: 11
     unit: '%'
     weight: Population
 - Air Pollution|PM2.5|Urban Population:
-    definition: Urban population weighted annual average PM2.5 concentrations.
+    description: Urban population weighted annual average PM2.5 concentrations.
     sdg: 11
     unit: ug/m3
     weight: Population|Urban
@@ -291,127 +291,127 @@
 #     weight: Production|Iron and Steel|Volume
     shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
-    definition: Biomass usage per capita excluding pasture and forestry
+    description: Biomass usage per capita excluding pasture and forestry
     sdg: 12
     unit: tDM/cap/yr
     weight: Population
     shape: Agricultural Material Footprint
 - Food Waste [per capita]:
-    definition: Amount of food (crops and livestock) per capita that is disposed
+    description: Amount of food (crops and livestock) per capita that is disposed
       and not consumed
     unit: kcal/cap/day
     weight: Population
 - Ocean|Acidification:
-    definition: Ocean acidification
+    description: Ocean acidification
     sdg: 14
     unit: pH
     skip-region-aggregation: true
     shape: Ocean|pH value
 - Ocean|Carbonate Saturation|Aragonite:
-    definition: Saturation state of aragonite (Omega A)
+    description: Saturation state of aragonite (Omega A)
     sdg: 14
     unit:
     skip-region-aggregation: true
 - Ocean|Carbonate Saturation|Calcite:
-    definition: Saturation state of calcite (Omega C)
+    description: Saturation state of calcite (Omega C)
     sdg: 14
     unit:
     skip-region-aggregation: true  
 - Land Cover|Forest|Natural Forest|Primary Forest:
-    definition: Undisturbed primary natural forests
+    description: Undisturbed primary natural forests
     sdg: 15
     unit: million ha   
 - Land Cover|Forest|Natural Forest|Secondary Forest:
-    definition: Modified natural forests and secondary forests from natural succession
+    description: Modified natural forests and secondary forests from natural succession
     sdg: 15
     unit: million ha      
 - Terrestrial Biodiversity|MSA:
-    definition: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
+    description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 #     weight: Land Cover
 - Terrestrial Biodiversity|BII|Cropland Landscapes:
-    definition: Terrestrial biodiversity in landscapes containing cropland measured
+    description: Terrestrial biodiversity in landscapes containing cropland measured
       with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 #     weight: Land Cover|Cropland
 - Terrestrial Biodiversity|BII|Biodiversity Hotspots:
-    definition: Terrestrial biodiversity in biodiversity hotspot landscapes measured
+    description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|BII|Key Conservation Landscapes:
-    definition: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
+    description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
       measured with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|BII|Areas Outside Key Conservation and Cropland Landscapes:
-    definition: Terrestrial biodiversity in areas outside biodiversity hotspot,
+    description: Terrestrial biodiversity in areas outside biodiversity hotspot,
       intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
-    definition: Crop diversity measured by the Shannon index accounting for crop richness
+    description: Crop diversity measured by the Shannon index accounting for crop richness
       and abundance
     sdg: 15
     unit: index
     skip-region-aggregation: true
 #     weight: Land Cover|Cropland
 - Nitrogen|Cropland Budget|Inputs:
-    definition: Total nitrogen inputs on cropland
+    description: Total nitrogen inputs on cropland
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Industrial and Intentional Biological Fixation:
-    definition: Nitrogen inputs on cropland via industrial and intentional biological fixation
+    description: Nitrogen inputs on cropland via industrial and intentional biological fixation
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Biological Fixation:
-    definition: Nitrogen inputs on cropland from biological fixation (symbiotic crops and free-living bacteria)
+    description: Nitrogen inputs on cropland from biological fixation (symbiotic crops and free-living bacteria)
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Biological Fixation|Symbiotic Crops:
-    definition: Nitrogen inputs on cropland from symbiotic fixation in plants
+    description: Nitrogen inputs on cropland from symbiotic fixation in plants
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Organic:
-    definition: Nitrogen inputs on cropland from organic fertilizers
+    description: Nitrogen inputs on cropland from organic fertilizers
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Inorganic:
-    definition: Nitrogen inputs on cropland from inorganic fertilizers
+    description: Nitrogen inputs on cropland from inorganic fertilizers
     sdg: 15
     unit: Tg N/yr
 - Nitrogen|Cropland Budget|Inputs|Other:
-    definition: Nitrogen inputs on cropland from other sources
+    description: Nitrogen inputs on cropland from other sources
     sdg: 15
     unit: Tg N/yr
 - Political Institutions|Equality Before Law and Individual Liberty:
-    definition: Aggregated 'Equality Before the Law and Individual Liberty' index (0-1)
+    description: Aggregated 'Equality Before the Law and Individual Liberty' index (0-1)
       as defined by V-DEM
     sdg: 16
     unit:
     weight: Population
     shape: Political Institutions|Equality before law and individual liberty
 - Price|Carbon [relative to OECD]:
-    definition: Carbon price relative to OECD carbon price
+    description: Carbon price relative to OECD carbon price
     sdg: 17
     unit: '%'
     skip-region-aggregation: true
     shape: Price|Carbon|Ratio to OECD
 - Policy Cost|GDP Loss w/o Transfers:
-    definition: GDP loss without international transfers in a policy scenario compared
+    description: GDP loss without international transfers in a policy scenario compared
       to the corresponding baseline (losses should be reported as positive numbers)
     sdg: 17
     unit: billion USD_2010/yr
     shape: Policy Cost|GDP Loss|w/o transfers
 - Policy Cost|Transfers:
-    definition: Net international climate finance transfers (positive for inflow,
+    description: Net international climate finance transfers (positive for inflow,
       negative for payment)
     sdg: 17
     unit: billion USD_2010/yr
