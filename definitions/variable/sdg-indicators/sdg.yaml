@@ -1,0 +1,447 @@
+- Population|Extreme Poverty|International Poverty Line:
+    definition: population living in extreme poverty with income <US$1.90 2011 PPP
+      per day
+    sdg: 1
+    unit: million
+- Population|Poverty|LMIC Poverty Line:
+    definition: population living in poverty with income <US$3.20 2011 PPP per day
+      (World Bank LMIC definition)
+    sdg: 1
+    unit: million
+- Population|Poverty|UMIC Poverty Line:
+    definition: population living in poverty with income <US$5.50 2011 PPP per day
+      (World Bank LMIC definition)
+    sdg: 1
+    unit: million
+- Expenditure|Food [Share]:
+    definition: Share of food expenditure in total income
+    sdg: 1
+    unit: '%'
+    weight: GDP|PPP
+- Population|Prevalence of Underweight:
+    definition: Number of adults with BMI<18.5 and children with <-2SD from reference
+      BMI
+    sdg: 2
+    unit: million
+- Population|Prevalence of Underweight|Children:
+    definition: Number of underweight children (<-2SD from reference BMI, aged 0--14)
+    sdg: 2
+    unit: million
+- Population|Prevalence of Overweight:
+    definition: Number of adults with BMI>25 and children with >+1SD from reference
+      BMI
+    sdg: 2
+    unit: million
+- Population|Prevalence of Overweight|Children:
+    definition: Number of overweight children (>+1SD from reference BMI, aged 0--14)
+    sdg: 2
+    unit: million
+- Population|Prevalence of Obesity:
+    definition: Number of adults with BMI>30 and children with >+2SD from reference
+      BMI
+    sdg: 2
+    unit: million
+- Population|Prevalence of Obesity|Children:
+    definition: Number of obese children (+2SD from reference BMI, aged 0--14)
+    sdg: 2
+    unit: million
+- Population|Prevalence of Normal Weight:
+    definition: "Number of adults with BMI 18.5\u201325 and children within -2SD and\
+      \ +1SD relative to reference BMI"
+    sdg: 2
+    unit: million
+- Population|Prevalence of Normal Weight|Children:
+    definition: Number of normal-weight children (within -2SD and +1SD relative to
+      reference BMI, aged 0--14)
+    sdg: 2
+    unit: million
+- Food|Availability [per capita]:
+    definition: Food available for consumption per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Availability|Crops [per capita]:
+    definition: Food crops available for consumption per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Availability|Livestock [per capita]:
+    definition: Livestock products available for consumption per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Intake [per capita]:
+    definition: Food calorie intake per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Intake|Crops [per capita]:
+    definition: Calorie intake from food crops per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Intake|Livestock [per capita]:
+    definition: Calorie intake from livestock products per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Price|Agriculture|Livestock|Index:
+    definition: weighted average price index of livestock
+    sdg: 2
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+#     weight: Agricultural Production|Non-Energy
+- Premature Deaths|PM2.5:
+    definition: Premature deaths associated with increase health risks from exposure
+      to PM2.5 air pollution
+    sdg: 3
+    unit: million
+- Disability-Adjusted Life Year|PM2.5:
+    definition: Disability adjusted life years lost per year from air pollution health
+      impact
+    sdg: 3
+    unit: DALY/yr
+- Population|Child Mortality:
+    definition: Child mortality
+    sdg: 3
+    unit: million
+- Population|Child Mortality|Indoor Air Pollution:
+    definition: Child mortality associated with indoor air pollution
+    sdg: 3
+    unit: million
+- Population|Without Education [Share]:
+    definition: Share of people aged 15 or older without education (not counting those
+      with incomplete primary education)
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Primary Education|Leaving Cohort [Share]:
+    definition: Share of school-leaving cohort ( age group 15-19) completing primary
+      education
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Secondary Education|Leaving Cohort [Share]:
+    definition: Share of school-leaving cohort (age group 20-24) completing secondary
+      education (lower secondary or above)
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Adults|Without Secondary Education [Share]:
+    definition: Share of adults (age 20+) without secondary education
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Gender Education Gap|Primary:
+    definition: Difference of percentage of males and females in school-leaving cohort
+      (age 15-19) with at least primary education
+    sdg: 5
+    unit: percentage points
+    skip-region-aggregation: true
+- Population|Gender Education Gap|Secondary:
+    definition: Difference of percentage of males and females in school-leaving cohort
+      (age 20-24) with at least lower secondary education
+    sdg: 5
+    unit: percentage points
+    skip-region-aggregation: true
+- Gender Inequality Index:
+    definition: Andrijevic et al. 2020
+    sdg: 5
+    unit: '-'
+    weight: Population
+- Population|Severe Water Stress:
+    definition: number of people living in areas with severe water stress
+    sdg: 6
+    unit: million
+- Nitrogen|Pollution|Surplus|Animal Waste Management:
+    definition: Nitrogen surplus in animal waste management
+    sdg: 6
+    unit: Tg N/yr
+- Nitrogen|Pollution|Surplus|Cropland:
+    definition: Nitrogen surplus of soil inputs over soil withdrawals in cropland
+    sdg: 6
+    unit: Tg N/yr
+- Nitrogen|Pollution|Surplus|Non-agricultural Land:
+    definition: Nitrogen surplus in non-agricultural land
+    sdg: 6
+    unit: Tg N/yr
+- Nitrogen|Pollution|Surplus|Pasture:
+    definition: Nitrogen surplus of soil inputs over soil withdrawals in pasture
+    sdg: 6
+    unit: Tg N/yr 
+- Water Quality|Nitrogen Concentration:
+    definition: Concentration of nitrogen in water at river mouths
+    sdg: 6
+    unit: mg N/l
+- Water Quality|Phosphorus Concentration:
+    definition: Concentration of phosphorus in water at river mouths
+    sdg: 6
+    unit: mg P/l
+- Freshwater|Environmental Flow Violations:
+    definition: Water withdrawals at the expense of environmental flow requirements
+    sdg: 6
+    unit: km3/yr
+- Useful Energy|Transportation|Passenger [per capita]:
+    definition: Useful energy per capita for passenger transport.
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Industry [per capita]:
+    definition: Useful energy per capita for industry.
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Residential and Commercial [per capita]:
+    definition: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Energy Service|Passenger|Road:
+    definition: energy service demand for passenger transport on roads
+    sdg: 7
+    unit: bn pkm/yr
+- Energy Service|Transportation|Passenger|ActiveTransport [Share]:
+    definition: Walking and Cycling share of passenger transport
+    sdg: 7
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
+- Energy Service|Transportation|Passenger|PublicTransport [Share]:
+    definition: Public share of passenger transport
+    sdg: 7
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
+- Energy Service|Residential|Cooling Degree Days:
+    definition:
+    sdg: 7
+    unit: C days
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
+- Energy Service|Residential|Heating Degree Days:
+    definition:
+    sdg: 7
+    unit: C days
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
+- Final Energy|Industry|Electricity [Share]:
+    definition: Share of electrified final energy demand of industry
+    sdg: 7
+    unit: '%'
+    weight: Final Energy|Industry|Electricity
+- Intensity|Final Energy:
+    definition: Final Energy intensity
+    sdg: 7
+    unit: EJ/billion US$2010
+    weight: GDP|PPP
+- GDP|PPP|per capita|Growth Rate:
+    definition: GDP/cap (PPP) growth rate
+    sdg: 8
+    unit: '%'
+    weight: GDP|PPP
+- GDP|PPP|per capita|Relative to OECD [Ratio]:
+    definition: Ratio of GDP/cap (PPP) of country/region to OECD average
+    sdg: 8
+    unit: '%'
+    weight: Population
+- Production|Cement:
+    definition: production of cement
+    sdg: 9
+    unit: Mt/year
+- Production|Steel:
+    definition: production of steel
+    sdg: 9
+    unit: Mt/year
+- Production|Steel|Primary:
+    definition: production of primary steel
+    sdg: 9
+    unit: Mt/year
+- Production|Steel|Secondary:
+    definition: production of secondary steel
+    sdg: 9
+    unit: Mt/year
+- Value Added|Industry|Other Industry:
+    definition:
+    sdg: 9
+    unit: billion US$2010
+- Population|Relative Poverty [Share]:
+    definition: Share of population living in relative poverty with income below their
+      respective national poverty lines.
+    sdg: 10
+    unit: '%'
+    weight: Population
+- Population|Relative poverty|wrt median income [Share]:
+    definition: Share of population below 50% of median national income
+    sdg: 10
+    unit: '%'
+    weight: Population
+- Inequality|Bottom 40% average income [Ratio]:
+    definition: Average income of bottom 40% relative to national average
+    sdg: 10
+    unit: '%'
+    weight: Population
+- Population|Informal Settlements:
+    definition: population living in informal settlements (e.g. slums)
+    sdg: 11
+    unit: million
+- Population|substandard accommodation:
+    definition: population living in substandard accommodation (e.g. accommodation
+      that does not meet legal requirements and/or enable well being for the occupants
+    sdg: 11
+    unit: million
+- Population|Urban [Share]:
+    definition: share of population living in urban areas
+    sdg: 11
+    unit: '%'
+    weight: Population
+- Air Pollution|PM2.5|Urban population:
+    definition: Urban population weighted annual average PM2.5 concentrations.
+    sdg: 11
+    unit: ug/m3
+    weight: Population|Urban
+- Material Recycling|Chemicals:
+    definition: Production of Recycled Chemicals
+    sdg: 12
+    unit: Mt/year
+- Material Recycling|Steel:
+    definition: Production of Recycled Steel
+    sdg: 12
+    unit: Mt/year
+- Material Recycling|Aluminum:
+    definition: Production of Recycled Aluminum
+    sdg: 12
+    unit: Mt/year
+- Material recycling|Steel [Share]:
+    definition: Share of Recycled Steel
+    sdg: 12
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Production|Iron and Steel|Volume
+- Material recycling|Aluminum [Share]:
+    definition: Share of Recycled Aluminum
+    sdg: 12
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Production|Non-Ferrous Metals|Aluminium|Volume
+- Material recycling|Plastic [Share]:
+    definition: Share of Recycled Plastic
+    sdg: 12
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Production|Chemicals|Plastics|Volume
+- Agricultural Material Footprint [per capita]:
+    definition: Biomass usage per capita (excluding pasture + forestry)
+    sdg: 12
+    unit: tDM/cap/yr
+    weight: Population
+- Food Waste [per capita]:
+    definition: Amount of food (agriculture and livestock) per capita that is disposed and not
+      consumed
+    unit: kcal/cap/day
+    weight: Population
+- Ocean|pH value:
+    definition: 'Ocean acidification: pH value'
+    sdg: 14
+    unit: '-'
+    skip-region-aggregation: true
+- Ocean|Carbonate Saturation|Aragonite:
+    definition: Saturation state of aragonite (Omega_A)
+    sdg: 14
+    unit: '-'
+    skip-region-aggregation: true
+- Ocean|Carbonate Saturation|Calcite:
+    definition: Saturation state of calcite (Omega_C)
+    sdg: 14
+    unit: '-'
+    skip-region-aggregation: true  
+- Land Cover|Forest|Natural Forest|Primary Forest:
+    definition: Undisturbed primary natural forests
+    sdg: 15
+    unit: million ha   
+- Land Cover|Forest|Natural Forest|Secondary Forest:
+    definition: Modified natural forests and secondary forests from natural succession
+    sdg: 15
+    unit: million ha      
+- Terrestrial Biodiversity|MSA:
+    definition: Terrestrial biodiversity measured in Mean Species
+      Abundance (MSA)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Land Cover
+- Terrestrial Biodiversity|BII|Cropland Landscapes:
+    definition: Terrestrial biodiversity in landscapes containing cropland measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Land Cover|Cropland
+- Terrestrial Biodiversity|BII|Biodiversity Hotspots:
+    definition: Terrestrial biodiversity in biodiversity hotspot landscapes measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|BII|Key Conservation Landscapes:
+    definition: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|BII|Areas Outside Key Conservation and Cropland Landscapes:
+    definition: Terrestrial biodiversity in areas outside biodiversity hotspot, intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|Shannon Crop Diversity Index:
+    definition: Crop diversity measured by the Shannon index accounting for crop richness and abundance
+    sdg: 15
+    unit: index
+    skip-region-aggregation: true
+#     weight: Land Cover|Cropland
+- Nitrogen|Cropland Budget|Inputs:
+    definition: Total nitrogen inputs on cropland
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Industrial and Intentional Biological Fixation:
+    definition: Nitrogen inputs on cropland via industrial and intentional biological fixation
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Biological Fixation:
+    definition: Nitrogen inputs on cropland from biological fixation (symbiotic crops and free-living bacteria)
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Biological Fixation|Symbiotic Crops:
+    definition: Nitrogen inputs on cropland from symbiotic fixation in plants
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Organic:
+    definition: Nitrogen inputs on cropland from organic fertilizers
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Inorganic:
+    definition: Nitrogen inputs on cropland from inorganic fertilizers
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Other:
+    definition: Nitrogen inputs on cropland from other sources
+    sdg: 15
+    unit: Tg N/yr
+- Political Institutions|Equality before law and individual liberty:
+    definition: Aggregated 'equality Before the Law and Individual Liberty' index (0-1)
+      as defined by V-DEM
+    sdg: 16
+    unit: '-'
+    weight: Population
+- Price|Carbon|Relative to OECD [Ratio]:
+    definition: Ratio of carbon price to OECD carbon price
+    sdg: 17
+    unit: '%'
+    skip-region-aggregation: true
+- Policy Cost|GDP Loss|w/o Transfers:
+    definition: GDP loss (without international transfers) in a policy scenario compared
+      to the corresponding baseline (losses should be reported as positive numbers)
+    sdg: 17
+    unit: billion US$2010/yr
+- Policy Cost|Transfers:
+    definition: Net international climate finance transfers (positive for inflow,
+      negative for payment)
+    sdg: 17
+    unit: billion US$2010/yr
