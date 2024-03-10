@@ -237,26 +237,6 @@
     unit: '%'
     weight: Population
     shape: GDPpcap|PPP|Ratio to OECD
-- Production|Cement:
-    definition: production of cement
-    sdg: 9
-    unit: Mt/year
-- Production|Steel:
-    definition: production of steel
-    sdg: 9
-    unit: Mt/year
-- Production|Steel|Primary:
-    definition: production of primary steel
-    sdg: 9
-    unit: Mt/year
-- Production|Steel|Secondary:
-    definition: production of secondary steel
-    sdg: 9
-    unit: Mt/year
-- Value Added|Industry|Other Industry:
-    definition:
-    sdg: 9
-    unit: billion US$2010
 - Population|Poverty|National Poverty Line [Share]:
     definition: Share of population living in relative poverty with income below their
       respective national poverty lines
