@@ -62,17 +62,12 @@
     sdg: 2
     unit: million
 - Food|Availability [per capita]:
-    definition: Food available for consumption per capita
+    definition: Amount of food available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Availability|Crops [per capita]:
-    definition: Food crops available for consumption per capita
-    sdg: 2
-    unit: kcal/cap/day
-    weight: Population
-- Food|Availability|Livestock [per capita]:
-    definition: Livestock products available for consumption per capita
+- Food|Availability|{Food Options} [per capita]:
+    definition: Amount of {Food Options} available for consumption per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
@@ -81,13 +76,8 @@
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Intake|Crops [per capita]:
-    definition: Calorie intake from food crops per capita
-    sdg: 2
-    unit: kcal/cap/day
-    weight: Population
-- Food|Intake|Livestock [per capita]:
-    definition: Calorie intake from livestock products per capita
+- Food|Intake|{Food Options} [per capita]:
+    definition: Calorie intake of {Food Options} per capita
     sdg: 2
     unit: kcal/cap/day
     weight: Population
