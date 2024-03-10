@@ -87,24 +87,27 @@
     unit: Index (2020 = 1)
     skip-region-aggregation: true
 #     weight: Agricultural Production|Non-Energy
-- Premature Deaths|PM2.5:
-    definition: Premature deaths associated with increase health risks from exposure
-      to PM2.5 air pollution
+- Health|Premature Deaths|PM2.5:
+    definition: Number of premature deaths associated with increased health risks from
+      exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
     sdg: 3
     unit: million
-- Disability-Adjusted Life Year|PM2.5:
-    definition: Disability adjusted life years lost per year from air pollution health
-      impact
+- Health|Disability-Adjusted Life Years|PM2.5:
+    definition: Disability adjusted life years lost per year from health impacts
+      due to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
     sdg: 3
     unit: DALY/yr
-- Population|Child Mortality:
+    shape: Disability-Adjusted Life Year|PM2.5
+- Health|Child Mortality:
     definition: Child mortality
     sdg: 3
     unit: million
-- Population|Child Mortality|Indoor Air Pollution:
+    shape: Population|Child Mortality
+- Health|Child Mortality|Indoor Air Pollution:
     definition: Child mortality associated with indoor air pollution
     sdg: 3
     unit: million
+    shape: Population|Child Mortality|Indoor Air Pollution
 - Population|Without Education [Share]:
     definition: Share of people aged 15 or older without education (not counting those
       with incomplete primary education)
