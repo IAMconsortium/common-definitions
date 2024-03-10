@@ -389,24 +389,27 @@
     definition: Nitrogen inputs on cropland from other sources
     sdg: 15
     unit: Tg N/yr
-- Political Institutions|Equality before law and individual liberty:
-    definition: Aggregated 'equality Before the Law and Individual Liberty' index (0-1)
+- Political Institutions|Equality Before Law and Individual Liberty:
+    definition: Aggregated 'Equality Before the Law and Individual Liberty' index (0-1)
       as defined by V-DEM
     sdg: 16
-    unit: '-'
+    unit:
     weight: Population
-- Price|Carbon|Relative to OECD [Ratio]:
-    definition: Ratio of carbon price to OECD carbon price
+    shape: Political Institutions|Equality before law and individual liberty
+- Price|Carbon [relative to OECD]:
+    definition: Carbon price relative to OECD carbon price
     sdg: 17
     unit: '%'
     skip-region-aggregation: true
-- Policy Cost|GDP Loss|w/o Transfers:
-    definition: GDP loss (without international transfers) in a policy scenario compared
+    shape: Price|Carbon|Ratio to OECD
+- Policy Cost|GDP Loss w/o Transfers:
+    definition: GDP loss without international transfers in a policy scenario compared
       to the corresponding baseline (losses should be reported as positive numbers)
     sdg: 17
-    unit: billion US$2010/yr
+    unit: billion USD_2010/yr
+    shape: Policy Cost|GDP Loss|w/o transfers
 - Policy Cost|Transfers:
     definition: Net international climate finance transfers (positive for inflow,
       negative for payment)
     sdg: 17
-    unit: billion US$2010/yr
+    unit: billion USD_2010/yr
