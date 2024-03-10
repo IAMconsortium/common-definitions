@@ -257,17 +257,19 @@
     definition:
     sdg: 9
     unit: billion US$2010
-- Population|Relative Poverty [Share]:
+- Population|Poverty|National Poverty Line [Share]:
     definition: Share of population living in relative poverty with income below their
-      respective national poverty lines.
+      respective national poverty lines
     sdg: 10
     unit: '%'
     weight: Population
-- Population|Relative poverty|wrt median income [Share]:
+    shape: Population|Relative Poverty|Share
+- Population|Poverty|Below 50% of National Median Income [Share]:
     definition: Share of population below 50% of median national income
     sdg: 10
     unit: '%'
     weight: Population
+    shape: Population|Relative poverty|wrt median income|Share
 - Inequality|Bottom 40% average income [Ratio]:
     definition: Average income of bottom 40% relative to national average
     sdg: 10
