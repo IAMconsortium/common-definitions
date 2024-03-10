@@ -250,30 +250,33 @@
     unit: '%'
     weight: Population
     shape: Population|Relative poverty|wrt median income|Share
-- Inequality|Bottom 40% average income [Ratio]:
-    definition: Average income of bottom 40% relative to national average
+- Inequality|Average Income|Bottom 40% [Ratio]:
+    definition: Average income of bottom 40% of population relative to national average
     sdg: 10
     unit: '%'
     weight: Population
+    shape: Inequality|Bottom 40% average income|Ratio
 - Population|Informal Settlements:
-    definition: population living in informal settlements (e.g. slums)
+    definition: Number of people living in informal settlements, e.g., slums
     sdg: 11
     unit: million
-- Population|substandard accommodation:
-    definition: population living in substandard accommodation (e.g. accommodation
+- Population|Substandard Accommodation:
+    definition: Number of people living in substandard accommodation, e.g., accommodation
       that does not meet legal requirements and/or enable well being for the occupants
     sdg: 11
     unit: million
+    shape: Population|substandard accommodation
 - Population|Urban [Share]:
-    definition: share of population living in urban areas
+    definition: Share of population living in urban areas
     sdg: 11
     unit: '%'
     weight: Population
-- Air Pollution|PM2.5|Urban population:
+- Air Pollution|PM2.5|Urban Population:
     definition: Urban population weighted annual average PM2.5 concentrations.
     sdg: 11
     unit: ug/m3
     weight: Population|Urban
+    shape: Air Pollution|PM2.5|Urban population
 - Material Recycling|Chemicals:
     definition: Production of Recycled Chemicals
     sdg: 12
