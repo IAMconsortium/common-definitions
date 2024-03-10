@@ -1,23 +1,25 @@
-- Population|Extreme Poverty|International Poverty Line:
-    definition: population living in extreme poverty with income <US$1.90 2011 PPP
-      per day
+- Population|Poverty|Extreme Poverty:
+    definition: Number of people living in extreme poverty with income
+      below USD_2011 1.90 PPP per day
     sdg: 1
     unit: million
+    shape: Population|Extreme Poverty|International poverty line
 - Population|Poverty|LMIC Poverty Line:
-    definition: population living in poverty with income <US$3.20 2011 PPP per day
-      (World Bank LMIC definition)
+    definition: Number of people living in poverty with income with income
+      below USD_2011 3.20 PPP per day (World Bank LMIC definition)
     sdg: 1
     unit: million
 - Population|Poverty|UMIC Poverty Line:
-    definition: population living in poverty with income <US$5.50 2011 PPP per day
-      (World Bank LMIC definition)
+    definition: Number of people living in poverty with income
+      below USD_2011 5.50 PPP per day (World Bank LMIC definition)
     sdg: 1
     unit: million
-- Expenditure|Food [Share]:
+- Expenditure|Households|Food [Share]:
     definition: Share of food expenditure in total income
     sdg: 1
     unit: '%'
     weight: GDP|PPP
+    shape: Expenditure Share|Food
 - Population|Prevalence of Underweight:
     definition: Number of adults with BMI<18.5 and children with <-2SD from reference
       BMI
