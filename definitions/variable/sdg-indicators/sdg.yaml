@@ -152,22 +152,11 @@
     definition: Number of people living in areas with severe water stress
     sdg: 6
     unit: million
-- Nitrogen|Pollution|Surplus|Animal Waste Management:
-    definition: Nitrogen surplus in animal waste management
+- Pollution|Nitrogen|Surplus|{Nitrogen Sources}:
+    description: Nitrogen surplus of {Nitrogen Sources}
     sdg: 6
     unit: Tg N/yr
-- Nitrogen|Pollution|Surplus|Cropland:
-    definition: Nitrogen surplus of soil inputs over soil withdrawals in cropland
-    sdg: 6
-    unit: Tg N/yr
-- Nitrogen|Pollution|Surplus|Non-agricultural Land:
-    definition: Nitrogen surplus in non-agricultural land
-    sdg: 6
-    unit: Tg N/yr
-- Nitrogen|Pollution|Surplus|Pasture:
-    definition: Nitrogen surplus of soil inputs over soil withdrawals in pasture
-    sdg: 6
-    unit: Tg N/yr 
+    shape: Nitrogen|Pollution|Surplus|{Nitrogen Sources}
 - Water Quality|Nitrogen Concentration:
     definition: Concentration of nitrogen in water at river mouths
     sdg: 6
