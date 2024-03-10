@@ -170,12 +170,12 @@
     sdg: 6
     unit: km3/yr
 - Useful Energy|Transportation|Passenger [per capita]:
-    definition: Useful energy per capita for passenger transport.
+    definition: Useful energy per capita for passenger transport
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
 - Useful Energy|Industry [per capita]:
-    definition: Useful energy per capita for industry.
+    definition: Useful energy per capita for industry
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
@@ -185,42 +185,45 @@
     unit: GJ/cap/yr
     weight: Population
 - Energy Service|Passenger|Road:
-    definition: energy service demand for passenger transport on roads
+    definition: Energy service demand for passenger transport on roads
     sdg: 7
-    unit: bn pkm/yr
-- Energy Service|Transportation|Passenger|ActiveTransport [Share]:
-    definition: Walking and Cycling share of passenger transport
-    sdg: 7
-    unit: '%'
-    skip-region-aggregation: true
-#     weight: Energy Service|Transportation|Passenger
-- Energy Service|Transportation|Passenger|PublicTransport [Share]:
-    definition: Public share of passenger transport
+    unit: billion pkm/yr
+- Energy Service|Transportation|Passenger|Active Transport [Share]:
+    definition: Shae of walking and cycling in passenger transport
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
 #     weight: Energy Service|Transportation|Passenger
+    shape: Energy Service|Transportation|Passenger|ActiveTransport|Share
+- Energy Service|Transportation|Passenger|Public Transport [Share]:
+    definition: Share of public transit in passenger transport
+    sdg: 7
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
+    shape: Energy Service|Transportation|Passenger|PublicTransport|Share
 - Energy Service|Residential|Cooling Degree Days:
     definition:
     sdg: 7
-    unit: C days
+    unit: °C-days
     skip-region-aggregation: true
 #     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
     definition:
     sdg: 7
-    unit: C days
+    unit: °C-days
     skip-region-aggregation: true
 #     weight: Energy Service|Residential|Floor Space
 - Final Energy|Industry|Electricity [Share]:
-    definition: Share of electrified final energy demand of industry
+    definition: Share of electricity in final energy demand for industry
     sdg: 7
     unit: '%'
     weight: Final Energy|Industry|Electricity
+    shape: Final Energy|Industry|Electricity|Share
 - Intensity|Final Energy:
     definition: Final Energy intensity
     sdg: 7
-    unit: EJ/billion US$2010
+    unit: EJ/billion USD_2010
     weight: GDP|PPP
 - GDP|PPP|per capita|Growth Rate:
     definition: GDP/cap (PPP) growth rate
