@@ -12,6 +12,10 @@ Read more about the [IAMC data format](https://docs.ece.iiasa.ac.at/iamc.html).
 This project uses the Python package [nomenclature-iamc](https://nomenclature-iamc.readthedocs.io)
 for management of codelists and validation of scenario data in the IAMC data format.
 
+For *users not comfortable working with GitHub repositories and yaml files*,
+the definitions for this project are available for download as an xlsx spreadsheet
+at https://files.ece.iiasa.ac.at/common-definitions/project-template.xlsx.
+
 ## Codelists and mappings
 
 The folder `definitions` contains the "codelists", i.e., list of allowed variables and
