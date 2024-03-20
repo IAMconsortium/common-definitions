@@ -1,12 +1,16 @@
 - Carbon-Removal Option:
     - Afforestation:
-        description: afforestation
+        description: increasing forested land area and thereby increasing vegetation
+          and soil carbon stocks
     - Agroforestry:
-        description: agroforestry
+        description: integrating trees into crop and pasture lands to increase
+          vegetation and soil carbon stocks
     - Biochar:
-        description: production of biochar using pyrolysis
+        description: conversion of biomass to recalcitrant carbon via pyrolysis and its
+          subsequent application to croplands to increase soil carbon stocks
     - Soil Management:
-        description: soil management
+        description: increasing organic carbon content through no- or low-till
+          agricultural practices, or manure or compost application, excluding biochar
     - Enhanced Weathering:
         description: enhanced weathering
     - Ocean Alkalinity Enhancement:
