@@ -14,6 +14,22 @@
       below USD_2011 5.50 PPP per day (World Bank LMIC definition)
     sdg: 1
     unit: million
+- Population|Risk of Hunger:
+    definition: Population at risk of hunger, calculated by multipling total population
+      and prevalence of undernourishment which is computed from a probability distribution
+      of daily dietary energy consumption and minimum dietary energy requirement.
+    unit: million
+- Population|Electricity Access:
+    definition: Population with access to electricity
+    unit: million
+- Population|Relying on Solid Fuels:
+    definition: Population without access to electricity and relying on solid fuels
+      for heating-cooking
+    unit: million
+- Population|Clean cooking Access:
+    definition: Population with access to improved cooking facilities (electric or
+      gas)
+    unit: million
 - Expenditure|Households|Food [Share]:
     description: Share of food expenditure in total income
     sdg: 1
@@ -184,12 +200,28 @@
     sdg: 7
     unit: GJ/cap/yr
     weight: Population
-- Energy Service|Passenger|Road:
+- Useful Energy|Residential [per capita]:
+    description: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Commercial [per capita]:
+    description: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Energy Service|Transportation|Freight:
+    definition: energy service demand for freight transport
+    unit: billion tkm/yr
+- Energy Service|Transportation|Passenger:
+    definition: energy service demand for passenger transport
+    unit: billion pkm/yr
+- Energy Service|Transportation|Passenger|Road:
     description: Energy service demand for passenger transport on roads
     sdg: 7
     unit: billion pkm/yr
 - Energy Service|Transportation|Passenger|Active Transport [Share]:
-    description: Shae of walking and cycling in passenger transport
+    description: Share of walking and cycling in passenger transport
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
@@ -331,6 +363,21 @@
     unit: '%'
     skip-region-aggregation: true
 #     weight: Land Cover
+- Terrestrial Biodiversity|MSA|Vertebrates:
+    definition: Terrestrial biodiversity of vertebrate species measured in Mean Species
+      Abundance (MSA)
+    unit: '%'
+    weight: Land Cover
+- Terrestrial Biodiversity|MSA|Plants:
+    definition: Terrestrial biodiversity of plant species measured in Mean Species
+      Abundance (MSA)
+    unit: '%'
+    weight: Land Cover
+- Terrestrial Biodiversity|BII:
+    definition: Terrestrial biodiversity measured with Biodiversity Intactness Index
+      (BII)
+    unit: '%'
+    weight: Land Cover
 - Terrestrial Biodiversity|BII|Cropland Landscapes:
     description: Terrestrial biodiversity in landscapes containing cropland measured
       with Biodiversity Intactness Index (BII)
@@ -415,3 +462,9 @@
       negative for payment)
     sdg: 17
     unit: billion USD_2010/yr
+- Unemployment:
+    definition: Number of unemployed inhabitants (based on ILO classification)
+    unit: million
+- Unemployment|Rate:
+    definition: Fraction of unemployed inhabitants (based on ILO classification)
+    unit: '%'
