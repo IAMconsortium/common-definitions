@@ -1,0 +1,5 @@
+- Consumption:
+    description: total consumption of all goods, by all consumers in a region
+    unit: billion USD_2010/yr
+    tier: 1
+    min: 0

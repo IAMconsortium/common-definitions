@@ -1,0 +1,10 @@
+- Employment:
+    description: Number of employed inhabitants (based on ILO classification)
+    unit: million
+    tier: 1
+    min: 0
+- Unemployment:
+    description: Number of unemployed inhabitants (based on ILO classification)
+    unit: million
+    tier: 1
+    min: 0

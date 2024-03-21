@@ -1,6 +1,25 @@
 - GDP|MER:
     definition: GDP converted to USD at market exchange rate (MER)
     unit: billion USD_2010/yr
+    tier: 1
 - GDP|PPP:
     definition: GDP converted to USD using purchasing power parity (PPP)
     unit: billion USD_2010/yr
+    tier: 1
+- Value Added|{Economic Sectors}:
+    description: Value added by the {Economic Sectors}
+    unit: billion USD_2010/yr
+    tier: {Economic Sectors}
+    navigate: Value Added|Commercial
+- Capital Formation:
+    description: net additions to the physical capital stock
+    unit: billion USD_2010/yr
+    tier: 1
+- Expenditure|Government:
+    description: total government expenditure
+    unit: billion USD_2010/yr
+    tier: 1
+- Expenditure|Household:
+    description: Total household expenditure
+    unit: billion USD_2010/yr
+    tier: 1
