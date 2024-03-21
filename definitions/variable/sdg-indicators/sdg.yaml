@@ -26,10 +26,11 @@
     definition: Population without access to electricity and relying on solid fuels
       for heating-cooking
     unit: million
-- Population|Clean cooking Access:
+- Population|Clean Cooking Access:
     definition: Population with access to improved cooking facilities (electric or
       gas)
     unit: million
+    navigate: Population|Clean cooking Access
 - Expenditure|Households|Food [Share]:
     description: Share of food expenditure in total income
     sdg: 1
