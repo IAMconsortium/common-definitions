@@ -1,7 +1,46 @@
-# These are carbon technologies that have substantial energy requirements
-# for use in the variables `Final Energy|Carbon Management|{Carbon Management Technology}`
-- Carbon Management Technology:
-    - Biochar:
-        description: production of biochar using pyrolysis
-    - Direct Air Capture:
-        description: direct air capture
+- Carbon Removal:
+    description: Gross removals of CO2 from the atmosphere through deliberate human activities
+    unit: Mt CO2/yr
+
+- Carbon Removal|Biochar:
+    description: production of biochar using pyrolysis
+    unit: Mt CO2/yr
+        
+- Carbon Removal|Direct Air Capture:
+    description: CO2 captured directly from the atmosphere in solvent, sorbent, or other chemical processes, excluding any fossil process heat.
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Direct Ocean Capture:
+    description: dissolved inorganic carbon that is electrochemically separated from seawater and stored in geologic reservoirs or other long-term storage
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Terrestrial Enhanced Weathering:
+    description: Carbon dioxide (CO2) removed from the atmosphere by spreading ground silicate bearing rock 
+        over croplands or terrestrial ecosystems, thereby converting aqueous CO2 into solid carbonate minerals or ocean alkalinity
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Ocean:
+    description: Carbon dioxide (CO2) removed from the atmopshere and stored in the ocean as alkalinity, biomass sinking, or other long-term storage
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Soil Carbon Management:
+    description: [TBD]
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Materials:
+    description: Carbon dioxide (CO2) of atmospheric or biomass origin that is stored in long-lived materials with centenial to millenial residence times for the carbon. 
+    unit: Mt CO2/yr
+    
+- Carbon Removal|Materials|Cement:
+    description: Carbon dioxide (CO2) of atmospheric or biomass origin that is stored in cement
+    unit: Mt CO2/yr
+    note: CO2 uptake from cement carbonation, if reported, should be included under this category
+    
+- Carbon Removal|Afforestation:
+    description: [TBD]
+    unit: Mt CO2/yr
+
+- Carbon Removal|Agroforestry:
+    description: [TBD]
+
+        
