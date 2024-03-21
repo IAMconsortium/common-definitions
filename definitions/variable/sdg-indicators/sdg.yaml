@@ -212,7 +212,7 @@
     unit: GJ/cap/yr
     weight: Population
 - Energy Service|Transportation|Freight:
-    definition: energy service demand for freight transport
+    definition: Energy service demand for freight transport
     unit: billion tkm/yr
 - Energy Service|Transportation|Passenger:
     definition: energy service demand for passenger transport
