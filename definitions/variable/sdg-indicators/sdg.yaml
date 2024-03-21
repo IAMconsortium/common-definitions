@@ -348,7 +348,14 @@
     description: Saturation state of calcite (Omega C)
     sdg: 14
     unit:
-    skip-region-aggregation: true  
+    skip-region-aggregation: true
+- Land Cover:
+    definition: total land cover
+    unit: million ha
+- Land Cover|Cropland:
+    definition: total arable land, i.e. land in bioenergy crop, food, and feed/fodder
+      crops, permant crops as well as other arable land (physical area)
+    unit: million ha
 - Land Cover|Forest|Natural Forest|Primary Forest:
     description: Undisturbed primary natural forests
     sdg: 15
@@ -362,7 +369,7 @@
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
-#     weight: Land Cover
+    weight: Land Cover
 - Terrestrial Biodiversity|MSA|Vertebrates:
     definition: Terrestrial biodiversity of vertebrate species measured in Mean Species
       Abundance (MSA)
@@ -384,7 +391,7 @@
     sdg: 15
     unit: '%'
     skip-region-aggregation: true
-#     weight: Land Cover|Cropland
+    weight: Land Cover|Cropland
 - Terrestrial Biodiversity|BII|Biodiversity Hotspots:
     description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
