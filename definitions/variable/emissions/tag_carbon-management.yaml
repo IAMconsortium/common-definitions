@@ -7,6 +7,8 @@
         description: production of biochar using pyrolysis
     - Direct Air Capture:
         description: direct air capture
+    - Carbon Capture and Storage:
+        description: the capture from point sources, including distribution and ultimate storage
     - Enhanced Weathering:
         description: terrestrial application of alkalinity to increase CO2 uptake on land
     - Direct Ocean Capture:
