@@ -215,7 +215,7 @@
     definition: Energy service demand for freight transport
     unit: billion tkm/yr
 - Energy Service|Transportation|Passenger:
-    definition: energy service demand for passenger transport
+    definition: Energy service demand for passenger transport
     unit: billion pkm/yr
 - Energy Service|Transportation|Passenger|Road:
     description: Energy service demand for passenger transport on roads
