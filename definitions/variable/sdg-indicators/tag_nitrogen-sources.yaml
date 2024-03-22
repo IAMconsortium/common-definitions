@@ -1,0 +1,10 @@
+- Nitrogen Sources:
+    - Animal Waste Management:
+        description: animal waste management
+    - Cropland:
+        description: soil inputs over soil withdrawals in cropland
+    - Non-Agricultural Land:
+        description: non-agricultural land
+        shape: Non-agricultural land
+    - Pasture:
+        description: soil inputs over soil withdrawals in pasture
