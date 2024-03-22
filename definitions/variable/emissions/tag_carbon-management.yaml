@@ -1,7 +1,18 @@
 # These are carbon technologies that have substantial energy requirements
 # for use in the variables `Final Energy|Carbon Management|{Carbon Management Technology}`
-- Carbon Management Technology:
+- Carbon Removal Technology:
     - Biochar:
         description: production of biochar using pyrolysis
+        unit: Mt CO2/yr
     - Direct Air Capture:
         description: direct air capture
+        unit: Mt CO2/yr
+    - Terrestreal Enhanced Weathering:
+        description: rock crushing, etc. associated with enhanced weathering
+        unit: Mt CO2/yr
+    - Direct Ocean Capture:
+        description: electrochemical separation of dissolved inorganic carbon from seawater
+        unit: Mt CO2/yr
+    - Ocean Alkalinity Enhancement: 
+        description: increasing ocean alkalinity
+        unit: Mt CO2/yr
