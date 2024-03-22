@@ -1,0 +1,97 @@
+# Carbon Capture is grouped into two levels of aggregation based on the fate of the captured CO2.
+# Level-1 reports whether captured CO2 is stored, utilized, or leaked
+# Level-2 reports additional disaggregation for long-lived vs. short-lived utilization.
+
+- Carbon Capture:
+    description: Captured carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes 
+        (IPCC categories 2A, B, C, E), including emissions from international bunkers, net of negative emissions from bioenergy with CCS (BECCS), 
+        direct air carbon capture and storage (DACCS), and other CO2 removal (exclusive of land-use change) in these sectors
+    unit: Mt CO2/yr
+
+- Carbon Capture|Geologic Storage:
+    description: Captured carbon dioxide (CO2) that is injected into subsurface geologic storage reservoirs (e.g., in situ mineralization).
+    unit: Mt CO2/yr
+    note: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization) should be reported under Carbon Capture|Other Storage
+
+- Carbon Capture|Leakage:
+    description: Captured carbon dioxide (CO2) that is subsequently vented, leaked, or reemitted during or after transmission to storage repositories
+    unit: Mt CO2/yr
+    note: Leakage of CO2 stored in previous years should be reported here
+    
+-Carbon Capture|Other Storage:
+    description: Captured carbon dioxide (CO2) that is stored in reservoirs not elsewhere specified
+    unit: Mt CO2/yr
+
+-Carbon Capture|Utilization:
+    description: Captured carbon dioxide (CO2) that used in the manufacture of fuels, materials, or to enhance the productivity of oil and/or natural gas reservoirs.
+    unit: Mt CO2/yr
+
+-Carbon Capture|Utilization|Durable Storage:
+    description: Captured carbon dioxide (CO2) that is used in the manufacture durable materials (e.g., cement), 
+        or to enhance the productivity of oil and/or natural gas reservoirs wherein the captured carbon is stored on centenial or longer timescales. 
+    unit: Mt CO2/yr
+    
+-Carbon Capture|Utilization|Short-lived Storage:
+    description: Captured carbon dioxide (CO2) that is used in the manufacture of fuels or short-lived materials 
+        wherin the captured carbon is reemitted to the atmosphere upon consumption of these products or within annual to decadal timescales. 
+    unit: Mt CO2/yr
+
+# Carbon Removal reports the method of CDR in level-1, with additional disaggration as to the fate of removed carbon for materials in Level-2
+
+- Carbon Removal:
+    description: Gross removals of CO2 from the atmosphere through deliberate human activities
+    unit: Mt CO2/yr
+
+- Carbon Removal|Biochar:
+    description: production of biochar using pyrolysis
+    unit: Mt CO2/yr
+
+- Carbon Removal|Direct Air Capture:
+    description: CO2 captured directly from the atmosphere in solvent, sorbent, or other chemical processes, excluding any fossil process heat.
+    unit: Mt CO2/yr
+
+- Carbon Removal|Direct Ocean Capture:
+    description: dissolved inorganic carbon that is electrochemically separated from seawater and stored in geologic reservoirs or other long-term storage
+    unit: Mt CO2/yr
+
+- Carbon Removal|Terrestrial Enhanced Weathering:
+    description: Carbon dioxide (CO2) removed from the atmosphere by spreading ground silicate bearing rock 
+        over croplands or terrestrial ecosystems, thereby converting aqueous CO2 into solid carbonate minerals or ocean alkalinity
+    unit: Mt CO2/yr
+
+- Carbon Removal|Ocean:
+    description: Carbon dioxide (CO2) removed from the atmopshere and stored in the ocean as alkalinity, biomass sinking, or other long-term storage
+    unit: Mt CO2/yr
+
+- Carbon Removal|Ocean|Alkalinization:
+    description: Carbon dioxide (CO2) removed from the atmopshere and stored in the ocean as alkalinity
+    unit: Mt CO2/yr
+
+- Carbon Removal|Materials:
+    description: Carbon dioxide (CO2) of atmospheric or biomass origin that is stored in long-lived materials with centenial to millenial residence times for the carbon. 
+    unit: Mt CO2/yr
+
+- Carbon Removal|Materials|Cement:
+    description: Carbon dioxide (CO2) of atmospheric or biomass origin that is stored in cement
+    unit: Mt CO2/yr
+    note: CO2 uptake from cement carbonation, if reported, should be included under this category
+
+- Carbon Removal|Materials|Plastics: 
+    description: Carbon dioxide (CO2) of atmospheric or biomass origin that is stored in plastics which are subsequently landfilled or otherwise prevented from reoxidizing for centenial or greater timescales.  
+    unit: Mt CO2/yr
+    note: Incineration or other leakage should be excluded or deducted from removal total
+    
+- Carbon Removal|Materials|Timber:
+    description: Carbon dioxide (CO2) that is embodied in timber used for building construction or buried in durable repositories  
+    unit: Mt CO2/yr
+
+- Carbon Removal|Afforestation:
+    description: [TBD]
+    unit: Mt CO2/yr
+
+- Carbon Removal|Soil Carbon Management:
+    description: [TBD]
+    unit: Mt CO2/yr
+
+- Carbon Removal|Agroforestry:
+    description: [TBD]
