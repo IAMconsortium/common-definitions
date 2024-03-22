@@ -82,3 +82,6 @@
     - PFC:
         description: perfluorocarbons (PFCs), provided as aggregate CF4-equivalents
         unit: kt CF4-equiv/yr
+    - CFC:
+        description: Chlorofluorocarbons (CFCs), provided as aggregate CFC12-equivalents
+        unit: kt CFC12-equiv/yr
