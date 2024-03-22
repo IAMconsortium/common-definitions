@@ -3,16 +3,11 @@
 - Carbon Management Technology:
     - Biochar:
         description: production of biochar using pyrolysis
-        unit: Mt CO2/yr
     - Direct Air Capture:
         description: direct air capture
-        unit: Mt CO2/yr
     - Terrestreal Enhanced Weathering:
-        description: rock crushing, etc. associated with enhanced weathering
-        unit: Mt CO2/yr
+        description: terrestrial application of alkalinity to increase CO2 uptake on land
     - Direct Ocean Capture:
         description: electrochemical separation of dissolved inorganic carbon from seawater
-        unit: Mt CO2/yr
     - Ocean Alkalinity Enhancement: 
         description: increasing ocean alkalinity
-        unit: Mt CO2/yr
