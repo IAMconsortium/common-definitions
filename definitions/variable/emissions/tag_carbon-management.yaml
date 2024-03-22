@@ -5,3 +5,5 @@
         description: production of biochar using pyrolysis
     - Direct Air Capture:
         description: direct air capture
+    - Carbon Capture and Storage:
+        description: the capture from point sources, including distribution and ultimate storage
