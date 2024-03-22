@@ -473,6 +473,6 @@
 - Unemployment:
     definition: Number of unemployed inhabitants (based on ILO classification)
     unit: million
-Unemployment [Rate]:
+- Unemployment [Rate]: 
     definition: Fraction of unemployed inhabitants (based on ILO classification)
     unit: '%'
