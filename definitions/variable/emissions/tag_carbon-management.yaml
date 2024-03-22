@@ -1,38 +1,3 @@
-
-- Carbon Capture:
-    description: Captured carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes 
-        (IPCC categories 2A, B, C, E), including emissions from international bunkers, net of negative emissions from bioenergy with CCS (BECCS), 
-        direct air carbon capture and storage (DACCS), and other CO2 removal (exclusive of land-use change) in these sectors
-    unit: Mt CO2/yr
-
-- Carbon Capture|Geologic Storage:
-    description: Captured carbon dioxide (CO2) that is injected into subsurface geologic storage reservoirs (e.g., in situ mineralization).
-    unit: Mt CO2/yr
-    note: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization) should be reported under Carbon Capture|Other Storage
-
-- Carbon Capture|Leakage:
-    description: Captured carbon dioxide (CO2) that is subsequently vented, leaked, or reemitted during or after transmission to storage repositories
-    unit: Mt CO2/yr
-    note: Leakage of CO2 stored in previous years should be reported here
-    
--Carbon Capture|Other Storage:
-    description: Captured carbon dioxide (CO2) that is stored in reservoirs not elsewhere specified
-    unit: Mt CO2/yr
-
--Carbon Capture|Utilization:
-    description: Captured carbon dioxide (CO2) that used in the manufacture of fuels, materials, or to enhance the productivity of oil and/or natural gas reservoirs.
-    unit: Mt CO2/yr
-
--Carbon Capture|Utilization|Durable Storage:
-    description: Captured carbon dioxide (CO2) that is used in the manufacture durable materials (e.g., cement), 
-        or to enhance the productivity of oil and/or natural gas reservoirs wherein the captured carbon is stored on centenial or longer timescales. 
-    unit: Mt CO2/yr
-    
--Carbon Capture|Utilization|Short-lived Storage:
-    description: Captured carbon dioxide (CO2) that is used in the manufacture of fuels or short-lived materials 
-        wherin the captured carbon is reemitted to the atmosphere upon consumption of these products or within annual to decadal timescales. 
-    unit: Mt CO2/yr
-
 # These are carbon technologies that have substantial energy requirements
 # for use in the variables `Final Energy|Carbon Management|{Carbon Management Technology}`
 - Carbon Removal Technology:
@@ -41,4 +6,13 @@
         unit: Mt CO2/yr
     - Direct Air Capture:
         description: direct air capture
+        unit: Mt CO2/yr
+    - Terrestreal Enhanced Weathering:
+        description: rock crushing, etc. associated with enhanced weathering
+        unit: Mt CO2/yr
+    - Direct Ocean Capture:
+        description: electrochemical separation of dissolved inorganic carbon from seawater
+        unit: Mt CO2/yr
+    - Ocean Alkalinity Enhancement: 
+        description: increasing ocean alkalinity
         unit: Mt CO2/yr
