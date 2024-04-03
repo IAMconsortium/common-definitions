@@ -1,1037 +1,1074 @@
-Capital Cost|Electricity|Biomass|w/ CCS:
-  description: capital cost of a new biomass power plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Biomass|w/o CCS:
-  description: capital cost of a new biomass power plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Coal|w/ CCS:
-  description: capital cost of a new coal power plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Coal|w/o CCS:
-  description: capital cost of a new coal power plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Gas|w/ CCS:
-  description: capital cost of a new gas power plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Gas|w/o CCS:
-  description: capital cost of a new gas power plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Geothermal:
-  description: capital cost of a new geothermal power plant. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Hydro:
-  description: capital cost of a new hydropower plant. If more than technology in
-    this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Nuclear:
-  description: capital cost of a new nuclear power plants. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Solar|CSP:
-  description: capital cost of a new concentrated solar power plant. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Solar|PV:
-  description: capital cost of a new solar PV units. If more than technology in this
-    category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Wind|Offshore:
-  description: capital cost of a new offshore wind power plants. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Electricity|Wind|Onshore:
-  description: capital cost of a new onshore wind power plants. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Gases|Biomass|w/ CCS:
-  description: capital cost of a new biomass to gas plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Gases|Biomass|w/o CCS:
-  description: capital cost of a new biomass to gas plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Gases|Coal|w/ CCS:
-  description: capital cost of a new coal to gas plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Gases|Coal|w/o CCS:
-  description: capital cost of a new coal to gas plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Biomass|w/ CCS:
-  description: capital cost of a new biomass to hydrogen plant with CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Biomass|w/o CCS:
-  description: capital cost of a new biomass to hydrogen plant w/o CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Coal|w/ CCS:
-  description: capital cost of a new coal to hydrogen plant with CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Coal|w/o CCS:
-  description: capital cost of a new coal to hydrogen plant w/o CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Electricity:
-  description: capital cost of a new hydrogen-by-electrolysis plant. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Gas|w/ CCS:
-  description: capital cost of a new gas to hydrogen plant with CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Hydrogen|Gas|w/o CCS:
-  description: capital cost of a new gas to hydrogen plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Biomass|w/ CCS:
-  description: capital cost of a new biomass to liquids plant with CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Biomass|w/o CCS:
-  description: capital cost of a new biomass to liquids plant w/o CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Coal|w/ CCS:
-  description: capital cost of a new coal to liquids plant with CCS. If more than
-    technology in this category is modelled, modellers should report capital costs
-    for the technology that is used most; please specify the technology name/characteristics
-    in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Coal|w/o CCS:
-  description: capital cost of a new coal to liquids plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Gas|w/ CCS:
-  description: capital cost of a new gas to liquids plant with CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Gas|w/o CCS:
-  description: capital cost of a new gas to liquids plant w/o CCS. If more than technology
-    in this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Capital Cost|Liquids|Oil:
-  description: capital cost of a new oil refining plant. If more than technology in
-    this category is modelled, modellers should report capital costs for the technology
-    that is used most; please specify the technology name/characteristics in the comments.
-  unit: US$2010/kW
-Efficiency|Electricity|Biomass|w/ CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new biomass power plant with CCS. The efficiency should refer to the
-    plant type(s) for which capital costs have been reported. If capital cost for
-    more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Electricity| Biomass|w/
-    CCS|2, ... Efficiency|Electricity|Biomass|w/ CCS|N (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet). '
-  unit: '%'
-Efficiency|Electricity|Biomass|w/o CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new biomass power plant w/o CCS. The efficiency should refer to the
-    plant type(s) for which capital costs have been reported. If capital cost for
-    more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Electricity|Biomass|w/o
-    CCS|2, ... Efficiency|Electricity|Biomass|w/o CCS|N (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet). '
-  unit: '%'
-Efficiency|Electricity|Coal|w/ CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new coal power plant with CCS. The efficiency should refer to the
-    plant type(s) for which capital costs have been reported. If capital cost for
-    more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Electricity|Coal|w/
-    CCS|2, ... Efficiency|Electricity|Coal|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Electricity|Coal|w/o CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new coal power plant w/o CCS. The efficiency should refer to the plant
-    type(s) for which capital costs have been reported. If capital cost for more than
-    one plant type has been reported, modellers should report efficiency for the additional
-    plant types by adding variables Efficiency|Electricity|Coal|w/o CCS|2, ... Efficiency|Electricity|Coal|w/o
-    CCS|N (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Electricity|Gas|w/ CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new gas power plant with CCS. The efficiency should refer to the plant
-    type(s) for which capital costs have been reported. If capital cost for more than
-    one plant type has been reported, modellers should report efficiency for the additional
-    plant types by adding variables Efficiency|Electricity|Gas|w/ CCS|2, ... Efficiency|Electricity|Gas|w/
-    CCS|N (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Electricity|Gas|w/o CCS:
-  description: 'Conversion efficiency (electricity produced per unit of primary energy
-    input) of a new gas power plant w/o CCS. The efficiency should refer to the plant
-    type(s) for which capital costs have been reported. If capital cost for more than
-    one plant type has been reported, modellers should report efficiency for the additional
-    plant types by adding variables Efficiency|Electricity|Gas|w/o CCS|2, ... Efficiency|Electricity|Gas|w/o
-    CCS|N (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Gases|Biomass|w/ CCS:
-  description: 'Conversion efficiency (energy content of gases produced per unit of
-    primary energy input) of a new biomass to gas plant with CCS. The efficiency should
-    refer to the plant type(s) for which capital costs have been reported. If capital
-    cost for more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Gases|Biomass|w/
-    CCS|2, ... Efficiency|Gases|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Gases|Biomass|w/o CCS:
-  description: 'Conversion efficiency (energy content of gases produced per unit of
-    primary energy input) of a new coal to gas plant w/o CCS. The efficiency should
-    refer to the plant type(s) for which capital costs have been reported. If capital
-    cost for more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Gases|Coal|w/o CCS|2,
-    ... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Gases|Coal|w/ CCS:
-  description: 'Conversion efficiency (energy content of gases produced per unit of
-    primary energy input) of a new coal to gas plant with CCS. The efficiency should
-    refer to the plant type(s) for which capital costs have been reported. If capital
-    cost for more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Gases|Coal|w/ CCS|2,
-    ... Efficiency|Gases|Coal|w/ CCS|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Gases|Coal|w/o CCS:
-  description: 'Conversion efficiency (energy content of gases produced per unit of
-    primary energy input) of a new coal to gas plant w/o CCS. The efficiency should
-    refer to the plant type(s) for which capital costs have been reported. If capital
-    cost for more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Gases|Coal|w/o CCS|2,
-    ... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Biomass|w/ CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new biomass to hydrogen plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/
-    CCS|2, ... Efficiency|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Biomass|w/o CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new biomass to hydrogen plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/o
-    CCS|2, ... Efficiency|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Coal|w/ CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new coal to hydrogen plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/
-    CCS|2, ... Efficiency|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Coal|w/o CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new coal to hydrogen plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/o
-    CCS|2, ... Efficiency|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Electricity:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of electricity input) of a new hydrogen-by-electrolysis plant. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Electricity|2,
-    ... Efficiency|Hydrogen|Electricity|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Gas|w/ CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new gas to hydrogen plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/
-    CCS|2, ... Efficiency|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Hydrogen|Gas|w/o CCS:
-  description: 'Conversion efficiency (energy content of hydrogen produced per unit
-    of primary energy input) of a new gas to hydrogen plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/o
-    CCS|2, ... Efficiency|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Biomass|w/ CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new biomass to liquids plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/
-    CCS|2, ... Efficiency|Liquids|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Biomass|w/o CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new biomass to liquids plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/o
-    CCS|2, ... Efficiency|Liquids|Biomass|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Coal|w/ CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new coal to liquids plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/
-    CCS|2, ... Efficiency|Liquids|Coal|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Coal|w/o CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new coal to liquids plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/o
-    CCS|2, ... Efficiency|Liquids|Coal|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Gas|w/ CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new gas to liquids plant with CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Gas|w/
-    CCS|2, ... Efficiency|Liquids|Gas|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Gas|w/o CCS:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new gas to liquids plant w/o CCS. The efficiency
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report efficiency for the additional plant types by adding variables Efficiency|Liquids|Gas|w/o
-    CCS|2, ... Efficiency|Liquids|Gas|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: '%'
-Efficiency|Liquids|Oil:
-  description: 'Conversion efficiency (energy content of liquids produced per unit
-    of primary energy input) of a new oil refining plant. The efficiency should refer
-    to the plant type(s) for which capital costs have been reported. If capital cost
-    for more than one plant type has been reported, modellers should report efficiency
-    for the additional plant types by adding variables Efficiency|Liquids|Oil|2, ...
-    Efficiency|Electricity|Oil|w/o CCS|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: '%'
-Lifetime|Electricity|Biomass|w/ CCS:
-  description: 'Lifetime of a new biomass power plant with CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/
-    CCS|2, ... Lifetime|Electricity|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Biomass|w/o CCS:
-  description: 'Lifetime of a new biomass power plant w/o CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/o
-    CCS|2, ... Lifetime|Electricity|Biomass|w/o CCS|N (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet). '
-  unit: years
-Lifetime|Electricity|Coal|w/ CCS:
-  description: 'Lifetime of a new coal power plant with CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/
-    CCS|2, ... Lifetime|Electricity|Coal|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Coal|w/o CCS:
-  description: 'Lifetime of a new coal power plant w/o CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/o
-    CCS|2, ... Lifetime|Electricity|Coal|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Gas|w/ CCS:
-  description: 'Lifetime of a new gas power plant with CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/
-    CCS|2, ... Lifetime|Electricity|Gas|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Gas|w/o CCS:
-  description: 'Lifetime of a new gas power plant w/o CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/o
-    CCS|2, ... Lifetime|Electricity|Gas|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Geothermal:
-  description: 'Lifetime of a new geothermal power plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Geothermal|2,
-    ... Lifetime|Electricity|Geothermal|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Hydro:
-  description: 'Lifetime of a new hydropower plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Hydro|2,
-    ... Lifetime|Electricity|Hydro|N (matching the assignment of plant types to technologies
-    in the reporting of capital costs as documented in the comments sheet). '
-  unit: years
-Lifetime|Electricity|Nuclear:
-  description: 'Lifetime of a new nuclear power plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Nuclear|2,
-    ... Lifetime|Electricity|Nuclear|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: years
-Lifetime|Electricity|Solar|CSP:
-  description: 'Lifetime of a new concentrated solar power plant. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|CSP|2,
-    ... Lifetime|Electricity|Solar|CSP|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: years
-Lifetime|Electricity|Solar|PV:
-  description: 'Lifetime of a new PV unit. Lifetime should be calculated by summing
-    all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years)
-    or by the e-folding time for exponential capacity depreciation.  The lifetime
-    should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|PV|2,
-    ... Lifetime|Electricity|Solar|PV|N (matching the assignment of plant types to
-    technologies in the reporting of capital costs as documented in the comments sheet). '
-  unit: years
-Lifetime|Electricity|Wind:
-  description: 'Lifetime of a new wind power plant (report only if wind power is not
-    separated in onshore and offshore). Lifetime should be calculated by summing all
-    vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or
-    by the e-folding time for exponential capacity depreciation.  The lifetime should
-    refer to the plant type(s) for which capital costs have been reported. If capital
-    cost for more than one plant type has been reported, modellers should report lifetime
-    for the additional plant types by adding variables Lifetime|Electricity|Wind|2,
-    ... Lifetime|Electricity|Wind|N (matching the assignment of plant types to technologies
-    in the reporting of capital costs as documented in the comments sheet). '
-  unit: years
-Lifetime|Electricity|Wind|Offshore:
-  description: 'Lifetime of a new offshore wind power plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|Offshore|2,
-    ... Lifetime|Electricity|Wind|Offshore|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Electricity|Wind|Onshore:
-  description: 'Lifetime of a new onshore wind power plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|Onshore|2,
-    ... Lifetime|Electricity|Wind|Onshore|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Gases|Biomass|w/ CCS:
-  description: 'Lifetime of a new biomass to gas plant with CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Gases|Biomass|w/
-    CCS|2, ... Lifetime|Gases|Biomass|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Gases|Biomass|w/o CCS:
-  description: 'Lifetime of a new biomass to gas plant w/o CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Gases|Biomass|w/o
-    CCS|2, ... Lifetime|Gases|Biomass|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Gases|Coal|w/ CCS:
-  description: 'Lifetime of a new coal to gas plant with CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Gases|Coal|w/
-    CCS|2, ... Lifetime|Gases|Coal|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Gases|Coal|w/o CCS:
-  description: 'Lifetime of a new coal to gas plant w/o CCS. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Gases|Coal|w/o
-    CCS|2, ... Lifetime|Gases|Coal|w/o CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Biomass|w/ CCS:
-  description: 'Lifetime of a new biomass to hydrogen plant with CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/
-    CCS|2, ... Lifetime|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Biomass|w/o CCS:
-  description: 'Lifetime of a new biomass to hydrogen plant w/o CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/o
-    CCS|2, ... Lifetime|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Coal|w/ CCS:
-  description: 'Lifetime of a new coal to hydrogen plant with CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/
-    CCS|2, ... Lifetime|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Coal|w/o CCS:
-  description: 'Lifetime of a new coal to hydrogen plant w/o CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/o
-    CCS|2, ... Lifetime|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Electricity:
-  description: 'Lifetime of a new hydrogen-by-electrolysis plant. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Electricity|w/
-    CCS|2, ... Lifetime|Hydrogen|Electricity|w/ CCS|N (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet). '
-  unit: years
-Lifetime|Hydrogen|Gas|w/ CCS:
-  description: 'Lifetime of a new gas to hydrogen plant with CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/
-    CCS|2, ... Lifetime|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Hydrogen|Gas|w/o CCS:
-  description: 'Lifetime of a new gas to hydrogen plant w/o CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/o
-    CCS|2, ... Lifetime|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Biomass|w/ CCS:
-  description: 'Lifetime of a new biomass to liquids plant with CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/
-    CCS|2, ... Lifetime|Liquids|Biomass|w/ CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Biomass|w/o CCS:
-  description: 'Lifetime of a new biomass to liquids plant w/o CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/o
-    CCS|2, ... Lifetime|Liquids|Biomass|w/o CCS|N (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Coal|w/ CCS:
-  description: 'Lifetime of a new coal to liquids plant with CCS. Lifetime should
-    be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/
-    CCS|2, ... Lifetime|Liquids|Coal|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Coal|w/o CCS:
-  description: 'Lifetime of a new coal to liquids plant w/o CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/o
-    CCS|2, ... Lifetime|Liquids|Coal|w/o CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Gas|w/ CCS:
-  description: 'Lifetime of a new gas to liquids plant with CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Gas|w/
-    CCS|2, ... Lifetime|Liquids|Gas|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Gas|w/o CCS:
-  description: 'Lifetime of a new gas to liquids plant w/o CCS. Lifetime should be
-    calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
-    * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Gas|w/o
-    CCS|2, ... Lifetime|Liquids|Gas|w/o CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-Lifetime|Liquids|Oil:
-  description: 'Lifetime of a new oil refining plant. Lifetime should be calculated
-    by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
-    = 41 years) or by the e-folding time for exponential capacity depreciation.  The
-    lifetime should refer to the plant type(s) for which capital costs have been reported.
-    If capital cost for more than one plant type has been reported, modellers should
-    report lifetime for the additional plant types by adding variables Lifetime|Liquids|Oil|w/
-    CCS|2, ... Lifetime|Liquids|Oil|w/ CCS|N (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet). '
-  unit: years
-OM Cost|Fixed|Electricity|Biomass|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass power plant
-    with CCS. If more than one CCS biomass power technology is modelled, modellers
-    should report fixed O&M costs  for each represented CCS biomass power technology
-    by adding variables OM Cost|Fixed|Electricity|Biomass|w/ CCS|2, ... OM Cost|Fixed|Electricity|Biomass|w/
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Biomass|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass power plant
-    w/o CCS. If more than one biomass power technology is modelled, modellers should
-    report fixed O&M costs  for each represented biomass power technology by adding
-    variables OM Cost|Fixed|Electricity|Biomass|w/o CCS|2, ... OM Cost|Fixed|Electricity|Biomass|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Coal|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new coal power plant
-    with CCS. If more than one CCS coal power technology is modelled (e.g. subcritical
-    PC with post-combustion capture, supercritical PC with post-combustion capture,
-    supercritical PC with oxyfuel combustion and capture, IGCC with pre-combustion
-    capture), modellers should report fixed O&M costs  for each represented CCS coal
-    power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/ CCS|2,
-    ... OM Cost|Fixed|Electricity|Coal|w/ CCS|N (with N = number of represented technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Coal|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new coal power plant
-    w/o CCS. If more than one coal power technology is modelled (e.g. subcritical
-    PC, supercritical PC, IGCC), modellers should report fixed O&M costs  for each
-    represented coal power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/o
-    CCS|2, ... OM Cost|Fixed|Electricity|Coal|w/o CCS|N (with N = number of represented
-    technologies) (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Gas|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new gas power plant
-    with CCS. If more than one CCS gas power technology is modelled, modellers should
-    report fixed O&M costs  for each represented CCS gas power technology by adding
-    variables OM Cost|Fixed|Electricity|Gas|w/ CCS|2, ... OM Cost|Fixed|Electricity|Gas|w/
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Gas|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new gas power plant
-    w/o CCS. If more than one gas power technology is modelled, modellers should report
-    fixed O&M costs  for each represented gas power technology by adding variables
-    OM Cost|Fixed|Electricity|Gas|w/o CCS|2, ... OM Cost|Fixed|Electricity|Gas|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Geothermal:
-  description: Annual fixed operation & maintainance cost of a new geothermal power
-    plants. If more than one geothermal power plant technology is modelled (e.g.,
-    hydrothermal, hard dry rock), modellers should report fixed O&M costs  for each
-    represented geothermal power technology by adding variables OM Cost|Fixed|Electricity|Geothermal|2,
-    ... Capital|Cost|Electricity|Geothermal|N (with N = number of represented geothermal
-    power technologies) (matching the assignment of plant types to technologies in
-    the reporting of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Hydro:
-  description: Annual fixed operation & maintainance cost of a new hydropower plant.
-    If more than one hydropower technology is modelled, modellers should report fixed
-    O&M costs  for each represented hydropower technology by adding variables OM Cost|Fixed|Electricity|Hydro|2,
-    ... OM Cost|Fixed|Electricity|Hydro|N (with N = number of represented technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Nuclear:
-  description: Annual fixed operation & maintainance cost of a new nuclear power plants.
-    If more than one nuclear power plant technology is modelled (e.g., Gen II, III,
-    IV; LWR, thermal reactors with other moderator materials, fast breeders), modellers
-    should report fixed O&M costs  for each represented nuclear power technology by
-    adding variables OM Cost|Fixed|Electricity|Nuclear|2, ... Capital|Cost|Electricity|Nuclear|N
-    (with N = number of represented nuclear power technologies) (matching the assignment
-    of plant types to technologies in the reporting of capital costs as documented
-    in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Solar|CSP:
-  description: Annual fixed operation & maintainance cost of a new concentrated solar
-    power plant. If more than one CSP technology is modelled (e.g., parabolic trough,
-    solar power tower), modellers should report fixed O&M costs  for each represented
-    CSP technology by adding variables OM Cost|Fixed|Electricity|Solar|CSP|2, ...
-    Capital|Cost|Electricity|Solar|CSP|N (with N = number of represented CSP technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Solar|PV:
-  description: Annual fixed operation & maintainance cost of a new solar PV units.
-    If more than one PV technology is modelled (e.g., centralized PV plant, distributed
-    (rooftop) PV, crystalline SI PV, thin-film PV), modellers should report fixed
-    O&M costs  for each represented PV technology by adding variables OM Cost|Fixed|Electricity|Solar|PV|2,
-    ... Capital|Cost|Electricity|Solar|PV|N (with N = number of represented PV technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Wind:
-  description: Annual fixed operation & maintainance cost of a new wind power plants.
-    This variable should only be filled, if wind power is not separated into onshore
-    and offshore. If more than one wind power technology is modelled (e.g., wind power
-    units with different hub height and capacity), modellers should report fixed O&M
-    costs  for each represented wind power technology by adding variables OM Cost|Fixed|Electricity|Wind|2,
-    ... Capital|Cost|Electricity|Wind|N (with N = number of represented wind power
-    technologies) (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Wind|Offshore:
-  description: Annual fixed operation & maintainance cost of a new offshore wind power
-    plants. This variable should only be filled, if wind power is separated into onshore
-    and offshore. If more than one offshore wind power technology is modelled (e.g.,
-    wind power units with different hub height and capacity), modellers should report
-    fixed O&M costs  for each represented wind power technology by adding variables
-    OM Cost|Fixed|Electricity|Wind|Offshore|2, ... Capital|Cost|Electricity|Wind|Offshore|N
-    (with N = number of represented offshore wind power technologies) (matching the
-    assignment of plant types to technologies in the reporting of capital costs as
-    documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Electricity|Wind|Onshore:
-  description: Annual fixed operation & maintainance cost of a new onshore wind power
-    plants. This variable should only be filled, if wind power is separated into onshore
-    and offshore. If more than one onshore wind power technology is modelled (e.g.,
-    wind power units with different hub height and capacity), modellers should report
-    fixed O&M costs  for each represented wind power technology by adding variables
-    OM Cost|Fixed|Electricity|Wind|Onshore|2, ... Capital|Cost|Electricity|Wind|Onshore|N
-    (with N = number of represented onshore wind power technologies) (matching the
-    assignment of plant types to technologies in the reporting of capital costs as
-    documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Gases|Biomass|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to gas
-    plant with CCS. If more than one CCS biomass to gas technology is modelled, modellers
-    should report fixed O&M costs  for each represented CCS biomass to  gas technology
-    by adding variables OM Cost|Fixed|Gases|Biomass|w/ CCS|2, ... OM Cost|Fixed|Gases|Biomass|w/
-    CCS|N (with N = number of represented technologies). (matching the assignment
-    of plant types to technologies in the reporting of capital costs as documented
-    in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Gases|Biomass|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to gas
-    plant w/o CCS. If more than one biomass to gas technology is modelled, modellers
-    should report fixed O&M costs  for each represented biomass to gas technology
-    by adding variables OM Cost|Fixed|Gases|Biomass|w/o CCS|2, ... OM Cost|Fixed|Gases|Biomass|w/o
-    CCS|N (with N = number of represented technologies). (matching the assignment
-    of plant types to technologies in the reporting of capital costs as documented
-    in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Gases|Coal|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to gas plant
-    with CCS. If more than one CCS coal to gas technology is modelled, modellers should
-    report fixed O&M costs  for each represented CCS coal to  gas technology by adding
-    variables OM Cost|Fixed|Gases|Coal|w/ CCS|2, ... OM Cost|Fixed|Gases|Coal|w/ CCS|N
-    (with N = number of represented technologies) (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Gases|Coal|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to gas plant
-    w/o CCS. If more than one coal to gas technology is modelled, modellers should
-    report fixed O&M costs  for each represented coal to gas technology by adding
-    variables OM Cost|Fixed|Gases|Coal|w/o CCS|2, ... OM Cost|Fixed|Gases|Coal|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Biomass|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to hydrogen
-    plant with CCS. If more than one CCS biomass to hydrogen technology is modelled,
-    modellers should report fixed O&M costs  for each represented CCS biomass to hydrogen
-    technology by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/ CCS|2, ... OM
-    Cost|Fixed|Hydrogen|Biomass|w/ CCS|N (with N = number of represented technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Biomass|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to hydrogen
-    plant w/o CCS. If more than one biomass to hydrogen technology is modelled, modellers
-    should report fixed O&M costs  for each represented biomass to hydrogen technology
-    by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/o CCS|2, ... OM Cost|Fixed|Hydrogen|Biomass|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Coal|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to hydrogen
-    plant with CCS. If more than one CCS coal to hydrogen technology is modelled,
-    modellers should report fixed O&M costs  for each represented CCS coal to hydrogen
-    technology by adding variables OM Cost|Fixed|Hydrogen|Coal|w/ CCS|2, ... OM Cost|Fixed|Hydrogen|Coal|w/
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Coal|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to hydrogen
-    plant w/o CCS. If more than one coal to hydrogen technology is modelled, modellers
-    should report fixed O&M costs  for each represented coal to hydrogen technology
-    by adding variables OM Cost|Fixed|Hydrogen|Coal|w/o CCS|2, ... OM Cost|Fixed|Hydrogen|Coal|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Electricity:
-  description: Annual fixed operation & maintainance cost of a new hydrogen-by-electrolysis
-    plant. If more than hydrogen-by-electrolysis technology is modelled, modellers
-    should report fixed O&M costs  for each represented hydrogen-by-electrolysis technology
-    by adding variables OM Cost|Fixed|Hydrogen|Electricity|2, ... OM Cost|Fixed|Hydrogen|Electricity|N
-    (with N = number of represented technologies) (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Gas|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new gas to hydrogen
-    plant with CCS. If more than one CCS gas to hydrogen technology is modelled, modellers
-    should report fixed O&M costs  for each represented CCS gas to hydrogen technology
-    by adding variables OM Cost|Fixed|Hydrogen|Gas|w/ CCS|2, ... OM Cost|Fixed|Hydrogen|Gas|w/
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Hydrogen|Gas|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new gas to hydrogen
-    plant w/o CCS. If more than one gas to hydrogen technology is modelled, modellers
-    should report fixed O&M costs  for each represented gas to hydrogen technology
-    by adding variables OM Cost|Fixed|Hydrogen|Gas|w/o CCS|2, ... OM Cost|Fixed|Hydrogen|Gas|w/o
-    CCS|N (with N = number of represented technologies) (matching the assignment of
-    plant types to technologies in the reporting of capital costs as documented in
-    the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Biomass|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to liquids
-    plant with CCS. If more than one CCS BTL technology is modelled, modellers should
-    report fixed O&M costs  for each represented CCS BTL technology by adding variables
-    OM Cost|Fixed|Liquids|Biomass|w/ CCS|2, ... OM Cost|Fixed|Liquids|Biomass|w/ CCS|N
-    (with N = number of represented technologies) (matching the assignment of plant
-    types to technologies in the reporting of capital costs as documented in the comments
-    sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Biomass|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new biomass to liquids
-    plant w/o CCS. If more than one BTL technology is modelled, modellers should report
-    fixed O&M costs  for each represented BTL technology by adding variables OM Cost|Fixed|Liquids|Biomass|w/o
-    CCS|2, ... OM Cost|Fixed|Liquids|Biomass|w/o CCS|N (with N = number of represented
-    technologies) (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Coal|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to liquids
-    plant with CCS. If more than one CCS CTL technology is modelled, modellers should
-    report fixed O&M costs  for each represented CCS CTL technology by adding variables
-    OM Cost|Fixed|Liquids|Coal|w/ CCS|2, ... OM Cost|Fixed|Liquids|Coal|w/ CCS|N (with
-    N = number of represented technologies) (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Coal|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new coal to liquids
-    plant w/o CCS. If more than one CTL technology is modelled, modellers should report
-    fixed O&M costs  for each represented CTL technology by adding variables OM Cost|Fixed|Liquids|Coal|w/o
-    CCS|2, ... OM Cost|Fixed|Liquids|Coal|w/o CCS|N (with N = number of represented
-    technologies) (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Gas|w/ CCS:
-  description: Annual fixed operation & maintainance cost of a new gas to liquids
-    plant with CCS. If more than one CCS GTL technology is modelled, modellers should
-    report fixed O&M costs  for each represented CCS GTL technology by adding variables
-    OM Cost|Fixed|Liquids|Gas|w/ CCS|2, ... OM Cost|Fixed|Liquids|Gas|w/ CCS|N (with
-    N = number of represented technologies) (matching the assignment of plant types
-    to technologies in the reporting of capital costs as documented in the comments
-    sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Gas|w/o CCS:
-  description: Annual fixed operation & maintainance cost of a new gas to liquids
-    plant w/o CCS. If more than one GTL technology is modelled, modellers should report
-    fixed O&M costs  for each represented GTL technology by adding variables OM Cost|Fixed|Liquids|Gas|w/o
-    CCS|2, ... OM Cost|Fixed|Liquids|Gas|w/o CCS|N (with N = number of represented
-    technologies) (matching the assignment of plant types to technologies in the reporting
-    of capital costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
-OM Cost|Fixed|Liquids|Oil:
-  description: Annual fixed operation & maintainance cost of a new oil refining plant.
-    If more than one refinery technology is modelled, modellers should report fixed
-    O&M costs  for each represented refinery technology by adding variables OM Cost|Fixed|Liquids|Oil|2,
-    ... OM Cost|Fixed|Liquids|Oil|N (with N = number of represented technologies)
-    (matching the assignment of plant types to technologies in the reporting of capital
-    costs as documented in the comments sheet).
-  unit: US$2010/kW/yr
+- Capital Cost|Electricity|Biomass|w/ CCS:
+    description: capital cost of a new biomass power plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Biomass|w/o CCS:
+    description: capital cost of a new biomass power plant w/o CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Coal|w/ CCS:
+    description: capital cost of a new coal power plant with CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Coal|w/o CCS:
+    description: capital cost of a new coal power plant w/o CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Gas|w/ CCS:
+    description: capital cost of a new gas power plant with CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Gas|w/o CCS:
+    description: capital cost of a new gas power plant w/o CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Geothermal:
+    description: capital cost of a new geothermal power plant. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Hydro:
+    description: capital cost of a new hydropower plant. If more than technology in
+      this category is modelled, modellers should report capital costs for the technology
+      that is used most; please specify the technology name/characteristics in the
+      comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Nuclear:
+    description: capital cost of a new nuclear power plants. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Solar|CSP:
+    description: capital cost of a new concentrated solar power plant. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Solar|PV:
+    description: capital cost of a new solar PV units. If more than technology in
+      this category is modelled, modellers should report capital costs for the technology
+      that is used most; please specify the technology name/characteristics in the
+      comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Wind|Offshore:
+    description: capital cost of a new offshore wind power plants. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Electricity|Wind|Onshore:
+    description: capital cost of a new onshore wind power plants. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Gases|Biomass|w/ CCS:
+    description: capital cost of a new biomass to gas plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Gases|Biomass|w/o CCS:
+    description: capital cost of a new biomass to gas plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Gases|Coal|w/ CCS:
+    description: capital cost of a new coal to gas plant with CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Gases|Coal|w/o CCS:
+    description: capital cost of a new coal to gas plant w/o CCS. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Biomass|w/ CCS:
+    description: capital cost of a new biomass to hydrogen plant with CCS. If more
+      than technology in this category is modelled, modellers should report capital
+      costs for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Biomass|w/o CCS:
+    description: capital cost of a new biomass to hydrogen plant w/o CCS. If more
+      than technology in this category is modelled, modellers should report capital
+      costs for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Coal|w/ CCS:
+    description: capital cost of a new coal to hydrogen plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Coal|w/o CCS:
+    description: capital cost of a new coal to hydrogen plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Electricity:
+    description: capital cost of a new hydrogen-by-electrolysis plant. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Gas|w/ CCS:
+    description: capital cost of a new gas to hydrogen plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Hydrogen|Gas|w/o CCS:
+    description: capital cost of a new gas to hydrogen plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Biomass|w/ CCS:
+    description: capital cost of a new biomass to liquids plant with CCS. If more
+      than technology in this category is modelled, modellers should report capital
+      costs for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Biomass|w/o CCS:
+    description: capital cost of a new biomass to liquids plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Coal|w/ CCS:
+    description: capital cost of a new coal to liquids plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Coal|w/o CCS:
+    description: capital cost of a new coal to liquids plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Gas|w/ CCS:
+    description: capital cost of a new gas to liquids plant with CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Gas|w/o CCS:
+    description: capital cost of a new gas to liquids plant w/o CCS. If more than
+      technology in this category is modelled, modellers should report capital costs
+      for the technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Capital Cost|Liquids|Oil:
+    description: capital cost of a new oil refining plant. If more than technology
+      in this category is modelled, modellers should report capital costs for the
+      technology that is used most; please specify the technology name/characteristics
+      in the comments.
+    unit: USD_2010/kW
+- Efficiency|Electricity|Biomass|w/ CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new biomass power plant with CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|
+      Biomass|w/ CCS|2, ... Efficiency|Electricity|Biomass|w/ CCS|N (matching the
+      assignment of plant types to technologies in the reporting of capital costs
+      as documented in the comments sheet). '
+    unit: '%'
+- Efficiency|Electricity|Biomass|w/o CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new biomass power plant w/o CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|Biomass|w/o
+      CCS|2, ... Efficiency|Electricity|Biomass|w/o CCS|N (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Electricity|Coal|w/ CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new coal power plant with CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|Coal|w/
+      CCS|2, ... Efficiency|Electricity|Coal|w/ CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Electricity|Coal|w/o CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new coal power plant w/o CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|Coal|w/o
+      CCS|2, ... Efficiency|Electricity|Coal|w/o CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Electricity|Gas|w/ CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new gas power plant with CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|Gas|w/
+      CCS|2, ... Efficiency|Electricity|Gas|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Electricity|Gas|w/o CCS:
+    description: 'Conversion efficiency (electricity produced per unit of primary
+      energy input) of a new gas power plant w/o CCS. The efficiency should refer
+      to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Electricity|Gas|w/o
+      CCS|2, ... Efficiency|Electricity|Gas|w/o CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Gases|Biomass|w/ CCS:
+    description: 'Conversion efficiency (energy content of gases produced per unit
+      of primary energy input) of a new biomass to gas plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Gases|Biomass|w/
+      CCS|2, ... Efficiency|Gases|Biomass|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Gases|Biomass|w/o CCS:
+    description: 'Conversion efficiency (energy content of gases produced per unit
+      of primary energy input) of a new coal to gas plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Gases|Coal|w/o
+      CCS|2, ... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Gases|Coal|w/ CCS:
+    description: 'Conversion efficiency (energy content of gases produced per unit
+      of primary energy input) of a new coal to gas plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Gases|Coal|w/
+      CCS|2, ... Efficiency|Gases|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Gases|Coal|w/o CCS:
+    description: 'Conversion efficiency (energy content of gases produced per unit
+      of primary energy input) of a new coal to gas plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Gases|Coal|w/o
+      CCS|2, ... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Biomass|w/ CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new biomass to hydrogen plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/
+      CCS|2, ... Efficiency|Hydrogen|Biomass|w/ CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Biomass|w/o CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new biomass to hydrogen plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/o
+      CCS|2, ... Efficiency|Hydrogen|Biomass|w/o CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Coal|w/ CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new coal to hydrogen plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/
+      CCS|2, ... Efficiency|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Coal|w/o CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new coal to hydrogen plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/o
+      CCS|2, ... Efficiency|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Electricity:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of electricity input) of a new hydrogen-by-electrolysis plant. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Electricity|2,
+      ... Efficiency|Hydrogen|Electricity|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Gas|w/ CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new gas to hydrogen plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/
+      CCS|2, ... Efficiency|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Hydrogen|Gas|w/o CCS:
+    description: 'Conversion efficiency (energy content of hydrogen produced per unit
+      of primary energy input) of a new gas to hydrogen plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/o
+      CCS|2, ... Efficiency|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Biomass|w/ CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new biomass to liquids plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/
+      CCS|2, ... Efficiency|Liquids|Biomass|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Biomass|w/o CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new biomass to liquids plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/o
+      CCS|2, ... Efficiency|Liquids|Biomass|w/o CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Coal|w/ CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new coal to liquids plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/
+      CCS|2, ... Efficiency|Liquids|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Coal|w/o CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new coal to liquids plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/o
+      CCS|2, ... Efficiency|Liquids|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Gas|w/ CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new gas to liquids plant with CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Gas|w/
+      CCS|2, ... Efficiency|Liquids|Gas|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Gas|w/o CCS:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new gas to liquids plant w/o CCS. The efficiency
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report efficiency for the additional plant types by adding variables Efficiency|Liquids|Gas|w/o
+      CCS|2, ... Efficiency|Liquids|Gas|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: '%'
+- Efficiency|Liquids|Oil:
+    description: 'Conversion efficiency (energy content of liquids produced per unit
+      of primary energy input) of a new oil refining plant. The efficiency should
+      refer to the plant type(s) for which capital costs have been reported. If capital
+      cost for more than one plant type has been reported, modellers should report
+      efficiency for the additional plant types by adding variables Efficiency|Liquids|Oil|2,
+      ... Efficiency|Electricity|Oil|w/o CCS|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: '%'
+- Lifetime|Electricity|Biomass|w/ CCS:
+    description: 'Lifetime of a new biomass power plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/
+      CCS|2, ... Lifetime|Electricity|Biomass|w/ CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: years
+- Lifetime|Electricity|Biomass|w/o CCS:
+    description: 'Lifetime of a new biomass power plant w/o CCS. Lifetime should be
+      calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/o
+      CCS|2, ... Lifetime|Electricity|Biomass|w/o CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: years
+- Lifetime|Electricity|Coal|w/ CCS:
+    description: 'Lifetime of a new coal power plant with CCS. Lifetime should be
+      calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/
+      CCS|2, ... Lifetime|Electricity|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Electricity|Coal|w/o CCS:
+    description: 'Lifetime of a new coal power plant w/o CCS. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/o
+      CCS|2, ... Lifetime|Electricity|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Electricity|Gas|w/ CCS:
+    description: 'Lifetime of a new gas power plant with CCS. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/
+      CCS|2, ... Lifetime|Electricity|Gas|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Electricity|Gas|w/o CCS:
+    description: 'Lifetime of a new gas power plant w/o CCS. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/o
+      CCS|2, ... Lifetime|Electricity|Gas|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Electricity|Geothermal:
+    description: 'Lifetime of a new geothermal power plant. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Geothermal|2,
+      ... Lifetime|Electricity|Geothermal|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Hydro:
+    description: 'Lifetime of a new hydropower plant. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Hydro|2,
+      ... Lifetime|Electricity|Hydro|N (matching the assignment of plant types to
+      technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Nuclear:
+    description: 'Lifetime of a new nuclear power plant. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Nuclear|2,
+      ... Lifetime|Electricity|Nuclear|N (matching the assignment of plant types to
+      technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Solar|CSP:
+    description: 'Lifetime of a new concentrated solar power plant. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|CSP|2,
+      ... Lifetime|Electricity|Solar|CSP|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Solar|PV:
+    description: 'Lifetime of a new PV unit. Lifetime should be calculated by summing
+      all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years)
+      or by the e-folding time for exponential capacity depreciation.  The lifetime
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|PV|2,
+      ... Lifetime|Electricity|Solar|PV|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Wind:
+    description: 'Lifetime of a new wind power plant (report only if wind power is
+      not separated in onshore and offshore). Lifetime should be calculated by summing
+      all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years)
+      or by the e-folding time for exponential capacity depreciation.  The lifetime
+      should refer to the plant type(s) for which capital costs have been reported.
+      If capital cost for more than one plant type has been reported, modellers should
+      report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|2,
+      ... Lifetime|Electricity|Wind|N (matching the assignment of plant types to technologies
+      in the reporting of capital costs as documented in the comments sheet). '
+    unit: years
+- Lifetime|Electricity|Wind|Offshore:
+    description: 'Lifetime of a new offshore wind power plant. Lifetime should be
+      calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|Offshore|2,
+      ... Lifetime|Electricity|Wind|Offshore|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Electricity|Wind|Onshore:
+    description: 'Lifetime of a new onshore wind power plant. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|Onshore|2,
+      ... Lifetime|Electricity|Wind|Onshore|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Gases|Biomass|w/ CCS:
+    description: 'Lifetime of a new biomass to gas plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Gases|Biomass|w/
+      CCS|2, ... Lifetime|Gases|Biomass|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Gases|Biomass|w/o CCS:
+    description: 'Lifetime of a new biomass to gas plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Gases|Biomass|w/o
+      CCS|2, ... Lifetime|Gases|Biomass|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Gases|Coal|w/ CCS:
+    description: 'Lifetime of a new coal to gas plant with CCS. Lifetime should be
+      calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Gases|Coal|w/
+      CCS|2, ... Lifetime|Gases|Coal|w/ CCS|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Gases|Coal|w/o CCS:
+    description: 'Lifetime of a new coal to gas plant w/o CCS. Lifetime should be
+      calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Gases|Coal|w/o
+      CCS|2, ... Lifetime|Gases|Coal|w/o CCS|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Hydrogen|Biomass|w/ CCS:
+    description: 'Lifetime of a new biomass to hydrogen plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/
+      CCS|2, ... Lifetime|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Biomass|w/o CCS:
+    description: 'Lifetime of a new biomass to hydrogen plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/o
+      CCS|2, ... Lifetime|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Coal|w/ CCS:
+    description: 'Lifetime of a new coal to hydrogen plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/
+      CCS|2, ... Lifetime|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Coal|w/o CCS:
+    description: 'Lifetime of a new coal to hydrogen plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/o
+      CCS|2, ... Lifetime|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Electricity:
+    description: 'Lifetime of a new hydrogen-by-electrolysis plant. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Electricity|w/
+      CCS|2, ... Lifetime|Hydrogen|Electricity|w/ CCS|N (matching the assignment of
+      plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Gas|w/ CCS:
+    description: 'Lifetime of a new gas to hydrogen plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/
+      CCS|2, ... Lifetime|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Hydrogen|Gas|w/o CCS:
+    description: 'Lifetime of a new gas to hydrogen plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/o
+      CCS|2, ... Lifetime|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Biomass|w/ CCS:
+    description: 'Lifetime of a new biomass to liquids plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/
+      CCS|2, ... Lifetime|Liquids|Biomass|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Biomass|w/o CCS:
+    description: 'Lifetime of a new biomass to liquids plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/o
+      CCS|2, ... Lifetime|Liquids|Biomass|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Coal|w/ CCS:
+    description: 'Lifetime of a new coal to liquids plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/
+      CCS|2, ... Lifetime|Liquids|Coal|w/ CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Coal|w/o CCS:
+    description: 'Lifetime of a new coal to liquids plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/o
+      CCS|2, ... Lifetime|Liquids|Coal|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Gas|w/ CCS:
+    description: 'Lifetime of a new gas to liquids plant with CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Gas|w/
+      CCS|2, ... Lifetime|Liquids|Gas|w/ CCS|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- Lifetime|Liquids|Gas|w/o CCS:
+    description: 'Lifetime of a new gas to liquids plant w/o CCS. Lifetime should
+      be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5)
+      * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Gas|w/o
+      CCS|2, ... Lifetime|Liquids|Gas|w/o CCS|N (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet). '
+    unit: years
+- Lifetime|Liquids|Oil:
+    description: 'Lifetime of a new oil refining plant. Lifetime should be calculated
+      by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years
+      = 41 years) or by the e-folding time for exponential capacity depreciation.  The
+      lifetime should refer to the plant type(s) for which capital costs have been
+      reported. If capital cost for more than one plant type has been reported, modellers
+      should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Oil|w/
+      CCS|2, ... Lifetime|Liquids|Oil|w/ CCS|N (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet). '
+    unit: years
+- OM Cost|Fixed|Electricity|Biomass|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass power
+      plant with CCS. If more than one CCS biomass power technology is modelled, modellers
+      should report fixed O&M costs  for each represented CCS biomass power technology
+      by adding variables OM Cost|Fixed|Electricity|Biomass|w/ CCS|2, ... OM Cost|Fixed|Electricity|Biomass|w/
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Biomass|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass power
+      plant w/o CCS. If more than one biomass power technology is modelled, modellers
+      should report fixed O&M costs  for each represented biomass power technology
+      by adding variables OM Cost|Fixed|Electricity|Biomass|w/o CCS|2, ... OM Cost|Fixed|Electricity|Biomass|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Coal|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new coal power plant
+      with CCS. If more than one CCS coal power technology is modelled (e.g. subcritical
+      PC with post-combustion capture, supercritical PC with post-combustion capture,
+      supercritical PC with oxyfuel combustion and capture, IGCC with pre-combustion
+      capture), modellers should report fixed O&M costs  for each represented CCS
+      coal power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/
+      CCS|2, ... OM Cost|Fixed|Electricity|Coal|w/ CCS|N (with N = number of represented
+      technologies) (matching the assignment of plant types to technologies in the
+      reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Coal|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new coal power plant
+      w/o CCS. If more than one coal power technology is modelled (e.g. subcritical
+      PC, supercritical PC, IGCC), modellers should report fixed O&M costs  for each
+      represented coal power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/o
+      CCS|2, ... OM Cost|Fixed|Electricity|Coal|w/o CCS|N (with N = number of represented
+      technologies) (matching the assignment of plant types to technologies in the
+      reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Gas|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new gas power plant
+      with CCS. If more than one CCS gas power technology is modelled, modellers should
+      report fixed O&M costs  for each represented CCS gas power technology by adding
+      variables OM Cost|Fixed|Electricity|Gas|w/ CCS|2, ... OM Cost|Fixed|Electricity|Gas|w/
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Gas|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new gas power plant
+      w/o CCS. If more than one gas power technology is modelled, modellers should
+      report fixed O&M costs  for each represented gas power technology by adding
+      variables OM Cost|Fixed|Electricity|Gas|w/o CCS|2, ... OM Cost|Fixed|Electricity|Gas|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Geothermal:
+    description: Annual fixed operation & maintainance cost of a new geothermal power
+      plants. If more than one geothermal power plant technology is modelled (e.g.,
+      hydrothermal, hard dry rock), modellers should report fixed O&M costs  for each
+      represented geothermal power technology by adding variables OM Cost|Fixed|Electricity|Geothermal|2,
+      ... Capital|Cost|Electricity|Geothermal|N (with N = number of represented geothermal
+      power technologies) (matching the assignment of plant types to technologies
+      in the reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Hydro:
+    description: Annual fixed operation & maintainance cost of a new hydropower plant.
+      If more than one hydropower technology is modelled, modellers should report
+      fixed O&M costs  for each represented hydropower technology by adding variables
+      OM Cost|Fixed|Electricity|Hydro|2, ... OM Cost|Fixed|Electricity|Hydro|N (with
+      N = number of represented technologies) (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Nuclear:
+    description: Annual fixed operation & maintainance cost of a new nuclear power
+      plants. If more than one nuclear power plant technology is modelled (e.g., Gen
+      II, III, IV; LWR, thermal reactors with other moderator materials, fast breeders),
+      modellers should report fixed O&M costs  for each represented nuclear power
+      technology by adding variables OM Cost|Fixed|Electricity|Nuclear|2, ... Capital|Cost|Electricity|Nuclear|N
+      (with N = number of represented nuclear power technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Solar|CSP:
+    description: Annual fixed operation & maintainance cost of a new concentrated
+      solar power plant. If more than one CSP technology is modelled (e.g., parabolic
+      trough, solar power tower), modellers should report fixed O&M costs  for each
+      represented CSP technology by adding variables OM Cost|Fixed|Electricity|Solar|CSP|2,
+      ... Capital|Cost|Electricity|Solar|CSP|N (with N = number of represented CSP
+      technologies) (matching the assignment of plant types to technologies in the
+      reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Solar|PV:
+    description: Annual fixed operation & maintainance cost of a new solar PV units.
+      If more than one PV technology is modelled (e.g., centralized PV plant, distributed
+      (rooftop) PV, crystalline SI PV, thin-film PV), modellers should report fixed
+      O&M costs  for each represented PV technology by adding variables OM Cost|Fixed|Electricity|Solar|PV|2,
+      ... Capital|Cost|Electricity|Solar|PV|N (with N = number of represented PV technologies)
+      (matching the assignment of plant types to technologies in the reporting of
+      capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Wind:
+    description: Annual fixed operation & maintainance cost of a new wind power plants.
+      This variable should only be filled, if wind power is not separated into onshore
+      and offshore. If more than one wind power technology is modelled (e.g., wind
+      power units with different hub height and capacity), modellers should report
+      fixed O&M costs  for each represented wind power technology by adding variables
+      OM Cost|Fixed|Electricity|Wind|2, ... Capital|Cost|Electricity|Wind|N (with
+      N = number of represented wind power technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Wind|Offshore:
+    description: Annual fixed operation & maintainance cost of a new offshore wind
+      power plants. This variable should only be filled, if wind power is separated
+      into onshore and offshore. If more than one offshore wind power technology is
+      modelled (e.g., wind power units with different hub height and capacity), modellers
+      should report fixed O&M costs  for each represented wind power technology by
+      adding variables OM Cost|Fixed|Electricity|Wind|Offshore|2, ... Capital|Cost|Electricity|Wind|Offshore|N
+      (with N = number of represented offshore wind power technologies) (matching
+      the assignment of plant types to technologies in the reporting of capital costs
+      as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Electricity|Wind|Onshore:
+    description: Annual fixed operation & maintainance cost of a new onshore wind
+      power plants. This variable should only be filled, if wind power is separated
+      into onshore and offshore. If more than one onshore wind power technology is
+      modelled (e.g., wind power units with different hub height and capacity), modellers
+      should report fixed O&M costs  for each represented wind power technology by
+      adding variables OM Cost|Fixed|Electricity|Wind|Onshore|2, ... Capital|Cost|Electricity|Wind|Onshore|N
+      (with N = number of represented onshore wind power technologies) (matching the
+      assignment of plant types to technologies in the reporting of capital costs
+      as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Gases|Biomass|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to gas
+      plant with CCS. If more than one CCS biomass to gas technology is modelled,
+      modellers should report fixed O&M costs  for each represented CCS biomass to  gas
+      technology by adding variables OM Cost|Fixed|Gases|Biomass|w/ CCS|2, ... OM
+      Cost|Fixed|Gases|Biomass|w/ CCS|N (with N = number of represented technologies).
+      (matching the assignment of plant types to technologies in the reporting of
+      capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Gases|Biomass|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to gas
+      plant w/o CCS. If more than one biomass to gas technology is modelled, modellers
+      should report fixed O&M costs  for each represented biomass to gas technology
+      by adding variables OM Cost|Fixed|Gases|Biomass|w/o CCS|2, ... OM Cost|Fixed|Gases|Biomass|w/o
+      CCS|N (with N = number of represented technologies). (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Gases|Coal|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to gas plant
+      with CCS. If more than one CCS coal to gas technology is modelled, modellers
+      should report fixed O&M costs  for each represented CCS coal to  gas technology
+      by adding variables OM Cost|Fixed|Gases|Coal|w/ CCS|2, ... OM Cost|Fixed|Gases|Coal|w/
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Gases|Coal|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to gas plant
+      w/o CCS. If more than one coal to gas technology is modelled, modellers should
+      report fixed O&M costs  for each represented coal to gas technology by adding
+      variables OM Cost|Fixed|Gases|Coal|w/o CCS|2, ... OM Cost|Fixed|Gases|Coal|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Biomass|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to hydrogen
+      plant with CCS. If more than one CCS biomass to hydrogen technology is modelled,
+      modellers should report fixed O&M costs  for each represented CCS biomass to
+      hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/ CCS|2,
+      ... OM Cost|Fixed|Hydrogen|Biomass|w/ CCS|N (with N = number of represented
+      technologies) (matching the assignment of plant types to technologies in the
+      reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Biomass|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to hydrogen
+      plant w/o CCS. If more than one biomass to hydrogen technology is modelled,
+      modellers should report fixed O&M costs  for each represented biomass to hydrogen
+      technology by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/o CCS|2, ...
+      OM Cost|Fixed|Hydrogen|Biomass|w/o CCS|N (with N = number of represented technologies)
+      (matching the assignment of plant types to technologies in the reporting of
+      capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Coal|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to hydrogen
+      plant with CCS. If more than one CCS coal to hydrogen technology is modelled,
+      modellers should report fixed O&M costs  for each represented CCS coal to hydrogen
+      technology by adding variables OM Cost|Fixed|Hydrogen|Coal|w/ CCS|2, ... OM
+      Cost|Fixed|Hydrogen|Coal|w/ CCS|N (with N = number of represented technologies)
+      (matching the assignment of plant types to technologies in the reporting of
+      capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Coal|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to hydrogen
+      plant w/o CCS. If more than one coal to hydrogen technology is modelled, modellers
+      should report fixed O&M costs  for each represented coal to hydrogen technology
+      by adding variables OM Cost|Fixed|Hydrogen|Coal|w/o CCS|2, ... OM Cost|Fixed|Hydrogen|Coal|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Electricity:
+    description: Annual fixed operation & maintainance cost of a new hydrogen-by-electrolysis
+      plant. If more than hydrogen-by-electrolysis technology is modelled, modellers
+      should report fixed O&M costs  for each represented hydrogen-by-electrolysis
+      technology by adding variables OM Cost|Fixed|Hydrogen|Electricity|2, ... OM
+      Cost|Fixed|Hydrogen|Electricity|N (with N = number of represented technologies)
+      (matching the assignment of plant types to technologies in the reporting of
+      capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Gas|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new gas to hydrogen
+      plant with CCS. If more than one CCS gas to hydrogen technology is modelled,
+      modellers should report fixed O&M costs  for each represented CCS gas to hydrogen
+      technology by adding variables OM Cost|Fixed|Hydrogen|Gas|w/ CCS|2, ... OM Cost|Fixed|Hydrogen|Gas|w/
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Hydrogen|Gas|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new gas to hydrogen
+      plant w/o CCS. If more than one gas to hydrogen technology is modelled, modellers
+      should report fixed O&M costs  for each represented gas to hydrogen technology
+      by adding variables OM Cost|Fixed|Hydrogen|Gas|w/o CCS|2, ... OM Cost|Fixed|Hydrogen|Gas|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Biomass|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to liquids
+      plant with CCS. If more than one CCS BTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented CCS BTL technology by adding variables
+      OM Cost|Fixed|Liquids|Biomass|w/ CCS|2, ... OM Cost|Fixed|Liquids|Biomass|w/
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Biomass|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new biomass to liquids
+      plant w/o CCS. If more than one BTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented BTL technology by adding variables
+      OM Cost|Fixed|Liquids|Biomass|w/o CCS|2, ... OM Cost|Fixed|Liquids|Biomass|w/o
+      CCS|N (with N = number of represented technologies) (matching the assignment
+      of plant types to technologies in the reporting of capital costs as documented
+      in the comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Coal|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to liquids
+      plant with CCS. If more than one CCS CTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented CCS CTL technology by adding variables
+      OM Cost|Fixed|Liquids|Coal|w/ CCS|2, ... OM Cost|Fixed|Liquids|Coal|w/ CCS|N
+      (with N = number of represented technologies) (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Coal|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new coal to liquids
+      plant w/o CCS. If more than one CTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented CTL technology by adding variables
+      OM Cost|Fixed|Liquids|Coal|w/o CCS|2, ... OM Cost|Fixed|Liquids|Coal|w/o CCS|N
+      (with N = number of represented technologies) (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Gas|w/ CCS:
+    description: Annual fixed operation & maintainance cost of a new gas to liquids
+      plant with CCS. If more than one CCS GTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented CCS GTL technology by adding variables
+      OM Cost|Fixed|Liquids|Gas|w/ CCS|2, ... OM Cost|Fixed|Liquids|Gas|w/ CCS|N (with
+      N = number of represented technologies) (matching the assignment of plant types
+      to technologies in the reporting of capital costs as documented in the comments
+      sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Gas|w/o CCS:
+    description: Annual fixed operation & maintainance cost of a new gas to liquids
+      plant w/o CCS. If more than one GTL technology is modelled, modellers should
+      report fixed O&M costs  for each represented GTL technology by adding variables
+      OM Cost|Fixed|Liquids|Gas|w/o CCS|2, ... OM Cost|Fixed|Liquids|Gas|w/o CCS|N
+      (with N = number of represented technologies) (matching the assignment of plant
+      types to technologies in the reporting of capital costs as documented in the
+      comments sheet).
+    unit: USD_2010/kW/yr
+- OM Cost|Fixed|Liquids|Oil:
+    description: Annual fixed operation & maintainance cost of a new oil refining
+      plant. If more than one refinery technology is modelled, modellers should report
+      fixed O&M costs  for each represented refinery technology by adding variables
+      OM Cost|Fixed|Liquids|Oil|2, ... OM Cost|Fixed|Liquids|Oil|N (with N = number
+      of represented technologies) (matching the assignment of plant types to technologies
+      in the reporting of capital costs as documented in the comments sheet).
+    unit: USD_2010/kW/yr
