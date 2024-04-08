@@ -1,7 +1,7 @@
 from nomenclature import DataStructureDefinition
 
 
-def test_legacy_variables():
+def test_variable_ops_as_square_brackets():
     # Check that variables use square brackets for operations
     # https://github.com/IAMconsortium/common-definitions/issues/55
 
