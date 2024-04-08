@@ -10,9 +10,7 @@ def test_legacy_variables():
     error = []
     for variable, attrs in dsd.variable.items():
         if reserved_terms := [r for r in ["Index", "Share"] if "|" + r in variable]:
-            error.append(
-                f"Variable '{variable}' -> '[{''.join(reserved_terms)}]'"
-            )
+            error.append(f"Variable '{variable}' -> '[{''.join(reserved_terms)}]'")
     if error:
         raise ValueError(
             f"Found reserved terms in the following variables:\n{'\n - '.join(error)}"
