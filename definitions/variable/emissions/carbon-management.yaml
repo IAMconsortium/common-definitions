@@ -18,7 +18,7 @@
     unit: Mt CO2/yr
     note: Leakage of CO2 stored in previous years should be reported here
     
--Carbon Capture|Other Storage:
+- Carbon Capture|Other Storage:
     description: Captured carbon dioxide (CO2) that is stored in reservoirs not elsewhere specified
     unit: Mt CO2/yr
 
