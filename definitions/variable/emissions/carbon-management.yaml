@@ -8,7 +8,7 @@
         direct air carbon capture and storage (DACCS), and other CO2 removal (exclusive of land-use change) in these sectors
     unit: Mt CO2/yr
 
-- Carbon Capture|Geologic Storage:
+- Carbon Capture|Geological Storage:
     description: Captured carbon dioxide (CO2) that is injected into subsurface geologic storage reservoirs (e.g., in situ mineralization).
     unit: Mt CO2/yr
     note: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization) should be reported under Carbon Capture|Other Storage
