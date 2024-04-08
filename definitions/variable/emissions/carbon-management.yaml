@@ -50,10 +50,6 @@
     description: CO2 captured directly from the atmosphere in solvent, sorbent, or other chemical processes, excluding any fossil process heat.
     unit: Mt CO2/yr
 
-- Carbon Removal|Direct Ocean Capture:
-    description: dissolved inorganic carbon that is electrochemically separated from seawater and stored in geologic reservoirs or other long-term storage
-    unit: Mt CO2/yr
-
 - Carbon Removal|Terrestrial Enhanced Weathering:
     description: Carbon dioxide (CO2) removed from the atmosphere by spreading ground silicate bearing rock 
         over croplands or terrestrial ecosystems, thereby converting aqueous CO2 into solid carbonate minerals or ocean alkalinity
@@ -61,6 +57,10 @@
 
 - Carbon Removal|Ocean:
     description: Carbon dioxide (CO2) removed from the atmopshere and stored in the ocean as alkalinity, biomass sinking, or other long-term storage
+    unit: Mt CO2/yr
+
+- Carbon Removal|Ocean|Direct Ocean Capture:
+    description: dissolved inorganic carbon that is electrochemically separated from seawater and stored in geologic reservoirs or other long-term storage
     unit: Mt CO2/yr
 
 - Carbon Removal|Ocean|Alkalinization:
