@@ -3,7 +3,7 @@
 # Level-2 reports additional disaggregation for long-lived vs. short-lived utilization.
 
 - Carbon Capture:
-    description: Captured carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes 
+    description: Total amount of captured carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes 
         (IPCC categories 2A, B, C, E), including emissions from international bunkers, net of negative emissions from bioenergy with CCS (BECCS), 
         direct air carbon capture and storage (DACCS), and other CO2 removal (exclusive of land-use change) in these sectors
     unit: Mt CO2/yr
