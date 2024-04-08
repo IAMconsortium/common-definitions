@@ -22,16 +22,16 @@
     description: Captured carbon dioxide (CO2) that is stored in reservoirs not elsewhere specified
     unit: Mt CO2/yr
 
--Carbon Capture|Utilization:
+- Carbon Capture|Utilization:
     description: Captured carbon dioxide (CO2) that is used in the manufacture of fuels, materials, or to enhance the productivity of oil and/or natural gas reservoirs.
     unit: Mt CO2/yr
 
--Carbon Capture|Utilization|Durable Storage:
+- Carbon Capture|Utilization|Durable Storage:
     description: Captured carbon dioxide (CO2) that is used in the manufacture durable materials (e.g., cement), 
         or to enhance the productivity of oil and/or natural gas reservoirs wherein the captured carbon is stored on centenial or longer timescales. 
     unit: Mt CO2/yr
     
--Carbon Capture|Utilization|Short-lived Storage:
+- Carbon Capture|Utilization|Short-lived Storage:
     description: Captured carbon dioxide (CO2) that is used in the manufacture of fuels or short-lived materials 
         wherin the captured carbon is reemitted to the atmosphere upon consumption of these products or within annual to decadal timescales. 
     unit: Mt CO2/yr
