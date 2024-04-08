@@ -42,10 +42,6 @@
     description: Gross removals of CO2 from the atmosphere through deliberate human activities
     unit: Mt CO2/yr
 
-- Carbon Removal|Biochar:
-    description: production of biochar using pyrolysis
-    unit: Mt CO2/yr
-
 - Carbon Removal|Direct Air Capture:
     description: CO2 captured directly from the atmosphere in solvent, sorbent, or other chemical processes, excluding any fossil process heat.
     unit: Mt CO2/yr
@@ -86,12 +82,17 @@
     unit: Mt CO2/yr
 
 - Carbon Removal|Afforestation:
-    description: [TBD]
+    description: Carbon dioxide (CO2) stored in soils and vegetation through the expansion of forested land area
     unit: Mt CO2/yr
 
 - Carbon Removal|Soil Carbon Management:
-    description: [TBD]
+    description: Carbon dioxide (CO2) stored in agricultural soils as organic carbon as a result of management practices such as low-till, organic soil amendment, or biochar application
+    unit: Mt CO2/yr
+
+- Carbon Removal|Soil Carbon Management|Biochar:
+    description: production of biochar using pyrolysis
     unit: Mt CO2/yr
 
 - Carbon Removal|Agroforestry:
-    description: [TBD]
+    description: Carbon dioxide (CO2) removed from the atmosphere via intentional integration of trees and shrubs into crop and animal farming systems
+    unit: Mt CO2/yr
