@@ -1,15 +1,15 @@
 - Iron Commodity:
     - Steel:
-        description: iron and steel sector
+        description: raw steel
     - Primary Steel:
-        description: iron and steel sector
+        description: raw primary steel
     - Secondary Steel:
-        description: iron and steel sector
+        description: raw secondary steel
     - Iron:
-          description: iron and steel sector
+          description: raw iron
     - Pig Iron:
-          description: iron and steel sector
+          description: pig iron
     - Sponge Iron:
-          description: iron and steel sector
+          description: sponge iron
     - Iron Ore:
-          description: iron and steel sector
+          description: iron ore

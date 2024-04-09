@@ -1,19 +1,19 @@
-- Production|{Industry-Sector}|{Production Unit}:
-    description: Production of industrial commodities by sector
+- Production|{Industry-Sector} [{Production Unit}]: # ???: do we need this aggregate?
+    description: Production of {Industry-Sector} in {Production Unit}
     unit: Mt/yr
 
-- Production|Iron and Steel|{Iron Commodity}|{Production Unit}:
-    description: Production of steel commodities
+- Production|Iron and Steel|{Iron Commodity} [{Production Unit}]:
+    description: Production of {Iron Commodity} in {Production Unit}
     unit: Mt/yr
-- Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Production Unit}:
-    description: Production of mineralic commodities
+- Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity} [{Production Unit}]:
+    description: Production of {Non-Metallic Minerals Commodity} in {Production Unit}
     unit: Mt/yr
-- Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Production Unit}:
-    description: Production of non ferrous metals
+- Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity} [{Production Unit}]:
+    description: Production of {Non-Ferrous Minerals Commodity} in {Production Unit}
     unit: Mt/yr
-- Production|Chemicals|{Chemicals Commodity}|{Production Unit}:
-    description: Production of chemical commodities
+- Production|Chemicals|{Chemicals Commodity} [{Production Unit}]:
+    description: Production of {Chemicals Commodity} in {Production Unit}
     unit: Mt/yr
-- Production|Pulp and Paper|{Pulp and Paper Commodity}|{Production Unit}:
-    description: Production of paper commodities
+- Production|Pulp and Paper|{Pulp and Paper Commodity} [{Production Unit}]:
+    description: Production of {Pulp and Paper Commodity} in {Production Unit}
     unit: Mt/yr

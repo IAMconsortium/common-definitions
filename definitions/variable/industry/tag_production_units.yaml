@@ -1,5 +1,5 @@
 - Production Unit:
     - Volume:
-        description: Volume of bulk commodities in mass units
+        description: Volume in mass units
     - Value:
-        description: Value of bulk commodities in USD
+        description: Value in USD

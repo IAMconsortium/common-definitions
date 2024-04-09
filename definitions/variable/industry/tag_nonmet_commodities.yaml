@@ -1,11 +1,11 @@
 - Non-Metallic Minerals Commodity:
     - Cement:
-        description: non-metallic minerals sector
+        description: Cement
     - Limestone:
-        description: non-metallic minerals sector
+        description: limestone
     - Clinker:
-        description: non-metallic minerals sector
+        description: clinker
     - Glass:
-        description: non-metallic minerals sector
+        description: glass
     - Bricks:
-          description: non-metallic minerals sector
+          description: bricks

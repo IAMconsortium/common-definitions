@@ -1,19 +1,16 @@
-- Demand|{Industry-Sector}|{Demand Sector}:
-    description: Production of industrial commodities by sector
-    unit: Mt/yr
-
+# material demand by commodity and demand sector
 - Demand|Iron and Steel|Steel|{Demand Sector}:
-    description: Production of steel commodities
+    description: Demand of steel commodities in {Demand Sector}
     unit: Mt/yr
 - Demand|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Demand Sector}:
-    description: Production of mineralic commodities
+    description: Demand of {Non-Metallic Minerals Commodity} in {Demand Sector}
     unit: Mt/yr
 - Demand|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Demand Sector}:
-    description: Production of non ferrous metals
+    description: Demand of {Non-Ferrous Metals Commodity} in {Demand Sector}
     unit: Mt/yr
 - Demand|Chemicals|{Chemicals Commodity}|{Demand Sector}:
-    description: Production of chemical commodities
+    description: Demand of chemical commodities
     unit: Mt/yr
 - Demand|Pulp and Paper|{Pulp and Paper Commodity}|{Demand Sector}:
-    description: Production of paper commodities
+    description: Demand of {Pulp and Paper Commodity} in {Demand Sector}
     unit: Mt/yr

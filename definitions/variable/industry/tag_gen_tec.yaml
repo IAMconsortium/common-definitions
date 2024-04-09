@@ -1,15 +1,15 @@
-Generation Technology:
+- Generation Technology:
     - Nuclear:
-        description: Electricity generation with nuclear power plants
+        description: nuclear power plants
     - Solar:
-        description: Electricity generation with solar PV
+        description: solar PV
     - Wind:
-        description: Electricity generation with wind power plants
+        description: wind power plants
     - Gas:
-        description: Electricity generation with gas power plants
+        description: gas power plants
     - Coal:
-        description: Electricity generation with coal power plants
+        description: coal power plants
     - Biomass:
-        description: Electricity generation with biomass power plants
+        description: biomass power plants
     - Hydro:
-        description: Electricity generation with hydro power plants
+        description: hydro power plants

@@ -1,23 +1,23 @@
 - Chemicals Commodity:
     - High Value Chemicals|Ethylene:
-        description: non-metallic minerals sector
+        description: Ethylene
     - High Value Chemicals|Propylene:
-          description: non-metallic minerals sector
+          description: Propylene
     - High Value Chemicals|BTX:
-          description: non-metallic minerals sector
+          description: BTX
     - Ammonia:
-        description: non-metallic minerals sector
+        description: Ammonia
     - Nitrogen Fertilizer:
-        description: non-metallic minerals sector
+        description: Nitrogen fertilizer
     - Methanol:
-          description: non-metallic minerals sector
+          description: Methanol
     - Formaldehyde:
-          description: non-metallic minerals sector
+          description: Formaldehyde
     - Formaldehyde resins:
-          description: non-metallic minerals sector
+          description: Formaldehyde resins, such as UF/PF/MF resins
     - Plastics:
-        description: non-metallic minerals sector
+        description: Plastics
     - Primary Plastics:
-        description: non-metallic minerals sector
+        description: primary plastics
     - Secondary Plastics:
-        description: non-metallic minerals sector
+        description: secondary plastics
