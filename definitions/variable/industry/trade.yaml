@@ -1,0 +1,39 @@
+- Export|Industry|{Industry-Sector}|{Production Unit}:
+    description: Production of industrial commodities by sector
+    unit: Mt/yr
+
+- Export|Industry|Iron and Steel|{Iron Commodity}|{Production Unit}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Export|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Production Unit}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Export|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Production Unit}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Export|Industry|Chemicals|{Chemicals Commodity}|{Production Unit}:
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Export|Industry|Pulp and Paper|{Pulp and Paper Commodity}|{Production Unit}:
+    description: Production of paper commodities
+    unit: Mt/yr
+
+- Import|Industry|{Industry-Sector}|{Production Unit}:
+    description: Production of industrial commodities by sector
+    unit: Mt/yr
+
+- Import|Industry|Iron and Steel|{Iron Commodity}|{Production Unit}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Import|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Production Unit}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Import|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Production Unit}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Import|Industry|Chemicals|{Chemicals Commodity}|{Production Unit}:
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Import|Industry|Pulp and Paper|{Pulp and Paper Commodity}|{Production Unit}:
+    description: Production of paper commodities
+    unit: Mt/yr

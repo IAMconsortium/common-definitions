@@ -1,0 +1,33 @@
+# material stocks by commodity
+- Material Stock|Iron and Steel|{Iron Commodity}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Material Stock|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Material Stock|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Material Stock|Chemicals|{Chemicals Commodity}:
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Material Stock|Pulp and Paper|{Pulp and Paper Commodity}:
+    description: Production of paper commodities
+    unit: Mt/yr
+
+# material stocks by commodity and demand sector
+- Material Stock|Iron and Steel|{Iron Commodity}|{Demand Sector}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Material Stock|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Demand Sector}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Material Stock|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Demand Sector}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Material Stock|Chemicals|{Chemicals Commodity}|{Demand Sector}:
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Material Stock|Pulp and Paper|{Pulp and Paper Commodity}|{Demand Sector}:
+    description: Production of paper commodities
+    unit: Mt/yr

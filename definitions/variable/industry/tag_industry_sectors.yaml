@@ -1,0 +1,26 @@
+# Industry sectors as used in IEA World Energy Balances (2022 Edition)
+Industry-Sector:
+    - Mining:
+          description: ISIC Rev. 4 Divisions 07 and 08 and Group 099
+    - Construction:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 41-43
+    - Iron and Steel:
+        description: ISIC Rev. 4 Group 241 and Class 2431
+    - Non-ferrous Metals:
+        description: ISIC Rev. 4 Group 242 and Class 2432, basic industries
+    - Non-metallic Minerals:
+        description: ISIC Rev. 4 Division 23 Such as glass, ceramic, cement, etc.
+    - Chemicals:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 20 and 21
+    - Machinery:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 25-28
+    - Transport equipment:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 29 and 30
+    - Food and Tobacco:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 10-12
+    - Paper and Pulp:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 17 and 18
+    - Textile and leather:
+          description: Industry sectors categorized as ISIC Rev. 4 Divisions 13-15
+    - Other:
+        description: Industry sectors categorized as ISIC Rev. 4 Divisions 22, 31 and 32

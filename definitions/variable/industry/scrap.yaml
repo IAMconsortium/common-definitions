@@ -1,0 +1,32 @@
+
+- Collected Scrap|Iron and Steel|Steel|{Demand Sector}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Collected Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Demand Sector}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Collected Scrap|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Demand Sector}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Collected Scrap|Chemicals|{Chemicals Commodity}|{Demand Sector}: # ??? Maybe "Plastic" commodity?
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Collected Scrap|Pulp and Paper|{Pulp and Paper Commodity}|{Demand Sector}:
+    description: Production of paper commodities
+    unit: Mt/yr
+
+- Total Scrap|Iron and Steel|Steel|{Demand Sector}:
+    description: Production of steel commodities
+    unit: Mt/yr
+- Total Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Demand Sector}:
+    description: Production of mineralic commodities
+    unit: Mt/yr
+- Total Scrap|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Demand Sector}:
+    description: Production of non ferrous metals
+    unit: Mt/yr
+- Total Scrap|Chemicals|{Chemicals Commodity}|{Demand Sector}: # ??? Maybe "Plastic" commodity?
+    description: Production of chemical commodities
+    unit: Mt/yr
+- Total Scrap|Pulp and Paper|{Pulp and Paper Commodity}|{Demand Sector}:
+    description: Production of paper commodities
+    unit: Mt/yr

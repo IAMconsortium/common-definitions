@@ -1,0 +1,13 @@
+- Non-Ferrous Metals Commodity:
+    - Aluminum:
+        description: Metal commonly produced by electrolysis of alumina or re-melting of scrap
+    - Secondary Aluminum:
+        description: Aluminum produced from aluminum scrap recycling
+    - Primary Aluminum:
+        description: Aluminum produced via Hall-Heroult process from alumina
+    - Alumina:
+        description: Aluminum oxide, commonly produced via the Bayer process from bauxite
+    - Copper:
+        description: soft and ductile metal with high thermal and electrical conductivity
+    - Lithium:
+        description: alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage
