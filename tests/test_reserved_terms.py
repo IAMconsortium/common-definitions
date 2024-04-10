@@ -1,5 +1,7 @@
 from nomenclature import DataStructureDefinition
 
+RESERVED_TERMS = ["Index", "Share", "Value", "Volume"]
+
 
 def test_variable_ops_as_square_brackets():
     # Check that variables use square brackets for operations
@@ -9,7 +11,7 @@ def test_variable_ops_as_square_brackets():
 
     error = []
     for variable in dsd.variable:
-        if reserved_terms := [r for r in ["Index", "Share"] if "|" + r in variable]:
+        if reserved_terms := [r for r in RESERVED_TERMS if "|" + r in variable]:
             error.append(f"Variable '{variable}' -> '... [{''.join(reserved_terms)}]'")
     if error:
         raise ValueError(
