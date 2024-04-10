@@ -1,4 +1,4 @@
-- Export|Industry|{Industry-Sector}|{Production Unit}: # ???: do we need this aggregate?
+- Export|Industry|{Industry Sector}|{Production Unit}: # ???: do we need this aggregate?
     description: Production of industrial commodities by sector
     unit: Mt/yr
 
@@ -19,7 +19,7 @@
     unit: Mt/yr
 
 
-- Import|Industry|{Industry-Sector}|{Production Unit}: # ???: do we need this aggregate?
+- Import|Industry|{Industry Sector}|{Production Unit}: # ???: do we need this aggregate?
     description: Total production of commodities by sector
     unit: Mt/yr
 

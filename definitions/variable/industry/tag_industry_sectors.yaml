@@ -1,5 +1,5 @@
 # Industry sectors as used in IEA World Energy Balances (2022 Edition)
-Industry-Sector:
+- Industry Sector:
     - Mining:
           description: ISIC Rev. 4 Divisions 07 and 08 and Group 099
     - Construction:
