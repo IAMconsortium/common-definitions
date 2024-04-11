@@ -28,5 +28,5 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Run the legacy validation
+      - name: Run pytest
         run: pytest tests
