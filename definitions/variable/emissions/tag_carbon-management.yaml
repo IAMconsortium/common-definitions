@@ -1,0 +1,7 @@
+# These are carbon technologies that have substantial energy requirements
+# for use in the variables `Final Energy|Carbon Management|{Carbon Management Technology}`
+- Carbon Management Technology:
+    - Biochar:
+        description: production of biochar using pyrolysis
+    - Direct Air Capture:
+        description: direct air capture
