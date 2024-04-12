@@ -1,0 +1,7 @@
+- Labor Force:
+    - Not Active:
+        definition: not at the age of working (not part of the active population / labor force)
+    - Employment:
+        definition: at the age of working (part of the active population / labor force) and employed
+    - Unemployment:
+        definition: at the age of working (part of the active population / labor force) and unemployed

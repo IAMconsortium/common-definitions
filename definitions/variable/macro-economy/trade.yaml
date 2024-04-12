@@ -1,9 +1,9 @@
-- Export:
+- Trade|Export [Value]:
     description: total exports measured in monetary quantities
     unit: billion USD_2010/yr
     tier: 1
     min: 0
-- Import:
+- Trade|Import [Value]:
     description: total imports measured in monetary quantities
     unit: billion USD_2010/yr
     tier: 1
