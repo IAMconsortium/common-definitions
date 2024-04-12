@@ -1,5 +1,7 @@
 from nomenclature import DataStructureDefinition
 
+LEGACY_PROJECTS = ["navigate", "engage", "shape"]
+
 
 def test_legacy_variables():
     # Check that (new) variables are not referenced as deprecated legacy variables
@@ -8,7 +10,7 @@ def test_legacy_variables():
 
     legacy_variables = {}
     for code, attrs in dsd.variable.items():
-        for project in ["navigate", "engage"]:
+        for project in LEGACY_PROJECTS:
             if project in attrs.extra_attributes:
                 legacy_var = attrs.__getattr__(project)
                 if legacy_var in existing_variables:

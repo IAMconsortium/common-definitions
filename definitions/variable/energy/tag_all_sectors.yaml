@@ -8,15 +8,18 @@
     - Industry|Non-Ferrous Metals:
         description: non-ferrous metals sector
     - Industry|Non-Metallic Minerals:
-        description: non-metallic minerals sector
+        description: non-metallic minerals sector excluding cement
     - Industry|Chemicals:
         description: chemicals sector excluding feedstocks
+    # keep consistent with the sub-categories of `Chemicals` in the `Industrial-Process Sector` tag list
     - Industry|Chemicals|Ammonia:
         description: ammonia sector
     - Industry|Chemicals|Methanol:
-        description: menthanol sector
+        description: methanol sector
     - Industry|Chemicals|High Value Chemicals:
         description: high-value-chemicals sector
+    - Industry|Chemicals|Other Sector:
+        description: other use in the chemical sector
     - Industry|Cement:
         description: cement sector
     - Industry|Plastics:
@@ -32,9 +35,10 @@
     - Residential and Commercial:
         description: residential and commercial sector
     - Transportation:
-        description: transportation sector excluding bunker fuels
+        description: transportation sector excluding international aviation and shipping
+          (see "Bunkers")
     - Transportation (w/ bunkers):
-        description: transportation sector including bunker fuels
+        description: transportation sector including international aviation and shipping
     - Transportation|Bus:
         description: transportation sector by bus
     - Transportation|Light Duty Vehicle:
@@ -48,10 +52,11 @@
     - Transportation|Domestic Shipping:
         description: domestic shipping sector
     - Transportation|Passenger:
-        description: passenger transportation sector
+        description: passenger transportation sector excluding international aviation
+          and shipping
     - Transportation|Freight:
-        description: passenger transportation sector
+        description: freight transportation sector excluding international aviation and shipping
     - Bunkers:
-        description: bunker-fuels sector
+        description: international aviation and shipping
     - Other Sector:
         description: other sectors

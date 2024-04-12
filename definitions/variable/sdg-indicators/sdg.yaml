@@ -1,0 +1,481 @@
+- Population|Poverty|Extreme Poverty:
+    description: Number of people living in extreme poverty with income
+      below USD_2011 1.90 PPP per day
+    sdg: 1
+    unit: million
+    shape: Population|Extreme Poverty|International poverty line
+- Population|Poverty|LMIC Poverty Line:
+    description: Number of people living in poverty with income with income
+      below USD_2011 3.20 PPP per day (World Bank LMIC definition)
+    sdg: 1
+    unit: million
+- Population|Poverty|UMIC Poverty Line:
+    description: Number of people living in poverty with income
+      below USD_2011 5.50 PPP per day (World Bank LMIC definition)
+    sdg: 1
+    unit: million
+- Population|Risk of Hunger:
+    definition: Population at risk of hunger, calculated by multipling total population
+      and prevalence of undernourishment which is computed from a probability distribution
+      of daily dietary energy consumption and minimum dietary energy requirement.
+    unit: million
+- Population|Electricity Access:
+    definition: Population with access to electricity
+    unit: million
+- Population|Relying on Solid Fuels:
+    definition: Population without access to electricity and relying on solid fuels
+      for heating-cooking
+    unit: million
+- Population|Clean Cooking Access:
+    definition: Population with access to improved cooking facilities (electric or
+      gas)
+    unit: million
+    navigate: Population|Clean cooking Access
+- Expenditure|Households|Food [Share]:
+    description: Share of food expenditure in total income
+    sdg: 1
+    unit: '%'
+    weight: GDP|PPP
+    shape: Expenditure Share|Food
+- Population|Prevalence of Underweight:
+    description: Number of adults with body mass index (BMI) lower than 18.5 and 
+      children with BMI lower than two standard deviations from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Underweight|Children:
+    description: Number of children aged 0-14 years with BMI lower than two standard
+      deviations from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Overweight:
+    description: Number of adults with body mass index (BMI) greater than 25 and
+      children with BMI greater than one standard deviation from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Overweight|Children:
+    description: Number of children aged 0-14 years with BMI greater than one standard
+      deviation from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Obesity:
+    description: Number of adults with with body mass index (BMI) greater than 30 and
+      children with BMI greater than two standard deviations from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Obesity|Children:
+    description: Number of children aged 0-14 with BMI greater than two standard
+      deviations from reference
+    sdg: 2
+    unit: million
+- Population|Prevalence of Normal Weight:
+    description: Number of adults with body mass index (BMI) BMI between 18.5 and 25 and
+      children with BMI within two standard deviations below reference (lower bound)
+        and one standard deviations above reference (upper bound)
+    sdg: 2
+    unit: million
+- Population|Prevalence of Normal Weight|Children:
+    description: Number of children aged 0-14 with BMI within two standard deviations
+      below reference (lower bound) and one standard deviations above reference (upper bound)
+    sdg: 2
+    unit: million
+- Food|Availability [per capita]:
+    description: Amount of food available for consumption per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Availability|{Food Options} [per capita]:
+    description: Amount of {Food Options} available for consumption per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Intake [per capita]:
+    description: Food calorie intake per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Food|Intake|{Food Options} [per capita]:
+    description: Calorie intake of {Food Options} per capita
+    sdg: 2
+    unit: kcal/cap/day
+    weight: Population
+- Price|Agriculture|Livestock [Index]:
+    description: Weighted average price index of livestock
+    sdg: 2
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    shape: Price|Agriculture|Livestock|Index
+- Health|Premature Deaths|PM2.5:
+    description: Number of premature deaths associated with increased health risks from
+      exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
+    sdg: 3
+    unit: million
+- Health|Disability-Adjusted Life Years|PM2.5:
+    description: Disability adjusted life years lost per year from health impacts
+      due to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
+    sdg: 3
+    unit: DALY/yr
+    shape: Disability-Adjusted Life Year|PM2.5
+- Health|Child Mortality:
+    description: Child mortality
+    sdg: 3
+    unit: million
+    shape: Population|Child Mortality
+- Health|Child Mortality|Indoor Air Pollution:
+    description: Child mortality associated with indoor air pollution
+    sdg: 3
+    unit: million
+    shape: Population|Child Mortality|Indoor Air Pollution
+- Population|Without Education [Share]:
+    description: Share of people aged 15 or older without education,
+      not counting those with incomplete primary education
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Primary Education|Leaving Cohort [Share]:
+    description: Share of school-leaving cohort aged 15-19 completing primary education
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Secondary Education|Leaving Cohort [Share]:
+    description: Share of school-leaving cohort aged 20-24 completing secondary education
+      (lower secondary or above)
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Adults|Without Secondary Education [Share]:
+    description: Share of adults aged 20+ without secondary education
+    sdg: 4
+    unit: '%'
+    weight: Population
+- Population|Gender Education Gap|Primary:
+    description: Difference of percentage of males and females in school-leaving cohort
+      aged 15-19 with at least primary education
+    sdg: 5
+    unit: percentage points
+    skip-region-aggregation: true
+- Population|Gender Education Gap|Secondary:
+    description: Difference of percentage of males and females in school-leaving cohort
+      aged 20-24 with at least lower secondary education
+    sdg: 5
+    unit: percentage points
+    skip-region-aggregation: true
+- Gender Inequality Index:
+    description: Geometric average of reproductive health, empowerment and labor market
+      force participation rate (see Andrijevic et al., 2020)
+    sdg: 5
+    unit:
+    weight: Population
+- Population|Severe Water Stress:
+    description: Number of people living in areas with severe water stress
+    sdg: 6
+    unit: million
+- Pollution|Nitrogen|Surplus|{Nitrogen Sources}:
+    description: Nitrogen surplus of {Nitrogen Sources}
+    sdg: 6
+    unit: Tg N/yr
+    shape: Nitrogen|Pollution|Surplus|{Nitrogen Sources}
+- Water Quality|Nitrogen Concentration:
+    description: Concentration of nitrogen in water at river mouths
+    sdg: 6
+    unit: mg N/l
+- Water Quality|Phosphorus Concentration:
+    description: Concentration of phosphorus in water at river mouths
+    sdg: 6
+    unit: mg P/l
+- Freshwater|Environmental Flow Violations:
+    description: Water withdrawals at the expense of environmental flow requirements
+    sdg: 6
+    unit: km3/yr
+- Useful Energy|Transportation|Passenger [per capita]:
+    description: Useful energy per capita for passenger transport
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Industry [per capita]:
+    description: Useful energy per capita for industry
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Residential and Commercial [per capita]:
+    description: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Residential [per capita]:
+    description: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Useful Energy|Commercial [per capita]:
+    description: Useful energy per capita for buildings
+    sdg: 7
+    unit: GJ/cap/yr
+    weight: Population
+- Energy Service|Transportation|Freight:
+    definition: Energy service demand for freight transport
+    unit: billion tkm/yr
+- Energy Service|Transportation|Passenger:
+    definition: Energy service demand for passenger transport
+    unit: billion pkm/yr
+- Energy Service|Transportation|Passenger|Road:
+    description: Energy service demand for passenger transport on roads
+    sdg: 7
+    unit: billion pkm/yr
+- Energy Service|Transportation|Passenger|Active Transport [Share]:
+    description: Share of walking and cycling in passenger transport
+    sdg: 7
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
+    shape: Energy Service|Transportation|Passenger|ActiveTransport|Share
+- Energy Service|Transportation|Passenger|Public Transport [Share]:
+    description: Share of public transit in passenger transport
+    sdg: 7
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Energy Service|Transportation|Passenger
+    shape: Energy Service|Transportation|Passenger|PublicTransport|Share
+- Energy Service|Residential|Cooling Degree Days:
+    description: Measure of how hot the temperature was over a given period
+      indicating higher energy needs for cooling
+    sdg: 7
+    unit: °C-days
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
+- Energy Service|Residential|Heating Degree Days:
+    description: Measure of how cold the temperature was over a given period
+      indicating higher energy needs for heating
+    sdg: 7
+    unit: °C-days
+    skip-region-aggregation: true
+#     weight: Energy Service|Residential|Floor Space
+- Final Energy|Industry|Electricity [Share]:
+    description: Share of electricity in final energy demand for industry
+    sdg: 7
+    unit: '%'
+    weight: Final Energy|Industry|Electricity
+    shape: Final Energy|Industry|Electricity|Share
+- Intensity|Final Energy:
+    description: Final Energy intensity
+    sdg: 7
+    unit: EJ/billion USD_2010
+    weight: GDP|PPP
+- GDP|PPP [Growth Rate per capita]:
+    description: Annual growth rate of GDP-per-capita (PPP)
+    sdg: 8
+    unit: '%'
+    weight: GDP|PPP
+    shape: GDPpcap|PPP|Growth rate
+- GDP|PPP [per capita relative to OECD]:
+    description: Ratio of GDP-per-capita (PPP) relative to OECD average
+    sdg: 8
+    unit: '%'
+    weight: Population
+    shape: GDPpcap|PPP|Ratio to OECD
+- Population|Poverty|National Poverty Line [Share]:
+    description: Share of population living in relative poverty with income below their
+      respective national poverty lines
+    sdg: 10
+    unit: '%'
+    weight: Population
+    shape: Population|Relative Poverty|Share
+- Population|Poverty|Below 50% of National Median Income [Share]:
+    description: Share of population below 50% of median national income
+    sdg: 10
+    unit: '%'
+    weight: Population
+    shape: Population|Relative poverty|wrt median income|Share
+- Inequality|Average Income|Bottom 40% [Ratio]:
+    description: Average income of bottom 40% of population relative to national average
+    sdg: 10
+    unit: '%'
+    weight: Population
+    shape: Inequality|Bottom 40% average income|Ratio
+- Population|Informal Settlements:
+    description: Number of people living in informal settlements, e.g., slums
+    sdg: 11
+    unit: million
+- Population|Substandard Accommodation:
+    description: Number of people living in substandard accommodation, e.g., accommodation
+      that does not meet legal requirements and/or enable well being for the occupants
+    sdg: 11
+    unit: million
+    shape: Population|substandard accommodation
+- Population|Urban [Share]:
+    description: Share of population living in urban areas
+    sdg: 11
+    unit: '%'
+    weight: Population
+- Air Pollution|PM2.5|Urban Population:
+    description: Urban population weighted annual average PM2.5 concentrations.
+    sdg: 11
+    unit: ug/m3
+    weight: Population|Urban
+    shape: Air Pollution|PM2.5|Urban population
+- Material Recycling|{Recycled Materials}:
+    description: Production of recycled {Recycled Materials}
+    sdg: 12
+    unit: Mt/year
+- Material Recycling|{Recycled Materials} [Share]:
+    description: Share of recycled {Recycled Materials}
+    sdg: 12
+    unit: '%'
+    skip-region-aggregation: true
+#     weight: Production|Iron and Steel|Volume
+    shape: Material recycling|{Recycled Materials}|Share
+- Agricultural Material Footprint [per capita]:
+    description: Biomass usage per capita excluding pasture and forestry
+    sdg: 12
+    unit: tDM/cap/yr
+    weight: Population
+    shape: Agricultural Material Footprint
+- Food Waste [per capita]:
+    description: Amount of food (crops and livestock) per capita that is disposed
+      and not consumed
+    unit: kcal/cap/day
+    weight: Population
+- Ocean|Acidification:
+    description: Ocean acidification
+    sdg: 14
+    unit: pH
+    skip-region-aggregation: true
+    shape: Ocean|pH value
+- Ocean|Carbonate Saturation|Aragonite:
+    description: Saturation state of aragonite (Omega A)
+    sdg: 14
+    unit:
+    skip-region-aggregation: true
+- Ocean|Carbonate Saturation|Calcite:
+    description: Saturation state of calcite (Omega C)
+    sdg: 14
+    unit:
+    skip-region-aggregation: true
+- Land Cover:
+    definition: total land cover
+    unit: million ha
+- Land Cover|Cropland:
+    definition: total arable land, i.e. land in bioenergy crop, food, and feed/fodder
+      crops, permant crops as well as other arable land (physical area)
+    unit: million ha
+- Land Cover|Forest|Natural Forest|Primary Forest:
+    description: Undisturbed primary natural forests
+    sdg: 15
+    unit: million ha   
+- Land Cover|Forest|Natural Forest|Secondary Forest:
+    description: Modified natural forests and secondary forests from natural succession
+    sdg: 15
+    unit: million ha      
+- Terrestrial Biodiversity|Mean Species Abundance:
+    description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+    weight: Land Cover
+- Terrestrial Biodiversity|Mean Species Abundance|Vertebrates:
+    definition: Terrestrial biodiversity of vertebrate species measured in Mean Species
+      Abundance (MSA)
+    unit: '%'
+    weight: Land Cover
+    navigate: Terrestrial Biodiversity|MSA|Vertebrates
+- Terrestrial Biodiversity|Mean Species Abundance|Plants:
+    definition: Terrestrial biodiversity of plant species measured in Mean Species
+      Abundance (MSA)
+    unit: '%'
+    weight: Land Cover
+    navigate: Terrestrial Biodiversity|MSA|Vertebrates
+- Terrestrial Biodiversity|Biodiversity Intactness Index:
+    definition: Terrestrial biodiversity measured with Biodiversity Intactness Index
+      (BII)
+    unit: '%'
+    weight: Land Cover
+    navigate: Terrestrial Biodiversity|BII
+- Terrestrial Biodiversity|Biodiversity Intactness Index|Cropland Landscapes:
+    description: Terrestrial biodiversity in landscapes containing cropland measured
+      with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+    weight: Land Cover|Cropland
+- Terrestrial Biodiversity|Biodiversity Intactness Index|Biodiversity Hotspots:
+    description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
+      with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|Biodiversity Intactness Index|Key Conservation Landscapes:
+    description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
+      measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|Biodiversity Intactness Index|Areas Outside Key Conservation and Cropland Landscapes:
+    description: Terrestrial biodiversity in areas outside biodiversity hotspot,
+      intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
+    sdg: 15
+    unit: '%'
+    skip-region-aggregation: true
+- Terrestrial Biodiversity|Shannon Crop Diversity Index:
+    description: Crop diversity measured by the Shannon index accounting for crop richness
+      and abundance
+    sdg: 15
+    unit: index
+    skip-region-aggregation: true
+#     weight: Land Cover|Cropland
+- Nitrogen|Cropland Budget|Inputs:
+    description: Total nitrogen inputs on cropland
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Industrial and Intentional Biological Fixation:
+    description: Nitrogen inputs on cropland via industrial and intentional biological fixation
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Biological Fixation:
+    description: Nitrogen inputs on cropland from biological fixation (symbiotic crops and free-living bacteria)
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Biological Fixation|Symbiotic Crops:
+    description: Nitrogen inputs on cropland from symbiotic fixation in plants
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Organic:
+    description: Nitrogen inputs on cropland from organic fertilizers
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Inorganic:
+    description: Nitrogen inputs on cropland from inorganic fertilizers
+    sdg: 15
+    unit: Tg N/yr
+- Nitrogen|Cropland Budget|Inputs|Other:
+    description: Nitrogen inputs on cropland from other sources
+    sdg: 15
+    unit: Tg N/yr
+- Political Institutions|Equality Before Law and Individual Liberty:
+    description: Aggregated 'Equality Before the Law and Individual Liberty' index as
+      defined by "Varieties of Democracy" (V-DEM, Coppedge et al., 2022; Pemstein et al., 2022)
+    sdg: 16
+    unit:
+    weight: Population
+    shape: Political Institutions|Equality before law and individual liberty
+- Price|Carbon [relative to OECD]:
+    description: Carbon price relative to OECD carbon price
+    sdg: 17
+    unit: '%'
+    skip-region-aggregation: true
+    shape: Price|Carbon|Ratio to OECD
+- Policy Cost|GDP Loss w/o Transfers:
+    description: GDP loss without international transfers in a policy scenario compared
+      to the corresponding baseline (losses should be reported as positive numbers)
+    sdg: 17
+    unit: billion USD_2010/yr
+    shape: Policy Cost|GDP Loss|w/o transfers
+- Policy Cost|Transfers:
+    description: Net international climate finance transfers (positive for inflow,
+      negative for payment)
+    sdg: 17
+    unit: billion USD_2010/yr
+- Unemployment:
+    definition: Number of unemployed inhabitants (based on ILO classification)
+    unit: million
+- Unemployment [Rate]: 
+    definition: Fraction of unemployed inhabitants (based on ILO classification)
+    unit: '%'
