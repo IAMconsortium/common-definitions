@@ -10,6 +10,7 @@
       - Emissions|{Level-1 Species}|Energy
       - Emissions|{Level-1 Species}|Industrial Processes
       - Emissions|{Level-1 Species}|Waste
+      - Emissions|{Level-1 Species}|Direct Capture and Removal
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
     definition: Gross emissions of carbon dioxide (CO2), not accounting for negative
@@ -196,3 +197,10 @@
 - Emissions|{Level-2 Species}|Other:
     description: Emissions of {Level-2 Species} from other sources
     unit: "{Level-2 Species}"
+
+- Emissions|{Level-3 Species}|Direct Capture and Removal:
+    description: Capture and removal of {Level-3 Species} using Direct Air Capture (DAC)
+      and other net-negative technologies that are not directly linked to an emitter
+    unit: "{Level-3 Species}"
+    note: This timeseries should be reported as negative numbers so that
+      `Emissions|{Level-3 Species}` totals add up.
