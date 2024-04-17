@@ -199,8 +199,9 @@
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-3 Species}|Direct Capture and Removal:
-    description: Capture and removal of {Level-3 Species} using Direct Air Capture (DAC)
-      and other net-negative technologies that are not directly linked to an emitter
+    description: Capture and removal of {Level-3 Species} using net-negative technologies
+      that are not directly linked to an emissions source, e.g., direct air capture (DAC)
+      or enhanced weathering
     unit: "{Level-3 Species}"
     note: This timeseries should be reported as negative numbers so that
       `Emissions|{Level-3 Species}` totals add up.
