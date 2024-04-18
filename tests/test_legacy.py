@@ -13,7 +13,7 @@ def test_legacy_variables():
         for project in LEGACY_PROJECTS:
             if project in attrs.extra_attributes:
                 legacy_var = attrs.__getattr__(project)
-                if legacy_var in existing_variables:
+                if legacy_var != code and legacy_var in existing_variables:
                     legacy_variables[legacy_var] = code
 
     if legacy_variables:
