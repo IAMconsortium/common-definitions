@@ -9,17 +9,18 @@
 - Value Added|{Economic Sectors}:
     description: Value added by the {Economic Sectors}
     unit: billion USD_2010/yr
-    tier: {Economic Sectors}
-    navigate: Value Added|Commercial
+    tier: 1
+    navigate: Value Added|{Economic Sectors}
 - Capital Formation:
-    description: net additions to the physical capital stock
+    description: Net additions to the physical capital stock
     unit: billion USD_2010/yr
     tier: 1
 - Expenditure|Government:
-    description: total government expenditure
+    description: Total expenditure by governments
     unit: billion USD_2010/yr
     tier: 1
-- Expenditure|Household:
-    description: Total household expenditure
+- Expenditure|Households:
+    description: Total expenditure by households
     unit: billion USD_2010/yr
     tier: 1
+    navigate: Expenditure|Household

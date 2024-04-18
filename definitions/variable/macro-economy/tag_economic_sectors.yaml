@@ -1,10 +1,8 @@
 - Economic Sectors:
     - Agriculture:
         description: the aggregated agricultural sectors (ISIC Rev.4 A)
-        tier: 1
     - Industry:
         description: the aggregated industrial sector (ISIC Rev.4 B-F)
-        tier: 1
     - Services:
         description: the aggregated services sector (ISIC Rev.4 G-X)
-        tier: 1
+        navigate: Commercial
