@@ -5,9 +5,9 @@
         description: production of biochar using pyrolysis
     - Direct Air Capture:
         description: direct air capture
-    - Terrestreal Enhanced Weathering:
+    - Terrestrial Enhanced Weathering:
         description: terrestrial application of alkalinity to increase CO2 uptake on land
     - Direct Ocean Capture:
         description: electrochemical separation of dissolved inorganic carbon from seawater
-    - Ocean Alkalinity Enhancement: 
+    - Ocean Alkalinity Enhancement:
         description: increasing ocean alkalinity
