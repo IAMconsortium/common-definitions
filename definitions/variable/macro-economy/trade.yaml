@@ -8,3 +8,54 @@
     unit: billion USD_2010/yr
     tier: 1
     min: 0
+- Trade|Primary Energy|Biomass|Value:
+    definition: value of net exports of solid, unprocessed biomass, at the global
+      level these should add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Primary Energy|Coal|Value:
+    definition: value of net exports of coal, at the global level these should add
+      up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Primary Energy|Gas|Value:
+    definition: value of net exports of natural gas, at the global level these should
+      add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Primary Energy|Oil|Value:
+    definition: value of net exports of crude oil, at the global level these should
+      add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Electricity|Value:
+    definition: value of net exports of electricity, at the global level these should
+      add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Hydrogen|Value:
+    definition: value of net exports of hydrogen, at the global level these should
+      add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Liquids|Biomass|Value:
+    definition: value of net exports of liquid biofuels, at the global level these
+      should add up to the trade losses only (for those models that are able to split
+      solid and liquid bioenergy)
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Liquids|Coal|Value:
+    definition: value of net exports of fossil liquid synfuels from coal-to-liquids
+      (CTL) technologies, at the global level these should add up to the trade losses
+      only
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Liquids|Gas|Value:
+    definition: value of net exports of fossil liquid synfuels from gas-to-liquids
+      (GTL) technologies, at the global level these should add up to the trade losses
+      only
+    unit: billion USD_2010/yr
+- Trade|Secondary Energy|Liquids|Oil|Value:
+    definition: value of net exports of liquid fuels from petroleum including both
+      conventional and unconventional sources, at the global level these should add
+      up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Uranium|Value:
+    definition: value of net exports of Uranium, at the global level these should
+      add up to the trade losses only
+    unit: billion USD_2010/yr
+- Trade|Emissions Allowances|Value:
+    definition: value of trade in GHG emission allowances
+    unit: billion USD_2010/yr
