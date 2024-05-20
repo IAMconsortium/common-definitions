@@ -1,16 +1,16 @@
-The initial countries geojson(shapefile) [world_ne](world_ne.geojson) is sourced from the [Natural Earth's official repository, specifically version 5.1.1](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/).
-
 ## Common Regions
+
+The initial countries geojson(shapefile) [world_ne](world_ne.geojson) is sourced from the [Natural Earth's official repository, version 5.1.1](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/).
 
 The geojson file for common regions is generated according to the [IAMC Common Definitions](https://github.com/IAMconsortium/common-definitions/blob/main/definitions/region/common.yaml).
 
 - r5 regions
 
-  OECD & EU (R5), Reforming Economies (R5), Asia (R5),Middle East & Africa (R5),Latin America (R5)
+  OECD & EU (R5), Reforming Economies (R5), Asia (R5), Middle East & Africa (R5), Latin America (R5)
 
 - r9 regions
 
-  European Union (R9), USA (R9), Other OECD (R9), China (R9), India (R9),Other Asia (R9), Reforming Economies (R9), Middle East & Africa (R9), Latin America (R9)
+  European Union (R9), USA (R9), Other OECD (R9), China (R9), India (R9), Other Asia (R9), Reforming Economies (R9), Middle East & Africa (R9), Latin America (R9)
 
 - r10 regions
 
