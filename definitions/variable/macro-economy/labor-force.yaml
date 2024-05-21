@@ -5,8 +5,8 @@
     tier: 1
     min: 0
     navigate: "{Employment Status}"
-- Labor Force|Not Active:
-    description: Inhabitants which are not at the age of working, i.e, not part of the
+- Labor Force|Inactive:
+    description: Inhabitants which are inactive / not part of the labor force. This include people not at the age of working, and people not employed nor unemployed
       active population or labor force
     unit: million
     tier: 1
