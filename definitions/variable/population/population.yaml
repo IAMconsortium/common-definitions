@@ -2,11 +2,6 @@
     definition: Total population
     unit: million
     tier: 1
-- Population|{Labor Force}:
-    definition: Inhabitants which are {Labor Force}
-    unit: million
-    tier: 1
-    min: 0
 - Population|Urban:
     definition: Total population living in urban areas
     unit: million
