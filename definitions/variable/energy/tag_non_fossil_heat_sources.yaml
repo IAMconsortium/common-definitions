@@ -1,0 +1,9 @@
+- Non-Fossil Heat Sources:
+    - Geothermal:
+        description: geothermal energy excluding ground-source heat pumps
+    - Electricity:
+        description: electricity
+    - Nuclear:
+        description: nuclear energy
+    - Solar:
+        description: solar energy
