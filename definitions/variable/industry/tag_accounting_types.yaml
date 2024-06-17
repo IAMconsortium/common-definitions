@@ -1,5 +1,7 @@
-- Production Unit:
+- Accounting Type:
     - Volume:
         description: Volume in mass units
+        unit: Mt/yr
     - Value:
         description: Value in USD
+        unit: USD_2010/yr
