@@ -1,7 +1,3 @@
-- Production|{Industry Sector} [{Production Unit}]: # ???: do we need this aggregate?
-    description: Production of {Industry Sector} in {Production Unit}
-    unit: Mt/yr
-
 - Production|Iron and Steel|{Iron Commodity} [{Production Unit}]:
     description: Production of {Iron Commodity} in {Production Unit}
     unit: Mt/yr
