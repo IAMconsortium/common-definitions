@@ -9,7 +9,7 @@
     description: x {Non-Ferrous Metals Commodity} scrap from {Demand Sector}
     unit: Mt/yr
 - Collected Scrap|Chemicals|{Chemicals Commodity}|{Demand Sector}: # ??? Maybe "Plastic" commodity?
-    description: x {Chemicals Commodity} scrap from {Demand Sector}
+    description: "{Chemicals Commodity} scrap from {Demand Sector}"
     unit: Mt/yr
 - Collected Scrap|Pulp and Paper|{Pulp and Paper Commodity}|{Demand Sector}:
     description: x {Pulp and Paper Commodity} scrap from {Demand Sector}
