@@ -33,7 +33,3 @@
     description: Captured carbon dioxide (CO2) that is used in the manufacture of fuels or short-lived materials 
         wherin the captured carbon is reemitted to the atmosphere upon consumption of these products or within annual to decadal timescales. 
     unit: Mt CO2/yr
-
-- Carbon Removal|Agroforestry:
-    description: Carbon dioxide (CO2) removed from the atmosphere via intentional integration of trees and shrubs into crop and animal farming systems
-    unit: Mt CO2/yr
