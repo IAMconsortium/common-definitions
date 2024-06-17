@@ -98,12 +98,12 @@
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Price|Agriculture|Livestock|Index:
+- Price|Agriculture|Livestock [Index]:
     description: Weighted average price index of livestock
     sdg: 2
     unit: Index (2020 = 1)
     skip-region-aggregation: true
-#     weight: Agricultural Production|Non-Energy
+    shape: Price|Agriculture|Livestock|Index
 - Health|Premature Deaths|PM2.5:
     description: Number of premature deaths associated with increased health risks from
       exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
@@ -473,9 +473,6 @@
       negative for payment)
     sdg: 17
     unit: billion USD_2010/yr
-- Unemployment:
-    definition: Number of unemployed inhabitants (based on ILO classification)
-    unit: million
 - Unemployment [Rate]: 
     definition: Fraction of unemployed inhabitants (based on ILO classification)
     unit: '%'

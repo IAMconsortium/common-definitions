@@ -1,0 +1,14 @@
+- Labor Force|{Employment Status}:
+    description: Working-age inhabitants which are {Employment Status}
+      (part of the active labor force)
+    unit: million
+    tier: 1
+    min: 0
+    navigate: "{Employment Status}"
+- Labor Force|Inactive:
+    description: Inhabitants which are not part of the labor force, including
+      working-age people neither employed nor unemployed, and people not
+      in a working-age cohort (e.g., children, retirees)
+    unit: million
+    tier: 1
+    min: 0
