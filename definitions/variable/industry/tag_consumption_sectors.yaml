@@ -1,4 +1,4 @@
-- Demand Sector:
+- Consumption Sector:
     - Electricity:
         description: electricity generation
     - Electricity|{Generation Technology}:
