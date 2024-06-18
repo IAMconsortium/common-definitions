@@ -1,6 +1,6 @@
 
 - Collected Scrap|Iron and Steel|Steel|{Consumption Sector}:
-    description: Steel scrap from {Consumption Sector}"
+    description: steel scrap from {Consumption Sector}"
     unit: Mt/yr
 - Collected Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
     description: "{Non-Metallic Minerals Commodity} scrap from {Consumption Sector}"
@@ -16,7 +16,7 @@
     unit: Mt/yr
 
 - Total Scrap|Iron and Steel|Steel|{Consumption Sector}:
-    description: Steel scrap from {Consumption Sector}"
+    description: steel scrap from {Consumption Sector}"
     unit: Mt/yr
 - Total Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
     description: "{Non-Metallic Minerals Commodity} scrap from {Consumption Sector}"

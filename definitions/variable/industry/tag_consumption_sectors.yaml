@@ -1,6 +1,6 @@
 - Consumption Sector:
     - Electricity:
-        description: electricity generation
+        description: electricity generation sector
     - Electricity|{Generation Technology}:
           description: electricity generation with {Generation Technology}
     - Electricity|Distribution:

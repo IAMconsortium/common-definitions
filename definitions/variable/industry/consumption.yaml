@@ -1,16 +1,16 @@
 # material demand by commodity and demand sector
 - Consumption|Iron and Steel|Steel|{Consumption Sector}:
-    description: Consumption of steel commodities in {Consumption Sector}
+    description: consumption of steel commodities in {Consumption Sector}
     unit: Mt/yr
 - Consumption|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
-    description: Consumption of {Non-Metallic Minerals Commodity} in {Consumption Sector}
+    description: consumption of {Non-Metallic Minerals Commodity} in {Consumption Sector}
     unit: Mt/yr
 - Consumption|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Consumption Sector}:
-    description: Consumption of {Non-Ferrous Metals Commodity} in {Consumption Sector}
+    description: consumption of {Non-Ferrous Metals Commodity} in {Consumption Sector}
     unit: Mt/yr
 - Consumption|Chemicals|{Chemicals Commodity}|{Consumption Sector}:
-    description: Consumption of chemical commodities
+    description: consumption of chemical commodities
     unit: Mt/yr
 - Consumption|Pulp and Paper|{Pulp and Paper Commodity}|{Consumption Sector}:
-    description: Consumption of {Pulp and Paper Commodity} in {Consumption Sector}
+    description: consumption of {Pulp and Paper Commodity} in {Consumption Sector}
     unit: Mt/yr

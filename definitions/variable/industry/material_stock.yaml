@@ -1,33 +1,33 @@
 # material stocks by commodity
 - Material Stock|Iron and Steel|{Iron Commodity}:
-    description: Material stock of steel commodities
+    description: material stock of steel commodities
     unit: Mt/yr
 - Material Stock|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
-    description: Material stock of mineral commodities
+    description: material stock of mineral commodities
     unit: Mt/yr
 - Material Stock|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
-    description: Material stock of {Non-Ferrous Metals Commodity}
+    description: material stock of {Non-Ferrous Metals Commodity}
     unit: Mt/yr
 #- Material Stock|Chemicals|{Chemicals Commodity}:
-#    description: Material stock of {Chemicals Commodity}
+#    description: material stock of {Chemicals Commodity}
 #    unit: Mt/yr
 #- Material Stock|Pulp and Paper|{Pulp and Paper Commodity}:
-#    description: Material stock of {Chemicals Commodity}
+#    description: material stock of {Chemicals Commodity}
 #    unit: Mt/yr
 
 # material stocks by commodity and consumption sector
 - Material Stock|Iron and Steel|{Iron Commodity}|{Consumption Sector}:
-    description: Material stock of {Iron Commodity} in {Consumption Sector} sector
+    description: material stock of {Iron Commodity} in {Consumption Sector} sector
     unit: Mt/yr
 - Material Stock|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
-    description: Material stock of {Non-Metallic Minerals Commodity} in {Consumption Sector} sector
+    description: material stock of {Non-Metallic Minerals Commodity} in {Consumption Sector} sector
     unit: Mt/yr
 - Material Stock|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Consumption Sector}:
-    description: Material stock of {Non-Ferrous Metals Commodity} in {Consumption Sector} sector
+    description: material stock of {Non-Ferrous Metals Commodity} in {Consumption Sector} sector
     unit: Mt/yr
 #- Material Stock|Chemicals|{Chemicals Commodity}|{Consumption Sector}:
-#    description: Material stock of {Chemicals Commodity} in {Consumption Sector} sector
+#    description: material stock of {Chemicals Commodity} in {Consumption Sector} sector
 #    unit: Mt/yr
 #- Material Stock|Pulp and Paper|{Pulp and Paper Commodity}|{Consumption Sector}:
-#    description: Material stock of {Pulp and Paper Commodity} in {Consumption Sector} sector
+#    description: material stock of {Pulp and Paper Commodity} in {Consumption Sector} sector
 #    unit: Mt/yr
