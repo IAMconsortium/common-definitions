@@ -2,6 +2,8 @@
     - Volume:
         description: volume in mass units
         unit: Mt/yr
+        navigate: "|Volume"
     - Value:
         description: value in USD
         unit: USD_2010/yr
+        navigate: ""

@@ -1,27 +1,43 @@
+- Export|Industry [Value]:
+    description: total export of industrial commodities
+    unit: USD_2010/yr
+    navigate: Export|Industry
+
 - Export|Industry|{Industry Sector} [{Accounting Type}]: # ???: do we need this aggregate?
     description: export of industrial commodities by sector
     unit: "{Accounting Type}"
+    navigate: Export|Industry|{Industry Sector}{Accounting Type}
 
 - Export|Industry|Iron and Steel|{Iron Commodity} [{Accounting Type}]:
     description: export of {Iron Commodity}
     unit: "{Accounting Type}"
+    navigate: Export|Industry|Iron and Steel|{Iron Commodity}{Accounting Type}
 - Export|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity} [{Accounting Type}]:
     description: export of {Non-Metallic Minerals Commodity}
     unit: "{Accounting Type}"
+    navigate: Export|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}{Accounting Type}
 - Export|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity} [{Accounting Type}]:
     description: export of {Non-Ferrous Metals Commodity}
     unit: "{Accounting Type}"
+    navigate: Export|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}{Accounting Type}
 - Export|Industry|Chemicals|{Chemicals Commodity} [{Accounting Type}]:
     description: export of {Chemicals Commodity}
     unit: "{Accounting Type}"
+    navigate: Export|Industry|Chemicals|{Chemicals Commodity}{Accounting Type}
 - Export|Industry|Pulp and Paper|{Pulp and Paper Commodity} [{Accounting Type}]:
     description: export of {Pulp and Paper Commodity}
     unit: "{Accounting Type}"
 
 
+- Import|Industry [Value]:
+    description: total import of industrial commodities
+    unit: USD_2010/yr
+    navigate: Import|Industry
+
 - Import|Industry|{Industry Sector} [{Accounting Type}]: # ???: do we need this aggregate?
     description: total import of commodities by sector
     unit: "{Accounting Type}"
+    navigate: Import|Industry|{Industry Sector}{Accounting Type}
 
 - Import|Industry|Iron and Steel|{Iron Commodity} [{Accounting Type}]:
     description: import of {Iron Commodity}
@@ -29,12 +45,15 @@
 - Import|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity} [{Accounting Type}]:
     description: import of {Non-Metallic Minerals Commodity}
     unit: "{Accounting Type}"
+    navigate: Import|Industry|Non-Mettalic Minerals|{Non-Metallic Minerals Commodity}{Accounting Type}
 - Import|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity} [{Accounting Type}]:
     description: import of {Non-Ferrous Metals Commodity}
     unit: "{Accounting Type}"
+    navigate: Import|Industry|Chemicals|{Non-Ferrous Metals Commodity}{Accounting Type}
 - Import|Industry|Chemicals|{Chemicals Commodity} [{Accounting Type}]:
     description: import of {Chemicals Commodity}
     unit: "{Accounting Type}"
+    navigate: Export|Industry|Chemicals|{Chemicals Commodity}{Accounting Type}
 - Import|Industry|Pulp and Paper|{Pulp and Paper Commodity} [{Accounting Type}]:
     description: import of {Pulp and Paper Commodity}
     unit: "{Accounting Type}"
