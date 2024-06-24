@@ -473,6 +473,3 @@
       negative for payment)
     sdg: 17
     unit: billion USD_2010/yr
-- Unemployment [Rate]: 
-    definition: Fraction of unemployed inhabitants (based on ILO classification)
-    unit: '%'
