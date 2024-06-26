@@ -1,29 +1,38 @@
 - Carbon-Removal Option:
-    - Afforestation:
-        description: increasing forested land area and thereby increasing vegetation
-          and soil carbon stocks
-    - Agroforestry:
-        description: integrating trees into crop and pasture lands to increase
-          vegetation and soil carbon stocks
+    - Forestry:
+        description: all forestry-related carbon dioxide removal methods, in particular
+          afforestation, reforestation, agroforestry and improved forest management
+    - Peatland and Wetland Restoration:
+        description: restoration of peat and coastal wetlands
+    - Soil Carbon Sequestration:
+        description: soil carbon sequestration in croplands and graslands
+    - Durable Wood Products:
+        description: use of durable wood products and building elements
     - Biochar:
         description: conversion of biomass to recalcitrant carbon via pyrolysis and its
           subsequent application to croplands to increase soil carbon stocks
-    - Soil Management:
-        description: increasing organic carbon content through no- or low-till
-          agricultural practices, or manure or compost application, excluding biochar
+    - Bio-Oil Storage:
+        description: use of bio-oil
+    - Bioenergy with CCS:
+        description: use of bioenergy in combination with carbon-capture and
+          sequestration (CCS)
+    - Direct Air Capture with CCS:
+        description: direct air capture in combination with carbon-capture and
+          sequestration (CCS)
     - Enhanced Weathering:
-        description: enhanced weathering
+        description: terrestrial application of alkalinity to increase CO2 uptake on land
+    - Mineral Products:
+        description: use of mineral products for carbon sequestration
+    - Biomass Burial:
+        description: burial of biomass on land
+    - Ocean Fertilization:
+        description: ocean fertilization and artificial upwelling
+    - Biomass Sinking:
+        description: sinking of biomass in the ocean
     - Ocean Alkalinity Enhancement:
-        description: enhancement of ocean alkalinity
-    - Materials:
-        description: use of long-lived materials with centennial to millennial residence times
-    - Materials|Cement:
-        description: use of cement
-    - Materials|Plastics:
-        description: use of long-lived plastics
-    - Materials|Timber:
-        description: use of long-lived timber
-    - Materials|Other:
-        description: use of other long-lived materials
+        description: increasing ocean alkalinity
+    - Direct Ocean Capture:
+        description: direct capture of CO2 from the ocean in combination with
+          carbon sequestration (CCS)
     - Other Methods:
         description: other methods not explicitly listed
