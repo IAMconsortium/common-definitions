@@ -1,0 +1,15 @@
+- Generation Technology:
+    - Nuclear:
+        description: nuclear power plants
+    - Solar:
+        description: solar PV
+    - Wind:
+        description: wind power plants
+    - Gas:
+        description: gas power plants
+    - Coal:
+        description: coal power plants
+    - Biomass:
+        description: biomass power plants
+    - Hydro:
+        description: hydro power plants
