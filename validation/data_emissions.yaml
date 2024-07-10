@@ -1,0 +1,22 @@
+# validation bounds for historical CO2 emissions
+- CO2 emissions data:
+    variable: Emissions|CO2|Energy and Industrial Processes
+    World:
+      region: World
+      2015:
+        year: 2015
+        # 36320 MtCO2 in 2015 per Global Carbon Budget (2023) with 5% deviation bounds
+        upper_bound: 38136
+        lower_bound: 34504
+      2020:
+        year: 2020
+        # 35650 MtCO2 in 2020 per Global Carbon Budget (2023) with 5% deviation bounds
+        upper_bound: 37432.5
+        lower_bound: 33867.5
+    2020:
+      year: 2020
+      Asia (R5):
+        region: Asia (R5)
+        # 20520 MtCO2 in 2020 per OWID (2023) with 10% deviation bounds
+        upper_bound: 22572
+        lower_bound: 18468

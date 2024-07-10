@@ -1,0 +1,3 @@
+# final energy consumption must be positive
+- variable: Final Energy
+  lower_bound: 0
