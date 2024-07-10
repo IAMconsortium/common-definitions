@@ -15,7 +15,7 @@ for management of codelists and validation of scenario data in the IAMC data for
 > [!TIP]
 > For *users not comfortable working with GitHub repositories and yaml files*,
 > the definitions for this project are available for download as an xlsx spreadsheet
-> at https://files.ece.iiasa.ac.at/common-definitions/project-template.xlsx.
+> at https://files.ece.iiasa.ac.at/common-definitions/common-definitions-template.xlsx.
 
 ## Codelists and mappings
 
