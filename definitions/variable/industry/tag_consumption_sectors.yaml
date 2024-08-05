@@ -1,0 +1,15 @@
+- Consumption Sector:
+    - Electricity:
+        description: electricity generation sector
+    - Electricity|{Generation Technology}:
+          description: electricity generation with {Generation Technology}
+    - Electricity|Distribution:
+          description: electricity distribution
+    - Transportation:
+        description: transport sector
+    - Residential and Commercial:
+        description: residential and commercial sector
+    - Infrastructure: # RFE: needs more differentiation
+        description: construction of infrastructure
+    - Pre-Consumer Scrap: # RFE: copied from NAVIGATE template; do we want to keep this here?
+        description: ???
