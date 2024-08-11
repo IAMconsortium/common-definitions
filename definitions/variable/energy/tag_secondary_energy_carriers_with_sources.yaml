@@ -20,9 +20,24 @@
     - Solids:
         description: solid fuels
         tier: 1
+    - Solids|Biomass:
+        description: solid biomass
+        tier: 2
+    - Solids|Coal:
+        description: coal and coal products
+        tier: 2
     - Gases:
         description: gaseous fuels not including hydrogen
         tier: 1
+    - Gases|Biomass:
+        description: gas from biogenic sources, mainly biogas
+        tier: 2
+    - Gases|Coal:
+        description: gaseous fuels from coal
+        tier: 2
+    - Gases|Gas:
+        description: fossil methane ("natural gas")
+        tier: 2
     - Hydrogen:
         description: hydrogen
         tier: 1
