@@ -17,6 +17,9 @@
     - Liquids|Gas:
         description: liquid fuels from fossil methane ("natural gas")
         tier: "2"
+    - Liquids|Electricity:
+        description: liquid fuels from electricity (e-fuels)
+        tier: "2"
     - Solids:
         description: solid fuels
         tier: "1"
