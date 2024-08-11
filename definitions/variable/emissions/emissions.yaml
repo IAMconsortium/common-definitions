@@ -102,13 +102,15 @@
     description: Gross emissions of carbon dioxide (CO2) for electricity generation,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Supply|{Secondary Fuel}:
+- Emissions|CO2|Energy|Supply|{Secondary Fuel with Source}:
     description: Emissions of carbon dioxide (CO2) for production of {Secondary Fuel}
     unit: Mt CO2/yr
-- Gross Emissions|CO2|Energy|Supply|{Secondary Fuel}:
-    description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel},
+    tier: "{Secondary Fuel with Source}"
+- Gross Emissions|CO2|Energy|Supply|{Secondary Fuel with Source}:
+    description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel with Source},
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
+    tier: "{Secondary Fuel with Source}"
 - Emissions|CO2|Energy|Supply|Autoproduction:
     description: Emissions of carbon dioxide (CO2) for own-use energy supply
     unit: Mt CO2/yr
