@@ -1,9 +1,17 @@
-- Secondary Fuel:
-    # This should be a sub-set of `tag_secondary_energy_carriers_with_sources.yaml`
+- Secondary Fuel with Source:
+    # This should be a super-set of `tag_secondary_energy_carriers.yaml`
     # Electricity is treated separately from other secondary energy carriers
     - Liquids:
         description: liquid fuels (conventional & unconventional oil, biofuels,
           coal-to-liquids, gas-to-liquids)
+    - Liquids|Biomass:
+        description: liquid fuels from biomass
+    - Liquids|Oil:
+        description: liquid fuels from refined crude oil
+    - Liquids|Coal:
+        description: liquid fuels from coal
+    - Liquids|Gas:
+        description: liquid fuels from fossil methane ("natural gas")
     - Solids:
         description: solid fuels
     - Gases:
