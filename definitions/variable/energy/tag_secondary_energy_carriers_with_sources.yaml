@@ -4,19 +4,28 @@
     - Liquids:
         description: liquid fuels (conventional & unconventional oil, biofuels,
           coal-to-liquids, gas-to-liquids)
+        tier: 1
     - Liquids|Biomass:
         description: liquid fuels from biomass
+        tier: 2
     - Liquids|Oil:
         description: liquid fuels from refined crude oil
+        tier: 2
     - Liquids|Coal:
         description: liquid fuels from coal
+        tier: 2
     - Liquids|Gas:
         description: liquid fuels from fossil methane ("natural gas")
+        tier: 2
     - Solids:
         description: solid fuels
+        tier: 1
     - Gases:
         description: gaseous fuels not including hydrogen
+        tier: 1
     - Hydrogen:
         description: hydrogen
+        tier: 1
     - Heat:
         description: heat
+        tier: 1
