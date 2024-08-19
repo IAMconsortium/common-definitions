@@ -25,7 +25,7 @@
     unit: EJ/yr
 - Secondary Energy|Liquids|Hydrogen|Electricity:
     description: Production of liquid fuels using hydrogen from electrolysis, i.e.,
-      "e-fuels" (if hydrogen is explicitly modeled as a commodity and not an implicit
+      e-fuels (if hydrogen is explicitly modeled as a commodity and not an implicit
       intermediate product of the transformation technologies)
     unit: EJ/yr
 - Secondary Energy|Liquids|Hydrogen|Other:
@@ -79,7 +79,9 @@
     unit: EJ/yr
 
 - Secondary Energy|Hydrogen:
-    definition: Total production of hydrogen
+    definition: Total production of hydrogen including hydrogen used as an intermediate
+      product, e.g. for e-fuel production (if hydrogen is explicitly modeled as a
+      commodity and not an implicit intermediate product of the transformation technologies)
     unit: EJ/yr
 - Secondary Energy|Hydrogen|Biomass:
     description: Production of hydrogen from biomass
