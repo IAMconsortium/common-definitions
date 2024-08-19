@@ -8,8 +8,34 @@
 - Secondary Energy|Liquids|{Primary Fossil Fuel}:
     description: Production of fossil liquid fuels from {Primary Fossil Fuel}
     unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen:
+    description: Production of liquid fuels from hydrogen (if hydrogen is explicitly
+      modeled as a commodity and not an implicit intermediate product of the
+      transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen|Fossil:
+    description: Production of liquid fuels using hydrogen from fossils (if hydrogen is
+      explicitly modeled as a commodity and not an implicit intermediate product of the
+      transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen|Biomass:
+    description: Production of liquid fuels using hydrogen generated from biomass
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen|Electricity:
+    description: Production of liquid fuels using hydrogen from electrolysis, i.e.,
+      e-fuels (if hydrogen is explicitly modeled as a commodity and not an implicit
+      intermediate product of the transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen|Other:
+    description: Production of liquid fuels using hydrogen from other sources
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
+    unit: EJ/yr
 - Secondary Energy|Liquids|Electricity:
-    description: Production of liquid fuels from electricity (e-fuels)
+    description: Production of liquid fuels mainly from electricity, i.e., e-fuels
+      (if hydrogen is not explicitly modeled as an intermediate product)
     unit: EJ/yr
 - Secondary Energy|Liquids|Other:
     description: Production of liquids fuels from sources that do not fit any other category
@@ -53,7 +79,9 @@
     unit: EJ/yr
 
 - Secondary Energy|Hydrogen:
-    definition: Total production of hydrogen
+    definition: Total production of hydrogen including hydrogen used as an intermediate
+      product, e.g. for e-fuel production (if hydrogen is explicitly modeled as a
+      commodity and not an implicit intermediate product of the transformation technologies)
     unit: EJ/yr
 - Secondary Energy|Hydrogen|Biomass:
     description: Production of hydrogen from biomass
