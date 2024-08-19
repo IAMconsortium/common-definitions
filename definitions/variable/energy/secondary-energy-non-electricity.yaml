@@ -17,11 +17,20 @@
     description: Production of liquid fuels using hydrogen from fossils (if hydrogen is
       explicitly modeled as a commodity and not an implicit intermediate product of the
       transformation technologies)
+- Secondary Energy|Liquids|Hydrogen|Biomass:
+    description: Production of liquid fuels using hydrogen generated from biomass
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
     unit: EJ/yr
 - Secondary Energy|Liquids|Hydrogen|Electricity:
     description: Production of liquid fuels using hydrogen from electrolysis, i.e.,
       "e-fuels" (if hydrogen is explicitly modeled as a commodity and not an implicit
       intermediate product of the transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Hydrogen|Other:
+    description: Production of liquid fuels using hydrogen from other sources
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
     unit: EJ/yr
 - Secondary Energy|Liquids|Electricity:
     description: Production of liquid fuels mainly from electricity, i.e., e-fuels
