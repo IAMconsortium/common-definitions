@@ -44,6 +44,21 @@
     - Hydrogen:
         description: hydrogen
         tier: "1"
+    - Hydrogen|Fossil:
+        description: hydrogen from fossils
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Biomass:
+        description: hydrogen generated from biomass
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Electricity:
+        description: hydrogen from electrolysis
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Other:
+        description: hydrogen from other sources
+        tier: "2"
     - Heat:
         description: heat
         tier: "1"
