@@ -1,0 +1,10 @@
+- Agricultural Demand:
+    definition: Total demand for food, non-food and feed products (crops and livestock)
+      and bioenergy crops (1st & 2nd generation)
+    unit: million t DM/yr
+    agmip: CONS (Domestic use)
+- Agricultural Production:
+    definition: Total production of food, non-food and feed products (crops and livestock)
+      and bioenergy crops (1st & 2nd generation)
+    unit: million t DM/yr
+    agmip: PROD (Production)
