@@ -18,10 +18,36 @@
         description: liquid fuels from fossil methane ("natural gas")
         tier: "2"
     - Liquids|Hydrogen:
-        description: liquid fuels from hydrogen
+        description: liquid fuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
         tier: "2"
+    - Liquids|Hydrogen|Fossil:
+        description: liquid fuels using hydrogen from fossils (if hydrogen is explicitly
+          modeled as a commodity and not an implicit intermediate product of the
+          transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Biomass:
+        description: liquid fuels using hydrogen generated from biomass (if hydrogen is
+          explicitly modeled as a commodity and not an implicit intermediate product of
+          the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Electricity:
+        description: liquid fuels using hydrogen from electrolysis, i.e., e-fuels (if
+          hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+          product of the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Other:
+        description: liquid fuels using hydrogen from other sources (if hydrogen is
+          explicitly modeled as a commodity and not an implicit intermediate product of
+          the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
     - Liquids|Electricity:
-        description: liquid synthetic fuels from electricity (e-fuels)
+        description: liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen
+          is not explicitly modeled as an intermediate product)
         tier: "2"
     - Solids:
         description: solid fuels
