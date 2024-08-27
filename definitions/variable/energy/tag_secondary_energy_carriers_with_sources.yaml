@@ -1,0 +1,93 @@
+- Secondary Fuel with Source:
+    # This should be a super-set of `tag_secondary_energy_carriers.yaml`
+    # Electricity is treated separately from other secondary energy carriers
+    - Liquids:
+        description: liquid fuels (conventional & unconventional oil, biofuels,
+          coal-to-liquids, gas-to-liquids)
+        tier: "1"
+    - Liquids|Biomass:
+        description: liquid fuels from biomass
+        tier: "2"
+    - Liquids|Oil:
+        description: liquid fuels from refined crude oil
+        tier: "2"
+    - Liquids|Coal:
+        description: liquid fuels from coal
+        tier: "2"
+    - Liquids|Gas:
+        description: liquid fuels from fossil methane ("natural gas")
+        tier: "2"
+    - Liquids|Hydrogen:
+        description: liquid fuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
+        tier: "2"
+    - Liquids|Hydrogen|Fossil:
+        description: liquid fuels using hydrogen from fossils (if hydrogen is explicitly
+          modeled as a commodity and not an implicit intermediate product of the
+          transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Biomass:
+        description: liquid fuels using hydrogen generated from biomass (if hydrogen is
+          explicitly modeled as a commodity and not an implicit intermediate product of
+          the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Electricity:
+        description: liquid fuels using hydrogen from electrolysis, i.e., e-fuels (if
+          hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+          product of the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Hydrogen|Other:
+        description: liquid fuels using hydrogen from other sources (if hydrogen is
+          explicitly modeled as a commodity and not an implicit intermediate product of
+          the transformation technologies)
+        unit: EJ/yr
+        tier: "3"
+    - Liquids|Electricity:
+        description: liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen
+          is not explicitly modeled as an intermediate product)
+        tier: "2"
+    - Solids:
+        description: solid fuels
+        tier: "1"
+    - Solids|Biomass:
+        description: solid biomass
+        tier: "2"
+    - Solids|Coal:
+        description: coal and coal products
+        tier: "2"
+    - Gases:
+        description: gaseous fuels not including hydrogen
+        tier: "1"
+    - Gases|Biomass:
+        description: gas from biogenic sources, mainly biogas
+        tier: "2"
+    - Gases|Coal:
+        description: gaseous fuels from coal
+        tier: "2"
+    - Gases|Gas:
+        description: fossil methane ("natural gas")
+        tier: "2"
+    - Hydrogen:
+        description: hydrogen
+        tier: "1"
+    - Hydrogen|Fossil:
+        description: hydrogen from fossils
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Biomass:
+        description: hydrogen generated from biomass
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Electricity:
+        description: hydrogen from electrolysis
+        unit: EJ/yr
+        tier: "2"
+    - Hydrogen|Other:
+        description: hydrogen from other sources
+        tier: "2"
+    - Heat:
+        description: heat
+        tier: "1"
