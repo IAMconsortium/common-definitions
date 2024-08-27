@@ -2,6 +2,7 @@
     definition: Total land cover
     unit: million ha
     tier: 2
+    agmip: Land Cover (LAND) - Total (TOT)
 - Land Cover|Built-Up Area:
     definition: Built-up land associated with human settlements
     unit: million ha
@@ -18,10 +19,12 @@
       permanent crops as well as other arable land (physical area)
     unit: million ha
     tier: 2
+    agmip: Land Cover (LAND) - All crops (CRP)
 - Land Cover|Forest:
     definition: Managed and unmanaged forest area
     unit: million ha
     tier: 2
+    agmip: Land Cover (LAND) - Forest (FOR)
 
 - Land Cover|Water Ecosystems:
     definition: Land-use coverage of water-related ecosystems
