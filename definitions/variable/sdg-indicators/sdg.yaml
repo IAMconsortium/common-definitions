@@ -88,16 +88,6 @@
     sdg: 2
     unit: kcal/cap/day
     weight: Population
-- Food|Intake [per capita]:
-    description: Food calorie intake per capita
-    sdg: 2
-    unit: kcal/cap/day
-    weight: Population
-- Food|Intake|{Food Options} [per capita]:
-    description: Calorie intake of {Food Options} per capita
-    sdg: 2
-    unit: kcal/cap/day
-    weight: Population
 - Price|Agriculture|Livestock [Index]:
     description: Weighted average price index of livestock
     sdg: 2

@@ -2,13 +2,19 @@
     definition: Total food demand in calories
     unit: kcal/cap/day
     weight: Population
+    sdg: 2
+    shape: Food|Intake
 - Food Demand|Crops:
     definition: Food demand in calories satisfied by crops
     unit: kcal/cap/day
     weight: Population
+    sdg: 2
     agmip: p.c. calory intake (CALI) - All crops (CRP)
+    shape: Food|Intake|Crops
 - Food Demand|Livestock:
     definition: Food demand in calories satisfied by livestock
     unit: kcal/cap/day
     weight: Population
+    sdg: 2
     agmip: p.c. calory intake (CALI) - Livestock (LSP)
+    shape: Food|Intake|Livestock
