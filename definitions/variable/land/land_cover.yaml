@@ -1,0 +1,29 @@
+- Land Cover:
+    definition: Total land cover
+    unit: million ha
+    tier: 2
+- Land Cover|Built-Up Area:
+    definition: Built-up land associated with human settlements
+    unit: million ha
+    tier: 2
+    engage: Land Cover|Built-up Area
+    navigate: Land Cover|Built-up Area
+- Land Cover|Pasture:
+    definition: Pasture, not only high quality rangeland, based on FAO definition of
+      "permanent meadows and pastures"
+    unit: million ha
+    tier: 2
+- Land Cover|Cropland:
+    definition: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
+      permanent crops as well as other arable land (physical area)
+    unit: million ha
+    tier: 2
+- Land Cover|Forest:
+    definition: Managed and unmanaged forest area
+    unit: million ha
+    tier: 2
+- Land Cover|Other Land:
+    definition: other land cover that does not fit into any other category (please
+      provide a definition of the sources in this category in the 'comments' tab)
+    unit: million ha
+    tier: 2
