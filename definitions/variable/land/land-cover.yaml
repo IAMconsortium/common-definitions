@@ -40,7 +40,7 @@
     unit: million ha
     tier: 4
 - Land Cover|Water Ecosystems|Mountains:
-    definition: 'Land-use coverage of water-related ecosystem: mountains'
+    definition: Land-use coverage of water-related ecosystem in mountain regions
     unit: million ha
     tier: 4
 - Land Cover|Water Ecosystems|Wetlands:
@@ -49,7 +49,6 @@
     tier: 4
 
 - Land Cover|Other Land:
-    definition: other land cover that does not fit into any other category (please
-      provide a definition of the sources in this category in the 'comments' tab)
+    definition: Other land cover that does not fit into any other category
     unit: million ha
     tier: 2
