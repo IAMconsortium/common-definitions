@@ -22,6 +22,32 @@
     definition: Managed and unmanaged forest area
     unit: million ha
     tier: 2
+
+- Land Cover|Water Ecosystems:
+    definition: Land-use coverage of water-related ecosystems
+    unit: million ha
+    tier: 3
+- Land Cover|Water Ecosystems|Forests:
+    definition: Land-use coverage of forests in water-related ecosystem
+    unit: million ha
+    tier: 4
+- Land Cover|Water Ecosystems|Glaciers:
+    definition: Area covered by glaciers
+    unit: million ha
+    tier: 4
+- Land Cover|Water Ecosystems|Lakes:
+    definition: Area covered by lakes
+    unit: million ha
+    tier: 4
+- Land Cover|Water Ecosystems|Mountains:
+    definition: 'Land-use coverage of water-related ecosystem: mountains'
+    unit: million ha
+    tier: 4
+- Land Cover|Water Ecosystems|Wetlands:
+    definition: Area covered by wetlands
+    unit: million ha
+    tier: 4
+
 - Land Cover|Other Land:
     definition: other land cover that does not fit into any other category (please
       provide a definition of the sources in this category in the 'comments' tab)
