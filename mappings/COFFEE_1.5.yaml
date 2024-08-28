@@ -1,0 +1,146 @@
+model: COFFEE 1.5
+native_regions:
+- AF: COFFEE 1.5|Africa (excluding South Africa)
+- AU: COFFEE 1.5|Australia & New Zealand
+- BR: COFFEE 1.5|Brazil
+- CA: COFFEE 1.5|Central America
+- CD: COFFEE 1.5|Canada
+- CP: COFFEE 1.5|Caspian Sea
+- CH: COFFEE 1.5|China
+- EU: COFFEE 1.5|European Union
+- IN: COFFEE 1.5|India
+- JP: COFFEE 1.5|Japan
+- KR: COFFEE 1.5|South Korea
+- ME: COFFEE 1.5|Middle East
+- RA: COFFEE 1.5|Rest of Asia and Oceania
+- RU: COFFEE 1.5|Russia
+- SF: COFFEE 1.5|South Africa
+- SM: COFFEE 1.5|South America
+- US: COFFEE 1.5|United States
+- XE: COFFEE 1.5|Rest of Europe
+common_regions:
+- World:
+  - AF
+  - AU
+  - BR
+  - CA
+  - CD
+  - CP
+  - CH
+  - EU
+  - IN
+  - JP
+  - KR
+  - ME
+  - RA
+  - RU
+  - SF
+  - SM
+  - US
+  - XE
+
+# R5 regions
+- OECD & EU (R5):
+  - AU
+  - CD
+  - EU
+  - JP
+  - US
+- Reforming Economies (R5):
+  - CP
+  - RU
+  - XE
+- Asia (R5):
+  - CH
+  - IN
+  - KR
+  - RA
+- Middle East & Africa (R5):
+  - AF
+  - ME
+  - SF
+- Latin America (R5):
+  - BR
+  - CA
+  - SM
+
+# R10 regions
+- Africa (R10):
+  - AF
+  - SF
+- China+ (R10):
+  - CH
+- Europe (R10):
+  - EU
+  - XE
+- India+ (R10):
+  - IN
+- Latin America (R10):
+  - BR
+  - CA
+  - SM
+- Middle East (R10):
+  - ME
+- North America (R10):
+  - CD
+  - US
+- Pacific OECD (R10):
+  - AU
+  - JP
+- Reforming Economies (R10):
+  - CP
+  - RU
+- Rest of Asia (R10):
+  - RA
+  
+#   R9 regions
+- R9EU:
+  - EU
+- R9USA:
+  - US
+- R9OTHEROECD:
+  - AU
+  - CD
+  - JP
+- R9CHINA:
+  - CH
+- R9INDIA:
+  - IN
+- R9OTHERASIA:
+  - KR
+  - RA
+- R9REF:
+  - CP
+  - RU
+  - XE
+- R9LAM:
+  - BR
+  - CA
+  - SM
+- R9MAF:
+  - AF
+  - ME
+  - SF
+
+# other global regions
+- European Union:
+  - EU
+- Africa:
+  - AF
+  - SF
+
+# individual countries
+- Brazil:
+  - BR
+- Canada:
+  - CD
+- China:
+  - CH
+- India:
+  - IN
+- Japan:
+  - JP
+- South Africa:
+  - SF
+- USA:
+  - US
