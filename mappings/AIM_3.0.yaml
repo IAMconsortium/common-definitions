@@ -1,0 +1,112 @@
+model: AIM 3.0
+
+native_regions:
+  - BRA: AIM 3.0|Brazil
+  - CAN: AIM 3.0|Canada
+  - CHN: AIM 3.0|China
+  - CIS: AIM 3.0|Former USSR
+  - IND: AIM 3.0|India
+  - JPN: AIM 3.0|Japan
+  - TUR: AIM 3.0|Turkey
+  - USA: AIM 3.0|USA
+  - XAF: AIM 3.0|Other Africa
+  - XE25: AIM 3.0|EU
+  - XER: AIM 3.0|Rest of Europe
+  - XLM: AIM 3.0|Rest of Latin America
+  - XME: AIM 3.0|Middle East
+  - XNF: AIM 3.0|North Africa
+  - XOC: AIM 3.0|New Zealand and Australia
+  - XSA: AIM 3.0|Rest of Asia
+  - XSE: AIM 3.0|Rest of East and South East Asia
+
+common_regions:
+  - World:
+      - BRA
+      - CAN
+      - CHN
+      - CIS
+      - IND
+      - JPN
+      - TUR
+      - USA
+      - XAF
+      - XE25
+      - XER
+      - XLM
+      - XME
+      - XNF
+      - XOC
+      - XSA
+      - XSE
+
+  # R5 regions
+  - OECD & EU (R5):
+      - CAN
+      - JPN
+      - TUR
+      - USA
+      - XE25
+      - XER
+      - XOC
+  - Reforming Economies (R5):
+      - CIS
+  - Asia (R5):
+      - CHN
+      - IND
+      - XSA
+      - XSE
+  - Middle East & Africa (R5):
+      - XAF
+      - XME
+      - XNF
+  - Latin America (R5):
+      - BRA
+      - XLM
+
+  # R10 regions
+  - Africa (R10):
+      - XAF
+      - XNF
+  - China+ (R10):
+      - CHN
+  - Europe (R10):
+      - TUR
+      - XE25
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - BRA
+      - XLM
+  - Middle East (R10):
+      - XME
+  - North America (R10):
+      - CAN
+      - USA
+  - Pacific OECD (R10):
+      - JPN
+      - XOC
+  - Reforming Economies (R10):
+      - CIS
+      - XER
+  - Rest of Asia (R10):
+      - XSA
+      - XSE
+
+  # mapping for G20 members
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHN
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - United States:
+      - USA
+  - African Union:
+      - XAF
+      - XNF
+  - European Union:
+      - XE25
