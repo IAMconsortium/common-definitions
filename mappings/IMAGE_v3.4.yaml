@@ -91,6 +91,43 @@ common_regions:
       - RCAM
       - RSAM
 
+  # R9 regions
+  - European Union (R9):
+      - CEU
+      - WEU
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - CAN
+      - JAP
+      - OCE
+      - TUR
+  - China (R9):
+      - CHN
+  - India (R9):
+      - INDIA
+  - Other Asia (R9):
+      - INDO
+      - KOR
+      - RSAS
+      - SEAS
+  - Reforming Economies (R9):
+      - RUS
+      - STAN
+      - UKR
+  - Latin America (R9):
+      - BRA
+      - MEX
+      - RCAM
+      - RSAM
+  - Middle East & Africa (R9):
+      - EAF
+      - ME
+      - NAF
+      - RSAF
+      - SAF
+      - WAF
+
   # R10 regions
   - Africa (R10):
       - EAF
