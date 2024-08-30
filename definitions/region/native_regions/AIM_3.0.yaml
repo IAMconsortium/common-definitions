@@ -1,0 +1,83 @@
+- AIM 3.0:
+    - AIM 3.0|Brazil:
+        countries: [ Brazil ]
+    - AIM 3.0|Canada:
+        countries: [ Canada ]
+    - AIM 3.0|China:
+        countries: [ China, Hong Kong ]
+    - AIM 3.0|Former USSR:
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - AIM 3.0|India:
+        countries: [ India ]
+    - AIM 3.0|Japan:
+        countries: [ Japan ]
+    - AIM 3.0|Turkey:
+        countries: [ Turkey ]
+    - AIM 3.0|USA:
+        countries: [ United States ]
+    - AIM 3.0|Other Africa:
+        countries: [
+          Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde,
+          Cameroon, Central African Republic, Chad, Comoros, Congo,
+          Côte d'Ivoire, Democratic Republic of the Congo, Djibouti,
+          Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia,
+          Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar,
+          Malawi, Mali, Mauritania, Mauritius, Mayotte, Mozambique, Namibia,
+          Niger, Nigeria, Rwanda, Réunion, Saint Helena, Ascension and Tristan da Cunha,
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Africa, Sudan, Tanzania, Togo, Uganda, Western Sahara, Zambia, Zimbabwe
+        ]
+    - AIM 3.0|EU:
+        countries: [
+          Austria, Belgium, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
+          Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta,
+          Netherlands, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden,
+          United Kingdom
+        ]
+    - AIM 3.0|Rest of Europe:
+        countries: [
+          Albania, Andorra, Bosnia and Herzegovina, Bulgaria, Croatia, Faroe Islands,
+          Gibraltar, Iceland, Liechtenstein, Monaco, Montenegro, North Macedonia, Norway,
+          Romania, San Marino, Serbia, Svalbard and Jan Mayen, Switzerland, Vatican
+        ]
+    - AIM 3.0|Rest of Latin America:
+        countries: [
+          Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+          Bermuda, Bolivia, Bouvet Island, British Virgin Islands, Cayman Islands,
+          Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador,
+          El Salvador, Falkland Islands (Malvinas), French Guiana, Greenland, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico,
+          Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico,
+          Saint Kitts and Nevis, Saint Lucia, Saint Pierre and Miquelon,
+          Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands,
+          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - AIM 3.0|Middle East:
+        countries: [
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar,
+          Saudi Arabia, Syria, United Arab Emirates, Yemen
+        ]
+    - AIM 3.0|North Africa:
+        countries: [ Algeria, Egypt, Libya, Morocco, Tunisia ]
+    - AIM 3.0|New Zealand and Australia:
+        countries: [ Australia, New Zealand ]
+    - AIM 3.0|Rest of Asia:
+        countries: [
+          Afghanistan, American Samoa, Bangladesh, Bhutan,
+          British Indian Ocean Territory, Brunei Darussalam, Christmas Island,
+          Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
+          French Southern Territories, Guam, Heard Island and McDonald Islands,
+          Kiribati, Maldives, Marshall Islands, Micronesia, Nauru, Nepal, New Caledonia,
+          Niue, Norfolk Island, Northern Mariana Islands, Pakistan, Palau,
+          Papua New Guinea, Pitcairn, Samoa, Solomon Islands, Sri Lanka, Tokelau, Tonga,
+          Tuvalu, United States Minor Outlying Islands, Vanuatu, Wallis and Futuna
+        ]
+    - AIM 3.0|Rest of East and South East Asia:
+        countries: [
+          Cambodia, Indonesia, Laos, Malaysia, Mongolia, Myanmar, North Korea,
+          Philippines, Singapore, South Korea, Taiwan, Thailand, Timor-Leste, Viet Nam
+        ]
