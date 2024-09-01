@@ -1,147 +1,169 @@
 - common:
-  - World
+    - World
 
 # The R5 definitions are taken from the call for submissions
 # to the AR6 WG3 scenario ensemble
 # https://data.ece.iiasa.ac.at/ar6-scenario-submission/#/about
 - R5:
-  - OECD & EU (R5):
-      description: OECD (membership status 1990) and EU member states and candidates
-      ar6: R5OECD90+EU
-      ssp: R5.2OECD
-      countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
-        Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
-        Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Kosovo, Latvia, 
-        Lithuania, Luxembourg, Malta, Montenegro, Netherlands, New Zealand, 
-        North Macedonia, Norway, Poland, Portugal, Puerto Rico, Romania, Serbia, 
-        Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom, 
-        United States
-  - Reforming Economies (R5):
-      description: Countries from the Reforming Economies of the Former Soviet Union
-      ar6: R5REF
-      ssp: R5.2REF
-      countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
-        Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
-  - Asia (R5):
-      description: The region includes Asian countries with the exception of
-        the Middle East, Japan and Former Soviet Union states
-      ar6: R5ASIA
-      ssp: R5.2ASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China, 
-        Cook Islands, Fiji, French Polynesia, Hong Kong, India, Indonesia, Kiribati, 
-        Laos, Macao, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
-        Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan, 
-        Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
-        Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
-        Vanuatu, Viet Nam
-  - Middle East & Africa (R5):
-      description: Countries of the Middle East and Africa
-      ar6: R5MAF
-      ssp: R5.2MAF
-      countries: Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
-        Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
-        Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
-        Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea,
-        Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
-        Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
-        Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles, 
-        Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini, 
-        Syria, Togo, Tunisia, Uganda, United Arab Emirates, Tanzania, 
-        Western Sahara, Yemen, Zambia, Zimbabwe
-  - Latin America (R5):
-      description: Latin and South American countries
-      ar6: R5LAM
-      ssp: R5.2LAM
-      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, 
-        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
-        Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, 
-        Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, 
-        Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
-        Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
-        United States Virgin Islands, Uruguay, Venezuela
-  - Other (R5):
-      description: Rest of the World, to be used only if a match with the R5 regions
-        can otherwise not be achieved.
-      ar6: R5ROWO
-      ssp:
+    - OECD & EU (R5):
+        description: OECD (membership status 1990) and EU member states and candidates
+        ar6: R5OECD90+EU
+        ssp: R5.2OECD
+        countries: [
+          Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
+          Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
+          Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Kosovo, Latvia,
+          Lithuania, Luxembourg, Malta, Montenegro, Netherlands, New Zealand,
+          North Macedonia, Norway, Poland, Portugal, Puerto Rico, Romania, Serbia,
+          Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom,
+          United States
+        ]
+    - Reforming Economies (R5):
+        description: Countries from the Reforming Economies of the Former Soviet Union
+        ar6: R5REF
+        ssp: R5.2REF
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - Asia (R5):
+        description: The region includes Asian countries with the exception of
+          the Middle East, Japan and Former Soviet Union states
+        ar6: R5ASIA
+        ssp: R5.2ASIA
+        countries: [
+          Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China,
+          Cook Islands, Fiji, French Polynesia, Hong Kong, India, Indonesia, Kiribati,
+          Laos, Macao, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
+          Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan,
+          Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
+          Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
+          Vanuatu, Viet Nam
+        ]
+    - Middle East & Africa (R5):
+        description: Countries of the Middle East and Africa
+        ar6: R5MAF
+        ssp: R5.2MAF
+        countries: [
+          Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
+          Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
+          Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
+          Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
+          Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
+          Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
+          Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles,
+          Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
+          Syria, Togo, Tunisia, Uganda, United Arab Emirates, Tanzania,
+          Western Sahara, Yemen, Zambia, Zimbabwe
+        ]
+    - Latin America (R5):
+        description: Latin and South American countries
+        ar6: R5LAM
+        ssp: R5.2LAM
+        countries: [
+          Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic,
+          Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala,
+          Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama,
+          Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
+          Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - Other (R5):
+        description: Rest of the World, to be used only if a match with the R5 regions
+          can otherwise not be achieved.
+        ar6: R5ROWO
+        ssp:
 
 # The R9 definitions were introduced by the NAVIGATE project
 # funded by the EU's Horizon 2020 research and innovation programme
 # (grant agreement no. 821124)
 - R9:
-  - European Union (R9):
-      description: European Union (membership status 2023)
-      navigate: R9EU
-      countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
-        Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
-        Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
-        Spain, Sweden
-      notes: Depending on the spatial resolution, reporting by some models may differ
-        from the current list of EU27 members (2023).
-  - USA (R9):
-      description: United States of America
-      navigate: R9USA
-      countries: United States
-      notes: Depending on the spatial resolution, some models report Canada as part of
-        the USA region.
-  - Other OECD (R9):
-      description: Other OECD (membership status 1990) and EU candidate countries
-      navigate: R9OTHEROECD
-      countries: Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
-        Japan, Kosovo, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico, 
-        Serbia, United Kingdom, Switzerland, Turkey
-      notes: This region is defined as 'OECD & EU (R5)' excluding EU and USA
-  - China (R9):
-      description: China
-      navigate: R9CHINA
-      countries: China, Hong Kong, Macao
-  - India (R9):
-      description: India
-      navigate: R9INDIA
-      countries: India
-  - Other Asia (R9):
-      description: The region includes Asian countries with the exception of China,
-        India, the Middle East, Japan and Former Soviet Union states
-      navigate: R9OTHERASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, 
-        Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, Laos, Malaysia, 
-        Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue,
-        Nepal, New Caledonia, North Korea, Pakistan, Palau, Papua New Guinea,
-        Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka, 
-        Taiwan, Tuvalu, Thailand, Timor-Leste, Tonga, Vanuatu, Viet Nam
-  - Reforming Economies (R9):
-      description: Countries from the Reforming Economies of the Former Soviet Union
-      navigate: R9REF
-      countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
-        Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
-  - Middle East & Africa (R9):
-      description: Countries of the Middle East and Africa
-      navigate: R9MAF
-      countries: Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
-        Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
-        Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
-        Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
-        Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
-        Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
-        Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
-        Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles, 
-        Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Syria, Togo, 
-        Tunisia, Uganda, United Arab Emirates, Tanzania, Western Sahara, Yemen, 
-        Zambia, Zimbabwe
-  - Latin America (R9):
-      description: Latin and South American countries
-      navigate: R9LAM
-      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, 
-        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, 
-        Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, 
-        Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, 
-        Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines,
-        Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
-  - Other (R9):
-      description: Rest of the World, used only if a match with the R9 regions can
-        otherwise not be achieved
-      navigate: R9OWO
+    - European Union (R9):
+        description: European Union (membership status 2023)
+        navigate: R9EU
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
+          Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
+          Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
+          Spain, Sweden
+        ]
+        notes: Depending on the spatial resolution, reporting by some models may differ
+          from the current list of EU27 members (2023).
+    - USA (R9):
+        description: United States of America
+        navigate: R9USA
+        countries: [ United States ]
+        notes: Depending on the spatial resolution, some models report Canada as part of
+          the USA region.
+    - Other OECD (R9):
+        description: Other OECD (membership status 1990) and EU candidate countries
+        navigate: R9OTHEROECD
+        countries: [
+          Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
+          Japan, Kosovo, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico,
+          Serbia, United Kingdom, Switzerland, Turkey
+        ]
+        notes: This region is defined as 'OECD & EU (R5)' excluding EU and USA
+    - China (R9):
+        description: China
+        navigate: R9CHINA
+        countries: [ China, Hong Kong, Macao ]
+    - India (R9):
+        description: India
+        navigate: R9INDIA
+        countries: [ India ]
+    - Other Asia (R9):
+        description: The region includes Asian countries with the exception of China,
+          India, the Middle East, Japan and Former Soviet Union states
+        navigate: R9OTHERASIA
+        countries: [
+          Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia,
+          Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue,
+          Nepal, New Caledonia, North Korea, Pakistan, Palau, Papua New Guinea,
+          Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka,
+          Taiwan, Tuvalu, Thailand, Timor-Leste, Tonga, Vanuatu, Viet Nam
+        ]
+    - Reforming Economies (R9):
+        description: Countries from the Reforming Economies of the Former Soviet Union
+        navigate: R9REF
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - Middle East & Africa (R9):
+        description: Countries of the Middle East and Africa
+        navigate: R9MAF
+        countries: [
+          Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
+          Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
+          Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
+          Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
+          Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
+          Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
+          Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles,
+          Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Syria, Togo,
+          Tunisia, Uganda, United Arab Emirates, Tanzania, Western Sahara, Yemen,
+          Zambia, Zimbabwe
+        ]
+    - Latin America (R9):
+        description: Latin and South American countries
+        navigate: R9LAM
+        countries: [
+          Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic,
+          Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana,
+          Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay,
+          Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines,
+          Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - Other (R9):
+        description: Rest of the World, used only if a match with the R9 regions can
+          otherwise not be achieved
+        navigate: R9OWO
 
 # The R10 definitions were introduced by the LIMITS project
 # funded by the EU's Seventh Framework Programme FP7/2007-2013
@@ -149,75 +171,89 @@
 # updated to be consistent with IPCC AR6 WGIII Annex II R10 regions
 # https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Annex-II.pdf
 - R10:
-  - Africa (R10):
-      description: Africa
-      ar6: R10AFRICA
-      countries: Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon,
-        Cabo Verde, Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
-        Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
-        Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
-        Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
-        Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
-        Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, 
-        Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
-      notes: Depending on the spatial resolution, some models report Northern Africa
-        as part of the Middle East region.
-  - China+ (R10):
-      description: Centrally-planned Asia, primarily China
-      ar6: R10CHINA+
-      countries: China, Hong Kong, Macao, Mongolia, North Korea, South Korea
-  - Europe (R10):
-      description: Europe (including Turkey)
-      ar6: R10EUROPE
-      countries: Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, 
-        Cyprus, Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
-        Iceland, Ireland, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta, 
-        Montenegro, Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland,
-        Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
-  - India+ (R10):
-      description: South Asia, primarily India
-      ar6: R10INDIA+
-      countries: India, Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan,
-        Sri Lanka
-  - Latin America (R10):
-      description: Latin America and the Caribbean
-      ar6: R10LATIN_AM
-      countries: Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
-        Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador,
-        El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, 
-        Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, 
-        Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
-        Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
-        United States Virgin Islands, Uruguay, Venezuela
-  - Middle East (R10):
-      description: Middle East
-      ar6: R10MIDDLE_EAST
-      countries: Bahrain, Iraq, Iran, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
-        Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
-      notes: Depending on the spatial resolution, some models report Northern Africa
-        as part of the Middle East region.
-  - North America (R10):
-      description: United States and Canada
-      ar6: R10NORTH_AM
-      countries: Canada, Guam, United States
-  - Pacific OECD (R10):
-      description: Pacific OECD (membership status 1990) including Pacific islands
-      ar6: R10PAC_OECD
-      countries: Australia, Japan, New Zealand
-  - Reforming Economies (R10):
-      description: Former Soviet Union countries not included in Europe
-      ar6: R10REF_ECON
-      countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
-        Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
-  - Rest of Asia (R10):
-      description: Asia not included in China+, India+ or Reforming Economies
-      ar6: R10REST_ASIA
-      countries: Brunei Darussalam, Cambodia, Cook Islands, Fiji, French Polynesia,
-        Indonesia, Kiribati, Laos, Malaysia, Marshall Islands, Micronesia, Myanmar,
-        Nauru, Niue, Palau, New Caledonia, Papua New Guinea, Philippines, Samoa,
-        Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
-        Vanuatu, Viet Nam
-  - Other (R10):
-      description: Rest of the World, to be used only if a match with the R10 regions
-        can otherwise not be achieved
-      ar6: R10ROWO
+    - Africa (R10):
+        description: Africa
+        ar6: R10AFRICA
+        countries: [
+          Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon,
+          Cabo Verde, Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
+          Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia,
+          Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
+          Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
+          Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan,
+          Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
+        ]
+        notes: Depending on the spatial resolution, some models report Northern Africa
+          as part of the Middle East region.
+    - China+ (R10):
+        description: Centrally-planned Asia, primarily China
+        ar6: R10CHINA+
+        countries: [ China, Hong Kong, Macao, Mongolia, North Korea, South Korea ]
+    - Europe (R10):
+        description: Europe (including Turkey)
+        ar6: R10EUROPE
+        countries: [
+          Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia,
+          Cyprus, Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
+          Iceland, Ireland, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta,
+          Montenegro, Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland,
+          Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
+        ]
+    - India+ (R10):
+        description: South Asia, primarily India
+        ar6: R10INDIA+
+        countries: [
+          India, Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan,
+          Sri Lanka
+        ]
+    - Latin America (R10):
+        description: Latin America and the Caribbean
+        ar6: R10LATIN_AM
+        countries: [
+          Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador,
+          El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti,
+          Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru,
+          Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
+          Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - Middle East (R10):
+        description: Middle East
+        ar6: R10MIDDLE_EAST
+        countries: [
+          Bahrain, Iraq, Iran, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
+          Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
+        ]
+        notes: Depending on the spatial resolution, some models report Northern Africa
+          as part of the Middle East region.
+    - North America (R10):
+        description: United States and Canada
+        ar6: R10NORTH_AM
+        countries: [ Canada, Guam, United States ]
+    - Pacific OECD (R10):
+        description: Pacific OECD (membership status 1990) including Pacific islands
+        ar6: R10PAC_OECD
+        countries: [ Australia, Japan, New Zealand ]
+    - Reforming Economies (R10):
+        description: Former Soviet Union countries not included in Europe
+        ar6: R10REF_ECON
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - Rest of Asia (R10):
+        description: Asia not included in China+, India+ or Reforming Economies
+        ar6: R10REST_ASIA
+        countries: [
+          Brunei Darussalam, Cambodia, Cook Islands, Fiji, French Polynesia,
+          Indonesia, Kiribati, Laos, Malaysia, Marshall Islands, Micronesia, Myanmar,
+          Nauru, Niue, Palau, New Caledonia, Papua New Guinea, Philippines, Samoa,
+          Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
+          Vanuatu, Viet Nam
+        ]
+    - Other (R10):
+        description: Rest of the World, to be used only if a match with the R10 regions
+          can otherwise not be achieved
+        ar6: R10ROWO
