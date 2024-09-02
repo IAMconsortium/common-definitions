@@ -1,0 +1,3 @@
+- Production|Critical Minerals|{Critical Minerals Commodity} [{Accounting Type}]: 
+    description: production of {Critical Minerals Commodity} in {Accounting Type}
+    unit: "{Accounting Type}"
