@@ -10,7 +10,7 @@ native_regions:
   - TUR: AIM 3.0|Turkey
   - USA: AIM 3.0|USA
   - XAF: AIM 3.0|Other Africa
-  - XE25: AIM 3.0|EU
+  - XE25: AIM 3.0|EU & UK
   - XER: AIM 3.0|Rest of Europe
   - XLM: AIM 3.0|Rest of Latin America
   - XME: AIM 3.0|Middle East
@@ -108,5 +108,5 @@ common_regions:
   - African Union:
       - XAF
       - XNF
-  - European Union:
+  - European Union and United Kingdom:
       - XE25

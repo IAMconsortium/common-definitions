@@ -26,11 +26,11 @@
           Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia,
           Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar,
           Malawi, Mali, Mauritania, Mauritius, Mayotte, Mozambique, Namibia,
-          Niger, Nigeria, Rwanda, Réunion, Saint Helena, Ascension and Tristan da Cunha,
-          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
-          South Africa, Sudan, Tanzania, Togo, Uganda, Western Sahara, Zambia, Zimbabwe
+          Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe, Senegal, Seychelles,
+          Sierra Leone, Somalia, South Africa, Sudan, Tanzania, Togo, Uganda,
+          Western Sahara, Zambia, Zimbabwe
         ]
-    - AIM 3.0|EU:
+    - AIM 3.0|EU & UK:
         countries: [
           Austria, Belgium, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
           Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta,
