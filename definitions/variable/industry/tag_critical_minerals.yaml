@@ -1,0 +1,16 @@
+- Critical Minerals Commodity:
+    - Copper [{Accounting Type}]: 
+        description: metal that is used widely used for electric vehicles, solar photovoltaics, wind power, and electric networks, with element symbol of Cu 
+        unit: "{Accounting Type}"
+    - Nickel:
+        description: metal that is used in batteries, particularly for electric vehicles, as well as in stainless steel and other alloys, with element symbol of Ni
+        unit: "{Accounting Type}"
+    - Graphite:
+        description: form of carbon used in batteries, particularly for electric vehicles, and as a lubricant and in steelmaking
+        unit: "{Accounting Type}"
+    - Lithium:
+        description: metal that is crucial for rechargeable batteries, particularly for electric vehicles and stationary energy storage, with element symbol of Li
+        unit: "{Accounting Type}"
+    - Manganese:
+        description: metal used in steel production and batteries, particularly for electric vehicles, with element symbol of Mn
+        unit: "{Accounting Type}"
