@@ -1,4 +1,5 @@
 - G20 members:
+    # individual countries
     - Argentina
     - Australia
     - Brazil
@@ -18,6 +19,7 @@
     - Turkey
     - United Kingdom
     - United States
+    # organisations that are part of the G20
     - African Union
     - European Union
     - European Union and United Kingdom:
