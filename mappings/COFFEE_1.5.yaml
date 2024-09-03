@@ -94,30 +94,30 @@ common_regions:
   - RA
   
 #   R9 regions
-- R9EU:
+- European Union (R9):
   - EU
-- R9USA:
+- USA (R9):
   - US
-- R9OTHEROECD:
+- Other OECD (R9):
   - AU
   - CD
   - JP
-- R9CHINA:
+- China (R9):
   - CH
-- R9INDIA:
+- India (R9):
   - IN
-- R9OTHERASIA:
+- Other Asia (R9):
   - KR
   - RA
-- R9REF:
+- Reforming Economies (R9):
   - CP
   - RU
   - XE
-- R9LAM:
+- Latin America (R9):
   - BR
   - CA
   - SM
-- R9MAF:
+- Middle East & Africa (R9):
   - AF
   - ME
   - SF
@@ -140,7 +140,11 @@ common_regions:
   - IN
 - Japan:
   - JP
+- South Korea:
+  - KR
 - South Africa:
   - SF
+- Russia:
+  - RU
 - USA:
   - US
