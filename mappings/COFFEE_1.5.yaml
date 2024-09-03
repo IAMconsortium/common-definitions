@@ -122,7 +122,7 @@ common_regions:
   - ME
   - SF
 
-# other global regions
+# mapping for G20 members
 - European Union:
   - EU
 - Africa:
