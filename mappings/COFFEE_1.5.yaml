@@ -149,15 +149,3 @@ common_regions:
 - USA:
   - US
 
-# G20 members
-
-- G20 members:
-  -  BR
-  -  CD
-  -  CH
-  -  EU
-  -  IN
-  -  JP
-  -  RU
-  -  SF
-  -  US
