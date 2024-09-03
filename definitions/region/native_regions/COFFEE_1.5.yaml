@@ -1,0 +1,46 @@
+- COFFEE 1.5:
+  - COFFEE 1.5|Africa (excluding South Africa):
+     iso3_codes: [AGO, BDI, BEN, BFA, BWA, CAF, CIV, CMR, COD, COG, COM, CPV, DJI, DZA, 
+     EGY, ERI, ESH, ETH, GAB, GHA, GIN, GMB, GNB, GNQ, KEN, LBR, LBY, LSO, MAR, MDG, MLI, 
+     MOZ, MRT, MUS, MWI, MYT, NAM, NER, NGA, REU, RWA, SDN, SEN, SLE, SOM, SSD, STP, SWZ, 
+     SYC, TCD, TGO, TUN, TZA, UGA, ZMB]
+  - COFFEE 1.5|Australia & New Zealand:
+      iso3_codes: [AUS, NZL]
+  - COFFEE 1.5|Brazil:
+      iso3_codes: BRA
+  - COFFEE 1.5|Central America:
+      iso3_codes: [ABW, AIA, ANT, ATG, BHS, BLM, BLZ, BMU, BRB, CRI, CUB, CYM, DMA, DOM, 
+      GLP, GRD, GTM, GUF, GUY, HND, HTI, JAM, KNA, LCA, MAF, MEX, MSR, MTQ, NIC, PAN, SLV, 
+      SUR, TCA, TTO, VCT]
+  - COFFEE 1.5|Canada:
+      iso3_codes: [CAN, SHN, SPM]
+  - COFFEE 1.5|Caspian Sea:
+      iso3_codes: [AFG, ARM, AZE, GEO, KAZ, KGZ, PAK, TJK, TKM, UZB]
+  - COFFEE 1.5|China:
+      iso3_codes: [CHN, HKG, MAC]
+  - COFFEE 1.5|European Union:
+      iso3_codes: [ALA, AND, AUT, BEL, BGR, BVT, CHE, CYP, CZE, DEU, DNK, ESP, EST, FIN, FRA, 
+      FRO, GBR, GGY, GIB, GRC, GRL, HUN, IMN, IRL, ISL, ITA, JEY, LIE, LTU, LUX, LVA, MCO, MLT, 
+      NLD, NOR, POL, PRT, ROU, SJM, SMR, SVK, SVN, SWE, TUR, VAT]
+  - COFFEE 1.5|India:
+      iso3_codes: IND
+  - COFFEE 1.5|Japan:
+      iso3_codes: JPN
+  - COFFEE 1.5|South Korea:
+      iso3_codes: KOR
+  - COFFEE 1.5|Middle East:
+      iso3_codes: [ARE, BHR, IRN, IRQ, ISR, JOR, KWT, LBN, OMN, PSE, QAT, SAU, SYR, YEM]
+  - COFFEE 1.5|Rest of Asia and Oceania:
+      iso3_codes: [ATA, ATF, BGD, BRN, BTN, CCK, COK, CXR, FJI, FSM, GUM, HMD, IDN, IOT,
+      KHM, KIR, LAO, LKA, MDV, MHL, MMR, MNG, MNP, MYS, NCL, NFK, NIU, NPL, NRU, PCN, PHL, 
+      PLW, PNG, PRK, PYF, SGP, SLB, THA, TKL, TLS, TON, TUV, TWN, VNM, VUT, WLF, WSM]
+  - COFFEE 1.5|Russia:
+      iso3_codes: RUS
+  - COFFEE 1.5|South Africa:
+      iso3_codes: ZAF
+  - COFFEE 1.5|South America:
+      iso3_codes: [ARG, BOL, CHL, COL, ECU, FLK, PER, PRY, SGS, URY, VEN]
+  - COFFEE 1.5|United States:
+      iso3_codes: [ASM, PRI, UMI, USA, VGB, VIR]
+  - COFFEE 1.5|Rest of Europe:
+      iso3_codes: [ALB, BIH, BLR, HRV, MDA, MKD, MNE, SRB, UKR]
