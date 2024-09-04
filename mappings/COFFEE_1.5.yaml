@@ -125,7 +125,7 @@ common_regions:
 # mapping for G20 members
 - European Union:
   - EU
-- Africa:
+- African Union:
   - AF
   - SF
 - Brazil:
@@ -144,6 +144,6 @@ common_regions:
   - SF
 - Russia:
   - RU
-- USA:
+- United States:
   - US
 
