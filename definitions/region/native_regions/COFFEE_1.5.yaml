@@ -1,46 +1,90 @@
 - COFFEE 1.5:
-  - COFFEE 1.5|Africa (excluding South Africa):
-     iso3_codes: [AGO, BDI, BEN, BFA, BWA, CAF, CIV, CMR, COD, COG, COM, CPV, DJI, DZA, 
-     EGY, ERI, ESH, ETH, GAB, GHA, GIN, GMB, GNB, GNQ, KEN, LBR, LBY, LSO, MAR, MDG, MLI, 
-     MOZ, MRT, MUS, MWI, MYT, NAM, NER, NGA, REU, RWA, SDN, SEN, SLE, SOM, SSD, STP, SWZ, 
-     SYC, TCD, TGO, TUN, TZA, UGA, ZMB]
-  - COFFEE 1.5|Australia & New Zealand:
-      iso3_codes: [AUS, NZL]
-  - COFFEE 1.5|Brazil:
-      iso3_codes: BRA
-  - COFFEE 1.5|Central America:
-      iso3_codes: [ABW, AIA, ANT, ATG, BHS, BLM, BLZ, BMU, BRB, CRI, CUB, CYM, DMA, DOM, 
-      GLP, GRD, GTM, GUF, GUY, HND, HTI, JAM, KNA, LCA, MAF, MEX, MSR, MTQ, NIC, PAN, SLV, 
-      SUR, TCA, TTO, VCT]
-  - COFFEE 1.5|Canada:
-      iso3_codes: [CAN, SHN, SPM]
-  - COFFEE 1.5|Caspian Sea:
-      iso3_codes: [AFG, ARM, AZE, GEO, KAZ, KGZ, PAK, TJK, TKM, UZB]
-  - COFFEE 1.5|China:
-      iso3_codes: [CHN, HKG, MAC]
-  - COFFEE 1.5|European Union:
-      iso3_codes: [ALA, AND, AUT, BEL, BGR, BVT, CHE, CYP, CZE, DEU, DNK, ESP, EST, FIN, FRA, 
-      FRO, GBR, GGY, GIB, GRC, GRL, HUN, IMN, IRL, ISL, ITA, JEY, LIE, LTU, LUX, LVA, MCO, MLT, 
-      NLD, NOR, POL, PRT, ROU, SJM, SMR, SVK, SVN, SWE, TUR, VAT]
-  - COFFEE 1.5|India:
-      iso3_codes: IND
-  - COFFEE 1.5|Japan:
-      iso3_codes: JPN
-  - COFFEE 1.5|South Korea:
-      iso3_codes: KOR
-  - COFFEE 1.5|Middle East:
-      iso3_codes: [ARE, BHR, IRN, IRQ, ISR, JOR, KWT, LBN, OMN, PSE, QAT, SAU, SYR, YEM]
-  - COFFEE 1.5|Rest of Asia and Oceania:
-      iso3_codes: [ATA, ATF, BGD, BRN, BTN, CCK, COK, CXR, FJI, FSM, GUM, HMD, IDN, IOT,
-      KHM, KIR, LAO, LKA, MDV, MHL, MMR, MNG, MNP, MYS, NCL, NFK, NIU, NPL, NRU, PCN, PHL, 
-      PLW, PNG, PRK, PYF, SGP, SLB, THA, TKL, TLS, TON, TUV, TWN, VNM, VUT, WLF, WSM]
-  - COFFEE 1.5|Russia:
-      iso3_codes: RUS
-  - COFFEE 1.5|South Africa:
-      iso3_codes: ZAF
-  - COFFEE 1.5|South America:
-      iso3_codes: [ARG, BOL, CHL, COL, ECU, FLK, PER, PRY, SGS, URY, VEN]
-  - COFFEE 1.5|United States:
-      iso3_codes: [ASM, PRI, UMI, USA, VGB, VIR]
-  - COFFEE 1.5|Rest of Europe:
-      iso3_codes: [ALB, BIH, BLR, HRV, MDA, MKD, MNE, SRB, UKR]
+    - COFFEE 1.5|Africa (excluding South Africa):
+        countries: [
+          Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
+          Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya,
+          Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius,
+          Mayotte, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion,
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Western Sahara, Zambia
+        ]
+    - COFFEE 1.5|Australia & New Zealand:
+        countries: [ Australia, New Zealand ]
+    - COFFEE 1.5|Brazil:
+        countries: [ Brazil ]
+    - COFFEE 1.5|Central America:
+        countries: [
+          Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda,
+          Bonaire, Sint Eustatius and Saba, Cayman Islands, Costa Rica, Cuba, Curaçao,
+          Dominica, Dominican Republic, El Salvador, French Guiana, Grenada, Guadeloupe,
+          Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Montserrat,
+          Nicaragua, Panama, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), Suriname, Trinidad and Tobago,
+          Turks and Caicos Islands
+        ]
+    - COFFEE 1.5|Canada:
+        countries: [
+          Canada, Saint Helena, Ascension and Tristan da Cunha, Saint Pierre and Miquelon
+        ]
+    - COFFEE 1.5|Caspian Sea:
+        countries: [
+          Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Pakistan,
+          Tajikistan, Turkmenistan, Uzbekistan ]
+    - COFFEE 1.5|China:
+        countries: [ China, Hong Kong, Macao ]
+    - COFFEE 1.5|European Union:
+        countries: [
+          Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Cyprus, Czechia, Denmark,
+          Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece,
+          Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey,
+          Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands,
+          Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain,
+          Svalbard and Jan Mayen, Sweden, Switzerland, Turkey, United Kingdom, Vatican,
+          Åland Islands
+        ]
+    - COFFEE 1.5|India:
+        countries: [ India ]
+    - COFFEE 1.5|Japan:
+        countries: [ Japan ]
+    - COFFEE 1.5|South Korea:
+        countries: [ South Korea ]
+    - COFFEE 1.5|Middle East:
+        countries: [
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, United Arab Emirates, Yemen
+        ]
+    - COFFEE 1.5|Rest of Asia and Oceania:
+        countries: [
+          Antarctica, Bangladesh, Bhutan, British Indian Ocean Territory,
+          Brunei Darussalam, Cambodia, Christmas Island, Cocos (Keeling) Islands,
+          Cook Islands, Fiji, French Polynesia, French Southern Territories, Guam,
+          Heard Island and McDonald Islands, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal,
+          New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands,
+          Palau, Papua New Guinea, Philippines, Pitcairn, Samoa, Singapore,
+          Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tokelau, Tonga,
+          Tuvalu, Vanuatu, Viet Nam, Wallis and Futuna
+        ]
+    - COFFEE 1.5|Russia:
+        countries: [ Russian Federation ]
+    - COFFEE 1.5|South Africa:
+        countries: [ South Africa ]
+    - COFFEE 1.5|South America:
+        countries: [
+          Argentina, Bolivia, Chile, Colombia, Ecuador, Falkland Islands (Malvinas),
+          Paraguay, Peru, South Georgia and the South Sandwich Islands, Uruguay,
+          Venezuela
+        ]
+    - COFFEE 1.5|United States:
+        countries: [
+          American Samoa, British Virgin Islands, Puerto Rico, United States,
+          United States Minor Outlying Islands, United States Virgin Islands
+        ]
+    - COFFEE 1.5|Rest of Europe:
+        countries: [
+          Albania, Belarus, Bosnia and Herzegovina, Croatia, Moldova, Montenegro,
+          North Macedonia, Serbia, Ukraine
+        ]
