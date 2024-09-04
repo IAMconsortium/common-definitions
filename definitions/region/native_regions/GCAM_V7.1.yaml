@@ -1,34 +1,34 @@
-- GCAM 7.0:
-    - GCAM 7.0|Eastern Africa:
+- GCAM 7.1:
+    - GCAM 7.1|Eastern Africa:
         countries: [
           Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
           Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
         ]
-    - GCAM 7.0|Northern Africa:
+    - GCAM 7.1|Northern Africa:
         countries: [
           Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
         ]
-    - GCAM 7.0|Southern Africa:
+    - GCAM 7.1|Southern Africa:
         countries: [
           Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
           Zambia, Zimbabwe
         ]
-    - GCAM 7.0|Western Africa:
+    - GCAM 7.1|Western Africa:
         countries: [
           Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
           Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
           Guinea, Côte d'Ivoire, Liberia, Mali, Mauritania, Niger, Nigeria, Guinea-Bissau,
           Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso
         ]
-    - GCAM 7.0|Argentina:
+    - GCAM 7.1|Argentina:
         countries: [ Argentina ]
-    - GCAM 7.0|Australia and New Zealand:
+    - GCAM 7.1|Australia and New Zealand:
         countries: [ Australia, New Zealand ]
-    - GCAM 7.0|Brazil:
+    - GCAM 7.1|Brazil:
         countries: [ Brazil ]
-    - GCAM 7.0|Canada:
+    - GCAM 7.1|Canada:
         countries: [ Canada ]
-    - GCAM 7.0|Central America and Caribbean:
+    - GCAM 7.1|Central America and Caribbean:
         countries: [
           Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
           Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
@@ -36,21 +36,21 @@
           Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
           Saint Vincent and the Grenadines, Guadeloupe
         ]
-    - GCAM 7.0|Central Asia:
+    - GCAM 7.1|Central Asia:
         countries: [
           Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
           Turkmenistan, Uzbekistan
         ]
-    - GCAM 7.0|China:
+    - GCAM 7.1|China:
         countries: [ China, Hong Kong, Macao ]
-    - GCAM 7.0|Colombia:
+    - GCAM 7.1|Colombia:
         countries: [ Colombia ]
-    - GCAM 7.0|EU-12:
+    - GCAM 7.1|EU-12:
         countries: [
           Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
           Malta, Poland, Romania, Slovenia
         ]
-    - GCAM 7.0|EU-15:
+    - GCAM 7.1|EU-15:
         countries: [
           Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
           Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
@@ -58,43 +58,43 @@
           United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
           Turks and Caicos Islands
         ]
-    - GCAM 7.0|Eastern Europe:
+    - GCAM 7.1|Eastern Europe:
         countries: [ Belarus, Moldova, Ukraine ]
-    - GCAM 7.0|Non-EU Europe:
+    - GCAM 7.1|Non-EU Europe:
         countries: [
           Albania, Bosnia and Herzegovina, Croatia, North Macedonia, Montenegro, Turkey,
           Serbia
         ]
-    - GCAM 7.0|European Free Trade Association:
+    - GCAM 7.1|European Free Trade Association:
         countries: [ Iceland, Liechtenstein, Norway, Switzerland ]
-    - GCAM 7.0|India:
+    - GCAM 7.1|India:
         countries: [ India ]
-    - GCAM 7.0|Indonesia:
+    - GCAM 7.1|Indonesia:
         countries: [ Indonesia ]
-    - GCAM 7.0|Japan:
+    - GCAM 7.1|Japan:
         countries: [ Japan ]
-    - GCAM 7.0|Mexico:
+    - GCAM 7.1|Mexico:
         countries: [ Mexico ]
-    - GCAM 7.0|Middle East:
+    - GCAM 7.1|Middle East:
         countries: [
           Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
           Saudi Arabia, Syria, Yemen, United Arab Emirates
         ]
-    - GCAM 7.0|Pakistan:
+    - GCAM 7.1|Pakistan:
         countries: [ Pakistan ]
-    - GCAM 7.0|Russia:
+    - GCAM 7.1|Russia:
         countries: [ Russian Federation ]
-    - GCAM 7.0|South Africa:
+    - GCAM 7.1|South Africa:
         countries: [ South Africa ]
-    - GCAM 7.0|Northern South America:
+    - GCAM 7.1|Northern South America:
         countries: [ French Guiana, Guyana, Suriname, Venezuela ]
-    - GCAM 7.0|Southern South America:
+    - GCAM 7.1|Southern South America:
         countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
-    - GCAM 7.0|South Asia:
+    - GCAM 7.1|South Asia:
         countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
-    - GCAM 7.0|South Korea:
+    - GCAM 7.1|South Korea:
         countries: [ South Korea ]
-    - GCAM 7.0|Southeast Asia:
+    - GCAM 7.1|Southeast Asia:
         countries: [
           American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
           Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
@@ -103,7 +103,7 @@
           Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
           Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands
         ]
-    - GCAM 7.0|Taiwan:
+    - GCAM 7.1|Taiwan:
         countries: [ Taiwan ]
-    - GCAM 7.0|USA:
+    - GCAM 7.1|USA:
         countries: [ Puerto Rico, United States, United States Virgin Islands ]

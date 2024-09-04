@@ -1,40 +1,40 @@
 model:
-  - GCAM 7.0
-  - GCAM 7.0 scenarioMIP
+  - GCAM 7.1
+  - GCAM 7.1 scenarioMIP
 
 native_regions:
-  - Africa_Eastern: GCAM 7.0|Eastern Africa
-  - Africa_Northern: GCAM 7.0|Northern Africa
-  - Africa_Southern: GCAM 7.0|Southern Africa
-  - Africa_Western: GCAM 7.0|Western Africa
-  - Argentina: GCAM 7.0|Argentina
-  - Australia_NZ: GCAM 7.0|Australia and New Zealand
-  - Brazil: GCAM 7.0|Brazil
-  - Canada: GCAM 7.0|Canada
-  - Central America and Caribbean: GCAM 7.0|Central America and Caribbean
-  - Central Asia: GCAM 7.0|Central Asia
-  - China: GCAM 7.0|China
-  - Colombia: GCAM 7.0|Colombia
-  - EU-12: GCAM 7.0|EU-12
-  - EU-15: GCAM 7.0|EU-15
-  - Europe_Eastern: GCAM 7.0|Eastern Europe
-  - Europe_Non_EU: GCAM 7.0|Non-EU Europe
-  - European Free Trade Association: GCAM 7.0|European Free Trade Association
-  - India: GCAM 7.0|India
-  - Indonesia: GCAM 7.0|Indonesia
-  - Japan: GCAM 7.0|Japan
-  - Mexico: GCAM 7.0|Mexico
-  - Middle East: GCAM 7.0|Middle East
-  - Pakistan: GCAM 7.0|Pakistan
-  - Russia: GCAM 7.0|Russia
-  - South Africa: GCAM 7.0|South Africa
-  - South America_Northern: GCAM 7.0|Northern South America
-  - South America_Southern: GCAM 7.0|Southern South America
-  - South Asia: GCAM 7.0|South Asia
-  - South Korea: GCAM 7.0|South Korea
-  - Southeast Asia: GCAM 7.0|Southeast Asia
-  - Taiwan: GCAM 7.0|Taiwan
-  - USA: GCAM 7.0|USA
+  - Africa_Eastern: GCAM 7.1|Eastern Africa
+  - Africa_Northern: GCAM 7.1|Northern Africa
+  - Africa_Southern: GCAM 7.1|Southern Africa
+  - Africa_Western: GCAM 7.1|Western Africa
+  - Argentina: GCAM 7.1|Argentina
+  - Australia_NZ: GCAM 7.1|Australia and New Zealand
+  - Brazil: GCAM 7.1|Brazil
+  - Canada: GCAM 7.1|Canada
+  - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
+  - Central Asia: GCAM 7.1|Central Asia
+  - China: GCAM 7.1|China
+  - Colombia: GCAM 7.1|Colombia
+  - EU-12: GCAM 7.1|EU-12
+  - EU-15: GCAM 7.1|EU-15
+  - Europe_Eastern: GCAM 7.1|Eastern Europe
+  - Europe_Non_EU: GCAM 7.1|Non-EU Europe
+  - European Free Trade Association: GCAM 7.1|European Free Trade Association
+  - India: GCAM 7.1|India
+  - Indonesia: GCAM 7.1|Indonesia
+  - Japan: GCAM 7.1|Japan
+  - Mexico: GCAM 7.1|Mexico
+  - Middle East: GCAM 7.1|Middle East
+  - Pakistan: GCAM 7.1|Pakistan
+  - Russia: GCAM 7.1|Russia
+  - South Africa: GCAM 7.1|South Africa
+  - South America_Northern: GCAM 7.1|Northern South America
+  - South America_Southern: GCAM 7.1|Southern South America
+  - South Asia: GCAM 7.1|South Asia
+  - South Korea: GCAM 7.1|South Korea
+  - Southeast Asia: GCAM 7.1|Southeast Asia
+  - Taiwan: GCAM 7.1|Taiwan
+  - USA: GCAM 7.1|USA
 
 common_regions:
   - World:
