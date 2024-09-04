@@ -3,10 +3,10 @@
 
 - Level-2 Species:
     - CO2:
-        description: carbon dioxide (CO2)
+        description: fossil carbon dioxide (CO2)
         unit: Mt CO2/yr
     - Kyoto Gases:
-        description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
+        description: Kyoto GHG emissions, including fossil CO2, CH4, N2O and F-gases
         notes: Preferably use AR4 100-year GWPs for aggregation of different gases
         unit: Mt CO2-equiv/yr
     - CH4:
