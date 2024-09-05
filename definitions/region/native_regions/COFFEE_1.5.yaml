@@ -17,7 +17,7 @@
     - COFFEE 1.5|Central America:
         countries: [
           Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda,
-          Bonaire, Sint Eustatius and Saba, Cayman Islands, Costa Rica, Cuba, Curaçao,
+          "Bonaire, Sint Eustatius and Saba", Cayman Islands, Costa Rica, Cuba, Curaçao,
           Dominica, Dominican Republic, El Salvador, French Guiana, Grenada, Guadeloupe,
           Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Montserrat,
           Nicaragua, Panama, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
@@ -27,7 +27,8 @@
         ]
     - COFFEE 1.5|Canada:
         countries: [
-          Canada, Saint Helena, Ascension and Tristan da Cunha, Saint Pierre and Miquelon
+          Canada, "Saint Helena, Ascension and Tristan da Cunha",
+          Saint Pierre and Miquelon
         ]
     - COFFEE 1.5|Caspian Sea:
         countries: [
