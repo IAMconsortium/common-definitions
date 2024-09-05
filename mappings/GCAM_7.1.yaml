@@ -1,0 +1,133 @@
+model:
+  - GCAM 7.1
+  - GCAM 7.1 scenarioMIP
+
+native_regions:
+  - Africa_Eastern: GCAM 7.1|Africa_Eastern
+  - Africa_Northern: GCAM 7.1|Africa_Northern
+  - Africa_Southern: GCAM 7.1|Africa_Southern
+  - Africa_Western: GCAM 7.1|Africa_Western
+  - Argentina: GCAM 7.1|Argentina
+  - Australia_NZ: GCAM 7.1|Australia_NZ
+  - Brazil: GCAM 7.1|Brazil
+  - Canada: GCAM 7.1|Canada
+  - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
+  - Central Asia: GCAM 7.1|Central Asia
+  - China: GCAM 7.1|China
+  - Colombia: GCAM 7.1|Colombia
+  - EU-12: GCAM 7.1|EU-12
+  - EU-15: GCAM 7.1|EU-15
+  - Europe_Eastern: GCAM 7.1|Europe_Eastern
+  - Europe_Non_EU: GCAM 7.1|Europe_Non_EU
+  - European Free Trade Association: GCAM 7.1|European Free Trade Association
+  - India: GCAM 7.1|India
+  - Indonesia: GCAM 7.1|Indonesia
+  - Japan: GCAM 7.1|Japan
+  - Mexico: GCAM 7.1|Mexico
+  - Middle East: GCAM 7.1|Middle East
+  - Pakistan: GCAM 7.1|Pakistan
+  - Russia: GCAM 7.1|Russia
+  - South Africa: GCAM 7.1|South Africa
+  - South America_Northern: GCAM 7.1|South America_Northern
+  - South America_Southern: GCAM 7.1|South America_Southern
+  - South Asia: GCAM 7.1|South Asia
+  - South Korea: GCAM 7.1|South Korea
+  - Southeast Asia: GCAM 7.1|Southeast Asia
+  - Taiwan: GCAM 7.1|Taiwan
+  - USA: GCAM 7.1|USA
+
+common_regions:
+  - World:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Argentina
+      - Australia_NZ
+      - Brazil
+      - Canada
+      - Central America and Caribbean
+      - Central Asia
+      - China
+      - Colombia
+      - EU-12
+      - EU-15
+      - Europe_Eastern
+      - Europe_Non_EU
+      - European Free Trade Association
+      - India
+      - Indonesia
+      - Japan
+      - Mexico
+      - Middle East
+      - Pakistan
+      - Russia
+      - South Africa
+      - South America_Northern
+      - South America_Southern
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+      - USA
+
+    # R5 regions
+  - Asia (R5):
+      - Central Asia
+      - China
+      - India
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+  - Latin America (R5):
+      - Brazil
+      - Central America and Caribbean
+      - Mexico
+      - South America_Northern
+      - South America_Southern
+      - Argentina
+      - Colombia
+  - Middle East & Africa (R5):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Middle East
+      - South Africa
+  - OECD & EU (R5):
+      - USA
+      - Australia_NZ
+      - Canada
+      - EU-15
+      - Europe_Non_EU
+      - European Free Trade Association
+      - Japan
+  - Reforming Economies (R5):
+      - EU-12
+      - Europe_Eastern
+      - Russia
+
+  # mapping for G20 members
+  - Brazil:
+      - Brazil
+  - Canada:
+      - Canada
+  - China:
+      - China
+  - India:
+      - India
+  - Japan:
+      - Japan
+  - United States:
+      - USA
+  - African Union:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+  - European Union and United Kingdom:
+      - EU-12
+      - EU-15
