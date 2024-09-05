@@ -3,12 +3,12 @@ model:
   - GCAM 7.1 scenarioMIP
 
 native_regions:
-  - Africa_Eastern: GCAM 7.1|Eastern Africa
-  - Africa_Northern: GCAM 7.1|Northern Africa
-  - Africa_Southern: GCAM 7.1|Southern Africa
-  - Africa_Western: GCAM 7.1|Western Africa
+  - Africa_Eastern: GCAM 7.1|Africa_Eastern
+  - Africa_Northern: GCAM 7.1|Africa_Northern
+  - Africa_Southern: GCAM 7.1|Africa_Southern
+  - Africa_Western: GCAM 7.1|Africa_Western
   - Argentina: GCAM 7.1|Argentina
-  - Australia_NZ: GCAM 7.1|Australia and New Zealand
+  - Australia_NZ: GCAM 7.1|Australia_NZ
   - Brazil: GCAM 7.1|Brazil
   - Canada: GCAM 7.1|Canada
   - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
@@ -17,8 +17,8 @@ native_regions:
   - Colombia: GCAM 7.1|Colombia
   - EU-12: GCAM 7.1|EU-12
   - EU-15: GCAM 7.1|EU-15
-  - Europe_Eastern: GCAM 7.1|Eastern Europe
-  - Europe_Non_EU: GCAM 7.1|Non-EU Europe
+  - Europe_Eastern: GCAM 7.1|Europe_Eastern
+  - Europe_Non_EU: GCAM 7.1|Europe_Non_EU
   - European Free Trade Association: GCAM 7.1|European Free Trade Association
   - India: GCAM 7.1|India
   - Indonesia: GCAM 7.1|Indonesia
@@ -28,8 +28,8 @@ native_regions:
   - Pakistan: GCAM 7.1|Pakistan
   - Russia: GCAM 7.1|Russia
   - South Africa: GCAM 7.1|South Africa
-  - South America_Northern: GCAM 7.1|Northern South America
-  - South America_Southern: GCAM 7.1|Southern South America
+  - South America_Northern: GCAM 7.1|South America_Northern
+  - South America_Southern: GCAM 7.1|South America_Southern
   - South Asia: GCAM 7.1|South Asia
   - South Korea: GCAM 7.1|South Korea
   - Southeast Asia: GCAM 7.1|Southeast Asia

@@ -1,19 +1,19 @@
 - GCAM 7.1:
-    - GCAM 7.1|Eastern Africa:
+    - GCAM 7.1|Africa_Eastern:
         countries: [
           Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
           Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
         ]
-    - GCAM 7.1|Northern Africa:
+    - GCAM 7.1|Africa_Northern:
         countries: [
           Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
         ]
-    - GCAM 7.1|Southern Africa:
+    - GCAM 7.1|Africa_Southern:
         countries: [
           Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
           Zambia, Zimbabwe
         ]
-    - GCAM 7.1|Western Africa:
+    - GCAM 7.1|Africa_Western:
         countries: [
           Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
           Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
@@ -22,7 +22,7 @@
         ]
     - GCAM 7.1|Argentina:
         countries: [ Argentina ]
-    - GCAM 7.1|Australia and New Zealand:
+    - GCAM 7.1|Australia_NZ:
         countries: [ Australia, New Zealand ]
     - GCAM 7.1|Brazil:
         countries: [ Brazil ]
@@ -58,9 +58,9 @@
           United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
           Turks and Caicos Islands
         ]
-    - GCAM 7.1|Eastern Europe:
+    - GCAM 7.1|Europe_Eastern:
         countries: [ Belarus, Moldova, Ukraine ]
-    - GCAM 7.1|Non-EU Europe:
+    - GCAM 7.1|Europe_Non_EU:
         countries: [
           Albania, Bosnia and Herzegovina, Croatia, North Macedonia, Montenegro, Turkey,
           Serbia
@@ -86,9 +86,9 @@
         countries: [ Russian Federation ]
     - GCAM 7.1|South Africa:
         countries: [ South Africa ]
-    - GCAM 7.1|Northern South America:
+    - GCAM 7.1|South America_Northern:
         countries: [ French Guiana, Guyana, Suriname, Venezuela ]
-    - GCAM 7.1|Southern South America:
+    - GCAM 7.1|South America_Southern:
         countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
     - GCAM 7.1|South Asia:
         countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
