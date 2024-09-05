@@ -1,5 +1,5 @@
-- MESSAGEix-GLOBIOM 2.1:
-    - MESSAGEix-GLOBIOM 2.1|Sub-Saharan Africa:
+- MESSAGEix-GLOBIOM 2.1-R12:
+    - MESSAGEix-GLOBIOM 2.1-R12|Sub-Saharan Africa:
         countries: [
           Angola, Benin, Congo, Democratic Republic of the Congo, Burundi, Cameroon,
           Chad, Comoros, Central African Republic, Cabo Verde, Djibouti,
@@ -9,24 +9,24 @@
           Botswana, Senegal, Sierra Leone, Somalia, Togo, Sao Tome and Principe,
           Tanzania, Uganda, Burkina Faso, Namibia, Zambia, Zimbabwe, Western Sahara
         ]
-    - MESSAGEix-GLOBIOM 2.1|Rest of Centrally Planned Asia:
+    - MESSAGEix-GLOBIOM 2.1-R12|Rest of Centrally Planned Asia:
         countries: [
           Cambodia, North Korea, Laos, Mongolia, Macao, Viet Nam
         ]
-    - MESSAGEix-GLOBIOM 2.1|China:
+    - MESSAGEix-GLOBIOM 2.1-R12|China:
         countries: [ China, Hong Kong ]
-    - MESSAGEix-GLOBIOM 2.1|Eastern Europe:
+    - MESSAGEix-GLOBIOM 2.1-R12|Eastern Europe:
         countries: [
           Albania, Bosnia and Herzegovina, Bulgaria, Estonia, Czechia, Croatia,
           Hungary, Latvia, Lithuania, Slovakia, North Macedonia, Montenegro,
           Poland, Romania, Slovenia, Serbia
         ]
-    - MESSAGEix-GLOBIOM 2.1|Former Soviet Union:
+    - MESSAGEix-GLOBIOM 2.1-R12|Former Soviet Union:
         countries: [
           Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Belarus, Moldova,
           Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
         ]
-    - MESSAGEix-GLOBIOM 2.1|Latin America and the Caribbean:
+    - MESSAGEix-GLOBIOM 2.1-R12|Latin America and the Caribbean:
         countries: [
           Antigua and Barbuda, Argentina, Barbados, Bermuda, Bahamas, Belize, Bolivia,
           Brazil, Chile, Cayman Islands, Colombia, Costa Rica, Cuba, Dominica,
@@ -36,23 +36,23 @@
           Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago, Uruguay,
           Saint Vincent and the Grenadines, Venezuela, Guadeloupe, Turks and Caicos Islands
         ]
-    - MESSAGEix-GLOBIOM 2.1|Middle East and North Africa:
+    - MESSAGEix-GLOBIOM 2.1-R12|Middle East and North Africa:
         countries: [
           Algeria, Bahrain, Egypt, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Libya,
           Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, South Sudan, Syria,
           Tunisia, Yemen, United Arab Emirates
         ]
-    - MESSAGEix-GLOBIOM 2.1|North America:
+    - MESSAGEix-GLOBIOM 2.1-R12|North America:
         countries: [
           Canada, Guam, United States Minor Outlying Islands, Puerto Rico, United States,
           United States Virgin Islands
         ]
-    - MESSAGEix-GLOBIOM 2.1|Pacific OECD:
+    - MESSAGEix-GLOBIOM 2.1-R12|Pacific OECD:
         countries: [
           Australia, Japan, New Zealand, Christmas Island,
           Heard Island and McDonald Islands, Tokelau
         ]
-    - MESSAGEix-GLOBIOM 2.1|Other Pacific Asia:
+    - MESSAGEix-GLOBIOM 2.1-R12|Other Pacific Asia:
         countries: [
           American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cook Islands, Fiji,
           Micronesia, French Polynesia, Kiribati, South Korea, Malaysia, New Caledonia,
@@ -60,11 +60,11 @@
           Papua New Guinea, Philippines, Singapore, Thailand, Tonga, Tuvalu, Samoa,
           Indonesia, Timor-Leste, Palau, Marshall Islands, Taiwan
         ]
-    - MESSAGEix-GLOBIOM 2.1|South Asia:
+    - MESSAGEix-GLOBIOM 2.1-R12|South Asia:
         countries: [
           Bangladesh, Sri Lanka, Afghanistan, Bhutan, India, Maldives, Nepal, Pakistan
         ]
-    - MESSAGEix-GLOBIOM 2.1|Western Europe:
+    - MESSAGEix-GLOBIOM 2.1-R12|Western Europe:
         countries: [
           Cyprus, Denmark, Ireland, Austria, Finland, France, Greenland, Germany, Greece,
           Iceland, Italy, Liechtenstein, Malta, Belgium, Faroe Islands, Andorra,
