@@ -48,3 +48,27 @@ common_regions:
       - R12_EEU
   - Reforming Economies (R5):
       - R12_FSU
+
+  # R10 regions
+  - Africa (R10):
+      - R12_AFR
+  - China+ (R10):
+      - R12_CHN
+      - R12_RCPA
+  - Europe (R10):
+      - R12_EEU
+      - R12_WEU
+  - India+ (R10):
+      - R12_SAS
+  - Latin America (R10):
+      - R12_LAM
+  - Middle East (R10):
+      - R12_MEA
+  - North America (R10):
+      - R12_NAM
+  - Pacific OECD (R10):
+      - R12_PAO
+  - Reforming Economies (R10):
+      - R12_FSU
+  - Rest of Asia (R10):
+      - R12_PAS
