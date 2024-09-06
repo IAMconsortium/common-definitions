@@ -157,6 +157,14 @@
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
     unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Residential:
+    description: Emissions of {Level-2 Species} from fuel combustion in the residential
+      sector (IPCC category 1A4b)
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Commercial:
+    description: Emissions of {Level-2 Species} from fuel combustion in the commercial
+      and institutional sectors (IPCC category 1A4a)
+    unit: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation:
     description: Emissions of {Level-2 Species} from fuel combustion in transportation (IPCC category 1A3),
       excluding emissions from international bunker fuels (IPCC category 1A3ai and 1A3di),
