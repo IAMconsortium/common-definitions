@@ -84,30 +84,6 @@
     unit: million ha
     tier: 2
     agmip:
-- Land Cover|Water Ecosystems:
-    definition: Land-use coverage of water-related ecosystems
-    unit: million ha
-    tier: 2
-- Land Cover|Water Ecosystems|Forests:
-    definition: Land-use coverage of forests in water-related ecosystems
-    unit: million ha
-    tier: 3
-- Land Cover|Water Ecosystems|Glaciers:
-    definition: Area covered by glaciers
-    unit: million ha
-    tier: 3
-- Land Cover|Water Ecosystems|Lakes:
-    definition: Area covered by lakes
-    unit: million ha
-    tier: 3
-- Land Cover|Water Ecosystems|Mountains:
-    definition: Land-use coverage of water-related ecosystems in mountain regions
-    unit: million ha
-    tier: 3
-- Land Cover|Water Ecosystems|Wetlands:
-    definition: Area covered by wetlands
-    unit: million ha
-    tier: 3
 
 - Land Cover|Other Land:
     definition: Other land cover that does not fit into any other category
