@@ -184,7 +184,7 @@
     agmip: Production (PROD) - Livestock (LSP)
     tier: 3
 - Agricultural Production|Livestock|Ruminant:
-    definition: Production of livestock products
+    definition: Production of livestock products from ruminants
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
     tier: 3
