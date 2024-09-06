@@ -101,6 +101,7 @@
       other energy conversion (e.g. refineries, synfuel production, solid fuel processing,
       IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei) and
       emissions from carbon dioxide transport and storage (IPCC category 1C)
+    unit: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Supply|Fugitive:
     description: Fugitive emissions of {Level-2 Species} from fuels in energy extraction,
       processing, storage and transport (IPCC category 1B)
