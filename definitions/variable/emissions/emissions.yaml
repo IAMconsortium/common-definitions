@@ -207,6 +207,10 @@
     description: Emissions of {Level-2 Species} from waste (IPCC category 6)
     unit: "{Level-2 Species}"
 
+- Emissions|{Level-2 Species}|Fossil Fuel Fires:
+    description: Emissions of {Level-2 Species} from fossil fuel fires (IPCC category 7)
+    unit: "{Level-2 Species}"
+
 - Emissions|{Level-2 Species}|Other:
     description: Emissions of {Level-2 Species} from other sources
     unit: "{Level-2 Species}"
