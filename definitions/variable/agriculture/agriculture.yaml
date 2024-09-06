@@ -3,6 +3,84 @@
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Domestic use (CONS)
+    tier: 2
+- Agricultural Demand|Crops:
+    definition: Demand for crops including food, feed products and bioenergy
+      (1st & 2nd generation crops)
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Crops|Food:
+    definition: Demand for food crops
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Crops|Feed:
+  definition: Demand for feed crops
+  unit: million t DM/yr
+  agmip: Domestic use (CONS) - ???
+  tier: 3
+- Agricultural Demand|Crops|Bioenergy:
+    definition: Demand for bioenergy crops (1st & 2nd generation)
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Crops|Bioenergy|1st Generation:
+    definition: Demand for 1st generation bioenergy crops
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Crops|Bioenergy|2nd generation:
+    definition: Demand for second-generation bioenergy crops
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Crops|Other:
+    definition: Demand of crops for other uses
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Livestock:
+    definition: Demand for livestock products
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Livestock|Food:
+    definition: Demand for livestock products used as food
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Livestock|Feed:
+    definition: Demand for livestock products used as feed
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Livestock|Other:
+    definition: Demand for livestock products for other uses
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Residues:
+    definition: Demand for residues from agricultural production for feed, bioenergy and
+      other uses
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Residues|Feed:
+    definition: Demand for residues as feed
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Residues|Bioenergy:
+    definition: Demand for residues as bioenergy
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
+- Agricultural Demand|Residues|Other:
+    definition: Demand of residues for other uses
+    unit: million t DM/yr
+    agmip: Domestic use (CONS) - ???
+    tier: 3
 
 - Agricultural Production:
     definition: Total production of food, non-food and feed products (crops and livestock)
