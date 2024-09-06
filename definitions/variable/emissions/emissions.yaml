@@ -213,6 +213,25 @@
       (IPCC categories 2A, B, C, E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
 
+- Emissions|{Level-3 Species}|Product Use:
+    description: Emissions of {Level-3 Species} from product use (IPCC category 2D, 2F
+      and 2G)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Non-Energy Use:
+    description: Emissions of {Level-3 Species} from non-energy products from fuels
+      (IPCC category 2D1 and 2D2)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Solvents:
+    description: Emissions of {Level-3 Species} from solvents use (IPCC category 2D3)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|ODS Substitutes:
+    description: Emissions of {Level-3 Species} from use of subtitutes of ozone
+      depleting substances (ODS) (IPCC categories 2F)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Other:
+    description: Emissions of {Level-3 Species} from other product use or manufacturing
+    unit: "{Level-3 Species}"
+
 - Emissions|{Level-2 Species}|Waste:
     description: Emissions of {Level-2 Species} from waste (IPCC category 6)
     unit: "{Level-2 Species}"
