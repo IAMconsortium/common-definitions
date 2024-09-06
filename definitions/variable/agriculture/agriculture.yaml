@@ -46,7 +46,7 @@
     agmip: Domestic use (CONS) - ???
     tier: 4
 - Agricultural Demand|Crops|Feed|Oil Crops:
-    definition: Demand for feed crops from oil crops (Cotton seed, Groundnuts, Oilpalms, Other oil crops incl rapeseed, Soybean, Sunflower)
+    definition: Demand for feed crops from oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl. rapeseed, soybean, sunflower)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - ???
     tier: 4
