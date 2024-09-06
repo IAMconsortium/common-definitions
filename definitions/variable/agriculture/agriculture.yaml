@@ -179,7 +179,7 @@
     agmip: Production (PROD) - Livestock (LSP)
     tier: 2
 - Agricultural Production|Livestock|Dairy:
-    definition: Production of livestock products
+    definition: Production of dairy livestock products
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
     tier: 3
