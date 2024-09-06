@@ -188,7 +188,7 @@
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
     tier: 3
-- Agricultural Production|Livestock|Non-ruminant:
+- Agricultural Production|Livestock|Non-Ruminant:
     definition: Production of livestock products
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
