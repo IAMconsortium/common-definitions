@@ -3,8 +3,50 @@
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Domestic use (CONS)
+
 - Agricultural Production:
     definition: Total production of food, non-food and feed products (crops and livestock)
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
+    tier: 2
+- Agricultural Production|Crops:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - All crops (CRP)
+    tier: 2
+- Agricultural Production|Crops|Cereals:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - ???
+    tier: 3
+- Agricultural Production|Crops|Sugarcrops:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - Sugarcrops (SGC)
+    tier: 3
+- Agricultural Production|Crops|Oilcrops:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - ???
+    tier: 3
+- Agricultural Production|Crops|Energy Crops:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - Energy crops (ECP)
+    tier: 2
+- Agricultural Production|Crops|Other:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - ???
+    tier: 2
+- Agricultural Production|Livestock:
+    definition: Production of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - Livestock (LSP)
+    tier: 2
+- Agricultural Production|Residues:
+    definition: Production of agricultural residues
+    unit: million t DM/yr
+    agmip: Production (PROD)
+    tier: 2
