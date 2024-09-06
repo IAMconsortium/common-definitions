@@ -154,7 +154,7 @@
     agmip: Production (PROD) - ???
     tier: 3
 - Agricultural Production|Crops|Oil Crops:
-    definition: Production of crops
+    definition: Production of oil crops
     unit: million t DM/yr
     agmip: Production (PROD) - ???
     tier: 3
