@@ -158,7 +158,7 @@
     unit: million t DM/yr
     agmip: Production (PROD) - ???
     tier: 3
-- Agricultural Production|Crops|Sugar crops:
+- Agricultural Production|Crops|Sugar Crops:
     definition: Production of crops
     unit: million t DM/yr
     agmip: Production (PROD) - Sugarcrops (SGC)
