@@ -50,7 +50,7 @@
     unit: million t DM/yr
     agmip: Domestic use (CONS) - ???
     tier: 4
-- Agricultural Demand|Crops|Feed|Sugar crops:
+- Agricultural Demand|Crops|Feed|Sugar Crops:
     definition: Demand for feed crops from sugar crops (Sugar beet, Sugar cane)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - ???
