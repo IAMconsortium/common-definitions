@@ -1,0 +1,91 @@
+- Land Cover:
+    definition: Total land cover
+    unit: million ha
+    tier: 2
+    agmip: Land Cover (LAND) - Total (TOT)
+
+- Land Cover|Built-Up Area:
+    definition: Built-up land associated with human settlements
+    unit: million ha
+    tier: 2
+    engage: Land Cover|Built-up Area
+    navigate: Land Cover|Built-up Area
+
+- Land Cover|Pasture:
+    definition: Pasture, not only high quality rangeland, based on FAO definition of
+      "permanent meadows and pastures"
+    unit: million ha
+    tier: 2
+
+- Land Cover|Cropland:
+    definition: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
+      permanent crops as well as other arable land (physical area)
+    unit: million ha
+    tier: 2
+    agmip: Land Cover (LAND) - All crops (CRP)
+- Land Cover|Cropland|Cereals:
+    definition: Cropland with maize, rice, temperate cereals and tropical cereals (physical area)
+    unit: million ha
+    tier: 3
+    agmip:
+- Land Cover|Cropland|Oil Crops:
+    definition: Cropland with cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower (physical area)
+    unit: million ha
+    tier: 3
+    agmip:
+- Land Cover|Cropland|Sugar Crops:
+    definition: Cropland with sugar beet, sugar cane (physical area)
+    unit: million ha
+    tier: 3
+    agmip:
+- Land Cover|Cropland|Other Crops:
+    definition: Cropland with fruits, vegetables, nuts, potatoes, pulses, tropical roots (physical area)
+    unit: million ha
+    tier: 3
+    agmip:
+- Land Cover|Cropland|Energy Crops:
+    definition: Cropland with short rotation grasses, short rotation trees (physical area)
+    unit: million ha
+    tier: 3
+    agmip:
+
+- Land Cover|Forest:
+    definition: Managed and unmanaged forest area
+    unit: million ha
+    tier: 2
+    agmip: Land Cover (LAND) - Forest (FOR)
+- Land Cover|Forest|Managed:
+    definition: Managed forest area incl. timber plantations and re-/afforestation areas
+    unit: million ha
+    tier: 2
+    agmip:
+- Land Cover|Forest|Managed|Timber Plantations:
+    definition: Area of timber plantations
+    unit: million ha
+    tier: 2
+    agmip: Land Cover (LAND) - Forest (FOR)
+- Land Cover|Forest|Managed|Afforestation:
+    definition: Afforestation area
+    unit: million ha
+    tier: 2
+    agmip:
+- Land Cover|Forest|Managed|Reforestation:
+    definition: Reforestation area
+    unit: million ha
+    tier: 2
+    agmip:
+- Land Cover|Forest|Secondary Forest:
+    definition: Secondary forest area
+    unit: million ha
+    tier: 2
+    agmip:
+- Land Cover|Forest|Primary Forest:
+    definition: Primary forest area
+    unit: million ha
+    tier: 2
+    agmip:
+
+- Land Cover|Other Land:
+    definition: Other land cover that does not fit into any other category
+    unit: million ha
+    tier: 2
