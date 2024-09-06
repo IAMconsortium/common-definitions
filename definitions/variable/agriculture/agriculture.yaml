@@ -8,78 +8,133 @@
     definition: Demand for crops including food, feed products and bioenergy
       (1st & 2nd generation crops)
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
-    tier: 3
+    agmip: Domestic use (CONS) - Crops (CRP)
+    tier: 2
 - Agricultural Demand|Crops|Food:
     definition: Demand for food crops
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: Food demand (FOOD) - Crops (CRP)
     tier: 3
+- Agricultural Demand|Crops|Food|Cereals:
+    definition: Demand for food crops from cereals (maize, rice, temperate cereals and tropical cereals)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Food|Oil Crops:
+    definition: Demand for food crops from oil crops (Cotton seed, Groundnuts, Oilpalms, Other oil crops incl rapeseed, Soybean, Sunflower)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Food|Sugar Crops:
+    definition: Demand for food crops from sugar crops (Sugar beet, Sugar cane)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Food|Other Crops:
+    definition: Demand for food crops from other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
 - Agricultural Demand|Crops|Feed:
     definition: Demand for feed crops
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: Feed demand (FEED) - Crops (CRP)
     tier: 3
+- Agricultural Demand|Crops|Feed|Cereals:
+    definition: Demand for feed crops from cereals (maize, rice, temperate cereals and tropical cereals)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Feed|Oil Crops:
+    definition: Demand for feed crops from oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl. rapeseed, soybean, sunflower)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Feed|Sugar Crops:
+    definition: Demand for feed crops from sugar crops (Sugar beet, Sugar cane)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
+- Agricultural Demand|Crops|Feed|Other Crops:
+    definition: Demand for feed crops from other crops (Fruits Vegetables Nuts, Potatoes, Pulses, Tropical roots)
+    unit: million t DM/yr
+    agmip: 
+    tier: 4
 - Agricultural Demand|Crops|Bioenergy:
     definition: Demand for bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Crops|Bioenergy|1st Generation:
-    definition: Demand for 1st generation bioenergy crops
+    definition: Demand for 1st generation bioenergy crops (sugar, starch and oil crops)
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Crops|Bioenergy|2nd generation:
-    definition: Demand for second-generation bioenergy crops
+    definition: Demand for second-generation bioenergy crops (short rotation grasses, short rotation trees)
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: Domestic use (CONS) - Energy Crops (ECP)
     tier: 3
 - Agricultural Demand|Crops|Other:
     definition: Demand of crops for other uses
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Livestock:
     definition: Demand for livestock products
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
-    tier: 3
+    agmip: Domestic use (CONS) - LSP
+    tier: 2
 - Agricultural Demand|Livestock|Food:
     definition: Demand for livestock products used as food
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: Food demand (FOOD) - Livestock (LSP)
     tier: 3
+- Agricultural Demand|Livestock|Food|Dairy:
+    definition: Demand for livestock products used as food from dairy (milk and eggs)
+    unit: million t DM/yr
+    agmip: Food demand (FOOD) - Dairy (DRY)
+    tier: 4
+- Agricultural Demand|Livestock|Food|Ruminant:
+    definition: Demand for livestock products used as food from ruminants
+    unit: million t DM/yr
+    agmip: Food demand (FOOD) - Ruminant (RUM)
+    tier: 4
+- Agricultural Demand|Livestock|Food|Non-Ruminant:
+    definition: Demand for livestock products used as food from monogastrics and poultry
+    unit: million t DM/yr
+    agmip: Food demand (FOOD) - Non-Ruminant (NRM)
+    tier: 4
 - Agricultural Demand|Livestock|Feed:
     definition: Demand for livestock products used as feed
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Livestock|Other:
     definition: Demand for livestock products for other uses
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Residues:
     definition: Demand for residues from agricultural production for feed, bioenergy and
       other uses
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Residues|Feed:
     definition: Demand for residues as feed
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Residues|Bioenergy:
     definition: Demand for residues as bioenergy
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 - Agricultural Demand|Residues|Other:
     definition: Demand of residues for other uses
     unit: million t DM/yr
-    agmip: Domestic use (CONS) - ???
+    agmip: 
     tier: 3
 
 - Agricultural Production:
@@ -96,35 +151,50 @@
 - Agricultural Production|Crops|Cereals:
     definition: Production of crops
     unit: million t DM/yr
-    agmip: Production (PROD) - ???
+    agmip: 
     tier: 3
-- Agricultural Production|Crops|Sugarcrops:
+- Agricultural Production|Crops|Oil Crops:
+    definition: Production of oil crops
+    unit: million t DM/yr
+    agmip: 
+    tier: 3
+- Agricultural Production|Crops|Sugar Crops:
     definition: Production of crops
     unit: million t DM/yr
     agmip: Production (PROD) - Sugarcrops (SGC)
     tier: 3
-- Agricultural Production|Crops|Oilcrops:
+- Agricultural Production|Crops|Other Crops:
     definition: Production of crops
     unit: million t DM/yr
-    agmip: Production (PROD) - ???
+    agmip: 
     tier: 3
 - Agricultural Production|Crops|Energy Crops:
     definition: Production of crops
     unit: million t DM/yr
     agmip: Production (PROD) - Energy crops (ECP)
     tier: 2
-- Agricultural Production|Crops|Other:
-    definition: Production of crops
-    unit: million t DM/yr
-    agmip: Production (PROD) - ???
-    tier: 2
 - Agricultural Production|Livestock:
-    definition: Production of crops
+    definition: Production of livestock products
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
     tier: 2
+- Agricultural Production|Livestock|Dairy:
+    definition: Production of dairy livestock products
+    unit: million t DM/yr
+    agmip: Production (PROD) - Dairy (DRY)
+    tier: 3
+- Agricultural Production|Livestock|Ruminant:
+    definition: Production of livestock products from ruminants
+    unit: million t DM/yr
+    agmip: Production (PROD) - Ruminant (RUM)
+    tier: 3
+- Agricultural Production|Livestock|Non-Ruminant:
+    definition: Production of livestock products from monogastrics and poultry
+    unit: million t DM/yr
+    agmip: Production (PROD) - Non-Ruminant (NRM)
+    tier: 3
 - Agricultural Production|Residues:
     definition: Production of agricultural residues
     unit: million t DM/yr
-    agmip: Production (PROD)
+    agmip: 
     tier: 2
