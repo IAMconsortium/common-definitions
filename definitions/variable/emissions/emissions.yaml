@@ -49,6 +49,18 @@
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
+    description: Emissions and removals of {Level-3 Species} from land with woody vegetation
+      (forests, IPCC category 3B1)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
+    description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
+      (IPCC category 3B3)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Burning:
+    description: Emissions and removals of {Level-3 Species} from any other categories
+      of land burning (e.g. peatlands)
+    unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
