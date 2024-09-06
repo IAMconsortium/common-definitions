@@ -31,7 +31,7 @@
     agmip: Domestic use (CONS) - ???
     tier: 4
 - Agricultural Demand|Crops|Food|Other Crops:
-    definition: Demand for food crops from other crops (Fruits Vegetables Nuts, Potatoes, Pulses, Tropical roots)
+    definition: Demand for food crops from other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - ???
     tier: 4
