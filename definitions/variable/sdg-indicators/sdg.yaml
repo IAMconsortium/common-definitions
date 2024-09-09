@@ -340,14 +340,6 @@
     sdg: 14
     unit:
     skip-region-aggregation: true
-- Land Cover|Forest|Natural Forest|Primary Forest:
-    description: Undisturbed primary natural forests
-    sdg: 15
-    unit: million ha
-- Land Cover|Forest|Natural Forest|Secondary Forest:
-    description: Modified natural forests and secondary forests from natural succession
-    sdg: 15
-    unit: million ha
 - Terrestrial Biodiversity|Mean Species Abundance:
     description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     sdg: 15
