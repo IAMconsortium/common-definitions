@@ -49,6 +49,18 @@
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
+    description: Emissions and removals of {Level-3 Species} from land with woody vegetation
+      (forests, IPCC category 3B1)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
+    description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
+      (IPCC category 3B3)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Burning:
+    description: Emissions and removals of {Level-3 Species} from any other categories
+      of land burning (e.g. peatlands)
+    unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
@@ -95,6 +107,17 @@
       transport and storage (IPCC category 1C), not accounting for negative emissions
       from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
+- Emissions|{Level-2 Species}|Energy|Supply|Combustion:
+    description: Emissions of {Level-2 Species} from fuel combustion in energy supply,
+      including electricity and heat production and distribution (IPCC category 1A1a),
+      other energy conversion (e.g. refineries, synfuel production, solid fuel processing,
+      IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei) and
+      emissions from carbon dioxide transport and storage (IPCC category 1C)
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Supply|Fugitive:
+    description: Fugitive emissions of {Level-2 Species} from fuels in energy extraction,
+      processing, storage and transport (IPCC category 1B)
+    unit: "{Level-2 Species}"
 - Emissions|CO2|Energy|Supply|Electricity:
     description: Emissions of fossil carbon dioxide (CO2) for electricity generation
     unit: Mt CO2/yr
@@ -153,26 +176,39 @@
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
     description: Emissions of fossil carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
     unit: Mt CO2/yr
+- Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial and AFOFI:
+    description: Emissions of {Level-2 Species} from fuel combustion in residential,
+      commercial and institutional sectors (IPCC category 1A4a and 1A4b)
+      and agriculture, forestry and fishing (AFOFI) (IPCC category 1A4c)
+    unit: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial:
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Residential:
+    description: Emissions of {Level-2 Species} from fuel combustion in the residential
+      sector (IPCC category 1A4b)
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Commercial:
+    description: Emissions of {Level-2 Species} from fuel combustion in the commercial
+      and institutional sectors (IPCC category 1A4a)
     unit: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation:
     description: Emissions of {Level-2 Species} from fuel combustion in transportation (IPCC category 1A3),
       excluding emissions from international bunker fuels (IPCC category 1A3ai and 1A3di),
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
-- Emissions|CO2|Energy|Demand|AFOFI:
-    description: Emissions of fossil carbon dioxide (CO2) from fuel combustion in agriculture,
-      forestry, fishing (AFOFI) (IPCC category 1A4c)^
-    unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Bunkers:
-    description: Emissions of fossil carbon dioxide (CO2) from international bunker fuels
+- Emissions|{Level-2 Species}|Energy|Demand|AFOFI:
+    description: Emissions of {Level-2 Species} from fuel combustion in agriculture,
+      forestry, fishing (AFOFI) (IPCC category 1A4c)
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Bunkers:
+    description: Emissions of {Level-2 Species} from international bunker fuels
       (IPCC category 1A3ai and 1A3di)
-    unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Bunkers|{Bunker Sector}:
-    description: Emissions of fossil carbon dioxide (CO2) from bunker fuels for {Bunker Sector}
-    unit: Mt CO2/yr
+    unit: "{Level-2 Species}"
+- Emissions|{Level-2 Species}|Energy|Demand|Bunkers|{Bunker Sector}:
+    description: Emissions of {Level-2 Species} from bunker fuels for {Bunker Sector}
+    unit: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Other Sector:
     description: Emissions of {Level-2 Species} from fuel combustion in other sectors
     unit: "{Level-2 Species}"
@@ -195,8 +231,31 @@
       (IPCC categories 2A, B, C, E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
 
+- Emissions|{Level-3 Species}|Product Use:
+    description: Emissions of {Level-3 Species} from product use (IPCC category 2D, 2F
+      and 2G)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Non-Energy Use:
+    description: Emissions of {Level-3 Species} from non-energy products from fuels
+      (IPCC category 2D1 and 2D2)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Solvents:
+    description: Emissions of {Level-3 Species} from solvents use (IPCC category 2D3)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|ODS Substitutes:
+    description: Emissions of {Level-3 Species} from use of subtitutes of ozone
+      depleting substances (ODS) (IPCC categories 2F)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|Product Use|Other:
+    description: Emissions of {Level-3 Species} from other product use or manufacturing
+    unit: "{Level-3 Species}"
+
 - Emissions|{Level-2 Species}|Waste:
     description: Emissions of {Level-2 Species} from waste (IPCC category 6)
+    unit: "{Level-2 Species}"
+
+- Emissions|{Level-2 Species}|Fossil Fuel Fires:
+    description: Emissions of {Level-2 Species} from fossil fuel fires (IPCC category 7)
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-2 Species}|Other:
