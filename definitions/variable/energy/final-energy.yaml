@@ -24,7 +24,7 @@
     description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
     unit: EJ/yr
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|{Secondary Fuel with Source}:
-    description: Final energy consumption of {Secondary Fuel} by the {Non-Energy Sector with Source}
+    description: Final energy consumption of {Secondary Fuel with Source} by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
     tier: "{Secondary Fuel with Source}"
@@ -118,7 +118,7 @@
     navigate: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
     engage: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
 - Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel with Source}:
-    description: Use of {Secondary Fuel} for carbon management by {Carbon Management Technology}
+    description: Use of {Secondary Fuel with Source} for carbon management by {Carbon Management Technology}
     unit: EJ/yr
     tier: "{Secondary Fuel with Source}"
     navigate: Final Energy|Carbon Removal|{Secondary Fuel with Source}|{Carbon Management Technology}
