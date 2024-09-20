@@ -1,0 +1,41 @@
+- Price|Agriculture|Food Products [Index]:
+    description: Weighted average price index of food crops and livestock products
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops + Agricultural Production|Livestock
+    navigate: Price|Agriculture|Non-Energy Crops and Livestock|Index
+- Price|Agriculture|Food Products|Livestock [Index]:
+    description: Weighted average price index of livestock products
+    sdg: 2
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    shape: Price|Agriculture|Livestock|Index
+- Price|Agriculture|Food Products|Crops [Index]:
+    description: Weighted average price index of food crops
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Non-Energy Crops|Index
+- Price|Agriculture|Food Products|Crops|Corn [Index]:
+    description: Price index of corn / maize
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Corn|Index
+- Price|Agriculture|Food Products|Crops|Soybean [Index]:
+    description: Price index of soybean
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Soybean|Index
+- Price|Agriculture|Food Products|Crops|Wheat [Index]:
+    description: Price index of wheat
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Wheat|Index
+- Price|Agriculture|Food Products|Crops|Rice [Index]:
+    description: Price index of rice
+    unit: Index (2020 = 1)
+    skip-region-aggregation: true
+    weight: Agricultural Production|Crops
