@@ -70,7 +70,51 @@ common_regions:
       - Southeast Asia
       - Taiwan
       - USA
-
+            
+    # R10 regions
+  - Africa (R10):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - South Africa
+  - China+ (R10):
+      - China
+  - Europe (R10):
+      - EU-12
+      - EU-15
+      - Europe_Eastern
+      - Europe_Non_EU
+      - European Free Trade Association
+  - India+ (R10):
+      - India
+  - Latin America (R10):
+      - Argentina
+      - South America_Northern
+      - South America_Southern
+      - Brazil   
+      - Colombia
+      - Central America and Caribbean
+      - Mexico
+  - Middle East (R10):
+      - Middle East
+  - North America (R10):
+      - Canada
+      - USA
+  - Pacific OECD (R10):
+      - Japan
+      - Australia_NZ
+      - South Korea
+  - Reforming Economies (R10):
+      - Russia
+      - Central Asia   
+  - Rest of Asia (R10):
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - Southeast Asia
+      - Taiwan
+      
     # R5 regions
   - Asia (R5):
       - Central Asia
