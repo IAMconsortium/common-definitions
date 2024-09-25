@@ -27,7 +27,7 @@ jobs:
           python-version: 3.11
 
       - name: Install requirements
-        run: pip install ${{ nomenclature }}
+        run: pip install ${{ matrix.nomenclature }}
 
       - name: Install pytest
         run: pip install pytest
