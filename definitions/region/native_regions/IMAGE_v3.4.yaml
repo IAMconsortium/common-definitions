@@ -1,28 +1,125 @@
 # The model documentation and regional aggregation for IMAGE (TIMER) version 3.4 can be found at https://models.pbl.nl/image/index.php/Region_classification_map
 - IMAGE 3.4:
-    - IMAGE 3.4|Brazil
-    - IMAGE 3.4|Canada
-    - IMAGE 3.4|Central Europe
-    - IMAGE 3.4|China Region
-    - IMAGE 3.4|Eastern Africa
-    - IMAGE 3.4|India
-    - IMAGE 3.4|Indonesia Region
-    - IMAGE 3.4|Japan
-    - IMAGE 3.4|Korea Region
-    - IMAGE 3.4|Middle East
-    - IMAGE 3.4|Mexico
-    - IMAGE 3.4|Northern Africa
-    - IMAGE 3.4|Oceania
-    - IMAGE 3.4|Central America
-    - IMAGE 3.4|Rest of Southern Africa
-    - IMAGE 3.4|Rest of South America
-    - IMAGE 3.4|Rest of South Asia
-    - IMAGE 3.4|Russia Region
-    - IMAGE 3.4|South Africa
-    - IMAGE 3.4|Southeastern Asia
-    - IMAGE 3.4|Central Asia
-    - IMAGE 3.4|Turkey
-    - IMAGE 3.4|Ukraine Region
-    - IMAGE 3.4|United States
-    - IMAGE 3.4|Western Africa
-    - IMAGE 3.4|Western Europe
+    - IMAGE 3.4|Brazil:
+        countries: [ Brazil ]
+    - IMAGE 3.4|Canada:
+        countries: [ Canada ]
+    - IMAGE 3.4|Central Europe:
+        countries: [
+            Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, 
+            Czech Republic, Estonia, Hungary, Latvia, Lithuania, North Macedonia,
+            Poland, Romania, Serbia and Montenegro, Slovak Republic, Slovenia
+        ]
+    - IMAGE 3.4|China Region:
+        countries: [
+            China, Hong Kong, Macao, Mongolia, Taiwan
+        ]
+    - IMAGE 3.4|Eastern Africa:
+        countries: [
+            Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, 
+            Mauritius, Reunion, Rwanda, Seychelles, Somalia, Sudan, Uganda
+        ]
+    - IMAGE 3.4|India:
+        countries: [
+            India
+        ]
+    - IMAGE 3.4|Indonesia Region:
+        countries: [
+            East Timor, Indonesia, Papua New Guinea
+        ]
+    - IMAGE 3.4|Japan:
+        countries: [
+            Japan
+        ]
+    - IMAGE 3.4|Korea Region:
+        countries: [
+            Dem. Rep. Korea, Rep. Korea
+        ]
+    - IMAGE 3.4|Middle East:
+        countries: [
+            Bahrain, Islamic Rep. Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, 
+            Oman, Palestine, Qatar, Saudi Arabia, Syrian Arab Republic, United Arab Emirates, 
+            Yemen
+        ]
+    - IMAGE 3.4|Mexico:
+        countries: [
+            Mexico
+        ]
+    - IMAGE 3.4|Northern Africa:
+        countries: [
+            Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - IMAGE 3.4|Oceania:
+        countries: [
+            American Samoa, Australia, Cook Islands, Fiji, French Polynesia, 
+            Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, New Zealand,
+            Niue, Northern Mariana Islands, Palau\, Pitcairn, Samoa, Solomon Islands,
+            Tokelau, Tonga, Tuvalu, Vanuatu, Wallis ans Futuna Island
+        ]
+    - IMAGE 3.4|Central America:
+        countries: [
+            Anguilla, Aruba, The Bahamas, Barbados, Belize, Bermuda, Cayman Islands, 
+            Costa Rica, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe,
+            Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat, Netherlands Antilles,
+            Nicaragua, Panama, Puerto Rico, St. Kitts and Nevis, St. Lucia,
+            St. Vincent and the Grenadines, Trinidad and Tobago, Turks and Caicos Islands,
+            Virgin Islands (British), Virgin Islands (U.S.)
+        ]
+    - IMAGE 3.4|Rest of Southern Africa:
+        countries: [
+            Angola, Botswana, Lesotho, Malawi, Mozambique, Namibia, Swaziland, Tanzania,
+            Zambia, Zimbabwe
+        ]
+    - IMAGE 3.4|Rest of South America:
+        countries: [
+            Argentina, Bolivia, Chile, Colombia, Ecuador, Falklands Islands, French Guyana, Guyana,
+            Paraguay, Peru, Suriname, Uruguay, Venezuela
+        ]
+    - IMAGE 3.4|Rest of South Asia:
+        countries: [
+            Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka
+        ]
+    - IMAGE 3.4|Russia Region:
+        countries: [
+            Armenia, Azerbaijan, Georgia, Russian Federation
+        ]
+    - IMAGE 3.4|South Africa:
+        countries: [
+            South Africa
+        ]
+    - IMAGE 3.4|Southeastern Asia:
+        countries: [
+            Brunei, Cambodia, Laos, Malaysia, Myanmar, Philippines, Singapore, 
+            Thailand, Vietnam
+        ]
+    - IMAGE 3.4|Central Asia:
+        countries: [
+        Kazakhstan, Kyrgyz Republic, Tajikistan, Turkmenistan, Uzbekistan
+        ]
+    - IMAGE 3.4|Turkey:
+        countries: [
+            Turkiye
+        ]
+    - IMAGE 3.4|Ukraine Region:
+        countries: [
+            Belarus, Moldova, Ukraine
+        ]
+    - IMAGE 3.4|United States:
+        countries: [
+            St. Pierre and Miquelon, United States
+        ]
+    - IMAGE 3.4|Western Africa:
+        countries: [
+            Benin, Burkina Faso, Cameroon, Cape Verde, Central African Republic, Chad, 
+            Democratic Republic of Congo, Republic of Congo, Cote d'Ivoire, 
+            Equatorial Guinea, Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau, 
+            Liberia, Mali, Mauritania, Niger, Nigeria, Sao Tome and Principe, Senegal,
+            Sierra Leone, St. Helena, Togo
+        ]
+    - IMAGE 3.4|Western Europe:
+        countries: [
+            Andorra, Austria, Belgium, Denmark, Faeroe Islands, Finland, France,
+            Germany, Gibraltar, Greece, Iceland, Ireland, Italy, Liechtenstein, Luxembourg,
+            Malta, Monaco, Netherlands, Norway, Portugal, San Marino, Spain, Sweden,
+            Switzerland, United Kingdom, Vatican City State
+        ]
