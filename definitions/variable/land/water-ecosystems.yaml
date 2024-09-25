@@ -3,15 +3,15 @@
     unit: million ha
     tier: 3
 - Water Ecosystems|Lakes:
-    definition: All water ecosystems
+    definition: Lakes
     unit: million ha
     tier: 3
 - Water Ecosystems|Rivers:
-    definition: All water ecosystems
+    definition: Rivers
     unit: million ha
     tier: 3
 - Water Ecosystems|Forests:
-    definition: All water ecosystems
+    definition: Forests
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands:
