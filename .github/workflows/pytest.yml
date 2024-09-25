@@ -13,7 +13,11 @@ jobs:
   pytest:
 
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        nomenclature:
+          - "nomenclature-iamc"
+          - "git+https://github.com/IAMconsortium/nomenclature"
     steps:
       - uses: actions/checkout@v4
 
@@ -23,7 +27,7 @@ jobs:
           python-version: 3.11
 
       - name: Install requirements
-        run: pip install -r requirements.txt
+        run: pip install ${{ matrix.nomenclature }}
 
       - name: Install pytest
         run: pip install pytest
