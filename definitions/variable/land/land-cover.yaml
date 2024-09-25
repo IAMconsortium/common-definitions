@@ -74,16 +74,18 @@
     unit: million ha
     tier: 2
     agmip:
-- Land Cover|Forest|Secondary Forest:
-    definition: Secondary forest area
+- Land Cover|Forest|Natural Forest:
+    description: primary and secondary forest area
+    sdg: 15
     unit: million ha
-    tier: 2
-    agmip:
-- Land Cover|Forest|Primary Forest:
-    definition: Primary forest area
+- Land Cover|Forest|Natural Forest|Primary Forest:
+    description: Undisturbed primary natural forests
+    sdg: 15
     unit: million ha
-    tier: 2
-    agmip:
+- Land Cover|Forest|Natural Forest|Secondary Forest:
+    description: Modified natural forests and secondary forests from natural succession
+    sdg: 15
+    unit: million ha
 
 - Land Cover|Other Land:
     definition: Other land cover that does not fit into any other category
