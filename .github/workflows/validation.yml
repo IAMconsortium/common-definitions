@@ -17,7 +17,7 @@ jobs:
       matrix:
         nomenclature:
           - "nomenclature-iamc"
-          #- "git+https://github.com/IAMconsortium/nomenclature"
+          - "git+https://github.com/IAMconsortium/nomenclature"
 
     steps:
     - uses: actions/checkout@v3
