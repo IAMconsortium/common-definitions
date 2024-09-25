@@ -6,9 +6,9 @@
         countries: [ Canada ]
     - IMAGE 3.4|Central Europe:
         countries: [
-            Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, 
-            Czech Republic, Estonia, Hungary, Latvia, Lithuania, North Macedonia,
-            Poland, Romania, Serbia and Montenegro, Slovak Republic, Slovenia
+            Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia,
+            Estonia, Hungary, Latvia, Lithuania, North Macedonia, Poland, Romania,
+            Serbia, Montenegro, Slovakia, Slovenia
         ]
     - IMAGE 3.4|China Region:
         countries: [
@@ -16,7 +16,7 @@
         ]
     - IMAGE 3.4|Eastern Africa:
         countries: [
-            Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, 
+            Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar,
             Mauritius, Reunion, Rwanda, Seychelles, Somalia, Sudan, Uganda
         ]
     - IMAGE 3.4|India:
@@ -37,8 +37,8 @@
         ]
     - IMAGE 3.4|Middle East:
         countries: [
-            Bahrain, Islamic Rep. Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, 
-            Oman, Palestine, Qatar, Saudi Arabia, Syrian Arab Republic, United Arab Emirates, 
+            Bahrain, Islamic Rep. Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
+            Oman, Palestine, Qatar, Saudi Arabia, Syrian Arab Republic, United Arab Emirates,
             Yemen
         ]
     - IMAGE 3.4|Mexico:
@@ -51,14 +51,14 @@
         ]
     - IMAGE 3.4|Oceania:
         countries: [
-            American Samoa, Australia, Cook Islands, Fiji, French Polynesia, 
+            American Samoa, Australia, Cook Islands, Fiji, French Polynesia,
             Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, New Zealand,
             Niue, Northern Mariana Islands, Palau\, Pitcairn, Samoa, Solomon Islands,
             Tokelau, Tonga, Tuvalu, Vanuatu, Wallis ans Futuna Island
         ]
     - IMAGE 3.4|Central America:
         countries: [
-            Anguilla, Aruba, The Bahamas, Barbados, Belize, Bermuda, Cayman Islands, 
+            Anguilla, Aruba, The Bahamas, Barbados, Belize, Bermuda, Cayman Islands,
             Costa Rica, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe,
             Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat, Netherlands Antilles,
             Nicaragua, Panama, Puerto Rico, St. Kitts and Nevis, St. Lucia,
@@ -89,7 +89,7 @@
         ]
     - IMAGE 3.4|Southeastern Asia:
         countries: [
-            Brunei, Cambodia, Laos, Malaysia, Myanmar, Philippines, Singapore, 
+            Brunei, Cambodia, Laos, Malaysia, Myanmar, Philippines, Singapore,
             Thailand, Vietnam
         ]
     - IMAGE 3.4|Central Asia:
@@ -110,9 +110,9 @@
         ]
     - IMAGE 3.4|Western Africa:
         countries: [
-            Benin, Burkina Faso, Cameroon, Cape Verde, Central African Republic, Chad, 
-            Democratic Republic of Congo, Republic of Congo, Cote d'Ivoire, 
-            Equatorial Guinea, Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau, 
+            Benin, Burkina Faso, Cameroon, Cape Verde, Central African Republic, Chad,
+            Democratic Republic of Congo, Republic of Congo, Cote d'Ivoire,
+            Equatorial Guinea, Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau,
             Liberia, Mali, Mauritania, Niger, Nigeria, Sao Tome and Principe, Senegal,
             Sierra Leone, St. Helena, Togo
         ]
