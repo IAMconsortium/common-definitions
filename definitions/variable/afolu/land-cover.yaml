@@ -29,7 +29,8 @@
     tier: 3
     agmip:
 - Land Cover|Cropland|Energy Crops:
-    description: Cropland purpose-grown bioenergy crops
+    description: Cropland for purpose-grown bioenergy crops
+      (short-rotation grasses and trees)
     unit: million ha
     tier: 3
     agmip:

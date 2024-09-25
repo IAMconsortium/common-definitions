@@ -124,7 +124,8 @@
     agmip:
     tier: 3
 - Agricultural Production|Crops|Energy Crops:
-    definition: Production of crops
+    description: Production of purpose-grown bioenergy crops
+      (short-rotation grasses and trees)
     unit: million t DM/yr
     agmip: Production (PROD) - Energy crops (ECP)
     tier: 2

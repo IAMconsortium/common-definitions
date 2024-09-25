@@ -27,6 +27,7 @@
     unit: EJ/yr
 - Primary Energy|Biomass|Energy Crops:
     description: Primary energy consumption from purpose-grown bioenergy crops
+      (short-rotation grasses and trees)
     unit: EJ/yr
 - Primary Energy|Biomass|Residues:
     description: Primary energy consumption from residues
