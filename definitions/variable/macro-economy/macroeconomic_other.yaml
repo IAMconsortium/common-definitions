@@ -4,6 +4,9 @@
     tier: 1
     drop_negative_weights: false
     weight: Emissions|CO2
+- Capital Stock:
+    description: Macroeconomic capital stock
+    unit: billion USD_2010/yr
 - Revenue|Government:
     description: Government revenue
     unit: billion USD_2010/yr
