@@ -23,28 +23,14 @@
     unit: million ha
     tier: 2
     agmip: Land Cover (LAND) - All crops (CRP)
-- Land Cover|Cropland|Cereals:
-    definition: Cropland with maize, rice, temperate cereals and tropical cereals (physical area)
-    unit: million ha
-    tier: 3
-    agmip:
-- Land Cover|Cropland|Oil Crops:
-    definition: Cropland with cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower (physical area)
-    unit: million ha
-    tier: 3
-    agmip:
-- Land Cover|Cropland|Sugar Crops:
-    definition: Cropland with sugar beet, sugar cane (physical area)
-    unit: million ha
-    tier: 3
-    agmip:
-- Land Cover|Cropland|Other Crops:
-    definition: Cropland with fruits, vegetables, nuts, potatoes, pulses, tropical roots (physical area)
+- Land Cover|Cropland|{Cereal and Non-Energy Crop Types}:
+    description: Cropland for {Cereal and Non-Energy Crop Types}
     unit: million ha
     tier: 3
     agmip:
 - Land Cover|Cropland|Energy Crops:
-    definition: Cropland with short rotation grasses, short rotation trees (physical area)
+    description: Cropland for purpose-grown bioenergy crops
+      (short-rotation grasses and trees)
     unit: million ha
     tier: 3
     agmip:
@@ -75,17 +61,20 @@
     tier: 2
     agmip:
 - Land Cover|Forest|Natural Forest:
-    description: primary and secondary forest area
-    sdg: 15
+    description: Undisturbed (primary), modified and secondary forests from natural succession
     unit: million ha
+    tier: 2
+    sdg: 15
 - Land Cover|Forest|Natural Forest|Primary Forest:
     description: Undisturbed primary natural forests
-    sdg: 15
     unit: million ha
+    tier: 3
+    sdg: 15
 - Land Cover|Forest|Natural Forest|Secondary Forest:
     description: Modified natural forests and secondary forests from natural succession
-    sdg: 15
     unit: million ha
+    tier: 3
+    sdg: 15
 
 - Land Cover|Other Land:
     definition: Other land cover that does not fit into any other category

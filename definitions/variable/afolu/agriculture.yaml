@@ -15,23 +15,8 @@
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Crops (CRP)
     tier: 3
-- Agricultural Demand|Crops|Food|Cereals:
-    definition: Demand for food crops from cereals (maize, rice, temperate cereals and tropical cereals)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Food|Oil Crops:
-    definition: Demand for food crops from oil crops (Cotton seed, Groundnuts, Oilpalms, Other oil crops incl rapeseed, Soybean, Sunflower)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Food|Sugar Crops:
-    definition: Demand for food crops from sugar crops (Sugar beet, Sugar cane)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Food|Other Crops:
-    definition: Demand for food crops from other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots)
+- Agricultural Demand|Crops|Food|{Cereal and Non-Energy Crop Types}:
+    description: Demand for food from {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
     agmip: 
     tier: 4
@@ -40,23 +25,8 @@
     unit: million t DM/yr
     agmip: Feed demand (FEED) - Crops (CRP)
     tier: 3
-- Agricultural Demand|Crops|Feed|Cereals:
-    definition: Demand for feed crops from cereals (maize, rice, temperate cereals and tropical cereals)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Feed|Oil Crops:
-    definition: Demand for feed crops from oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl. rapeseed, soybean, sunflower)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Feed|Sugar Crops:
-    definition: Demand for feed crops from sugar crops (Sugar beet, Sugar cane)
-    unit: million t DM/yr
-    agmip: 
-    tier: 4
-- Agricultural Demand|Crops|Feed|Other Crops:
-    definition: Demand for feed crops from other crops (Fruits Vegetables Nuts, Potatoes, Pulses, Tropical roots)
+- Agricultural Demand|Crops|Feed|{Cereal and Non-Energy Crop Types}:
+    description: Demand for feed from {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
     agmip: 
     tier: 4
@@ -148,28 +118,14 @@
     unit: million t DM/yr
     agmip: Production (PROD) - All crops (CRP)
     tier: 2
-- Agricultural Production|Crops|Cereals:
-    definition: Production of crops
+- Agricultural Production|Crops|{Cereal and Non-Energy Crop Types}:
+    description: Production of {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
-    agmip: 
-    tier: 3
-- Agricultural Production|Crops|Oil Crops:
-    definition: Production of oil crops
-    unit: million t DM/yr
-    agmip: 
-    tier: 3
-- Agricultural Production|Crops|Sugar Crops:
-    definition: Production of crops
-    unit: million t DM/yr
-    agmip: Production (PROD) - Sugarcrops (SGC)
-    tier: 3
-- Agricultural Production|Crops|Other Crops:
-    definition: Production of crops
-    unit: million t DM/yr
-    agmip: 
+    agmip:
     tier: 3
 - Agricultural Production|Crops|Energy Crops:
-    definition: Production of crops
+    description: Production of purpose-grown bioenergy crops
+      (short-rotation grasses and trees)
     unit: million t DM/yr
     agmip: Production (PROD) - Energy crops (ECP)
     tier: 2
