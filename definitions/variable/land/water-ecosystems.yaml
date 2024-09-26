@@ -10,10 +10,6 @@
     definition: Rivers
     unit: million ha
     tier: 3
-- Water Ecosystems|Forests:
-    definition: Forests
-    unit: million ha
-    tier: 3
 - Water Ecosystems|Wetlands:
     definition: Wetlands
     unit: million ha
