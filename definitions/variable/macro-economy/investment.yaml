@@ -1,0 +1,35 @@
+- Investment:
+    description: Total economy-wide investments including macro-economic capital stock,
+      energy system, R&D, etc.
+    unit: billion USD_2010/yr
+- Investment|Agriculture:
+    description: Investment related to agricultural activity
+    unit: billion USD_2010/yr
+- Investment|Energy Supply:
+    description: Investments in the energy supply system
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity:
+    description: Investments in electricity generation and supply
+      including storage and transmission-distribution infrastructure
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Extraction|{Primary Fossil Fuel}:
+    description: Investments for extraction, transportation and conversion of
+      {Primary Fossil Fuel}
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Liquids:
+    definition: Investments for the production of liquid fuels
+    unit: billion USD_2010/yr
+    note: For plants equipped with CCS, the investment in the capturing equipment should
+      be included but not the costs related to CO2 transport and storage.
+- Investment|Energy Supply|Heat:
+    description: Investments in heat generation infrastructure
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Hydrogen:
+    description: Investments for the production of hydrogen from all energy sources
+      (fossil, biomass, electrolysis)
+    unit: billion USD_2010/yr
+    note: For plants equipped with CCS, the investment in the capturing equipment should
+      be included but not the costs related to CO2 transport and storage.
+- Investment|Energy Efficiency:
+    description: Investments in efficiency-increasing components of energy demand
+    unit: billion USD_2010/yr
