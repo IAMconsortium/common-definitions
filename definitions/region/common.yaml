@@ -1,5 +1,8 @@
 - common:
     - World
+    - International:
+        description: This region should be used if data cannot be assigned to a
+          specific region, e.g., emissions from bunker fuels in aviation or shipping
 
 # The R5 definitions are taken from the call for submissions
 # to the AR6 WG3 scenario ensemble
