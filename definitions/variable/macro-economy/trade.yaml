@@ -8,3 +8,52 @@
     unit: billion USD_2010/yr
     tier: 1
     min: 0
+
+# emissions allowances
+- Trade|Emissions Allowances [Volume]:
+    description: Net trade in GHG emission allowances measured in physical quantities
+    unit: Mt CO2-equiv/yr
+    engage: Trade|Emissions Allowances|Volume
+    navigate: Trade|Emissions Allowances|Volume
+- Trade|Emissions Allowances [Value]:
+    description: Net trade in GHG emission allowances measured in monetary quantities
+    unit: billion USD_2010/yr
+    engage: Trade|Emissions Allowances|Value
+    navigate: Trade|Emissions Allowances|Value
+
+# energy
+- Trade|Primary Energy|Biomass [{Energy Trade Type}]:
+    description: Net exports of solid unprocessed biomass {Energy Trade Type}
+    unit: "{Energy Trade Type}"
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    engage: Trade|Primary Energy|Biomass|{Energy Trade Type}
+    navigate: Trade|Primary Energy|Biomass|{Energy Trade Type}
+- Trade|Primary Energy|{Primary Fossil Fuel} [{Energy Trade Type}]:
+    description: Net exports of {Primary Fossil Fuel} {Energy Trade Type}
+    unit: "{Energy Trade Type}"
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    engage: Trade|Primary Energy|{Primary Fossil Fuel}|{Energy Trade Type}
+    navigate: Trade|Primary Energy|{Primary Fossil Fuel}|{Energy Trade Type}
+- Trade|Secondary Energy|Electricity [{Energy Trade Type}]:
+    description: Net exports of electricity {Energy Trade Type}
+    unit: "{Energy Trade Type}"
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    engage: Trade|Secondary Energy|Electricity|{Energy Trade Type}
+    navigate: Trade|Secondary Energy|Electricity|{Energy Trade Type}
+- Trade|Secondary Energy|Hydrogen [{Energy Trade Type}]:
+    description: Net exports of hydrogen {Energy Trade Type}
+    unit: "{Energy Trade Type}"
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    engage: Trade|Secondary Energy|Hydrogen|{Energy Trade Type}
+    navigate: Trade|Secondary Energy|Hydrogen|{Energy Trade Type}
+- Trade|Secondary Energy|Liquids [{Energy Trade Type}]:
+    description: Net exports of liquids {Energy Trade Type}
+    unit: "{Energy Trade Type}"
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    engage: Trade|Secondary Energy|Liquids|{Energy Trade Type}
+    navigate: Trade|Secondary Energy|Liquids|{Energy Trade Type}
