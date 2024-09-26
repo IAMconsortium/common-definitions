@@ -11,3 +11,5 @@
     description: Government revenue
     unit: billion USD_2010/yr
     tier: 1
+    engage: Revenue|government
+    navigate: Revenue|government
