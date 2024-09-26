@@ -1,7 +1,3 @@
-- Yield|Cropland:
-    definition: Yield of total cropland
-    unit: t DM/ha/yr
-    weight: Land Cover|Cropland
 - Yield|Cropland|{Cereal and Non-Energy Crop Types}:
     definition: Yield of cropland with {Cereal and Non-Energy Crop Types}
     unit: t DM/ha/yr
