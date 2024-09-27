@@ -37,6 +37,7 @@ common_regions:
       - ssa
       - te
       - usa
+  # R5 regions 
   - Asia (R5):
       - china
       - india
@@ -59,6 +60,7 @@ common_regions:
       - usa
   - Reforming Economies (R5):
       - te
+  # R9 regions 
   - China (R9):
       - china
   - European Union (R9):
@@ -85,6 +87,7 @@ common_regions:
       - te
   - USA (R9):
       - usa
+  # R10 regions 
   - Africa (R10):
       - southafrica
       - ssa
@@ -112,3 +115,4 @@ common_regions:
   - Rest of Asia (R10):
       - indonesia
       - seasia
+
