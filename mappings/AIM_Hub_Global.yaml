@@ -1,0 +1,71 @@
+model: AIM/Hub-Global 2.4
+native_regions:
+  - BRA: AIM/Hub-Global 2.4|Brazil
+  - CAN: AIM/Hub-Global 2.4|Canada
+  - CHN: AIM/Hub-Global 2.4|China
+  - CIS: AIM/Hub-Global 2.4|Former USSR
+  - IND: AIM/Hub-Global 2.4|India
+  - JPN: AIM/Hub-Global 2.4|Japan
+  - TUR: AIM/Hub-Global 2.4|Turkey
+  - USA: AIM/Hub-Global 2.4|USA
+  - XAF: AIM/Hub-Global 2.4|Other Africa
+  - XE25: AIM/Hub-Global 2.4|EU
+  - XER: AIM/Hub-Global 2.4|Rest of Europe
+  - XLM: AIM/Hub-Global 2.4|Rest of Latin America
+  - XME: AIM/Hub-Global 2.4|Middle East
+  - XNF: AIM/Hub-Global 2.4|North Africa
+  - XOC: AIM/Hub-Global 2.4|New Zealand and Australia
+  - XSA: AIM/Hub-Global 2.4|Rest of Asia
+  - XSE: AIM/Hub-Global 2.4|Rest of East and South East Asia
+  - World
+common_regions:
+  - Asia (R5):
+    - CHN
+    - IND
+    - XSA
+    - XSE
+  - Latin America (R5):
+    - BRA
+    - XLM
+  - Middle East & Africa (R5):
+    - XAF
+    - XME
+    - XNF
+  - OECD & EU (R5):
+    - CAN
+    - JPN
+    - TUR
+    - USA
+    - XE25
+    - XER
+    - XOC
+  - Reforming Economies (R5):
+    - CIS
+  - Africa (R10):
+    - XAF
+    - XNF
+  - China+ (R10):
+    - CHN
+  - Europe (R10):
+    - TUR
+    - XE25
+  - India+ (R10):
+    - IND
+  - Latin America (R10):
+    - BRA
+    - XLM
+  - Middle East (R10):
+    - XME
+  - North America (R10):
+    - CAN
+    - USA
+  - Pacific OECD (R10):
+    - JPN
+    - XOC
+  - Reforming Economies (R10):
+    - XER
+    - CIS
+  - Rest of Asia (R10):
+    - XSA
+    - XSE
+    
