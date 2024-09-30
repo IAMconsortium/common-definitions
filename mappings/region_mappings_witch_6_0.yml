@@ -1,0 +1,118 @@
+model:
+  - WITCH 6.0
+native_regions:
+  - brazil: WITCH 6.0|Brazil
+  - canada: WITCH 6.0|Canada
+  - china: WITCH 6.0|China
+  - europe: WITCH 6.0|Europe (EU+EFTA+Balkan Countries and Turkey)
+  - india: WITCH 6.0|India
+  - indonesia: WITCH 6.0|Indonesia
+  - jpnkor: WITCH 6.0|Japan and Korea
+  - laca: WITCH 6.0|Latin America and the Caribbean
+  - mena: WITCH 6.0|Middle East and North Africa
+  - mexico: WITCH 6.0|Mexico
+  - oceania: WITCH 6.0|Australia, New Zealand, and Oceania islands
+  - sasia: WITCH 6.0|South Asia
+  - seasia: WITCH 6.0|South East Asia
+  - southafrica: WITCH 6.0|South Africa
+  - ssa: WITCH 6.0|Sub Saharan Africa
+  - te: WITCH 6.0|Non-EU Eastern European and Transition Countries
+  - usa: WITCH 6.0|United States of America
+common_regions:
+  - World:
+      - brazil
+      - canada
+      - china
+      - europe
+      - india
+      - indonesia
+      - jpnkor
+      - laca
+      - mena
+      - mexico
+      - oceania
+      - sasia
+      - seasia
+      - southafrica
+      - ssa
+      - te
+      - usa
+  # R5 regions 
+  - Asia (R5):
+      - china
+      - india
+      - indonesia
+      - sasia
+      - seasia
+  - Latin America (R5):
+      - brazil
+      - laca
+      - mexico
+  - Middle East & Africa (R5):
+      - mena
+      - southafrica
+      - ssa
+  - OECD & EU (R5):
+      - canada
+      - europe
+      - jpnkor
+      - oceania
+      - usa
+  - Reforming Economies (R5):
+      - te
+  # R9 regions 
+  - China (R9):
+      - china
+  - European Union (R9):
+      - europe
+  - India (R9):
+      - india
+  - Latin America (R9):
+      - brazil
+      - laca
+      - mexico
+  - Middle East & Africa (R9):
+      - mena
+      - southafrica
+      - ssa
+  - Other Asia (R9):
+      - indonesia
+      - sasia
+      - seasia
+  - Other OECD (R9):
+      - canada
+      - jpnkor
+      - oceania
+  - Reforming Economies (R9):
+      - te
+  - USA (R9):
+      - usa
+  # R10 regions 
+  - Africa (R10):
+      - southafrica
+      - ssa
+  - China+ (R10):
+      - china
+  - Europe (R10):
+      - europe
+  - India+ (R10):
+      - india
+      - sasia
+  - Latin America (R10):
+      - brazil
+      - laca
+      - mexico
+  - Middle East (R10):
+      - mena
+  - North America (R10):
+      - canada
+      - usa
+  - Pacific OECD (R10):
+      - jpnkor
+      - oceania
+  - Reforming Economies (R10):
+      - te
+  - Rest of Asia (R10):
+      - indonesia
+      - seasia
+
