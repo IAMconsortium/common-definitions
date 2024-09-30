@@ -6,21 +6,21 @@
         description: industry sectors categorized as ISIC Rev. 4 Divisions 41-43
     - Iron and Steel:
         description: industry sectors categorized as ISIC Rev. 4 Group 241 and Class 2431
-    - Non-ferrous Metals:
+    - Non-Ferrous Metals:
         description: industry sectors categorized as ISIC Rev. 4 Group 242 and Class 2432, basic industries
-    - Non-metallic Minerals:
+    - Non-Metallic Minerals:
         description: industry sectors categorized as ISIC Rev. 4 Division 23 Such as glass, ceramic, cement, etc.
     - Chemicals:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 20 and 21
     - Machinery:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 25-28
-    - Transport equipment:
+    - Transport Equipment:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 29 and 30
     - Food and Tobacco:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 10-12
     - Paper and Pulp:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 17 and 18
-    - Textile and leather:
+    - Textile and Leather:
           description: industry sectors categorized as ISIC Rev. 4 Divisions 13-15
     - Other Sector:
         description: industry sectors categorized as ISIC Rev. 4 Divisions 22, 31 and 32
