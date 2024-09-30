@@ -3,20 +3,20 @@
     description: steel scrap from {Consumption Sector}"
     unit: Mt/yr
 - Collected Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
-    description: "{Non-Metallic Minerals Commodity} scrap from {Consumption Sector}"
+    description: Collected {Non-Metallic Minerals Commodity} scrap from {Consumption Sector}"
     unit: Mt/yr
 - Collected Scrap|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Consumption Sector}:
-    description: "{Non-Ferrous Metals Commodity} scrap from {Consumption Sector}"
+    description: Collected {Non-Ferrous Metals Commodity} scrap from {Consumption Sector}"
     unit: Mt/yr
 - Collected Scrap|Chemicals|{Chemicals Commodity}|{Consumption Sector}: # ??? Maybe "Plastic" commodity?
-    description: "{Chemicals Commodity} scrap from {Consumption Sector}"
+    description: Collected {Chemicals Commodity} scrap from {Consumption Sector}"
     unit: Mt/yr
 - Collected Scrap|Pulp and Paper|{Pulp and Paper Commodity}|{Consumption Sector}:
-    description: "{Pulp and Paper Commodity} scrap from {Consumption Sector}"
+    description: Collected {Pulp and Paper Commodity} scrap from {Consumption Sector}"
     unit: Mt/yr
 
 - Total Scrap|Iron and Steel|Steel|{Consumption Sector}:
-    description: steel scrap from {Consumption Sector}"
+    description: Steel scrap from {Consumption Sector}"
     unit: Mt/yr
 - Total Scrap|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|{Consumption Sector}:
     description: "{Non-Metallic Minerals Commodity} scrap from {Consumption Sector}"
