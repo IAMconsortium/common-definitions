@@ -1,9 +1,9 @@
 - Accounting Type:
     - Volume:
-        description: volume in mass units
+        description: measured in physical units
         unit: Mt/yr
         navigate: "|Volume"
     - Value:
-        description: value in USD
+        description: measured in monetary units
         unit: USD_2010/yr
         navigate: ""
