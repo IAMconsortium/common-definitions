@@ -1,15 +1,31 @@
 - Production|Iron and Steel|{Iron Commodity} [{Accounting Type}]:
     description: Production of {Iron Commodity} {Accounting Type}
     unit: "{Accounting Type}"
+- Production|Iron and Steel|{Iron Commodity}|{Metal Origin} [{Accounting Type}]:
+    description: Production of {Iron Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
+- Production|Iron and Steel|{Iron Intermediate} [{Accounting Type}]:
+    description: Production of {Iron Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
+
 - Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity} [{Accounting Type}]:
     description: Production of {Non-Metallic Minerals Commodity} {Accounting Type}
     unit: "{Accounting Type}"
+
 - Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity} [{Accounting Type}]:
     description: Production of {Non-Ferrous Minerals Commodity} {Accounting Type}
     unit: "{Accounting Type}"
+- Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Metal Origin} [{Accounting Type}]:
+    description: Production of {Non-Ferrous Minerals Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
+- Production|Non-Ferrous Metals|{Non-Ferrous Intermediate} [{Accounting Type}]:
+    description: Production of {Non-Ferrous Minerals Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
+
 - Production|Chemicals|{Chemicals Commodity} [{Accounting Type}]:
     description: Production of {Chemicals Commodity} {Accounting Type}
     unit: "{Accounting Type}"
+
 - Production|Pulp and Paper|{Pulp and Paper Commodity} [{Accounting Type}]:
     description: Production of {Pulp and Paper Commodity} {Accounting Type}
     unit: "{Accounting Type}"

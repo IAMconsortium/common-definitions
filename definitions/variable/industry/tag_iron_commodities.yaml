@@ -1,15 +1,15 @@
 - Iron Commodity:
     - Steel:
         description: raw steel
-    - Primary Steel:
-        description: raw primary steel
-    - Secondary Steel:
-        description: raw secondary steel
+
+- Iron Intermediate:
     - Iron:
           description: raw iron
     - Pig Iron:
           description: pig iron
     - Sponge Iron:
           description: sponge iron
+
+- Iron Ores:
     - Iron Ore:
-          description: iron ore
+        description: iron ore
