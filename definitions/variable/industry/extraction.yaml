@@ -1,0 +1,7 @@
+- Extraction|Iron and Steel|{Iron Ore} [{Accounting Type}]:
+    description: Production of {Iron Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
+
+- Extraction|Non-Ferrous Metals|{Non-Ferrous Ore} [{Accounting Type}]:
+    description: Production of {Non-Ferrous Minerals Commodity} {Accounting Type}
+    unit: "{Accounting Type}"
