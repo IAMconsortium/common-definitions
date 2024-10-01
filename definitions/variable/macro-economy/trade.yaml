@@ -11,13 +11,19 @@
 
 # emissions allowances
 - Trade|Emissions Allowances [Volume]:
-    description: Net trade in GHG emission allowances measured in physical quantities
+    description: Net trade (international sales minus purchases) of GHG emission allowances
+      measured in physical quantities
     unit: Mt CO2-equiv/yr
+    notes: Negative values indicate that purchases (imports) exceed sales (exports).
+      At the global level these should add up to zero.
     engage: Trade|Emissions Allowances|Volume
     navigate: Trade|Emissions Allowances|Volume
 - Trade|Emissions Allowances [Value]:
-    description: Net trade in GHG emission allowances measured in monetary quantities
+    description: Net trade (international sales minus purchases) of GHG emission allowances
+      measured in monetary quantities
     unit: billion USD_2010/yr
+    notes: Negative values indicate that purchases (imports) exceed sales (exports).
+      At the global level these should add up to zero.
     engage: Trade|Emissions Allowances|Value
     navigate: Trade|Emissions Allowances|Value
 
