@@ -1,13 +1,10 @@
-- Trade|Export [Value]:
-    description: total exports measured in monetary quantities
+# trade in goods
+- Trade|Goods [Value]:
+    description: Net exports of all goods measured in monetary quantities
     unit: billion USD_2010/yr
     tier: 1
-    min: 0
-- Trade|Import [Value]:
-    description: total imports measured in monetary quantities
-    unit: billion USD_2010/yr
-    tier: 1
-    min: 0
+    navigate: Trade
+    engage: Trade
 
 # emissions allowances
 - Trade|Emissions Allowances [Volume]:
