@@ -71,8 +71,34 @@
 - Secondary Energy|Gases|Gas:
     description: Consumption of natural gas (fossil methane)
     unit: EJ/yr
+- Secondary Energy|Gases|Hydrogen:
+    description: Production of gaseous fuels from hydrogen (if hydrogen is explicitly
+      modeled as a commodity and not an implicit intermediate product of the
+      transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Gases|Hydrogen|Fossil:
+    description: Production of gaseous fuels using hydrogen from fossils (if hydrogen is
+      explicitly modeled as a commodity and not an implicit intermediate product of the
+      transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Gases|Hydrogen|Biomass:
+    description: Production of gaseous fuels using hydrogen generated from biomass
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Gases|Hydrogen|Electricity:
+    description: Production of gaseous fuels using hydrogen from electrolysis, i.e.,
+      e-fuels (if hydrogen is explicitly modeled as a commodity and not an implicit
+      intermediate product of the transformation technologies)
+    unit: EJ/yr
+- Secondary Energy|Gases|Hydrogen|Other:
+    description: Production of gaseous fuels using hydrogen from other sources
+      (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate
+      product of the transformation technologies)
+    unit: EJ/yr
 - Secondary Energy|Gases|Electricity:
     description: Production of gas from electricity (power-to-gas)
+      (if hydrogen is not explicitly modeled as an intermediate product)
     unit: EJ/yr
 - Secondary Energy|Gases|Other:
     description: Production of gases from sources that do not fit any other category
