@@ -1,0 +1,7 @@
+- Energy Trade Type:
+    - Value:
+        description: measured in monetary quantities
+        unit: billion USD_2010/yr
+    - Volume:
+        description: measured in physical energy quantities
+        unit: EJ/yr
