@@ -26,11 +26,11 @@
     - REMIND 3.1|Latin America and the Caribbean:
         countries: [
           Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
-          Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Bonaire,
-          Sint Eustatius and Saba, Bouvet Island, Brazil, British Virgin Islands,
-          Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Curaçao, Curaçao, Dominica,
-          Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas),
-          French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
+          Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, Brazil, British Virgin Islands, Cayman Islands, Chile,
+          Colombia, Costa Rica, Cuba, Curaçao, Curaçao, Dominica, Dominican Republic,
+          Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
           Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru,
           Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
           Saint Martin (French part), Saint Vincent and the Grenadines,
@@ -57,7 +57,7 @@
           Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
           Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar, Malawi, Mali,
           Mauritania, Mauritius, Mayotte, Mozambique, Namibia, Niger, Nigeria,
-          Rwanda, Réunion, Saint Helena, Ascension and Tristan da Cunha,
+          Rwanda, Réunion, "Saint Helena, Ascension and Tristan da Cunha",
           Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
           South Africa, South Sudan, Tanzania, Togo, Uganda, Zambia, Zimbabwe
         ]
