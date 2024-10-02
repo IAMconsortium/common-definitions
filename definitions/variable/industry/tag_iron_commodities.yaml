@@ -1,0 +1,15 @@
+- Iron Commodity:
+    - Steel:
+        description: raw steel, an alloy of carbon and iron
+
+- Iron Intermediate:
+    - Iron:
+        description: raw iron, used in the iron industry for the production of steel
+    - Pig Iron:
+        description: pig iron, an intermediate good used in the iron industry for the production of steel produced by smelting iron in a blast furnace
+    - Sponge Iron:
+        description: sponge iron (also called direct reduced iron)
+
+- Iron Ores:
+    - Iron Ore:
+        description: ores, from which metallic iron can be economically extracted

@@ -1,0 +1,6 @@
+# Adjusted from metal origin definitions according to ISO IWA 19:2017(E)
+- Plastics Origin:
+    - Primary:
+        description: that was produced from virgin feedstock
+    - Secondary:
+        description: that does not originate from a virgin feedstock but from a recycling process or from the processing of waste streams from primary production

@@ -1,0 +1,23 @@
+- Chemicals Commodity:
+    - Nitrogen Fertilizer:
+        description: single-nutrient nitrogen fertilizers and nitrogen containing multi-nutrient fertilizers
+    - Plastics:
+        description: synthetic polymer materials used for packaging, construction, textiles, transportation, machine parts and consumer goods
+
+- Primary Chemical:
+    - High-Value Chemicals|Ethylene:
+        description: the primary chemical with molecular formula of C2H4, most important precursor for synthetic plastics
+    - High-Value Chemicals|Propylene:
+          description: the primary chemical with molecular formula of C3H6, second most important precursor for synthetic plastics
+    - High-Value Chemicals|BTX:
+          description: the aromatic compounds Benzene, Toluene, Xylene (BTX)
+    - Ammonia:
+        description: inorganic chemical with the formula NH3, precursor for nitrogen fertilisers
+    - Methanol:
+        description: the simplest alcohol used as precursor for various chemicals and fuels
+
+- Intermediate Chemical:
+    - Formaldehyde:
+        description: the simplest aldehyde, mainly used to produce resins
+    - Formaldehyde Resins:
+          description: resins, produced by polymerizing urea, phenol and/or melamine with formaldehyde

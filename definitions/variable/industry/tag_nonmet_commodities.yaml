@@ -1,0 +1,15 @@
+- Non-Metallic Minerals Commodity:
+    - Cement:
+        description: a binder substance used for construction
+    - Glass:
+        description: an amorphous silicate material used for e.g. windows, bottles, cookware, light bulbs
+    - Bricks:
+        description: bricks made from clay
+
+- Non-Metallic Minerals Intermediate:
+    - Cement Clinker:
+        description: a solid material produced in the manufacture of portland cement as an intermediary product
+
+- Non-Metallic Mineral:
+    - Limestone:
+        description: a carbonate sedimentary rock with numerous uses in construction, agriculture and industry

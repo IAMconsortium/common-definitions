@@ -1,0 +1,15 @@
+- Non-Ferrous Metals Commodity:
+    - Aluminum:
+        description: aluminum, commonly produced by electrolysis of alumina or re-melting of scrap
+    - Copper:
+        description: copper, a soft and ductile metal with high thermal and electrical conductivity
+    - Lithium:
+        description: lithium, an alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage
+
+- Non-Ferrous Intermediate:
+    - Aluminum Oxide:
+        description: aluminum oxide (alumina), commonly produced via the Bayer process from bauxite
+
+- Non-Ferrous Ores:
+    - Bauxite:
+        description: sedimentary rock with a relatively high aluminium content, main source of aluminium and gallium
