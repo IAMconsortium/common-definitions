@@ -5,18 +5,24 @@
     - Steel|Primary:
         description: raw steel, an alloy of carbon and iron, extracted from minerals and free of reclaimed metal scrap
         tier: "2"
+        navigate: Primary Steel
+        engage: Primary Steel
     - Steel|Secondary:
         description: raw steel, an alloy of carbon and iron, that does not directly originate from a primary mineral but from a recycling process or from the processing of waste streams from primary production
         tier: "2"
+        navigate: Secondary Steel
+        engage: Secondary Steel
     - Iron:
         description: raw iron, used in the iron industry for the production of steel
         tier: "2"
     - Iron|Pig Iron:
         description: pig iron, an intermediate good used in the iron industry for the production of steel produced by smelting iron in a blast furnace
         tier: "3"
+        navigate: Pig Iron
     - Iron|Sponge Iron:
         description: sponge iron (also called direct reduced iron)
         tier: "3"
+        navigate: Sponge Iron
     - Iron Ore:
         description: ores, from which metallic iron can be economically extracted
         tier: "2"

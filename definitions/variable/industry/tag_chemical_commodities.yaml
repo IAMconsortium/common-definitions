@@ -23,9 +23,13 @@
     - Plastics|Primary:
         description: synthetic polymer materials used for packaging, construction, textiles, transportation, machine parts and consumer goods
         tier: "2"
+        navigate: Primary Plastics
+        engage: Primary Plastics
     - Plastics|Secondary:
         description: synthetic polymer materials used for packaging, construction, textiles, transportation, machine parts and consumer goods
         tier: "2"
+        navigate: Secondary Plastics
+        engage: Secondary Plastics
     - Methanol:
         description: the simplest alcohol used as precursor for various chemicals and fuels
         tier: "1"

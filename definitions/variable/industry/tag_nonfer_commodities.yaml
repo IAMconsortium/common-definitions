@@ -29,6 +29,8 @@
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process from bauxite
         tier: "3"
+        navigate: Alumina
+        engage: Alumina
     - Bauxite:
         description: sedimentary rock with a relatively high aluminium content, main source of aluminium and gallium
         tier: "3"

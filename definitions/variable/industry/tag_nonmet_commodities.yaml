@@ -11,6 +11,8 @@
     - Cement Clinker:
         description: a solid material produced in the manufacture of portland cement as an intermediary product
         tier: "1"
+        navigate: Clinker
+        engage: Clinker
     - Limestone:
         description: a carbonate sedimentary rock with numerous uses in construction, agriculture and industry
         tier: "2"
