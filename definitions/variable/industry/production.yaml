@@ -1,56 +1,24 @@
 - Production|Iron and Steel|{Iron Commodity}:
     description: Production of {Iron Commodity}
     unit: Mt
-    tier: 1
-- Production|Iron and Steel|{Iron Commodity}|{Metal Origin}:
-    description: Production of {Iron Commodity} {Metal Origin}
-    unit: Mt
-    tier: 2
-- Production|Iron and Steel|{Iron Intermediate}:
-    description: Production of {Iron Intermediate}
-    unit: Mt
-    tier: 3
+    tier: "{Iron Commodity}"
 
 - Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
     description: Production of {Non-Metallic Minerals Commodity}
     unit: Mt
-    tier: 1
-- Production|Non-Metallic Minerals|{Non-Metallic Minerals Intermediate}:
-    description: Production of {Non-Metallic Minerals Commodity}
-    unit: Mt
-    tier: 1
+    tier: "{Non-Metallic Minerals Commodity}"
 
 - Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
     description: Production of {Non-Ferrous Metals Commodity}
     unit: Mt
-    tier: 1
-- Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|{Metal Origin}:
-    description: Production of {Non-Ferrous Metals Commodity} {Metal Origin}
-    unit: Mt
-    tier: 2
-- Production|Non-Ferrous Metals|{Non-Ferrous Intermediate}:
-    description: Production of {Non-Ferrous Intermediate}
-    unit: Mt
-    tier: 3
+    tier: "{Non-Ferrous Metals Commodity}"
 
 - Production|Chemicals|{Chemicals Commodity}:
     description: Production of {Chemicals Commodity}
     unit: Mt
-    tier: 1
-- Production|Chemicals|{Primary Chemical}:
-    description: Production of {Primary Chemical}
-    unit: Mt
-    tier: 1
-- Production|Chemicals|{Chemicals Commodity}|{Metal Origin}:
-    description: Production of {Chemicals Commodity} {Metal Origin}
-    unit: Mt
-    tier: 2
-- Production|Chemicals|{Intermediate Chemical}:
-    description: Production of {Intermediate Chemical}
-    unit: Mt
-    tier: 3
+    tier: "{Chemicals Commodity}"
 
 - Production|Pulp and Paper|{Pulp and Paper Commodity}:
     description: Production of {Pulp and Paper Commodity}
     unit: Mt
-    tier: 1
+    tier: "{Pulp and Paper Commodity}"

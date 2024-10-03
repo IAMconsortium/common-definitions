@@ -1,15 +1,34 @@
 - Non-Ferrous Metals Commodity:
     - Aluminum:
-        description: aluminum, commonly produced by electrolysis of alumina or re-melting of scrap
+        description: aluminum, commonly produced by electrolysis of alumina or re-melting of scrap, extracted from minerals and free of reclaimed metal scrap
+        tier: "2"
     - Copper:
-        description: copper, a soft and ductile metal with high thermal and electrical conductivity
+        description: copper, a soft and ductile metal with high thermal and electrical conductivity, extracted from minerals and free of reclaimed metal scrap
+        tier: "2"
     - Lithium:
-        description: lithium, an alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage
-
-- Non-Ferrous Intermediate:
+        description: lithium, an alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage, extracted from minerals and free of reclaimed metal scrap
+        tier: "2"
+    - Aluminum|Primary:
+        description: aluminum, commonly produced by electrolysis of alumina or re-melting of scrap, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Copper|Primary:
+        description: copper, a soft and ductile metal with high thermal and electrical conductivity, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Lithium|Primary:
+        description: lithium, an alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Aluminum|Secondary:
+        description: aluminum, commonly produced by electrolysis of alumina or re-melting of scrap, that does not directly originate from a primary mineral but from a recycling process or from the processing of waste streams from primary production
+        tier: "3"
+    - Copper|Secondary:
+        description: copper, a soft and ductile metal with high thermal and electrical conductivity, that does not directly originate from a primary mineral but from a recycling process or from the processing of waste streams from primary production
+        tier: "3"
+    - Lithium|Secondary:
+        description: lithium, an alkali metal commonly produced through electrolysis of LiCl, mainly used for electrochemical energy storage, that does not directly originate from a primary mineral but from a recycling process or from the processing of waste streams from primary production
+        tier: "3"
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process from bauxite
-
-- Non-Ferrous Ores:
+        tier: "3"
     - Bauxite:
         description: sedimentary rock with a relatively high aluminium content, main source of aluminium and gallium
+        tier: "3"
