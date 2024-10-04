@@ -2,13 +2,19 @@
     - Aluminum:
         description: aluminum
         tier: "2"
+        engage: Aluminium
+        navigate: Aluminium
     - Aluminum|Primary:
         description: aluminum produced by electrolysis of alumina
         tier: "3"
+        engage: Aluminium|Primary
+        navigate: Aluminium|Primary
     - Aluminum|Secondary:
         description: aluminum produced by re-melting of scrap or that originates from a
           recycling process, including processing of waste streams from primary production
         tier: "3"
+        engage: Aluminium|Secondary
+        navigate: Aluminium|Secondary
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process
           from bauxite
