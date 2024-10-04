@@ -1,0 +1,32 @@
+- Production|Iron and Steel|{Iron Commodity}:
+    description: Production of {Iron Commodity}
+    unit: Mt
+    tier: "{Iron Commodity}"
+    navigate: Production|Iron and Steel|{Iron Commodity}|Volume
+    engage: Production|Iron and Steel|{Iron Commodity}|Volume
+
+- Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Production of {Non-Metallic Minerals Commodity}
+    unit: Mt
+    tier: "{Non-Metallic Minerals Commodity}"
+    navigate: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
+    engage: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
+
+- Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Production of {Non-Ferrous Metals Commodity}
+    unit: Mt
+    tier: "{Non-Ferrous Metals Commodity}"
+    navigate: Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|Volume
+    engage: Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}|Volume
+
+- Production|Chemicals|{Chemicals Commodity}:
+    description: Production of {Chemicals Commodity}
+    unit: Mt
+    tier: "{Chemicals Commodity}"
+    navigate: Production|Chemicals|{Chemicals Commodity}|Volume
+    engage: Production|Chemicals|{Chemicals Commodity}|Volume
+
+- Production|Pulp and Paper|{Pulp and Paper Commodity}:
+    description: Production of {Pulp and Paper Commodity}
+    unit: Mt
+    tier: "{Pulp and Paper Commodity}"

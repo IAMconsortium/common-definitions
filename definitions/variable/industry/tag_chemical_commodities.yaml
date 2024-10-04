@@ -1,0 +1,44 @@
+- Chemicals Commodity:
+    - Ammonia:
+        description: ammonia (NH3), precursor chemical for nitrogen fertilisers
+        tier: "1"
+    - Nitrogen Fertilizer:
+        description: single-nutrient nitrogen fertilizers and nitrogen containing
+          multi-nutrient fertilizers
+        tier: "2"
+    - High-Value Chemicals:
+        description: high-value chemicals, a group of primary chemicals consisting of
+          ethylene, propylene, butylenes and aromatics
+        tier: "1"
+    - High-Value Chemicals|Ethylene:
+        description: ethylene, most important precursor for synthetic plastics
+        tier: "2"
+    - High-Value Chemicals|Propylene:
+        description: propylene, second most important precursor for synthetic plastics
+        tier: "2"
+    - High-Value Chemicals|BTX:
+        description: the aromatic compounds Benzene, Toluene and the three xylene isomers (BTX)
+        tier: "2"
+    - Plastics:
+        description: plastics
+        tier: "1"
+    - Plastics|Primary:
+        description: plastics, produced from virgin feedstocks
+        tier: "2"
+        navigate: Primary Plastics
+        engage: Primary Plastics
+    - Plastics|Secondary:
+        description: plastics, produced in recycling processes
+        tier: "2"
+        navigate: Secondary Plastics
+        engage: Secondary Plastics
+    - Methanol:
+        description: methanol, used as precursor for various chemicals and fuels
+        tier: "1"
+    - Formaldehyde:
+        description: formaldehyde, mainly used to produce resins
+        tier: "3"
+    - Formaldehyde Resins:
+        description: thermosetting resins, produced by polymerizing urea, phenol and/or
+          melamine with formaldehyde
+        tier: "3"

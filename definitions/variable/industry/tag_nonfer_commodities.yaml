@@ -1,0 +1,46 @@
+- Non-Ferrous Metals Commodity:
+    - Aluminum:
+        description: aluminum
+        tier: "2"
+    - Aluminum|Primary:
+        description: aluminum, commonly produced by electrolysis of alumina or
+          re-melting of scrap, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Aluminum|Secondary:
+        description: aluminum, commonly produced by electrolysis of alumina or
+          re-melting of scrap, that does not directly originate from a primary mineral
+            but from a recycling process or from the processing of waste streams from
+            primary production
+        tier: "3"
+    - Aluminum Oxide:
+        description: aluminum oxide (alumina), commonly produced via the Bayer process
+          from bauxite
+        tier: "3"
+        navigate: Alumina
+        engage: Alumina
+    - Bauxite:
+        description: sedimentary rock with a relatively high aluminium content, main
+          source of aluminium and gallium
+        tier: "3"
+    - Copper:
+        description: copper
+        tier: "2"
+    - Copper|Primary:
+        description: copper, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Copper|Secondary:
+        description: copper, that does not directly originate from a primary mineral
+          but from a recycling process or from the processing of waste streams from
+            primary production
+        tier: "3"
+    - Lithium:
+        description: lithium
+        tier: "2"
+    - Lithium|Primary:
+        description: lithium, extracted from minerals and free of reclaimed metal scrap
+        tier: "3"
+    - Lithium|Secondary:
+        description: lithium, that does not directly originate from a primary mineral
+          but from a recycling process or from the processing of waste streams from
+            primary production
+        tier: "3"
