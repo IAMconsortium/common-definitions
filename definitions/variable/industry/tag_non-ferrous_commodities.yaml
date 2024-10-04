@@ -3,14 +3,11 @@
         description: aluminum
         tier: "2"
     - Aluminum|Primary:
-        description: aluminum, commonly produced by electrolysis of alumina or
-          re-melting of scrap, extracted from minerals and free of reclaimed metal scrap
+        description: aluminum produced by electrolysis of alumina
         tier: "3"
     - Aluminum|Secondary:
-        description: aluminum, commonly produced by electrolysis of alumina or
-          re-melting of scrap, that does not directly originate from a primary mineral
-          but from a recycling process or from the processing of waste streams from
-          primary production
+        description: aluminum produced by re-melting of scrap or that originates from a
+          recycling process, including processing of waste streams from primary production
         tier: "3"
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process
