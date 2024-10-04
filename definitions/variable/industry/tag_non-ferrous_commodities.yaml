@@ -3,14 +3,11 @@
         description: aluminum
         tier: "2"
     - Aluminum|Primary:
-        description: aluminum, commonly produced by electrolysis of alumina or
-          re-melting of scrap, extracted from minerals and free of reclaimed metal scrap
+        description: aluminum produced by electrolysis of alumina
         tier: "3"
     - Aluminum|Secondary:
-        description: aluminum, commonly produced by electrolysis of alumina or
-          re-melting of scrap, that does not directly originate from a primary mineral
-            but from a recycling process or from the processing of waste streams from
-            primary production
+        description: aluminum produced by re-melting of scrap or that originates from a
+          recycling process, including processing of waste streams from primary production
         tier: "3"
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process
@@ -26,21 +23,30 @@
         description: copper
         tier: "2"
     - Copper|Primary:
-        description: copper, extracted from minerals and free of reclaimed metal scrap
+        description: copper extracted from minerals and free of reclaimed metal scrap
         tier: "3"
     - Copper|Secondary:
-        description: copper, that does not directly originate from a primary mineral
+        description: copper that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
-            primary production
+          primary production
         tier: "3"
     - Lithium:
         description: lithium
         tier: "2"
     - Lithium|Primary:
-        description: lithium, extracted from minerals and free of reclaimed metal scrap
+        description: lithium extracted from minerals and free of reclaimed metal scrap
         tier: "3"
     - Lithium|Secondary:
-        description: lithium, that does not directly originate from a primary mineral
+        description: lithium that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
-            primary production
+          primary production
         tier: "3"
+    - Nickel:
+        description: nickel
+        tier: "2"
+    - Graphite:
+        description: graphite
+        tier: "2"
+    - Manganese:
+        description: manganese
+        tier: "2"
