@@ -9,8 +9,8 @@
     - Aluminum|Secondary:
         description: aluminum, commonly produced by electrolysis of alumina or
           re-melting of scrap, that does not directly originate from a primary mineral
-            but from a recycling process or from the processing of waste streams from
-            primary production
+          but from a recycling process or from the processing of waste streams from
+          primary production
         tier: "3"
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process
@@ -31,7 +31,7 @@
     - Copper|Secondary:
         description: copper, that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
-            primary production
+          primary production
         tier: "3"
     - Lithium:
         description: lithium
@@ -42,5 +42,14 @@
     - Lithium|Secondary:
         description: lithium, that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
-            primary production
+          primary production
         tier: "3"
+    - Nickel:
+        description: nickel
+        tier: "2"
+    - Graphite:
+        description: graphite
+        tier: "2"
+    - Manganese:
+        description: manganese
+        tier: "2"
