@@ -23,10 +23,10 @@
         description: copper
         tier: "2"
     - Copper|Primary:
-        description: copper, extracted from minerals and free of reclaimed metal scrap
+        description: copper extracted from minerals and free of reclaimed metal scrap
         tier: "3"
     - Copper|Secondary:
-        description: copper, that does not directly originate from a primary mineral
+        description: copper that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
           primary production
         tier: "3"
@@ -34,10 +34,10 @@
         description: lithium
         tier: "2"
     - Lithium|Primary:
-        description: lithium, extracted from minerals and free of reclaimed metal scrap
+        description: lithium extracted from minerals and free of reclaimed metal scrap
         tier: "3"
     - Lithium|Secondary:
-        description: lithium, that does not directly originate from a primary mineral
+        description: lithium that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
           primary production
         tier: "3"
