@@ -1,51 +1,44 @@
 - Chemicals Commodity:
     - Ammonia:
-        description: inorganic chemical with the formula NH3, precursor for nitrogen
-          fertilisers
+        description: ammonia (NH3), precursor chemical for nitrogen fertilisers
         tier: "1"
     - Nitrogen Fertilizer:
         description: single-nutrient nitrogen fertilizers and nitrogen containing
           multi-nutrient fertilizers
         tier: "2"
     - High-Value Chemicals:
-        description: a group of primary chemicals consisting of ethylene, propylene,
-          butylenes and aromatics mianly used as feedstock for plastics
+        description: high-value chemicals, a group of primary chemicals consisting of
+          ethylene, propylene, butylenes and aromatics
         tier: "1"
     - High-Value Chemicals|Ethylene:
-        description: the primary chemical with molecular formula of C2H4, most
-          important precursor for synthetic plastics
+        description: ethylene, most important precursor for synthetic plastics
         tier: "2"
     - High-Value Chemicals|Propylene:
-        description: the primary chemical with molecular formula of C3H6, second most
-          important precursor for synthetic plastics
+        description: propylene, second most important precursor for synthetic plastics
         tier: "2"
     - High-Value Chemicals|BTX:
         description: the aromatic compounds Benzene, Toluene, Xylene (BTX)
         tier: "2"
     - Plastics:
-        description: synthetic polymer materials used for packaging, construction,
-          textiles, transportation, machine parts and consumer goods
+        description: plastics
         tier: "1"
     - Plastics|Primary:
-        description: synthetic polymer materials used for packaging, construction,
-          textiles, transportation, machine parts and consumer goods
+        description: plastics, produced from virgin feedstocks
         tier: "2"
         navigate: Primary Plastics
         engage: Primary Plastics
     - Plastics|Secondary:
-        description: synthetic polymer materials used for packaging, construction,
-          textiles, transportation, machine parts and consumer goods
+        description: plastics, produced in recycling processes
         tier: "2"
         navigate: Secondary Plastics
         engage: Secondary Plastics
     - Methanol:
-        description: the simplest alcohol used as precursor for various chemicals and
-          fuels
+        description: methanol, used as precursor for various chemicals and fuels
         tier: "1"
     - Formaldehyde:
-        description: the simplest aldehyde, mainly used to produce resins
+        description: formaldehyde, mainly used to produce resins
         tier: "3"
     - Formaldehyde Resins:
-        description: resins, produced by polymerizing urea, phenol and/or melamine
-          with formaldehyde
+        description: thermosetting resins, produced by polymerizing urea, phenol and/or
+          melamine with formaldehyde
         tier: "3"

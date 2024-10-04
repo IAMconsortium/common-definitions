@@ -1,21 +1,19 @@
 - Non-Metallic Minerals Commodity:
     - Cement:
-        description: a binder substance used for construction
+        description: cement, a binder substance used for construction
         tier: "1"
     - Cement Clinker:
-        description: a solid material produced in the manufacture of portland cement as
+        description: cement clinker, produced in the manufacture of portland cement as
             an intermediary product
         tier: "1"
         navigate: Clinker
         engage: Clinker
     - Limestone:
-        description: a carbonate sedimentary rock with numerous uses in construction,
-          agriculture and industry
+        description: limestone
         tier: "2"
     - Glass:
-        description: an amorphous silicate material used for e.g. windows, bottles,
-          cookware, light bulbs
+        description: glass
         tier: "3"
     - Bricks:
-        description: bricks made from clay
+        description: bricks, made from clay
         tier: "3"
