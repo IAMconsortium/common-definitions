@@ -10,6 +10,8 @@
         description: high-value chemicals, a group of primary chemicals consisting of
           ethylene, propylene, butylenes and aromatics
         tier: "1"
+        navigate: High Value Chemicals
+        engage: High Value Chemicals
     - High-Value Chemicals|Ethylene:
         description: ethylene, most important precursor for synthetic plastics
         tier: "2"
@@ -25,13 +27,13 @@
     - Plastics|Primary:
         description: plastics, produced from virgin feedstocks
         tier: "2"
-        navigate: Primary Plastics
-        engage: Primary Plastics
+        navigate: Plastics|Primary Plastics
+        engage: Plastics|Primary Plastics
     - Plastics|Secondary:
         description: plastics, produced in recycling processes
         tier: "2"
-        navigate: Secondary Plastics
-        engage: Secondary Plastics
+        navigate: Plastics|Secondary Plastics
+        engage: Plastics|Secondary Plastics
     - Methanol:
         description: methanol, used as precursor for various chemicals and fuels
         tier: "1"
