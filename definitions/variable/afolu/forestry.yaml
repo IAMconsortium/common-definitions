@@ -1,19 +1,19 @@
 - Forestry Demand|Roundwood:
-    definition: Total roundwood demand
+    description: Total roundwood demand
     unit: million m3/yr
 - Forestry Demand|Roundwood|Industrial Roundwood:
-    definition: Industrial roundwood demand
+    description: Industrial roundwood demand
     unit: million m3/yr
 - Forestry Demand|Roundwood|Wood Fuel:
-    definition: Wood fuel demand
+    description: Wood fuel demand
     unit: million m3/yr
 
 - Forestry Production|Roundwood:
-    definition: Total roundwood production
+    description: Total roundwood production
     unit: million m3/yr
 - Forestry Production|Roundwood|Industrial Roundwood:
-    definition: Industrial roundwood production
+    description: Industrial roundwood production
     unit: million m3/yr
 - Forestry Production|Roundwood|Wood Fuel:
-    definition: Wood fuel production
+    description: Wood fuel production
     unit: million m3/yr

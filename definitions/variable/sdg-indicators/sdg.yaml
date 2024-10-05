@@ -15,19 +15,19 @@
     sdg: 1
     unit: million
 - Population|Risk of Hunger:
-    definition: Population at risk of hunger, calculated by multipling total population
+    description: Population at risk of hunger, calculated by multipling total population
       and prevalence of undernourishment which is computed from a probability distribution
       of daily dietary energy consumption and minimum dietary energy requirement.
     unit: million
 - Population|Electricity Access:
-    definition: Population with access to electricity
+    description: Population with access to electricity
     unit: million
 - Population|Relying on Solid Fuels:
-    definition: Population without access to electricity and relying on solid fuels
+    description: Population without access to electricity and relying on solid fuels
       for heating-cooking
     unit: million
 - Population|Clean Cooking Access:
-    definition: Population with access to improved cooking facilities (electric or
+    description: Population with access to improved cooking facilities (electric or
       gas)
     unit: million
     navigate: Population|Clean cooking Access
@@ -38,7 +38,7 @@
     weight: GDP|PPP
     shape: Expenditure Share|Food
 - Population|Prevalence of Underweight:
-    description: Number of adults with body mass index (BMI) lower than 18.5 and 
+    description: Number of adults with body mass index (BMI) lower than 18.5 and
       children with BMI lower than two standard deviations from reference
     sdg: 2
     unit: million
@@ -70,7 +70,7 @@
 - Population|Prevalence of Normal Weight:
     description: Number of adults with body mass index (BMI) BMI between 18.5 and 25 and
       children with BMI within two standard deviations below reference (lower bound)
-        and one standard deviations above reference (upper bound)
+      and one standard deviations above reference (upper bound)
     sdg: 2
     unit: million
 - Population|Prevalence of Normal Weight|Children:
@@ -196,10 +196,10 @@
     unit: GJ/cap/yr
     weight: Population
 - Energy Service|Transportation|Freight:
-    definition: Energy service demand for freight transport
+    description: Energy service demand for freight transport
     unit: billion tkm/yr
 - Energy Service|Transportation|Passenger:
-    definition: Energy service demand for passenger transport
+    description: Energy service demand for passenger transport
     unit: billion pkm/yr
 - Energy Service|Transportation|Passenger|Road:
     description: Energy service demand for passenger transport on roads
@@ -210,14 +210,14 @@
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
-#     weight: Energy Service|Transportation|Passenger
+    #     weight: Energy Service|Transportation|Passenger
     shape: Energy Service|Transportation|Passenger|ActiveTransport|Share
 - Energy Service|Transportation|Passenger|Public Transport [Share]:
     description: Share of public transit in passenger transport
     sdg: 7
     unit: '%'
     skip-region-aggregation: true
-#     weight: Energy Service|Transportation|Passenger
+    #     weight: Energy Service|Transportation|Passenger
     shape: Energy Service|Transportation|Passenger|PublicTransport|Share
 - Energy Service|Residential|Cooling Degree Days:
     description: Measure of how hot the temperature was over a given period
@@ -305,7 +305,7 @@
     sdg: 12
     unit: '%'
     skip-region-aggregation: true
-#     weight: Production|Iron and Steel|Volume
+    #     weight: Production|Iron and Steel|Volume
     shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
     description: Biomass usage per capita excluding pasture and forestry
@@ -341,19 +341,19 @@
     skip-region-aggregation: true
     weight: Land Cover
 - Terrestrial Biodiversity|Mean Species Abundance|Vertebrates:
-    definition: Terrestrial biodiversity of vertebrate species measured in Mean Species
+    description: Terrestrial biodiversity of vertebrate species measured in Mean Species
       Abundance (MSA)
     unit: '%'
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
 - Terrestrial Biodiversity|Mean Species Abundance|Plants:
-    definition: Terrestrial biodiversity of plant species measured in Mean Species
+    description: Terrestrial biodiversity of plant species measured in Mean Species
       Abundance (MSA)
     unit: '%'
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
 - Terrestrial Biodiversity|Biodiversity Intactness Index:
-    definition: Terrestrial biodiversity measured with Biodiversity Intactness Index
+    description: Terrestrial biodiversity measured with Biodiversity Intactness Index
       (BII)
     unit: '%'
     weight: Land Cover

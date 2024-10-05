@@ -1,24 +1,24 @@
 - Population:
-    definition: Total population
+    description: Total population
     unit: million
     tier: 1
 - Population|Urban:
-    definition: Total population living in urban areas
+    description: Total population living in urban areas
     unit: million
     tier: 2
 - Population|{Gender}:
-    definition: Total {Gender} population
+    description: Total {Gender} population
     unit: million
     tier: 2
 - Population|{Gender}|{Age}:
-    definition: Total {Gender} population {Age}
+    description: Total {Gender} population {Age}
     unit: million
     tier: 3
 - Population|{Gender}|{Age}|{Education}:
-    definition: Total {Gender} population {Age} with {Education}
+    description: Total {Gender} population {Age} with {Education}
     unit: million
     tier: 3
 - Mean Years of Education|{Gender}|{Age}:
-    definition: Mean years of formal education of the {Gender} population {Age}
+    description: Mean years of formal education of the {Gender} population {Age}
     unit: years
     tier: 3

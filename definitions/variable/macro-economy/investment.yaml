@@ -17,7 +17,7 @@
       {Primary Fossil Fuel}
     unit: billion USD_2010/yr
 - Investment|Energy Supply|Liquids:
-    definition: Investments for the production of liquid fuels
+    description: Investments for the production of liquid fuels
     unit: billion USD_2010/yr
     note: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.

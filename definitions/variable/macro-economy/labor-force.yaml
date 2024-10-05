@@ -13,7 +13,7 @@
     tier: 1
     min: 0
 - Labor Force|Unemployment [Rate]:
-    definition: Fraction of unemployed inhabitants (based on ILO classification)
+    description: Fraction of unemployed inhabitants (based on ILO classification)
     unit: '%'
     range: 0, 100
     navigate: Unemployment|Rate
