@@ -1,24 +1,24 @@
 - Land Cover:
-    definition: Total land cover
+    description: Total land cover
     unit: million ha
     tier: 2
     agmip: Land Cover (LAND) - Total (TOT)
 
 - Land Cover|Built-Up Area:
-    definition: Built-up land associated with human settlements
+    description: Built-up land associated with human settlements
     unit: million ha
     tier: 2
     engage: Land Cover|Built-up Area
     navigate: Land Cover|Built-up Area
 
 - Land Cover|Pasture:
-    definition: Pasture, not only high quality rangeland, based on FAO definition of
+    description: Pasture, not only high quality rangeland, based on FAO definition of
       "permanent meadows and pastures"
     unit: million ha
     tier: 2
 
 - Land Cover|Cropland:
-    definition: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
+    description: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
       permanent crops as well as other arable land (physical area)
     unit: million ha
     tier: 2
@@ -36,27 +36,27 @@
     agmip:
 
 - Land Cover|Forest:
-    definition: Managed and unmanaged forest area
+    description: Managed and unmanaged forest area
     unit: million ha
     tier: 2
     agmip: Land Cover (LAND) - Forest (FOR)
 - Land Cover|Forest|Managed:
-    definition: Managed forest area incl. timber plantations and re-/afforestation areas
+    description: Managed forest area incl. timber plantations and re-/afforestation areas
     unit: million ha
     tier: 2
     agmip:
 - Land Cover|Forest|Managed|Timber Plantations:
-    definition: Area of timber plantations
+    description: Area of timber plantations
     unit: million ha
     tier: 2
     agmip: Land Cover (LAND) - Forest (FOR)
 - Land Cover|Forest|Managed|Afforestation:
-    definition: Afforestation area
+    description: Afforestation area
     unit: million ha
     tier: 2
     agmip:
 - Land Cover|Forest|Managed|Reforestation:
-    definition: Reforestation area
+    description: Reforestation area
     unit: million ha
     tier: 2
     agmip:
@@ -77,6 +77,6 @@
     sdg: 15
 
 - Land Cover|Other Land:
-    definition: Other land cover that does not fit into any other category
+    description: Other land cover that does not fit into any other category
     unit: million ha
     tier: 2

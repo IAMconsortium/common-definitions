@@ -1,18 +1,18 @@
 - Secondary Energy|Electricity:
-    definition: Total net electricity generation
+    description: Total net electricity generation
     unit: EJ/yr
 
 - Secondary Energy|Electricity|Biomass:
-    definition: Net electricity generation from purpose-grown bioenergy crops, biogas,
+    description: Net electricity generation from purpose-grown bioenergy crops, biogas,
       crop and forestry residue, municipal solid waste bioenergy and traditional biomass
     unit: EJ/yr
 - Secondary Energy|Electricity|Biomass|{CCS}:
-    definition: Net electricity generation from purpose-grown bioenergy crops, crop and
+    description: Net electricity generation from purpose-grown bioenergy crops, crop and
       forestry residue, municipal solid waste bioenergy and traditional biomass {CCS}
     unit: EJ/yr
 
 - Secondary Energy|Electricity|Non-Biomass Renewables:
-    definition: Net electricity generation from hydro, wind, solar, geothermal, ocean,
+    description: Net electricity generation from hydro, wind, solar, geothermal, ocean,
       and other renewable sources excluding biomass
     unit: EJ/yr
 - Secondary Energy|Electricity|{Non-Biomass Renewables}:
@@ -23,10 +23,10 @@
     description: Net electricity generation from nuclear power
     unit: EJ/yr
 - Secondary Energy|Electricity|Hydrogen:
-    definition: Net electricity generation from hydrogen
+    description: Net electricity generation from hydrogen
     unit: EJ/yr
 - Secondary Energy|Electricity|Ammonia:
-    definition: Net electricity generation from ammonia
+    description: Net electricity generation from ammonia
     unit: EJ/yr
 
 - Secondary Energy|Electricity|{Primary Fossil Fuel}:

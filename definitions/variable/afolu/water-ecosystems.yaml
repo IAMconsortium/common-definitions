@@ -1,32 +1,32 @@
 - Water Ecosystems:
-    definition: All water ecosystems
+    description: All water ecosystems
     unit: million ha
     tier: 3
 - Water Ecosystems|Lakes:
-    definition: Lakes
+    description: Lakes
     unit: million ha
     tier: 3
 - Water Ecosystems|Rivers:
-    definition: Rivers
+    description: Rivers
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands:
-    definition: Wetlands
+    description: Wetlands
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands|Peatlands:
-    definition: Peatlands
+    description: Peatlands
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands|Peatlands|Intact:
-    definition: Intact peatlands
+    description: Intact peatlands
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands|Peatlands|Drained:
-    definition: Drained peatlands
+    description: Drained peatlands
     unit: million ha
     tier: 3
 - Water Ecosystems|Wetlands|Peatlands|Rewetted:
-    definition: Rewetted peatlands
+    description: Rewetted peatlands
     unit: million ha
     tier: 3
