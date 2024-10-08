@@ -1,0 +1,33 @@
+- Water Withdrawal:
+    definition: Total water withdrawals
+    unit: km3/yr
+- Water Withdrawal|Industrial Water:
+    definition: Water withdrawals for the industrial and manufacturing sector
+    unit: km3/yr
+- Water Withdrawal|Municipal Water:
+    definition: Water withdrawals for the municipal sector including for residential and
+      commercial buildings and municipal irrigation
+    unit: km3/yr
+- Water Withdrawal|Irrigation:
+    definition: Water withdrawal for irrigation
+    unit: km3/yr
+- Water Withdrawal|Livestock:
+    definition: Water withdrawals for livestock
+    unit: km3/yr
+
+- Water Consumption:
+    definition: Total water consumption
+    unit: km3/yr
+- Water Consumption|Industrial Water:
+    definition: Water consumption for the industrial and manufacturing sector
+    unit: km3/yr
+- Water Consumption|Municipal Water:
+    definition: Water consumption for the municipal sector including for residential and
+      commercial buildings and municipal irrigation
+    unit: km3/yr
+- Water Consumption|Irrigation:
+    definition: Water consumption for irrigation
+    unit: km3/yr
+- Water Consumption|Livestock:
+    definition: Water consumption for livestock
+    unit: km3/yr
