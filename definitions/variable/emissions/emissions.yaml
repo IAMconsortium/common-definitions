@@ -13,8 +13,8 @@
       - Emissions|{Level-1 Species}|Capture and Removal
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
-    description: Gross emissions of fossil carbon dioxide (CO2), not accounting for
-      negative emissions from bioenergy with CCS (BECCS) or agriculture, forestry
+    description: Gross emissions of carbon dioxide (CO2), not accounting for negative
+      emissions from bioenergy with CCS (BECCS) or agriculture, forestry
       and other land use (AFOLU)
     unit: Mt CO2/yr
 
@@ -72,10 +72,10 @@
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
 - Gross Emissions|CO2|Energy and Industrial Processes:
-    description: Gross emissions of fossil carbon dioxide (CO2) from energy use in supply
-      and demand sectors (IPCC category 1A, 1B) and from industrial processes
-      (IPCC categories 2A, B, C, E), including emissions from international bunker fuels,
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
+    description: Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors
+      (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E),
+      including emissions from international bunker fuels, not accounting for
+      negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
     components:
       - Gross Emissions|CO2|Energy
@@ -86,7 +86,7 @@
       including fugitive emissions from fuels (IPCC category 1A, 1B)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy:
-    description: Gross emissions of fossil carbon dioxide (CO2) from energy use,
+    description: Gross emissions of carbon dioxide (CO2) from energy use,
       including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for
       negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
@@ -99,7 +99,7 @@
       transport and storage (IPCC category 1C)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply:
-    description: Gross emissions of fossil carbon dioxide (CO2) from fuel combustion and fugitive emissions
+    description: Gross emissions of carbon dioxide (CO2) from fuel combustion and fugitive emissions
       from fuels, including electricity and heat production and distribution (IPCC category 1A1a),
       other energy conversion (e.g., refineries, synfuel production, solid fuel processing,
       IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
@@ -119,36 +119,34 @@
       processing, storage and transport (IPCC category 1B)
     unit: "{Level-2 Species}"
 - Emissions|CO2|Energy|Supply|Electricity:
-    description: Emissions of fossil carbon dioxide (CO2) for electricity generation
+    description: Emissions of carbon dioxide (CO2) for electricity generation
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Electricity:
-    description: Gross emissions of fossil carbon dioxide (CO2) for electricity generation,
+    description: Gross emissions of carbon dioxide (CO2) for electricity generation,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|{Secondary Fuel with Source}:
-    description: Emissions of fossil carbon dioxide (CO2) for production
-      of {Secondary Fuel with Source}
+    description: Emissions of carbon dioxide (CO2) for production of {Secondary Fuel with Source}
     unit: Mt CO2/yr
     tier: "{Secondary Fuel with Source}"
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel with Source}:
-    description: Gross emissions of fossil carbon dioxide (CO2) for production of {Secondary Fuel with Source},
+    description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel with Source},
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
     tier: "{Secondary Fuel with Source}"
 - Emissions|CO2|Energy|Supply|Autoproduction:
-    description: Emissions of fossil carbon dioxide (CO2) for own-use energy supply
+    description: Emissions of carbon dioxide (CO2) for own-use energy supply
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Autoproduction:
-    description: Gross emissions of fossil carbon dioxide (CO2) for own-use energy supply,
+    description: Gross emissions of carbon dioxide (CO2) for own-use energy supply,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|Other:
-    description: Emissions of fossil carbon dioxide (CO2) for other categories of energy supply
+    description: Emissions of carbon dioxide (CO2) for other categories of energy supply
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Other:
-    description: Gross emissions of fossil carbon dioxide (CO2) for other categories of
-      energy supply, not accounting for negative emissions from bioenergy with CCS (BECCS)
-      in these sectors
+    description: Gross emissions of carbon dioxide (CO2) for other categories of energy supply,
+      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|Energy|Demand:
@@ -159,22 +157,21 @@
       net of negative emissions incl. demand-side use of bioenergy with CCS (BECCS)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand:
-    description: Gross emissions of fossil carbon dioxide (CO2) from fuel combustion in
-      industry (IPCC category 1A2), residential, commercial, institutional sectors and
-      agriculture, forestry, fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and the
-      transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
+    description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
+      residential, commercial, institutional sectors and agriculture, forestry,
+      fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and the transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
       not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Demand|Industry:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand|Industry:
-    description: Gross emissions of fossil carbon dioxide (CO2) from fuel combustion in
-      industry (IPCC category 1A2), not accounting for negative emissions from bioenergy
-      with CCS (BECCS) in these sectors
+    description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
+      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
-    description: Emissions of fossil carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
+    description: Emissions of carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial and AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
@@ -218,7 +215,7 @@
       (IPCC categories 2A, B, C, E), net of negative emissions using CCS
     unit: "{Level-3 Species}"
 - Gross Emissions|CO2|Industrial Processes:
-    description: Gross emissions of fossil carbon dioxide (CO2) from industrial processes
+    description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 2A, B, C, E), not accounting for negative emissions from
       bioenergy with CCS (BECCS) in these sectors
     unit: Mt CO2/yr
