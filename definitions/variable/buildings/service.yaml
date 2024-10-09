@@ -1,12 +1,5 @@
-- Energy Service|Commercial|Floor Space:
-    description: Energy service demand for conditioned floor space in commercial buildings
+- Energy Service|{Residential & Commercial}|Floor Space:
+    description: Energy service demand for conditioned floor space
+      in {Residential & Commercial} buildings
     unit: bn m2
-    tier: "2"
-- Energy Service|Residential and Commercial|Floor Space:
-    description: Energy service demand for conditioned floor space in buildings
-    unit: bn m2
-    tier: "2"
-- Energy Service|Residential|Floor Space:
-    description: Energy service demand for conditioned floor space in residential buildings
-    unit: bn m2
-    tier: "2"
+    tier: 2
