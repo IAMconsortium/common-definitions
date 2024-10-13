@@ -28,5 +28,5 @@
       or materials, or to enhance the productivity of oil and/or natural gas reservoirs
     unit: Mt CO2/yr
 - Carbon Capture|Utilization|{Carbon Utilization Type}:
-    description: Captured carbon dioxide (CO2) that is used in {Carbon Utilization Type}
+    description: Captured carbon dioxide (CO2) that is used to produce {Carbon Utilization Type}
     unit: Mt CO2/yr
