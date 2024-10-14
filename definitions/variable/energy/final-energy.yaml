@@ -108,6 +108,8 @@
 - Final Energy|Carbon Management|Other:
     description: Use of other energy sources for carbon management
     unit: EJ/yr
+# the list of carbon management technologies is given in
+# definitions/variable/emissions/tag_carbon-management.yaml
 - Final Energy|Carbon Management|{Carbon Management Technology}:
     description: Energy use for carbon management by {Carbon Management Technology}
     unit: EJ/yr
