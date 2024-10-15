@@ -3,7 +3,7 @@
     # Electricity is treated separately from other secondary energy carriers
     - Liquids:
         description: refined liquid fuels including oil products, fuels from gas and coal,
-          synthetic fossil fuels and biofuels
+          synthetic fuels and biofuels
         tier: "1"
     - Liquids|Biomass:
         description: liquid fuels from biomass
