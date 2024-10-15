@@ -13,9 +13,6 @@
 - Secondary Energy|Heat|Biomass|{CCS}:
     description: Centralized heat generation from biomass, including biogas, {CCS}
     unit: EJ/yr
-- Secondary Energy|Heat|{Primary Fossil Fuel}:
-    description: Centralized heat generation from {Primary Fossil Fuel}
-    unit: EJ/yr
 - Secondary Energy|Heat|{Primary Fossil Fuel}|{CCS}:
     description: Centralized heat generation from {Primary Fossil Fuel} {CCS}
     unit: EJ/yr
