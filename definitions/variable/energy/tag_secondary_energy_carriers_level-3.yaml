@@ -1,6 +1,8 @@
 - Secondary Fuel Level 3:
-    # This should be a super-set of `tag_secondary_energy_carriers.yaml`
+    # This list has secondary-energy carriers together with their detailed origin
+    # (e.g., liquids from hydrogen, which in turn was created from electricity)
     # Electricity is treated separately from other secondary energy carriers
+    # This should be a super-set of `tag_secondary_energy_carriers_level-2.yaml`
     - Liquids:
         description: refined liquid fuels including oil products, fuels from gas and coal,
           synthetic fuels and biofuels
