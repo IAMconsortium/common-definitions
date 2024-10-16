@@ -242,6 +242,25 @@
         description: centralized heat from fossil methane ('natural gas') without carbon
           capture and storage (CCS)
         tier: "2"
+    - Heat|Hydrogen:
+        description: centralized heat from hydrogen
+        tier: "2"
+    - Heat|Hydrogen|Fossil:
+        description: centralized heat using hydrogen from fossils
+        unit: EJ/yr
+        tier: "3"
+    - Heat|Hydrogen|Biomass:
+        description: centralized heat using hydrogen generated from biomass
+        unit: EJ/yr
+        tier: "3"
+    - Heat|Hydrogen|Electricity:
+        description: centralized heat using hydrogen from electrolysis
+        unit: EJ/yr
+        tier: "3"
+    - Heat|Hydrogen|Other:
+        description: centralized heat using hydrogen from other sources
+        unit: EJ/yr
+        tier: "3"
     - Heat|Geothermal:
         description: centralized heat from geothermal energy excluding ground-source heat pumps
         tier: "2"

@@ -123,6 +123,9 @@
     - Heat|Gas:
         description: centralized heat from fossil methane ('natural gas')
         tier: "2"
+    - Heat|Hydrogen:
+        description: centralized heat from hydrogen
+        tier: "2"
     - Heat|Geothermal:
         description: centralized heat from geothermal energy excluding ground-source heat pumps
         tier: "2"
