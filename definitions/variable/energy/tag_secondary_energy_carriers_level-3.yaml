@@ -122,17 +122,53 @@
     - Hydrogen|Biomass:
         description: hydrogen generated from biomass
         tier: "2"
+    - Hydrogen|Biomass|w/ CCS:
+        description: hydrogen generated from biomass in combination with carbon capture
+          and storage (CCS)
+        tier: "2"
+    - Hydrogen|Biomass|w/o CCS:
+        description: hydrogen generated from biomass without carbon capture and storage (CCS)
+        tier: "2"
     - Hydrogen|Fossil:
         description: hydrogen from fossil fuels including natural gas, oil and coal
+        tier: "2"
+    - Hydrogen|Fossil|w/ CCS:
+        description: hydrogen from fossil fuels including natural gas, oil and coal in
+          combination with carbon capture and storage (CCS)
+        tier: "2"
+    - Hydrogen|Fossil|w/o CCS:
+        description: hydrogen from fossil fuels including natural gas, oil and coal
+          without carbon capture and storage (CCS)
         tier: "2"
     - Hydrogen|Oil:
         description: hydrogen from refined crude oil
         tier: "2"
+    - Hydrogen|Oil|w/ CCS:
+        description: hydrogen from refined crude oil in combination with carbon capture
+          and storage (CCS)
+        tier: "2"
+    - Hydrogen|Oil|w/o CCS:
+        description: hydrogen from refined crude oil without carbon capture and storage (CCS)
+        tier: "2"
     - Hydrogen|Coal:
         description: hydrogen from coal
         tier: "2"
+    - Hydrogen|Coal|w/ CCS:
+        description: hydrogen from coal in combination with carbon capture and storage (CCS)
+        tier: "2"
+    - Hydrogen|Coal|w/o CCS:
+        description: hydrogen from coal without carbon capture and storage (CCS)
+        tier: "2"
     - Hydrogen|Gas:
         description: hydrogen from fossil methane ('natural gas')
+        tier: "2"
+    - Hydrogen|Gas|w/ CCS:
+        description: hydrogen from fossil methane ('natural gas') in combination with
+          carbon capture and storage (CCS)
+        tier: "2"
+    - Hydrogen|Gas|w/o CCS:
+        description: hydrogen from fossil methane ('natural gas') without carbon capture
+          and storage (CCS)
         tier: "2"
     - Hydrogen|Electricity:
         description: hydrogen from electrolysis
@@ -155,17 +191,56 @@
     - Heat|Biomass:
         description: centralized heat from biomass, including biogas
         tier: "2"
+    - Heat|Biomass|w/ CCS:
+        description: centralized heat from biomass in combination with carbon capture
+          and storage (CCS)
+        tier: "2"
+    - Heat|Biomass|w/o CCS:
+        description: centralized heat from biomass without carbon capture and storage (CCS)
+        tier: "2"
     - Heat|Fossil:
         description: centralized heat from fossil fuels including natural gas, oil and coal
+        tier: "2"
+    - Heat|Fossil|w/ CCS:
+        description: centralized heat from fossil fuels including natural gas, oil and coal
+          in combination with carbon capture and storage (CCS)
+        tier: "2"
+    - Heat|Fossil|w/o CCS:
+        description: centralized heat from fossil fuels including natural gas, oil and coal
+          without carbon capture and storage (CCS)
         tier: "2"
     - Heat|Oil:
         description: centralized heat from refined crude oil
         tier: "2"
+    - Heat|Oil|w/ CCS:
+        description: centralized heat from refined crude oil in combination with carbon
+          capture and storage (CCS)
+        tier: "2"
+    - Heat|Oil|w/o CCS:
+        description: centralized heat from refined crude oil without carbon capture and
+          storage (CCS)
+        tier: "2"
     - Heat|Coal:
-        description: centralized heat from coal
+        description: centralized heat from coal including lignite
+        tier: "2"
+    - Heat|Coal|w/ CCS:
+        description: centralized heat from coal including lignite in combination with
+          carbon capture and storage (CCS)
+        tier: "2"
+    - Heat|Coal|w/o CCS:
+        description: centralized heat from coal including lignite without carbon capture
+          and storage (CCS)
         tier: "2"
     - Heat|Gas:
         description: centralized heat from fossil methane ('natural gas')
+        tier: "2"
+    - Heat|Gas|w/ CCS:
+        description: centralized heat from fossil methane ('natural gas') in combination
+          with carbon capture and storage (CCS)
+        tier: "2"
+    - Heat|Gas|w/o CCS:
+        description: centralized heat from fossil methane ('natural gas') without carbon
+          capture and storage (CCS)
         tier: "2"
     - Heat|Geothermal:
         description: centralized heat from geothermal energy excluding ground-source heat pumps
@@ -182,4 +257,3 @@
     - Heat|Other:
         description: centralized heat from sources that do not fit any other category
         tier: "2"
-

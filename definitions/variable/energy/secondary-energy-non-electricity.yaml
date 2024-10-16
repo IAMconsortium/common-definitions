@@ -2,17 +2,3 @@
     description: Total production of {Secondary Fuel Level 3}
     unit: EJ/yr
     tier: "{Secondary Fuel Level 3}"
-
-- Secondary Energy|Hydrogen|Biomass|{CCS}:
-    description: Production of hydrogen from biomass {CCS}
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|{Primary Fossil Fuel}|{CCS}:
-    description: Production of hydrogen from {Primary Fossil Fuel} {CCS}
-    unit: EJ/yr
-
-- Secondary Energy|Heat|Biomass|{CCS}:
-    description: Centralized heat generation from biomass, including biogas, {CCS}
-    unit: EJ/yr
-- Secondary Energy|Heat|{Primary Fossil Fuel}|{CCS}:
-    description: Centralized heat generation from {Primary Fossil Fuel} {CCS}
-    unit: EJ/yr

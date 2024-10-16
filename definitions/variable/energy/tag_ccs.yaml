@@ -1,5 +1,6 @@
 - CCS:
     - w/ CCS:
-        description: in combination with CCS
+        description: in combination with carbon capture
+          and storage (CCS)
     - w/o CCS:
-        description: without CCS
+        description: without carbon capture and storage (CCS)
