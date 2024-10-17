@@ -1,4 +1,4 @@
 - Secondary Energy|{Secondary Fuel Level 3}:
-    description: Total production of {Secondary Fuel Level 3}
+    description: Production of {Secondary Fuel Level 3}
     unit: EJ/yr
     tier: "{Secondary Fuel Level 3}"
