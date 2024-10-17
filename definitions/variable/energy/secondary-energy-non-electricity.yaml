@@ -2,3 +2,12 @@
     description: Production of {Secondary Fuel Level 3}
     unit: EJ/yr
     tier: "{Secondary Fuel Level 3}"
+
+- Capacity|{Secondary Fuel Level 2}:
+    description: Installed (available) capacity to produce {Secondary Fuel Level 2}
+    unit: GW
+    tier: "{Secondary Fuel Level 2}"
+- Capacity|{Secondary Fuel Level 2}|{CCS}:
+    description: Installed (available) capacity to produce {Secondary Fuel Level 2} {CCS}
+    unit: GW
+    tier: "{Secondary Fuel Level 2}"
