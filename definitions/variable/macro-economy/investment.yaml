@@ -2,9 +2,17 @@
     description: Total economy-wide investments including macro-economic capital stock,
       energy system, R&D, etc.
     unit: billion USD_2010/yr
+    tier: 1
+
 - Investment|Agriculture:
     description: Investment related to agricultural activity
     unit: billion USD_2010/yr
+    tier: 1
+- Investment|Forestry:
+    description: Investment into growing forests
+    unit: billion USD_2010/yr
+    tier: 2
+
 - Investment|Energy Supply:
     description: Investments in the energy supply system
     unit: billion USD_2010/yr
@@ -30,6 +38,12 @@
     unit: billion USD_2010/yr
     note: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.
+
+- Investment|Infrastructure:
+    description: Investment into infrastructure
+    unit: billion USD_2010/yr
+    tier: 2
 - Investment|Energy Efficiency:
     description: Investments in efficiency-increasing components of energy demand
     unit: billion USD_2010/yr
+    tier: 2
