@@ -19,23 +19,24 @@
       {Primary Fossil Fuel}
     unit: billion USD_2010/yr
     tier: 1
-- Investment|Energy Supply|Liquids:
-    description: Investments for the production of liquid fuels
+- Investment|Energy Supply|Extraction|Uranium:
+    description: Investments for extraction, transportation, conversion and enrichment
+      of uranium
     unit: billion USD_2010/yr
     tier: 1
-    note: For plants equipped with CCS, the investment in the capturing equipment should
-      be included but not the costs related to CO2 transport and storage.
-- Investment|Energy Supply|Heat:
-    description: Investments in heat generation infrastructure
-    unit: billion USD_2010/yr
-    tier: "{Secondary Fuel Level 2}"
-- Investment|Energy Supply|Hydrogen:
-    description: Investments for the production of hydrogen from all energy sources
-      (fossil, biomass, electrolysis)
+- Investment|Energy Supply|{Secondary Fuel Level 2}:
+    description: Investments for the production of {Secondary Fuel Level 2}
     unit: billion USD_2010/yr
     tier: "{Secondary Fuel Level 2}"
     note: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.
+- Investment|Energy Supply|{Secondary Fuel Level 2}|{CCS}:
+    description: Investments for the production of {Secondary Fuel Level 2} {CCS}
+    unit: billion USD_2010/yr
+    tier: "{Secondary Fuel Level 2}"
+    note: For plants equipped with CCS, the investment in the capturing equipment should
+      be included but not the costs related to CO2 transport and storage.
+
 - Investment|Energy Efficiency:
     description: Investments in efficiency-increasing components of energy demand
     unit: billion USD_2010/yr
