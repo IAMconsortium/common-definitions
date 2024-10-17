@@ -1,0 +1,146 @@
+- Secondary Fuel Level 2:
+    # This list has secondary-energy carriers together with their origin
+    # (e.g., liquids from hydrogen)
+    # Electricity is treated separately from other secondary energy carriers
+    # This should be a super-set of `tag_secondary_energy_carriers_level-1.yaml`
+    - Liquids:
+        description: refined liquid fuels including oil products, fuels from gas and coal,
+          synthetic fuels and biofuels
+        tier: "1"
+    - Liquids|Biomass:
+        description: liquid fuels from biomass
+        tier: "2"
+    - Liquids|Fossil:
+        description: liquid fuels from fossil fuels including coal, natural gas and
+          conventional/unconventional oil
+        tier: "2"
+    - Liquids|Oil:
+        description: liquid fuels from refined crude oil
+        tier: "2"
+    - Liquids|Coal:
+        description: liquid fuels from coal
+        tier: "2"
+    - Liquids|Gas:
+        description: liquid fuels from fossil methane ('natural gas')
+        tier: "2"
+    - Liquids|Hydrogen:
+        description: liquid fuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
+        tier: "2"
+    - Liquids|Electricity:
+        description: liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen
+          is not explicitly modeled as an intermediate product)
+        tier: "2"
+    - Liquids|Other:
+        description: sources that do not fit any other category
+        tier: "2"
+
+    - Solids:
+        description: solid energy carriers, including coal, briquettes, coke,
+          and wood pellets
+        tier: "1"
+    - Solids|Biomass:
+        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets),
+          not including traditional bioenergy
+        tier: "2"
+    - Solids|Coal:
+        description: coal, lignite, and derived products (e.g., coke, briquettes)
+        tier: "2"
+
+    - Gases:
+        description: gaseous fuels including natural gas and biogas, not including hydrogen
+        tier: "1"
+    - Gases|Biomass:
+        description: gaseous fuels from biogenic sources, mainly biogas
+        tier: "2"
+    - Gases|Fossil:
+        description: gaseous fuels from fossil fuels including natural gas and coal
+        tier: "2"
+    - Gases|Coal:
+        description: gaseous fuels from fossil coal gasification
+        tier: "2"
+    - Gases|Gas:
+        description: fossil methane ("natural gas")
+        tier: "2"
+    - Gases|Hydrogen:
+        description: gaseous fuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
+        tier: "2"
+    - Gases|Electricity:
+        description: gas from electricity i.e., 'power-to-gas' (if hydrogen is not
+          explicitly modeled as an intermediate product)
+        tier: "2"
+    - Gases|Other:
+        description: gaseous fuels from sources that do not fit any other category
+        tier: "2"
+
+    - Hydrogen:
+        description: hydrogen
+        tier: "1"
+    - Hydrogen|Biomass:
+        description: hydrogen generated from biomass
+        tier: "2"
+    - Hydrogen|Fossil:
+        description: hydrogen from fossil fuels including natural gas, oil and coal
+        tier: "2"
+    - Hydrogen|Oil:
+        description: hydrogen from refined crude oil
+        tier: "2"
+    - Hydrogen|Coal:
+        description: hydrogen from coal
+        tier: "2"
+    - Hydrogen|Gas:
+        description: hydrogen from fossil methane ('natural gas')
+        tier: "2"
+    - Hydrogen|Electricity:
+        description: hydrogen from electrolysis
+        tier: "2"
+    - Hydrogen|Nuclear:
+        description: hydrogen from nuclear energy
+          (e.g. thermochemical water splitting with nuclear heat)
+        tier: "2"
+    - Hydrogen|Solar:
+        description: hydrogen from solar energy
+          (e.g. thermochemical water splitting with solar heat)
+        tier: "2"
+    - Hydrogen|Other:
+        description: hydrogen from other sources
+        tier: "2"
+
+    - Heat:
+        description: centralized heat
+        tier: "1"
+    - Heat|Biomass:
+        description: centralized heat from biomass, including biogas
+        tier: "2"
+    - Heat|Fossil:
+        description: centralized heat from fossil fuels including natural gas, oil and coal
+        tier: "2"
+    - Heat|Oil:
+        description: centralized heat from refined crude oil
+        tier: "2"
+    - Heat|Coal:
+        description: centralized heat from coal
+        tier: "2"
+    - Heat|Gas:
+        description: centralized heat from fossil methane ('natural gas')
+        tier: "2"
+    - Heat|Hydrogen:
+        description: centralized heat from hydrogen
+        tier: "2"
+    - Heat|Geothermal:
+        description: centralized heat from geothermal energy excluding ground-source heat pumps
+        tier: "2"
+    - Heat|Electricity:
+        description: centralized heat from electricity
+        tier: "2"
+    - Heat|Nuclear:
+        description: centralized heat from nuclear energy
+        tier: "2"
+    - Heat|Solar:
+        description: centralized heat from solar energy
+        tier: "2"
+    - Heat|Other:
+        description: centralized heat from sources that do not fit any other category
+        tier: "2"
+

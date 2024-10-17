@@ -13,21 +13,21 @@
 - Final Energy|Non-Energy Use:
     description: Final energy consumption in non-combustion processes
     unit: EJ/yr
-- Final Energy|Non-Energy Use|{Secondary Fuel with Source}:
-    description: Final energy consumption of {Secondary Fuel with Source} in non-combustion processes
+- Final Energy|Non-Energy Use|{Secondary Fuel Level 2}:
+    description: Final energy consumption of {Secondary Fuel Level 2} in non-combustion processes
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
+    tier: "{Secondary Fuel Level 2}"
 - Final Energy|Non-Energy Use|Waste:
     description: Final energy consumption of non-renewable waste in non-combustion processes
     unit: EJ/yr
 - Final Energy|Non-Energy Use|{Non-Energy Sector}:
     description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
     unit: EJ/yr
-- Final Energy|Non-Energy Use|{Non-Energy Sector}|{Secondary Fuel with Source}:
-    description: Final energy consumption of {Secondary Fuel with Source} by the {Non-Energy Sector}
+- Final Energy|Non-Energy Use|{Non-Energy Sector}|{Secondary Fuel Level 2}:
+    description: Final energy consumption of {Secondary Fuel Level 2} by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
+    tier: "{Secondary Fuel Level 2}"
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Waste:
     description: Final energy consumption of non-renewable waste by the {Non-Energy Sector}
       for non-combustion processes
@@ -45,10 +45,10 @@
     description: Final energy consumption of electricity (including on-site solar PV),
       excluding transmission/distribution losses
     unit: EJ/yr
-- Final Energy|{Secondary Fuel with Source}:
-    description: Final energy fuel consumption of {Secondary Fuel with Source}
+- Final Energy|{Secondary Fuel Level 2}:
+    description: Final energy fuel consumption of {Secondary Fuel Level 2}
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
+    tier: "{Secondary Fuel Level 2}"
 - Final Energy|Geothermal:
     description: Final energy consumption of geothermal energy (e.g., from decentralized
       or small-scale geothermal heating systems) excluding geothermal heat pumps
@@ -71,10 +71,10 @@
 - Final Energy|{Sector}|Electricity:
     description: Final energy consumption by the {Sector} of electricity
     unit: EJ/yr
-- Final Energy|{Sector}|{Secondary Fuel with Source}:
-    description: Final energy consumption by the {Sector} of {Secondary Fuel with Source}
+- Final Energy|{Sector}|{Secondary Fuel Level 2}:
+    description: Final energy consumption by the {Sector} of {Secondary Fuel Level 2}
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
+    tier: "{Secondary Fuel Level 2}"
 - Final Energy|{Sector}|Other:
     description: Final energy consumption by the {Sector} of other energy sources
     unit: EJ/yr
@@ -100,11 +100,11 @@
     unit: EJ/yr
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
     navigate: Final Energy|Carbon Removal|Electricity
-- Final Energy|Carbon Management|{Secondary Fuel with Source}:
-    description: Use of {Secondary Fuel with Source} for carbon management
+- Final Energy|Carbon Management|{Secondary Fuel Level 2}:
+    description: Use of {Secondary Fuel Level 2} for carbon management
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
-    navigate: Final Energy|Carbon Removal|{Secondary Fuel with Source}
+    tier: "{Secondary Fuel Level 2}"
+    navigate: Final Energy|Carbon Removal|{Secondary Fuel Level 2}
 - Final Energy|Carbon Management|Other:
     description: Use of other energy sources for carbon management
     unit: EJ/yr
@@ -119,12 +119,12 @@
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
     navigate: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
     engage: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
-- Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel with Source}:
-    description: Use of {Secondary Fuel with Source} for carbon management by {Carbon Management Technology}
+- Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel Level 2}:
+    description: Use of {Secondary Fuel Level 2} for carbon management by {Carbon Management Technology}
     unit: EJ/yr
-    tier: "{Secondary Fuel with Source}"
-    navigate: Final Energy|Carbon Removal|{Secondary Fuel with Source}|{Carbon Management Technology}
-    engage: Final Energy|Carbon Removal|{Secondary Fuel with Source}|{Carbon Management Technology}
+    tier: "{Secondary Fuel Level 2}"
+    navigate: Final Energy|Carbon Removal|{Secondary Fuel Level 2}|{Carbon Management Technology}
+    engage: Final Energy|Carbon Removal|{Secondary Fuel Level 2}|{Carbon Management Technology}
 - Final Energy|Carbon Management|{Carbon Management Technology}|Other:
     description: Use of other energy sources for carbon removal by {Carbon Management Technology}
     unit: EJ/yr

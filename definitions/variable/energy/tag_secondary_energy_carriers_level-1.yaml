@@ -1,0 +1,16 @@
+- Secondary Fuel Level 1:
+    # This list has secondary-energy carriers
+    # A higher level of detail regarding the source of the energy carrier is given
+    # via the file `tag_secondary_energy_carriers_level-2.yaml`
+    # Electricity is treated separately from other secondary energy carriers
+    - Liquids:
+        description: refined liquid fuels including oil products, fuels from gas and coal,
+          synthetic fossil fuels and biofuels
+    - Solids:
+        description: solid fuels
+    - Gases:
+        description: gaseous fuels not including hydrogen
+    - Hydrogen:
+        description: hydrogen
+    - Heat:
+        description: heat

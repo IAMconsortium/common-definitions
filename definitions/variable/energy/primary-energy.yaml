@@ -38,11 +38,11 @@
 - Primary Energy|Biomass|Electricity|{CCS}:
     description: Primary energy input of biomass for electricity generation {CCS}
     unit: EJ/yr
-- Primary Energy|Biomass|{Secondary Fuel}:
-    description: Primary energy input of biomass for conversion to {Secondary Fuel}
+- Primary Energy|Biomass|{Secondary Fuel Level 1}:
+    description: Primary energy input of biomass for conversion to {Secondary Fuel Level 1}
     unit: EJ/yr
-- Primary Energy|Biomass|{Secondary Fuel}|{CCS}:
-    description: Primary energy input of biomass for conversion to {Secondary Fuel} {CCS}
+- Primary Energy|Biomass|{Secondary Fuel Level 1}|{CCS}:
+    description: Primary energy input of biomass for conversion to {Secondary Fuel Level 1} {CCS}
     unit: EJ/yr
 
 - Primary Energy|Non-Biomass Renewables:
@@ -71,13 +71,13 @@
     description: Primary energy consumption of {Primary Fossil Fuel}
       for electricity generation {CCS}
     unit: EJ/yr
-- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}:
+- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel Level 1}:
     description: Primary energy consumption of {Primary Fossil Fuel}
-      for conversion to {Secondary Fuel}
+      for conversion to {Secondary Fuel Level 1}
     unit: EJ/yr
-- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel}|{CCS}:
+- Primary Energy|{Primary Fossil Fuel}|{Secondary Fuel Level 1}|{CCS}:
     description: Primary energy consumption of {Primary Fossil Fuel} for
-      conversion to {Secondary Fuel} {CCS}
+      conversion to {Secondary Fuel Level 1} {CCS}
     unit: EJ/yr
 
 - Primary Energy|Secondary Energy Trade:
