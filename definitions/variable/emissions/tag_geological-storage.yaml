@@ -1,0 +1,12 @@
+- Geogological Storage Source:
+    - Bioenergy:
+        description: geological storage of CO2 from biogenic orgin, i.e.,
+          bioenergy with carbon capture and storage (BECCS)
+    - Direct Air Capture:
+        description: direct air capture in combination with carbon-capture and
+          sequestration (CCS)
+    - Synthetic Fuels:
+        description: geological storage of CO2 captured from burning synthetic fuels
+          created from carbon-capture-and-utilization (CCU)
+    - Other:
+        description: geological storage of CO2 from other sources
