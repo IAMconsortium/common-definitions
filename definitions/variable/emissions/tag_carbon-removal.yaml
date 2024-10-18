@@ -1,16 +1,8 @@
 - Carbon-Removal Option:
-    - Forestry:
-        description: all forestry-related carbon dioxide removal methods, in particular
-          afforestation, reforestation, agroforestry and improved forest management
     - Peatland and Wetland Restoration:
         description: restoration of peat and coastal wetlands
-    - Soil Carbon Sequestration:
-        description: soil carbon sequestration in croplands and graslands
     - Durable Wood Products:
         description: use of durable wood products and building elements
-    - Biochar:
-        description: conversion of biomass to recalcitrant carbon via pyrolysis and its
-          subsequent application to croplands to increase soil carbon stocks
     - Bio-Oil Storage:
         description: use of bio-oil
     - Mineral Products:
