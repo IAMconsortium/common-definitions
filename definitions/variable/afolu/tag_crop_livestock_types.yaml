@@ -15,7 +15,7 @@
         tier: 2
     - Energy Crops:
         description: second-generation bioenergy crops 
-        (short rotation grasses, short rotation trees)
+          (short rotation grasses, short rotation trees)
         tier: 1
 - Crop Types w/o Energy Crops:
     - Cereals:
