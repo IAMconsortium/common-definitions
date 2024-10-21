@@ -301,7 +301,7 @@
     subdomain: Agricultural Prices
 - Price|Agriculture|Energy crops:
     description: Farm-gate price of second-generation bioenergy crops 
-    (short rotation grasses, short rotation trees)
+      (short rotation grasses, short rotation trees)
     unit: USD_2010/GJ
     weight: Agricultural Production|Crops|Energy Crops
     tier: 1
