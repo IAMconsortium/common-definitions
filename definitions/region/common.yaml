@@ -190,7 +190,7 @@
         notes: Depending on the spatial resolution, some models report Northern Africa
           as part of the Middle East region.
     - China+ (R10):
-        description: Centrally-planned Asia, primarily China
+        description: Eastern Asia, primarily China
         ar6: R10CHINA+
         countries: [ China, Hong Kong, Macao, Mongolia, North Korea, South Korea ]
     - Europe (R10):
