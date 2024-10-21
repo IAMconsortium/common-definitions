@@ -48,8 +48,8 @@
 - Primary Energy|Non-Biomass Renewables:
     description: Primary energy consumption of renewable energy exluding biomass
     unit: EJ/yr
-- Primary Energy|{Non-Biomass Renewables}:
-    description: Primary energy consumption of {Non-Biomass Renewables}
+- Primary Energy|{Primary Non-Biomass Renewables}:
+    description: Primary energy consumption of {Primary Non-Biomass Renewables}
     unit: EJ/yr
 
 - Primary Energy|Nuclear:
