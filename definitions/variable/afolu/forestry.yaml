@@ -6,7 +6,7 @@
     domain: AFOLU
     subdomain: Forestry Demand
 - Forestry Demand Roundwood|{Raw products}:
-    description: "{Raw products}" demand
+    description: Demand {Raw products}
     unit: million m3/yr
     tier: 2
     domain: AFOLU
