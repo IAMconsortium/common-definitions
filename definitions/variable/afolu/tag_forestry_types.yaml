@@ -1,0 +1,24 @@
+- Raw products:
+    - Industrial Roundwood:
+        description: Industrial Roundwood
+    - Wood fuel:
+        description: Wood fuel
+- Semi-finished products:
+    - Sawnwood:
+        description: Sawnwood
+        unit: million m3/yr
+    - Plywood:
+        description: Plywood
+        unit: million m3/yr
+    - Fiberboard:
+        description: Fiberboard
+        unit: million m3/yr
+    - Other wood products:
+        description: Other wood products
+        unit: million m3/yr
+    - Mechanical pulp:
+        description: Mechanical pulp
+        unit: million tDM/yr
+    - Chemical pulp:
+        description: Chemical pulp
+        unit: million tDM/yr

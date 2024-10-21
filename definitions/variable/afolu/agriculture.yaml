@@ -1,156 +1,309 @@
+### Agricultural Demand
 - Agricultural Demand:
     description: Total demand for food, non-food and feed products (crops and livestock)
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Domestic use (CONS)
-    tier: 2
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Crops:
     description: Demand for crops including food, feed products and bioenergy
       (1st & 2nd generation crops)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Crops (CRP)
-    tier: 2
-- Agricultural Demand|Crops|Food:
-    description: Demand for food crops
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Crops (CRP)
-    tier: 3
-- Agricultural Demand|Crops|Food|{Cereal and Non-Energy Crop Types}:
-    description: Demand for food from {Cereal and Non-Energy Crop Types}
-    unit: million t DM/yr
-    agmip:
-    tier: 4
-- Agricultural Demand|Crops|Feed:
-    description: Demand for feed crops
-    unit: million t DM/yr
-    agmip: Feed demand (FEED) - Crops (CRP)
-    tier: 3
-- Agricultural Demand|Crops|Feed|{Cereal and Non-Energy Crop Types}:
-    description: Demand for feed from {Cereal and Non-Energy Crop Types}
-    unit: million t DM/yr
-    agmip:
-    tier: 4
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Crops|Bioenergy:
     description: Demand for bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Crops|Bioenergy|1st Generation:
     description: Demand for 1st generation bioenergy crops (sugar, starch and oil crops)
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Crops|Bioenergy|2nd generation:
-    description: Demand for second-generation bioenergy crops (short rotation grasses, short rotation trees)
+    description: Demand for second-generation bioenergy crops 
+    (short rotation grasses, short rotation trees)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Energy Crops (ECP)
-    tier: 3
-- Agricultural Demand|Crops|Other:
-    description: Demand of crops for other uses
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Crops|Feed:
+    description: Demand for feed crops
+    unit: million t DM/yr
+    agmip: Feed demand (FEED) - Crops (CRP)
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Crops|Feed|{Crop Types w/o Energy Crops}:
+    description: Demand for feed crops - {Crop Types w/o Energy Crops}
     unit: million t DM/yr
     agmip:
     tier: 3
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Crops|Food:
+    description: Demand for food crops
+    unit: million t DM/yr
+    agmip: Food demand (FOOD) - Crops (CRP)
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Crops|Food|{Crop Types w/o Energy Crops}:
+    description: Demand for food crops - {Crop Types w/o Energy Crops}
+    unit: million t DM/yr
+    agmip:
+    tier: 3
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Crops|Other:
+    description: Demand for crops for other uses
+    unit: million t DM/yr
+    agmip:
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Livestock:
-    description: Demand for livestock products
+    description: Demand for livestock products (excluding fish)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - LSP
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Livestock|Feed:
+    description: Demand for livestock products used as feed (excluding fish)
+    unit: million t DM/yr
+    agmip:
     tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Livestock|Food:
-    description: Demand for livestock products used as food
+    description: Demand for livestock products used as food (excluding fish)
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Livestock (LSP)
-    tier: 3
-- Agricultural Demand|Livestock|Food|Dairy:
-    description: Demand for livestock products used as food from dairy (milk and eggs)
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Dairy (DRY)
-    tier: 4
-- Agricultural Demand|Livestock|Food|Ruminant:
-    description: Demand for livestock products used as food from ruminants
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Ruminant (RUM)
-    tier: 4
-- Agricultural Demand|Livestock|Food|Non-Ruminant:
-    description: Demand for livestock products used as food from monogastrics and poultry
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Non-Ruminant (NRM)
-    tier: 4
-- Agricultural Demand|Livestock|Feed:
-    description: Demand for livestock products used as feed
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
+- Agricultural Demand|Livestock|Food|{Livestock Products}:
+    description: Demand for livestock products used as food - {Livestock Products}
     unit: million t DM/yr
     agmip:
     tier: 3
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Livestock|Other:
     description: Demand for livestock products for other uses
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Residues:
     description: Demand for residues from agricultural production for feed, bioenergy and
       other uses
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Residues|Feed:
     description: Demand for residues as feed
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Residues|Bioenergy:
     description: Demand for residues as bioenergy
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 - Agricultural Demand|Residues|Other:
     description: Demand of residues for other uses
     unit: million t DM/yr
     agmip:
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Demand
 
+### Agricultural Production
 - Agricultural Production:
-    description: Total production of food, non-food and feed products (crops and livestock)
-      and bioenergy crops (1st & 2nd generation)
+    description: Total production of food, non-food and feed products 
+    (crops and livestock) and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
-    tier: 2
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Production
 - Agricultural Production|Crops:
     description: Production of crops
     unit: million t DM/yr
     agmip: Production (PROD) - All crops (CRP)
-    tier: 2
-- Agricultural Production|Crops|{Cereal and Non-Energy Crop Types}:
-    description: Production of {Cereal and Non-Energy Crop Types}
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Production
+- Agricultural Production|Crops|{Crop Types}:
+    description: Production of {Crop Types}
     unit: million t DM/yr
-    agmip:
-    tier: 3
-- Agricultural Production|Crops|Energy Crops:
-    description: Production of purpose-grown bioenergy crops
-      (short-rotation grasses and trees)
-    unit: million t DM/yr
-    agmip: Production (PROD) - Energy crops (ECP)
-    tier: 2
+    tier: {Crop Types}
+    domain: AFOLU
+    subdomain: Agricultural Production
 - Agricultural Production|Livestock:
-    description: Production of livestock products
+    description: Production of livestock products (excluding fish)
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
-    tier: 2
-- Agricultural Production|Livestock|Dairy:
-    description: Production of dairy livestock products
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Production
+- Agricultural Production|Livestock|{Livestock Products}:
+    description: Production of {Livestock Products}
     unit: million t DM/yr
     agmip: Production (PROD) - Dairy (DRY)
-    tier: 3
-- Agricultural Production|Livestock|Ruminant:
-    description: Production of livestock products from ruminants
-    unit: million t DM/yr
-    agmip: Production (PROD) - Ruminant (RUM)
-    tier: 3
-- Agricultural Production|Livestock|Non-Ruminant:
-    description: Production of livestock products from monogastrics and poultry
-    unit: million t DM/yr
-    agmip: Production (PROD) - Non-Ruminant (NRM)
-    tier: 3
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Production
 - Agricultural Production|Residues:
     description: Production of agricultural residues
     unit: million t DM/yr
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Production
+
+### Agricultural Trade
+- Agricultural Trade:
+    description: Net export of food, non-food and feed products 
+    (crops and livestock) and bioenergy crops (1st & 2nd generation)
+    unit: million t DM/yr
+    agmip: Production (PROD)
+    tier: 2
+    domain: AFOLU
+    subsubdomain: Agricultural Trade
+- Agricultural Trade|Crops:
+    description: Net export of crops
+    unit: million t DM/yr
+    agmip: Production (PROD) - All crops (CRP)
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Trade
+- Agricultural Trade|Crops|{Crop Types}:
+    description: Net export of {Crop Types}
+    unit: million t DM/yr
+    agmip:
+    tier: {Crop Types}
+    domain: AFOLU
+    subdomain: Agricultural Trade
+- Agricultural Trade|Livestock:
+    description: Net export of livestock products (excluding fish)
+    unit: million t DM/yr
+    agmip: Production (PROD) - Livestock (LSP)
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Trade
+- Agricultural Trade|Livestock|{Livestock Products}:
+    description: Net export of {Livestock Products}
+    unit: million t DM/yr
+    agmip: Production (PROD) - Dairy (DRY)
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Trade
+- Agricultural Trade|Residues:
+    description: Net export of agricultural residues
+    unit: million t DM/yr
     agmip:
     tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Trade
+
+### Crop Yields
+- Yield|Cropland|{Crop Types}:
+    description: Yield of cropland with {Crop Types}
+    unit: t DM/ha/yr
+    weight: Land Cover|Cropland
+    tier: {Crop Types}
+    domain: AFOLU
+    subdomain: Crop Yields
+
+### Fertilizer Use -> see sdg-indicators for nitrogen fertilizer use (Nitrogen|Cropland Budget|Inputs)
+- Fertilizer Use|Phosphorus:
+    description: Phosphorus fertilizer use on cropland (synthetic and organic)
+    unit: Tg P/yr
+    tier: 2
+    domain: AFOLU
+    subdomain: Cropland Input
+
+### Agricultural Prices
+- Price|Agriculture|Food Products [Index]:
+    description: Farm-gate price index of food crops and livestock products (weighted average)
+    unit: Index (2020 = 1)
+    weight: Agricultural Production
+    navigate: Price|Agriculture|Non-Energy Crops and Livestock|Index
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Livestock [Index]:
+    description: Farm-gate price index of livestock products (weighted average)
+    sdg: 2
+    weight: Agricultural Production|Livestock
+    unit: Index (2020 = 1)
+    shape: Price|Agriculture|Livestock|Index
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Crops [Index]:
+    description: Farm-gate price index of food crops (weighted average)
+    unit: Index (2020 = 1)
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Non-Energy Crops|Index
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Crops|Corn [Index]:
+    description: Farm-gate price index of corn / maize
+    unit: Index (2020 = 1)
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Corn|Index
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Crops|Soybean [Index]:
+    description: Farm-gate price index of soybean
+    unit: Index (2020 = 1)
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Soybean|Index
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Crops|Wheat [Index]:
+    description: Farm-gate price index of wheat
+    unit: Index (2020 = 1)
+    weight: Agricultural Production|Crops
+    navigate: Price|Agriculture|Wheat|Index
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Food Products|Crops|Rice [Index]:
+    description: Farm-gate price index of rice
+    unit: Index (2020 = 1)
+    weight: Agricultural Production|Crops
+    tier: 2
+    domain: AFOLU
+    subdomain: Agricultural Prices
+- Price|Agriculture|Energy crops:
+    description: Farm-gate price of second-generation bioenergy crops 
+    (short rotation grasses, short rotation trees)
+    unit: USD_2010/GJ
+    weight: Agricultural Production|Crops|Energy Crops
+    tier: 1
+    domain: AFOLU
+    subdomain: Agricultural Prices

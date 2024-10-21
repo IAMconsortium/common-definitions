@@ -4,6 +4,7 @@
     tier: 1
     drop_negative_weights: false
     weight: Emissions|CO2
+    domain: Driver
 - Capital Stock:
     description: Macroeconomic capital stock
     unit: billion USD_2010/yr
