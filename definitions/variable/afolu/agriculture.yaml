@@ -31,7 +31,7 @@
     subdomain: Agricultural Demand
 - Agricultural Demand|Crops|Bioenergy|2nd generation:
     description: Demand for second-generation bioenergy crops 
-    (short rotation grasses, short rotation trees)
+      (short rotation grasses, short rotation trees)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Energy Crops (ECP)
     tier: 1
@@ -140,7 +140,7 @@
 ### Agricultural Production
 - Agricultural Production:
     description: Total production of food, non-food and feed products 
-    (crops and livestock) and bioenergy crops (1st & 2nd generation)
+      (crops and livestock) and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
     tier: 1
@@ -183,7 +183,7 @@
 ### Agricultural Trade
 - Agricultural Trade:
     description: Net export of food, non-food and feed products 
-    (crops and livestock) and bioenergy crops (1st & 2nd generation)
+      (crops and livestock) and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
     tier: 2
