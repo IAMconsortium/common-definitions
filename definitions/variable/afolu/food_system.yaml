@@ -82,8 +82,8 @@
 
 - Food Waste [per capita]:
     description: Amount of food (crops and livestock) per capita that is disposed and 
-    not consumed (difference between food availabilty and food intake) - 
-    includes food losses and food waste
+      not consumed (difference between food availabilty and food intake) - 
+      includes food losses and food waste
     unit: kcal/cap/day
     sdg: 2
     weight: Population

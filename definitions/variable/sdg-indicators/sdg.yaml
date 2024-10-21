@@ -344,7 +344,7 @@
     sdg: 14
     skip-region-aggregation: true
 
-### Biodiversity indicators
+# Biodiversity indicators
 - Terrestrial Biodiversity|Mean Species Abundance:
     description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     unit: '%'
@@ -428,7 +428,7 @@
     domain: AFOLU
     subdomain: Biodiversity
 
-### Nitrogen inputs on Cropland
+# Nitrogen inputs on Cropland
 - Nitrogen|Cropland Budget|Inputs:
     description: Total nitrogen inputs on cropland including synthetic and organic fertilizers
     unit: Tg N/yr

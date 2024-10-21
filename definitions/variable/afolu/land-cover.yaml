@@ -47,8 +47,8 @@
     subdomain: Land Cover
 - Land Cover|Forest|Primary:
     description: Naturally regenerated forest of native tree species, where there are no 
-    clearly visible indications of human activities and the ecological processes are not 
-    significantly disturbed (FAO definition)
+      clearly visible indications of human activities and the ecological processes are not 
+      significantly disturbed (FAO definition)
     unit: million ha
     sdg: 15
     tier: 2
@@ -56,7 +56,7 @@
     subdomain: Land Cover
 - Land Cover|Forest|Secondary:
     description: Forest predominantly composed of trees established through natural 
-    regeneration excluding primary forest (based on FAO definition of Naturally Regenerating Forest)
+      regeneration excluding primary forest (based on FAO definition of Naturally Regenerating Forest)
     unit: million ha
     sdg: 15
     tier: 2
@@ -64,15 +64,15 @@
     subdomain: Land Cover
 - Land Cover|Forest|Planted:
     description: Forest predominantly composed of trees established through planting 
-    and/or deliberate seeding (FAO definition)
+      and/or deliberate seeding (FAO definition)
     unit: million ha
     tier: 2
     domain: AFOLU
     subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation:
     description: Plantations are planted forests that are intensively managed and meet ALL the following 
-    criteria at planting and stand maturity - 
-    one or two species, even age class, and regular spacing (FAO definition)
+      criteria at planting and stand maturity - 
+      one or two species, even age class, and regular spacing (FAO definition)
     unit: million ha
     tier: 2
     domain: AFOLU
@@ -85,14 +85,14 @@
     subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation|Re-Afforestation:
     description: Plantations for carbon sequestration - Re-Afforestation with 
-    monoculture and/or non-native species
+      monoculture and/or non-native species
     unit: million ha
     tier: 2
     domain: AFOLU
     subdomain: Land Cover
 - Land Cover|Forest|Planted|Natural:
     description: Planted forest which is not classified as plantation forest. In particular, 
-    this includes re/afforestation for carbon sequestration with native tree species
+      this includes re/afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
     domain: AFOLU
