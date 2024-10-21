@@ -6,7 +6,7 @@
     domain: AFOLU
     subdomain: Forestry Demand
 - Forestry Demand Roundwood|{Raw products}:
-    description: Demand {Raw products}
+    description: "{Raw products} demand"
     unit: million m3/yr
     tier: 2
     domain: AFOLU
@@ -54,20 +54,20 @@
 
 ### Forestry Demand, Production and Trade of Semi-finished Products
  Forestry Demand Semi-finished|{Semi-finished products}:
-    description: {Semi-finished products} demand
-    unit: {Semi-finished products}
+    description: "{Semi-finished products} demand"
+    unit: "{Semi-finished products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Demand
  Forestry Production Semi-finished|{Semi-finished products}:
-    description: {Semi-finished products} production
-    unit: {Semi-finished products}
+    description: "{Semi-finished products} production"
+    unit: "{Semi-finished products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Production
  Forestry Trade Semi-finished|{Semi-finished products}:
-    description: Net export of {Semi-finished products}
-    unit: {Semi-finished products}
+    description: "Net export of {Semi-finished products}"
+    unit: "{Semi-finished products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Trade
