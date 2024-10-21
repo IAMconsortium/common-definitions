@@ -53,19 +53,19 @@
     subdomain: Forestry Trade
 
 ### Forestry Demand, Production and Trade of Semi-finished Products
- Forestry Demand Semi-finished|{Semi-finished products}:
+- Forestry Demand Semi-finished|{Semi-finished products}:
     description: "{Semi-finished products} demand"
     unit: "{Semi-finished products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Demand
- Forestry Production Semi-finished|{Semi-finished products}:
+- Forestry Production Semi-finished|{Semi-finished products}:
     description: "{Semi-finished products} production"
     unit: "{Semi-finished products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Production
- Forestry Trade Semi-finished|{Semi-finished products}:
+- Forestry Trade Semi-finished|{Semi-finished products}:
     description: "Net export of {Semi-finished products}"
     unit: "{Semi-finished products}"
     tier: 3
@@ -73,7 +73,7 @@
     subdomain: Forestry Trade
 
 ### Forestry Yield
- Yield|Forestry|Timber production:
+- Yield|Forestry|Timber production:
     description: Actual timber yield, average on productive forest land. 
       Equals to harvested biomass volume divided by forest area used for timber production
     unit: m3/ha
@@ -82,7 +82,7 @@
     subdomain: Forestry Yield
 
 ### Forestry Harvested Area
- Harvested area|Forestry:
+- Harvested area|Forestry:
     description: Total timber harvest/production area 
       (= sum of timber plantations, and other productive forest that is being harvested)
     unit: million ha/yr
