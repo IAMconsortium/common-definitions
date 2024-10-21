@@ -1,0 +1,11 @@
+- Primary Non-Biomass Renewables:
+    - Hydro:
+        description: hydropower
+    - Solar:
+        description: solar energy
+    - Wind:
+        description: wind power
+    - Geothermal:
+        description: geothermal sources
+    - Ocean:
+        description: oceans
