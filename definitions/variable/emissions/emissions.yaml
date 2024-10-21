@@ -101,7 +101,7 @@
 
 - Gross Emissions|CO2|Land:
     description: Gross emissions of carbon dioxide (CO2) from deforestation, 
-    other land-use change (LUC) and forest management
+      other land-use change (LUC) and forest management
     unit: Mt CO2/yr
     tier: 3
     domain: Emissions
