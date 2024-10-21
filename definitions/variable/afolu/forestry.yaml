@@ -1,4 +1,4 @@
-### Forestry Demand Roundwood
+# Forestry Demand Roundwood
 - Forestry Demand Roundwood:
     description: Total roundwood demand
     unit: million m3/yr
@@ -24,7 +24,7 @@
     domain: AFOLU
     subdomain: Forestry Demand
 
-### Forestry Production Roundwood
+# Forestry Production Roundwood
 - Forestry Production Roundwood:
     description: Total roundwood production
     unit: million m3/yr
@@ -38,7 +38,7 @@
     domain: AFOLU
     subdomain: Forestry Production
 
-### Forestry Trade Roundwood
+# Forestry Trade Roundwood
 - Forestry Trade Roundwood:
     description: Net export of roundwood
     unit: million m3/yr
@@ -52,7 +52,7 @@
     domain: AFOLU
     subdomain: Forestry Trade
 
-### Forestry Demand, Production and Trade of Semi-finished Products
+# Forestry Demand, Production and Trade of Semi-finished Products
 - Forestry Demand Semi-finished|{Semi-finished products}:
     description: "{Semi-finished products} demand"
     unit: "{Semi-finished products}"
@@ -72,7 +72,7 @@
     domain: AFOLU
     subdomain: Forestry Trade
 
-### Forestry Yield
+# Forestry Yield
 - Yield|Forestry|Timber production:
     description: Actual timber yield, average on productive forest land. 
       Equals to harvested biomass volume divided by forest area used for timber production
@@ -81,7 +81,7 @@
     domain: AFOLU
     subdomain: Forestry Yield
 
-### Forestry Harvested Area
+# Forestry Harvested Area
 - Harvested area|Forestry:
     description: Total timber harvest/production area 
       (= sum of timber plantations, and other productive forest that is being harvested)
@@ -90,7 +90,7 @@
     domain: AFOLU
     subdomain: Forestry Area
 
-### Forestry Prices
+# Forestry Prices
 - Price|Forestry Roundwood [Index]:
     description: Farm-gate price index of roundwood products (weighted average)
     unit: Index (2020 = 1)
