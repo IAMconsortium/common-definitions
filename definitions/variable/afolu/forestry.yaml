@@ -6,7 +6,7 @@
     domain: AFOLU
     subdomain: Forestry Demand
 - Forestry Demand Roundwood|{Raw products}:
-    description: {Raw products} demand
+    description: "{Raw products}" demand
     unit: million m3/yr
     tier: 2
     domain: AFOLU
@@ -75,7 +75,7 @@
 ### Forestry Yield
  Yield|Forestry|Timber production:
     description: Actual timber yield, average on productive forest land. 
-    Equals to harvested biomass volume divided by forest area used for timber production
+      Equals to harvested biomass volume divided by forest area used for timber production
     unit: m3/ha
     tier: 2
     domain: AFOLU
@@ -84,7 +84,7 @@
 ### Forestry Harvested Area
  Harvested area|Forestry:
     description: Total timber harvest/production area 
-    (= sum of timber plantations, and other productive forest that is being harvested)
+      (= sum of timber plantations, and other productive forest that is being harvested)
     unit: million ha/yr
     tier: 2
     domain: AFOLU
