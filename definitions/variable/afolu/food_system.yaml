@@ -14,8 +14,8 @@
     tier: 1
     domain: AFOLU
     subdomain: Food system
-- Food Availability|Crops|{Cereal and Non-Energy Crop Types} [per capita]:
-    description: Food available for consumption - {Cereal and Non-Energy Crop Types}
+- Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
+    description: Food available for consumption - {Crop Types w/o Energy Crops}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
@@ -55,8 +55,8 @@
     tier: 2
     domain: AFOLU
     subdomain: Food system
-- Food Intake|Crops|{Cereal and Non-Energy Crop Types} [per capita]:
-    description: Food actually consumed - {Cereal and Non-Energy Crop Types}
+- Food Intake|Crops|{Crop Types w/o Energy Crops} [per capita]:
+    description: Food actually consumed - {Crop Types w/o Energy Crops}
     unit: kcal/cap/day
     sdg: 2
     weight: Population

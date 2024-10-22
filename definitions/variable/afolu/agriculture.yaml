@@ -1,4 +1,4 @@
-### Agricultural Demand
+# Agricultural Demand
 - Agricultural Demand:
     description: Total demand for food, non-food and feed products (crops and livestock)
       and bioenergy crops (1st & 2nd generation)
@@ -137,7 +137,7 @@
     domain: AFOLU
     subdomain: Agricultural Demand
 
-### Agricultural Production
+# Agricultural Production
 - Agricultural Production:
     description: Total production of food, non-food and feed products 
       (crops and livestock) and bioenergy crops (1st & 2nd generation)
@@ -180,7 +180,7 @@
     domain: AFOLU
     subdomain: Agricultural Production
 
-### Agricultural Trade
+# Agricultural Trade
 - Agricultural Trade:
     description: Net export of food, non-food and feed products 
       (crops and livestock) and bioenergy crops (1st & 2nd generation)
@@ -225,7 +225,7 @@
     domain: AFOLU
     subdomain: Agricultural Trade
 
-### Crop Yields
+# Crop Yields
 - Yield|Cropland|{Crop Types}:
     description: Yield of cropland with {Crop Types}
     unit: t DM/ha/yr
@@ -234,7 +234,7 @@
     domain: AFOLU
     subdomain: Crop Yields
 
-### Fertilizer Use -> see sdg-indicators for nitrogen fertilizer use (Nitrogen|Cropland Budget|Inputs)
+# Fertilizer Use -> see sdg-indicators for nitrogen fertilizer use (Nitrogen|Cropland Budget|Inputs)
 - Fertilizer Use|Phosphorus:
     description: Phosphorus fertilizer use on cropland (synthetic and organic)
     unit: Tg P/yr
@@ -242,7 +242,7 @@
     domain: AFOLU
     subdomain: Cropland Input
 
-### Agricultural Prices
+# Agricultural Prices
 - Price|Agriculture|Food Products [Index]:
     description: Farm-gate price index of food crops and livestock products (weighted average)
     unit: Index (2020 = 1)
