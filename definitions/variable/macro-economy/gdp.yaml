@@ -2,10 +2,12 @@
     description: GDP converted to USD at market exchange rate (MER)
     unit: billion USD_2010/yr
     tier: 1
+    domain: Driver
 - GDP|PPP:
     description: GDP converted to USD using purchasing power parity (PPP)
     unit: billion USD_2010/yr
     tier: 1
+    domain: Driver
 - Value Added|{Economic Sectors}:
     description: Value added by the {Economic Sectors}
     unit: billion USD_2010/yr
