@@ -1,38 +1,21 @@
 - Carbon-Removal Option:
-    - Re-Afforestation:
-        description: Re-Afforestation
-        subdomain: Land-based
-    - Agroforestry:
-        description: Agroforestry
-        subdomain: Land-based
-    - Forest Management:
-        description: Forest Management
-        subdomain: Land-based
+    - Forestry:
+        description: all forestry-related carbon dioxide removal methods, in particular
+          afforestation, reforestation, agroforestry and improved forest management
     - Peatland and Wetland Restoration:
         description: restoration of peat and coastal wetlands
-        subdomain: Land-based
     - Soil Carbon Sequestration:
-        description: soil carbon sequestration in croplands and grasslands
-        subdomain: Land-based
-    - Soil Carbon Sequestration|Cropland:
-        description: soil carbon sequestration in croplands
-        subdomain: Land-based
-    - Soil Carbon Sequestration|Grassland:
-        description: soil carbon sequestration in grasslands
-        subdomain: Land-based
+        description: soil carbon sequestration in croplands and graslands
     - Durable Wood Products:
         description: use of durable wood products and building elements
-        subdomain: Land-based
     - Biochar:
         description: conversion of biomass to recalcitrant carbon via pyrolysis and its
           subsequent application to croplands to increase soil carbon stocks
-        subdomain: Land-based
     - Bio-Oil Storage:
         description: use of bio-oil
     - Bioenergy with CCS:
         description: use of bioenergy in combination with carbon-capture and
           sequestration (CCS)
-        subdomain: Land-based
     - Direct Air Capture with CCS:
         description: direct air capture in combination with carbon-capture and
           sequestration (CCS)
@@ -42,7 +25,6 @@
         description: use of mineral products for carbon sequestration
     - Biomass Burial:
         description: burial of biomass on land
-        subdomain: Land-based
     - Ocean Fertilization:
         description: ocean fertilization and artificial upwelling
     - Biomass Sinking:
