@@ -94,14 +94,14 @@
 - Price|Forestry Roundwood [Index]:
     description: Farm-gate price index of roundwood products (weighted average)
     unit: Index (2020 = 1)
-    weight: Forestry Production|Roundwood
+    weight: Forestry Production Roundwood
     tier: 2
     domain: AFOLU
     subdomain: Forestry Prices
 - Price|Forestry Roundwood|{Raw products} [Index]:
     description: Farm-gate price index of {Raw products}
     unit: Index (2020 = 1)
-    weight: Forestry Production|Roundwood|{Raw products}
+    weight: Forestry Production Roundwood|{Raw products}
     tier: 2
     domain: AFOLU
     subdomain: Forestry Prices
