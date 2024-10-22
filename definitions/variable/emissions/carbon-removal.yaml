@@ -9,6 +9,6 @@
     description: Gross removals of carbon dioxide (CO2) by {Carbon-Removal Option}
     unit: Mt CO2/yr
     notes: Values should be reported as positive numbers
-    tier: "{Carbon-Removal Option}"
+    tier: 2
     domain: CDR
     subdomain: "{Carbon-Removal Option}"
