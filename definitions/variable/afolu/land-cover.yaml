@@ -1,82 +1,138 @@
 - Land Cover:
     description: Total land cover
     unit: million ha
-    tier: 2
     agmip: Land Cover (LAND) - Total (TOT)
+    tier: 1
+    domain: AFOLU
+    subdomain: Land Cover
 
 - Land Cover|Built-Up Area:
     description: Built-up land associated with human settlements
     unit: million ha
-    tier: 2
     engage: Land Cover|Built-up Area
     navigate: Land Cover|Built-up Area
+    tier: 1
+    domain: AFOLU
+    subdomain: Land Cover
 
 - Land Cover|Pasture:
     description: Pasture, not only high quality rangeland, based on FAO definition of
       "permanent meadows and pastures"
     unit: million ha
-    tier: 2
+    tier: 1
+    domain: AFOLU
+    subdomain: Land Cover
 
 - Land Cover|Cropland:
     description: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
       permanent crops as well as other arable land (physical area)
     unit: million ha
-    tier: 2
     agmip: Land Cover (LAND) - All crops (CRP)
-- Land Cover|Cropland|{Cereal and Non-Energy Crop Types}:
-    description: Cropland for {Cereal and Non-Energy Crop Types}
+    tier: 1
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Cropland|{Crop Types}:
+    description: Cropland for {Crop Types}
     unit: million ha
-    tier: 3
-    agmip:
-- Land Cover|Cropland|Energy Crops:
-    description: Cropland for purpose-grown bioenergy crops
-      (short-rotation grasses and trees)
-    unit: million ha
-    tier: 3
-    agmip:
+    tier: {Crop Types}
+    domain: AFOLU
+    subdomain: Land Cover
 
 - Land Cover|Forest:
-    description: Managed and unmanaged forest area
+    description: Sum of primary, secondary and planted forest (FAO definition)
     unit: million ha
-    tier: 2
     agmip: Land Cover (LAND) - Forest (FOR)
-- Land Cover|Forest|Managed:
-    description: Managed forest area incl. timber plantations and re-/afforestation areas
+    tier: 1
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Primary:
+    description: Naturally regenerated forest of native tree species, where there are no 
+      clearly visible indications of human activities and the ecological processes are not 
+      significantly disturbed (FAO definition)
     unit: million ha
-    tier: 2
-    agmip:
-- Land Cover|Forest|Managed|Timber Plantations:
-    description: Area of timber plantations
-    unit: million ha
-    tier: 2
-    agmip: Land Cover (LAND) - Forest (FOR)
-- Land Cover|Forest|Managed|Afforestation:
-    description: Afforestation area
-    unit: million ha
-    tier: 2
-    agmip:
-- Land Cover|Forest|Managed|Reforestation:
-    description: Reforestation area
-    unit: million ha
-    tier: 2
-    agmip:
-- Land Cover|Forest|Natural Forest:
-    description: Undisturbed (primary), modified and secondary forests from natural succession
-    unit: million ha
-    tier: 2
     sdg: 15
-- Land Cover|Forest|Natural Forest|Primary Forest:
-    description: Undisturbed primary natural forests
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Secondary:
+    description: Forest predominantly composed of trees established through natural 
+      regeneration excluding primary forest (based on FAO definition of Naturally Regenerating Forest)
     unit: million ha
-    tier: 3
     sdg: 15
-- Land Cover|Forest|Natural Forest|Secondary Forest:
-    description: Modified natural forests and secondary forests from natural succession
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted:
+    description: Forest predominantly composed of trees established through planting 
+      and/or deliberate seeding (FAO definition)
     unit: million ha
-    tier: 3
-    sdg: 15
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Plantation:
+    description: Plantations are planted forests that are intensively managed and meet ALL the following 
+      criteria at planting and stand maturity - 
+      one or two species, even age class, and regular spacing (FAO definition)
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Plantation|Timber:
+    description: Plantations for timber production
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Plantation|Re-Afforestation:
+    description: Plantations for carbon sequestration - Re-Afforestation with 
+      monoculture and/or non-native species
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Natural:
+    description: Planted forest which is not classified as plantation forest. In particular, 
+      this includes re/afforestation for carbon sequestration with native tree species
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Natural|Re-Afforestation:
+    description: Re/afforestation for carbon sequestration with native tree species
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+- Land Cover|Forest|Planted|Natural|Other:
+    description: Other planted forest which is not classified as plantation forest
+    unit: million ha
+    tier: 2
+    domain: AFOLU
+    subdomain: Land Cover
+
+- Land Cover|Other Natural:
+    description: Non-forest natural land - 
+      sum of primary non-forest, abandoned and restoration land
+    unit: million ha
+    tier: 2
+- Land Cover|Other Natural|Primary Non-Forest:
+    description: Primary non-forest natural land without clearly visible 
+      indications of human activities 
+    unit: million ha
+    tier: 2
+- Land Cover|Other Natural|Restored:
+    description: Intentionally restored natural land for the purpose of natural and/or 
+      biodiversity conservation
+    unit: million ha
+    tier: 2
+- Land Cover|Other Natural|Abandoned:
+    description: Naturally regenerating land due to the abandonment of 
+      agricultural or forestry land 
+    unit: million ha
+    tier: 2
 
 - Land Cover|Other Land:
-    description: Other land cover that does not fit into any other category
+    description: Other land cover that does not fit into any other land cover category, 
+      e.g. ice and water bodies
     unit: million ha
     tier: 2
