@@ -1,21 +1,48 @@
 - Carbon-Removal Option:
-    - Forestry:
-        description: all forestry-related carbon dioxide removal methods, in particular
-          afforestation, reforestation, agroforestry and improved forest management
+    - Re-Afforestation:
+        description: Re-Afforestation
+        tier: 2
+        subdomain: Land-based
+    - Agroforestry:
+        description: Agroforestry
+        tier: 2
+        subdomain: Land-based
+    - Forest Management:
+        description: Forest Management
+        tier: 2
+        subdomain: Land-based
     - Peatland and Wetland Restoration:
         description: restoration of peat and coastal wetlands
+        tier: 3
+        subdomain: Land-based
     - Soil Carbon Sequestration:
-        description: soil carbon sequestration in croplands and graslands
+        description: soil carbon sequestration in croplands and grasslands
+        tier: 2
+        subdomain: Land-based
+    - Soil Carbon Sequestration|Cropland:
+        description: soil carbon sequestration in croplands
+        tier: 2
+        subdomain: Land-based
+    - Soil Carbon Sequestration|Grassland:
+        description: soil carbon sequestration in grasslands
+        tier: 2
+        subdomain: Land-based
     - Durable Wood Products:
         description: use of durable wood products and building elements
+        tier: 3
+        subdomain: Land-based
     - Biochar:
         description: conversion of biomass to recalcitrant carbon via pyrolysis and its
           subsequent application to croplands to increase soil carbon stocks
+        tier: 3
+        subdomain: Land-based
     - Bio-Oil Storage:
         description: use of bio-oil
     - Bioenergy with CCS:
         description: use of bioenergy in combination with carbon-capture and
           sequestration (CCS)
+        tier: 2
+        subdomain: Land-based
     - Direct Air Capture with CCS:
         description: direct air capture in combination with carbon-capture and
           sequestration (CCS)
@@ -25,6 +52,8 @@
         description: use of mineral products for carbon sequestration
     - Biomass Burial:
         description: burial of biomass on land
+        tier: 3
+        subdomain: Land-based
     - Ocean Fertilization:
         description: ocean fertilization and artificial upwelling
     - Biomass Sinking:
