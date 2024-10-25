@@ -5,8 +5,8 @@
     tier: 1
     domain: AFOLU
     subdomain: Forestry Demand
-- Forestry Demand Roundwood|{Raw products}:
-    description: "{Raw products} demand"
+- Forestry Demand Roundwood|{Raw Products}:
+    description: "{Raw Products} demand"
     unit: million m3/yr
     tier: 2
     domain: AFOLU
@@ -31,8 +31,8 @@
     tier: 1
     domain: AFOLU
     subdomain: Forestry Production
-- Forestry Production Roundwood|{Raw products}:
-    description: "{Raw products} production"
+- Forestry Production Roundwood|{Raw Products}:
+    description: "{Raw Products} production"
     unit: million m3/yr
     tier: 2
     domain: AFOLU
@@ -45,29 +45,29 @@
     tier: 2
     domain: AFOLU
     subdomain: Forestry Trade
-- Forestry Trade Roundwood|{Raw products}:
-    description: Net export of {Raw products}
+- Forestry Trade Roundwood|{Raw Products}:
+    description: Net export of {Raw Products}
     unit: million m3/yr
     tier: 2
     domain: AFOLU
     subdomain: Forestry Trade
 
 # Forestry Demand, Production and Trade of Semi-finished Products
-- Forestry Demand Semi-finished|{Semi-finished products}:
-    description: "{Semi-finished products} demand"
-    unit: "{Semi-finished products}"
+- Forestry Demand Semi-finished|{Semi-Finished Products}:
+    description: "{Semi-Finished Products} demand"
+    unit: "{Semi-Finished Products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Demand
-- Forestry Production Semi-finished|{Semi-finished products}:
-    description: "{Semi-finished products} production"
-    unit: "{Semi-finished products}"
+- Forestry Production Semi-finished|{Semi-Finished Products}:
+    description: "{Semi-Finished Products} production"
+    unit: "{Semi-Finished Products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Production
-- Forestry Trade Semi-finished|{Semi-finished products}:
-    description: "Net export of {Semi-finished products}"
-    unit: "{Semi-finished products}"
+- Forestry Trade Semi-finished|{Semi-Finished Products}:
+    description: "Net export of {Semi-Finished Products}"
+    unit: "{Semi-Finished Products}"
     tier: 3
     domain: AFOLU
     subdomain: Forestry Trade
@@ -98,17 +98,17 @@
     tier: 2
     domain: AFOLU
     subdomain: Forestry Prices
-- Price|Forestry Roundwood|{Raw products} [Index]:
-    description: Farm-gate price index of {Raw products}
+- Price|Forestry Roundwood|{Raw Products} [Index]:
+    description: Farm-gate price index of {Raw Products}
     unit: Index (2020 = 1)
-    weight: Forestry Production Roundwood|{Raw products}
+    weight: Forestry Production Roundwood|{Raw Products}
     tier: 2
     domain: AFOLU
     subdomain: Forestry Prices
-- Price|Forestry Semi-finished|{Semi-finished products} [Index]:
-    description: Farm-gate price index of {Semi-finished products}
+- Price|Forestry Semi-finished|{Semi-Finished Products} [Index]:
+    description: Farm-gate price index of {Semi-Finished Products}
     unit: Index (2020 = 1)
-    weight: Forestry Production Semi-finished|{Semi-finished products}
+    weight: Forestry Production Semi-finished|{Semi-Finished Products}
     tier: 3
     domain: AFOLU
     subdomain: Forestry Prices

@@ -1,9 +1,4 @@
-- Raw Products:
-    - Industrial Roundwood:
-        description: Industrial Roundwood
-    - Wood fuel:
-        description: Wood fuel
-- Semi-finished products:
+- Semi-Finished Products:
     - Sawnwood:
         description: Sawnwood
         unit: million m3/yr
@@ -16,9 +11,9 @@
     - Other Wood Products:
         description: Other wood products
         unit: million m3/yr
-    - Mechanical pulp:
+    - Mechanical Pulp:
         description: Mechanical pulp
         unit: million tDM/yr
-    - Chemical pulp:
+    - Chemical Pulp:
         description: Chemical pulp
         unit: million tDM/yr
