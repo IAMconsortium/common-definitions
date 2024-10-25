@@ -112,7 +112,7 @@
 
 - Land Cover|Other Natural:
     description: Non-forest natural land - 
-      sum of primary non-forest, abandoned and restoration land
+      sum of primary non-forest, restored and recovered natural land
     unit: million ha
     tier: 2
 - Land Cover|Other Natural|Primary Non-Forest:
@@ -121,13 +121,13 @@
     unit: million ha
     tier: 2
 - Land Cover|Other Natural|Restored:
-    description: Intentionally restored natural land for the purpose of natural and/or 
+    description: Intentionally restored natural land for the purpose of nature and/or 
       biodiversity conservation
     unit: million ha
     tier: 2
-- Land Cover|Other Natural|Abandoned:
-    description: Naturally regenerating land due to the abandonment of 
-      agricultural or forestry land 
+- Land Cover|Other Natural|Recovered:
+    description: Recovered natural land due to the abandonment of agricultural 
+      or forestry land - without intention for nature/biodiversity conservation
     unit: million ha
     tier: 2
 
