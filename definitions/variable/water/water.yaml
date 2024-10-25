@@ -12,14 +12,10 @@
     definition: Water withdrawal for irrigation
     unit: km3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Water
 - Water Withdrawal|Livestock:
     definition: Water withdrawals for livestock
     unit: km3/yr
     tier: 3
-    domain: AFOLU
-    subdomain: Water
 
 - Water Consumption:
     definition: Total water consumption
@@ -35,11 +31,7 @@
     definition: Water consumption for irrigation
     unit: km3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Water
 - Water Consumption|Livestock:
     definition: Water consumption for livestock
     unit: km3/yr
     tier: 3
-    domain: AFOLU
-    subdomain: Water
