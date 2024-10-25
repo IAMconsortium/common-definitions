@@ -71,8 +71,7 @@
     subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation:
     description: Plantations are planted forests that are intensively managed and meet ALL the following 
-      criteria at planting and stand maturity - 
-      one or two species, even age class, and regular spacing (FAO definition)
+      criteria at planting and stand maturity; one or two species, even age class, and regular spacing (FAO definition)
     unit: million ha
     tier: 2
     domain: AFOLU
@@ -84,7 +83,7 @@
     domain: AFOLU
     subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation|Re-Afforestation:
-    description: Plantations for carbon sequestration - Re-Afforestation with 
+    description: Plantations for carbon sequestration, Re-Afforestation with 
       monoculture and/or non-native species
     unit: million ha
     tier: 2
@@ -111,8 +110,7 @@
     subdomain: Land Cover
 
 - Land Cover|Other Natural:
-    description: Non-forest natural land - 
-      sum of primary non-forest, restored and recovered natural land
+    description: Non-forest natural land; sum of primary non-forest, restored and recovered natural land
     unit: million ha
     tier: 2
 - Land Cover|Other Natural|Primary Non-Forest:
