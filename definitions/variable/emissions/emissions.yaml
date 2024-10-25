@@ -24,106 +24,74 @@
     unit: "{Level-2 Species}"
 # Some should be Tier-1, e.g. "Emissions|CH4|AFOLU". How to do this?
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
     description: Emissions of {Level-3 Species} from livestock in the agriculture sector
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
     description: Emissions of {Level-3 Species} from enteric fermentation of livestock
       in the agriculture sector
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Manure Management:
     description: Emissions of {Level-3 Species} from processes involving
       manure (waste) management in Livestock in the agriculture sector
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Rice:
     description: Emissions of {Level-3 Species} from rice cultivation
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Managed Soils:
     description: Emissions of {Level-3 Species} from soil management practices
       in the agriculture sector
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
     description: Emissions and removals of {Level-3 Species} from land with woody vegetation
       (forests, IPCC category 3B1)
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
     description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
       (IPCC category 3B3)
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 - Emissions|{Level-3 Species}|AFOLU|Land|Other Land Burning:
     description: Emissions and removals of {Level-3 Species} from any other categories
       of land burning (e.g. peatlands)
     unit: "{Level-3 Species}"
     tier: 2
-    domain: Emissions
-    subdomain: AFOLU
 
 - Gross Emissions|CO2|Land:
     description: Gross emissions of carbon dioxide (CO2) from deforestation, 
       other land-use change (LUC) and forest management
     unit: Mt CO2/yr
     tier: 3
-    domain: Emissions
-    subdomain: AFOLU
 - Gross Emissions|CO2|Land|Deforestation:
     description: Gross emissions of carbon dioxide (CO2) from deforestation
     unit: Mt CO2/yr
     tier: 3
-    domain: Emissions
-    subdomain: AFOLU
 - Gross Emissions|CO2|Land|Other LUC:
     description: Gross emissions of carbon dioxide (CO2) from other land-use change (LUC)
     unit: Mt CO2/yr
     tier: 3
-    domain: Emissions
-    subdomain: AFOLU
 - Gross Emissions|CO2|Land|Forest Management:
     description: Gross emissions of carbon dioxide (CO2) from Forest Management
     unit: Mt CO2/yr
     tier: 3
-    domain: Emissions
-    subdomain: AFOLU
 
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
