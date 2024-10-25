@@ -46,23 +46,22 @@
     description: Emissions of {Level-3 Species} from soil management practices
       in the agriculture sector
     unit: "{Level-3 Species}"
+- Emissions|*|AFOLU|Biomass Burning:
+    description: Agricultural Waste Burning (DESCRIPTION TO BE UPDATED)
+    unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
-    description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)
+- Emissions|{Level-3 Species}|AFOLU|Land|Peat Burning:
+    description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
-    description: Emissions and removals of {Level-3 Species} from land with woody vegetation
-      (forests, IPCC category 3B1)
+    description: Emissions and removals of {Level-3 Species} from land with woody vegetation 
+      (forests, IPCC category 3B1)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
     description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
-      (IPCC category 3B3)
-    unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Burning:
-    description: Emissions and removals of {Level-3 Species} from any other categories
-      of land burning (e.g. peatlands)
+      (IPCC category 3B3)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 
 - Gross Emissions|CO2|AFOLU:
