@@ -1,88 +1,88 @@
-- Forest Area Change|Net Change:
+- Forest Area Change:
     description: Annual net change in total forest area between last period and this 
       period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Deforestation:
+- Forest Area Change|Deforestation:
     description: Annual gross deforestation between last period and this period 
       (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Deforestation|Primary:
+- Forest Area Change|Deforestation|Primary:
     description: Annual gross loss of primary forest between last period and this period 
       (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Deforestation|Secondary:
+- Forest Area Change|Deforestation|Secondary:
     description: Annual gross loss of secondary forest between last period and this period 
       (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion:
+- Forest Area Change|Forest Expansion:
     description: Annual gross forest expansion between last period and this period 
       (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Secondary:
+- Forest Area Change|Forest Expansion|Secondary:
     description: Annual gross expansion of secondary forest between last 
       period and this period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted:
+- Forest Area Change|Forest Expansion|Planted:
     description: Annual gross expansion of planted forest between last period and this 
       period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Plantation:
+- Forest Area Change|Forest Expansion|Planted|Plantation:
     description: Annual gross expansion of plantations between last period and this 
       period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Plantation|Timber:
+- Forest Area Change|Forest Expansion|Planted|Plantation|Timber:
     description: Annual gross expansion of timber plantations between last period and this 
       period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Plantation|Re-Afforestation:
+- Forest Area Change|Forest Expansion|Planted|Plantation|Re-Afforestation:
     description: Annual gross expansion of carbon plantations between last period and this 
       period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Natural:
+- Forest Area Change|Forest Expansion|Planted|Natural:
     description: Annual gross expansion of planted forest not classified as plantation forest 
       between last period and this period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Natural|Re-Afforestation:
+- Forest Area Change|Forest Expansion|Planted|Natural|Re-Afforestation:
     description: Annual gross Re/afforestation for carbon sequestration with native tree 
       species between last period and this period (difference divided by period length)
     unit: million ha/yr
     tier: 3
     domain: AFOLU
     subdomain: Land Cover
-- Forest Area Change|Gross Change|Forest Expansion|Planted|Natural|Other:
+- Forest Area Change|Forest Expansion|Planted|Natural|Other:
     description: Annual gross expansion of other planted forest not classified as plantation 
       between last period and this period (difference divided by period length)
     unit: million ha/yr
