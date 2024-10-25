@@ -97,6 +97,9 @@
       carbon capture and removal using BECCS and other forms of CCS on energy forms 
       such Natural Gas, Oil, and Coal, as well as bio-oil storage
     unit: "{Level-2 Species}"
+    components:
+      - Emissions|{Level-3 Species}|Energy|Supply
+      - Emissions|{Level-3 Species}|Energy|Demand
 - Gross Emissions|CO2|Energy:
     description: Gross emissions of carbon dioxide (CO2) from energy use,
       including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for 
