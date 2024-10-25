@@ -11,6 +11,7 @@
       - Emissions|{Level-1 Species}|Industrial Processes
       - Emissions|{Level-1 Species}|Waste
       - Emissions|{Level-1 Species}|Other Capture and Removal
+      - Emissions|{Level-1 Species}|Product Use
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
     description: Gross emissions of carbon dioxide (CO2), not accounting for 
@@ -255,10 +256,6 @@
 
 - Emissions|{Level-2 Species}|Waste:
     description: Emissions of {Level-2 Species} from waste (IPCC category 6)
-    unit: "{Level-2 Species}"
-
-- Emissions|{Level-2 Species}|Fossil Fuel Fires:
-    description: Emissions of {Level-2 Species} from fossil fuel fires (IPCC category 7)
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-2 Species}|Other:
