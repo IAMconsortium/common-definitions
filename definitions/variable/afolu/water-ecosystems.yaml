@@ -2,47 +2,31 @@
     description: All water ecosystems
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Lakes:
     description: Lakes
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Rivers:
     description: Rivers
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Wetlands:
     description: Wetlands
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Wetlands|Peatlands:
     description: Peatlands
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Wetlands|Peatlands|Intact:
     description: Intact peatlands
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Wetlands|Peatlands|Drained:
     description: Drained peatlands
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems
 - Water Ecosystems|Wetlands|Peatlands|Rewetted:
     description: Rewetted peatlands
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Water Ecosystems

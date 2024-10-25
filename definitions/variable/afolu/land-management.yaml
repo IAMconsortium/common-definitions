@@ -2,23 +2,15 @@
     description: Rainfed cropland (physical area)
     unit: million ha
     tier: 1
-    domain: AFOLU
-    subdomain: Land Management
 - Land Management|Cropland|Irrigated:
     description: Irrigated cropland (physical area)
     unit: million ha
     tier: 1
-    domain: AFOLU
-    subdomain: Land Management
 - Land Management|Cropland|{Crop Types}|Rainfed:
     description: Rainfed cropland (physical area) for {Crop Types}
     unit: million ha
     tier: 3
-    domain: AFOLU
-    subdomain: Land Management
 - Land Management|Cropland|{Crop Types}|Irrigated:
     description: Irrigated cropland (physical area) for {Crop Types}
     unit: million ha
     tier: 3
-    domain: AFOLU
-    subdomain: Land Management

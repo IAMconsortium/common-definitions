@@ -4,40 +4,30 @@
     sdg: 2
     weight: Population
     tier: 1
-    domain: AFOLU
-    subdomain: Food system
 - Food Availability|Crops [per capita]:
     description: Food available for consumption - crops
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
-    domain: AFOLU
-    subdomain: Food system
 - Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
     description: Food available for consumption - {Crop Types w/o Energy Crops}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
-    domain: AFOLU
-    subdomain: Food system
 - Food Availability|Livestock [per capita]:
     description: Food available for consumption - livestock products
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
-    domain: AFOLU
-    subdomain: Food system
 - Food Availability|Livestock|{Livestock Products} [per capita]:
     description: Food available for consumption - {Livestock Products}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
-    domain: AFOLU
-    subdomain: Food system
 
 - Food Intake [per capita]:
     description: Food actually consumed - crops and livestock products
@@ -45,40 +35,30 @@
     sdg: 2
     weight: Population
     tier: 2
-    domain: AFOLU
-    subdomain: Food system
 - Food Intake|Crops [per capita]:
     description: Food actually consumed - crops
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 2
-    domain: AFOLU
-    subdomain: Food system
 - Food Intake|Crops|{Crop Types w/o Energy Crops} [per capita]:
     description: Food actually consumed - {Crop Types w/o Energy Crops}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
-    domain: AFOLU
-    subdomain: Food system
 - Food Intake|Livestock [per capita]:
     description: Food actually consumed - livestock products
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 2
-    domain: AFOLU
-    subdomain: Food system
 - Food Intake|Livestock|{Livestock Products} [per capita]:
     description: Food actually consumed - {Livestock Products}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
-    domain: AFOLU
-    subdomain: Food system
 
 - Food Waste [per capita]:
     description: Amount of food (crops and livestock) per capita that is disposed and 
@@ -88,5 +68,3 @@
     sdg: 2
     weight: Population
     tier: 2
-    domain: AFOLU
-    subdomain: Food system

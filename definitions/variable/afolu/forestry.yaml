@@ -3,74 +3,52 @@
     description: Total roundwood demand
     unit: million m3/yr
     tier: 1
-    domain: AFOLU
-    subdomain: Forestry Demand
 - Forestry Demand Roundwood|{Raw Products}:
     description: "{Raw Products} demand"
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Demand
 - Forestry Demand Roundwood|Industrial Roundwood|Material use:
     description: Industrial roundwood demand - used for material
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Demand
 - Forestry Demand|Roundwood|Industrial Roundwood|Energy use:
     description: Industrial roundwood demand - used for energy
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Demand
 
 # Forestry Production Roundwood
 - Forestry Production Roundwood:
     description: Total roundwood production
     unit: million m3/yr
     tier: 1
-    domain: AFOLU
-    subdomain: Forestry Production
 - Forestry Production Roundwood|{Raw Products}:
     description: "{Raw Products} production"
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Production
 
 # Forestry Trade Roundwood
 - Forestry Trade Roundwood:
     description: Net export of roundwood
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Trade
 - Forestry Trade Roundwood|{Raw Products}:
     description: Net export of {Raw Products}
     unit: million m3/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Trade
 
 # Forestry Demand, Production and Trade of Semi-finished Products
 - Forestry Demand Semi-finished|{Semi-Finished Products}:
     description: "{Semi-Finished Products} demand"
     unit: "{Semi-Finished Products}"
     tier: 3
-    domain: AFOLU
-    subdomain: Forestry Demand
 - Forestry Production Semi-finished|{Semi-Finished Products}:
     description: "{Semi-Finished Products} production"
     unit: "{Semi-Finished Products}"
     tier: 3
-    domain: AFOLU
-    subdomain: Forestry Production
 - Forestry Trade Semi-finished|{Semi-Finished Products}:
     description: "Net export of {Semi-Finished Products}"
     unit: "{Semi-Finished Products}"
     tier: 3
-    domain: AFOLU
-    subdomain: Forestry Trade
 
 # Forestry Yield
 - Yield|Forestry|Timber production:
@@ -78,8 +56,6 @@
       Equals to harvested biomass volume divided by forest area used for timber production
     unit: m3/ha
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Yield
 
 # Forestry Harvested Area
 - Harvested area|Forestry:
@@ -87,8 +63,6 @@
       (= sum of timber plantations, and other productive forest that is being harvested)
     unit: million ha/yr
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Area
 
 # Forestry Prices
 - Price|Forestry Roundwood [Index]:
@@ -96,19 +70,13 @@
     unit: Index (2020 = 1)
     weight: Forestry Production Roundwood
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Prices
 - Price|Forestry Roundwood|{Raw Products} [Index]:
     description: Farm-gate price index of {Raw Products}
     unit: Index (2020 = 1)
     weight: Forestry Production Roundwood|{Raw Products}
     tier: 2
-    domain: AFOLU
-    subdomain: Forestry Prices
 - Price|Forestry Semi-finished|{Semi-Finished Products} [Index]:
     description: Farm-gate price index of {Semi-Finished Products}
     unit: Index (2020 = 1)
     weight: Forestry Production Semi-finished|{Semi-Finished Products}
     tier: 3
-    domain: AFOLU
-    subdomain: Forestry Prices

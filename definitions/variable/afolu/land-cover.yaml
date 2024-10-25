@@ -3,8 +3,6 @@
     unit: million ha
     agmip: Land Cover (LAND) - Total (TOT)
     tier: 1
-    domain: AFOLU
-    subdomain: Land Cover
 
 - Land Cover|Built-Up Area:
     description: Built-up land associated with human settlements
@@ -12,16 +10,12 @@
     engage: Land Cover|Built-up Area
     navigate: Land Cover|Built-up Area
     tier: 1
-    domain: AFOLU
-    subdomain: Land Cover
 
 - Land Cover|Pasture:
     description: Pasture, not only high quality rangeland, based on FAO definition of
       "permanent meadows and pastures"
     unit: million ha
     tier: 1
-    domain: AFOLU
-    subdomain: Land Cover
 
 - Land Cover|Cropland:
     description: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
@@ -29,22 +23,16 @@
     unit: million ha
     agmip: Land Cover (LAND) - All crops (CRP)
     tier: 1
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Cropland|{Crop Types}:
     description: Cropland for {Crop Types}
     unit: million ha
     tier: {Crop Types}
-    domain: AFOLU
-    subdomain: Land Cover
 
 - Land Cover|Forest:
     description: Sum of primary, secondary and planted forest (FAO definition)
     unit: million ha
     agmip: Land Cover (LAND) - Forest (FOR)
     tier: 1
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Primary:
     description: Naturally regenerated forest of native tree species, where there are no 
       clearly visible indications of human activities and the ecological processes are not 
@@ -52,62 +40,44 @@
     unit: million ha
     sdg: 15
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Secondary:
     description: Forest predominantly composed of trees established through natural 
       regeneration excluding primary forest (based on FAO definition of Naturally Regenerating Forest)
     unit: million ha
     sdg: 15
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted:
     description: Forest predominantly composed of trees established through planting 
       and/or deliberate seeding (FAO definition)
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation:
     description: Plantations are planted forests that are intensively managed and meet ALL the following 
       criteria at planting and stand maturity; one or two species, even age class, and regular spacing (FAO definition)
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation|Timber:
     description: Plantations for timber production
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Plantation|Re-Afforestation:
     description: Plantations for carbon sequestration, Re-Afforestation with 
       monoculture and/or non-native species
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Natural:
     description: Planted forest which is not classified as plantation forest. In particular, 
       this includes re/afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Natural|Re-Afforestation:
     description: Re/afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 - Land Cover|Forest|Planted|Natural|Other:
     description: Other planted forest which is not classified as plantation forest
     unit: million ha
     tier: 2
-    domain: AFOLU
-    subdomain: Land Cover
 
 - Land Cover|Other Natural:
     description: Non-forest natural land; sum of primary non-forest, restored and recovered natural land
