@@ -7,79 +7,55 @@
       and forestry residue, municipal solid waste bioenergy and traditional biomass
     unit: EJ/yr
     tier: 1
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|{CCS}:
     description: Primary energy consumption of 2nd generation bioenergy crops, crop
       and forestry residue, municipal solid waste bioenergy and traditional biomass {CCS}
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Modern:
     description: Primary energy consumption of modern biomass, including 2nd generation
       bioenergy crops, crop and forestry residue and municipal solid waste bioenergy
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Modern|{CCS}:
     description: Primary energy consumption of modern biomass, including 2nd generation
       bioenergy crops, crop and forestry residue and municipal solid waste bioenergy {CCS}
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Traditional:
     description: Primary energy consumption of traditional biomass including fuelwood
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|1st Generation:
     description: Primary energy consumption from 1st generation biofuel crops
       (e.g., sugar cane, rapeseed oil, maize, sugar beet)
     unit: EJ/yr
     tier: 1
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Energy Crops:
     description: Primary energy consumption from 2nd generation bioenergy crops
       (short-rotation grasses and trees)
     unit: EJ/yr
     tier: 1
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Residues:
     description: Primary energy consumption from residues (crop, forest, other)
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Residues|Crop Residues:
     description: Primary energy consumption from crop residues
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Residues|Forest Residues:
     description: Primary energy consumption from forest residues
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Residues|Other Residues:
     description: Primary energy consumption from other residues
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Other:
     description: Primary energy consumption from other biomass sources
     unit: EJ/yr
     tier: 2
-    domain: Energy
-    subdomain: PE Biomass
 - Primary Energy|Biomass|Electricity:
     description: Primary energy input of biomass for electricity generation
     unit: EJ/yr
