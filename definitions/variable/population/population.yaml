@@ -2,17 +2,14 @@
     description: Total population
     unit: million
     tier: 1
-    domain: Driver
 - Population|Urban:
     description: Total population living in urban areas
     unit: million
     tier: 2
-    domain: Driver
 - Population|{Gender}:
     description: Total {Gender} population
     unit: million
     tier: 2
-    domain: Driver
 - Population|{Gender}|{Age}:
     description: Total {Gender} population {Age}
     unit: million
