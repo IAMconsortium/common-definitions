@@ -268,8 +268,8 @@
     tier: 1
     domain: AFOLU
     subdomain: Agricultural Prices
-- Price|Agriculture|Food Products|Crops|Corn [Index]:
-    description: Farm-gate price index of corn / maize
+- Price|Agriculture|Food Products|Crops|Maize [Index]:
+    description: Farm-gate price index of maize
     unit: Index (2020 = 1)
     weight: Agricultural Production|Crops
     navigate: Price|Agriculture|Corn|Index
