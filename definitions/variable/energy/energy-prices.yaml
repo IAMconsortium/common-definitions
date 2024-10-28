@@ -1,0 +1,27 @@
+- Price|Primary Energy|Biomass:
+    description: Price for biomass
+    unit: USD_2010/GJ
+    weight: Primary Energy|Biomass
+- Price|Primary Energy|{Primary Fossil Fuel}:
+    description: Price for {Primary Fossil Fuel} at global or regional spot markets
+    unit: USD_2010/GJ
+    weight: Primary Energy|{Primary Fossil Fuel}
+
+- Price|Secondary Energy|Electricity:
+    definition: Electricity price at the regional wholesale-market,
+      i.e. for large-scale consumers
+    unit: USD_2010/GJ
+    weight: Secondary Energy|Electricity
+    notes: This price should include the effect of carbon prices.
+- Price|Secondary Energy|{Secondary Fuel Level 2}:
+    definition: Price for {Secondary Fuel Level 2} at the regional wholesale market,
+      i.e. for large-scale consumers
+    unit: USD_2010/GJ
+    weight: Secondary Energy|{Secondary Fuel Level 2}
+    notes: This price should include the effect of carbon prices.
+
+- Price|Final Energy|{Sector}|{Secondary Fuel Level 2}:
+    definition: Price for {Secondary Fuel Level 2} in the {Sector}
+    unit: USD_2010/GJ
+    weight: Final Energy|{Sector}|{Secondary Fuel Level 2}
+    notes: This price should include the effect of carbon prices.
