@@ -1,14 +1,14 @@
 # Forestry Demand Roundwood
-- Forestry Demand Roundwood:
+- Forestry Demand|Roundwood:
     description: Total roundwood demand
     unit: million m3/yr
     tier: 1
-- Forestry Demand Roundwood|{Raw Products}:
+- Forestry Demand|Roundwood|{Raw Products}:
     description: "{Raw Products} demand"
     unit: million m3/yr
     tier: 2
-- Forestry Demand Roundwood|Industrial Roundwood|Material Use:
-    description: Industrial roundwood demand - used for material
+- Forestry Demand|Roundwood|Industrial Roundwood|Material Use:
+    description: Industrial roundwood demand - used as material for wood products
     unit: million m3/yr
     tier: 2
 - Forestry Demand|Roundwood|Industrial Roundwood|Energy Use:
@@ -17,35 +17,35 @@
     tier: 2
 
 # Forestry Production Roundwood
-- Forestry Production Roundwood:
+- Forestry Production|Roundwood:
     description: Total roundwood production
     unit: million m3/yr
     tier: 1
-- Forestry Production Roundwood|{Raw Products}:
+- Forestry Production|Roundwood|{Raw Products}:
     description: "{Raw Products} production"
     unit: million m3/yr
     tier: 2
 
 # Forestry Trade Roundwood
-- Forestry Trade Roundwood:
+- Forestry Trade|Roundwood:
     description: Net export of roundwood
     unit: million m3/yr
     tier: 2
-- Forestry Trade Roundwood|{Raw Products}:
+- Forestry Trade|Roundwood|{Raw Products}:
     description: Net export of {Raw Products}
     unit: million m3/yr
     tier: 2
 
-# Forestry Demand, Production and Trade of Semi-finished Products
-- Forestry Demand Semi-Finished|{Semi-Finished Products}:
+# Forestry Demand, Production and Trade of Semi-Finished Products
+- Forestry Demand|Semi-Finished|{Semi-Finished Products}:
     description: "{Semi-Finished Products} demand"
     unit: "{Semi-Finished Products}"
     tier: 3
-- Forestry Production Semi-finished|{Semi-Finished Products}:
+- Forestry Production|Semi-Finished|{Semi-Finished Products}:
     description: "{Semi-Finished Products} production"
     unit: "{Semi-Finished Products}"
     tier: 3
-- Forestry Trade Semi-finished|{Semi-Finished Products}:
+- Forestry Trade|Semi-Finished|{Semi-Finished Products}:
     description: "Net export of {Semi-Finished Products}"
     unit: "{Semi-Finished Products}"
     tier: 3
@@ -65,18 +65,18 @@
     tier: 2
 
 # Forestry Prices
-- Price|Forestry Roundwood [Index]:
+- Price|Forestry|Roundwood [Index]:
     description: Farm-gate price index of roundwood products (weighted average)
     unit: Index (2020 = 1)
     weight: Forestry Production Roundwood
     tier: 2
-- Price|Forestry Roundwood|{Raw Products} [Index]:
+- Price|Forestry|Roundwood|{Raw Products} [Index]:
     description: Farm-gate price index of {Raw Products}
     unit: Index (2020 = 1)
     weight: Forestry Production Roundwood|{Raw Products}
     tier: 2
-- Price|Forestry Semi-finished|{Semi-Finished Products} [Index]:
+- Price|Forestry|Semi-Finished|{Semi-Finished Products} [Index]:
     description: Farm-gate price index of {Semi-Finished Products}
     unit: Index (2020 = 1)
-    weight: Forestry Production Semi-finished|{Semi-Finished Products}
+    weight: Forestry Production Semi-Finished|{Semi-Finished Products}
     tier: 3
