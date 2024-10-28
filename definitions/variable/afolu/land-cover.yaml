@@ -26,7 +26,7 @@
 - Land Cover|Cropland|{Crop Types}:
     description: Cropland for {Crop Types}
     unit: million ha
-    tier: {Crop Types}
+    tier: 2
 
 - Land Cover|Forest:
     description: Sum of primary, secondary and planted forest (FAO definition)
