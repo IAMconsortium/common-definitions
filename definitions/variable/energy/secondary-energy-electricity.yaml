@@ -12,13 +12,13 @@
     description: Installed (available) capacity to generate electricity from {Electricity Source}
     unit: GW
 - Capacity Addition|Electricity:
-    description: Total annual additions to installed (available) electricity generation capacity
+    description: Total annual new installation of electricity generation capacity
     unit: GW
-    notes: This variable should be computed as yearly average additions between previous
-      and current reported time step.
+    notes: This variable should be computed as yearly average additions between the previous
+      and the current reported time step.
 - Capacity Addition|Electricity|{Electricity Source}:
-    description: Annual addition to installed (available) capacity to generate
-      electricity from {Electricity Source}
+    description: Annual new installation of capacity to generate electricity
+      from {Electricity Source}
     unit: GW
-    notes: This variable should be computed as yearly average additions between previous
-      and current reported time step.
+    notes: This variable should be computed as yearly average additions between the previous
+      and the current reported time step.
