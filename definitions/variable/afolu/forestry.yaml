@@ -68,15 +68,15 @@
 - Price|Forestry|Roundwood [Index]:
     description: Farm-gate price index of roundwood products (weighted average)
     unit: Index (2020 = 1)
-    weight: Forestry Production Roundwood
+    weight: Forestry Production|Roundwood
     tier: 2
 - Price|Forestry|Roundwood|{Raw Products} [Index]:
     description: Farm-gate price index of {Raw Products}
     unit: Index (2020 = 1)
-    weight: Forestry Production Roundwood|{Raw Products}
+    weight: Forestry Production|Roundwood|{Raw Products}
     tier: 2
 - Price|Forestry|Semi-Finished|{Semi-Finished Products} [Index]:
     description: Farm-gate price index of {Semi-Finished Products}
     unit: Index (2020 = 1)
-    weight: Forestry Production Semi-Finished|{Semi-Finished Products}
+    weight: Forestry Production|Semi-Finished|{Semi-Finished Products}
     tier: 3
