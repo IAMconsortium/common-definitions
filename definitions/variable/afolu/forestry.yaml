@@ -11,7 +11,7 @@
     description: Industrial roundwood demand - used for material
     unit: million m3/yr
     tier: 2
-- Forestry Demand|Roundwood|Industrial Roundwood|Energy use:
+- Forestry Demand|Roundwood|Industrial Roundwood|Energy Use:
     description: Industrial roundwood demand - used for energy
     unit: million m3/yr
     tier: 2
