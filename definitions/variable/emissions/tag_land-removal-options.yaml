@@ -8,5 +8,9 @@
           subsequent application to croplands to increase soil carbon stocks
     - Soil Carbon Management:
         description: soil carbon management techniques
+    - Soil Carbon Management|Cropland:
+        description: soil carbon management techniques on cropland
+    - Soil Carbon Management|Grassland:
+        description: soil carbon management techniques on grassland
     - Forest Management:
         description: improved forest management
