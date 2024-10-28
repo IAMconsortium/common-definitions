@@ -58,7 +58,7 @@
     tier: 2
 
 # Forestry Harvested Area
-- Harvested area|Forestry:
+- Harvested Area|Forestry:
     description: Total timber harvest/production area 
       (= sum of timber plantations, and other productive forest that is being harvested)
     unit: million ha/yr
