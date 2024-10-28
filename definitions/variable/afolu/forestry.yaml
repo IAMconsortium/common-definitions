@@ -7,7 +7,7 @@
     description: "{Raw Products} demand"
     unit: million m3/yr
     tier: 2
-- Forestry Demand Roundwood|Industrial Roundwood|Material use:
+- Forestry Demand Roundwood|Industrial Roundwood|Material Use:
     description: Industrial roundwood demand - used for material
     unit: million m3/yr
     tier: 2
