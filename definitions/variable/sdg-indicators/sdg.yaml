@@ -154,8 +154,6 @@
     sdg: 6
     shape: Nitrogen|Pollution|Surplus|{Nitrogen Sources}
     tier: 2
-    domain: AFOLU
-    subdomain: Nitrogen Pollution
 - Water Quality|Nitrogen Concentration:
     description: Concentration of nitrogen in water at river mouths
     unit: mg N/l
@@ -169,8 +167,6 @@
     unit: km3/yr
     sdg: 6
     tier: 2
-    domain: AFOLU
-    subdomain: Water
 - Useful Energy|Transportation|Passenger [per capita]:
     description: Useful energy per capita for passenger transport
     unit: GJ/cap/yr
@@ -254,7 +250,6 @@
     weight: GDP|PPP
     shape: GDPpcap|PPP|Growth rate
     tier: 2
-    domain: Driver
 - GDP|PPP [per capita relative to OECD]:
     description: Ratio of GDP-per-capita (PPP) relative to OECD average
     unit: '%'
@@ -297,7 +292,6 @@
     sdg: 11
     weight: Population
     tier: 2
-    domain: Driver
 - Air Pollution|PM2.5|Urban Population:
     description: Urban population weighted annual average PM2.5 concentrations.
     unit: ug/m3
@@ -347,8 +341,6 @@
     skip-region-aggregation: true
     weight: Land Cover
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Mean Species Abundance|Vertebrates:
     description: Terrestrial biodiversity of vertebrate species measured in Mean Species
       Abundance (MSA)
@@ -356,8 +348,6 @@
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Mean Species Abundance|Plants:
     description: Terrestrial biodiversity of plant species measured in Mean Species
       Abundance (MSA)
@@ -365,8 +355,6 @@
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Biodiversity Intactness Index:
     description: Terrestrial biodiversity measured with Biodiversity Intactness Index
       (BII)
@@ -374,8 +362,6 @@
     weight: Land Cover
     navigate: Terrestrial Biodiversity|BII
     tier: 2
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Cropland Landscapes:
     description: Terrestrial biodiversity in landscapes containing cropland measured
       with Biodiversity Intactness Index (BII)
@@ -384,8 +370,6 @@
     skip-region-aggregation: true
     weight: Land Cover|Cropland
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Biodiversity Hotspots:
     description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
@@ -393,8 +377,6 @@
     sdg: 15
     skip-region-aggregation: true
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Key Conservation Landscapes:
     description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
       measured with Biodiversity Intactness Index (BII)
@@ -402,8 +384,6 @@
     sdg: 15
     skip-region-aggregation: true
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Areas Outside Key Conservation and Cropland Landscapes:
     description: Terrestrial biodiversity in areas outside biodiversity hotspot,
       intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
@@ -411,8 +391,6 @@
     sdg: 15
     skip-region-aggregation: true
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
     description: Crop diversity measured by the Shannon index accounting for crop richness
       and abundance
@@ -420,8 +398,6 @@
     sdg: 15
     skip-region-aggregation: true
     tier: 3
-    domain: AFOLU
-    subdomain: Biodiversity
 
 # Nitrogen inputs on Cropland
 - Nitrogen|Cropland Budget|Inputs:
@@ -429,50 +405,36 @@
     unit: Tg N/yr
     sdg: 15
     tier: 1
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Industrial and Intentional Biological Fixation:
     description: Nitrogen inputs on cropland via industrial and intentional biological fixation
     unit: Tg N/yr
     sdg: 15
     tier: 3
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Biological Fixation:
     description: Nitrogen inputs on cropland from biological fixation (symbiotic crops and free-living bacteria)
     unit: Tg N/yr
     sdg: 15
     tier: 3
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Biological Fixation|Symbiotic Crops:
     description: Nitrogen inputs on cropland from symbiotic fixation in plants
     unit: Tg N/yr
     sdg: 15
     tier: 3
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Organic:
     description: Nitrogen inputs on cropland from organic fertilizers (manure)
     unit: Tg N/yr
     sdg: 15
     tier: 2
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Inorganic:
     description: Nitrogen inputs on cropland from synthetic fertilizers
     unit: Tg N/yr
     sdg: 15
     tier: 2
-    domain: AFOLU
-    subdomain: Cropland Input
 - Nitrogen|Cropland Budget|Inputs|Other:
     description: Nitrogen inputs on cropland from other sources
     unit: Tg N/yr
     sdg: 15
     tier: 3
-    domain: AFOLU
-    subdomain: Cropland Input
 
 - Political Institutions|Equality Before Law and Individual Liberty:
     description: Aggregated 'Equality Before the Law and Individual Liberty' index as
