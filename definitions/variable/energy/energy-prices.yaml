@@ -1,5 +1,5 @@
 - Price|Primary Energy|Biomass:
-    description: Price for biomass
+    description: Producer price for biomass
     unit: USD_2010/GJ
     weight: Primary Energy|Biomass
 - Price|Primary Energy|{Primary Fossil Fuel}:
