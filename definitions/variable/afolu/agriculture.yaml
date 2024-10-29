@@ -167,7 +167,7 @@
 - Yield|Cropland|{Crop Types}:
     description: Yield of cropland with {Crop Types}
     unit: t DM/ha/yr
-    weight: Land Cover|Cropland
+    weight: Land Cover|Cropland|{Crop Types}
     tier: 2
 
 # Fertilizer Use -> see sdg-indicators for nitrogen fertilizer use (Nitrogen|Cropland Budget|Inputs)
