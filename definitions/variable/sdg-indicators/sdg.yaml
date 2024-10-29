@@ -37,7 +37,6 @@
 - Population|Drinking Water Access:
     description: Population with access to improved drinking  water sources 
     unit: million
-    shape: Population|Drinking Water Access
 - Expenditure|Households|Food [Share]:
     description: Share of food expenditure in total income
     unit: '%'
