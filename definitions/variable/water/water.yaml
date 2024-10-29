@@ -13,7 +13,11 @@
     unit: km3/yr
     tier: 2
 - Water Withdrawal|Electricity:
-    definition: Total water withdrawals for net electricity production
+    definition: Total water withdrawals for total electricity generation
+    unit: km3/yr
+    tier: 2
+- Water Withdrawal|Electricity|{Electricity Source}:
+    definition: Total water withdrawals for electricity generation from {Electricity Source}
     unit: km3/yr
     tier: 2
 - Water Withdrawal|Livestock:
