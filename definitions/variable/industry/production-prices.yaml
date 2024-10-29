@@ -1,0 +1,20 @@
+- Price|Production|Iron and Steel|{Iron Commodity}:
+    description: Price of {Iron Commodity}
+    unit: USD_2010/Mt
+    tier: "{Iron Commodity}"
+    navigate: Price|Industry|Iron and Steel|{Iron Commodity}
+    engage: Price|Industry|Iron and Steel|{Iron Commodity}
+
+- Price|Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Price of {Non-Ferrous Metals Commodity}
+    unit: USD_2010/Mt
+    tier: "{Non-Ferrous Metals Commodity}"
+    navigate: Price|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}
+    engage: Price|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}
+
+- Price|Production|Chemicals|{Chemicals Commodity}:
+    description: Price of {Chemicals Commodity}
+    unit: USD_2010/Mt
+    tier: "{Chemicals Commodity}"
+    navigate: Price|Industry|{Chemicals Commodity}
+    engage: Price|Industry|{Chemicals Commodity}
