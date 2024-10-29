@@ -9,4 +9,5 @@
         description: geological storage of CO2 captured from burning synthetic fuels
           created from carbon-capture-and-utilization (CCU)
     - Other:
-        description: geological storage of CO2 from other sources
+        description: geological storage of CO2 from other sources, not including carbon
+          from fossil fuels
