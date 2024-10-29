@@ -55,6 +55,7 @@
     description: Actual timber yield, average on productive forest land. 
       Equals to harvested biomass volume divided by forest area used for timber production
     unit: m3/ha
+    weight: Harvested Area|Forestry
     tier: 2
 
 # Forestry Harvested Area

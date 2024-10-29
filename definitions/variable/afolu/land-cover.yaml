@@ -76,8 +76,8 @@
     description: Plantations for timber production
     unit: million ha
     tier: 2
-- Land Cover|Forest|Planted|Plantation|Re-Afforestation:
-    description: Plantations for carbon sequestration, Re-Afforestation with 
+- Land Cover|Forest|Planted|Plantation|Re/Afforestation:
+    description: Plantations for carbon sequestration, Reforestation and/or Afforestation with 
       monoculture and/or non-native species
     unit: million ha
     tier: 2
@@ -86,8 +86,8 @@
       this includes re/afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
-- Land Cover|Forest|Planted|Natural|Re-Afforestation:
-    description: Re/afforestation for carbon sequestration with native tree species
+- Land Cover|Forest|Planted|Natural|Re/Afforestation:
+    description: Reforestation and/or Afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Natural|Other:
@@ -98,7 +98,7 @@
 - Land Cover|Other Natural:
     description: Non-forest natural land; sum of primary non-forest, restored and recovered natural land
     unit: million ha
-    tier: 2
+    tier: 1
 - Land Cover|Other Natural|Primary Non-Forest:
     description: Primary non-forest natural land without clearly visible 
       indications of human activities 
