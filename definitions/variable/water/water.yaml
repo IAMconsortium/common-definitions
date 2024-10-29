@@ -12,6 +12,14 @@
     definition: Water withdrawal for irrigation
     unit: km3/yr
     tier: 2
+- Water Withdrawal|Electricity:
+    definition: Total water withdrawals for total electricity generation
+    unit: km3/yr
+    tier: 2
+- Water Withdrawal|Electricity|{Electricity Source}:
+    definition: Total water withdrawals for electricity generation from {Electricity Source}
+    unit: km3/yr
+    tier: 2
 - Water Withdrawal|Livestock:
     definition: Water withdrawals for livestock
     unit: km3/yr
@@ -29,6 +37,14 @@
     unit: km3/yr
 - Water Consumption|Irrigation:
     definition: Water consumption for irrigation
+    unit: km3/yr
+    tier: 2
+- Water Consumption|Electricity:
+    definition: Total water withdrawals for total electricity generation
+    unit: km3/yr
+    tier: 2
+- Water Consumption|Electricity|{Electricity Source}:
+    definition: Total water withdrawals for electricity generation from {Electricity Source}
     unit: km3/yr
     tier: 2
 - Water Consumption|Livestock:
