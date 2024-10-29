@@ -27,6 +27,22 @@
     description: Cropland for {Crop Types}
     unit: million ha
     tier: 2
+- Land Cover|Cropland|Rainfed:
+    description: Rainfed cropland (physical area)
+    unit: million ha
+    tier: 1
+- Land Cover|Cropland|Irrigated:
+    description: Irrigated cropland (physical area)
+    unit: million ha
+    tier: 1
+- Land Cover|Cropland|{Crop Types}|Rainfed:
+    description: Rainfed cropland (physical area) for {Crop Types}
+    unit: million ha
+    tier: 3
+- Land Cover|Cropland|{Crop Types}|Irrigated:
+    description: Irrigated cropland (physical area) for {Crop Types}
+    unit: million ha
+    tier: 3
 
 - Land Cover|Forest:
     description: Sum of primary, secondary and planted forest (FAO definition)
