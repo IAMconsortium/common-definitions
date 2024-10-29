@@ -1,6 +1,6 @@
 - Land Removal Option:
     - Agroforestry:
-        description: agroforestry
+        description: intentionally integrating trees with crops or pasture on the same land
     - Re/Afforestation:
         description: reforestation (natural forest) or afforestation (monoculture/non-native species)
     - Biochar:
