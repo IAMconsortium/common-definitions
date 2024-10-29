@@ -1,8 +1,8 @@
 - Land Removal Option:
     - Agroforestry:
         description: agroforestry
-    - Afforestation:
-        description: afforestation
+    - Re/Afforestation:
+        description: reforestation (natural forest) or afforestation (monoculture/non-native species)
     - Biochar:
         description: conversion of biomass to recalcitrant carbon via pyrolysis and its
           subsequent application to croplands to increase soil carbon stocks
