@@ -219,7 +219,7 @@
     unit: Index (2020 = 1)
     weight: Agricultural Production|Crops
     tier: 2
-- Price|Agriculture|Energy crops:
+- Price|Agriculture|Energy Crops:
     description: Farm-gate price of second-generation bioenergy crops 
       (short rotation grasses, short rotation trees)
     unit: USD_2010/GJ
