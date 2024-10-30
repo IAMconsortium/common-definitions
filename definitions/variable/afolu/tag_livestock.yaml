@@ -1,0 +1,7 @@
+- Livestock Products:
+    - Dairy:
+        description: dairy products (milk, eggs)
+    - Ruminant:
+        description: ruminant meat (cattle, goat, sheep)
+    - Non-Ruminant:
+        description: monogastric meat (pig, poultry)

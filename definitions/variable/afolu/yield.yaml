@@ -1,9 +1,0 @@
-- Yield|Cropland|{Cereal and Non-Energy Crop Types}:
-    description: Yield of cropland with {Cereal and Non-Energy Crop Types}
-    unit: t DM/ha/yr
-    weight: Land Cover|Cropland|{Cereal and Non-Energy Crop Types}
-- Yield|Cropland|Energy Crops:
-    description: Yield of purpose-grown bioenergy crops
-      (short-rotation grasses and trees)
-    unit: t DM/ha/yr
-    weight: Land Cover|Cropland|Energy Crops

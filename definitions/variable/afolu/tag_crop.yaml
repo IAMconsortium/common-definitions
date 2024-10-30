@@ -1,4 +1,4 @@
-- Cereal and Non-Energy Crop Types:
+- Crop Types:
     - Cereals:
         description: cereals (maize, rice, temperate cereals and tropical cereals)
     - Oil Crops:
@@ -9,3 +9,6 @@
     - Other Crops:
         description: other crops (fruits, vegetables, nuts, potatoes, pulses,
           tropical roots)
+    - Energy Crops:
+        description: second-generation bioenergy crops 
+          (short rotation grasses, short rotation trees)
