@@ -170,12 +170,6 @@
     weight: Land Cover|Cropland|{Crop Types}
     tier: 2
 
-# Fertilizer Use -> see sdg-indicators for nitrogen fertilizer use (Nitrogen|Cropland Budget|Inputs)
-- Fertilizer Use|Phosphorus:
-    description: Phosphorus fertilizer use on cropland (synthetic and organic)
-    unit: Tg P/yr
-    tier: 2
-
 # Agricultural Prices
 - Price|Agriculture|Food Products [Index]:
     description: Farm-gate price index of food crops and livestock products (weighted average)
