@@ -5,75 +5,75 @@
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Deforestation:
-    description: Annual gross deforestation
+    description: Annual gross deforested area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Deforestation|Primary:
-    description: Annual gross loss of primary forest
+    description: Annual gross loss of primary forest area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Deforestation|Secondary:
-    description: Annual gross loss of secondary forest
+    description: Annual gross loss of secondary forest area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion:
-    description: Annual gross forest expansion
+    description: Annual gross expansion of forest area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Secondary:
-    description: Annual gross expansion of secondary forest
+    description: Annual gross expansion of secondary forest area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted:
-    description: Annual gross expansion of planted forest
+    description: Annual gross expansion of planted forest area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Plantation:
-    description: Annual gross expansion of plantations
+    description: Annual gross expansion of plantation area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Plantation|Timber:
-    description: Annual gross expansion of timber plantation
+    description: Annual gross expansion of timber plantation area
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Plantation|Re/Afforestation:
-    description: Annual gross expansion of carbon plantations; Reforestation and/or 
-       Afforestation with monoculture and/or non-native species
+    description: Annual gross expansion of carbon plantation area through reforestation
+      and/or afforestation with monoculture and/or non-native species
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Natural:
-    description: Annual gross expansion of planted forest not classified as plantation forest 
+    description: Annual gross expansion of planted forest area not classified as plantation forest
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Natural|Re/Afforestation:
-    description: Annual gross Reforestation and/or Afforestation for carbon sequestration 
-      with native tree  species
+    description: Annual gross reforestation and/or afforestation area for carbon sequestration
+      with native tree species
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr
     tier: 3
 - Forest Area Change|Forest Expansion|Planted|Natural|Other:
-    description: Annual gross expansion of other planted forest not classified as plantation 
+    description: Annual gross expansion of other planted forest area not classified as plantation
     notes: This variable should be computed as yearly average change between the previous
       and the current reported time step.
     unit: million ha/yr

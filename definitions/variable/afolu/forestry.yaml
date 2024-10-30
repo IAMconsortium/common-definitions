@@ -4,15 +4,15 @@
     unit: million m3/yr
     tier: 1
 - Forestry Demand|Roundwood|{Raw Products}:
-    description: "{Raw Products} demand"
+    description: Demand for {Raw Products}
     unit: million m3/yr
     tier: 2
 - Forestry Demand|Roundwood|Industrial Roundwood|Material Use:
-    description: Industrial roundwood demand - used as material for wood products
+    description: Demand of industrial roundwood to be used as material for wood products
     unit: million m3/yr
     tier: 2
 - Forestry Demand|Roundwood|Industrial Roundwood|Energy Use:
-    description: Industrial roundwood demand - used for energy
+    description: Demand of industrial roundwood for energy use
     unit: million m3/yr
     tier: 2
 
@@ -22,7 +22,7 @@
     unit: million m3/yr
     tier: 1
 - Forestry Production|Roundwood|{Raw Products}:
-    description: "{Raw Products} production"
+    description: Prodution of {Raw Products}
     unit: million m3/yr
     tier: 2
 
@@ -38,15 +38,15 @@
 
 # Forestry Demand, Production and Trade of Semi-Finished Products
 - Forestry Demand|Semi-Finished|{Semi-Finished Products}:
-    description: "{Semi-Finished Products} demand"
+    description: Demand for {Semi-Finished Products}
     unit: "{Semi-Finished Products}"
     tier: 3
 - Forestry Production|Semi-Finished|{Semi-Finished Products}:
-    description: "{Semi-Finished Products} production"
+    description: Production of "{Semi-Finished Products}
     unit: "{Semi-Finished Products}"
     tier: 3
 - Trade|Forestry|Semi-Finished|{Semi-Finished Products}:
-    description: "Net export of {Semi-Finished Products}"
+    description: Net export of {Semi-Finished Products}
     unit: "{Semi-Finished Products}"
     tier: 3
 
