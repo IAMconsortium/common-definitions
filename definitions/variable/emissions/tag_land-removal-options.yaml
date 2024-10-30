@@ -3,6 +3,12 @@
         description: intentionally integrating trees with crops or pasture on the same land
     - Re/Afforestation:
         description: reforestation (natural forest) or afforestation (monoculture/non-native species)
+    - Re/Afforestation|Natural Forest:
+        description: reforestation and/or afforestation for carbon sequestration with
+          native tree species resembling natural vegetation
+    - Re/Afforestation|Plantation:
+        description: reforestation and/or afforestation for carbon sequestration with
+          non-native species and/or as monoculture plantation
     - Biochar:
         description: conversion of biomass to recalcitrant carbon via pyrolysis and its
           subsequent application to croplands to increase soil carbon stocks
