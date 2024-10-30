@@ -131,33 +131,33 @@
     tier: 2
 
 # Agricultural Trade
-- Agricultural Trade:
+- Trade|Agriculture:
     description: Net export of food, non-food and feed products 
       (crops and livestock) and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
     tier: 2
-- Agricultural Trade|Crops:
+- Trade|Agriculture|Crops:
     description: Net export of crops
     unit: million t DM/yr
     agmip: Production (PROD) - All crops (CRP)
     tier: 2
-- Agricultural Trade|Crops|{Crop Types}:
+- Trade|Agriculture|Crops|{Crop Types}:
     description: Net export of {Crop Types}
     unit: million t DM/yr
     agmip:
     tier: 2
-- Agricultural Trade|Livestock:
+- Trade|Agriculture|Livestock:
     description: Net export of livestock products (excluding fish)
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
     tier: 2
-- Agricultural Trade|Livestock|{Livestock Products}:
+- Trade|Agriculture|Livestock|{Livestock Products}:
     description: Net export of {Livestock Products}
     unit: million t DM/yr
     agmip: Production (PROD) - Dairy (DRY)
     tier: 2
-- Agricultural Trade|Residues:
+- Trade|Agriculture|Residues:
     description: Net export of agricultural residues
     unit: million t DM/yr
     agmip:

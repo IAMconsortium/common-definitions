@@ -27,11 +27,11 @@
     tier: 2
 
 # Forestry Trade Roundwood
-- Forestry Trade|Roundwood:
+- Trade|Forestry|Roundwood:
     description: Net export of roundwood
     unit: million m3/yr
     tier: 2
-- Forestry Trade|Roundwood|{Raw Products}:
+- Trade|Forestry|Roundwood|{Raw Products}:
     description: Net export of {Raw Products}
     unit: million m3/yr
     tier: 2
@@ -45,7 +45,7 @@
     description: "{Semi-Finished Products} production"
     unit: "{Semi-Finished Products}"
     tier: 3
-- Forestry Trade|Semi-Finished|{Semi-Finished Products}:
+- Trade|Forestry|Semi-Finished|{Semi-Finished Products}:
     description: "Net export of {Semi-Finished Products}"
     unit: "{Semi-Finished Products}"
     tier: 3
