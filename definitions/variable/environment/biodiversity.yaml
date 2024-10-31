@@ -2,7 +2,6 @@
     description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     unit: '%'
     sdg: 15
-    skip-region-aggregation: true
     weight: Land Cover
     tier: 3
 - Terrestrial Biodiversity|Mean Species Abundance|Vertebrates:
@@ -31,34 +30,33 @@
       with Biodiversity Intactness Index (BII)
     unit: '%'
     sdg: 15
-    skip-region-aggregation: true
-    weight: Land Cover|Cropland
+    weight: Land Cover
     tier: 3
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Biodiversity Hotspots:
     description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
     unit: '%'
     sdg: 15
-    skip-region-aggregation: true
+    weight: Land Cover
     tier: 3
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Key Conservation Landscapes:
     description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
       measured with Biodiversity Intactness Index (BII)
     unit: '%'
     sdg: 15
-    skip-region-aggregation: true
+    weight: Land Cover
     tier: 3
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Areas Outside Key Conservation and Cropland Landscapes:
     description: Terrestrial biodiversity in areas outside biodiversity hotspot,
       intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
     unit: '%'
     sdg: 15
-    skip-region-aggregation: true
+    weight: Land Cover
     tier: 3
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
     description: Crop diversity measured by the Shannon index accounting for crop richness
       and abundance
     unit:
     sdg: 15
-    skip-region-aggregation: true
+    weight: Land Cover
     tier: 3
