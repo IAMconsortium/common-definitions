@@ -1,5 +1,5 @@
 - Food Availability [per capita]:
-    description: Amount of food available per capita for consumption
+    description: Amount of crops and livestock products available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
@@ -36,7 +36,7 @@
     weight: Population
     tier: 2
 - Food Intake|Crops [per capita]:
-    description: Amount of crops consumed consumed per capita
+    description: Amount of crops consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population

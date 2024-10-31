@@ -8,11 +8,11 @@
     unit: million m3/yr
     tier: 2
 - Forestry Demand|Roundwood|Industrial Roundwood|Material Use:
-    description: Demand of industrial roundwood to be used as material for wood products
+    description: Demand for industrial roundwood to be used as material for wood products
     unit: million m3/yr
     tier: 2
 - Forestry Demand|Roundwood|Industrial Roundwood|Energy Use:
-    description: Demand of industrial roundwood for energy use
+    description: Demand for industrial roundwood for energy use
     unit: million m3/yr
     tier: 2
 
