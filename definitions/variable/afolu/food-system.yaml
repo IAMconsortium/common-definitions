@@ -1,69 +1,69 @@
 - Food Availability [per capita]:
-    description: Food available for consumption - crops and livestock products
+    description: Amount of crops and livestock products available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
 - Food Availability|Crops [per capita]:
-    description: Food available for consumption - crops
+    description: Amount of crops available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
 - Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
-    description: Food available for consumption - {Crop Types w/o Energy Crops}
+    description: Amount of {Crop Types w/o Energy Crops} available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
 - Food Availability|Livestock [per capita]:
-    description: Food available for consumption - livestock products
+    description: Amount of livestock products available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
 - Food Availability|Livestock|{Livestock Products} [per capita]:
-    description: Food available for consumption - {Livestock Products}
+    description: Amount of {Livestock Products} available per capita for consumption
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
 
 - Food Intake [per capita]:
-    description: Food actually consumed - crops and livestock products
+    description: Amount of crops and livestock products consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 2
 - Food Intake|Crops [per capita]:
-    description: Food actually consumed - crops
+    description: Amount of crops consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 2
 - Food Intake|Crops|{Crop Types w/o Energy Crops} [per capita]:
-    description: Food actually consumed - {Crop Types w/o Energy Crops}
+    description: Amount of {Crop Types w/o Energy Crops} consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
 - Food Intake|Livestock [per capita]:
-    description: Food actually consumed - livestock products
+    description: Amount of livestock products consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 2
 - Food Intake|Livestock|{Livestock Products} [per capita]:
-    description: Food actually consumed - {Livestock Products}
+    description: Amount of {Livestock Products} consumed per capita
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 3
 
 - Food Waste [per capita]:
-    description: Amount of food (crops and livestock) per capita that is disposed and 
-      not consumed (difference between food availabilty and food intake) - 
-      includes food losses and food waste
+    description: Amount of food (crops and livestock) per capita that is disposed and
+      not consumed (difference between food availability and food intake),
+      including food losses and food waste
     unit: kcal/cap/day
     sdg: 2
     weight: Population

@@ -1,19 +1,19 @@
 - Semi-Finished Products:
     - Sawnwood:
-        description: Sawnwood
+        description: sawnwood
         unit: million m3/yr
     - Plywood:
-        description: Plywood
+        description: plywood
         unit: million m3/yr
     - Fiberboard:
-        description: Fiberboard
+        description: fiberboard
         unit: million m3/yr
     - Other Wood Products:
-        description: Other wood products
+        description: other wood products
         unit: million m3/yr
     - Mechanical Pulp:
-        description: Mechanical pulp
+        description: mechanical pulp
         unit: million tDM/yr
     - Chemical Pulp:
-        description: Chemical pulp
+        description: chemical pulp
         unit: million tDM/yr
