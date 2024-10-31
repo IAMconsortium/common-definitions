@@ -1,0 +1,38 @@
+- Fertilizer Use|Phosphorus:
+    description: Phosphorus fertilizer use on cropland (synthetic and organic)
+    unit: Tg P/yr
+    tier: 2
+    sdg: 15
+- Fertilizer Use|Phosphorus|Synthetic:
+    description: Synthetic phosphorus fertilizer use on cropland 
+    unit: Tg P/yr
+    tier: 2
+    sdg: 15
+- Fertilizer Use|Phosphorus|Organic:
+    description: Organic phosphorus fertilizer use on cropland (e.g. rock phosphate, manure and compost)
+    unit: Tg P/yr
+    tier: 2
+    sdg: 15
+
+- Fertilizer Use|Nitrogen:
+    description: Nitrogen fertilizer use on cropland (synthetic and organic)
+    unit: Tg N/yr
+    tier: 1
+    sdg: 15
+- Fertilizer Use|Nitrogen|Synthetic:
+    description: Synthetic nitrogen fertilizer use on cropland
+    unit: Tg N/yr
+    tier: 2
+    sdg: 15
+- Fertilizer Use|Nitrogen|Organic:
+    description: Organic nitrogen fertilizer use on cropland (e.g. manure)
+    unit: Tg N/yr
+    tier: 2
+    sdg: 15
+
+- Pollution|Nitrogen|Surplus|{Nitrogen Sources}:
+    description: Nitrogen surplus of {Nitrogen Sources}
+    unit: Tg N/yr
+    sdg: 6
+    shape: Nitrogen|Pollution|Surplus|{Nitrogen Sources}
+    tier: 2
