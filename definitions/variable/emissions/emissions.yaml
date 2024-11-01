@@ -86,7 +86,7 @@
     description: Gross emissions of carbon dioxide (CO2) from deforestation
     unit: Mt CO2/yr
     tier: 3
-- Gross Emissions|CO2|Land|Other LUC:
+- Gross Emissions|CO2|Land|Other Land Use Change:
     description: Gross emissions of carbon dioxide (CO2) from other land-use change (LUC)
     unit: Mt CO2/yr
     tier: 3
