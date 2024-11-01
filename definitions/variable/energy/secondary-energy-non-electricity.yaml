@@ -13,7 +13,7 @@
     tier: "{Secondary Fuel Level 2}"
 - Capacity Additions|{Secondary Fuel Level 2}:
     description: Total annual new capacity installation to produce {Secondary Fuel Level 2}
-    unit: GW
+    unit: GW/yr
     tier: "{Secondary Fuel Level 2}"
     notes: This variable should be computed as yearly average additions between the previous
       and the current reported time step.
