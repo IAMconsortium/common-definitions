@@ -22,7 +22,7 @@
     description: Emissions of {Level-2 Species} from agriculture, forestry and other land use (IPCC category 3).  
       In particular, this includes agricultural emissions (mostly non-CO2) from livestock, rice cultivation and soil 
       management as well as emission from land use and land-use change (mostly CO2) such as deforestation, 
-      conversion of other natural land, forestry activities, agroforestry, Re/Afforestation and managed peatlands
+      conversion of non-forest natural land, forestry activity, agroforestry, Re/Afforestation and managed peatlands
     unit: "{Level-2 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
@@ -54,7 +54,7 @@
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from land use and land-use change including deforestation, 
-      conversion of other natural land, forestry activities, agroforestry, Re/Afforestation and managed peatlands
+      conversion of non-forest natural land, forestry activity, agroforestry, Re/Afforestation and managed peatlands
     unit: "{Level-3 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
@@ -77,21 +77,21 @@
     unit: "{Level-3 Species}"
     tier: 2
 
-- Gross Emissions|CO2|Land:
-    description: Gross emissions of carbon dioxide (CO2) from deforestation, 
-      other land-use change (LUC) and forest management
+- Gross Emissions|CO2|AFOLU|Land:
+    description: Gross emissions of carbon dioxide (CO2) from land use and land-use change including 
+      deforestation, conversion of non-forest natural land and forestry activity
     unit: Mt CO2/yr
     tier: 3
-- Gross Emissions|CO2|Land|Deforestation:
+- Gross Emissions|CO2|AFOLU|Land|Deforestation:
     description: Gross emissions of carbon dioxide (CO2) from deforestation
     unit: Mt CO2/yr
     tier: 3
-- Gross Emissions|CO2|Land|Other Land Use Change:
-    description: Gross emissions of carbon dioxide (CO2) from other land-use change (LUC)
+- Gross Emissions|CO2|AFOLU|Land|Other Land Use Change:
+    description: Gross emissions of carbon dioxide (CO2) from conversion of non-forest natural land
     unit: Mt CO2/yr
     tier: 3
-- Gross Emissions|CO2|Land|Forest Management:
-    description: Gross emissions of carbon dioxide (CO2) from Forest Management
+- Gross Emissions|CO2|AFOLU|Land|Forest Management:
+    description: Gross emissions of carbon dioxide (CO2) from forestry activity
     unit: Mt CO2/yr
     tier: 3
 
