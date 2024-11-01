@@ -13,12 +13,12 @@
     unit: GW
 - Capacity Additions|Electricity:
     description: Total annual new installation of electricity generation capacity
-    unit: GW
+    unit: GW/yr
     notes: This variable should be computed as yearly average additions between the previous
       and the current reported time step.
 - Capacity Additions|Electricity|{Electricity Source}:
     description: Annual new installation of capacity to generate electricity
       from {Electricity Source}
-    unit: GW
+    unit: GW/yr
     notes: This variable should be computed as yearly average additions between the previous
       and the current reported time step.
