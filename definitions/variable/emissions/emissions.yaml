@@ -77,6 +77,10 @@
     unit: "{Level-3 Species}"
     tier: 2
 
+- Gross Emissions|CO2|AFOLU:
+    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry and other land use (IPCC category 3)
+    unit: Mt CO2/yr
+    tier: 3
 - Gross Emissions|CO2|AFOLU|Land:
     description: Gross emissions of carbon dioxide (CO2) from land use and land-use change including 
       deforestation, conversion of non-forest natural land and forestry activity
