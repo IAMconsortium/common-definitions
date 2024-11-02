@@ -21,8 +21,10 @@
       - Emissions|{Level-1 Species}|Product Use
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
-    description: Gross emissions of carbon dioxide (CO2), not accounting for 
-      emissions removed from the atmosphere
+    description: Gross emissions of carbon dioxide (CO2). 
+      This is emissions sources only. All removals (for example, 
+      removals from BECCS or direct air carbon capture and storage (DACCS)) 
+      are not included here. For net emissions, see "Emissions|*".
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|AFOLU:
@@ -34,10 +36,12 @@
       category represent fluxes to/from the atmosphere from/to the land pool.
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|AFOLU:
-  description: Gross emissions of carbon dioxide (CO2), i.e. the sum of all positive emissions 
-      (excluding all negative emissions), from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3). Emissions reported in this 
-      category represent fluxes from the land pool to the atmosphere.
+  description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
+      This is emissions sources only. All removals (for example, 
+      removals from biochar) are not included here. For net emissions, 
+      see "Emissions|*". Emissions reported in this category represent 
+      fluxes from the land pool to the atmosphere.
   unit: Mt CO2/yr
 - Gross Emissions|CO2|AFOLU|Deforestation:
   description: Gross emissions of carbon dioxide (CO2) from deforestation
