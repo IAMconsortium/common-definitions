@@ -263,7 +263,9 @@
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|Waste:
-    description: Emissions of {Level-2 Species} from waste (IPCC category 6)
+    description: Emissions of {Level-2 Species} from waste (IPCC 1996 category 6; IPCC 2006 category 4). 
+      Any emissions from fossil-based products (incineration or CO2 decomposition) should be accounted for here.
+      CO2 from organic waste handling and decay should not be included.
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-2 Species}|Other:
