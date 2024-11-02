@@ -294,8 +294,7 @@
       technologies that are not directly linked 
       to an emissions source, including direct air carbon capture and storage (DACCS) or enhanced 
       weathering (EW), as well as durable wood products in building elements, mineral products, 
-      ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture, 
-      and other methods
+      ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture
     unit: "{Level-3 Species}"
     note: This timeseries should be reported as negative values so that subcategories of
       emissions add up to net emissions `Emissions|{Level-3 Species}`.
