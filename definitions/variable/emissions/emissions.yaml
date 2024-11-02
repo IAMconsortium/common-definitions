@@ -23,10 +23,11 @@
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
-      and other land use (IPCC category 3), reporting the net of emissions 
-      including land-use methods that do not use CCS such as soil carbon 
-      sequestration, biochar, forestry, peatland and wetland restoration, 
-      and biomass burial
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3), 
+      reporting the net of emissions including land-use methods that do not 
+      use CCS such as soil carbon sequestration, biochar, forestry, peatland 
+      and wetland restoration, and biomass burial. Emissions reported in this 
+      category represent fluxes from the atmosphere to/from the land pool.
     unit: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
