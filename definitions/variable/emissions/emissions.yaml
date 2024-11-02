@@ -43,12 +43,6 @@
       see "Emissions|*". Emissions reported in this category represent 
       fluxes from the land pool to the atmosphere.
   unit: Mt CO2/yr
-- Gross Emissions|CO2|AFOLU|Deforestation:
-  description: Gross emissions of carbon dioxide (CO2) from deforestation
-- Gross Emissions|CO2|AFOLU|Other Land:
-  description: Gross emissions of carbon dioxide (CO2) from other land-use change
-- Gross Emissions|CO2|AFOLU|Forest Management:
-  description: Gross emissions of carbon dioxide (CO2) from forest management
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
