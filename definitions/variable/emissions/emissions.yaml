@@ -291,7 +291,7 @@
 
 - Emissions|{Level-3 Species}|Other Capture and Removal:
     description: Capture and removal of atmospheric {Level-3 Species} using other net-negative 
-      technologies that are not reported under other variables as they are not directly linked 
+      technologies that are not directly linked 
       to an emissions source, including direct air carbon capture and storage (DACCS) or enhanced 
       weathering (EW), as well as durable wood products in building elements, mineral products, 
       ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture, 
