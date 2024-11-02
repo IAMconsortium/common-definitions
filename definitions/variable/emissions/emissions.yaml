@@ -67,7 +67,7 @@
     description: Emissions of {Level-3 Species} from soil management practices
       in the agriculture sector
     unit: "{Level-3 Species}"
-- Emissions|*|AFOLU|Biomass Burning:
+- Emissions|{Level-3 Species}|AFOLU|Biomass Burning:
     description: Agricultural Waste Burning (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
