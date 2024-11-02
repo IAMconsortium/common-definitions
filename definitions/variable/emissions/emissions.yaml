@@ -1,6 +1,9 @@
 # Emissions species are grouped into three levels of detail for the reporting.
 # Level-1 reports aggregate emissions, Level-3 has the most detailed disaggregation.
 # Gross emissions are only defined for CO2.
+# Emissions reporting guidance follows IPCC guidance, referring to 
+# 2006 categories: https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/1_Volume1/19R_V1_Ch08_Reporting_Guidance.pdf
+# 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
 
 - Emissions|{Level-1 Species}:
     description: Emissions of {Level-1 Species}, net of emissions to the atmosphere and the removal of {Level-1 Species} from the atmosphere.
