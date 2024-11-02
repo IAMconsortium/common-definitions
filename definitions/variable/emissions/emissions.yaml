@@ -286,7 +286,7 @@
 - Emissions|{Level-2 Species}|Other:
     description: Emissions of {Level-2 Species} from other sources, (IPCC 1996 category 7; IPCC 2006 category 5B; including fossil fuel fires). 
       Only use this category exceptionally, for any categories than cannot be accommodated in the categories described above. 
-      Unless specified otherwise, this will be treated as a flux from some fossil reservoir to the atmosphere in climate models.
+      notes: This will be treated as a flux from some fossil reservoir to the atmosphere in climate models.
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-3 Species}|Other Capture and Removal:
