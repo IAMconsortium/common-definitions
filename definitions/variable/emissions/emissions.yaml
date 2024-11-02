@@ -21,10 +21,10 @@
       - Emissions|{Level-1 Species}|Product Use
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
-    description: Gross emissions of carbon dioxide (CO2). 
-      This is emissions sources only. All removals (for example, 
-      removals from BECCS or direct air carbon capture and storage (DACCS)) 
-      are not included here. For net emissions, see "Emissions|*".
+    description:  Gross emissions of carbon dioxide (CO2), not accounting for
+      negative  emissions from bioenergy with CCS (BECCS), direct air carbon capture
+      or agriculture, forestry and other land use (AFOLU)
+    notes: For net emissions (accounting for negative emissions), see "Emissions|CO2".
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|AFOLU:
