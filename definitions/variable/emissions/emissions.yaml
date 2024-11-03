@@ -37,6 +37,10 @@
       category represent fluxes to/from the atmosphere from/to the land pool.
     unit: "{Level-2 Species}"
     note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    components:
+      - Emissions|{Level-3 Species}|AFOLU|Agriculture
+      - Emissions|{Level-3 Species}|AFOLU|Biomass Burning
+      - Emissions|{Level-3 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
   description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
@@ -73,6 +77,14 @@
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use
     unit: "{Level-3 Species}"
+    components:
+      - Emissions|{Level-3 Species}|AFOLU|Land|Forest Land
+      - Emissions|{Level-3 Species}|AFOLU|Land|Cropland
+      - Emissions|{Level-3 Species}|AFOLU|Land|Grassland
+      - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands
+      - Emissions|{Level-3 Species}|AFOLU|Land|Settlements
+      - Emissions|{Level-3 Species}|AFOLU|Land|Other Land
+      - Emissions|{Level-3 Species}|AFOLU|Land|Fires
 - Emissions|{Level-3 Species}|AFOLU|Land|Forest Land:
     description: Emissions and removals from lands with woody vegetation
       (partially IPCC 1996 category 5A/5B/5D; IPCC 2006 category 3B1) 
@@ -117,6 +129,9 @@
       unmanaged land areas that do not fall into any of the other
       land categories (no clear IPCC 1996 category; IPCC 2006 category 3B6). 
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Fires:
+    description: Emissions from land fires and deforestation & degradation
+    unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
     description: Emissions from peat fires
     unit: "{Level-3 Species}"
@@ -125,7 +140,7 @@
       and tropical deforestation & degradation
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
-    description: Emissions from 
+    description: Emissions from savanna, grassland, and shrubland fires
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
