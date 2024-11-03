@@ -96,7 +96,7 @@
     description: Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors
       (IPCC category 1A, 1B) and from industrial processes (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E),
       including emissions from international bunker fuels, not accounting for 
-      emissions removed from the atmosphere
+      removals from the atmosphere
     unit: Mt CO2/yr
     components:
       - Gross Emissions|CO2|Energy
@@ -196,7 +196,7 @@
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand|Industry:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
     description: Emissions of carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
