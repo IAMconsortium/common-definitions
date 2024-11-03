@@ -22,7 +22,7 @@
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
     description:  Gross emissions of carbon dioxide (CO2), not accounting for
-      negative  emissions from bioenergy with CCS (BECCS), direct air carbon capture
+      negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture
       or agriculture, forestry and other land use (AFOLU)
     notes: For net emissions (accounting for negative emissions), see "Emissions|CO2".
     unit: Mt CO2/yr
@@ -115,7 +115,7 @@
 - Gross Emissions|CO2|Energy:
     description: Gross emissions of carbon dioxide (CO2) from energy use,
       including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for 
-      emissions removed from the atmosphere
+      removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply:
     description: Emissions of {Level-2 Species} from fuel combustion and fugitive emissions
@@ -132,7 +132,7 @@
       IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
       fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
       transport and storage (IPCC category 1C), not accounting for 
-      emissions removed from the atmosphere
+      removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply|Combustion:
     description: Emissions of {Level-2 Species} from fuel combustion in energy supply,
@@ -150,7 +150,7 @@
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Electricity:
     description: Gross emissions of carbon dioxide (CO2) for electricity generation,
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2}
@@ -158,7 +158,7 @@
     tier: "{Secondary Fuel Level 2}"
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2},
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: "{Secondary Fuel Level 2}"
 - Emissions|CO2|Energy|Supply|Autoproduction:
@@ -166,14 +166,14 @@
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Autoproduction:
     description: Gross emissions of carbon dioxide (CO2) for own-use energy supply,
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|Other:
     description: Emissions of carbon dioxide (CO2) for other categories of energy supply
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Other:
     description: Gross emissions of carbon dioxide (CO2) for other categories of energy supply,
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|Energy|Demand:
@@ -189,7 +189,7 @@
       residential, commercial, institutional sectors and agriculture, forestry,
       fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and the transportation sector
       (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
-      not accounting for emissions removed from the atmosphere
+      not accounting for removals from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Demand|Industry:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
