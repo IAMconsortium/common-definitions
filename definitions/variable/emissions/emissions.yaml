@@ -68,21 +68,64 @@
       in the agriculture sector
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Biomass Burning:
-    description: Agricultural Waste Burning (DESCRIPTION TO BE UPDATED)
+    description: Emissions from agricultural waste burning
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Peat Burning:
-    description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)  (DESCRIPTION TO BE UPDATED)
+- Emissions|{Level-3 Species}|AFOLU|Land|Forest Land:
+    description: Emissions and removals from lands with woody vegetation
+      (partially IPCC 1996 category 5A/5B/5D; IPCC 2006 category 3B1) 
+    note: It also includes systems with vegetation that currently fall below, 
+      but are expected to later exceed, the threshold values used by a country to
+      define the forest land category.
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
-    description: Emissions and removals of {Level-3 Species} from land with woody vegetation 
-      (forests, IPCC category 3B1)  (DESCRIPTION TO BE UPDATED)
+- Emissions|{Level-3 Species}|AFOLU|Land|Cropland:
+    description: Emissions and removals from arable and tillage land, rice
+      fields, and agro-forestry systems where vegetation falls
+      below the thresholds used for the forest land category
+      (no clear IPCC 1996 category; IPCC 2006 category 3B2)
+    note: This does not include methane emissions from rice cultivation
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
-    description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
-      (IPCC category 3B3)  (DESCRIPTION TO BE UPDATED)
+- Emissions|{Level-3 Species}|AFOLU|Land|Grassland:
+    description: Emissions and removals from rangelands and pasture land
+      that is not considered cropland. It also includes systems with
+      woody vegetation that fall below the threshold values used
+      in the forest land category and are not expected to exceed
+      them, without human intervention (partially IPCC 1996 category 4D/4E/5A/5B/5C/5D; IPCC 2006 category 3B3).
+    note: The category also includes all grassland from wild lands to recreational 
+      areas as well as agricultural and silvi-pastural systems, subdivided
+      into managed and unmanaged, consistent with national
+      definitions.
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
+    description: Emissions from land that is covered or saturated by water for
+      all or part of the year (e.g., peatland) and that does not fall
+      into the forest land, cropland, grassland or settlements
+      categories (partially IPCC 1996 category 4D/5A/5B/5E; IPCC 2006 category 3B4) 
+    note: It includes reservoirs as a managed sub-division and 
+      natural rivers and lakes as unmanaged sub-divisions
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Settlements:
+    description: Emissions and removals from all developed land, including
+      transportation infrastructure and human settlements of any
+      size, unless they are already included under other
+      categories (partially IPCC 1996 category 5A/5B/5D/5E; IPCC 2006 category 3B5).
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Other Land:
+    description: Emissions and removals from bare soil, rock, ice, and all
+      unmanaged land areas that do not fall into any of the other
+      land categories (no clear IPCC 1996 category; IPCC 2006 category 3B6). 
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
+    description: Emissions from peat fires
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning:
+    description: Emissions from boreal forest fires, temperate forest fires,
+      and tropical deforestation & degradation
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
+    description: Emissions from 
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
