@@ -12,6 +12,7 @@
       contributions. For positive contributions only, see 
       "Gross Emissions|*").
     unit: "{Level-1 Species}"
+    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -35,6 +36,7 @@
       and wetland restoration, and biomass burial. Emissions reported in this 
       category represent fluxes to/from the atmosphere from/to the land pool.
     unit: "{Level-2 Species}"
+    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
 - Gross Emissions|CO2|AFOLU:
   description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
@@ -89,6 +91,7 @@
       including emissions from international bunker fuels. This is the sum of sources and sinks, and 
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
+    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
@@ -109,6 +112,7 @@
       emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply 
       and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage
     unit: "{Level-2 Species}"
+    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|Energy|Supply
       - Emissions|{Level-3 Species}|Energy|Demand
@@ -244,6 +248,7 @@
       and sinks, including negative emissions such as those from cement carbonation
       processes and other forms of capture and storage on industrial processes
     unit: "{Level-3 Species}"
+    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions 
@@ -298,4 +303,5 @@
       ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture
     unit: "{Level-3 Species}"
     note: This timeseries should be reported as negative values so that subcategories of
-      emissions add up to net emissions `Emissions|{Level-3 Species}`.
+      emissions add up to net emissions `Emissions|{Level-3 Species}`. For a breakdown of carbon 
+      removals, see the "Carbon Removal|*" tree
