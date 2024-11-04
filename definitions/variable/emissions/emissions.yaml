@@ -39,7 +39,8 @@
       use CCS such as soil carbon sequestration, biochar, forestry, and re/afforestation and 
       agroforestry. 
     unit: "{Level-2 Species}"
-    note: Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    note: Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. 
+      For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|AFOLU|Agriculture
       - Emissions|{Level-3 Species}|AFOLU|Biomass Burning
@@ -78,8 +79,12 @@
     description: Emissions from agricultural waste burning
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
-    description: Emissions of {Level-3 Species} from forestry and other land use
+    description: Emissions of {Level-3 Species} from forestry and other land use and 
+      land use change
     unit: "{Level-3 Species}"
+    note: Emissions from land use change are reported under the land use type
+      that the land is converted to. For instance, deforestation for the creation
+      of new cropland is reported under "Emissions|*|AFOLU|Land|Cropland".
     components:
       - Emissions|{Level-3 Species}|AFOLU|Land|Forest Land
       - Emissions|{Level-3 Species}|AFOLU|Land|Cropland
