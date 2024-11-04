@@ -43,7 +43,7 @@
       For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|AFOLU|Agriculture
-      - Emissions|{Level-3 Species}|AFOLU|Biomass Burning
+      - Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-3 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
   description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
@@ -56,28 +56,36 @@
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
+      (IPCC 1996 category 4; IPCC 2006 category 3A and 3C except 3C1)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
     description: Emissions of {Level-3 Species} from livestock in the agriculture sector
+      (IPCC 1996 category 4A and 4B; IPCC 2006 category 3A)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
     description: Emissions of {Level-3 Species} from enteric fermentation of livestock
+      (IPCC 1996 category 4A; IPCC 2006 category 3A1)
       in the agriculture sector
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Manure Management:
     description: Emissions of {Level-3 Species} from processes involving
       manure (waste) management in Livestock in the agriculture sector
+      (IPCC 1996 category 4B; IPCC 2006 category 3A2)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Rice:
     description: Emissions of {Level-3 Species} from rice cultivation
+      (IPCC 1996 category 4C; IPCC 2006 category 3C7)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Managed Soils:
     description: Emissions of {Level-3 Species} from soil management practices
       in the agriculture sector
+      (IPCC 1996 category 4D; IPCC 2006 category 3C4 and 3C5)
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Biomass Burning:
+- Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning:
     description: Emissions from agricultural waste burning
+      (IPCC 1996 category 4F; partially IPCC 2006 category 3C1)
     unit: "{Level-3 Species}"
+    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use and 
       land use change. Removals in this variable include agroforestry, re/afforestation, 
