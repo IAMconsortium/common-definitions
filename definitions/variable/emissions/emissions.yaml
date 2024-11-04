@@ -118,16 +118,16 @@
     description: Fugitive emissions of {Level-2 Species} from fuels in energy extraction,
       processing, storage and transport (IPCC category 1B)
     unit: "{Level-2 Species}"
-- Emissions|CO2|Energy|Supply|Electricity:
-    description: Emissions of carbon dioxide (CO2) for electricity generation
-    unit: Mt CO2/yr
+- Emissions|{Level-2 Species}|Energy|Supply|Electricity:
+    description: Emissions of {Level-2 Species} for electricity generation
+    unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Electricity:
     description: Gross emissions of carbon dioxide (CO2) for electricity generation,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
-    description: Emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2}
-    unit: Mt CO2/yr
+- Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 2}:
+    description: Emissions of {Level-2 Species} for production of {Secondary Fuel Level 2}
+    unit: "{Level-2 Species}"
     tier: "{Secondary Fuel Level 2}"
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2},
@@ -141,9 +141,9 @@
     description: Gross emissions of carbon dioxide (CO2) for own-use energy supply,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Supply|Other:
-    description: Emissions of carbon dioxide (CO2) for other categories of energy supply
-    unit: Mt CO2/yr
+- Emissions|{Level-2 Species}|Energy|Supply|Other:
+    description: Emissions of {Level-2 Species} for other categories of energy supply
+    unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Other:
     description: Gross emissions of carbon dioxide (CO2) for other categories of energy supply,
       not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
