@@ -12,7 +12,7 @@
       contributions. For positive contributions only, see 
       "Gross Emissions|*").
     unit: "{Level-1 Species}"
-    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -39,7 +39,7 @@
       use CCS such as soil carbon sequestration, biochar, forestry, and re/afforestation and 
       agroforestry. 
     unit: "{Level-2 Species}"
-    note: Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. 
+    notes: Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. 
       For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|AFOLU|Agriculture
@@ -82,7 +82,7 @@
     description: Emissions of {Level-3 Species} from forestry and other land use and 
       land use change
     unit: "{Level-3 Species}"
-    note: Emissions from land use change are reported under the land use type
+    notes: Emissions from land use change are reported under the land use type
       that the land is converted to. For instance, deforestation for the creation
       of new cropland is reported under "Emissions|*|AFOLU|Land|Cropland".
     components:
@@ -96,7 +96,7 @@
 - Emissions|{Level-3 Species}|AFOLU|Land|Forest Land:
     description: Emissions and removals from lands with woody vegetation
       (partially IPCC 1996 category 5A/5B/5D; IPCC 2006 category 3B1) 
-    note: It also includes systems with vegetation that currently fall below, 
+    notes: It also includes systems with vegetation that currently fall below, 
       but are expected to later exceed, the threshold values used by a country to
       define the forest land category.
     unit: "{Level-3 Species}"
@@ -105,7 +105,7 @@
       fields, and agro-forestry systems where vegetation falls
       below the thresholds used for the forest land category
       (no clear IPCC 1996 category; IPCC 2006 category 3B2)
-    note: This does not include methane emissions from rice cultivation
+    notes: This does not include methane emissions from rice cultivation
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Grassland:
     description: Emissions and removals from rangelands and pasture land
@@ -113,7 +113,7 @@
       woody vegetation that fall below the threshold values used
       in the forest land category and are not expected to exceed
       them, without human intervention (partially IPCC 1996 category 4D/4E/5A/5B/5C/5D; IPCC 2006 category 3B3).
-    note: The category also includes all grassland from wild lands to recreational 
+    notes: The category also includes all grassland from wild lands to recreational 
       areas as well as agricultural and silvi-pastural systems, subdivided
       into managed and unmanaged, consistent with national
       definitions.
@@ -123,7 +123,7 @@
       all or part of the year (e.g., peatland) and that does not fall
       into the forest land, cropland, grassland or settlements
       categories (partially IPCC 1996 category 4D/5A/5B/5E; IPCC 2006 category 3B4) 
-    note: It includes reservoirs as a managed sub-division and 
+    notes: It includes reservoirs as a managed sub-division and 
       natural rivers and lakes as unmanaged sub-divisions
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Settlements:
@@ -157,7 +157,7 @@
       including emissions from international bunker fuels. This is the sum of sources and sinks, and 
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
-    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
@@ -178,7 +178,7 @@
       emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply 
       and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage
     unit: "{Level-2 Species}"
-    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-3 Species}|Energy|Supply
       - Emissions|{Level-3 Species}|Energy|Demand
@@ -314,7 +314,7 @@
       and sinks, including negative emissions such as those from cement carbonation
       processes and other forms of capture and storage on industrial processes
     unit: "{Level-3 Species}"
-    note: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions 
@@ -368,6 +368,6 @@
       weathering (EW), as well as durable wood products in building elements, mineral products, 
       ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture
     unit: "{Level-3 Species}"
-    note: This timeseries should be reported as negative values so that subcategories of
+    notes: This timeseries should be reported as negative values so that subcategories of
       emissions add up to net emissions `Emissions|{Level-3 Species}`. For a breakdown of carbon 
       removals, see the "Carbon Removal|*" tree
