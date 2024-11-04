@@ -1,27 +1,55 @@
 # Emissions species are grouped into three levels of detail for the reporting.
 # Level-1 reports aggregate emissions, Level-3 has the most detailed disaggregation.
 # Gross emissions are only defined for CO2.
+# Emissions reporting guidance follows IPCC guidance, referring to 
+# 2006 categories: https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/1_Volume1/19R_V1_Ch08_Reporting_Guidance.pdf
+# 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
 
 - Emissions|{Level-1 Species}:
-    description: Emissions of {Level-1 Species}
+    description: Emissions of {Level-1 Species} to the atmosphere. 
+      For the avoidance of doubt, these emissions are net emissions 
+      (i.e. include both positive (emission) and negative (removal) 
+      contributions. For positive contributions only, see 
+      "Gross Emissions|*").
     unit: "{Level-1 Species}"
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
       - Emissions|{Level-1 Species}|Industrial Processes
       - Emissions|{Level-1 Species}|Waste
-      - Emissions|{Level-1 Species}|Capture and Removal
+      - Emissions|{Level-1 Species}|Other Capture and Removal
+      - Emissions|{Level-1 Species}|Product Use
       - Emissions|{Level-1 Species}|Other
 - Gross Emissions|CO2:
-    description: Gross emissions of carbon dioxide (CO2), not accounting for negative
-      emissions from bioenergy with CCS (BECCS) or agriculture, forestry
-      and other land use (AFOLU)
+    description: Gross emissions of carbon dioxide (CO2). 
+      This is emissions sources only. All removals (for example, 
+      removals from BECCS or direct air carbon capture and storage (DACCS)) 
+      are not included here. For net emissions, see "Emissions|*".
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
-      and other land use (IPCC category 3)
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3), 
+      reporting the sum of sources and sinks including land-use methods that do not 
+      use CCS such as soil carbon sequestration, biochar, forestry, peatland 
+      and wetland restoration, and biomass burial. Emissions reported in this 
+      category represent fluxes to/from the atmosphere from/to the land pool.
     unit: "{Level-2 Species}"
+- Gross Emissions|CO2|AFOLU:
+  description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
+      This is emissions sources only. All removals (for example, 
+      removals from biochar) are not included here. For net emissions, 
+      see "Emissions|*". Emissions reported in this category represent 
+      fluxes from the land pool to the atmosphere.
+  unit: Mt CO2/yr
+- Gross Emissions|CO2|AFOLU|Deforestation:
+  description: Gross emissions of carbon dioxide (CO2) from deforestation
+- Gross Emissions|CO2|AFOLU|Other Land:
+  description: Gross emissions of carbon dioxide (CO2) from other land-use change
+- Gross Emissions|CO2|AFOLU|Forest Management:
+  description: Gross emissions of carbon dioxide (CO2) from forest management
+
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
     unit: "{Level-3 Species}"
@@ -43,52 +71,57 @@
     description: Emissions of {Level-3 Species} from soil management practices
       in the agriculture sector
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Biomass Burning:
+    description: Agricultural Waste Burning (DESCRIPTION TO BE UPDATED)
+    unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
-    description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)
+- Emissions|{Level-3 Species}|AFOLU|Land|Peat Burning:
+    description: Emissions of {Level-3 Species} from managed peatlands (drained and rewetted)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Forest Burning:
-    description: Emissions and removals of {Level-3 Species} from land with woody vegetation
-      (forests, IPCC category 3B1)
+    description: Emissions and removals of {Level-3 Species} from land with woody vegetation 
+      (forests, IPCC category 3B1)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Grassland Burning:
     description: Emissions and removals of {Level-3 Species} from rangelands and pasture land
-      (IPCC category 3B3)
-    unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Burning:
-    description: Emissions and removals of {Level-3 Species} from any other categories
-      of land burning (e.g. peatlands)
+      (IPCC category 3B3)  (DESCRIPTION TO BE UPDATED)
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
-      (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E),
-      including emissions from international bunker fuels, net of negative emissions
-      from bioenergy with CCS (BECCS) in these sectors
+      (IPCC category 1A, 1B) and from industrial processes (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E),
+      including emissions from international bunker fuels. This is the sum of sources and sinks, and 
+      includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
 - Gross Emissions|CO2|Energy and Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors
-      (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E),
-      including emissions from international bunker fuels, not accounting for
-      negative emissions from bioenergy with CCS (BECCS) in these sectors
+      (IPCC category 1A, 1B) and from industrial processes (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E),
+      including emissions from international bunker fuels, not accounting for 
+      emissions removed from the atmosphere
     unit: Mt CO2/yr
     components:
       - Gross Emissions|CO2|Energy
       - Gross Emissions|CO2|Industrial Processes
 
 - Emissions|{Level-2 Species}|Energy:
-    description: Emissions of {Level-2 Species} from energy use,
-      including fugitive emissions from fuels (IPCC category 1A, 1B)
+    description: Emissions of carbon dioxide (CO2) from energy use, including 
+      fugitive emissions from fuels (IPCC category 1A (except manufacturing 1A2 
+      and other unspecified 1A5), 1B), reporting the sum of sources and sinks, including negative 
+      emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply 
+      and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage
     unit: "{Level-2 Species}"
+    components:
+      - Emissions|{Level-3 Species}|Energy|Supply
+      - Emissions|{Level-3 Species}|Energy|Demand
 - Gross Emissions|CO2|Energy:
     description: Gross emissions of carbon dioxide (CO2) from energy use,
-      including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for
-      negative emissions from bioenergy with CCS (BECCS) in these sectors
+      including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for 
+      emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply:
     description: Emissions of {Level-2 Species} from fuel combustion and fugitive emissions
@@ -104,8 +137,8 @@
       other energy conversion (e.g., refineries, synfuel production, solid fuel processing,
       IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
       fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
-      transport and storage (IPCC category 1C), not accounting for negative emissions
-      from bioenergy with CCS (BECCS) in these sectors
+      transport and storage (IPCC category 1C), not accounting for 
+      emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply|Combustion:
     description: Emissions of {Level-2 Species} from fuel combustion in energy supply,
@@ -123,7 +156,7 @@
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Electricity:
     description: Gross emissions of carbon dioxide (CO2) for electricity generation,
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 2}:
     description: Emissions of {Level-2 Species} for production of {Secondary Fuel Level 2}
@@ -131,7 +164,7 @@
     tier: "{Secondary Fuel Level 2}"
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2},
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
     tier: "{Secondary Fuel Level 2}"
 - Emissions|CO2|Energy|Supply|Autoproduction:
@@ -139,36 +172,37 @@
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|Autoproduction:
     description: Gross emissions of carbon dioxide (CO2) for own-use energy supply,
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in this sector
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Supply|Other:
     description: Emissions of {Level-2 Species} for other categories of energy supply
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Other:
     description: Gross emissions of carbon dioxide (CO2) for other categories of energy supply,
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
 
 - Emissions|{Level-2 Species}|Energy|Demand:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2),
       residential, commercial, institutional sectors and agriculture, forestry,
       fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and the transportation sector
-      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
-      net of negative emissions incl. demand-side use of bioenergy with CCS (BECCS)
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei).
+      This is the sum of sources and sinks, including negative emissions such as the demand-side use 
+      of bioenergy with CCS (BECCS)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
       residential, commercial, institutional sectors and agriculture, forestry,
       fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and the transportation sector
       (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|{Level-2 Species}|Energy|Demand|Industry:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
     unit: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand|Industry:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
-      not accounting for negative emissions from bioenergy with CCS (BECCS) in these sectors
+      not accounting for emissions removed from the atmosphere
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
     description: Emissions of carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
@@ -212,20 +246,22 @@
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 2A, B, C, E), net of negative emissions using CCS
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E). This is the sum of sources 
+      and sinks, including negative emissions such as those from cement carbonation
+      processes and other forms of capture and storage on industrial processes
     unit: "{Level-3 Species}"
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
-      (IPCC categories 2A, B, C, E), not accounting for negative emissions from
-      bioenergy with CCS (BECCS) in these sectors
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions 
+      from carbon removal processes such as from cement production
     unit: Mt CO2/yr
 - Emissions|{Level-3 Species}|Industrial Processes|{Non-Energy Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 2A, B, C, E) in the {Non-Energy Sector}
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E) in the {Non-Energy Sector}
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Industrial Processes|{Industrial-Process Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 2A, B, C, E) in the {Industrial-Process Sector}
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Product Use:
@@ -248,21 +284,24 @@
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|Waste:
-    description: Emissions of {Level-2 Species} from waste (IPCC category 6)
-    unit: "{Level-2 Species}"
-
-- Emissions|{Level-2 Species}|Fossil Fuel Fires:
-    description: Emissions of {Level-2 Species} from fossil fuel fires (IPCC category 7)
+    description: Emissions of {Level-2 Species} from waste (IPCC 1996 category 6; IPCC 2006 category 4). 
+      Any emissions from fossil-based products (incineration or CO2 decomposition) should be accounted for here.
+      CO2 from organic waste handling and decay should not be included.
     unit: "{Level-2 Species}"
 
 - Emissions|{Level-2 Species}|Other:
-    description: Emissions of {Level-2 Species} from other sources
+    description: Emissions of {Level-2 Species} from other sources, (IPCC 1996 category 7; IPCC 2006 category 5B; including fossil fuel fires). 
+      Only use this category exceptionally, for any categories than cannot be accommodated in the categories described above. 
+      Unless specified otherwise, this will be treated as a flux from some fossil reservoir to the atmosphere in climate models.
     unit: "{Level-2 Species}"
 
-- Emissions|{Level-3 Species}|Capture and Removal:
-    description: Capture and removal of atmospheric {Level-3 Species} using net-negative
-      technologies that are not directly linked to an emissions source,
-      e.g., direct air capture (DAC) or enhanced weathering
+- Emissions|{Level-3 Species}|Other Capture and Removal:
+    description: Capture and removal of atmospheric {Level-3 Species} using other net-negative 
+      technologies that are not reported under other variables as they are not directly linked 
+      to an emissions source, including direct air carbon capture and storage (DACCS) or enhanced 
+      weathering (EW), as well as durable wood products in building elements, mineral products, 
+      ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture, 
+      and other methods
     unit: "{Level-3 Species}"
     note: This timeseries should be reported as negative values so that subcategories of
       emissions add up to net emissions `Emissions|{Level-3 Species}`.
