@@ -95,60 +95,37 @@
       that the land is converted to. For instance, deforestation for the creation
       of new cropland is reported under "Emissions|*|AFOLU|Land|Cropland".
     components:
-      - Emissions|{Level-3 Species}|AFOLU|Land|Forest Land
-      - Emissions|{Level-3 Species}|AFOLU|Land|Cropland
-      - Emissions|{Level-3 Species}|AFOLU|Land|Grassland
-      - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands
-      - Emissions|{Level-3 Species}|AFOLU|Land|Settlements
-      - Emissions|{Level-3 Species}|AFOLU|Land|Other Land
+      - Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change
       - Emissions|{Level-3 Species}|AFOLU|Land|Fires
-- Emissions|{Level-3 Species}|AFOLU|Land|Forest Land:
-    description: Emissions and removals from lands with woody vegetation
-      (partially IPCC 1996 category 5A/5B/5D; IPCC 2006 category 3B1) 
-    notes: It also includes systems with vegetation that currently fall below, 
-      but are expected to later exceed, the threshold values used by a country to
-      define the forest land category.
+      - Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products
+      - Emissions|{Level-3 Species}|AFOLU|Land|Other
+- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
+    description: Emissions and removals from land use and land-use change,
+      including emissions from deforestation and conversion from all other natural land,
+      as well as removals from the atmosphere through agroforestry, re/afforestation
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Cropland:
-    description: Emissions and removals from arable and tillage land, rice
-      fields, and agro-forestry systems where vegetation falls
-      below the thresholds used for the forest land category
-      (no clear IPCC 1996 category; IPCC 2006 category 3B2)
-    notes: This does not include methane emissions from rice cultivation
-    unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Grassland:
-    description: Emissions and removals from rangelands and pasture land
-      that is not considered cropland. It also includes systems with
-      woody vegetation that fall below the threshold values used
-      in the forest land category and are not expected to exceed
-      them, without human intervention (partially IPCC 1996 category 4D/4E/5A/5B/5C/5D; IPCC 2006 category 3B3).
-    notes: The category also includes all grassland from wild lands to recreational 
-      areas as well as agricultural and silvi-pastural systems, subdivided
-      into managed and unmanaged, consistent with national
-      definitions.
-    unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
+- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change|Wetlands:
     description: Emissions from land that is covered or saturated by water for
       all or part of the year (e.g., peatland) and that does not fall
       into the forest land, cropland, grassland or settlements
       categories (partially IPCC 1996 category 4D/5A/5B/5E; IPCC 2006 category 3B4) 
-    notes: It includes reservoirs as a managed sub-division and 
-      natural rivers and lakes as unmanaged sub-divisions
+    notes: Includes reservoirs as a managed sub-division and 
+      natural rivers and lakes as unmanaged sub-divisions. Includes drained 
+      and rewetted wetlands, does not include natural emissions from intact wetlands.
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Settlements:
-    description: Emissions and removals from all developed land, including
-      transportation infrastructure and human settlements of any
-      size, unless they are already included under other
-      categories (partially IPCC 1996 category 5A/5B/5D/5E; IPCC 2006 category 3B5).
+- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change|Other:
+    description: Emissions and removals from forest land, cropland, grassland,
+      settlements, and other land that cannot be accommodated in other categories
+      (partially IPCC 1996 category 5; IPCC 2006 category 3B except 3B4). 
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Other Land:
-    description: Emissions and removals from bare soil, rock, ice, and all
-      unmanaged land areas that do not fall into any of the other
-      land categories (no clear IPCC 1996 category; IPCC 2006 category 3B6). 
-    unit: "{Level-3 Species}"
+    notes: Only includes anthropogenic emissions. Does not include wetlands.
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires:
     description: Emissions from land fires and deforestation & degradation
     unit: "{Level-3 Species}"
+    components:
+      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning
+      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning
+      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
     description: Emissions from peat fires
     unit: "{Level-3 Species}"
@@ -158,6 +135,15 @@
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
     description: Emissions from savanna, grassland, and shrubland fires
+    unit: "{Level-3 Species}"  
+- Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products:
+    description: Emissions and removals from harvested wood products (HWP)
+      (no clear IPCC 1996 category; IPCC 2006 category 3D1)
+    unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Land|Other:
+    description: Emissions and removals from land that cannot be 
+      accommodated in other categories (no clear IPCC 1996 category; 
+      IPCC 2006 category 3D2) 
     unit: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
