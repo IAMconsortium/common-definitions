@@ -80,7 +80,8 @@
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use and 
-      land use change
+      land use change. Removals in this variable include agroforestry, re/afforestation, 
+      biochar, soil carbon management and forest management.
     unit: "{Level-3 Species}"
     notes: Emissions from land use change are reported under the land use type
       that the land is converted to. For instance, deforestation for the creation
@@ -176,7 +177,7 @@
       fugitive emissions from fuels (IPCC category 1A (except manufacturing 1A2 
       and other unspecified 1A5), 1B), reporting the sum of sources and sinks, including negative 
       emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply 
-      and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage
+      and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage and synthetic fuels
     unit: "{Level-2 Species}"
     notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
@@ -363,10 +364,10 @@
 
 - Emissions|{Level-3 Species}|Other Capture and Removal:
     description: Capture and removal of atmospheric {Level-3 Species} using other net-negative 
-      technologies that are not directly linked 
-      to an emissions source, including direct air carbon capture and storage (DACCS) or enhanced 
-      weathering (EW), as well as durable wood products in building elements, mineral products, 
-      ocean fertilization, biomass sinking, ocean alkalinity enhancement (OAE), direct ocean capture
+      technologies that are not directly linked to an emissions source, including direct air 
+      carbon capture and storage (DACCS) or enhanced weathering (EW), as well as durable wood 
+      products in building elements or plastics, mineral products, ocean fertilization, 
+      ocean alkalinity enhancement (OAE), and direct ocean capture. 
     unit: "{Level-3 Species}"
     notes: This timeseries should be reported as negative values so that subcategories of
       emissions add up to net emissions `Emissions|{Level-3 Species}`. For a breakdown of carbon 
