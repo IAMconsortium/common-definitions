@@ -91,9 +91,6 @@
       land use change. Removals in this variable include agroforestry, re/afforestation, 
       biochar, soil carbon management and forest management.
     unit: "{Level-3 Species}"
-    notes: Emissions from land use change are reported under the land use type
-      that the land is converted to. For instance, deforestation for the creation
-      of new cropland is reported under "Emissions|*|AFOLU|Land|Cropland".
     components:
       - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands
       - Emissions|{Level-3 Species}|AFOLU|Land|Other Land Use and Land-Use Change
@@ -116,7 +113,7 @@
     unit: "{Level-3 Species}"
     notes: Only includes anthropogenic emissions. Does not include wetlands.
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires:
-    description: Emissions from land fires and deforestation & degradation
+    description: Emissions from land fires and deforestation & degradation fires
     unit: "{Level-3 Species}"
     components:
       - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning
@@ -127,7 +124,7 @@
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning:
     description: Emissions from boreal forest fires, temperate forest fires,
-      and tropical deforestation & degradation
+      and tropical deforestation & degradation fires
     unit: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
     description: Emissions from savanna, grassland, and shrubland fires
