@@ -95,16 +95,12 @@
       that the land is converted to. For instance, deforestation for the creation
       of new cropland is reported under "Emissions|*|AFOLU|Land|Cropland".
     components:
-      - Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change
+      - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands
+      - Emissions|{Level-3 Species}|AFOLU|Land|Other Land Use and Land-Use Change
       - Emissions|{Level-3 Species}|AFOLU|Land|Fires
       - Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products
       - Emissions|{Level-3 Species}|AFOLU|Land|Other
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
-    description: Emissions and removals from land use and land-use change,
-      including emissions from deforestation and conversion from all other natural land,
-      as well as removals from the atmosphere through agroforestry or re/afforestation
-    unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change|Wetlands:
+- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Emissions from land that is covered or saturated by water for
       all or part of the year (e.g., peatland) and that does not fall
       into the forest land, cropland, grassland or settlements
@@ -113,7 +109,7 @@
       natural rivers and lakes as unmanaged sub-divisions. Includes drained 
       and rewetted wetlands, does not include natural emissions from intact wetlands.
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change|Other:
+- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Use and Land-Use Change:
     description: Emissions and removals from forest land, cropland, grassland,
       settlements, and other land that cannot be accommodated in other categories
       (partially IPCC 1996 category 5; IPCC 2006 category 3B except 3B4). 
