@@ -35,9 +35,8 @@
       from livestock, rice cultivation and soil management as well as 
       emissions from land use and land-use change (mostly CO2) such as deforestation, 
       conversion of non-forest natural land, and drained peatlands. 
-      This is reporting the sum of sources and sinks including land-use methods that do not 
-      use CCS such as soil carbon sequestration, biochar, forestry, and re/afforestation and 
-      agroforestry. 
+      This is reporting the sum of sources and sinks including land-use methods such as 
+      soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry. 
     unit: "{Level-2 Species}"
     notes: This variable uses the model/scientific definition of AFOLU, and does 
       not align with the reporting of national greenhouse gas inventories (NGHGI).
