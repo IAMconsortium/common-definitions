@@ -1,0 +1,11 @@
+- Capital Cost|{Secondary Fuel Level 3}:
+    description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
+    unit: USD_2010/kW
+- Efficiency|{Secondary Fuel Level 3}:
+    description: Conversion efficiency per unit of primary energy of a newly installed
+      plant to produce {Secondary Fuel Level 3}
+    unit: "%"
+    range: [ 0,100 ]
+- Lifetime|{Secondary Fuel Level 3}:
+    description: Technical lifetime of a newly installed plant to produce {Secondary Fuel Level 3}
+    unit: years

@@ -1,0 +1,13 @@
+- Capital Cost|Electricity|{Electricity Source}:
+    description: Capital cost of a newly installed plant to generate electricity
+      from {Electricity Source}
+    unit: USD_2010/kW
+- Efficiency|Electricity|{Electricity Source}:
+    description: Conversion efficiency per unit of primary energy of a newly installed
+      plant to generate electricity from {Electricity Source}
+    unit: "%"
+    range: [ 0,100 ]
+- Lifetime|Electricity|{Electricity Source}:
+    description: Technical lifetime of a newly installed plant to generate electricity
+      from {Electricity Source}
+    unit: years
