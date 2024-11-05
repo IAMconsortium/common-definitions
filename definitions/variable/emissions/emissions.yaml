@@ -39,7 +39,10 @@
       use CCS such as soil carbon sequestration, biochar, forestry, and re/afforestation and 
       agroforestry. 
     unit: "{Level-2 Species}"
-    notes: Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. 
+    notes: This variable uses the model/scientific definition of AFOLU, and does 
+      not align with the reporting of national greenhouse gas inventories (NGHGI).
+      For the NGHGI variable reporting, please see "Emissions|*|AFOLU [NGHGI]". 
+      Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool. 
       For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
@@ -138,6 +141,16 @@
       accommodated in other categories (no clear IPCC 1996 category; 
       IPCC 2006 category 3D2) 
     unit: "{Level-3 Species}"
+
+- Emissions|{Level-2 Species}|AFOLU [NGHGI]:
+    description: Emissions of {Level-2 Species} from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3) in line
+      with the national greenhouse gas inventories (NGHGI). 
+    unit: "{Level-2 Species}"
+    notes: This variable is optional, for instance used for comparison with national 
+      greenhouse gas inventories, but is not used for driving climate model simulations,
+      and also not a component of "Emissions|*",  for which the variable "Emissions|*|AFOLU" 
+      with model/scientific definition is used.
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
