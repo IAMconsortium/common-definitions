@@ -15,7 +15,7 @@
     notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-1 Species}|AFOLU
-      - Emissions|{Level-1 Species}|Burning
+      - Emissions|{Level-1 Species}|Land Fires
       - Emissions|{Level-1 Species}|Energy
       - Emissions|{Level-1 Species}|Industrial Processes
       - Emissions|{Level-1 Species}|Waste
@@ -47,6 +47,7 @@
       For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
+      - Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
   description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
@@ -84,6 +85,11 @@
       in the agriculture sector
       (IPCC 1996 category 4D; IPCC 2006 category 3C4 and 3C5)
     unit: "{Level-3 Species}"
+- Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning:
+    description: Emissions from agricultural waste burning
+      (IPCC 1996 category 4F; partially IPCC 2006 category 3C1)
+    unit: "{Level-3 Species}"
+    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use and 
       land use change. Removals in this variable include agroforestry, re/afforestation, 
@@ -129,31 +135,26 @@
       and also not a component of "Emissions|*",  for which the variable "Emissions|*|AFOLU" 
       with model/scientific definition is used.
 
-- Emissions|{Level-3 Species}|Burning:
+- Emissions|{Level-3 Species}|Land Fires:
     description: Emissions from land fires and deforestation & degradation fires 
       and agricultural waste burning
     unit: "{Level-3 Species}"
     notes: Does not include fossil fuel fires, which should be reported under "Emissions|{Level-3 Species}|Other"
     components:
-      - Emissions|{Level-3 Species}|Burning|Peat Fires
-      - Emissions|{Level-3 Species}|Burning|Forest Fires
-      - Emissions|{Level-3 Species}|Burning|Grassland Fires
-      - Emissions|{Level-3 Species}|Burning|Agricultural Waste Burning
-- Emissions|{Level-3 Species}|Burning|Peat Fires:
+      - Emissions|{Level-3 Species}|Land Fires|Peatland
+      - Emissions|{Level-3 Species}|Land Fires|Forest
+      - Emissions|{Level-3 Species}|Land Fires|Grassland
+- Emissions|{Level-3 Species}|Land Fires|Peatland:
     description: Emissions from peat fires
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|Burning|Forest Fires:
+- Emissions|{Level-3 Species}|Land Fires|Forest:
     description: Emissions from boreal forest fires, temperate forest fires,
       and tropical deforestation & degradation fires
     unit: "{Level-3 Species}"
-- Emissions|{Level-3 Species}|Burning|Grassland Fires:
+- Emissions|{Level-3 Species}|Land Fires|Grassland:
     description: Emissions from savanna, grassland, and shrubland fires
     unit: "{Level-3 Species}"  
-- Emissions|{Level-3 Species}|Burning|Agricultural Waste Burning:
-    description: Emissions from agricultural waste burning
-      (IPCC 1996 category 4F; partially IPCC 2006 category 3C1)
-    unit: "{Level-3 Species}"
-    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
+
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
