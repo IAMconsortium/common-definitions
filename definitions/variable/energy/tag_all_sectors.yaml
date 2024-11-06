@@ -16,7 +16,7 @@
         description: ammonia sector
     - Industry|Chemicals|Methanol:
         description: methanol sector
-    - Industry|Chemicals|High Value Chemicals:
+    - Industry|Chemicals|High-Value Chemicals:
         description: high-value-chemicals sector
     - Industry|Chemicals|Other Sector:
         description: other use in the chemical sector
