@@ -28,13 +28,13 @@
     description: Investments for the production of {Secondary Fuel Level 2}
     unit: billion USD_2010/yr
     tier: "{Secondary Fuel Level 2}"
-    note: For plants equipped with CCS, the investment in the capturing equipment should
+    notes: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.
 - Investment|Energy Supply|{Secondary Fuel Level 2}|{CCS}:
     description: Investments for the production of {Secondary Fuel Level 2} {CCS}
     unit: billion USD_2010/yr
     tier: "{Secondary Fuel Level 2}"
-    note: For plants equipped with CCS, the investment in the capturing equipment should
+    notes: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.
 
 - Investment|Energy Efficiency:
