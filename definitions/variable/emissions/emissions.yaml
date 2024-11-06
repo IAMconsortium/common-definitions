@@ -48,13 +48,13 @@
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
-  description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
+    description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
       This is emissions sources only. All removals (for example, 
       removals from biochar) are not included here. For net emissions, 
       see "Emissions|CO2|AFOLU". Emissions reported in this category represent 
       fluxes from the land pool to the atmosphere.
-  unit: Mt CO2/yr
+    unit: Mt CO2/yr
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
@@ -180,8 +180,8 @@
     unit: "{Level-2 Species}"
     notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
     components:
-      - Emissions|{Level-3 Species}|Energy|Supply
-      - Emissions|{Level-3 Species}|Energy|Demand
+      - Emissions|{Level-2 Species}|Energy|Supply
+      - Emissions|{Level-2 Species}|Energy|Demand
 - Gross Emissions|CO2|Energy:
     description: Gross emissions of carbon dioxide (CO2) from energy use,
       including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for 
