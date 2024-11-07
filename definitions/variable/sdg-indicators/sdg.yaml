@@ -38,7 +38,7 @@
     engage: Population|Sanitation Acces
     shape: Population|Sanitation Acces
 - Population|Drinking Water Access:
-    description: Population with access to improved drinking  water sources 
+    description: Population with access to improved drinking  water sources
     unit: million
 - Expenditure|Households|Food [Share]:
     description: Share of food expenditure in total income
@@ -303,7 +303,7 @@
     shape: Air Pollution|PM2.5|Urban population
 - Material Recycling|{Recycled Materials}:
     description: Production of recycled {Recycled Materials}
-    unit: Mt/year
+    unit: Mt/yr
     sdg: 12
 - Material Recycling|{Recycled Materials} [Share]:
     description: Share of recycled {Recycled Materials}
