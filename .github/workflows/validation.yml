@@ -20,15 +20,18 @@ jobs:
           - "git+https://github.com/IAMconsortium/nomenclature"
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.11
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
 
-    - name: Install requirements
-      run: pip install ${{ matrix.nomenclature }}
+      - name: Install requirements
+        run: pip install ${{ matrix.nomenclature }}
 
-    - name: Run the nomenclature project validation
-      run: nomenclature validate-project .
+      - name: Quickfix for pint https://github.com/hgrecco/pint/issues/1969
+        run: pip install git+https://github.com/hgrecco/pint.git
+
+      - name: Run the nomenclature project validation
+        run: nomenclature validate-project .

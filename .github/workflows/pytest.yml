@@ -29,6 +29,9 @@ jobs:
       - name: Install requirements
         run: pip install ${{ matrix.nomenclature }}
 
+      - name: Quickfix for pint https://github.com/hgrecco/pint/issues/1969
+        run: pip install git+https://github.com/hgrecco/pint.git
+
       - name: Install pytest
         run: pip install pytest
 
