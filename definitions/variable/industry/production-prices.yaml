@@ -19,5 +19,5 @@
     unit: USD_2010/Mt
     tier: "{Chemicals Commodity}"
     weight: Production|Chemicals|{Chemicals Commodity}
-    navigate: Price|Industry|{Chemicals Commodity}
-    engage: Price|Industry|{Chemicals Commodity}
+    navigate: Price|Industry|Chemicals|{Chemicals Commodity}
+    engage: Price|Industry|Chemicals|{Chemicals Commodity}
