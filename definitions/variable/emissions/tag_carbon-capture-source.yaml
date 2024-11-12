@@ -1,0 +1,9 @@
+- Carbon Capture Source:
+    - Biomass:
+        description: purpose-grown bioenergy crops, biogas, crop and forestry residue,
+          municipal solid waste bioenergy and traditional biomass
+    - Fossil:
+        description: fossil fuels including coal, natural gas and conventional/unconventional oil
+    - Synthetic Fuels:
+        description: synthetic fuels produced from carbon-capture-and-utilization (CCU),
+          not derived from fossil fuels

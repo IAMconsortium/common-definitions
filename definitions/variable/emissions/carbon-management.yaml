@@ -8,6 +8,20 @@
       direct air carbon capture and storage (DACCS), and other CO2 removal exclusive of
       land-use change in these sectors
     unit: Mt CO2/yr
+- Carbon Capture|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) from {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Industrial Processes:
+    description: Captured carbon dioxide (CO2) from industrial processes
+      (e.g., cement production), not including energy use
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+
 - Carbon Capture|Geological Storage:
     description: Captured carbon dioxide (CO2) that is injected into subsurface geologic
       storage reservoirs (e.g., in situ mineralization).
