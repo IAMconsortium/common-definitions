@@ -5,29 +5,41 @@
         description: industrial sector excluding non-energy use (e.g.feedstocks)
     - Industry|Iron and Steel:
         description: iron and steel sector excluding feedstocks
+        tier: ^1
     - Industry|Non-Ferrous Metals:
         description: non-ferrous metals sector
+        tier: ^1
     - Industry|Non-Metallic Minerals:
         description: non-metallic minerals sector excluding cement
+        tier: ^1
     - Industry|Chemicals:
         description: chemicals sector excluding feedstocks
+        tier: ^1
     # keep consistent with the sub-categories of `Chemicals` in the `Industrial-Process Sector` tag list
     - Industry|Chemicals|Ammonia:
         description: ammonia sector
+        tier: ^2
     - Industry|Chemicals|Methanol:
         description: methanol sector
+        tier: ^2
     - Industry|Chemicals|High-Value Chemicals:
         description: high-value-chemicals sector
+        tier: ^2
     - Industry|Chemicals|Other Sector:
         description: other use in the chemical sector
+        tier: ^2
     - Industry|Cement:
         description: cement sector
+        tier: ^1
     - Industry|Plastics:
         description: plastics sector
+        tier: ^1
     - Industry|Pulp and Paper:
         description: pulp and paper
+        tier: ^1
     - Industry|Other Sector:
         description: other industrial sectors
+        tier: ^1
     - Residential:
         description: residential sector
     - Commercial:
@@ -41,22 +53,31 @@
         description: transportation sector including international aviation and shipping
     - Transportation|Bus:
         description: transportation sector by bus
+        tier: ^1
     - Transportation|Light Duty Vehicle:
         description: transportation sector with light-duty vehicles
+        tier: ^1
     - Transportation|Truck:
         description: trucking sector
+        tier: ^1
     - Transportation|Rail:
         description: rail transportation sector
+        tier: ^1
     - Transportation|Domestic Aviation:
         description: domestic aviation sector
+        tier: ^1
     - Transportation|Domestic Shipping:
         description: domestic shipping sector
+        tier: ^1
     - Transportation|Passenger:
         description: passenger transportation sector excluding international aviation
           and shipping
+        tier: ^1
     - Transportation|Freight:
         description: freight transportation sector excluding international aviation and shipping
+        tier: ^1
     - Bunkers:
         description: international aviation and shipping
     - Other Sector:
         description: other sectors
+        tier: ^1

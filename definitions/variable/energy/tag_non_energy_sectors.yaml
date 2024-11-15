@@ -13,13 +13,18 @@
     # keep consistent with the sub-categories of `Industry|Chemicals` in the `Sector` tag list
     - Chemicals|Ammonia:
         description: ammonia sector
+        tier: ^1
     - Chemicals|Methanol:
         description: methanol sector
+        tier: ^1
     - Chemicals|High-Value Chemicals:
         description: high-value-chemicals sector
+        tier: ^1
     - Chemicals|Other Sector:
         description: other use in the chemical sector
+        tier: ^1
     - Plastics:
         description: plastics sector
     - Other Sector:
         description: other industries
+        tier: ^1
