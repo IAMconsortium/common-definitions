@@ -169,6 +169,10 @@
     navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
 
 # additional variables for the water sector
+- Final Energy|Commercial|Water:
+    description: Energy consumption for water desalination, extraction, and transfer
+    unit: EJ/yr
+    tier: 2
 - Final Energy|Commercial|Water|Desalination:
     description: Energy consumption for water desalination
     unit: EJ/yr
