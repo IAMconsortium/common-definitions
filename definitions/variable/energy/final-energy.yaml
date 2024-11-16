@@ -158,13 +158,16 @@
 - Final Energy|Bunkers|{Bunker Sector}:
     description: Final energy consumption for {Bunker Sector}
     unit: EJ/yr
+    tier: 1
 - Final Energy|Bunkers|{Transportation Sector}:
     description: Final energy consumption for {Transportation Sector}
       in international aviation and shipping
     unit: EJ/yr
+    tier: 2
 - Final Energy|Bunkers|{Bunker Sector}|{Transportation Sector}:
     description: Final energy consumption for {Transportation Sector} in {Bunker Sector}
     unit: EJ/yr
+    tier: 2
     engage: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
     navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
 
@@ -176,12 +179,16 @@
 - Final Energy|Commercial|Water|Desalination:
     description: Energy consumption for water desalination
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Groundwater Extraction:
     description: Energy consumption for groundwater extraction
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Surface Water Extraction:
     description: Energy consumption for surface water extraction
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Transfer:
     description: Energy consumption for water transfers
     unit: EJ/yr
+    tier: 3
