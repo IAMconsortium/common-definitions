@@ -58,7 +58,7 @@
     lower_bound: 0
 - Carbon Capture|Leakage:
     description: Captured carbon dioxide (CO2) that is vented, leaked, or re-emitted
-      during transport or after injection into storage
+      during transport
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
