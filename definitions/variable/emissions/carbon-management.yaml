@@ -33,6 +33,12 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+- Carbon Capture|Direct Ocean Capture:
+    description: Captured carbon dioxide (CO2) from direct ocean capture
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
 - Carbon Capture|Other:
     description: Captured carbon dioxide (CO2) from other sources
     unit: Mt CO2/yr
