@@ -5,5 +5,17 @@
     - Fossil:
         description: fossil fuels including coal, natural gas and conventional/unconventional oil
     - Synthetic Fuels:
-        description: synthetic fuels produced from carbon-capture-and-utilization (CCU),
-          not derived from fossil fuels
+        description: synthetic fuels produced from carbon captured from fossil fuels and
+          directly or indirectly from the atmosphere,
+          e.g. using carbon-capture-and-utilization (CCU) from biomass or fossil fuels
+          or Direct Air Capture (DAC)
+    - Synthetic Fuels|Carbon-Neutral:
+        description: synthetic fuels produced from carbon captured directly or indirectly
+          from the atmosphere, e.g. using carbon-capture-and-utilization (CCU) from biomass
+          or Direct Air Capture (DAC), not derived from fossil fuels
+    - Synthetic Fuels|Fossil-Based:
+        description: synthetic fuels produced from carbon-capture-and-utilization (CCU)
+          of fossil fuels
+    - Synthetic Fuels|Industrial Processes:
+        description: synthetic fuels produced from carbon-capture-and-utilization (CCU)
+          of industrial processes
