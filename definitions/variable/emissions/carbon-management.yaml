@@ -36,7 +36,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
-- Carbon Capture|Other:
+- Carbon Capture|Other Sources:
     description: Captured carbon dioxide (CO2) from other sources
     unit: Mt CO2/yr
     tier: 1
