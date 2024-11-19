@@ -13,7 +13,7 @@
         description: synthetic fuels produced from carbon captured directly or indirectly
           from the atmosphere, e.g. using carbon-capture-and-utilization (CCU) from biomass
           or Direct Air Capture (DAC), not derived from fossil fuels
-    - Synthetic Fuels|Fossil-Based:
+    - Synthetic Fuels|Fossil:
         description: synthetic fuels produced from carbon-capture-and-utilization (CCU)
           of fossil fuels
     - Synthetic Fuels|Industrial Processes:
