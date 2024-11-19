@@ -7,6 +7,10 @@
         description: iron and steel sector excluding feedstocks
     - Industry|Non-Ferrous Metals:
         description: non-ferrous metals sector
+    - Industry|Non-Ferrous Metals|Aluminum:
+        description: aluminum
+    - Industry|Non-Ferrous Metals|Other:
+        description: non-ferrous metals sector excluding aluminum
     - Industry|Non-Metallic Minerals:
         description: non-metallic minerals sector
     - Industry|Non-Metallic Minerals|Cement:
