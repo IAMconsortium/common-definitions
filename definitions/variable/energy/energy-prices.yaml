@@ -20,8 +20,27 @@
     weight: Secondary Energy|{Secondary Fuel Level 2}
     notes: This price should include the effect of carbon prices.
 
+- Price|Final Energy|Electricity:
+    definition: Electricity price including transmission and distribution costs,
+      not including taxes
+    unit: USD_2010/GJ
+    weight: Final Energy|Electricity
+    notes: This price should include the effect of carbon prices.
+- Price|Final Energy|{Secondary Fuel Level 2}:
+    definition: Price for {Secondary Fuel Level 2} including transmission and
+      distribution costs, not including taxes
+    unit: USD_2010/GJ
+    weight: Final Energy|{Secondary Fuel Level 2}
+    notes: This price should include the effect of carbon prices.
+- Price|Final Energy|{Sector}|Electricity:
+    definition: Electricity price including transmission and distribution costs,
+      not including taxes
+    unit: USD_2010/GJ
+    weight: Final Energy|{Sector}|Electricity
+    notes: This price should include the effect of carbon prices.
 - Price|Final Energy|{Sector}|{Secondary Fuel Level 2}:
     definition: Price for {Secondary Fuel Level 2} in the {Sector}
+      including transmission and distribution costs, not including taxes
     unit: USD_2010/GJ
     weight: Final Energy|{Sector}|{Secondary Fuel Level 2}
     notes: This price should include the effect of carbon prices.
