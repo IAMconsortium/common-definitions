@@ -1,17 +1,17 @@
 - Population|Poverty|Extreme Poverty:
     description: Number of people living in extreme poverty with income
-      below USD_2011 1.90 PPP per day
+      below USD_2017 2.15 PPP per day (World Bank definition)
     unit: million
     sdg: 1
     shape: Population|Extreme Poverty|International poverty line
 - Population|Poverty|LMIC Poverty Line:
     description: Number of people living in poverty with income with income
-      below USD_2011 3.20 PPP per day (World Bank LMIC definition)
+      below USD_2017 3.65 PPP per day (World Bank LMIC definition)
     unit: million
     sdg: 1
 - Population|Poverty|UMIC Poverty Line:
     description: Number of people living in poverty with income
-      below USD_2011 5.50 PPP per day (World Bank LMIC definition)
+      below USD_2017 6.85 PPP per day (World Bank UMIC definition)
     unit: million
     sdg: 1
 - Population|Risk of Hunger:
