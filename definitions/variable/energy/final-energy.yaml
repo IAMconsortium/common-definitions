@@ -3,156 +3,192 @@
     description: Final energy consumption by all end-use sectors and all fuels,
       including non-energy use, excluding transmission/distribution losses
     unit: EJ/yr
+    tier: 1
 - Final Energy (w/o bunkers):
     description: Final energy consumption by all end-use sectors and all fuels
       including non-energy use, excluding international aviation and shipping (see "Bunkers"),
       excluding transmission/distribution losses
     unit: EJ/yr
+    tier: 2
 
 # Non-energy use
 - Final Energy|Non-Energy Use:
     description: Final energy consumption in non-combustion processes
     unit: EJ/yr
+    tier: 2
 - Final Energy|Non-Energy Use|{Secondary Fuel Level 2}:
     description: Final energy consumption of {Secondary Fuel Level 2} in non-combustion processes
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 2
 - Final Energy|Non-Energy Use|Waste:
     description: Final energy consumption of non-renewable waste in non-combustion processes
     unit: EJ/yr
+    tier: 2
 - Final Energy|Non-Energy Use|{Non-Energy Sector}:
     description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
     unit: EJ/yr
+    tier: 2
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|{Secondary Fuel Level 2}:
     description: Final energy consumption of {Secondary Fuel Level 2} by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 2
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Waste:
     description: Final energy consumption of non-renewable waste by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
+    tier: 2
 - Final Energy|Non-Energy Use|{Non-Energy Sector}|Other:
     description: Final energy consumption of other feedstocks by the {Non-Energy Sector}
       for non-combustion processes
     unit: EJ/yr
+    tier: 3
 - Final Energy|Non-Energy Use|Other:
     description: Final energy consumption of other feedstocks in non-combustion processes
     unit: EJ/yr
+    tier: 2
 
 # Final energy by fuel
 - Final Energy|Electricity:
     description: Final energy consumption of electricity (including on-site solar PV),
       excluding transmission/distribution losses
     unit: EJ/yr
+    tier: 1
 - Final Energy|{Secondary Fuel Level 2}:
     description: Final energy fuel consumption of {Secondary Fuel Level 2}
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 1
 - Final Energy|Geothermal:
     description: Final energy consumption of geothermal energy (e.g., from decentralized
       or small-scale geothermal heating systems) excluding geothermal heat pumps
     unit: EJ/yr
+    tier: 1
 - Final Energy|Waste:
     description: Final energy consumption of non-renewable waste
     unit: EJ/yr
+    tier: 1
 - Final Energy|Solar:
     description: Final energy consumption of solar-thermal heat
       (e.g., from roof-top solar hot water collector systems)
     unit: EJ/yr
+    tier: 1
 - Final Energy|Other:
     description: Final energy consumption of other energy sources
     unit: EJ/yr
+    tier: 2
 
 # Final energy by sector and fuel
 - Final Energy|{Sector}:
     description: Final energy consumption by the {Sector}
     unit: EJ/yr
+    tier: 1
 - Final Energy|{Sector}|Electricity:
     description: Final energy consumption by the {Sector} of electricity
     unit: EJ/yr
+    tier: 1
 - Final Energy|{Sector}|{Secondary Fuel Level 2}:
     description: Final energy consumption by the {Sector} of {Secondary Fuel Level 2}
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 1
 - Final Energy|{Sector}|Other:
     description: Final energy consumption by the {Sector} of other energy sources
     unit: EJ/yr
+    tier: 2
 
 # additional combinations of sector and energy-carriers not included in {Sector} x {Secondary Fuel}
 - Final Energy|Industry|Geothermal:
     description: Final energy consumption by the industrial sector of geothermal heat
     unit: EJ/yr
+    tier: 2
 - Final Energy|Industry|Solar:
     description: Final energy consumption by the industrial sector of solar thermal heat
     unit: EJ/yr
+    tier: 2
 - Final Energy|Industry|Waste:
     description: Final energy consumption of non-renewable waste by the industrial sector
     unit: EJ/yr
+    tier: 2
 
 # energy use for carbon capture and/or removal technologies
 - Final Energy|Carbon Management:
     description: Total energy use for carbon management, i.e., capture and/or removal of CO2
     unit: EJ/yr
+    tier: 2
     navigate: Final Energy|Carbon Removal
 - Final Energy|Carbon Management|Electricity:
     description: Electricity use for carbon management
     unit: EJ/yr
+    tier: 2
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
     navigate: Final Energy|Carbon Removal|Electricity
 - Final Energy|Carbon Management|{Secondary Fuel Level 2}:
     description: Use of {Secondary Fuel Level 2} for carbon management
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 2
     navigate: Final Energy|Carbon Removal|{Secondary Fuel Level 2}
 - Final Energy|Carbon Management|Other:
     description: Use of other energy sources for carbon management
     unit: EJ/yr
+    tier: 2
 # the list of carbon management technologies is given in
 # definitions/variable/emissions/tag_carbon-management.yaml
 - Final Energy|Carbon Management|{Carbon Management Technology}:
     description: Energy use for carbon management by {Carbon Management Technology}
     unit: EJ/yr
+    tier: 2
 - Final Energy|Carbon Management|{Carbon Management Technology}|Electricity:
     description: Electricity use for carbon management by {Carbon Management Technology}
     unit: EJ/yr
+    tier: 2
     notes: See `Secondary Energy|Electricity|...` for the power generation mix
     navigate: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
     engage: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
 - Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel Level 2}:
     description: Use of {Secondary Fuel Level 2} for carbon management by {Carbon Management Technology}
     unit: EJ/yr
-    tier: "{Secondary Fuel Level 2}"
+    tier: 2
     navigate: Final Energy|Carbon Removal|{Secondary Fuel Level 2}|{Carbon Management Technology}
     engage: Final Energy|Carbon Removal|{Secondary Fuel Level 2}|{Carbon Management Technology}
 - Final Energy|Carbon Management|{Carbon Management Technology}|Other:
     description: Use of other energy sources for carbon removal by {Carbon Management Technology}
     unit: EJ/yr
+    tier: 2
 
 # additional variable for international aviation and shipping ("Bunkers")
 - Final Energy|Bunkers|{Bunker Sector}:
     description: Final energy consumption for {Bunker Sector}
     unit: EJ/yr
+    tier: 1
 - Final Energy|Bunkers|{Transportation Sector}:
     description: Final energy consumption for {Transportation Sector}
       in international aviation and shipping
     unit: EJ/yr
+    tier: 2
 - Final Energy|Bunkers|{Bunker Sector}|{Transportation Sector}:
     description: Final energy consumption for {Transportation Sector} in {Bunker Sector}
     unit: EJ/yr
+    tier: 2
     engage: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
     navigate: Final Energy|Bunkers|{Transportation Sector}|{Bunker Sector}
 
 # additional variables for the water sector
+- Final Energy|Commercial|Water:
+    description: Energy consumption for water desalination, extraction, and transfer
+    unit: EJ/yr
+    tier: 2
 - Final Energy|Commercial|Water|Desalination:
     description: Energy consumption for water desalination
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Groundwater Extraction:
     description: Energy consumption for groundwater extraction
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Surface Water Extraction:
     description: Energy consumption for surface water extraction
     unit: EJ/yr
+    tier: 3
 - Final Energy|Commercial|Water|Transfer:
     description: Energy consumption for water transfers
     unit: EJ/yr
+    tier: 3
