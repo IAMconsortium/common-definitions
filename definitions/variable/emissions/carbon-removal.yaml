@@ -67,6 +67,6 @@
 - Carbon Removal|{Other Carbon Removal Option}:
     description: Gross removals of carbon dioxide (CO2) by {Other Carbon Removal Option}
     unit: Mt CO2/yr
-    tier: "{Other Carbon Removal Option}"
+    tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
