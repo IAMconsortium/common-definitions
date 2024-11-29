@@ -253,12 +253,12 @@
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 1}|Combustion:
     description: Emissions of {Level-2 Species} from fuel combustion during production
       of {Secondary Fuel Level 1}
-    unit: "{Level-1 Species}"
+    unit: "{Level-2 Species}"
     tier: 2
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 1}|Fugitive:
     description: Fugitive emissions of {Level-2 Species} during production
       of {Secondary Fuel Level 1}
-    unit: "{Level-1 Species}"
+    unit: "{Level-2 Species}"
     tier: 2
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2},
