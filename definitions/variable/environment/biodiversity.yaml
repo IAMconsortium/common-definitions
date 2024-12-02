@@ -7,9 +7,9 @@
     weight: Land Cover
     tier: 3
     notes: An indicator of naturalness or biodiversity intactness. It is defined as the mean abundance 
-    of original species relative to their abundance in undisturbed ecosystems. An MSA 
-    (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
-    An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
+      of original species relative to their abundance in undisturbed ecosystems. An MSA 
+      (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
+      An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
 - Terrestrial Biodiversity|Mean Species Abundance|Vertebrates:
     description: Terrestrial biodiversity of vertebrate species measured in Mean Species
       Abundance (MSA)
@@ -20,9 +20,9 @@
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
     notes: An indicator of naturalness or biodiversity intactness. It is defined as the mean abundance 
-    of original species relative to their abundance in undisturbed ecosystems. An MSA 
-    (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
-    An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
+      of original species relative to their abundance in undisturbed ecosystems. An MSA 
+      (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
+      An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
 - Terrestrial Biodiversity|Mean Species Abundance|Plants:
     description: Terrestrial biodiversity of plant species measured in Mean Species
       Abundance (MSA)
@@ -33,9 +33,9 @@
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
     notes: An indicator of naturalness or biodiversity intactness. It is defined as the mean abundance 
-    of original species relative to their abundance in undisturbed ecosystems. An MSA 
-    (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
-    An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
+      of original species relative to their abundance in undisturbed ecosystems. An MSA 
+      (Mean Species Abundance) of 0 % means a completely destructed ecosystem, with no original species remaining.
+      An MSA of 100 % indicates an undisturbed ecosystem, in which species abundance is comparable to the natural state.
 - Terrestrial Biodiversity|Biodiversity Intactness Index:
     description: Terrestrial biodiversity measured with Biodiversity Intactness Index
       (BII)
@@ -46,9 +46,9 @@
     navigate: Terrestrial Biodiversity|BII
     tier: 2
     notes: The Biodiversity Intactness Index (BII) summarises the change in ecological communities in response 
-    to human pressures. The BII is an estimated percentage of the original number of species that remain and 
-    their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
-    every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
+      to human pressures. The BII is an estimated percentage of the original number of species that remain and 
+      their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
+      every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Cropland Landscapes:
     description: Terrestrial biodiversity in landscapes containing cropland measured
       with Biodiversity Intactness Index (BII)
@@ -59,9 +59,9 @@
     weight: Land Cover
     tier: 3
     notes: The Biodiversity Intactness Index (BII) summarises the change in ecological communities in response 
-    to human pressures. The BII is an estimated percentage of the original number of species that remain and 
-    their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
-    every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
+      to human pressures. The BII is an estimated percentage of the original number of species that remain and 
+      their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
+      every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Biodiversity Hotspots:
     description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
@@ -72,9 +72,9 @@
     weight: Land Cover
     tier: 3
     notes: The Biodiversity Intactness Index (BII) summarises the change in ecological communities in response 
-    to human pressures. The BII is an estimated percentage of the original number of species that remain and 
-    their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
-    every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
+      to human pressures. The BII is an estimated percentage of the original number of species that remain and 
+      their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
+      every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Key Conservation Landscapes:
     description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
       measured with Biodiversity Intactness Index (BII)
@@ -85,9 +85,9 @@
     weight: Land Cover
     tier: 3
     notes: The Biodiversity Intactness Index (BII) summarises the change in ecological communities in response 
-    to human pressures. The BII is an estimated percentage of the original number of species that remain and 
-    their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
-    every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
+      to human pressures. The BII is an estimated percentage of the original number of species that remain and 
+      their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
+      every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
 - Terrestrial Biodiversity|Biodiversity Intactness Index|Areas Outside Key Conservation and Cropland Landscapes:
     description: Terrestrial biodiversity in areas outside biodiversity hotspot,
       intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
@@ -98,9 +98,9 @@
     weight: Land Cover
     tier: 3
     notes: The Biodiversity Intactness Index (BII) summarises the change in ecological communities in response 
-    to human pressures. The BII is an estimated percentage of the original number of species that remain and 
-    their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
-    every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
+      to human pressures. The BII is an estimated percentage of the original number of species that remain and 
+      their abundance in any given area, despite human impacts. The main difference between MSA and BII is that 
+      every unit of land is given equal weight in MSA, whereas BII gives more weight to species-rich areas.
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
     description: Crop diversity measured by the Shannon index accounting for crop richness
       and abundance
@@ -110,4 +110,4 @@
     weight: Land Cover
     tier: 3
     notes: The Shannon index is a an index of crop diversity. Both the number of species and their distribution are 
-    included in the calculation. Higher values indicate higher crop diversity. Typical values generally range between 1.5 and 3.5.
+      included in the calculation. Higher values indicate higher crop diversity. Typical values generally range between 1.5 and 3.5.
