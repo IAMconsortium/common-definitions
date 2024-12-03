@@ -1,8 +1,7 @@
 - Terrestrial Biodiversity|Mean Species Abundance:
     description: Terrestrial biodiversity measured in Mean Species Abundance (MSA)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     sdg: 15
     weight: Land Cover
     tier: 3
@@ -14,8 +13,7 @@
     description: Terrestrial biodiversity of vertebrate species measured in Mean Species
       Abundance (MSA)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
@@ -27,8 +25,7 @@
     description: Terrestrial biodiversity of plant species measured in Mean Species
       Abundance (MSA)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     weight: Land Cover
     navigate: Terrestrial Biodiversity|MSA|Vertebrates
     tier: 3
@@ -40,8 +37,7 @@
     description: Terrestrial biodiversity measured with Biodiversity Intactness Index
       (BII)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     weight: Land Cover
     navigate: Terrestrial Biodiversity|BII
     tier: 2
@@ -53,8 +49,7 @@
     description: Terrestrial biodiversity in landscapes containing cropland measured
       with Biodiversity Intactness Index (BII)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     sdg: 15
     weight: Land Cover
     tier: 3
@@ -66,8 +61,7 @@
     description: Terrestrial biodiversity in biodiversity hotspot landscapes measured
       with Biodiversity Intactness Index (BII)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     sdg: 15
     weight: Land Cover
     tier: 3
@@ -92,8 +86,7 @@
     description: Terrestrial biodiversity in areas outside biodiversity hotspot,
       intact forest & cropland landscapes measured with Biodiversity Intactness Index (BII)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     sdg: 15
     weight: Land Cover
     tier: 3
@@ -104,7 +97,7 @@
 - Terrestrial Biodiversity|Shannon Crop Diversity Index:
     description: Crop diversity measured by the Shannon index accounting for crop richness
       and abundance
-    unit: 'index'
+    unit:
     min: 0
     sdg: 15
     weight: Land Cover
