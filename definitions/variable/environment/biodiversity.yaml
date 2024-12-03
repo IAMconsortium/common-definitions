@@ -73,8 +73,7 @@
     description: Terrestrial biodiversity in biodiversity hotspot and intact forest landscapes
       measured with Biodiversity Intactness Index (BII)
     unit: '%'
-    min: 0
-    max: 100
+    range: [ 0,100 ]
     sdg: 15
     weight: Land Cover
     tier: 3
