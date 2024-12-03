@@ -340,6 +340,11 @@
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Aviation:
+    description: Emissions of {Level-2 Species} from domestic aviation, being all aviation not reported 
+      under international aviation bunkers emisisons. 
+    unit: "{Level-2 Species}"
+    tier: 2
 - Emissions|{Level-2 Species}|Energy|Demand|AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in agriculture,
       forestry, fishing (AFOFI) (IPCC category 1A4c)
