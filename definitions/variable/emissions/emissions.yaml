@@ -114,7 +114,7 @@
       - Emissions|{Level-3 Species}|AFOLU|Land|Other
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Net emissions from managed wetlands (e.g., peatland), including 
-      emissions from drained wetlands used for agriculture or forestry (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii), 
+      emissions from drained wetlands used for agriculture, forestry or other uses (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv), 
       and emissions from rewetted wetlands (IPCC 2006 category 3B4).
     unit: "{Level-3 Species}"
     tier: 3
