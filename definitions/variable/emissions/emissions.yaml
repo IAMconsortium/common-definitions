@@ -300,6 +300,12 @@
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 1
+    components:
+      - Emissions|{Level-2 Species}|Energy|Demand|Industry
+      - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial and AFOFI
+      - Emissions|{Level-2 Species}|Energy|Demand|Transportation
+      - Emissions|{Level-2 Species}|Energy|Demand|Bunkers
+      - Emissions|{Level-2 Species}|Energy|Demand|Other Sector
 - Emissions|{Level-2 Species}|Energy|Demand|Industry:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
     unit: "{Level-2 Species}"
@@ -363,6 +369,15 @@
     description: Emissions of {Level-2 Species} from fuel combustion in other sectors
     unit: "{Level-2 Species}"
     tier: 2
+    
+- Emissions|{Level-2 Species}|Energy|Demand|Aircraft:
+    description: Emissions of {Level-2 Species} from all aircraft, containing both domestic and international aviation. 
+    unit: "{Level-2 Species}"
+    tier: 2
+    components: 
+      - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Aviation
+      - Emissions|{Level-2 Species}|Energy|Demand|Bunkers|International Aviation
+
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
