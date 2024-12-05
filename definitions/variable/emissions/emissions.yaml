@@ -351,6 +351,28 @@
       under international aviation bunkers emisisons. 
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Bus:
+    description: Emissions of {Level-2 Species} from the transportation sector by bus
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Light Duty Vehicle:
+    description: Emissions of {Level-2 Species} from  the transportation sector with light-duty vehicles
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|:
+    description: Emissions of {Level-2 Species} from the trucking sector
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Rail:
+    description: Emissions of {Level-2 Species} from the rail transportation sector
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Shipping:
+    description: Emissions of {Level-2 Species} from domestic shipping sector
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Passenger:
+    description: Emissions of {Level-2 Species} from passenger transportation sector excluding international aviation
+      and shipping
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Freight:
+    description: Emissions of {Level-2 Species} from freight transportation sector excluding international aviation and shipping
+    tier: 3
 - Emissions|{Level-2 Species}|Energy|Demand|AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in agriculture,
       forestry, fishing (AFOFI) (IPCC category 1A4c)
