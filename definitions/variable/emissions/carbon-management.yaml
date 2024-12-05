@@ -11,12 +11,22 @@
       - Carbon Capture|Leakage
       - Carbon Capture|Utilization
 
-- Carbon Capture|{Carbon Capture Source}:
+- Carbon Capture|Energy:
+    description: Captured carbon dioxide (CO2) from energy use in supply and demand sectors
+      (IPCC category 1A, 1B)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|{Carbon Capture Source}:
     description: Captured carbon dioxide (CO2) from {Carbon Capture Source}
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}
+    engage: Carbon Capture|{Carbon Capture Source}
+
 - Carbon Capture|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes
       (e.g., cement production), not including energy use
@@ -24,6 +34,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+
 - Carbon Capture|Direct Air Capture:
     description: Captured carbon dioxide (CO2) from direct air capture
     unit: Mt CO2/yr
