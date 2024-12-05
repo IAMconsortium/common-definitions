@@ -26,6 +26,51 @@
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|{Carbon Capture Source}
     engage: Carbon Capture|{Carbon Capture Source}
+- Carbon Capture|Energy|Supply:
+    description: Captured carbon dioxide (CO2) in energy supply sectors
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) from {Carbon Capture Source}
+      in energy supply sectors
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply
+- Carbon Capture|Energy|Supply|Electricity:
+    description: Captured carbon dioxide (CO2) during electricity generation
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|Electricity|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during electricity generation
+      from {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
+- Carbon Capture|Energy|Supply|{Secondary Fuel Level 1}:
+    description: Captured carbon dioxide (CO2) during production of {Secondary Fuel Level 1}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|{Secondary Fuel Level 1}|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during production of {Secondary Fuel Level 1}
+      using {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
 
 - Carbon Capture|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes
