@@ -1,0 +1,9 @@
+- Drive Type:
+    - BEV:
+        description: battery-electric drive
+    - FCEV:
+        description: fuel-cell-electric drive
+    - PHEV:
+        description: plug-in hybrid drive
+    - ICE:
+        description: internal combustion engine drive not including plug-in hybrids
