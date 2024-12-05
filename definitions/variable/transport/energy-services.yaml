@@ -2,11 +2,13 @@
     description: Energy service demand for passenger transport on roads in light duty vehicles
     unit: billion pkm/yr
     tier: 2
+    navigate: Energy Service|Transportation|Road|LDV
 - Energy Service|Transportation|Passenger|Road|Light-Duty Vehicles|{Drive Type}:
     description: Energy service demand for passenger transport on roads in light duty vehicles
       with {Drive Type}
     unit: billion pkm/yr
     tier: 2
+    navigate: Energy Service|Transportation|Road|LDV|{Drive Type}
 - Energy Service|Transportation|Freight|Truck:
     description: Energy service demand for freight transport on roads in trucks
     unit: billion tkm/yr
@@ -16,3 +18,4 @@
       with {Drive Type}
     unit: billion tkm/yr
     tier: 2
+    navigate: Energy Service|Transportation|Freight|Truck|{Drive Type}
