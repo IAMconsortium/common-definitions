@@ -51,6 +51,7 @@ common_regions:
   - Europe (R10):
     - TUR
     - XE25
+    - XER
   - India+ (R10):
     - IND
   - Latin America (R10):
@@ -65,7 +66,6 @@ common_regions:
     - JPN
     - XOC
   - Reforming Economies (R10):
-    - XER
     - CIS
   - Rest of Asia (R10):
     - XSA
