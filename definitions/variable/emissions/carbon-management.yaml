@@ -45,8 +45,8 @@
 
 - Carbon Capture|Geological Storage:
     description: Captured carbon dioxide (CO2) that is injected into subsurface geologic
-      storage reservoirs (e.g., in situ mineralization), often called Carbon Capture and
-      Sequestration (CCS)
+      storage reservoirs (e.g., in situ mineralization), also called "Carbon Capture and
+      Sequestration" (CCS)
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
@@ -55,17 +55,41 @@
 - Carbon Capture|Geological Storage|{Carbon Capture Source}:
     description: Captured carbon dioxide (CO2) from {Carbon Capture Source} that is
       injected into subsurface geologic storage reservoirs (e.g., in situ mineralization),
-      often called Carbon Capture and Sequestration (CCS)
+      also called "Carbon Capture and Sequestration" (CCS)
     unit: Mt CO2/yr
     tier: 2
     lower_bound: 0
 - Carbon Capture|Geological Storage|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes (e.g., cement production)
       that is injected into subsurface geologic storage reservoirs (e.g., in situ mineralization),
-      often called Carbon Capture and Sequestration (CCS)
+      also called "Carbon Capture and Sequestration" (CCS)
     unit: Mt CO2/yr
     tier: 2
     lower_bound: 0
+- Carbon Capture|Geological Storage|Direct Air Capture:
+    description: Captured carbon dioxide (CO2) from direct air capture that is injected
+      into subsurface geologic storage reservoirs (e.g., in situ mineralization),
+      also called "Direct Air Capture and Sequestration" (DACCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Geological Storage|Direct Ocean Capture:
+    description: Captured carbon dioxide (CO2) from direct ocean capture that is injected
+      into subsurface geologic storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Geological Storage|Other Sources:
+    description: Captured carbon dioxide (CO2) from other sourcesthat is injected into
+      subsurface geologic storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
 
 - Carbon Capture|Other Storage:
     description: Other types of storage for captured carbon dioxide (CO2)
