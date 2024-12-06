@@ -340,6 +340,32 @@
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Bus:
+    description: Emissions of {Level-2 Species} from fuel combustion by buses
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Light Duty Vehicle:
+    description: Emissions of {Level-2 Species} from fuel combustion by light-duty vehicles
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Truck:
+    description: Emissions of {Level-2 Species} from fuel combustion by trucks
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Rail:
+    description: Emissions of {Level-2 Species} from fuel combustion by railways
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Aviation:
+    description: Emissions of {Level-2 Species} from fuel combustion in domestic aviation,
+      excluding emissions from bunker fuels in international aviation
+    unit: "{Level-2 Species}"
+    tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Shipping:
+    description: Emissions of {Level-2 Species} from fuel combustion in domestic shipping,
+      excluding emissions from bunker fuels in international shipping
+    unit: "{Level-2 Species}"
+    tier: 3
 - Emissions|{Level-2 Species}|Energy|Demand|AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in agriculture,
       forestry, fishing (AFOFI) (IPCC category 1A4c)
