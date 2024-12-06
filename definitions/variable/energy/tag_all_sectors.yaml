@@ -62,7 +62,7 @@
     - Transportation|Bus:
         description: transportation sector by bus
         tier: ^1
-    - Transportation|Light Duty Vehicle:
+    - Transportation|Light-Duty Vehicle:
         description: transportation sector with light-duty vehicles
         tier: ^1
     - Transportation|Truck:

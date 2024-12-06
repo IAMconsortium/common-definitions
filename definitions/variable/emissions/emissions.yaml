@@ -344,7 +344,7 @@
     description: Emissions of {Level-2 Species} from fuel combustion by buses
     unit: "{Level-2 Species}"
     tier: 3
-- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Light Duty Vehicle:
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Light-Duty Vehicle:
     description: Emissions of {Level-2 Species} from fuel combustion by light-duty vehicles
     unit: "{Level-2 Species}"
     tier: 3
