@@ -2,7 +2,7 @@
     - Battery-Electric:
         description: battery-electric drive (BEV)
         navigate: BEV
-    - Fuel-Cell-ELectric:
+    - Fuel-Cell-Electric:
         description: fuel-cell-electric drive (FCEV)
         navigate: FCEV
     - Plug-in Hybrid:
