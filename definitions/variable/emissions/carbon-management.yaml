@@ -74,6 +74,48 @@
     navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
     engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
 
+- Carbon Capture|Energy|Demand:
+    description: Captured carbon dioxide (CO2) during energy consumption
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during direct consumption of {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|Industry:
+    description: Captured carbon dioxide (CO2) during energy consumption in industry
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|Industry|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during use of {Carbon Capture Source} in industry
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Carbon Capture Source}
+    engage: Carbon Capture|Industry|{Carbon Capture Source}
+- Carbon Capture|Energy|Demand|Industry|{Industry Sector}:
+    description: Captured carbon dioxide (CO2) during energy consumption in {Industry Sector}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Industry Sector}
+- Carbon Capture|Energy|Demand|Industry|{Industry Sector}|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during use of {Carbon Capture Source}
+      in {Industry Sector}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Carbon Capture Source}|{Industry Sector}
+
 - Carbon Capture|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes
       (e.g., cement production), not including energy use
@@ -81,6 +123,14 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+- Carbon Capture|Industrial Processes|{Industry Sector}:
+    description: Captured carbon dioxide (CO2) from industrial processes
+      in the {Industry Sector}, not including energy use
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|Industrial Processes|{Industry Sector}
 
 - Carbon Capture|Direct Air Capture:
     description: Captured carbon dioxide (CO2) from direct air capture
