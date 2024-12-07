@@ -1,11 +1,17 @@
-- Car Size:
-    - Compact Car:
+- Vehicle Type:
+    - Bus:
+        description: passenger buses
+    - Light-Duty Vehicles:
+        description: light-duty vehicles
+    - Light-Duty Vehicles|Compact Car:
         description: compact cars
-    - Large Car and SUV:
+    - Light-Duty Vehicles|Large Car and SUV:
         description: large cars and sports-utility vehicles (SUV)
-    - Midsize Car:
+    - Light-Duty Vehicles|Midsize Car:
         description: midsize cars
-    - Subcompact Car:
+    - Light-Duty Vehicles|Subcompact Car:
         description: subcompact cars
-    - Two-Wheelers:
+    - Light-Duty Vehicles|Two-Wheelers:
         description: two-wheelers
+    - Truck:
+        description: trucks
