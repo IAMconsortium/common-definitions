@@ -1,0 +1,11 @@
+- Car Size:
+    - Compact Car:
+        description: compact cars
+    - Large Car and SUV:
+        description: large cars and sports-utility vehicles (SUV)
+    - Midsize Car:
+        description: midsize cars
+    - Subcompact Car:
+        description: subcompact cars
+    - Two-Wheelers:
+        description: two-wheelers

@@ -1,0 +1,34 @@
+- Sales|Transportation|Bus:
+    description: Sales of passenger busses
+    unit: million
+    tier: 2
+- Sales|Transportation|Bus|{Drive Type}:
+    description: Sales of passenger busses with {Drive Type}
+    unit: million
+    tier: 2
+
+- Sales|Transportation|Light-Duty Vehicles:
+    description: Sales of light-duty vehicles
+    unit: million
+    tier: 2
+- Sales|Transportation|Light-Duty Vehicles|{Drive Type}:
+    description: Sales of light-duty vehicles with {Drive Type}
+    unit: million
+    tier: 2
+- Sales|Transportation|Light-Duty Vehicles|{Car Size}:
+    description: Sales of {Car Size} with {Drive Type}
+    unit: million
+    tier: 3
+- Sales|Transportation|Light-Duty Vehicles|{Car Size}|{Drive Type}:
+    description: Sales of {Car Size} with {Drive Type}
+    unit: million
+    tier: 3
+
+- Sales|Transportation|Truck:
+    description: Sales of trucks
+    unit: million
+    tier: 2
+- Sales|Transportation|Truck|{Drive Type}:
+    description: Sales of trucks with {Drive Type}
+    unit: million
+    tier: 2
