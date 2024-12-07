@@ -1,0 +1,22 @@
+- Vehicle Type:
+    - Bus:
+        description: passenger buses
+    - Light-Duty Vehicles:
+        description: light-duty vehicles
+    - Light-Duty Vehicles|Compact Car:
+        description: compact cars
+        tier: ^1
+    - Light-Duty Vehicles|Large Car and SUV:
+        description: large cars and sports-utility vehicles (SUV)
+        tier: ^1
+    - Light-Duty Vehicles|Midsize Car:
+        description: midsize cars
+        tier: ^1
+    - Light-Duty Vehicles|Subcompact Car:
+        description: subcompact cars
+        tier: ^1
+    - Light-Duty Vehicles|Two-Wheelers:
+        description: two-wheelers
+        tier: ^1
+    - Truck:
+        description: trucks
