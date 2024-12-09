@@ -122,10 +122,10 @@
     notes: Includes reservoirs as a managed sub-division and
       natural rivers and lakes as unmanaged sub-divisions. Includes drained
       and rewetted wetlands, does not include natural emissions from intact wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Other Land Use and Land-Use Change:
+- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
     description: Emissions and removals from forest land, cropland, grassland,
-      settlements, and other land that cannot be accommodated in other categories
-      (partially IPCC 1996 category 5; IPCC 2006 category 3B except 3B4).
+      settlements and other natural land 
+      (partially IPCC 1996 category 5; IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
     unit: "{Level-3 Species}"
     tier: 3
     notes: Only includes anthropogenic emissions. Does not include wetlands.
