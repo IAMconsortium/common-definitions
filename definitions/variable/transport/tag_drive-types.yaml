@@ -1,0 +1,13 @@
+- Drive Type:
+    - Battery-Electric:
+        description: battery-electric drive (BEV)
+        navigate: BEV
+    - Fuel-Cell-Electric:
+        description: fuel-cell-electric drive (FCEV)
+        navigate: FCEV
+    - Plug-in Hybrid:
+        description: plug-in hybrid drive (PHEV)
+        navigate: PHEV
+    - Internal Combustion:
+        description: internal combustion engine drive not including plug-in hybrids (ICE)
+        navigate: ICE

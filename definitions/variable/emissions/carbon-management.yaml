@@ -11,12 +11,111 @@
       - Carbon Capture|Leakage
       - Carbon Capture|Utilization
 
-- Carbon Capture|{Carbon Capture Source}:
-    description: Captured carbon dioxide (CO2) from {Carbon Capture Source}
+- Carbon Capture|Energy:
+    description: Captured carbon dioxide (CO2) from energy use in supply and demand sectors
+      (IPCC category 1A, 1B)
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) from {Carbon Capture Source} in supply
+      and demand sectors (IPCC category 1A, 1B)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}
+    engage: Carbon Capture|{Carbon Capture Source}
+
+- Carbon Capture|Energy|Supply:
+    description: Captured carbon dioxide (CO2) in energy supply sectors
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) from {Carbon Capture Source}
+      in energy supply sectors
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply
+- Carbon Capture|Energy|Supply|Electricity:
+    description: Captured carbon dioxide (CO2) during electricity generation
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|Electricity|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during electricity generation
+      from {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
+- Carbon Capture|Energy|Supply|{Secondary Fuel Level 1}:
+    description: Captured carbon dioxide (CO2) during production of {Secondary Fuel Level 1}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Supply|{Secondary Fuel Level 1}|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during production of {Secondary Fuel Level 1}
+      using {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
+    engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
+
+- Carbon Capture|Energy|Demand:
+    description: Captured carbon dioxide (CO2) during energy consumption
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during direct consumption of {Carbon Capture Source}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|Industry:
+    description: Captured carbon dioxide (CO2) during energy consumption in industry
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Energy|Demand|Industry|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during use of {Carbon Capture Source} in industry
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Carbon Capture Source}
+    engage: Carbon Capture|Industry|{Carbon Capture Source}
+- Carbon Capture|Energy|Demand|Industry|{Industry Sector}:
+    description: Captured carbon dioxide (CO2) during energy consumption in {Industry Sector}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Industry Sector}
+- Carbon Capture|Energy|Demand|Industry|{Industry Sector}|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) during use of {Carbon Capture Source}
+      in {Industry Sector}
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|{Carbon Capture Source}|{Industry Sector}
+
 - Carbon Capture|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes
       (e.g., cement production), not including energy use
@@ -24,6 +123,15 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+- Carbon Capture|Industrial Processes|{Industry Sector}:
+    description: Captured carbon dioxide (CO2) from industrial processes
+      in the {Industry Sector}, not including energy use
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry|Industrial Processes|{Industry Sector}
+
 - Carbon Capture|Direct Air Capture:
     description: Captured carbon dioxide (CO2) from direct air capture
     unit: Mt CO2/yr
@@ -44,13 +152,53 @@
     notes: Values should be reported as positive numbers.
 
 - Carbon Capture|Geological Storage:
-    description: Captured carbon dioxide (CO2) that is injected into subsurface geologic
-      storage reservoirs (e.g., in situ mineralization).
+    description: Captured carbon dioxide (CO2) that is injected into subsurface geological
+      storage reservoirs (e.g., in situ mineralization), also called "Carbon Capture and
+      Sequestration" (CCS)
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
     notes: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization)
       should be reported under Carbon Capture|Other Storage
+- Carbon Capture|Geological Storage|{Carbon Capture Source}:
+    description: Captured carbon dioxide (CO2) from {Carbon Capture Source} that is
+      injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+- Carbon Capture|Geological Storage|Industrial Processes:
+    description: Captured carbon dioxide (CO2) from industrial processes (e.g., cement production)
+      that is injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 2
+    lower_bound: 0
+- Carbon Capture|Geological Storage|Direct Air Capture:
+    description: Captured carbon dioxide (CO2) from direct air capture (DAC) that is
+      injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
+      also called "Direct Air Capture and Sequestration" (DACCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Geological Storage|Direct Ocean Capture:
+    description: Captured carbon dioxide (CO2) from direct ocean capture that is injected
+      into subsurface geological storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+- Carbon Capture|Geological Storage|Other Sources:
+    description: Captured carbon dioxide (CO2) from other sources that is injected into
+      subsurface geological storage reservoirs (e.g., in situ mineralization),
+      also called "Carbon Capture and Sequestration" (CCS)
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    notes: Values should be reported as positive numbers.
+
 - Carbon Capture|Other Storage:
     description: Other types of storage for captured carbon dioxide (CO2)
     unit: Mt CO2/yr

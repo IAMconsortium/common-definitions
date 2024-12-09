@@ -1,0 +1,13 @@
+- Industry Sector:
+    - Chemicals:
+        description: production of chemicals
+    - Iron and Steel:
+        description: production of iron and steel
+    - Non-Ferrous Metals:
+        description: production of non-ferrous metals including aluminium
+    - Non-Metallic Minerals:
+        description: production of non-metallic minerals including cement
+    - Pulp and Paper:
+        description: production of pulp and paper
+    - Other Sector:
+        description: other industrial sectors
