@@ -4,10 +4,12 @@
     - Materials|Long-Lived:
         description: long-lived materials where the carbon is stored on centennial or
           longer timescales (e.g., carbon fibers)
+        navigate: Materials|Long-lived
     - Materials|Short-Lived:
         description: short-lived materials where the captured carbon is re-emitted to
           the atmosphere upon consumption of these products or within annual to decadal
           timescales (e.g., plastics)
+        navigate: Materials|Short-lived
     - Liquids:
         description: synthetic liquid fuels
     - Gases:
