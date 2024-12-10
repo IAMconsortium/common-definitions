@@ -28,7 +28,14 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: For net emissions (accounting for negative emissions), see "Emissions|CO2".
+    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
+- Gross Removals|CO2:
+    description: Gross removals of carbon dioxide (CO2) excluding positive emissions. 
+      This variable includes removals from bioenergy with CCS (BECCS), direct air carbon capture
+      or agriculture, forestry and other land use (AFOLU)
+    unit: Mt CO2/yr
+    tier: 1
+    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
 
 
 - Emissions|{Level-2 Species}|AFOLU:
@@ -55,11 +62,23 @@
     description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
       This is emissions sources only. All removals (for example,
-      removals from biochar) are not included here. For net emissions,
-      see "Emissions|CO2|AFOLU". Emissions reported in this category represent
+      removals from biochar) are not included here. Emissions reported in this category represent
       fluxes from the land pool to the atmosphere.
     unit: Mt CO2/yr
     tier: 1
+    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
+- Gross Removals|CO2|AFOLU:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
+      This is removals only; emissions are not included here. 
+      This variable includes intentional carbon dioxide removals as reported in "Carbon Removal|Land Use". 
+      In addition, this variable includes all un-intentional or indirect removals, 
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests 
+      after wood harvest or regrowth of timber plantations. Removals reported in this category represent
+      fluxes from the atmosphere to the land pool. 
+    unit: Mt CO2/yr
+    tier: 1
+    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
