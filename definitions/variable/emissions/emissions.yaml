@@ -106,37 +106,28 @@
       biochar, soil carbon management and forest management.
     unit: "{Level-3 Species}"
     tier: 2
-    components:
-      - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands
-      - Emissions|{Level-3 Species}|AFOLU|Land|Other Land Use and Land-Use Change
-      - Emissions|{Level-3 Species}|AFOLU|Land|Fires
-      - Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products
-      - Emissions|{Level-3 Species}|AFOLU|Land|Other
+- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
+    description: Emissions and removals from forest land, cropland, grassland,
+      settlements and other natural land (partially IPCC 1996 category 5;
+      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
+    unit: "{Level-3 Species}"
+    tier: 3
+    notes: This variable only includes anthropogenic emissions, but does not include
+      emissions from managed or rewetted wetlands.
 - Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
     description: Emissions of {Level-3 Species} from managed wetlands (e.g., peatland),
       including emissions from drained wetlands used for agriculture, forestry or other uses
-      (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv), 
+      (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv),
       and emissions from rewetted wetlands (IPCC 2006 category 3B4)
     unit: "{Level-3 Species}"
     tier: 3
     notes: Includes reservoirs as a managed sub-division and
       natural rivers and lakes as unmanaged sub-divisions. Includes drained
       and rewetted wetlands, does not include natural emissions from intact wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
-    description: Emissions and removals from forest land, cropland, grassland,
-      settlements and other natural land 
-      (partially IPCC 1996 category 5; IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
-    unit: "{Level-3 Species}"
-    tier: 3
-    notes: Only includes anthropogenic emissions. Does not include wetlands.
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires:
     description: Emissions from land fires and deforestation & degradation fires
     unit: "{Level-3 Species}"
     tier: 3
-    components:
-      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning
-      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning
-      - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning
 - Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
     description: Emissions from peat fires
     unit: "{Level-3 Species}"
