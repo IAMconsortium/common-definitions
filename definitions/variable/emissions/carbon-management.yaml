@@ -160,6 +160,7 @@
     lower_bound: 0
     notes: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization)
       should be reported under Carbon Capture|Other Storage
+    navigate: Carbon Capture|Storage
 - Carbon Capture|Geological Storage|{Carbon Capture Source}:
     description: Captured carbon dioxide (CO2) from {Carbon Capture Source} that is
       injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
@@ -167,6 +168,7 @@
     unit: Mt CO2/yr
     tier: 2
     lower_bound: 0
+    navigate: Carbon Capture|Storage|{Carbon Capture Source}
 - Carbon Capture|Geological Storage|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes (e.g., cement production)
       that is injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
@@ -174,6 +176,7 @@
     unit: Mt CO2/yr
     tier: 2
     lower_bound: 0
+    navigate: Carbon Capture|Storage|Industrial Processes
 - Carbon Capture|Geological Storage|Direct Air Capture:
     description: Captured carbon dioxide (CO2) from direct air capture (DAC) that is
       injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
@@ -182,6 +185,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Storage|Direct Air Capture
 - Carbon Capture|Geological Storage|Direct Ocean Capture:
     description: Captured carbon dioxide (CO2) from direct ocean capture that is injected
       into subsurface geological storage reservoirs (e.g., in situ mineralization),
@@ -198,6 +202,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Storage|Other
 
 - Carbon Capture|Other Storage:
     description: Other types of storage for captured carbon dioxide (CO2)
@@ -218,6 +223,7 @@
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
+    navigate: Carbon Capture|Usage
 - Carbon Capture|Utilization|{Carbon Utilization Type}:
     description: Captured carbon dioxide (CO2) that is used to produce {Carbon Utilization Type}
     unit: Mt CO2/yr
