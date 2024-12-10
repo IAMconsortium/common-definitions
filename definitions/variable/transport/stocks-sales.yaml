@@ -1,0 +1,17 @@
+- Sales|Transportation|{Vehicle Type}:
+    description: Number of sold {Vehicle Type}
+    unit: million
+    tier: 2
+- Sales|Transportation|{Vehicle Type}|{Drive Type}:
+    description: Number of sold {Vehicle Type} with {Drive Type}
+    unit: million
+    tier: 2
+
+- Stocks|Transportation|{Vehicle Type}:
+    description: Stocks of {Vehicle Type}
+    unit: million
+    tier: 2
+- Stocks|Transportation|{Vehicle Type}|{Drive Type}:
+    description: Stocks of {Vehicle Type} with {Drive Type}
+    unit: million
+    tier: 2
