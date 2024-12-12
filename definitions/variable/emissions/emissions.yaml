@@ -30,27 +30,25 @@
     tier: 1
     notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
 - Gross Removals|CO2:
-    description: Gross removals of carbon dioxide (CO2) excluding positive emissions. 
-      This variable includes removals from bioenergy with CCS (BECCS), direct air carbon capture
-      or agriculture, forestry and other land use (AFOLU)
+    description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
+      including removals from bioenergy with CCS (BECCS), direct air carbon capture
+      and agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
     notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
 
-
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      In particular, this includes agricultural emissions (mostly non-CO2)
-      from livestock, rice cultivation and soil management as well as
-      emissions from land use and land-use change (mostly CO2) such as deforestation,
-      conversion of non-forest natural land, and drained peatlands.
-      This is reporting the sum of sources and sinks including land-use methods such as
-      soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry.
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3),
+      including agricultural emissions from livestock, rice cultivation and soil management
+      as well as emissions from land use and land-use change (mostly CO2) such as deforestation,
+      conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
-    notes: This variable uses the model/scientific definition of AFOLU, and does
-      not align with the reporting of national greenhouse gas inventories (NGHGI).
+    notes: This variable reports the sum of sources and sinks including land-use methods
+      such as soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry.
+      It uses the model/scientific definition of AFOLU, and does not align with the
+      reporting of national greenhouse gas inventories (NGHGI).
       For the NGHGI variable reporting, please see "Emissions|*|AFOLU [NGHGI]".
       Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool.
       For a breakdown of carbon removals, see the "Carbon Removal|*" tree
@@ -59,26 +57,24 @@
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
-    description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      This is emissions sources only. All removals (for example,
-      removals from biochar) are not included here. Emissions reported in this category represent
-      fluxes from the land pool to the atmosphere.
+    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3),
+      not including any removals from the atmosphere (e.g., biochar)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
+    notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
+      net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      This is removals only; emissions are not included here. 
-      This variable includes intentional carbon dioxide removals as reported in "Carbon Removal|Land Use". 
-      In addition, this variable includes all un-intentional or indirect removals, 
-      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests 
-      after wood harvest or regrowth of timber plantations. Removals reported in this category represent
-      fluxes from the atmosphere to the land pool. 
+      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3),
+      including intentional carbon dioxide removals ("Carbon Removal|Land Use")
+      and all un-intentional or indirect removals,
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
+      after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
+      net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
