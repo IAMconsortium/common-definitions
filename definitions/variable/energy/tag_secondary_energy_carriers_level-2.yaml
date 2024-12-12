@@ -57,7 +57,7 @@
         description: gaseous fuels from fossil coal gasification
         tier: ^1
     - Gases|Gas:
-        description: fossil methane ("natural gas")
+        description: fossil methane ('natural gas')
         tier: ^1
     - Gases|Hydrogen:
         description: gaseous fuels from hydrogen (if hydrogen is explicitly modeled as a

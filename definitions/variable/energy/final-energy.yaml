@@ -6,8 +6,8 @@
     tier: 1
 - Final Energy (w/o bunkers):
     description: Final energy consumption by all end-use sectors and all fuels
-      including non-energy use, excluding international aviation and shipping (see "Bunkers"),
-      excluding transmission/distribution losses
+      including non-energy use, excluding international aviation and shipping
+      (see 'Final Energy|Bunkers|*') and excluding transmission/distribution losses
     unit: EJ/yr
     tier: 2
 

@@ -6,14 +6,11 @@
 # 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
 
 - Emissions|{Level-1 Species}:
-    description: Emissions of {Level-1 Species} to the atmosphere.
-      For the avoidance of doubt, these emissions are net emissions
-      (i.e. include both positive (emission) and negative (removal)
-      contributions. For positive contributions only, see
-      "Gross Emissions|*").
+    description: Emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -28,14 +25,14 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
       including removals from bioenergy with CCS (BECCS), direct air carbon capture
       and agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
@@ -49,9 +46,9 @@
       such as soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry.
       It uses the model/scientific definition of AFOLU, and does not align with the
       reporting of national greenhouse gas inventories (NGHGI).
-      For the NGHGI variable reporting, please see "Emissions|*|AFOLU [NGHGI]".
+      For the NGHGI variable reporting, please see 'Emissions|*|AFOLU [NGHGI]'.
       Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool.
-      For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
@@ -63,18 +60,18 @@
     unit: Mt CO2/yr
     tier: 1
     notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
-      net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3),
-      including intentional carbon dioxide removals ("Carbon Removal|Land Use")
+      including intentional carbon dioxide removals ('Carbon Removal|Land Use')
       and all un-intentional or indirect removals,
       e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
-      net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
@@ -171,12 +168,12 @@
 - Emissions|{Level-2 Species}|AFOLU [NGHGI]:
     description: Emissions of {Level-2 Species} from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3) in line
-      with the national greenhouse gas inventories (NGHGI).
+      with the national greenhouse gas inventories (NGHGI)
     unit: "{Level-2 Species}"
     tier: 2
     notes: This variable is optional, for instance used for comparison with national
       greenhouse gas inventories, but is not used for driving climate model simulations,
-      and also not a component of "Emissions|*", for which the variable "Emissions|*|AFOLU"
+      and also not a component of 'Emissions|*', for which the variable 'Emissions|*|AFOLUÄ
       with model/scientific definition is used.
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
@@ -186,7 +183,7 @@
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
     tier: 2
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
@@ -209,7 +206,7 @@
       and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage and synthetic fuels
     unit: "{Level-2 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
     components:
       - Emissions|{Level-2 Species}|Energy|Supply
       - Emissions|{Level-2 Species}|Energy|Demand
@@ -395,12 +392,12 @@
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E). This is the sum of sources
-      and sinks, including negative emissions such as those from cement carbonation
-      processes and other forms of capture and storage on industrial processes
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), including negative emissions such as
+      those from cement carbonation processes and other forms of capture and storage on
+      industrial processes
     unit: "{Level-3 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions
@@ -466,5 +463,5 @@
     unit: "{Level-3 Species}"
     tier: 2
     notes: This timeseries should be reported as negative values so that subcategories of
-      emissions add up to net emissions `Emissions|{Level-3 Species}`. For a breakdown of carbon
-      removals, see the "Carbon Removal|*" tree
+      emissions add up to net emissions 'Emissions|{Level-3 Species}'. For a breakdown of carbon
+      removals, see the 'Carbon Removal|*' tree.
