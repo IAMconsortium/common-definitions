@@ -119,7 +119,7 @@
     description: Electricity use for carbon management
     unit: EJ/yr
     tier: 2
-    notes: See `Secondary Energy|Electricity|...` for the power generation mix
+    notes: See 'Secondary Energy|Electricity|*' for the power generation mix.
     navigate: Final Energy|Carbon Removal|Electricity
 - Final Energy|Carbon Management|{Secondary Fuel Level 2}:
     description: Use of {Secondary Fuel Level 2} for carbon management
@@ -140,7 +140,7 @@
     description: Electricity use for carbon management by {Carbon Management Technology}
     unit: EJ/yr
     tier: 2
-    notes: See `Secondary Energy|Electricity|...` for the power generation mix
+    notes: See 'Secondary Energy|Electricity|*' for the power generation mix.
     navigate: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
     engage: Final Energy|Carbon Removal|Electricity|{Carbon Management Technology}
 - Final Energy|Carbon Management|{Carbon Management Technology}|{Secondary Fuel Level 2}:
