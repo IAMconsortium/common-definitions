@@ -92,6 +92,7 @@
     tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    navigate: Carbon Capture|Industry
 - Carbon Capture|Energy|Demand|Industry|{Carbon Capture Source}:
     description: Captured carbon dioxide (CO2) during use of {Carbon Capture Source} in industry
     unit: Mt CO2/yr
