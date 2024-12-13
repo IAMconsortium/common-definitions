@@ -13,14 +13,15 @@ This project uses the Python package [nomenclature-iamc](https://nomenclature-ia
 for management of codelists and validation of scenario data in the IAMC data format.
 
 > [!TIP]
-> You can generate the project region and variable template xlsx spreadsheet yourself!
-> 1. Install `nomenclature` (`pip install nomenclature-iamc`)
-> 2. Run `$ nomenclature export-definitions . definitions.xlsx`
-
-> [!TIP]
 > For *users not comfortable working with GitHub repositories and yaml files*,
 > the definitions for this project are available for download as an xlsx spreadsheet
 > at https://files.ece.iiasa.ac.at/common-definitions/common-definitions-template.xlsx.
+
+> [!NOTE]
+> You can generate the project region and variable template xlsx spreadsheet yourself!
+> 1. Clone/download this repository
+> 2. Install the Pyhon package **nomenclature** (`pip install nomenclature-iamc`)
+> 3. Run `$ nomenclature export-definitions . definitions.xlsx`
 
 ## Codelists and mappings
 
