@@ -38,7 +38,7 @@
     description: Emissions of {Level-2 Species} from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
       including agricultural emissions from livestock, rice cultivation and soil management
-      as well as emissions from land use and land-use change (mostly CO2) such as deforestation,
+      as well as emissions from land use and land-use change such as deforestation,
       conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
@@ -46,8 +46,8 @@
       such as soil carbon sequestration, biochar, forestry, and re/afforestation and
       agroforestry. It uses the model/scientific definition of AFOLU, and does not align
       with the reporting of national greenhouse gas inventories (NGHGI).
-      For the NGHGI variable reporting, please see 'Emissions|*|AFOLU [NGHGI]'.
-      Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool.
+      For NGHGI-aligned reporting, see 'Emissions|*|AFOLU [NGHGI]'. Emissions reported
+      in this category represent fluxes to/from the atmosphere from/to the land pool.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
