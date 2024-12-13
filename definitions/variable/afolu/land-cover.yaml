@@ -76,7 +76,7 @@
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Plantation|Re/Afforestation:
-    description: Reforestation and/or Afforestation for carbon sequestration with non-native
+    description: Reforestation and/or afforestation for carbon sequestration with non-native
       species and/or as monoculture plantation
     unit: million ha
     tier: 2
@@ -86,7 +86,7 @@
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Natural|Re/Afforestation:
-    description: Reforestation and/or Afforestation for carbon sequestration with native tree species
+    description: Reforestation and/or afforestation for carbon sequestration with native tree species
       resembling natural vegetation
     unit: million ha
     tier: 2
