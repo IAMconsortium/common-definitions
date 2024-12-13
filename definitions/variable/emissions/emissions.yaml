@@ -10,7 +10,7 @@
     unit: "{Level-1 Species}"
     tier: 1
     notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
-      For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -43,12 +43,12 @@
     unit: "{Level-2 Species}"
     tier: 1
     notes: This variable reports the sum of sources and sinks including land-use methods
-      such as soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry.
-      It uses the model/scientific definition of AFOLU, and does not align with the
-      reporting of national greenhouse gas inventories (NGHGI).
+      such as soil carbon sequestration, biochar, forestry, and re/afforestation and
+      agroforestry. It uses the model/scientific definition of AFOLU, and does not align
+      with the reporting of national greenhouse gas inventories (NGHGI).
       For the NGHGI variable reporting, please see 'Emissions|*|AFOLU [NGHGI]'.
       Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool.
-      For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
@@ -183,7 +183,7 @@
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
     tier: 2
-    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
@@ -206,7 +206,7 @@
       and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage and synthetic fuels
     unit: "{Level-2 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-2 Species}|Energy|Supply
       - Emissions|{Level-2 Species}|Energy|Demand
@@ -397,7 +397,7 @@
       industrial processes
     unit: "{Level-3 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' tree.
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions
@@ -462,6 +462,6 @@
       ocean alkalinity enhancement (OAE), and direct ocean capture.
     unit: "{Level-3 Species}"
     tier: 2
-    notes: This timeseries should be reported as negative values so that subcategories of
-      emissions add up to net emissions 'Emissions|{Level-3 Species}'. For a breakdown of carbon
-      removals, see the 'Carbon Removal|*' tree.
+    notes: This timeseries should be reported as negative values so that subcategories
+      of emissions add up to net emissions 'Emissions|{Level-3 Species}'.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
