@@ -6,14 +6,11 @@
 # 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
 
 - Emissions|{Level-1 Species}:
-    description: Emissions of {Level-1 Species} to the atmosphere.
-      For the avoidance of doubt, these emissions are net emissions
-      (i.e. include both positive (emission) and negative (removal)
-      contributions. For positive contributions only, see
-      "Gross Emissions|*").
+    description: Emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -28,94 +25,89 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 - Gross Removals|CO2:
-    description: Gross removals of carbon dioxide (CO2) excluding positive emissions. 
-      This variable includes removals from bioenergy with CCS (BECCS), direct air carbon capture
-      or agriculture, forestry and other land use (AFOLU)
+    description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
+      including removals from bioenergy with CCS (BECCS), direct air carbon capture
+      and agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2" = "Gross Emissions|CO2" + "Gross Removals|CO2"
-
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      In particular, this includes agricultural emissions (mostly non-CO2)
-      from livestock, rice cultivation and soil management as well as
-      emissions from land use and land-use change (mostly CO2) such as deforestation,
-      conversion of non-forest natural land, and drained peatlands.
-      This is reporting the sum of sources and sinks including land-use methods such as
-      soil carbon sequestration, biochar, forestry, and re/afforestation and agroforestry.
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      including agricultural emissions from livestock, rice cultivation and soil management
+      as well as emissions from land use and land-use change such as deforestation,
+      conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
-    notes: This variable uses the model/scientific definition of AFOLU, and does
-      not align with the reporting of national greenhouse gas inventories (NGHGI).
-      For the NGHGI variable reporting, please see "Emissions|*|AFOLU [NGHGI]".
-      Emissions reported in this category represent fluxes to/from the atmosphere from/to the land pool.
-      For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: This variable reports the sum of sources and sinks including land-use methods
+      such as soil carbon sequestration, biochar, forestry, and re/afforestation and
+      agroforestry. It uses the model/scientific definition of AFOLU, and does not align
+      with the reporting of national greenhouse gas inventories (NGHGI).
+      For NGHGI-aligned reporting, see 'Emissions|*|AFOLU [NGHGI]'. Emissions reported
+      in this category represent fluxes to/from the atmosphere from/to the land pool.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
-    description: Gross emissions of carbon dioxide (CO2)  from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      This is emissions sources only. All removals (for example,
-      removals from biochar) are not included here. Emissions reported in this category represent
-      fluxes from the land pool to the atmosphere.
+    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      not including any removals from the atmosphere (e.g., biochar)
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
+    notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3).
-      This is removals only; emissions are not included here. 
-      This variable includes intentional carbon dioxide removals as reported in "Carbon Removal|Land Use". 
-      In addition, this variable includes all un-intentional or indirect removals, 
-      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests 
-      after wood harvest or regrowth of timber plantations. Removals reported in this category represent
-      fluxes from the atmosphere to the land pool. 
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      including intentional carbon dioxide removals ('Carbon Removal|Land Use')
+      and all un-intentional or indirect removals,
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
+      after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
-    notes: net emissions "Emissions|CO2|AFOLU" = "Gross Emissions|CO2|AFOLU" + "Gross Removals|CO2|AFOLU"    
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
-      (IPCC 1996 category 4; IPCC 2006 category 3A and 3C except 3C1)
+      (IPCC 1996 category 4 - IPCC 2006 category 3A and 3C except 3C1)
     unit: "{Level-3 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
     description: Emissions of {Level-3 Species} from livestock in the agriculture sector
-      (IPCC 1996 category 4A and 4B; IPCC 2006 category 3A)
+      (IPCC 1996 category 4A and 4B - IPCC 2006 category 3A)
     unit: "{Level-3 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
     description: Emissions of {Level-3 Species} from enteric fermentation of livestock
-      (IPCC 1996 category 4A; IPCC 2006 category 3A1)
+      (IPCC 1996 category 4A - IPCC 2006 category 3A1)
       in the agriculture sector
     unit: "{Level-3 Species}"
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Manure Management:
     description: Emissions of {Level-3 Species} from processes involving
       manure (waste) management in Livestock in the agriculture sector
-      (IPCC 1996 category 4B; IPCC 2006 category 3A2)
+      (IPCC 1996 category 4B - IPCC 2006 category 3A2)
     unit: "{Level-3 Species}"
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Rice:
     description: Emissions of {Level-3 Species} from rice cultivation
-      (IPCC 1996 category 4C; IPCC 2006 category 3C7)
+      (IPCC 1996 category 4C - IPCC 2006 category 3C7)
     unit: "{Level-3 Species}"
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Managed Soils:
     description: Emissions of {Level-3 Species} from soil management practices
-      in the agriculture sector
-      (IPCC 1996 category 4D; IPCC 2006 category 3C4 and 3C5)
+      in the agriculture sector (IPCC 1996 category 4D - IPCC 2006 category 3C4 and 3C5)
     unit: "{Level-3 Species}"
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning:
     description: Emissions from agricultural waste burning
-      (IPCC 1996 category 4F; partially IPCC 2006 category 3C1)
+      (IPCC 1996 category 4F - partially IPCC 2006 category 3C1)
     unit: "{Level-3 Species}"
     tier: 2
     notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
@@ -127,7 +119,7 @@
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
     description: Emissions and removals from forest land, cropland, grassland,
-      settlements and other natural land (partially IPCC 1996 category 5;
+      settlements and other natural land (partially IPCC 1996 category 5 -
       IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
     unit: "{Level-3 Species}"
     tier: 3
@@ -162,26 +154,25 @@
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products:
     description: Emissions and removals from harvested wood products (HWP)
-      (no clear IPCC 1996 category; IPCC 2006 category 3D1)
+      (no clear IPCC 1996 category - IPCC 2006 category 3D1)
     unit: "{Level-3 Species}"
     tier: 3
 - Emissions|{Level-3 Species}|AFOLU|Land|Other:
-    description: Emissions and removals from land that cannot be
-      accommodated in other categories (no clear IPCC 1996 category;
-      IPCC 2006 category 3D2)
+    description: Emissions and removals from land that cannot be  accommodated in other
+      categories (no clear IPCC 1996 category - IPCC 2006 category 3D2)
     unit: "{Level-3 Species}"
     tier: 3
 
 - Emissions|{Level-2 Species}|AFOLU [NGHGI]:
-    description: Emissions of {Level-2 Species} from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5; IPCC 2006 category 3) in line
-      with the national greenhouse gas inventories (NGHGI).
+    description: Emissions of {Level-2 Species} from agriculture, forestry and other
+      land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3) in line with the
+      national greenhouse gas inventories (NGHGI)
     unit: "{Level-2 Species}"
     tier: 2
     notes: This variable is optional, for instance used for comparison with national
       greenhouse gas inventories, but is not used for driving climate model simulations,
-      and also not a component of "Emissions|*", for which the variable "Emissions|*|AFOLU"
-      with model/scientific definition is used.
+      and also not a component of 'Emissions|*', for which the variable
+      'Emissions|*|AFOLU' with a model/scientific definition is used.
 
 - Emissions|{Level-3 Species}|Energy and Industrial Processes:
     description: Emissions of {Level-3 Species} from energy use in supply and demand sectors
@@ -190,7 +181,7 @@
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
     tier: 2
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-3 Species}|Energy
       - Emissions|{Level-3 Species}|Industrial Processes
@@ -213,7 +204,7 @@
       and demand for instance for Oil, Gas, and Coal, as well as bio-oil storage and synthetic fuels
     unit: "{Level-2 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-2 Species}|Energy|Supply
       - Emissions|{Level-2 Species}|Energy|Demand
@@ -360,16 +351,8 @@
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
     tier: 2
-- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Bus:
-    description: Emissions of {Level-2 Species} from fuel combustion by buses
-    unit: "{Level-2 Species}"
-    tier: 3
-- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Light-Duty Vehicle:
-    description: Emissions of {Level-2 Species} from fuel combustion by light-duty vehicles
-    unit: "{Level-2 Species}"
-    tier: 3
-- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Truck:
-    description: Emissions of {Level-2 Species} from fuel combustion by trucks
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|{Vehicle Type}:
+    description: Emissions of {Level-2 Species} from fuel combustion by {Vehicle Type}
     unit: "{Level-2 Species}"
     tier: 3
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Rail:
@@ -407,12 +390,12 @@
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E). This is the sum of sources
-      and sinks, including negative emissions such as those from cement carbonation
-      processes and other forms of capture and storage on industrial processes
+      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), including negative emissions such as
+      those from cement carbonation processes and other forms of capture and storage on
+      industrial processes
     unit: "{Level-3 Species}"
     tier: 1
-    notes: For a breakdown of carbon removals, see the "Carbon Removal|*" tree
+    notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions
@@ -455,14 +438,14 @@
     tier: 3
 
 - Emissions|{Level-2 Species}|Waste:
-    description: Emissions of {Level-2 Species} from waste of fossil-based products
-      through incineration or decomposition (IPCC 1996 category 6; IPCC 2006 category 4),
+    description: Emissions of {Level-2 Species} from waste of fossil-based products through
+      incineration or decomposition (IPCC 1996 category 6 - IPCC 2006 category 4),
       not including emissions from organic waste handling and decay
     unit: "{Level-2 Species}"
     tier: 2
 
 - Emissions|{Level-2 Species}|Other:
-    description: Emissions of {Level-2 Species} from other sources (IPCC 1996 category 7;
+    description: Emissions of {Level-2 Species} from other sources (IPCC 1996 category 7 -
       IPCC 2006 category 5B) including fossil fuel fires and any sources or sinks that
       cannot be accommodated in other categories
     notes: This will be treated as a flux from the fossil reservoir to the atmosphere in climate models.
@@ -477,6 +460,6 @@
       ocean alkalinity enhancement (OAE), and direct ocean capture.
     unit: "{Level-3 Species}"
     tier: 2
-    notes: This timeseries should be reported as negative values so that subcategories of
-      emissions add up to net emissions `Emissions|{Level-3 Species}`. For a breakdown of carbon
-      removals, see the "Carbon Removal|*" tree
+    notes: This timeseries should be reported as negative values so that subcategories
+      of emissions add up to net emissions 'Emissions|{Level-3 Species}'.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.

@@ -42,7 +42,7 @@
     unit: "{Semi-Finished Products}"
     tier: 3
 - Forestry Production|Semi-Finished|{Semi-Finished Products}:
-    description: Production of "{Semi-Finished Products}
+    description: Production of {Semi-Finished Products}
     unit: "{Semi-Finished Products}"
     tier: 3
 - Trade|Forestry|Semi-Finished|{Semi-Finished Products}:
