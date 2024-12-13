@@ -2,25 +2,31 @@
     description: Capital cost of a newly installed plant to generate electricity
       from {Electricity Source}
     unit: USD_2010/kW
+    tier: 2
 - Capital Cost|Electricity|{Electricity Source}|*:
     description: Capital cost of a newly installed plant to generate electricity
       from {Electricity Source} for a specific technology
     unit: USD_2010/kW
+    tier: 2
 - Efficiency|Electricity|{Electricity Source}:
     description: Conversion efficiency per unit of primary energy of a newly installed
       plant to generate electricity from {Electricity Source}
     unit: "%"
+    tier: 2
     range: [ 0,100 ]
 - Efficiency|Electricity|{Electricity Source}|*:
     description: Conversion efficiency per unit of primary energy of a newly installed
       plant to generate electricity from {Electricity Source} for a specific technology
     unit: "%"
+    tier: 2
     range: [ 0,100 ]
 - Lifetime|Electricity|{Electricity Source}:
     description: Technical lifetime of a newly installed plant to generate electricity
       from {Electricity Source}
     unit: years
+    tier: 2
 - Lifetime|Electricity|{Electricity Source}|*:
     description: Technical lifetime of a newly installed plant to generate electricity
       from {Electricity Source} for a specific technology
     unit: years
+    tier: 2
