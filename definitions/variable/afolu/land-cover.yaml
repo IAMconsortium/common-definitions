@@ -112,8 +112,8 @@
     unit: million ha
     tier: 2
 - Land Cover|Other Natural|Recovered:
-    description: Recovered natural land due to the abandonment of agricultural
-      or forestry land without intention for nature/biodiversity conservation
+    description: Recovered natural land due to the abandonment of agricultural or
+      forestry land without intention for nature/biodiversity conservation
     unit: million ha
     tier: 2
 
