@@ -1,3 +1,4 @@
 - Resource|Extraction|{Primary Fossil Fuel}:
     description: Annual extraction of {Primary Fossil Fuel}
     unit: EJ/yr
+    tier: 1
