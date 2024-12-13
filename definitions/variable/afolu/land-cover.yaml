@@ -67,8 +67,9 @@
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Plantation:
-    description: Plantations are planted forests that are intensively managed and meet ALL the following
-      criteria at planting and stand maturity; one or two species, even age class, and regular spacing (FAO definition)
+    description: Plantations are planted forests that are intensively managed and meet
+      have one or two species, even age class, and regular spacing at planting and
+      stand maturity (FAO definition)
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Plantation|Timber:
@@ -76,18 +77,18 @@
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Plantation|Re/Afforestation:
-    description: Reforestation and/or afforestation for carbon sequestration with non-native
-      species and/or as monoculture plantation
+    description: Reforestation and/or afforestation for carbon sequestration with
+      non-native species and/or as monoculture plantation
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Natural:
-    description: Planted forest which is not classified as plantation forest. In particular,
-      this includes re/afforestation for carbon sequestration with native tree species
+    description: Planted forest which is not classified as plantation forest,
+      in particular re/afforestation for carbon sequestration with native tree species
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Natural|Re/Afforestation:
-    description: Reforestation and/or afforestation for carbon sequestration with native tree species
-      resembling natural vegetation
+    description: Reforestation and/or afforestation for carbon sequestration with native
+      tree species resembling natural vegetation
     unit: million ha
     tier: 2
 - Land Cover|Forest|Planted|Natural|Other:
@@ -96,12 +97,13 @@
     tier: 2
 
 - Land Cover|Other Natural:
-    description: Non-forest natural land; sum of primary non-forest, restored and recovered natural land
+    description: Non-forest natural land including primary non-forest, restored and
+      recovered natural land
     unit: million ha
     tier: 1
 - Land Cover|Other Natural|Primary Non-Forest:
-    description: Primary non-forest natural land without clearly visible
-      indications of human activities
+    description: Primary non-forest natural land without clearly visible indications of
+      human activities
     unit: million ha
     tier: 2
 - Land Cover|Other Natural|Restored:
@@ -111,7 +113,7 @@
     tier: 2
 - Land Cover|Other Natural|Recovered:
     description: Recovered natural land due to the abandonment of agricultural
-      or forestry land - without intention for nature/biodiversity conservation
+      or forestry land without intention for nature/biodiversity conservation
     unit: million ha
     tier: 2
 
