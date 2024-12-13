@@ -1,24 +1,30 @@
 - Secondary Energy|Electricity:
     description: Total net electricity generation
     unit: EJ/yr
+    tier: 1
 - Secondary Energy|Electricity|{Electricity Source}:
     description: Net electricity generation from {Electricity Source}
     unit: EJ/yr
+    tier: 1
 
 - Capacity|Electricity:
     description: Total installed (available) electricity generation capacity
     unit: GW
+    tier: 1
 - Capacity|Electricity|{Electricity Source}:
     description: Installed (available) capacity to generate electricity from {Electricity Source}
     unit: GW
+    tier: 1
 - Capacity Additions|Electricity:
     description: Total annual new installation of electricity generation capacity
     unit: GW/yr
+    tier: 2
     notes: This variable should be computed as yearly average additions between the previous
       and the current reported time step.
 - Capacity Additions|Electricity|{Electricity Source}:
     description: Annual new installation of capacity to generate electricity
       from {Electricity Source}
     unit: GW/yr
+    tier: 2
     notes: This variable should be computed as yearly average additions between the previous
       and the current reported time step.
