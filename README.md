@@ -1,7 +1,7 @@
 # Common definitions for model comparison projects
 
 [![License: CC0-1.0](https://img.shields.io/github/license/iamConsortium/common-definitions)](https://github.com/IAMconsortium/common-definitions/blob/main/LICENSE)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ## Overview
 
