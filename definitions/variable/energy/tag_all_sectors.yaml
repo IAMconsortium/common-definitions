@@ -12,8 +12,11 @@
     - Industry|Non-Ferrous Metals|Aluminum:
         description: aluminum
         tier: ^1
+    - Industry|Non-Ferrous Metals|Copper:
+        description: copper
+        tier: ^2
     - Industry|Non-Ferrous Metals|Other Metals:
-        description: non-ferrous metals sector excluding aluminum
+        description: non-ferrous metals sector excluding aluminum and copper
     - Industry|Non-Metallic Minerals:
         tier: ^1
         description: non-metallic minerals sector
