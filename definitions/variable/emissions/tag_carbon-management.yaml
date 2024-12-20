@@ -3,12 +3,13 @@
 
 # This list should be a subset of carbon-removal options in definitions/variable/emissions/carbon-removal.yaml
 - Carbon Management Technology:
+    - Carbon Capture and Storage:
+        description: the capture from point sources, including distribution and sequestration
+          in geological storage
     - Biochar:
         description: production of biochar using pyrolysis
     - Direct Air Capture:
         description: direct air capture
-    - Carbon Capture and Storage:
-        description: the capture from point sources, including distribution and ultimate storage
     - Enhanced Weathering:
         description: terrestrial application of alkalinity to increase CO2 uptake on land
     - Direct Ocean Capture:
