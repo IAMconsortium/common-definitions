@@ -129,7 +129,7 @@
     description: Harvested agricultural residues
     unit: million t DM/yr
     tier: 2
-    notes: A large share of residues usually remains on the field
+    notes: A large share of residues usually remains on the field.
 
 # Agricultural Trade
 - Trade|Agriculture:
