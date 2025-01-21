@@ -19,15 +19,15 @@
     - Emissions|CO2|Energy|Demand|Residential and Commercial and AFOFI
 - Emissions [CEDS]|CO2|Solvents Production and Application:
     - Emissions|CO2|Product Use
-- Emissions [CEDS]|CO2|Agriculture:
-    - Emissions|CO2|AFOLU|Agriculture
-- Emissions [CEDS]|CO2|Agricultural Waste Burning:
-    - Emissions|CO2|AFOLU|Agricultural Waste Burning
-- Emissions [CEDS]|CO2|Forest Burning:
-    - Emissions|CO2|AFOLU|Land|Fires|Forest Burning
-- Emissions [CEDS]|CO2|Grassland Burning:
-    - Emissions|CO2|AFOLU|Land|Fires|Grassland Burning
-- Emissions [CEDS]|CO2|Peat Burning:
-    - Emissions|CO2|AFOLU|Land|Fires|Peat Burning
 - Emissions [CEDS]|CO2|Waste:
     - Emissions|CO2|Waste
+- Emissions [GCB]|CO2|Agriculture:
+    - Emissions|CO2|AFOLU|Agriculture
+- Emissions [GFED]|CO2|Agricultural Waste Burning:
+    - Emissions|CO2|AFOLU|Agricultural Waste Burning
+- Emissions [GFED]|CO2|Forest Burning:
+    - Emissions|CO2|AFOLU|Land|Fires|Forest Burning
+- Emissions [GFED]|CO2|Grassland Burning:
+    - Emissions|CO2|AFOLU|Land|Fires|Grassland Burning
+- Emissions [GFED]|CO2|Peat Burning:
+    - Emissions|CO2|AFOLU|Land|Fires|Peat Burning
