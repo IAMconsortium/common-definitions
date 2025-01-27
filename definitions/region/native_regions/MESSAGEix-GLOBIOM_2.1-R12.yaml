@@ -18,7 +18,7 @@
     - MESSAGEix-GLOBIOM 2.1-R12|Eastern Europe:
         countries: [
           Albania, Bosnia and Herzegovina, Bulgaria, Estonia, Czechia, Croatia,
-          Hungary, Latvia, Lithuania, Slovakia, North Macedonia, Montenegro,
+          Hungary, Kosovo, Latvia, Lithuania, Slovakia, North Macedonia, Montenegro,
           Poland, Romania, Slovenia, Serbia
         ]
     - MESSAGEix-GLOBIOM 2.1-R12|Former Soviet Union:
@@ -29,12 +29,13 @@
     - MESSAGEix-GLOBIOM 2.1-R12|Latin America and the Caribbean:
         countries: [
           Antigua and Barbuda, Argentina, Barbados, Bermuda, Bahamas, Belize, Bolivia,
-          Brazil, Chile, Cayman Islands, Colombia, Costa Rica, Cuba, Dominica,
+          Brazil, Chile, Cayman Islands, Colombia, Costa Rica, Cuba, Curaçao, Dominica,
           Dominican Republic, Ecuador, El Salvador, French Guiana, Falkland Islands (Malvinas),
           Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Montserrat,
           Mexico, Aruba, Anguilla, Suriname, Nicaragua, Paraguay, Peru, Panama,
-          Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago, Uruguay,
-          Saint Vincent and the Grenadines, Venezuela, Guadeloupe, Turks and Caicos Islands
+          Saint Kitts and Nevis, Saint Lucia, Sint Maarten (Dutch part), Trinidad and Tobago, 
+          Uruguay, Saint Vincent and the Grenadines, Venezuela, Guadeloupe,
+          Turks and Caicos Islands
         ]
     - MESSAGEix-GLOBIOM 2.1-R12|Middle East and North Africa:
         countries: [
