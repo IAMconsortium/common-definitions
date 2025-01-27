@@ -2,7 +2,5 @@
     - Pulp:
         description: pulp, produced from pulpwood, mainly used for paper, board,
           textiles and cellophane
-        tier: "2"
     - Paper:
         description: paper, thin sheet material made from cellulose fibers
-        tier: "2"

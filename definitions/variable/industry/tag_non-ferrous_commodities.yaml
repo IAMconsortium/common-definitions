@@ -1,58 +1,57 @@
 - Non-Ferrous Metals Commodity:
     - Aluminum:
         description: aluminum
-        tier: "2"
         engage: Aluminium
         navigate: Aluminium
     - Aluminum|Primary:
         description: aluminum produced by electrolysis of alumina
-        tier: "3"
+        tier: ^1
         engage: Aluminium|Primary
         navigate: Aluminium|Primary
     - Aluminum|Secondary:
         description: aluminum produced by re-melting of scrap or that originates from a
           recycling process, including processing of waste streams from primary production
-        tier: "3"
+        tier: ^1
         engage: Aluminium|Secondary
         navigate: Aluminium|Secondary
     - Aluminum Oxide:
         description: aluminum oxide (alumina), commonly produced via the Bayer process
           from bauxite
-        tier: "3"
+        tier: ^1
         navigate: Alumina
         engage: Alumina
     - Bauxite:
         description: sedimentary rock with a relatively high aluminium content, main
           source of aluminium and gallium
-        tier: "3"
+        tier: ^1
     - Copper:
         description: copper
-        tier: "2"
+        tier: ^1
     - Copper|Primary:
         description: copper extracted from minerals and free of reclaimed metal scrap
-        tier: "3"
+        tier: ^2
     - Copper|Secondary:
         description: copper that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
           primary production
-        tier: "3"
+        tier: ^2
     - Lithium:
         description: lithium
-        tier: "2"
+        tier: ^1
     - Lithium|Primary:
         description: lithium extracted from minerals and free of reclaimed metal scrap
-        tier: "3"
+        tier: ^1
     - Lithium|Secondary:
         description: lithium that does not directly originate from a primary mineral
           but from a recycling process or from the processing of waste streams from
           primary production
-        tier: "3"
+        tier: ^1
     - Nickel:
         description: nickel
-        tier: "2"
+        tier: ^1
     - Graphite:
         description: graphite
-        tier: "2"
+        tier: ^1
     - Manganese:
         description: manganese
-        tier: "2"
+        tier: ^1
