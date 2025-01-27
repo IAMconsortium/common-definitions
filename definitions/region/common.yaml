@@ -7,6 +7,7 @@
 # The R5 definitions are taken from the call for submissions
 # to the AR6 WG3 scenario ensemble
 # https://data.ece.iiasa.ac.at/ar6-scenario-submission/#/about
+# and then updated afterwards with updates in territories.
 - R5:
     - OECD & EU (R5):
         description: OECD (membership status 1990) and EU member states and candidates
@@ -66,11 +67,11 @@
         ssp: R5.2LAM
         countries: [
           Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
-          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Curacao, Dominican Republic,
           Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala,
           Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama,
           Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
-          Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Sint Maarten, Suriname, Trinidad and Tobago,
           United States Virgin Islands, Uruguay, Venezuela
         ]
     - Other (R5):
