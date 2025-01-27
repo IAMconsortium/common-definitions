@@ -4,7 +4,7 @@
     - AIM 3.0|Canada:
         countries: [ Canada ]
     - AIM 3.0|China:
-        countries: [ China, Hong Kong ]
+        countries: [ China, Hong Kong, Macao ]
     - AIM 3.0|Former USSR:
         countries: [
           Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
@@ -27,7 +27,7 @@
           Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar,
           Malawi, Mali, Mauritania, Mauritius, Mayotte, Mozambique, Namibia,
           Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe, Senegal, Seychelles,
-          Sierra Leone, Somalia, South Africa, Sudan, Tanzania, Togo, Uganda,
+          Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Uganda,
           Western Sahara, Zambia, Zimbabwe
         ]
     - AIM 3.0|EU & UK:
@@ -40,26 +40,26 @@
     - AIM 3.0|Rest of Europe:
         countries: [
           Albania, Andorra, Bosnia and Herzegovina, Bulgaria, Croatia, Faroe Islands,
-          Gibraltar, Iceland, Liechtenstein, Monaco, Montenegro, North Macedonia, Norway,
+          Gibraltar, Iceland, Kosovo, Liechtenstein, Monaco, Montenegro, North Macedonia, Norway,
           Romania, San Marino, Serbia, Svalbard and Jan Mayen, Switzerland, Vatican
         ]
     - AIM 3.0|Rest of Latin America:
         countries: [
           Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
           Bermuda, Bolivia, Bouvet Island, British Virgin Islands, Cayman Islands,
-          Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador,
+          Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador,
           El Salvador, Falkland Islands (Malvinas), French Guiana, Greenland, Grenada,
           Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico,
           Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico,
           Saint Kitts and Nevis, Saint Lucia, Saint Pierre and Miquelon,
-          Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands,
-          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
-          United States Virgin Islands, Uruguay, Venezuela
+          Saint Vincent and the Grenadines, Sint Maarten (Dutch part), 
+          South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, 
+          Turks and Caicos Islands, United States Virgin Islands, Uruguay, Venezuela
         ]
     - AIM 3.0|Middle East:
         countries: [
-          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar,
-          Saudi Arabia, Syria, United Arab Emirates, Yemen
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
+          Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
         ]
     - AIM 3.0|North Africa:
         countries: [ Algeria, Egypt, Libya, Morocco, Tunisia ]
