@@ -17,9 +17,10 @@
         tier: ^2
     - Industry|Non-Ferrous Metals|Other Metals:
         description: non-ferrous metals sector excluding aluminum and copper
+        tier: ^2
     - Industry|Non-Metallic Minerals:
-        tier: ^1
         description: non-metallic minerals sector
+        tier: ^1
     - Industry|Non-Metallic Minerals|Cement:
         description: cement sector
         tier: ^1
