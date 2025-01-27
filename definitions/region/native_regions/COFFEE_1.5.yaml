@@ -8,7 +8,8 @@
           Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius,
           Mayotte, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion,
           Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
-          South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Western Sahara, Zambia
+          South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Western Sahara, Zambia,
+          Zimbabwe
         ]
     - COFFEE 1.5|Australia & New Zealand:
         countries: [ Australia, New Zealand ]
@@ -86,6 +87,6 @@
         ]
     - COFFEE 1.5|Rest of Europe:
         countries: [
-          Albania, Belarus, Bosnia and Herzegovina, Croatia, Moldova, Montenegro,
-          North Macedonia, Serbia, Ukraine
+          Albania, Belarus, Bosnia and Herzegovina, Croatia, Kosovo, Moldova, 
+          Montenegro, North Macedonia, Serbia, Ukraine
         ]
