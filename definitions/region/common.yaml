@@ -158,10 +158,10 @@
         navigate: R9LAM
         countries: [
           Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
-          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominican Republic,
           Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana,
           Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay,
-          Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines,
+          Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten,
           Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
         ]
     - Other (R9):
@@ -216,11 +216,11 @@
         ar6: R10LATIN_AM
         countries: [
           Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
-          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominican Republic, Ecuador,
           El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti,
           Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru,
           Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
-          Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Sint Maarten, Suriname, Trinidad and Tobago,
           United States Virgin Islands, Uruguay, Venezuela
         ]
     - Middle East (R10):
