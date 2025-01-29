@@ -34,7 +34,9 @@
           Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
           Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
           Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
-          Saint Vincent and the Grenadines, Guadeloupe
+          Saint Vincent and the Grenadines, Guadeloupe,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part), 
+          Sint Maarten (Dutch part)
         ]
     - GCAM 7.1|Central Asia:
         countries: [
@@ -56,17 +58,17 @@
           Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
           Isle of Man, Luxembourg, Monaco, Netherlands, Portugal, Spain, Sweden,
           United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
-          Turks and Caicos Islands
+          Turks and Caicos Islands, Guernsey, Jersey, Isle of Man, Vatican
         ]
     - GCAM 7.1|Europe_Eastern:
         countries: [ Belarus, Moldova, Ukraine ]
     - GCAM 7.1|Europe_Non_EU:
         countries: [
-          Albania, Bosnia and Herzegovina, Croatia, North Macedonia, Montenegro, Turkey,
-          Serbia
+          Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
+          Turkey, Serbia
         ]
     - GCAM 7.1|European Free Trade Association:
-        countries: [ Iceland, Liechtenstein, Norway, Switzerland ]
+        countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
     - GCAM 7.1|India:
         countries: [ India ]
     - GCAM 7.1|Indonesia:
@@ -101,7 +103,8 @@
           Laos, Malaysia, New Caledonia, Niue, Northern Mariana Islands, Mayotte,
           Norfolk Island, Cocos (Keeling) Islands, Christmas Island, Vanuatu, Nauru,
           Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
-          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands
+          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
+          Pitcairn, Wallis and Futuna
         ]
     - GCAM 7.1|Taiwan:
         countries: [ Taiwan ]
