@@ -17,7 +17,7 @@
     - IMAGE 3.4|Eastern Africa:
         countries: [
             Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar,
-            Mauritius, Réunion, Rwanda, Seychelles, Somalia, South Sudan, Sudan, Uganda
+            Mauritius, Mayotte, Réunion, Rwanda, Seychelles, Somalia, South Sudan, Sudan, Uganda
         ]
     - IMAGE 3.4|India:
         countries: [
@@ -50,8 +50,8 @@
         ]
     - IMAGE 3.4|Oceania:
         countries: [
-            American Samoa, Australia, Cook Islands, Fiji, French Polynesia,
-            Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, New Zealand,
+            American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
+            Guam, Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, New Zealand,
             Niue, Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands,
             Tokelau, Tonga, Tuvalu, Vanuatu, Wallis and Futuna
         ]
@@ -62,7 +62,9 @@
             Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat,
             Nicaragua, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
             Saint Vincent and the Grenadines, Trinidad and Tobago, Turks and Caicos Islands,
-            British Virgin Islands, United States Virgin Islands
+            British Virgin Islands, United States Virgin Islands, Antigua and Barbuda,
+            "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part), 
+            Sint Maarten (Dutch part)
         ]
     - IMAGE 3.4|Rest of Southern Africa:
         countries: [
@@ -117,8 +119,8 @@
         ]
     - IMAGE 3.4|Western Europe:
         countries: [
-            Andorra, Austria, Belgium, Denmark, Faroe Islands, Finland, France,
+            Åland Islands, Andorra, Austria, Belgium, Denmark, Faroe Islands, Finland, France,
             Germany, Gibraltar, Greece, Greenland, Iceland, Ireland, Italy, Liechtenstein, Luxembourg,
             Malta, Monaco, Netherlands, Norway, Portugal, San Marino, Spain, Sweden,
-            Switzerland, United Kingdom, Vatican
+            Switzerland, United Kingdom, Vatican, Guernsey, Jersey, Isle of Man
         ]
