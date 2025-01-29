@@ -7,7 +7,7 @@
     - IMAGE 3.4|Central Europe:
         countries: [
             Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia,
-            Estonia, Hungary, Latvia, Lithuania, North Macedonia, Poland, Romania,
+            Estonia, Hungary, Kosovo, Latvia, Lithuania, North Macedonia, Poland, Romania,
             Serbia, Montenegro, Slovakia, Slovenia
         ]
     - IMAGE 3.4|China Region:
@@ -17,7 +17,7 @@
     - IMAGE 3.4|Eastern Africa:
         countries: [
             Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar,
-            Mauritius, Réunion, Rwanda, Seychelles, Somalia, Sudan, Uganda
+            Mauritius, Réunion, Rwanda, Seychelles, Somalia, South Sudan, Sudan, Uganda
         ]
     - IMAGE 3.4|India:
         countries: [
@@ -58,7 +58,7 @@
     - IMAGE 3.4|Central America:
         countries: [
             Anguilla, Aruba, Bahamas, Barbados, Belize, Bermuda, Cayman Islands,
-            Costa Rica, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe,
+            Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe,
             Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat,
             Nicaragua, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
             Saint Vincent and the Grenadines, Trinidad and Tobago, Turks and Caicos Islands,
@@ -110,7 +110,7 @@
     - IMAGE 3.4|Western Africa:
         countries: [
             Benin, Burkina Faso, Cameroon, Cabo Verde, Central African Republic, Chad,
-            Democratic Republic of the Congo, Côte d'Ivoire,
+            Congo, Democratic Republic of the Congo, Côte d'Ivoire,
             Equatorial Guinea, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau,
             Liberia, Mali, Mauritania, Niger, Nigeria, Sao Tome and Principe, Senegal,
             Sierra Leone, "Saint Helena, Ascension and Tristan da Cunha", Togo
@@ -118,7 +118,7 @@
     - IMAGE 3.4|Western Europe:
         countries: [
             Andorra, Austria, Belgium, Denmark, Faroe Islands, Finland, France,
-            Germany, Gibraltar, Greece, Iceland, Ireland, Italy, Liechtenstein, Luxembourg,
+            Germany, Gibraltar, Greece, Greenland, Iceland, Ireland, Italy, Liechtenstein, Luxembourg,
             Malta, Monaco, Netherlands, Norway, Portugal, San Marino, Spain, Sweden,
             Switzerland, United Kingdom, Vatican
         ]
