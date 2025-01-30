@@ -52,7 +52,7 @@
         countries: [
             American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
             Guam, Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, New Zealand,
-            Niue, Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands,
+            Niue, Norfolk Island, Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands,
             Tokelau, Tonga, Tuvalu, Vanuatu, Wallis and Futuna
         ]
     - IMAGE 3.4|Central America:
@@ -73,7 +73,7 @@
         ]
     - IMAGE 3.4|Rest of South America:
         countries: [
-            Argentina, Bolivia, Chile, Colombia, Ecuador, French Guiana, Guyana,
+            Argentina, Bolivia, Chile, Colombia, Ecuador, Falkland Islands (Malvinas), French Guiana, Guyana,
             Paraguay, Peru, Suriname, Uruguay, Venezuela
         ]
     - IMAGE 3.4|Rest of South Asia:
