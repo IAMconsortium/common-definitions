@@ -1,0 +1,5 @@
+dimension: region
+rename:
+  - "C?te d'Ivoire": "Côte d'Ivoire"
+  - "Cura?ao": "Curaçao"
+  - "R?union": "Réunion"
