@@ -195,6 +195,76 @@
     unit: GJ/cap/yr
     sdg: 7
     weight: Population
+- Useful Energy:
+    description: Useful energy consumption by all end-use sectors and all fuels, including non-energy use, excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy (w/o bunkers):
+    description: Useful energy consumption by all end-use sectors and all fuels including non-energy use, excluding international aviation and shipping (see 'Useful Energy|Bunkers|*') and excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Agriculture:
+    description: Useful energy consumption by the agriculture sector including fishing
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Bunkers:
+    description: Useful energy consumption by the international aviation and shipping
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Carbon Management:
+    desciption: Total energy use for carbon management, i.e., capture and/or removal of CO2
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Commercial:
+    desciption: Useful energy consumption by the commercial sector
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Industry:
+    description: Useful energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks)
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Non-Energy Use:
+    description: Useful energy consumption in non-combustion processes
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Other Sector:
+    description: Useful energy consumption by the other sectors
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Residential:
+    description: Useful energy consumption by the residential sector
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Residential and Commercial:
+    description: Useful energy consumption by the residential and commercial sector
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation:
+    description: Useful energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers')
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation|Passenger:
+    description: Useful energy for passenger transport
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation (w/ bunkers):
+    description: Useful energy consumption by the transportation sector including international aviation and shipping
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
 - Energy Service|Transportation|Freight:
     description: Energy service demand for freight transport
     unit: billion tkm/yr
