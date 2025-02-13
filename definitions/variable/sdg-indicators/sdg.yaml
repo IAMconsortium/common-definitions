@@ -201,6 +201,7 @@
 - Energy Service|Transportation|Passenger:
     description: Energy service demand for passenger transport
     unit: billion pkm/yr
+    tier: 1
 - Energy Service|Transportation|Passenger|Road:
     description: Energy service demand for passenger transport on roads
     unit: billion pkm/yr
@@ -227,6 +228,7 @@
     unit: °C-days
     sdg: 7
     skip-region-aggregation: true
+    tier: 2
     #     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
     description: Measure of how cold the temperature was over a given period
@@ -234,6 +236,7 @@
     unit: °C-days
     sdg: 7
     skip-region-aggregation: true
+    tier: 2
     #     weight: Energy Service|Residential|Floor Space
 - Final Energy|Industry|Electricity [Share]:
     description: Share of electricity in final energy demand for industry

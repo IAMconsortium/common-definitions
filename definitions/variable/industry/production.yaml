@@ -1,14 +1,28 @@
+- Production|Iron and Steel:
+    description: Production of Iron and Steel
+    unit: Mt/yr
+    tier: 1
+    components:
+        - Production|Iron and Steel|{Iron Commodity}
+
 - Production|Iron and Steel|{Iron Commodity}:
     description: Production of {Iron Commodity}
     unit: Mt/yr
-    tier: 2
+    tier: 1
     navigate: Production|Iron and Steel|{Iron Commodity}|Volume
     engage: Production|Iron and Steel|{Iron Commodity}|Volume
+
+- Production|Non-Metallic Minerals:
+    description: Production of Non-Metallic Minerals
+    unit: Mt/yr
+    tier: 1
+    components:
+        - Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}
 
 - Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
     description: Production of {Non-Metallic Minerals Commodity}
     unit: Mt/yr
-    tier: 2
+    tier: 1
     navigate: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
     engage: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
 
