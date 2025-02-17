@@ -6,6 +6,10 @@
     description: GDP converted to USD using purchasing power parity (PPP)
     unit: billion USD_2010/yr
     tier: 1
+- Value Added:
+    description: Total value added
+    unit: billion USD_2010/yr
+    tier: 1
 - Value Added|{Economic Sectors}:
     description: Value added by the {Economic Sectors}
     unit: billion USD_2010/yr
