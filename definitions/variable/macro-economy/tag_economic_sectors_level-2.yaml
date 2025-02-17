@@ -1,0 +1,43 @@
+# Economic sectors based on the International Standard Industrial Classification
+# of All Economic Activities (ISIC) Rev.4
+# https://unstats.un.org/unsd/demographic-social/census/documents/isic_rev4.pdf
+- Economic Sectors Level 2:
+    - {Economic Sectors Level 1}:
+        description: {Economic Sectors Level 1}
+    - Industry|{Economic Sectors - Industry Level 2}:
+        description: {Economic Sectors - Industry Level 2}
+        tier: ^1
+    - Services|{Economic Sectors - Services Level 2}:
+        description: {Economic Sectors - Services Level 2}
+        tier: ^1
+
+- Economic Sectors - Industry Level 2:
+    - Mining:
+        description: mining and quarrying (ISIC Rev.4; Section B=Div. 05-09)
+    - Manufacturing:
+        description: manufacturing (ISIC Rev.4; Section C=Div. 10-33)
+    - Energy:
+        description: electricity, gas, steam and air conditioning supply
+          (ISIC Rev.4; Section D=Div. 35)
+    - Water Supply:
+        description: water supply; sewerage, waste management and remediation activities
+          (ISIC Rev.4; Section E=Div. 35)
+    - Construction:
+        description: construction (ISIC Rev.4; Section F=Div. 41-43)
+    - Energy All Supply Chains:
+        description: all energy related activities along supply chains (ISIC Rev.4;
+          Div. 05, 06, 19, 35, Group 091 and Classes 0892, 0721).
+          Mix of parts of ISIC Section B, C, D.
+
+- Economic Sectors - Services Level 2:
+    - Commercial:
+        description: wholesale and retail trade; repair of motor vehicles and
+          motorcycles (ISIC Rev.4; Section G=Div. 45-47)
+    - Transportation:
+        description: transportation and storage (ISIC Rev.4; Section H=Div. 49-53)
+    - Public Administration:
+        description: public administration and defence; compulsory social security
+          (ISIC Rev4; Section O=Div. 84)
+    - Other Services:
+        descritpion: of other services (ISIC Rev.4; Div. 45-99 excluding 45-47,
+          49-53 and 84)
