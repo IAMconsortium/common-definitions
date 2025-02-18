@@ -1,0 +1,21 @@
+- Population Deciles:
+    - D1:
+        description: first Decile
+    - D2:
+        description: second Decile
+    - D3:
+        description: third Decile
+    - D4:
+        description: fourth Decile
+    - D5:
+        description: fifth Decile
+    - D6:
+        description: sixth Decile
+    - D7:
+        description: seventh Decile
+    - D8:
+        description: eighth Decile
+    - D9:
+        description: ninth Decile
+    - D10:
+        description: tenth Decile
