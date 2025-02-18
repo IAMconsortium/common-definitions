@@ -8,6 +8,7 @@
         navigate: Energy|Energy Use
         engage: Energy|Energy Use
     - Transport|Energy: 
-        description: fuels for personal transport equipment (Diesel: 07.2.2.1 - Petrol: 07.2.2.3 - Other fuels: 07.2.2.4)
+        description: fuels for personal transport equipment
+          (Diesel 07.2.2.1 - Petrol 07.2.2.3 - Other fuels 07.2.2.4)
         navigate: Energy|Transportation
         engage: Energy|Transportation
