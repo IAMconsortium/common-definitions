@@ -11,12 +11,12 @@
     lower_bound: 0
     navigate: Consumption|{Population Deciles}
     engage: Consumption|{Population Deciles}
-- Consumption|{COICP}|{Population Deciles} [Share]:
-    description: Share of total consumption of {COICP}, for the {Population Deciles}
+- Consumption|{COICOP}|{Population Deciles} [Share]:
+    description: Share of total consumption of {COICOP}, for the {Population Deciles}
     unit: '%'
     tier: 2
     higher_bound: 100
     lower_bound: 0
     skip-region-aggregation: true
-    navigate: Consumption Share|{COICP}|{Population Deciles}
-    engage: Consumption Share|{COICP}|{Population Deciles}
+    navigate: Consumption Share|{COICOP}|{Population Deciles}
+    engage: Consumption Share|{COICOP}|{Population Deciles}
