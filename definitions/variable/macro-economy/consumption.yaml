@@ -14,8 +14,7 @@
     description: Share of total consumption of {COICOP}, for the {Population Deciles}
     unit: '%'
     tier: 2
-    higher_bound: 100
-    lower_bound: 0
+    range: [ 0, 100 ]
     skip-region-aggregation: true
     navigate: Consumption Share|{COICOP}|{Population Deciles}
     engage: Consumption Share|{COICOP}|{Population Deciles}
