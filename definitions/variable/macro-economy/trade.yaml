@@ -116,12 +116,14 @@
       At the global level these should add up to the trade losses.
     engage: Trade|Secondary Energy|Liquids|{Energy Trade Type}
     navigate: Trade|Secondary Energy|Liquids|{Energy Trade Type}
-- Trade|Uranium|Value:
+- Trade|Uranium [Value]:
     description: Net exports of Uranium measured in monetary quantities
     notes: Negative values indicate that imports exceed exports.
       At the global level these should add up to the trade losses.
     unit: billion US$2010/yr
-- Trade|Uranium|Volume:
+    navigate: Trade|Uranium|Value
+    engage: Trade|Uranium|Value
+- Trade|Uranium [Volume]:
     description: Net exports of Uranium measured in physical energy quantities
     notes: Negative values indicate that imports exceed exports.
       At the global level these should add up to the trade losses.
