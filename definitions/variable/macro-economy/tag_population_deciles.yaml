@@ -2,13 +2,13 @@
     - D1:
         description: first decile
     - D2:
-        description: second Decile
+        description: second decile
     - D3:
-        description: third Decile
+        description: third decile
     - D4:
-        description: fourth Decile
+        description: fourth decile
     - D5:
-        description: fifth Decile
+        description: fifth decile
     - D6:
         description: sixth Decile
     - D7:
@@ -18,4 +18,4 @@
     - D9:
         description: ninth decile
     - D10:
-        description: tenth Decile
+        description: tenth decile
