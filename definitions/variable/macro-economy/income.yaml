@@ -2,7 +2,6 @@
     description: Share of net income of the {Population Deciles} decile in total income
     unit: '%'
     tier: 2
-    higher_bound: 100
-    lower_bound: 0
+    range: [ 0, 100 ]
     navigate: Income|{Population Deciles}
     engage: Income|{Population Deciles}
