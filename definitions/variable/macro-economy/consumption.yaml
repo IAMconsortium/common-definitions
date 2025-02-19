@@ -7,8 +7,7 @@
     description: Share of total consumption accruing to the {Population Deciles}
     unit: '%'
     tier: 2
-    higher_bound: 100
-    lower_bound: 0
+    range: [ 0, 100 ]
     navigate: Consumption|{Population Deciles}
     engage: Consumption|{Population Deciles}
 - Consumption|{COICOP}|{Population Deciles} [Share]:
