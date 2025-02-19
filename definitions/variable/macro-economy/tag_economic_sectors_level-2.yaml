@@ -10,21 +10,22 @@
         description: the aggregated services sector (ISIC Rev.4 - Section G-X)
         navigate: Commercial
     - Industry|Mining:
-        description: mining and quarrying (ISIC Rev.4 - Section B=Div. 05-09)
+        description: mining and quarrying (ISIC Rev.4 - Section B,
+          equivalent to Div. 05-09)
         tier: ^1
     - Industry|Manufacturing:
-        description: manufacturing (ISIC Rev.4 - Section C=Div. 10-33)
+        description: manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33)
         tier: ^1
     - Industry|Energy:
         description: electricity, gas, steam and air conditioning supply
-          (ISIC Rev.4 - Section D=Div. 35)
+          (ISIC Rev.4 - Section D, equivalent to Div. 35)
         tier: ^1
     - Industry|Water Supply:
-        description: water supply - sewerage, waste management and remediation activities
-          (ISIC Rev.4 - Section E=Div. 35)
+        description: water supply - sewerage, waste management and remediation 
+          activities (ISIC Rev.4 - Section E, equivalent to Div. 35)
         tier: ^1
     - Industry|Construction:
-        description: construction (ISIC Rev.4 - Section F=Div. 41-43)
+        description: construction (ISIC Rev.4 - Section F, equivalent to Div. 41-43)
         tier: ^1
     - Industry|Energy All Supply Chains:
         description: all energy related activities along supply chains (ISIC Rev.4 -
@@ -33,14 +34,15 @@
         tier: ^1
     - Services|Commercial:
         description: wholesale and retail trade - repair of motor vehicles and
-          motorcycles (ISIC Rev.4 - Section G=Div. 45-47)
+          motorcycles (ISIC Rev.4 - Section G, equivalent to Div. 45-47)
         tier: ^1
     - Services|Transportation:
-        description: transportation and storage (ISIC Rev.4 - Section H=Div. 49-53)
+        description: transportation and storage
+          (ISIC Rev.4 - Section H, equivalent to Div. 49-53)
         tier: ^1
     - Services|Public Administration:
         description: public administration and defence - compulsory social security
-          (ISIC Rev4 - Section O=Div. 84)
+          (ISIC Rev4 - Section O, equivalent to Div. 84)
         tier: ^1
     - Services|Other Services:
         descritpion: of other services (ISIC Rev.4 - Div. 45-99 excluding 45-47,
