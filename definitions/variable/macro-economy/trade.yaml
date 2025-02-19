@@ -131,4 +131,10 @@
     navigate: Trade|Uranium|Mass
     engage: Trade|Uranium|Mass
 
-
+# Tariffs
+- Tariffs|Imports [Average]:
+    description: Weighted average tariffs for imports 
+    unit: '%'
+    skip-region-aggregation: true
+    navigate: Tariffs|Average|Imports
+    engage: Tariffs|Average|Imports
