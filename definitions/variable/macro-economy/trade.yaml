@@ -1,3 +1,59 @@
+# Trade variables
+# Use "Export" for gross exports, "Import" for gross imports and "Trade" for net exports (exports minus imports)
+
+# Export - ISIC economic sectors
+- Export [Value]:
+    description: Total exports measured in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 1
+    navigate: Export
+    engage: Export
+- Export|{Economic Sectors} [Value]:
+    description: Export of {Economic Sectors} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Export|{Economic Sectors}
+    engage: Export|{Economic Sectors}
+# Export - industrial commodities
+- Export|{Industry Trade Commodities} [Value]:
+    description: Export of {Industry Trade Commodities} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Export|{Industry Trade Commodities}
+    engage: Export|{Industry Trade Commodities}
+- Export|{Industry Trade Commodities} [Volume]:
+    description: Export of {Industry Trade Commodities} in physical quantities
+    unit: Mt/yr
+    tier: 2
+    navigate: Export|{Industry Trade Commodities}|Volume
+    engage: Export|{Industry Trade Commodities}|Volume
+# Import - ISIC economic sectors
+- Import [Value]:
+    description: Total exports measured in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 1
+    navigate: Import
+    engage: Import
+- Import|{Economic Sectors} [Value]:
+    description: Import of {Economic Sectors} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Import|{Economic Sectors}
+    engage: Import|{Economic Sectors}
+# Import - industrial commodities
+- Import|{Industry Trade Commodities} [Value]:
+    description: Import of {Industry Trade Commodities} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Import|{Industry Trade Commodities}
+    engage: Import|{Industry Trade Commodities}
+- Import|{Industry Trade Commodities} [Volume]:
+    description: Import of {Industry Trade Commodities} in physical quantities
+    unit: Mt/yr
+    tier: 2
+    navigate: Import|{Industry Trade Commodities}|Volume
+    engage: Import|{Industry Trade Commodities}|Volume
+
 # trade in goods
 - Trade|Goods [Value]:
     description: Net exports of all goods measured in monetary quantities
