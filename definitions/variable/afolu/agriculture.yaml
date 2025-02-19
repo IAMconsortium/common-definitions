@@ -115,6 +115,7 @@
     description: Production of {Crop Types}
     unit: million t DM/yr
     tier: 2
+    engage: Agricultural Production|{Crop Types}
 - Agricultural Production|Livestock:
     description: Production of livestock products (excluding fish)
     unit: million t DM/yr
