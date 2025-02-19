@@ -1,5 +1,20 @@
 - Consumption:
-    description: total consumption of all goods, by all consumers in a region
+    description: Total consumption of all goods, by all consumers in a region
     unit: billion USD_2010/yr
     tier: 1
     lower_bound: 0
+- Consumption|{Population Deciles} [Share]:
+    description: Share of total consumption accruing to the {Population Deciles}
+    unit: '%'
+    tier: 2
+    range: [ 0, 100 ]
+    navigate: Consumption|{Population Deciles}
+    engage: Consumption|{Population Deciles}
+- Consumption|{COICOP}|{Population Deciles} [Share]:
+    description: Share of total consumption of {COICOP}, for the {Population Deciles}
+    unit: '%'
+    tier: 2
+    range: [ 0, 100 ]
+    skip-region-aggregation: true
+    navigate: Consumption Share|{COICOP}|{Population Deciles}
+    engage: Consumption Share|{COICOP}|{Population Deciles}
