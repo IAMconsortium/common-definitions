@@ -1,0 +1,11 @@
+# Economic sectors based on the International Standard Industrial Classification
+# of All Economic Activities (ISIC) Rev.4
+# https://unstats.un.org/unsd/demographic-social/census/documents/isic_rev4.pdf
+- Economic Sectors Level 1:
+    - Agriculture:
+        description: the aggregated agricultural sectors (ISIC Rev.4 - Section A)
+    - Industry:
+        description: the aggregated industrial sector (ISIC Rev.4 - Section B-F)
+    - Services:
+        description: the aggregated services sector (ISIC Rev.4 - Section G-X)
+        navigate: Commercial
