@@ -7,9 +7,9 @@
     - REMIND-MAgPIE 3.4-4.8|China and Taiwan:
         countries: [ China, Hong Kong, Macao, Taiwan ]
     - REMIND-MAgPIE 3.4-4.8|India:
-        countries: [ India ]
+        countries: India
     - REMIND-MAgPIE 3.4-4.8|Japan:
-        countries: [ Japan ]
+        countries: Japan
     - REMIND-MAgPIE 3.4-4.8|Other Asia:
         countries: [
           Afghanistan, American Samoa, Bangladesh, Bhutan,
@@ -62,7 +62,7 @@
           South Africa, South Sudan, Tanzania, Togo, Uganda, Zambia, Zimbabwe
         ]
     - REMIND-MAgPIE 3.4-4.8|United States of America:
-        countries: [ United States ]
+        countries: United States
     - REMIND-MAgPIE 3.4-4.8|EU 28:
         countries: [
           Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,

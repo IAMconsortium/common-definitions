@@ -16,56 +16,57 @@ native_regions:
 
 common_regions:
   - World:
-    - CAZ
-    - CHA
-    - IND
-    - JPN
-    - OAS
-    - LAM
-    - MEA
-    - REF
-    - SSA
-    - USA
-    - EUR
-    - NEU
+      - CAZ
+      - CHA
+      - IND
+      - JPN
+      - OAS
+      - LAM
+      - MEA
+      - REF
+      - SSA
+      - USA
+      - EUR
+      - NEU
 
   - Asia (R5):
-    - CHA
-    - IND
-    - OAS
+      - CHA
+      - IND
+      - OAS
   - Latin America (R5):
-    - LAM
+      - LAM
   - Middle East & Africa (R5):
-    - SSA
-    - MEA
+      - SSA
+      - MEA
   - OECD & EU (R5):
-    - JPN
-    - USA
-    - CAZ
-    - EUR
-    - NEU
+      - JPN
+      - USA
+      - CAZ
+      - EUR
+      - NEU
   - Reforming Economies (R5):
-    - REF
+      - REF
+
   - Africa (R10):
-    - SSA
+      - SSA
   - China+ (R10):
-    - CHA
+      - CHA
   - Europe (R10):
-    - EUR
-    - NEU
+      - EUR
+      - NEU
   - India+ (R10):
-    - IND
+      - IND
   - Latin America (R10):
-    - LAM
+      - LAM
   - Middle East (R10):
-    - MEA
+      - MEA
   - North America (R10):
-    - USA
+      - USA
   - Reforming Economies (R10):
-    - REF
+      - REF
   - Rest of Asia (R10):
-    - OAS
+      - OAS
   - Pacific OECD (R10):
-    - JPN
+      - JPN
   - Other (R10):
-    - CAZ
+      - CAZ
