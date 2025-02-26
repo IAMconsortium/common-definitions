@@ -1,9 +1,9 @@
 # The model documentation and regional aggregation for IMAGE (TIMER) version 3.4 can be found at https://models.pbl.nl/image/index.php/Region_classification_map
 - IMAGE 3.4:
     - IMAGE 3.4|Brazil:
-        countries: [ Brazil ]
+        countries: Brazil
     - IMAGE 3.4|Canada:
-        countries: [ Canada ]
+        countries: Canada
     - IMAGE 3.4|Central Europe:
         countries: [
           Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia,
@@ -20,17 +20,13 @@
           Mauritius, Mayotte, Réunion, Rwanda, Seychelles, Somalia, South Sudan, Sudan, Uganda
         ]
     - IMAGE 3.4|India:
-        countries: [
-          India
-        ]
+        countries: India
     - IMAGE 3.4|Indonesia Region:
         countries: [
           Timor-Leste, Indonesia, Papua New Guinea
         ]
     - IMAGE 3.4|Japan:
-        countries: [
-          Japan
-        ]
+        countries: Japan
     - IMAGE 3.4|Korea Region:
         countries: [
           South Korea, North Korea
@@ -41,9 +37,7 @@
           Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
         ]
     - IMAGE 3.4|Mexico:
-        countries: [
-          Mexico
-        ]
+        countries: Mexico
     - IMAGE 3.4|Northern Africa:
         countries: [
           Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
@@ -86,9 +80,7 @@
           Armenia, Azerbaijan, Georgia, Russian Federation
         ]
     - IMAGE 3.4|South Africa:
-        countries: [
-          South Africa
-        ]
+        countries: South Africa
     - IMAGE 3.4|Southeastern Asia:
         countries: [
           Brunei Darussalam, Cambodia, Laos, Malaysia, Myanmar, Philippines, Singapore,
@@ -99,9 +91,7 @@
           Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan
         ]
     - IMAGE 3.4|Turkey:
-        countries: [
-          Turkey
-        ]
+        countries: Turkey
     - IMAGE 3.4|Ukraine Region:
         countries: [
           Belarus, Moldova, Ukraine
