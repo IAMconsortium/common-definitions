@@ -1,8 +1,0 @@
-- Economic Sectors:
-    - Agriculture:
-        description: the aggregated agricultural sectors (ISIC Rev.4 A)
-    - Industry:
-        description: the aggregated industrial sector (ISIC Rev.4 B-F)
-    - Services:
-        description: the aggregated services sector (ISIC Rev.4 G-X)
-        navigate: Commercial
