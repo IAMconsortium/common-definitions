@@ -21,13 +21,13 @@
           Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso
         ]
     - GCAM 7.1|Argentina:
-        countries: [ Argentina ]
-    - GCAM 7.1|Australia_NZ:
+        countries: Argentina
+    - GCAM 7.1|Australia and New Zealand:
         countries: [ Australia, New Zealand ]
     - GCAM 7.1|Brazil:
-        countries: [ Brazil ]
+        countries: Brazil
     - GCAM 7.1|Canada:
-        countries: [ Canada ]
+        countries: Canada
     - GCAM 7.1|Central America and Caribbean:
         countries: [
           Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
@@ -35,7 +35,7 @@
           Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
           Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
           Saint Vincent and the Grenadines, Guadeloupe,
-          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part), 
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
           Sint Maarten (Dutch part)
         ]
     - GCAM 7.1|Central Asia:
@@ -46,7 +46,7 @@
     - GCAM 7.1|China:
         countries: [ China, Hong Kong, Macao ]
     - GCAM 7.1|Colombia:
-        countries: [ Colombia ]
+        countries: Colombia
     - GCAM 7.1|EU-12:
         countries: [
           Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
@@ -70,24 +70,24 @@
     - GCAM 7.1|European Free Trade Association:
         countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
     - GCAM 7.1|India:
-        countries: [ India ]
+        countries: India
     - GCAM 7.1|Indonesia:
-        countries: [ Indonesia ]
+        countries: Indonesia
     - GCAM 7.1|Japan:
-        countries: [ Japan ]
+        countries: Japan
     - GCAM 7.1|Mexico:
-        countries: [ Mexico ]
+        countries: Mexico
     - GCAM 7.1|Middle East:
         countries: [
           Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
           Saudi Arabia, Syria, Yemen, United Arab Emirates
         ]
     - GCAM 7.1|Pakistan:
-        countries: [ Pakistan ]
+        countries: Pakistan
     - GCAM 7.1|Russia:
-        countries: [ Russian Federation ]
+        countries: Russian Federation
     - GCAM 7.1|South Africa:
-        countries: [ South Africa ]
+        countries: South Africa
     - GCAM 7.1|South America_Northern:
         countries: [ French Guiana, Guyana, Suriname, Venezuela ]
     - GCAM 7.1|South America_Southern:
@@ -95,7 +95,7 @@
     - GCAM 7.1|South Asia:
         countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
     - GCAM 7.1|South Korea:
-        countries: [ South Korea ]
+        countries: South Korea
     - GCAM 7.1|Southeast Asia:
         countries: [
           American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
@@ -107,6 +107,6 @@
           Pitcairn, Wallis and Futuna
         ]
     - GCAM 7.1|Taiwan:
-        countries: [ Taiwan ]
+        countries: Taiwan
     - GCAM 7.1|USA:
         countries: [ Puerto Rico, United States, United States Virgin Islands ]
