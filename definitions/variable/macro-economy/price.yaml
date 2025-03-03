@@ -22,7 +22,7 @@
        can result in counter-intuitive aggregation results when used as weights for
        the region-aggregation. Also the [weighted by Final Energy] methods is
        complementary and overcomes other aggregation issues - regions with high carbon
-       prices can be associated with low emission levels, meaning the its contribution
+       prices can be associated with low emission levels, meaning its contribution
        to the emission-weighted average of carbon prices will be low, regardless
        of the share of the global energy system the carbon price is applied to.
 - Price|Carbon [weighted by Final Energy]:
