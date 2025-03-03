@@ -10,5 +10,6 @@
         description: other crops (fruits, vegetables, nuts, potatoes, pulses,
           tropical roots)
     - Energy Crops:
-        description: second-generation bioenergy crops 
+        description: second-generation bioenergy crops
           (short rotation grasses, short rotation trees)
+        engage: Energy|Crops

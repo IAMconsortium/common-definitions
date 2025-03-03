@@ -6,6 +6,10 @@
     description: Total population living in urban areas
     unit: million
     tier: 2
+- Population|Rural:
+    description: Total population living in rural areas
+    unit: million
+    tier: 2
 - Population|{Gender}:
     description: Total {Gender} population
     unit: million

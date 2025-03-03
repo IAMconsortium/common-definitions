@@ -315,7 +315,7 @@
     shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
     description: Biomass usage per capita excluding pasture and forestry
-    unit: tDM/cap/yr
+    unit: t DM/cap/yr
     sdg: 12
     weight: Population
     shape: Agricultural Material Footprint

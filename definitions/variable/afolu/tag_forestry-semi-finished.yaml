@@ -13,7 +13,7 @@
         unit: million m3/yr
     - Mechanical Pulp:
         description: mechanical pulp
-        unit: million tDM/yr
+        unit: million t DM/yr
     - Chemical Pulp:
         description: chemical pulp
-        unit: million tDM/yr
+        unit: million t DM/yr
