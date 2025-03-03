@@ -21,7 +21,7 @@
     unit: million t DM/yr
     agmip:
     tier: 2
-- Agricultural Demand|Crops|Bioenergy|2nd generation:
+- Agricultural Demand|Crops|Bioenergy|2nd Generation:
     description: Demand for second-generation bioenergy crops
       (short rotation grasses, short rotation trees)
     unit: million t DM/yr
@@ -115,6 +115,7 @@
     description: Production of {Crop Types}
     unit: million t DM/yr
     tier: 2
+    engage: Agricultural Production|{Crop Types}
 - Agricultural Production|Livestock:
     description: Production of livestock products (excluding fish)
     unit: million t DM/yr

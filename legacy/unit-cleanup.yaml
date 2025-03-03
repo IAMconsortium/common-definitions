@@ -1,0 +1,5 @@
+dimension: unit
+rename:
+  - "?C": "°C"
+  - "??C": "°C"
+  - "?C-days": "°C-days"
