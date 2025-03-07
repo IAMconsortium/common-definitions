@@ -15,7 +15,7 @@
     lower_bound: 0
 - Labor Force|Active:
     description: Inhabitants which are part of the labor force.
-    note: Should be consistent with the sum of 'Labor Force|Employed' and '"Labor Force|Unemployed'
+    note: Should be consistent with the sum of 'Labor Force|Employed' and 'Labor Force|Unemployed'
     unit: million
     tier: 1
     lower_bound: 0
