@@ -32,19 +32,3 @@
           Div. 05, 06, 19, 35, Group 091 and Classes 0892, 0721).
           Mix of parts of ISIC Section B, C, D.
         tier: ^1
-    - Services|Commercial:
-        description: wholesale and retail trade - repair of motor vehicles and
-          motorcycles (ISIC Rev.4 - Section G, equivalent to Div. 45-47)
-        tier: ^1
-    - Services|Transportation:
-        description: transportation and storage
-          (ISIC Rev.4 - Section H, equivalent to Div. 49-53)
-        tier: ^1
-    - Services|Public Administration:
-        description: public administration and defence - compulsory social security
-          (ISIC Rev4 - Section O, equivalent to Div. 84)
-        tier: ^1
-    - Services|Other Services:
-        descritpion: of other services (ISIC Rev.4 - Div. 45-99 excluding 45-47,
-          49-53 and 84)
-        tier: ^1
