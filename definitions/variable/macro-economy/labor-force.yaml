@@ -15,13 +15,13 @@
     lower_bound: 0
 - Labor Force|Active:
     description: Inhabitants which are part of the labor force.
-    note: Should be consistent with the sum of "Labor Force|Employed" and "Labor Force|Unemployed"
+    note: Should be consistent with the sum of 'Labor Force|Employed' and '"Labor Force|Unemployed'
     unit: million
     tier: 1
     lower_bound: 0
 - Labor Force|Unemployment [Rate]:
     description: Fraction of unemployed inhabitants (based on ILO classification)
-    note: Should be consistent with the ratio of "Labor Force|Unemployed" to "Labor Force|Active"
+    note: Should be consistent with the ratio of 'Labor Force|Unemployed' to 'Labor Force|Active'
     unit: '%'
     range: [ 0, 100 ]
     navigate: Unemployment|Rate
