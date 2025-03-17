@@ -1,18 +1,18 @@
-model: REMIND-MAgPIE 3.4-4.8
+model: REMIND-MAgPIE 3.5-4.10
 
 native_regions:
-  - CAZ: REMIND-MAgPIE 3.4-4.8|Canada, Australia, New Zealand
-  - CHA: REMIND-MAgPIE 3.4-4.8|China and Taiwan
-  - IND: REMIND-MAgPIE 3.4-4.8|India
-  - JPN: REMIND-MAgPIE 3.4-4.8|Japan
-  - OAS: REMIND-MAgPIE 3.4-4.8|Other Asia
-  - LAM: REMIND-MAgPIE 3.4-4.8|Latin America and the Caribbean
-  - MEA: REMIND-MAgPIE 3.4-4.8|Middle East and North Africa
-  - REF: REMIND-MAgPIE 3.4-4.8|Russia and Reforming Economies
-  - SSA: REMIND-MAgPIE 3.4-4.8|Sub-Saharan Africa
-  - USA: REMIND-MAgPIE 3.4-4.8|United States of America
-  - EUR: REMIND-MAgPIE 3.4-4.8|EU 28
-  - NEU: REMIND-MAgPIE 3.4-4.8|Non-EU28 Europe
+  - CAZ: REMIND-MAgPIE 3.5-4.10|Canada, Australia, New Zealand
+  - CHA: REMIND-MAgPIE 3.5-4.10|China and Taiwan
+  - IND: REMIND-MAgPIE 3.5-4.10|India
+  - JPN: REMIND-MAgPIE 3.5-4.10|Japan
+  - OAS: REMIND-MAgPIE 3.5-4.10|Other Asia
+  - LAM: REMIND-MAgPIE 3.5-4.10|Latin America and the Caribbean
+  - MEA: REMIND-MAgPIE 3.5-4.10|Middle East and North Africa
+  - REF: REMIND-MAgPIE 3.5-4.10|Russia and Reforming Economies
+  - SSA: REMIND-MAgPIE 3.5-4.10|Sub-Saharan Africa
+  - USA: REMIND-MAgPIE 3.5-4.10|United States of America
+  - EUR: REMIND-MAgPIE 3.5-4.10|EU 28
+  - NEU: REMIND-MAgPIE 3.5-4.10|Non-EU28 Europe
 
 common_regions:
   - World:
