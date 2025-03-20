@@ -1,0 +1,214 @@
+model:
+  - POLES 2.4
+native_regions:
+  - ARG MAP: POLES 2.4|Argentina
+  - AUS MAP: POLES 2.4|Australia
+  - BRA MAP: POLES 2.4|Brazil
+  - CAN MAP: POLES 2.4|Canada
+  - CHN MAP: POLES 2.4|China
+  - EU MAP: POLES 2.4|EU27
+  - GBR MAP: POLES 2.4|United Kingdom
+  - IDN MAP: POLES 2.4|Indonesia
+  - IND MAP: POLES 2.4|India
+  - JPN MAP: POLES 2.4|Japan
+  - KOR MAP: POLES 2.4|South Korea
+  - MEX MAP: POLES 2.4|Mexico
+  - RASIA MAP: POLES 2.4|Rest of South-East Asia
+  - REUR MAP: POLES 2.4|Rest of Europe
+  - RLAM MAP: POLES 2.4|Rest of Latin America
+  - RME MAP: POLES 2.4|Rest of Middle East
+  - RPACI MAP: POLES 2.4|Rest of Pacific
+  - RREF MAP: POLES 2.4|Rest of Reforming Economies
+  - RAFR MAP: POLES 2.4|Rest of Africa
+  - RSAS MAP: POLES 2.4|Rest of South Asia
+  - RUS MAP: POLES 2.4|Russian Federation
+  - SAF MAP: POLES 2.4|South Africa
+  - SAU MAP: POLES 2.4|Saudi Arabia
+  - THA MAP: POLES 2.4|Thailand
+  - TUR MAP: POLES 2.4|Turkey
+  - USA MAP: POLES 2.4|United States
+  - VNM MAP: POLES 2.4|Vietnam
+  - BUNK MAP: POLES 2.4|International Bunkers
+common_regions:
+  - World:
+      - ARG MAP
+      - AUS MAP
+      - BRA MAP
+      - CAN MAP
+      - CHN MAP
+      - EU MAP
+      - GBR MAP
+      - IDN MAP
+      - IND MAP
+      - JPN MAP
+      - KOR MAP
+      - MEX MAP
+      - RASIA MAP
+      - REUR MAP
+      - RLAM MAP
+      - RME MAP
+      - RPACI MAP
+      - RREF MAP
+      - RAFR MAP
+      - RSAS MAP
+      - RUS MAP
+      - SAF MAP
+      - SAU MAP
+      - THA MAP
+      - TUR MAP
+      - USA MAP
+      - VNM MAP
+      - BUNK MAP
+
+  # R5
+  - OECD & EU (R5):
+      - AUS MAP
+      - CAN MAP
+      - EU MAP
+      - GBR MAP
+      - JPN MAP
+      - REUR MAP
+      - RPACI MAP
+      - TUR MAP
+      - USA MAP
+  - Reforming Economies (R5):
+      - RREF MAP
+      - RUS MAP
+  - Asia (R5):
+      - CHN MAP
+      - IDN MAP
+      - IND MAP
+      - KOR MAP
+      - RASIA MAP
+      - RSAS MAP
+      - THA MAP
+      - VNM MAP
+  - Middle East & Africa (R5):
+      - RME MAP
+      - RAFR MAP
+      - SAF MAP
+      - SAU MAP
+  - Latin America (R5):
+      - ARG MAP
+      - BRA MAP
+      - MEX MAP
+      - RLAM MAP
+  - Other (R5):
+      - BUNK MAP
+
+  # R9
+  - European Union (R9):
+      - EU MAP
+  - USA (R9):
+      - USA MAP
+  - Other OECD (R9):
+      - AUS MAP
+      - CAN MAP
+      - GBR MAP
+      - JPN MAP
+      - REUR MAP
+      - RPACI MAP
+      - TUR MAP
+  - China (R9):
+      - CHN MAP
+  - India (R9):
+      - IND MAP
+  - Other Asia (R9):
+      - IDN MAP
+      - KOR MAP
+      - RASIA MAP
+      - RSAS MAP
+      - THA MAP
+      - VNM MAP
+  - Reforming Economies (R9):
+      - RREF MAP
+      - RUS MAP
+  - Latin America (R9):
+      - ARG MAP
+      - BRA MAP
+      - MEX MAP
+      - RLAM MAP
+  - Middle East & Africa (R9):
+      - RME MAP
+      - RAFR MAP
+      - SAF MAP
+      - SAU MAP
+  - Other (R9):
+      - BUNK MAP
+
+  # R10
+  - Africa (R10):
+      - RAFR MAP
+      - SAF MAP
+  - China+ (R10):
+      - CHN MAP
+  - Europe (R10):
+      - EU MAP
+      - GBR MAP
+      - REUR MAP
+      - TUR MAP
+  - India+ (R10):
+      - IND MAP
+      - RSAS MAP
+  - Latin America (R10):
+      - ARG MAP
+      - BRA MAP
+      - MEX MAP
+      - RLAM MAP
+  - Middle East (R10):
+      - RME MAP
+      - SAU MAP
+  - North America (R10):
+      - CAN MAP
+      - USA MAP
+  - Pacific OECD (R10):
+      - AUS MAP
+      - JPN MAP
+      - KOR MAP
+      - RPACI MAP
+  - Reforming Economies (R10):
+      - RREF MAP
+      - RUS MAP
+  - Rest of Asia (R10):
+      - IDN MAP
+      - RASIA MAP
+      - THA MAP
+      - VNM MAP
+  - Other (R10):
+      - BUNK MAP
+
+  # G20 members
+  - Argentina:
+      - ARG MAP
+  - Australia:
+      - AUS MAP
+  - Brazil:
+      - BRA MAP
+  - Canada:
+      - CAN MAP
+  - China:
+      - CHN MAP
+  - European Union:
+      - EU MAP
+  - United Kingdom:
+      - GBR MAP
+  - Indonesia:
+      - IDN MAP
+  - India:
+      - IND MAP
+  - Japan:
+      - JPN MAP
+  - Mexico:
+      - MEX MAP
+  - South Korea:
+      - KOR MAP
+  - Russian Federation:
+      - RUS MAP
+  - South Africa:
+      - SAF MAP
+  - Saudi Arabia:
+      - SAU MAP
+  - Turkey:
+      - TUR MAP
+  - United States:
+      - USA MAP
