@@ -5,7 +5,7 @@
 - Export [Value]:
     description: Total exports measured in monetary quantities
     unit: billion USD_2010/yr
-    tier: 1
+    tier: 2
     navigate: Export
     engage: Export
 - Export|{Economic Sectors} [Value]:
@@ -31,7 +31,7 @@
 - Import [Value]:
     description: Total exports measured in monetary quantities
     unit: billion USD_2010/yr
-    tier: 1
+    tier: 2
     navigate: Import
     engage: Import
 - Import|{Economic Sectors} [Value]:
@@ -58,7 +58,7 @@
 - Trade|Goods [Value]:
     description: Net exports of all goods measured in monetary quantities
     unit: billion USD_2010/yr
-    tier: 1
+    tier: 2
     navigate: Trade
     engage: Trade
 
