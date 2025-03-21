@@ -120,11 +120,11 @@
     description: Net exports of Uranium measured in monetary quantities
     notes: Negative values indicate that imports exceed exports.
       At the global level these should add up to the trade losses.
-    unit: billion US$2010/yr
+    unit: billion USD_2010/yr
     navigate: Trade|Uranium|Value
     engage: Trade|Uranium|Value
 - Trade|Uranium [Volume]:
-    description: Net exports of Uranium measured in physical energy quantities
+    description: Net exports of uranium measured in physical energy quantities
     notes: Negative values indicate that imports exceed exports.
       At the global level these should add up to the trade losses.
     unit: kt U/yr
@@ -135,6 +135,7 @@
 - Tariffs|Imports [Average]:
     description: Weighted average tariffs for imports 
     unit: '%'
+    tier: 2
     skip-region-aggregation: true
     navigate: Tariffs|Average|Imports
     engage: Tariffs|Average|Imports
