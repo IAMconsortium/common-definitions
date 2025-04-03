@@ -137,6 +137,7 @@ common_regions:
       - WAF
   - China+ (R10):
       - CHN
+      - KOR
   - Europe (R10):
       - CEU
       - TUR
@@ -163,7 +164,6 @@ common_regions:
       - UKR
   - Rest of Asia (R10):
       - INDO
-      - KOR
       - SEAS
 
   # mapping for G20 members
