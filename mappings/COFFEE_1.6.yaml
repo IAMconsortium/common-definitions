@@ -1,0 +1,149 @@
+model: COFFEE 1.6
+native_regions:
+  - AF: COFFEE 1.6|Africa (excluding South Africa)
+  - AU: COFFEE 1.6|Australia & New Zealand
+  - BR: COFFEE 1.6|Brazil
+  - CA: COFFEE 1.6|Central America
+  - CD: COFFEE 1.6|Canada
+  - CP: COFFEE 1.6|Caspian Sea
+  - CH: COFFEE 1.6|China
+  - EU: COFFEE 1.6|Europe
+  - IN: COFFEE 1.6|India
+  - JP: COFFEE 1.6|Japan
+  - KR: COFFEE 1.6|South Korea
+  - ME: COFFEE 1.6|Middle East
+  - RA: COFFEE 1.6|Rest of Asia and Oceania
+  - RU: COFFEE 1.6|Russia
+  - SF: COFFEE 1.6|South Africa
+  - SM: COFFEE 1.6|South America
+  - US: COFFEE 1.6|United States
+  - XE: COFFEE 1.6|Rest of Europe
+common_regions:
+  - World:
+      - AF
+      - AU
+      - BR
+      - CA
+      - CD
+      - CP
+      - CH
+      - EU
+      - IN
+      - JP
+      - KR
+      - ME
+      - RA
+      - RU
+      - SF
+      - SM
+      - US
+      - XE
+
+  # R5 regions
+  - OECD & EU (R5):
+      - AU
+      - CD
+      - EU
+      - JP
+      - US
+  - Reforming Economies (R5):
+      - CP
+      - RU
+      - XE
+  - Asia (R5):
+      - CH
+      - IN
+      - KR
+      - RA
+  - Middle East & Africa (R5):
+      - AF
+      - ME
+      - SF
+  - Latin America (R5):
+      - BR
+      - CA
+      - SM
+
+  # R10 regions
+  - Africa (R10):
+      - AF
+      - SF
+  - China+ (R10):
+      - CH
+  - Europe (R10):
+      - EU
+      - XE
+  - India+ (R10):
+      - IN
+  - Latin America (R10):
+      - BR
+      - CA
+      - SM
+  - Middle East (R10):
+      - ME
+  - North America (R10):
+      - CD
+      - US
+  - Pacific OECD (R10):
+      - AU
+      - JP
+  - Reforming Economies (R10):
+      - CP
+      - RU
+  - Rest of Asia (R10):
+      - KR
+      - RA
+  
+  #   R9 regions
+  - European Union (R9):
+      - EU
+  - USA (R9):
+      - US
+  - Other OECD (R9):
+      - AU
+      - CD
+      - JP
+  - China (R9):
+      - CH
+  - India (R9):
+      - IN
+  - Other Asia (R9):
+      - KR
+      - RA
+  - Reforming Economies (R9):
+      - CP
+      - RU
+      - XE
+  - Latin America (R9):
+      - BR
+      - CA
+      - SM
+  - Middle East & Africa (R9):
+      - AF
+      - ME
+      - SF
+
+  # mapping for G20 members
+  - European Union and United Kingdom:
+      - EU
+  - African Union:
+      - AF
+      - SF
+  - Brazil:
+      - BR
+  - Canada:
+      - CD
+  - China:
+      - CH
+  - India:
+      - IN
+  - Japan:
+      - JP
+  - South Korea:
+      - KR
+  - South Africa:
+      - SF
+  - Russian Federation:
+      - RU
+  - United States:
+      - US
