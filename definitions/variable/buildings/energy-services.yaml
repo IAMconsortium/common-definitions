@@ -1,0 +1,31 @@
+- Energy Service|Residential|{Urban and Rural}|Appliance Onwership|{Appliances}:
+    description: Onwership of {Appliances} per household
+    unit: units/dwelling
+    tier: 3
+
+- Energy Service|Residential|{Urban and Rural}|Heating and Cooling|{Heating and Cooling Technologies}:
+    description: Households with {Heating and Cooling Technologies} as primary
+      heating and cooling source
+    unit: dwellings
+    tier: 2
+
+- Energy Service|Residential|{Urban and Rural}|Rooftop Photovoltaics:
+    description: Households with rooftop photovoltaic electricity generations
+    unit: dwellings
+    tier: 2
+
+- Energy Service|{Residential and Commercial}|Zero Energy Building:
+    description: Residential and commercial buildings which have net-zero or positive energy balance 
+    unit: buildings
+    tier: 2
+
+- Energy Service|Residential|{Urban and Rural}|Zero Energy Building:
+    description: Households which have net-zero or positive energy balance 
+    unit: dwellings
+    tier: 2
+
+
+- Population|Appliance Access|{Appliances}|{Urban and Rural}:
+    description: Population with steady access to {Appliances} appliances
+    unit: million
+    tier: 2

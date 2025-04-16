@@ -1,0 +1,18 @@
+- Appliances:
+    - Cleaning:
+        description: Appliances used for cleaning, including vaccuum cleaners,
+            dish washers, washing machines, clothes dryers, etc.
+    - Cooling:
+        description: Appliances used for space cooling, including air coolers,
+            air conditioners, fans, etc.
+    - Entertainment:
+        description: Appliances used for entertainment, including air coolers,
+            televisions, computers, gaming, etc.
+    - Refrigeration:
+        description: Appliances used for food refregeration and preservation,
+            including refrigerators, freezers, etc.
+    - Other:
+        description: Appliances used in housseholds not falling under the other
+         categories
+
+
