@@ -4,7 +4,7 @@
     tier: 3
 
 - Energy Service|Residential|{Urban and Rural}|Heating and Cooling|{Heating and Cooling Technologies}:
-    description: Households with specific heating and cooling technologies} 
+    description: Households with specific heating and cooling technologies 
         as primary heating and cooling source
     unit: dwellings
     tier: 2
