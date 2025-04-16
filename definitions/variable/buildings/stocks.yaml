@@ -19,13 +19,13 @@
 - Stocks|{Residential and Commercial}|Renovation Rate:
     description: Percetnage of {Residential & Commercial} buildings undergoing 
       renovation
-    unit: %
+    unit: '%'
     tier: 2
 
 - Stocks|Residential|{Urban and Rural}|Renovation Rate:
     description: Percetnage of residential {Urban and Rural} buildings 
       undergoing renovation
-    unit: %
+    unit: '%'
     tier: 2
 
 - Stocks|{Residential and Commercial}|U-value:
