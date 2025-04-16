@@ -54,10 +54,67 @@
         tier: ^1
     - Residential:
         description: residential sector
+        tier: ^1
+    - Residential|Appliances:
+        description: residential sector appliances
+        tier: 2
+    - Residential|Cooking:
+        description: residential sector cooking
+        tier: 2
+    - Residential|Lighting:
+        description: residential sector lighting
+        tier: 2
+    - Residential|Space Cooling:
+        description: residential sector space cooling
+        tier: 2
+    - Residential|Space Heating:
+        description: residential sector space heating
+        tier: 2
+    - Residential|Water Heating:
+        description: residential sector space heating
+        tier: 2
     - Commercial:
         description: commercial sector
+        tier: ^1
+    - Commercial|Appliances:
+        description: commercial sector appliances
+        tier: 2
+    - Commercial|Cooking:
+        description: commercial sector cooking
+        tier: 2
+    - Commercial|Lighting:
+        description: commercial sector lighting
+        tier: 2
+    - Commercial|Space Cooling:
+        description: commercial sector space cooling
+        tier: 2
+    - Commercial|Space Heating:
+        description: commercial sector space heating
+        tier: 2
+    - Commercial|Water Heating:
+        description: commercial sector space heating
+        tier: 2
     - Residential and Commercial:
         description: residential and commercial sector
+        tier: ^1
+    - Residential and Commercial|Appliances:
+        description: residential and commercial sector appliances
+        tier: 2
+    - Residential and Commercial|Cooking:
+        description: residential and commercial sector cooking
+        tier: 2
+    - Residential and Commercial|Lighting:
+        description: residential and commercial sector lighting
+        tier: 2
+    - Residential and Commercial|Space Cooling:
+        description: residential and commercial sector space cooling
+        tier: 2
+    - Residential and Commercial|Space Heating:
+        description: residential and commercial sector space heating
+        tier: 2
+    - Residential and Commercial|Water Heating:
+        description: residential and commercial sector space heating
+        tier: 2
     - Transportation:
         description: transportation sector excluding international aviation and shipping
           (see 'Bunkers')
