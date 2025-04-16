@@ -142,13 +142,13 @@
 - Carbon Capture|Direct Ocean Capture:
     description: Captured carbon dioxide (CO2) from direct ocean capture
     unit: Mt CO2/yr
-    tier: 1
+    tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
 - Carbon Capture|Other Sources:
     description: Captured carbon dioxide (CO2) from other sources
     unit: Mt CO2/yr
-    tier: 1
+    tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
 
@@ -200,7 +200,7 @@
       subsurface geological storage reservoirs (e.g., in situ mineralization),
       also called 'Carbon Capture and Sequestration' (CCS)
     unit: Mt CO2/yr
-    tier: 1
+    tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|Storage|Other
@@ -208,7 +208,7 @@
 - Carbon Capture|Other Storage:
     description: Other types of storage for captured carbon dioxide (CO2)
     unit: Mt CO2/yr
-    tier: 1
+    tier: 2
     lower_bound: 0
 - Carbon Capture|Leakage:
     description: Captured carbon dioxide (CO2) that is vented, leaked, or re-emitted
