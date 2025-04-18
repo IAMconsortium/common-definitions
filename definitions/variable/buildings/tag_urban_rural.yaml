@@ -1,0 +1,7 @@
+- Urban and Rural:
+    - Urban:
+        description: Urban households
+    - Rural:
+        description: Rural households
+    - Total:
+        description: All houeholds
