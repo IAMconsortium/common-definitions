@@ -1,0 +1,8 @@
+- Debt:
+    description: Total net external debt
+    unit: billion USD_2010/yr
+    tier: 2
+- Debt|Government:
+    description: Total net external public debt
+    unit: billion USD_2010/yr
+    tier: 2
