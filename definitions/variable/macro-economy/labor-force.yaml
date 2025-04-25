@@ -1,3 +1,4 @@
+# Labor force employment status - main categories
 - Labor Force|{Employment Status}:
     description: Working-age inhabitants which are {Employment Status}
       (part of the active labor force)
@@ -12,8 +13,23 @@
     unit: million
     tier: 1
     lower_bound: 0
+- Labor Force|Active:
+    description: Inhabitants which are part of the labor force.
+    note: Should be consistent with the sum of 'Labor Force|Employed' and 'Labor Force|Unemployed'
+    unit: million
+    tier: 1
+    lower_bound: 0
 - Labor Force|Unemployment [Rate]:
     description: Fraction of unemployed inhabitants (based on ILO classification)
+    note: Should be consistent with the ratio of 'Labor Force|Unemployed' to 'Labor Force|Active'
     unit: '%'
     range: [ 0, 100 ]
     navigate: Unemployment|Rate
+
+# Labor force employment status - by sector
+- Labor Force|Employed|{Economic Sectors Level 2}:
+    description: Employment by the {Economic Sectors Level 2}
+    unit: million full-time equivalent workers
+    tier: 1
+    lower_bound: 0
+    navigate: Employment|{Economic Sectors Level 2}
