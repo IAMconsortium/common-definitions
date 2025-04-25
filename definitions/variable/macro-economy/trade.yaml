@@ -29,7 +29,7 @@
     engage: Export|{Industry Trade Commodities}|Volume
 # Import - ISIC economic sectors
 - Import [Value]:
-    description: Total exports measured in monetary quantities
+    description: Total imports measured in monetary quantities
     unit: billion USD_2010/yr
     tier: 2
     navigate: Import
