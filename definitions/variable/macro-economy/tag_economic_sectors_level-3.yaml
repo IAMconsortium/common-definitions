@@ -1,0 +1,69 @@
+# Economic sectors based on the International Standard Industrial Classification
+# of All Economic Activities (ISIC) Rev.4
+# https://unstats.un.org/unsd/demographic-social/census/documents/isic_rev4.pdf
+- Economic Sectors Level 3:
+    # Level 1: 3 Macro sectors, exhaustive
+    #
+    - Agriculture:
+        description: the aggregated agricultural sectors (ISIC Rev.4 - Section A)
+    - Industry:
+        description: the aggregated industrial sector (ISIC Rev.4 - Section B-F)
+    - Services:
+        description: the aggregated services sector (ISIC Rev.4 - Section G-X)
+        navigate: Commercial
+    # Level 2: Industrial desagregation, exhaustive
+    #
+    - Industry|Mining:
+        description: mining and quarrying (ISIC Rev.4 - Section B,
+          equivalent to Div. 05-09)
+        tier: ^1
+    - Industry|Manufacturing:
+        description: manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33)
+        tier: ^1
+    - Industry|Energy:
+        description: electricity, gas, steam and air conditioning supply
+          (ISIC Rev.4 - Section D, equivalent to Div. 35)
+        tier: ^1
+    - Industry|Water Supply:
+        description: water supply - sewerage, waste management and remediation 
+          activities (ISIC Rev.4 - Section E, equivalent to Div. 35)
+        tier: ^1
+    - Industry|Construction:
+        description: construction (ISIC Rev.4 - Section F, equivalent to Div. 41-43)
+        tier: ^1
+    - Industry|Energy All Supply Chains:
+        description: all energy related activities along supply chains (ISIC Rev.4 -
+          Div. 05, 06, 19, 35, Group 091 and Classes 0892, 0721).
+          Mix of parts of ISIC Section B, C, D.
+        tier: ^1
+    # Level 3: Industrial sub-sectors desagregation, selection of subsectors
+    #
+    - Industry|Manufacturing|Chemicals:
+        description: manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33)
+        tier: ^2
+    - Industry|Manufacturing|Chemicals:
+        description: chemicals, chemical products, basic pharmaceutical products and
+          pharmaceutical preparations (ISIC Rev.4 - Div. 21-22)
+        tier: ^2
+    - Industry|Manufacturing|Iron and Steel:
+        description: iron and steel, including casting
+          (ISIC Rev.4 - Group 241 and Classe 2431)
+        tier: ^2
+    - Industry|Manufacturing|Non-Ferrous Metals:
+        description: basic precious and other non-ferrous metal, including casting
+          (ISIC Rev.4 - Group 242 and Classe 2432)
+        tier: ^2
+    - Industry|Manufacturing|Non-Metallic Minerals:
+        description: other non-metallic minerals, which includes cement
+          (ISIC Rev.4 - Div. 23)
+        tier: ^2
+    - Industry|Manufacturing|Pulp and Paper:
+        description: pulp and paper (ISIC Rev.4 - Div. 17)
+        tier: ^2
+    - Industry|Manufacturing|Other Sector:
+        description: other industrial manufacturing sectors
+        note: By default, Other Sector is interpreted as manufacturing sectors
+          not mentionned elsewhere (ISIC Rev.4 - Div. 10-16, 18-20, 25-33). 
+          If not, please specify the ISIC categories in comments.
+        tier: ^2
+
