@@ -39,9 +39,6 @@
     # Level 3: Industrial sub-sectors desagregation, selection of subsectors
     #
     - Industry|Manufacturing|Chemicals:
-        description: manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33)
-        tier: ^2
-    - Industry|Manufacturing|Chemicals:
         description: chemicals, chemical products, basic pharmaceutical products and
           pharmaceutical preparations (ISIC Rev.4 - Div. 21-22)
         tier: ^2
@@ -66,4 +63,3 @@
           not mentionned elsewhere (ISIC Rev.4 - Div. 10-16, 18-20, 25-33). 
           If not, please specify the ISIC categories in comments.
         tier: ^2
-
