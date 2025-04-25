@@ -8,12 +8,12 @@
     tier: 2
     navigate: Export
     engage: Export
-- Export|{Economic Sectors} [Value]:
-    description: Export of {Economic Sectors} in monetary quantities
+- Export|{Economic Sectors Level 2} [Value]:
+    description: Export of {Economic Sectors Level 2} in monetary quantities
     unit: billion USD_2010/yr
     tier: 2
-    navigate: Export|{Economic Sectors}
-    engage: Export|{Economic Sectors}
+    navigate: Export|{Economic Sectors Level 2}
+    engage: Export|{Economic Sectors Level 2}
 # Export - industrial commodities
 - Export|{Industry Trade Commodities} [Value]:
     description: Export of {Industry Trade Commodities} in monetary quantities
@@ -34,12 +34,12 @@
     tier: 2
     navigate: Import
     engage: Import
-- Import|{Economic Sectors} [Value]:
-    description: Import of {Economic Sectors} in monetary quantities
+- Import|{Economic Sectors Level 2} [Value]:
+    description: Import of {Economic Sectors Level 2} in monetary quantities
     unit: billion USD_2010/yr
     tier: 2
-    navigate: Import|{Economic Sectors}
-    engage: Import|{Economic Sectors}
+    navigate: Import|{Economic Sectors Level 2}
+    engage: Import|{Economic Sectors Level 2}
 # Import - industrial commodities
 - Import|{Industry Trade Commodities} [Value]:
     description: Import of {Industry Trade Commodities} in monetary quantities
