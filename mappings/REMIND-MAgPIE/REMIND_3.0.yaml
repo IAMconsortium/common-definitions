@@ -15,8 +15,21 @@ native_regions:
   - REF: REMIND 3.0|Russia and Reforming Economies
   - SSA: REMIND 3.0|Sub-Saharan Africa
   - USA: REMIND 3.0|United States of America
+  # 12-region version of REMIND
   - EUR: REMIND 3.0|EU 28
   - NEU: REMIND 3.0|Non-EU28 Europe
+  # 21-region version of REMIND
+  - DEU: REMIND 3.0|Germany
+  - FRA: REMIND 3.0|France
+  - UKI: REMIND 3.0|United Kingdom and Ireland
+  - ECE: REMIND 3.0|EU Center-East Europe
+  - ECS: REMIND 3.0|EU Center-South Europe
+  - ENC: REMIND 3.0|EU North-Center Europe
+  - ESC: REMIND 3.0|EU South-Center Europe
+  - ESW: REMIND 3.0|EU South-West Europe
+  - EWN: REMIND 3.0|EU North-West Europe
+  - NEN: REMIND 3.0|Non-EU Northern Europe
+  - NES: REMIND 3.0|Non-EU Southern Europe
 
 common_regions:
   - World:
@@ -30,8 +43,21 @@ common_regions:
       - REF
       - SSA
       - USA
+      # 12-region version of REMIND
       - EUR
       - NEU
+      # 21-region version of REMIND
+      - DEU
+      - FRA
+      - UKI
+      - ECE
+      - ECS
+      - ENC
+      - ESC
+      - ESW
+      - EWN
+      - NEN
+      - NES
 
   - Asia (R5):
       - CHA
@@ -46,8 +72,21 @@ common_regions:
       - JPN
       - USA
       - CAZ
+      # 12-region version of REMIND
       - EUR
       - NEU
+      # 21-region version of REMIND
+      - DEU
+      - FRA
+      - UKI
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+      - NEN
+      - NES
   - Reforming Economies (R5):
       - REF
 
@@ -56,8 +95,21 @@ common_regions:
   - China+ (R10):
       - CHA
   - Europe (R10):
+      # 12-region version of REMIND
       - EUR
       - NEU
+      # 21-region version of REMIND
+      - DEU
+      - FRA
+      - UKI
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+      - NEN
+      - NES
   - India+ (R10):
       - IND
   - Latin America (R10):
