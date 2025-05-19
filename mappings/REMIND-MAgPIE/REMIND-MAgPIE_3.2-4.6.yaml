@@ -1,0 +1,72 @@
+model: REMIND-MAgPIE 3.2-4.6
+
+native_regions:
+  - CAZ: REMIND-MAgPIE 3.2-4.6|Canada, Australia, New Zealand
+  - CHA: REMIND-MAgPIE 3.2-4.6|China and Taiwan
+  - IND: REMIND-MAgPIE 3.2-4.6|India
+  - JPN: REMIND-MAgPIE 3.2-4.6|Japan
+  - OAS: REMIND-MAgPIE 3.2-4.6|Other Asia
+  - LAM: REMIND-MAgPIE 3.2-4.6|Latin America and the Caribbean
+  - MEA: REMIND-MAgPIE 3.2-4.6|Middle East and North Africa
+  - REF: REMIND-MAgPIE 3.2-4.6|Russia and Reforming Economies
+  - SSA: REMIND-MAgPIE 3.2-4.6|Sub-Saharan Africa
+  - USA: REMIND-MAgPIE 3.2-4.6|United States of America
+  - EUR: REMIND-MAgPIE 3.2-4.6|EU 28
+  - NEU: REMIND-MAgPIE 3.2-4.6|Non-EU28 Europe
+
+common_regions:
+  - World:
+      - CAZ
+      - CHA
+      - IND
+      - JPN
+      - OAS
+      - LAM
+      - MEA
+      - REF
+      - SSA
+      - USA
+      - EUR
+      - NEU
+
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - JPN
+      - USA
+      - CAZ
+      - EUR
+      - NEU
+  - Reforming Economies (R5):
+      - REF
+
+  - Africa (R10):
+      - SSA
+  - China+ (R10):
+      - CHA
+  - Europe (R10):
+      - EUR
+      - NEU
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - LAM
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - USA
+  - Reforming Economies (R10):
+      - REF
+  - Rest of Asia (R10):
+      - OAS
+  - Pacific OECD (R10):
+      - JPN
+  - Other (R10):
+      - CAZ
