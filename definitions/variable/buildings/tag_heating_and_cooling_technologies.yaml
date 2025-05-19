@@ -1,0 +1,15 @@
+- Heating and Cooling Technologies:
+    - Air Conditioning:
+        description: Centralized or standalone air conditioning units
+    - Air Cooler:
+        description: Air coolers, evaporative or other
+    - Fan:
+        description: Fans, including cieling, tower, or standalone
+    - Electric Heater:
+        description: Electric heaters (i.e. resistance)
+    - Heat Pump:
+        description: Heatpumps, including air or ground-sourced
+    - District Heating:
+        description: District heating providing secondary heat
+
+
