@@ -1,13 +1,70 @@
+# The model documentation and regional aggregation for IMACLIM version 2.0
 - IMACLIM 2.0:
-  - IMACLIM 2.0|Africa
-  - IMACLIM 2.0|Brazil
-  - IMACLIM 2.0|Canada
-  - IMACLIM 2.0|China
-  - IMACLIM 2.0|Former Soviet Union excluding EU Baltic countries
-  - IMACLIM 2.0|Europe excluding FSU
-  - IMACLIM 2.0|India
-  - IMACLIM 2.0|Japan, Australia, New Zealand and Korea
-  - IMACLIM 2.0|Middle East
-  - IMACLIM 2.0|Rest of Latin America
-  - IMACLIM 2.0|Rest of Asia
-  - IMACLIM 2.0|USA
+    - IMACLIM 2.0|Africa:
+        countries: [
+            Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde,
+            Cameroon, Central African Republic, Chad, Comoros, Côte d'Ivoire,
+            Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea,
+            Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau,
+            Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania,
+            Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda,
+            "Saint Helena, Ascension and Tristan da Cunha", Sao Tome and Principe,
+            Senegal, Seychelles, Sierra Leone, Somalia, South Africa, Sudan, Tanzania,
+            Togo, Tunisia, Uganda, Zambia, Zimbabwe, Western Sahara
+        ]
+    - IMACLIM 2.0|Brazil:
+        countries: Brazil
+    - IMACLIM 2.0|Canada:
+        countries: Canada
+    - IMACLIM 2.0|China:
+        countries: China
+    - IMACLIM 2.0|Former Soviet Union excluding EU Baltic countries:
+        countries: [
+            Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+            Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - IMACLIM 2.0|Europe excluding FSU:
+        countries: [
+            Albania, Andorra, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
+            Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France,
+            Germany, Gibraltar, Greece, Guadeloupe, Hungary, Iceland, Ireland, Italy,
+            Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Martinique, Monaco,
+            Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal,
+            Réunion, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden,
+            Switzerland, United Kingdom, Vatican
+        ]
+    - IMACLIM 2.0|India:
+        countries: India
+    - IMACLIM 2.0|Japan, Australia, New Zealand and Korea:
+        countries: [
+            Australia, Japan, New Zealand, South Korea
+        ]
+    - IMACLIM 2.0|Middle East:
+        countries: [
+            Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
+            Qatar, Saudi Arabia, Syria, Turkey, United Arab Emirates, Yemen
+        ]
+    - IMACLIM 2.0|Rest of Latin America:
+        countries: [
+            Anguilla, Argentina, Bermuda, Bolivia, Cayman Islands, Chile, Colombia,
+            Costa Rica, Dominican Republic, Ecuador, El Salvador, French Guiana,
+            Guatemala, Haiti, Honduras, Mexico, Montserrat, Nicaragua, Panama, Paraguay,
+            Peru, Puerto Rico, Suriname, Uruguay, Venezuela, Bahamas, Barbados, Belize,
+            Dominica, Grenada, Guyana, Jamaica, Saint Kitts and Nevis, Saint Lucia,
+            Saint Pierre and Miquelon, Saint Vincent and the Grenadines,
+            Trinidad and Tobago, Turks and Caicos Islands, British Virgin Islands,
+            United States Virgin Islands
+        ]
+    - IMACLIM 2.0|Rest of Asia:
+        countries: [
+            Afghanistan, American Samoa, Aruba, Bangladesh, Bhutan, Brunei Darussalam,
+            Cambodia, Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati,
+            Laos, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
+            Myanmar, Nauru, Nepal, Niue, North Korea, Northern Mariana Islands,
+            New Caledonia, Pakistan, Palau, Papua New Guinea, Pitcairn, Philippines,
+            Samoa, Singapore, Solomon Islands, Sri Lanka, Timor-Leste, Thailand,
+            Tokelau, Tonga, Tuvalu, Vanuatu, Viet Nam,
+            Hong Kong, Macao, Taiwan, Wallis and Futuna
+        ]
+    - IMACLIM 2.0|USA:
+        countries: United States

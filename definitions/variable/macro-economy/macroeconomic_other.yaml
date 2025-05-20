@@ -1,15 +1,4 @@
-- Price|Carbon:
-    description: Price of carbon
-    unit: USD_2010/t CO2
-    tier: 1
-    drop_negative_weights: false
-    weight: Emissions|CO2
 - Capital Stock:
     description: Macroeconomic capital stock
     unit: billion USD_2010/yr
-- Revenue|Government:
-    description: Government revenue
-    unit: billion USD_2010/yr
-    tier: 1
-    engage: Revenue|government
-    navigate: Revenue|government
+    tier: 2

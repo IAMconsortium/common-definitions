@@ -6,11 +6,15 @@
     description: GDP converted to USD using purchasing power parity (PPP)
     unit: billion USD_2010/yr
     tier: 1
-- Value Added|{Economic Sectors}:
-    description: Value added by the {Economic Sectors}
+- Value Added:
+    description: Total value added
     unit: billion USD_2010/yr
     tier: 1
-    navigate: Value Added|{Economic Sectors}
+- Value Added|{Economic Sectors Level 2}:
+    description: Value added by the {Economic Sectors Level 2}
+    unit: billion USD_2010/yr
+    tier: 1
+    navigate: Value Added|{Economic Sectors Level 2}
 - Capital Formation:
     description: Net additions to the physical capital stock
     unit: billion USD_2010/yr
@@ -24,3 +28,10 @@
     unit: billion USD_2010/yr
     tier: 1
     navigate: Expenditure|Household
+- Revenue|Government:
+    description: Government revenue
+    unit: billion USD_2010/yr
+    tier: 1
+    engage: Revenue|government
+    navigate: Revenue|government
+

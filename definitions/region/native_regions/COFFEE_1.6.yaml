@@ -1,0 +1,92 @@
+- COFFEE 1.6:
+    - COFFEE 1.6|Africa (excluding South Africa):
+        countries: [
+          Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
+          Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya,
+          Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius,
+          Mayotte, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion,
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Western Sahara, Zambia,
+          Zimbabwe
+        ]
+    - COFFEE 1.6|Australia & New Zealand:
+        countries: [ Australia, New Zealand ]
+    - COFFEE 1.6|Brazil:
+        countries: [ Brazil ]
+    - COFFEE 1.6|Central America:
+        countries: [
+          Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda,
+          "Bonaire, Sint Eustatius and Saba", Cayman Islands, Costa Rica, Cuba, Curaçao,
+          Dominica, Dominican Republic, El Salvador, French Guiana, Grenada, Guadeloupe,
+          Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Montserrat,
+          Nicaragua, Panama, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), Suriname, Trinidad and Tobago,
+          Turks and Caicos Islands
+        ]
+    - COFFEE 1.6|Canada:
+        countries: [
+          Canada, "Saint Helena, Ascension and Tristan da Cunha",
+          Saint Pierre and Miquelon
+        ]
+    - COFFEE 1.6|Caspian Sea:
+        countries: [
+          Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Pakistan,
+          Tajikistan, Turkmenistan, Uzbekistan ]
+    - COFFEE 1.6|China:
+        countries: [ China, Hong Kong, Macao ]
+    - COFFEE 1.6|Europe:
+        countries: [
+          Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Cyprus, Czechia, Denmark,
+          Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece,
+          Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey,
+          Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands,
+          Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain,
+          Svalbard and Jan Mayen, Sweden, Switzerland, Turkey, United Kingdom, Vatican,
+          Åland Islands
+        ]
+    - COFFEE 1.6|India:
+        countries: [ India ]
+    - COFFEE 1.6|Japan:
+        countries: [ Japan ]
+    - COFFEE 1.6|South Korea:
+        countries: [ South Korea ]
+    - COFFEE 1.6|Middle East:
+        countries: [
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, United Arab Emirates, Yemen
+        ]
+    - COFFEE 1.6|Rest of Asia and Oceania:
+        countries: [
+          Antarctica, Bangladesh, Bhutan, British Indian Ocean Territory,
+          Brunei Darussalam, Cambodia, Christmas Island, Cocos (Keeling) Islands,
+          Cook Islands, Fiji, French Polynesia, French Southern Territories, Guam,
+          Heard Island and McDonald Islands, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal,
+          New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands,
+          Palau, Papua New Guinea, Philippines, Pitcairn, Samoa, Singapore,
+          Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tokelau, Tonga,
+          Tuvalu, Vanuatu, Viet Nam, Wallis and Futuna
+        ]
+    - COFFEE 1.6|Russia:
+        countries: [ Russian Federation ]
+    - COFFEE 1.6|South Africa:
+        countries: [ South Africa ]
+    - COFFEE 1.6|South America:
+        countries: [
+          Argentina, Bolivia, Chile, Colombia, Ecuador, Falkland Islands (Malvinas),
+          Paraguay, Peru, South Georgia and the South Sandwich Islands, Uruguay,
+          Venezuela
+        ]
+    - COFFEE 1.6|United States:
+        countries: [
+          American Samoa, British Virgin Islands, Puerto Rico, United States,
+          United States Minor Outlying Islands, United States Virgin Islands
+        ]
+    - COFFEE 1.6|Rest of Europe:
+        countries: [
+          Albania, Belarus, Bosnia and Herzegovina, Croatia, Kosovo, Moldova, 
+          Montenegro, North Macedonia, Serbia, Ukraine
+        ]

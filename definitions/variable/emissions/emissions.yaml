@@ -216,7 +216,7 @@
       - Gross Emissions|CO2|Industrial Processes
 
 - Emissions|{Level-2 Species}|Energy:
-    description: Emissions of carbon dioxide (CO2) from energy use, including
+    description: Emissions of {Level-2 Species} from energy use, including
       fugitive emissions from fuels (IPCC category 1A (except manufacturing 1A2
       and other unspecified 1A5), 1B), reporting the sum of sources and sinks, including negative
       emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply

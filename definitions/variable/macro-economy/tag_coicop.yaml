@@ -1,0 +1,14 @@
+# Classification of individual Consumption According to Purpose (COICOP) 
+# https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf
+- COICOP:
+    - Food:
+        description: food and non-alcoholic beverages
+    - Housing|Energy:
+        description: electricity, gas and other fuels in housing (code 04.5)
+        navigate: Energy|Energy Use
+        engage: Energy|Energy Use
+    - Transport|Energy: 
+        description: fuels for personal transport equipment
+          (Diesel 07.2.2.1 - Petrol 07.2.2.3 - Other fuels 07.2.2.4)
+        navigate: Energy|Transportation
+        engage: Energy|Transportation
