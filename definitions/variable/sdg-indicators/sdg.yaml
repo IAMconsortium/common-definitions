@@ -208,32 +208,27 @@
 - Useful Energy|Agriculture:
     description: Useful energy consumption by the agriculture sector including fishing
     unit: EJ/yr
-    tier: 1
+    tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Bunkers:
     description: Useful energy consumption by the international aviation and shipping
     unit: EJ/yr
-    tier: 1
+    tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Carbon Management:
     desciption: Total energy use for carbon management, i.e., capture and/or removal of CO2
     unit: EJ/yr
-    tier: 2
+    tier: 3
     note: Report in fuel-equivalent
 - Useful Energy|Commercial:
     desciption: Useful energy consumption by the commercial sector
     unit: EJ/yr
-    tier: 1
+    tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Industry:
     description: Useful energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks)
     unit: EJ/yr
     tier: 1
-    note: Report in fuel-equivalent
-- Useful Energy|Non-Energy Use:
-    description: Useful energy consumption in non-combustion processes
-    unit: EJ/yr
-    tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Other Sector:
     description: Useful energy consumption by the other sectors
@@ -243,7 +238,7 @@
 - Useful Energy|Residential:
     description: Useful energy consumption by the residential sector
     unit: EJ/yr
-    tier: 1
+    tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Residential and Commercial:
     description: Useful energy consumption by the residential and commercial sector
@@ -263,7 +258,7 @@
 - Useful Energy|Transportation (w/ bunkers):
     description: Useful energy consumption by the transportation sector including international aviation and shipping
     unit: EJ/yr
-    tier: 1
+    tier: 2
     note: Report in fuel-equivalent
 - Energy Service|Transportation|Freight:
     description: Energy service demand for freight transport
