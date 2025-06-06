@@ -170,31 +170,6 @@
     unit: km3/yr
     sdg: 6
     tier: 2
-- Useful Energy|Transportation|Passenger [per capita]:
-    description: Useful energy per capita for passenger transport
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Industry [per capita]:
-    description: Useful energy per capita for industry
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Residential and Commercial [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Residential [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Commercial [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
 - Useful Energy:
     description: Useful energy consumption by all end-use sectors and all fuels, including non-energy use, excluding transmission/distribution losses
     unit: EJ/yr
