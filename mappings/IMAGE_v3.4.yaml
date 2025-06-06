@@ -177,6 +177,8 @@ common_regions:
       - INDIA
   - Japan:
       - JAP
+  - South Korea:
+      - KOR
   - United States:
       - USA
   - African Union:
