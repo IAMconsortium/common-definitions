@@ -6,8 +6,8 @@
         description: Appliances used for space cooling, including air coolers,
             air conditioners, fans, etc.
     - Entertainment:
-        description: Appliances used for entertainment, including air coolers,
-            televisions, computers, gaming, etc.
+        description: Appliances used for entertainment, including televisions, 
+            computers, gaming, etc.
     - Refrigeration:
         description: Appliances used for food refregeration and preservation,
             including refrigerators, freezers, etc.
