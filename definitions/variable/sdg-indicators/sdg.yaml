@@ -170,37 +170,78 @@
     unit: km3/yr
     sdg: 6
     tier: 2
-- Useful Energy|Transportation|Passenger [per capita]:
-    description: Useful energy per capita for passenger transport
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Industry [per capita]:
-    description: Useful energy per capita for industry
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Residential and Commercial [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Residential [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
-- Useful Energy|Commercial [per capita]:
-    description: Useful energy per capita for buildings
-    unit: GJ/cap/yr
-    sdg: 7
-    weight: Population
+- Useful Energy:
+    description: Useful energy consumption by all end-use sectors and all fuels, including non-energy use, excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy (w/o bunkers):
+    description: Useful energy consumption by all end-use sectors and all fuels including non-energy use, excluding international aviation and shipping (see 'Useful Energy|Bunkers|*') and excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Agriculture:
+    description: Useful energy consumption by the agriculture sector including fishing
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Bunkers:
+    description: Useful energy consumption by the international aviation and shipping
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Carbon Management:
+    desciption: Total energy use for carbon management, i.e., capture and/or removal of CO2
+    unit: EJ/yr
+    tier: 3
+    note: Report in fuel-equivalent
+- Useful Energy|Commercial:
+    desciption: Useful energy consumption by the commercial sector
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Industry:
+    description: Useful energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks)
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Other Sector:
+    description: Useful energy consumption by the other sectors
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Residential:
+    description: Useful energy consumption by the residential sector
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Residential and Commercial:
+    description: Useful energy consumption by the residential and commercial sector
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation:
+    description: Useful energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers')
+    unit: EJ/yr
+    tier: 1
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation|Passenger:
+    description: Useful energy for passenger transport
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
+- Useful Energy|Transportation (w/ bunkers):
+    description: Useful energy consumption by the transportation sector including international aviation and shipping
+    unit: EJ/yr
+    tier: 2
+    note: Report in fuel-equivalent
 - Energy Service|Transportation|Freight:
     description: Energy service demand for freight transport
     unit: billion tkm/yr
 - Energy Service|Transportation|Passenger:
     description: Energy service demand for passenger transport
     unit: billion pkm/yr
+    tier: 1
 - Energy Service|Transportation|Passenger|Road:
     description: Energy service demand for passenger transport on roads
     unit: billion pkm/yr
@@ -227,6 +268,7 @@
     unit: °C-days
     sdg: 7
     skip-region-aggregation: true
+    tier: 2
     #     weight: Energy Service|Residential|Floor Space
 - Energy Service|Residential|Heating Degree Days:
     description: Measure of how cold the temperature was over a given period
@@ -234,6 +276,7 @@
     unit: °C-days
     sdg: 7
     skip-region-aggregation: true
+    tier: 2
     #     weight: Energy Service|Residential|Floor Space
 - Final Energy|Industry|Electricity [Share]:
     description: Share of electricity in final energy demand for industry
@@ -315,7 +358,7 @@
     shape: Material recycling|{Recycled Materials}|Share
 - Agricultural Material Footprint [per capita]:
     description: Biomass usage per capita excluding pasture and forestry
-    unit: tDM/cap/yr
+    unit: t DM/cap/yr
     sdg: 12
     weight: Population
     shape: Agricultural Material Footprint

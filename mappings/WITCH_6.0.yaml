@@ -4,7 +4,7 @@ native_regions:
   - brazil: WITCH 6.0|Brazil
   - canada: WITCH 6.0|Canada
   - china: WITCH 6.0|China
-  - europe: WITCH 6.0|Europe (EU+EFTA+Balkan Countries and Turkey)
+  - europe: WITCH 6.0|Europe
   - india: WITCH 6.0|India
   - indonesia: WITCH 6.0|Indonesia
   - jpnkor: WITCH 6.0|Japan and Korea
@@ -15,9 +15,9 @@ native_regions:
   - sasia: WITCH 6.0|South Asia
   - seasia: WITCH 6.0|South East Asia
   - southafrica: WITCH 6.0|South Africa
-  - ssa: WITCH 6.0|Sub Saharan Africa
+  - ssa: WITCH 6.0|Sub-Saharan Africa
   - te: WITCH 6.0|Non-EU Eastern European and Transition Countries
-  - usa: WITCH 6.0|United States of America
+  - usa: WITCH 6.0|United States
 common_regions:
   - World:
       - brazil

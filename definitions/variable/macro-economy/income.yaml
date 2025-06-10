@@ -1,0 +1,8 @@
+- Income|{Population Deciles} [Share]:
+    description: Share of net income of the {Population Deciles} decile in total income
+    unit: '%'
+    tier: 2
+    range: [ 0, 100 ]
+    skip-region-aggregation: true
+    navigate: Income|{Population Deciles}
+    engage: Income|{Population Deciles}

@@ -1,5 +1,5 @@
 - Energy Service|{Residential & Commercial}|Floor Space:
     description: Energy service demand for conditioned floor space
       in {Residential & Commercial} buildings
-    unit: bn m2
+    unit: billion m2
     tier: 2

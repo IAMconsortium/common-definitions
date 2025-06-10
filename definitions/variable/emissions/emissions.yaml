@@ -70,8 +70,27 @@
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
+    components:
+      - Gross Removals|CO2|AFOLU|Intentional
+      - Gross Removals|CO2|AFOLU|Unintentional
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
       Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+- Gross Removals|CO2|AFOLU|Intentional:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      due to intentional carbon dioxide removals ('Carbon Removal|Land Use')
+    unit: Mt CO2/yr
+    tier: 2
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
+- Gross Removals|CO2|AFOLU|Unintentional:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      due to unintentional or indirect removals,
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
+      after wood harvest or regrowth of timber plantations
+    unit: Mt CO2/yr
+    tier: 2
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
@@ -197,7 +216,7 @@
       - Gross Emissions|CO2|Industrial Processes
 
 - Emissions|{Level-2 Species}|Energy:
-    description: Emissions of carbon dioxide (CO2) from energy use, including
+    description: Emissions of {Level-2 Species} from energy use, including
       fugitive emissions from fuels (IPCC category 1A (except manufacturing 1A2
       and other unspecified 1A5), 1B), reporting the sum of sources and sinks, including negative
       emissions from carbon capture and removal using BECCS and other forms of CCS on energy supply

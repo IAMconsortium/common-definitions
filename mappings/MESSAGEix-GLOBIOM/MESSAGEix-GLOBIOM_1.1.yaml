@@ -1,0 +1,65 @@
+model: MESSAGEix-GLOBIOM 1.1
+native_regions:
+  - R11_AFR: MESSAGEix-GLOBIOM 1.1|Sub-Saharan Africa
+  - R11_CPA: MESSAGEix-GLOBIOM 1.1|Centrally Planned Asia and China
+  - R11_EEU: MESSAGEix-GLOBIOM 1.1|Eastern Europe
+  - R11_FSU: MESSAGEix-GLOBIOM 1.1|Former Soviet Union
+  - R11_LAM: MESSAGEix-GLOBIOM 1.1|Latin America and the Caribbean
+  - R11_MEA: MESSAGEix-GLOBIOM 1.1|Middle East and North Africa
+  - R11_NAM: MESSAGEix-GLOBIOM 1.1|North America
+  - R11_PAO: MESSAGEix-GLOBIOM 1.1|Pacific OECD
+  - R11_PAS: MESSAGEix-GLOBIOM 1.1|Other Pacific Asia
+  - R11_SAS: MESSAGEix-GLOBIOM 1.1|South Asia
+  - R11_WEU: MESSAGEix-GLOBIOM 1.1|Western Europe
+common_regions:
+  - World:
+      - R11_AFR
+      - R11_CPA
+      - R11_EEU
+      - R11_FSU
+      - R11_LAM
+      - R11_MEA
+      - R11_NAM
+      - R11_PAO
+      - R11_PAS
+      - R11_SAS
+      - R11_WEU
+
+  - Asia (R5):
+      - R11_CPA
+      - R11_PAS
+      - R11_SAS
+  - Latin America (R5):
+      - R11_LAM
+  - Middle East & Africa (R5):
+      - R11_AFR
+      - R11_MEA
+  - OECD & EU (R5):
+      - R11_EEU
+      - R11_NAM
+      - R11_PAO
+      - R11_WEU
+  - Reforming Economies (R5):
+      - R11_FSU
+
+  - Africa (R10):
+      - R11_AFR
+  - China+ (R10):
+      - R11_CPA
+  - Europe (R10):
+      - R11_EEU
+      - R11_WEU
+  - India+ (R10):
+      - R11_SAS
+  - Latin America (R10):
+      - R11_LAM
+  - Middle East (R10):
+      - R11_MEA
+  - North America (R10):
+      - R11_NAM
+  - Pacific OECD (R10):
+      - R11_PAO
+  - Reforming Economies (R10):
+      - R11_FSU
+  - Rest of Asia (R10):
+      - R11_PAS

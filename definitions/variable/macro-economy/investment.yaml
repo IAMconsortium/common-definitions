@@ -9,11 +9,6 @@
     description: Investments in the energy supply system
     unit: billion USD_2010/yr
     tier: 1
-- Investment|Energy Supply|Electricity:
-    description: Investments in electricity generation and supply
-      including storage and transmission-distribution infrastructure
-    unit: billion USD_2010/yr
-    tier: 1
 - Investment|Energy Supply|Extraction|{Primary Fossil Fuel}:
     description: Investments for extraction, transportation and conversion of
       {Primary Fossil Fuel}
@@ -36,6 +31,25 @@
     tier: 1
     notes: For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the costs related to CO2 transport and storage.
+- Investment|Energy Supply|Electricity:
+    description: Investments in electricity generation and supply
+      including storage and transmission-distribution infrastructure
+    unit: billion USD_2010/yr
+    tier: 1
+- Investment|Energy Supply|Electricity|{Electricity Source}:
+    description: Investments in electricity generation capacity from {Electricity Source}
+    unit: billion USD_2010/yr
+    tier: 1
+- Investment|Energy Supply|Electricity|Storage:
+    description: Investments in electricity storage capacity
+    unit: billion USD_2010/yr
+    tier: 2
+    engage: Investment|Energy Supply|Electricity|Electricity Storage
+    navigate: Investment|Energy Supply|Electricity|Electricity Storage
+- Investment|Energy Supply|Electricity|Transmission and Distribution:
+    description: Investments in electricity transmission and distribution infrastructure
+    unit: billion USD_2010/yr
+    tier: 2
 
 - Investment|Energy Efficiency:
     description: Investments in efficiency-increasing components of energy demand
