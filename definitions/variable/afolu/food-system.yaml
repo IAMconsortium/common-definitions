@@ -28,6 +28,12 @@
     sdg: 2
     weight: Population
     tier: 3
+- Food Availability|Secondary Products [per capita]:
+    description: Amount of secondary products (e.g. oils and sugar) available per capita for consumption
+    unit: kcal/cap/day
+    sdg: 2
+    weight: Population
+    tier: 2
 
 - Food Intake [per capita]:
     description: Amount of crops and livestock products consumed per capita
@@ -59,6 +65,12 @@
     sdg: 2
     weight: Population
     tier: 3
+- Food Intake|Secondary Products [per capita]:
+    description: Amount of secondary products (e.g. oils and sugar) consumed per capita
+    unit: kcal/cap/day
+    sdg: 2
+    weight: Population
+    tier: 2
 
 - Food Waste [per capita]:
     description: Amount of food (crops and livestock) per capita that is disposed and
