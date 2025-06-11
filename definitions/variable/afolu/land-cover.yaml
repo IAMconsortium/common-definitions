@@ -26,6 +26,14 @@
     description: Cropland for {Crop Types}
     unit: million ha
     tier: 2
+- Land Cover|Cropland|Fallow:
+    description: Fallow cropland
+    unit: million ha
+    tier: 2
+- Land Cover|Cropland|Trees:
+    description: Trees for agroforesty
+    unit: million ha
+    tier: 2
 - Land Cover|Cropland|Rainfed:
     description: Rainfed cropland (physical area)
     unit: million ha
