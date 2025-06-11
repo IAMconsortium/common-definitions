@@ -22,10 +22,6 @@
     unit: million ha
     agmip: Land Cover (LAND) - All crops (CRP)
     tier: 1
-    components:
-      - Land Cover|Cropland|{Crop Types}
-      - Land Cover|Cropland|Fallow
-      - Land Cover|Cropland|Trees
 - Land Cover|Cropland|{Crop Types}:
     description: Cropland for {Crop Types}
     unit: million ha
