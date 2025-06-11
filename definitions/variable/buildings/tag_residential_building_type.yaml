@@ -1,13 +1,19 @@
 - Residential Building Type:
-    - Appartment:
-        description: Appartment households
-    - Detached:
-        description: Detached households
-    - High-rise:
-        description: High-rise households
-    - Semi-detached:
-        description: Semi-detached households
+    - Single Family Housing:
+        description: Residential building that houses a single family 
+            (i.e. detached houses)
+    - Multi Family Housing:
+        description: Residential building that houses multiple families 
+            (i.e. semi-detached, appartments, etc.)
     - Slum:
-        description: Slum households
+        description: Informal households of mixed type
 
-
+- Residential Unit Type:
+    - Single Family Housing|Detached:
+        description: Detached households
+    - Multi Family Housing|Appartment:
+        description: Appartment households
+    - Multi Family Housing|High-rise:
+        description: High-rise households
+    - Multi Family Housing|Semi-detached:
+        description: Semi-detached households
