@@ -1,5 +1,15 @@
-- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliances}:
-    description: Ownership of appliances per household and appliance category
+- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliance group}:
+    description: Ownership of appliances per household and appliance group
+    unit: units/household
+    tier: 3
+
+- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliance}:
+    description: Ownership of appliances per household and appliance 
+    unit: units/household
+    tier: 3
+
+- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliance group}:
+    description: Ownership of appliances per household and appliance group
     unit: units/household
     tier: 3
 
@@ -29,7 +39,6 @@
     description: Households which have net-zero or positive energy balance 
     unit: households
     tier: 2
-
 
 - Population|Appliance Access|{Appliances}|{Urban and Rural}:
     description: Population with steady access to appliances per appliance
