@@ -1,4 +1,4 @@
-- Appliances:
+- Appliance group:
     - Cleaning:
         description: Appliances used for cleaning, including vaccuum cleaners,
             dish washers, washing machines, clothes dryers, etc.
@@ -15,4 +15,17 @@
         description: Appliances used in housseholds not falling under the other
          categories
 
-
+- Appliance:
+    - Cleaning|Dish washer:
+        description: Dishwashers
+    - Cleaning|Washing machine:
+        description: Washing machine for clothes and fabrics
+    - Cleaning|Clothes dryer:
+        description: Clothes dryers
+    - Cooling|Air cooler:
+        description: Evaporative air coolers
+    - Cooling|Air conditioner:
+        description: Air conditioners and temperature control ventilation systems
+    - Cooling|fan:
+        description: Fans and small ventilation systems without temperature control
+    
