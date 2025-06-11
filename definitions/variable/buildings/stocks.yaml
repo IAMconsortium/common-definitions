@@ -12,7 +12,13 @@
 
 - Building Stock|Residential|{Urban and Rural}|Floor Space|{Residential Building Type}|{useful vs. gross}:
     description: Standing stock of floor space in residential (urban and rural)
-      buildings and residential building type
+      buildings and residential building type (i.e. singly or multi family buildings)
+    unit: billion m2
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|Floor Space|{Residential Unit Type}|{useful vs. gross}:
+    description: Standing stock of floor space in residential (urban and rural)
+      buildings and residential unit type
     unit: billion m2
     tier: 2
 
