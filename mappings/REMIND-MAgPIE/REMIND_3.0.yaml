@@ -90,6 +90,43 @@ common_regions:
   - Reforming Economies (R5):
       - REF
 
+  - European Union (R9):
+      # 12-region version of REMIND
+      - EUR
+      # 21-region version of REMIND
+      - DEU
+      - FRA
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - JPN
+      - CAZ
+      # 12-region version of REMIND
+      - NEU
+      # 21-region version of REMIND
+      - UKI
+      - NEN
+      - NES
+  - China (R9):
+      - CHA
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - OAS
+  - Reforming Economies (R9):
+      - REF
+  - Middle East & Africa (R9):
+      - MEA
+      - SSA
+  - Latin America (R9):
+      - LAM
+
   - Africa (R10):
       - SSA
   - China+ (R10):
