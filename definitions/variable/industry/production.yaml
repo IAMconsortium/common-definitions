@@ -1,3 +1,8 @@
+- Production|Iron and Steel:
+    description: Production of Iron and Steel
+    unit: Mt/yr
+    tier: 2
+
 - Production|Iron and Steel|{Iron Commodity}:
     description: Production of {Iron Commodity}
     unit: Mt/yr
@@ -5,6 +10,11 @@
     navigate: Production|Iron and Steel|{Iron Commodity}|Volume
     engage: Production|Iron and Steel|{Iron Commodity}|Volume
     ngfs5: Production|{Iron Commodity}
+
+- Production|Non-Metallic Minerals:
+    description: Production of Non-Metallic Minerals
+    unit: Mt/yr
+    tier: 2
 
 - Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
     description: Production of {Non-Metallic Minerals Commodity}

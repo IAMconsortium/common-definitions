@@ -37,10 +37,7 @@
         countries: India
     - IMACLIM 2.0|Japan, Australia, New Zealand and Korea:
         countries: [
-            Australia, Japan, New Zealand, South Korea, North Korea, New Caledonia,
-            Aruba, American Samoa, Cook Islands, Fiji, French Polynesia, Kiribati,
-            Marshall Islands, Micronesia, Nauru, Niue, Northern Mariana Islands, Palau,
-            Papua New Guinea, Samoa, Solomon Islands, Tokelau, Tonga, Tuvalu, Vanuatu
+            Australia, Japan, New Zealand, South Korea
         ]
     - IMACLIM 2.0|Middle East:
         countries: [
@@ -60,11 +57,13 @@
         ]
     - IMACLIM 2.0|Rest of Asia:
         countries: [
-            Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, Indonesia,
-            Kiribati, Laos, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
-            Myanmar, Nauru, Nepal, Niue, Northern Mariana Islands, Pakistan, Palau,
-            Papua New Guinea, Pitcairn, Philippines, Samoa, Singapore, Solomon Islands,
-            Sri Lanka, Timor-Leste, Thailand, Tokelau, Tonga, Tuvalu, Vanuatu, Viet Nam,
+            Afghanistan, American Samoa, Aruba, Bangladesh, Bhutan, Brunei Darussalam,
+            Cambodia, Cook Islands, Fiji, French Polynesia, Indonesia, Kiribati,
+            Laos, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
+            Myanmar, Nauru, Nepal, Niue, North Korea, Northern Mariana Islands,
+            New Caledonia, Pakistan, Palau, Papua New Guinea, Pitcairn, Philippines,
+            Samoa, Singapore, Solomon Islands, Sri Lanka, Timor-Leste, Thailand,
+            Tokelau, Tonga, Tuvalu, Vanuatu, Viet Nam,
             Hong Kong, Macao, Taiwan, Wallis and Futuna
         ]
     - IMACLIM 2.0|USA:

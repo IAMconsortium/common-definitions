@@ -38,7 +38,7 @@
     agmip:
     tier: 3
 - Agricultural Demand|Crops|Food:
-    description: Demand for food crops
+    description: Demand for food crops (primary and processed)
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Crops (CRP)
     tier: 2

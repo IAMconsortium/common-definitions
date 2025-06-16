@@ -1,0 +1,31 @@
+- Price|Carbon:
+    description: Price of carbon (as reported by the model)
+    unit: USD_2010/t CO2
+    region-aggregation:
+      - Price|Carbon [Mean]:
+          method: mean
+      - Price|Carbon [weighted by Emissions|CO2]:
+          weight: Emissions|CO2
+          drop_negative_weights: false
+      - Price|Carbon [weighted by Final Energy]:
+          weight: Final Energy
+    check-aggregate: false
+- Price|Carbon [Mean]:
+    description: Price of carbon (computed as unweighted mean across regions)
+    unit: USD_2010/t CO2
+    skip-region-aggregation: true
+- Price|Carbon [weighted by Emissions|CO2]:
+    description: Price of carbon (weighted by regional CO2 emissions)
+    unit: USD_2010/t CO2
+    skip-region-aggregation: true
+    notes: Regional CO2 emissions can turn negative at different points in time, which
+       can result in counter-intuitive aggregation results when used as weights for
+       the region-aggregation. Also the [weighted by Final Energy] methods is
+       complementary and overcomes other aggregation issues - regions with high carbon
+       prices can be associated with low emission levels, meaning its contribution
+       to the emission-weighted average of carbon prices will be low, regardless
+       of the share of the global energy system the carbon price is applied to.
+- Price|Carbon [weighted by Final Energy]:
+    description: Price of carbon (weighted by final energy consumption across regions)
+    unit: USD_2010/t CO2
+    skip-region-aggregation: true

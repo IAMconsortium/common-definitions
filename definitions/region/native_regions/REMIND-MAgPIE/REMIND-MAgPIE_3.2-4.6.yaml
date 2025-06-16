@@ -1,16 +1,16 @@
-- REMIND 3.1:
-    - REMIND 3.1|Canada, Australia, New Zealand:
+- REMIND-MAgPIE 3.2-4.6:
+    - REMIND-MAgPIE 3.2-4.6|Canada, Australia, New Zealand:
         countries: [
           Australia, Canada, Heard Island and McDonald Islands, New Zealand,
           Saint Pierre and Miquelon
         ]
-    - REMIND 3.1|China and Taiwan:
+    - REMIND-MAgPIE 3.2-4.6|China and Taiwan:
         countries: [ China, Hong Kong, Macao, Taiwan ]
-    - REMIND 3.1|India:
+    - REMIND-MAgPIE 3.2-4.6|India:
         countries: India
-    - REMIND 3.1|Japan:
+    - REMIND-MAgPIE 3.2-4.6|Japan:
         countries: Japan
-    - REMIND 3.1|Other Asia:
+    - REMIND-MAgPIE 3.2-4.6|Other Asia:
         countries: [
           Afghanistan, American Samoa, Bangladesh, Bhutan,
           British Indian Ocean Territory, Brunei Darussalam, Cambodia, Christmas Island,
@@ -23,7 +23,7 @@
           Tonga, Tuvalu, United States Minor Outlying Islands, Vanuatu, Viet Nam,
           Wallis and Futuna
         ]
-    - REMIND 3.1|Latin America and the Caribbean:
+    - REMIND-MAgPIE 3.2-4.6|Latin America and the Caribbean:
         countries: [
           Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
           Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
@@ -38,18 +38,18 @@
           Suriname, Trinidad and Tobago, Turks and Caicos Islands,
           United States Virgin Islands, Uruguay, Venezuela
         ]
-    - REMIND 3.1|Middle East and North Africa:
+    - REMIND-MAgPIE 3.2-4.6|Middle East and North Africa:
         countries: [
           Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
           Libya, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria,
           Tunisia, United Arab Emirates, Western Sahara, Yemen
         ]
-    - REMIND 3.1|Russia and Reforming Economies:
+    - REMIND-MAgPIE 3.2-4.6|Russia and Reforming Economies:
         countries: [
           Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
           Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
         ]
-    - REMIND 3.1|Sub-Saharan Africa:
+    - REMIND-MAgPIE 3.2-4.6|Sub-Saharan Africa:
         countries: [
           Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon,
           Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
@@ -61,10 +61,9 @@
           Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
           South Africa, South Sudan, Tanzania, Togo, Uganda, Zambia, Zimbabwe
         ]
-    - REMIND 3.1|United States of America:
+    - REMIND-MAgPIE 3.2-4.6|United States of America:
         countries: United States
-    # 12-region version of REMIND
-    - REMIND 3.1|EU 28:
+    - REMIND-MAgPIE 3.2-4.6|EU 28:
         countries: [
           Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
           Faroe Islands, Finland, France, Germany, Gibraltar, Gibraltar, Greece,
@@ -72,49 +71,9 @@
           Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania,
           Slovakia, Slovenia, Spain, Sweden, United Kingdom, Åland Islands
         ]
-    - REMIND 3.1|Non-EU28 Europe:
+    - REMIND-MAgPIE 3.2-4.6|Non-EU28 Europe:
         countries: [
           Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland,
           Liechtenstein, Monaco, Montenegro, North Macedonia, Norway, San Marino,
           Serbia, Svalbard and Jan Mayen, Switzerland, Turkey, Vatican
-        ]
-    # 21-region version of REMIND
-    - REMIND 3.1|Germany:
-        countries: Germany
-    - REMIND 3.1|France:
-        countries: France
-    - REMIND 3.1|United Kingdom and Ireland:
-        countries: [
-          Gibraltar, Guernsey, Ireland, Isle of Man, Jersey, United Kingdom
-        ]
-    - REMIND 3.1|EU Center-East Europe:
-        countries: [ Czechia, Estonia, Latvia, Lithuania, Poland, Slovakia ]
-    - REMIND 3.1|EU Center-South Europe:
-        countries: [ Bulgaria, Croatia, Hungary, Romania, Slovenia ]
-    - REMIND 3.1|EU North-Center Europe:
-        countries: [ Denmark, Faroe Islands, Finland, Sweden, Åland Islands ]
-    - REMIND 3.1|EU South-Center Europe:
-        countries: [ Cyprus, Greece, Italy, Malta ]
-    - REMIND 3.1|EU South-West Europe:
-        countries: [ Portugal, Spain ]
-    - REMIND 3.1|EU North-West Europe:
-        countries: [ Austria, Belgium, Luxembourg, Netherlands ]
-    - REMIND 3.1|Non-EU Northern Europe:
-        countries: [
-          Greenland, Iceland, Liechtenstein, Norway, Svalbard and Jan Mayen,
-          Switzerland
-        ]
-    - REMIND 3.1|Non-EU Southern Europe:
-        countries: [
-          Albania, Andorra, Bosnia and Herzegovina, Monaco, Montenegro,
-          North Macedonia, San Marino, Serbia, Turkey, Vatican
-        ]
-    # exogenously aggregated regions
-    - REMIND 3.1|EU 27:
-        notes: This is an aggregation of the six EU-27 regions in REMIND 3.1
-        countries: [
-          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
-          Faroe Islands, Finland, France, Germany, Greece, Hungary, Italy, Latvia,
-          Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania,
-          Slovakia, Slovenia, Spain, Sweden, Åland Islands
         ]
