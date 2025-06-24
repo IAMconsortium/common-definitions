@@ -31,9 +31,10 @@
     unit: million ha
     tier: 2
 - Land Cover|Cropland|Trees:
-    description: Trees for agroforesty
+    description: Trees on cropland for agroforesty
     unit: million ha
     tier: 2
+    notes: To prevent double-counting, this variable should include only the actual crop area specifically covered by trees, not the entire agroforestry landscape
 - Land Cover|Cropland|Rainfed:
     description: Rainfed cropland (physical area)
     unit: million ha
