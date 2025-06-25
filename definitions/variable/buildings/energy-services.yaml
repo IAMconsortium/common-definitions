@@ -35,7 +35,13 @@
     unit: households
     tier: 2
 
-- Population|Appliance Access|{Appliances}|{Urban and Rural}:
+- Population|Appliance Access|{Appliance group}|{Urban and Rural}:
+    description: Population with steady access to appliances per appliance
+        category
+    unit: million
+    tier: 2
+
+- Population|Appliance Access|{Appliance}|{Urban and Rural}:
     description: Population with steady access to appliances per appliance
         category
     unit: million
