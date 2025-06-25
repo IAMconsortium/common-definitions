@@ -4,15 +4,15 @@
             (i.e. detached houses)
     - Multi Family Housing:
         description: Residential building that houses multiple families 
-            (i.e. semi-detached, appartments, etc.)
+            (i.e. semi-detached, apartments, etc.)
     - Slum:
         description: Informal households of mixed type
 
 - Residential Unit Type:
     - Single Family Housing|Detached:
         description: Detached households
-    - Multi Family Housing|Appartment:
-        description: Appartment households
+    - Multi Family Housing|Apartment:
+        description: Apartment households
     - Multi Family Housing|High-rise:
         description: High-rise households
     - Multi Family Housing|Semi-detached:

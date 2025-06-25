@@ -26,6 +26,6 @@
         description: Evaporative air coolers
     - Cooling|Air conditioner:
         description: Air conditioners and temperature control ventilation systems
-    - Cooling|fan:
+    - Cooling|Fan:
         description: Fans and small ventilation systems without temperature control
     
