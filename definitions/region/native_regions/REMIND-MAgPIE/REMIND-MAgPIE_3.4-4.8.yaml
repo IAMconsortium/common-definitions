@@ -66,14 +66,14 @@
     - REMIND-MAgPIE 3.4-4.8|EU 28:
         countries: [
           Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
-          Faroe Islands, Finland, France, Germany, Gibraltar, Gibraltar, Greece,
-          Guernsey, Guernsey, Hungary, Ireland, Isle of Man, Italy, Italy, Jersey,
+          Faroe Islands, Finland, France, Germany, Gibraltar, Greece,
+          Guernsey, Hungary, Ireland, Isle of Man, Italy, Jersey,
           Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania,
           Slovakia, Slovenia, Spain, Sweden, United Kingdom, Åland Islands
         ]
     - REMIND-MAgPIE 3.4-4.8|Non-EU28 Europe:
         countries: [
-          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland,
+          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland, Kosovo,
           Liechtenstein, Monaco, Montenegro, North Macedonia, Norway, San Marino,
           Serbia, Svalbard and Jan Mayen, Switzerland, Turkey, Vatican
         ]
