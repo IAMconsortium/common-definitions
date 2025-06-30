@@ -41,12 +41,18 @@
     description: Population with access to improved drinking  water sources
     unit: million
 - Expenditure|Households|Food [Share]:
-    description: Share of food expenditure in total income
+    description: Share of food expenditure in total income (including value added from food processing chain)
     unit: '%'
     range: [ 0, 100 ]
     sdg: 1
     weight: GDP|PPP
     shape: Expenditure Share|Food
+- Expenditure|Households|Agriculture [Share]:
+    description: Expenditure share for agricultural products in total income based on farm-gate prices (without value added from food processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 1
+    weight: GDP|PPP
 - Population|Prevalence of Underweight:
     description: Number of adults with body mass index (BMI) lower than 18.5 and
       children with BMI lower than two standard deviations from reference
