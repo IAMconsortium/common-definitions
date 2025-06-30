@@ -197,12 +197,12 @@
     tier: 2
     note: Report in fuel-equivalent
 - Useful Energy|Carbon Management:
-    desciption: Total energy use for carbon management, i.e., capture and/or removal of CO2
+    description: Total energy use for carbon management, i.e., capture and/or removal of CO2
     unit: EJ/yr
     tier: 3
     note: Report in fuel-equivalent
 - Useful Energy|Commercial:
-    desciption: Useful energy consumption by the commercial sector
+    description: Useful energy consumption by the commercial sector
     unit: EJ/yr
     tier: 2
     note: Report in fuel-equivalent
