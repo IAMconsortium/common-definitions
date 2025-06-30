@@ -167,10 +167,17 @@
 
 # Crop Yields
 - Yield|Cropland|{Crop Types}:
-    description: Yield of cropland with {Crop Types}
+    description: Yield of {Crop Types}, calculated as production (dry matter) divided by physical cropland area
     unit: t DM/ha/yr
     weight: Land Cover|Cropland|{Crop Types}
     tier: 2
+    notes: Yields in FAOSTAT are reported on wet matter basis for harvested cropland area
+- Yield|Cropland|{Crop Types} [Harvested Area]:
+    description: Yield of {Crop Types}, calculated as production (dry matter) divided by harvested cropland area
+    unit: t DM/ha/yr
+    weight: Land Cover|Cropland|{Crop Types}
+    tier: 2
+    notes: Yields in FAOSTAT are reported on wet matter basis for harvested cropland area
 
 # Agricultural Prices
 - Price|Agriculture|Food Products [Index]:
