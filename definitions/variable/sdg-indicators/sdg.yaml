@@ -47,7 +47,7 @@
     sdg: 1
     weight: GDP|PPP
     shape: Expenditure Share|Food
-- Expenditure|Households|Agriculture [Share]:
+- Expenditure|Households|Food|Agriculture [Share]:
     description: Expenditure share for agricultural products in total income based on farm-gate prices (without value added from food processing chain)
     unit: '%'
     range: [ 0, 100 ]
