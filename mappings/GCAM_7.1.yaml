@@ -120,7 +120,6 @@ common_regions:
       - Canada
       - Japan
       - Australia_NZ
-      - South Korea
       - Europe_Non_EU
       - European Free Trade Association
   - China (R9):
@@ -131,6 +130,7 @@ common_regions:
       - Indonesia
       - Pakistan
       - South Asia
+      - South Korea
       - Southeast Asia
       - Taiwan
   - Reforming Economies (R9):
@@ -162,6 +162,7 @@ common_regions:
       - South Africa
   - China+ (R10):
       - China
+      - South Korea
   - Europe (R10):
       - EU-12
       - EU-15
@@ -186,7 +187,6 @@ common_regions:
   - Pacific OECD (R10):
       - Japan
       - Australia_NZ
-      - South Korea
   - Reforming Economies (R10):
       - Russia
       - Central Asia   
@@ -208,6 +208,8 @@ common_regions:
       - India
   - Japan:
       - Japan
+  - South Korea:
+      - South Korea
   - United States:
       - USA
   - African Union:
