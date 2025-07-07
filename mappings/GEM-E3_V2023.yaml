@@ -1,0 +1,132 @@
+model: GEM-E3 V2023
+native_regions:
+  - ARG: GEM-E3 V2023|Argentina
+  - BRA: GEM-E3 V2023|Brazil
+  - CAN: GEM-E3 V2023|Canada
+  - CHN: GEM-E3 V2023|China
+  - EU28: GEM-E3 V2023|EU28
+  - IDN: GEM-E3 V2023|Indonesia
+  - IND: GEM-E3 V2023|India
+  - JPN: GEM-E3 V2023|Japan
+  - KOR: GEM-E3 V2023|South Korea
+  - MEX: GEM-E3 V2023|Mexico
+  - OCE: GEM-E3 V2023|Australia and New Zealand
+  - REP: GEM-E3 V2023|Rest of Fossil Fuel Producers
+  - REU: GEM-E3 V2023|Rest of Europe
+  - ROW: GEM-E3 V2023|Rest of the World
+  - RUS: GEM-E3 V2023|Russian Federation
+  - SAF: GEM-E3 V2023|South Africa
+  - SAR: GEM-E3 V2023|Saudi Arabia
+  - TUR: GEM-E3 V2023|Turkey
+  - USA: GEM-E3 V2023|USA
+common_regions:
+  - World:
+      - ARG
+      - BRA
+      - CAN
+      - CHN
+      - EU28
+      - IDN
+      - IND
+      - JPN
+      - KOR
+      - MEX
+      - OCE
+      - REP
+      - REU
+      - ROW
+      - RUS
+      - SAF
+      - SAR
+      - TUR
+      - USA
+
+  - Asia (R5):
+      - CHN
+      - IND
+      - KOR
+      - IDN
+  - Latin America (R5):
+      - ARG
+      - MEX
+      - BRA
+  - Middle East & Africa (R5):
+      - SAR
+      - REP
+      - SAF
+  - OECD & EU (R5):
+      - EU28
+      - USA
+      - CAN
+      - JPN
+      - OCE
+      - REU
+      - TUR
+  - Reforming Economies (R5):
+      - RUS
+  - Other (R5):
+      - ROW
+
+  - Africa (R10):
+      - SAF
+  - China+ (R10):
+      - CHN
+  - Europe (R10):
+      - EU28
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - BRA
+      - MEX
+      - ARG
+  - Middle East (R10):
+      - SAR
+      - REP
+  - North America (R10):
+      - USA
+      - CAN
+  - Reforming Economies (R10):
+      - RUS
+      - REU
+  - Rest of Asia (R10):
+      - KOR
+      - IDN
+      - TUR
+  - Pacific OECD (R10):
+      - JPN
+      - OCE
+  - Other (R10):
+      - ROW
+
+  - Argentina:
+      - ARG
+  - Australia:
+      - OCE
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHN
+  - European Union and United Kingdom:
+      - EU28
+  - India:
+      - IDN
+  - Indonesia:
+      - IND
+  - Japan:
+      - JPN
+  - Mexico:
+      - MEX
+  - South Korea:
+      - KOR
+  - Russian Federation:
+      - RUS
+  - South Africa:
+      - SAF
+  - Saudi Arabia:
+      - SAR
+  - Turkey:
+      - TUR
+  - United States:
+      - USA
