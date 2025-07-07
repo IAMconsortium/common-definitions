@@ -72,8 +72,8 @@ common_regions:
   - India:
       - R11_SAS
   - Japan:
-      - R12_PAO
+      - R11_PAO
   - Russian Federation:
-      - R12_FSU
+      - R11_FSU
   - United States:
       - R11_NAM
