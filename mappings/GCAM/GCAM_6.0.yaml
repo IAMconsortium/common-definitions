@@ -70,7 +70,6 @@ common_regions:
 
   # R5 regions
   - Asia (R5):
-      - Central Asia
       - China
       - India
       - Indonesia
@@ -98,12 +97,13 @@ common_regions:
       - USA
       - Australia_NZ
       - Canada
+      - EU-12
       - EU-15
       - Europe_Non_EU
       - European Free Trade Association
       - Japan
   - Reforming Economies (R5):
-      - EU-12
+      - Central Asia
       - Europe_Eastern
       - Russia
 
