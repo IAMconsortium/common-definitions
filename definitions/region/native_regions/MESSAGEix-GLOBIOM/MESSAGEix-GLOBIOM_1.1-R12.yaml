@@ -3,11 +3,12 @@
         countries: [
           Angola, Benin, Congo, Democratic Republic of the Congo, Burundi, Cameroon,
           Chad, Comoros, Central African Republic, Cabo Verde, Djibouti,
-          Equatorial Guinea, Eswatini, Eritrea, Ethiopia, Gambia, Gabon, Ghana, Guinea, Côte d'Ivoire,
-          Kenya, Liberia, Madagascar, Mali, Mauritius, Mauritania, Mozambique, Malawi,
-          Niger, Nigeria, Guinea-Bissau, Rwanda, Seychelles, South Africa, Lesotho,
-          Botswana, Senegal, Sierra Leone, Somalia, Togo, Sao Tome and Principe,
-          Tanzania, Uganda, Burkina Faso, Namibia, Zambia, Zimbabwe, Western Sahara
+          Equatorial Guinea, Eswatini, Eritrea, Ethiopia, Gambia, Gabon, Ghana, Guinea,
+          Côte d'Ivoire, Kenya, Liberia, Madagascar, Mali, Mauritius, Mauritania,
+          Mozambique, Malawi, Niger, Nigeria, Guinea-Bissau, Rwanda, Seychelles,
+          South Africa, Lesotho, Botswana, Senegal, Sierra Leone, Somalia, Togo,
+          Sao Tome and Principe, Tanzania, Uganda, Burkina Faso, Namibia, Zambia,
+          Zimbabwe, Western Sahara
         ]
     - MESSAGEix-GLOBIOM 1.1-R12|Rest of Centrally Planned Asia:
         countries: [
