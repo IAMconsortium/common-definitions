@@ -63,3 +63,17 @@ common_regions:
       - R11_FSU
   - Rest of Asia (R10):
       - R11_PAS
+
+  - China:
+      - R11_CPA
+  - European Union and United Kingdom:
+      - R11_EEU
+      - R11_WEU
+  - India:
+      - R11_SAS
+  - Japan:
+      - R12_PAO
+  - Russian Federation:
+      - R12_FSU
+  - United States:
+      - R11_NAM
