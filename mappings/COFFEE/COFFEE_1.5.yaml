@@ -64,6 +64,35 @@ common_regions:
       - CA
       - SM
 
+  #   R9 regions
+  - European Union (R9):
+      - EU
+  - USA (R9):
+      - US
+  - Other OECD (R9):
+      - AU
+      - CD
+      - JP
+  - China (R9):
+      - CH
+  - India (R9):
+      - IN
+  - Other Asia (R9):
+      - KR
+      - RA
+  - Reforming Economies (R9):
+      - CP
+      - RU
+      - XE
+  - Latin America (R9):
+      - BR
+      - CA
+      - SM
+  - Middle East & Africa (R9):
+      - AF
+      - ME
+      - SF
+
   # R10 regions
   - Africa (R10):
       - AF
@@ -93,35 +122,6 @@ common_regions:
       - RU
   - Rest of Asia (R10):
       - RA
-  
-  #   R9 regions
-  - European Union (R9):
-      - EU
-  - USA (R9):
-      - US
-  - Other OECD (R9):
-      - AU
-      - CD
-      - JP
-  - China (R9):
-      - CH
-  - India (R9):
-      - IN
-  - Other Asia (R9):
-      - KR
-      - RA
-  - Reforming Economies (R9):
-      - CP
-      - RU
-      - XE
-  - Latin America (R9):
-      - BR
-      - CA
-      - SM
-  - Middle East & Africa (R9):
-      - AF
-      - ME
-      - SF
 
   # mapping for G20 members
   - European Union and United Kingdom:

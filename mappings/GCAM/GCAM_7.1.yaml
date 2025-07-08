@@ -71,7 +71,7 @@ common_regions:
       - Taiwan
       - USA
 
-    # R5 regions
+  # R5 regions
   - Asia (R5):
       - China
       - India
@@ -153,7 +153,7 @@ common_regions:
       - Africa_Western
       - South Africa
 
-    # R10 regions
+  # R10 regions
   - Africa (R10):
       - Africa_Eastern
       - Africa_Northern
@@ -197,7 +197,7 @@ common_regions:
       - Southeast Asia
       - Taiwan
 
-  # mapping for G20 members
+  # G20 members
   - Brazil:
       - Brazil
   - Canada:
