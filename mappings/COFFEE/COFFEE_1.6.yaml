@@ -99,6 +99,7 @@ common_regions:
       - SF
   - China+ (R10):
       - CH
+      - KR
   - Europe (R10):
       - EU
       - XE
@@ -120,7 +121,6 @@ common_regions:
       - CP
       - RU
   - Rest of Asia (R10):
-      - KR
       - RA
 
   # G20 members
