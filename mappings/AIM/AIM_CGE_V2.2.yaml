@@ -37,6 +37,7 @@ common_regions:
       - XNF
       - XAF
 
+  # R5 regions
   - Asia (R5):
       - CHN
       - IND
@@ -60,6 +61,7 @@ common_regions:
   - Reforming Economies (R5):
       - CIS
 
+  # R10 regions
   - Africa (R10):
       - XNF
       - XAF
@@ -88,6 +90,7 @@ common_regions:
       - JPN
       - XOC
 
+  # G20 members
   - Brazil:
       - BRA
   - China:
