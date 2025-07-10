@@ -1,0 +1,79 @@
+- MESSAGEix-GLOBIOM 2.0-R12:
+    - MESSAGEix-GLOBIOM 2.0-R12|Sub-Saharan Africa:
+        countries: [
+          Angola, Benin, Congo, Democratic Republic of the Congo, Burundi, Cameroon,
+          Chad, Comoros, Central African Republic, Cabo Verde, Djibouti,
+          Equatorial Guinea, Eswatini, Eritrea, Ethiopia, Gambia, Gabon, Ghana, Guinea,
+          Côte d'Ivoire, Kenya, Liberia, Madagascar, Mali, Mauritius, Mauritania,
+          Mozambique, Malawi, Niger, Nigeria, Guinea-Bissau, Rwanda, Seychelles,
+          South Africa, Lesotho, Botswana, Senegal, Sierra Leone, Somalia, Togo,
+          Sao Tome and Principe, Tanzania, Uganda, Burkina Faso, Namibia, Zambia,
+          Zimbabwe, Western Sahara
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Rest of Centrally Planned Asia:
+        countries: [
+          Cambodia, North Korea, Laos, Mongolia, Macao, Viet Nam
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|China:
+        countries: [ China, Hong Kong ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe:
+        countries: [
+          Albania, Bosnia and Herzegovina, Bulgaria, Estonia, Czechia, Croatia,
+          Hungary, Kosovo, Latvia, Lithuania, Slovakia, North Macedonia, Montenegro,
+          Poland, Romania, Slovenia, Serbia
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Former Soviet Union:
+        countries: [
+          Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Belarus, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Latin America and the Caribbean:
+        countries: [
+          Antigua and Barbuda, Argentina, Barbados, Bermuda, Bahamas, Belize, Bolivia,
+          'Bonaire, Sint Eustatius and Saba', Brazil, Chile, Cayman Islands, Colombia,
+          Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador,
+          French Guiana, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti,
+          Honduras, Jamaica, Martinique, Montserrat, Mexico, Aruba, Anguilla, Suriname,
+          Nicaragua, Paraguay, Peru, Panama, Saint Kitts and Nevis, Saint Lucia,
+          Trinidad and Tobago, Uruguay, Saint Vincent and the Grenadines, Venezuela,
+          Guadeloupe, Turks and Caicos Islands
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Middle East and North Africa:
+        countries: [
+          Algeria, Bahrain, Egypt, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Libya,
+          Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, South Sudan, Syria,
+          Tunisia, Yemen, United Arab Emirates
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|North America:
+        countries: [
+          Canada, Guam, United States Minor Outlying Islands, Puerto Rico, United States,
+          United States Virgin Islands
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Pacific OECD:
+        countries: [
+          Australia, Japan, New Zealand, Christmas Island,
+          Heard Island and McDonald Islands, Tokelau
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Other Pacific Asia:
+        countries: [
+          American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cook Islands, Fiji,
+          Micronesia, French Polynesia, Kiribati, South Korea, Malaysia, New Caledonia,
+          Niue, Northern Mariana Islands, Cocos (Keeling) Islands, Vanuatu, Nauru,
+          Papua New Guinea, Philippines, Singapore, Thailand, Tonga, Tuvalu, Samoa,
+          Indonesia, Timor-Leste, Palau, Marshall Islands, Taiwan
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|South Asia:
+        countries: [
+          Bangladesh, Sri Lanka, Afghanistan, Bhutan, India, Maldives, Nepal, Pakistan
+        ]
+    - MESSAGEix-GLOBIOM 2.0-R12|Western Europe:
+        countries: [
+          Cyprus, Denmark, Ireland, Austria, Finland, France, Greenland, Germany, Greece,
+          Iceland, Italy, Liechtenstein, Malta, Belgium, Faroe Islands, Andorra,
+          Gibraltar, Isle of Man, Luxembourg, Monaco, Mayotte, Åland Islands,
+          Norfolk Island, British Indian Ocean Territory, Netherlands, Norway, Portugal,
+          Réunion, Spain, Sweden, Switzerland, Turkey, United Kingdom,
+          British Virgin Islands, Wallis and Futuna, Pitcairn, Saint Pierre and Miquelon,
+          San Marino, Vatican, Svalbard and Jan Mayen, Saint Martin (French part),
+          Saint Barthélemy, Guernsey, Jersey, South Georgia and the South Sandwich Islands
+        ]
