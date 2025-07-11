@@ -22,6 +22,12 @@
       and the current reported time step.
     unit: million ha/yr
     tier: 3
+- Forest Area Change|Deforestation|Planted:
+    description: Annual gross loss of planted forest area
+    notes: This variable should be computed as yearly average change between the previous
+      and the current reported time step.
+    unit: million ha/yr
+    tier: 3
 - Forest Area Change|Forest Expansion:
     description: Annual gross expansion of forest area
     notes: This variable should be computed as yearly average change between the previous
