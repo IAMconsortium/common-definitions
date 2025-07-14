@@ -29,6 +29,7 @@ common_regions:
       - EUR
       - NEU
 
+  # R5 regions
   - Asia (R5):
       - CHA
       - IND
@@ -47,6 +48,7 @@ common_regions:
   - Reforming Economies (R5):
       - REF
 
+  # R9 regions
   - European Union (R9):
       - EUR
   - USA (R9):
@@ -69,6 +71,7 @@ common_regions:
   - Latin America (R9):
       - LAM
 
+  # R10 regions
   - Africa (R10):
       - SSA
   - China+ (R10):
@@ -92,3 +95,15 @@ common_regions:
       - JPN
   - Other (R10):
       - CAZ
+
+  # mapping for G20 members
+  - China:
+      - CHA
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - United States:
+      - USA
+  - European Union and United Kingdom:
+      - EUR
