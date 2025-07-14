@@ -8,7 +8,7 @@ native_regions:
   - Africa_Southern: GCAM 7.1|Africa_Southern
   - Africa_Western: GCAM 7.1|Africa_Western
   - Argentina: GCAM 7.1|Argentina
-  - Australia_NZ: GCAM 7.1|Australia_NZ
+  - Australia_NZ: GCAM 7.1|Australia and New Zealand
   - Brazil: GCAM 7.1|Brazil
   - Canada: GCAM 7.1|Canada
   - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
@@ -70,10 +70,9 @@ common_regions:
       - Southeast Asia
       - Taiwan
       - USA
-            
-    # R5 regions
+
+  # R5 regions
   - Asia (R5):
-      - Central Asia
       - China
       - India
       - Indonesia
@@ -101,15 +100,16 @@ common_regions:
       - USA
       - Australia_NZ
       - Canada
+      - EU-12
       - EU-15
       - Europe_Non_EU
       - European Free Trade Association
       - Japan
   - Reforming Economies (R5):
-      - EU-12
+      - Central Asia
       - Europe_Eastern
       - Russia
-      
+
   # R9 regions
   - European Union (R9):
       - EU-12
@@ -120,7 +120,6 @@ common_regions:
       - Canada
       - Japan
       - Australia_NZ
-      - South Korea
       - Europe_Non_EU
       - European Free Trade Association
   - China (R9):
@@ -131,17 +130,18 @@ common_regions:
       - Indonesia
       - Pakistan
       - South Asia
+      - South Korea
       - Southeast Asia
       - Taiwan
   - Reforming Economies (R9):
       - Russia
-      - Central Asia   
+      - Central Asia
       - Europe_Eastern
   - Latin America (R9):
       - Argentina
       - South America_Northern
       - South America_Southern
-      - Brazil   
+      - Brazil
       - Colombia
       - Central America and Caribbean
       - Mexico
@@ -152,8 +152,8 @@ common_regions:
       - Africa_Southern
       - Africa_Western
       - South Africa
-      
-    # R10 regions
+
+  # R10 regions
   - Africa (R10):
       - Africa_Eastern
       - Africa_Northern
@@ -162,6 +162,7 @@ common_regions:
       - South Africa
   - China+ (R10):
       - China
+      - South Korea
   - Europe (R10):
       - EU-12
       - EU-15
@@ -174,7 +175,7 @@ common_regions:
       - Argentina
       - South America_Northern
       - South America_Southern
-      - Brazil   
+      - Brazil
       - Colombia
       - Central America and Caribbean
       - Mexico
@@ -186,18 +187,17 @@ common_regions:
   - Pacific OECD (R10):
       - Japan
       - Australia_NZ
-      - South Korea
   - Reforming Economies (R10):
       - Russia
-      - Central Asia   
+      - Central Asia
   - Rest of Asia (R10):
       - Indonesia
       - Pakistan
       - South Asia
       - Southeast Asia
       - Taiwan
-      
-  # mapping for G20 members
+
+  # G20 members
   - Brazil:
       - Brazil
   - Canada:
@@ -208,6 +208,8 @@ common_regions:
       - India
   - Japan:
       - Japan
+  - South Korea:
+      - South Korea
   - United States:
       - USA
   - African Union:

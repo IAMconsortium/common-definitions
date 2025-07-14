@@ -74,7 +74,7 @@
         ]
     - REMIND 3.0|Non-EU28 Europe:
         countries: [
-          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland,
+          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland, Kosovo,
           Liechtenstein, Monaco, Montenegro, North Macedonia, Norway, San Marino,
           Serbia, Svalbard and Jan Mayen, Switzerland, Turkey, Vatican
         ]
@@ -106,7 +106,7 @@
         ]
     - REMIND 3.0|Non-EU Southern Europe:
         countries: [
-          Albania, Andorra, Bosnia and Herzegovina, Monaco, Montenegro,
+          Albania, Andorra, Bosnia and Herzegovina, Kosovo, Monaco, Montenegro,
           North Macedonia, San Marino, Serbia, Turkey, Vatican
         ]
     # exogenously aggregated regions

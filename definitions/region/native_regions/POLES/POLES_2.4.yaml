@@ -1,0 +1,94 @@
+- POLES 2.4:
+    - POLES 2.4|Argentina:
+        countries: Argentina
+    - POLES 2.4|Australia:
+        countries: Australia
+    - POLES 2.4|Brazil:
+        countries: Brazil
+    - POLES 2.4|Canada:
+        countries: Canada
+    - POLES 2.4|China:
+        countries: China
+    - POLES 2.4|EU27:
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
+          Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
+          Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
+          Spain, Sweden
+        ]
+    - POLES 2.4|United Kingdom:
+        countries: United Kingdom
+    - POLES 2.4|Indonesia:
+        countries: Indonesia
+    - POLES 2.4|India:
+        countries: India
+    - POLES 2.4|Japan:
+        countries: Japan
+    - POLES 2.4|South Korea:
+        countries: South Korea
+    - POLES 2.4|Mexico:
+        countries: Mexico
+    - POLES 2.4|Rest of South-East Asia:
+        countries: [
+          Brunei Darussalam, Cambodia, Laos, Malaysia, Mongolia, Myanmar, North Korea,
+          Philippines, Singapore, Taiwan
+        ]
+    - POLES 2.4|Rest of Europe:
+        countries: [
+          Albania, Bosnia and Herzegovina, Iceland, Kosovo, North Macedonia, Norway,
+          Moldova, Montenegro, Serbia, Switzerland
+        ]
+    - POLES 2.4|Rest of Latin America:
+        countries: [
+          Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia,
+          'Bonaire, Sint Eustatius and Saba', Chile, Colombia, Costa Rica,
+          Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada,
+          Guatemala, Guyana, Haiti, Honduras, Jamaica, Nicaragua, Panama, Paraguay,
+          Peru, Sao Tome and Principe, Saint Lucia, Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), Suriname, Trinidad and Tobago, Uruguay, Venezuela
+        ]
+    - POLES 2.4|Rest of Middle East:
+        countries: [
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Syria,
+          United Arab Emirates, Yemen
+        ]
+    - POLES 2.4|Rest of Pacific:
+        countries: [
+          Fiji, Kiribati, New Zealand, Papua New Guinea, Samoa, Solomon Islands, Tonga,
+          Vanuatu
+        ]
+    - POLES 2.4|Rest of Reforming Economies:
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Tajikistan,
+          Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - POLES 2.4|Rest of Africa:
+        countries: [
+          Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon, Cabo Verde,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea,
+          Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya,
+          Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius,
+          Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Senegal, Sierra Leone,
+          Somalia, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia
+        ]
+    - POLES 2.4|Rest of South Asia:
+        countries: [
+          Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Seychelles,
+          Sri Lanka
+        ]
+    - POLES 2.4|Russian Federation:
+        countries: Russian Federation
+    - POLES 2.4|South Africa:
+        countries: South Africa
+    - POLES 2.4|Saudi Arabia:
+        countries: Saudi Arabia
+    - POLES 2.4|Thailand:
+        countries: Thailand
+    - POLES 2.4|Turkey:
+        countries: Turkey
+    - POLES 2.4|United States:
+        countries: United States
+    - POLES 2.4|Vietnam:
+        countries: Viet Nam
+    - POLES 2.4|International Bunkers

@@ -1,0 +1,118 @@
+# The model documentation and regional aggregation for IMAGE (TIMER) version 3.4 can be found at https://models.pbl.nl/image/index.php/Region_classification_map
+- IMAGE 3.4:
+    - IMAGE 3.4|Brazil:
+        countries: Brazil
+    - IMAGE 3.4|Canada:
+        countries: Canada
+    - IMAGE 3.4|Central Europe:
+        countries: [
+          Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia,
+          Estonia, Hungary, Kosovo, Latvia, Lithuania, North Macedonia, Poland, Romania,
+          Serbia, Montenegro, Slovakia, Slovenia
+        ]
+    - IMAGE 3.4|China Region:
+        countries: [
+          China, Hong Kong, Macao, Mongolia, Taiwan
+        ]
+    - IMAGE 3.4|Eastern Africa:
+        countries: [
+          Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar,
+          Mauritius, Mayotte, Réunion, Rwanda, Seychelles, Somalia, South Sudan, Sudan, Uganda
+        ]
+    - IMAGE 3.4|India:
+        countries: India
+    - IMAGE 3.4|Indonesia Region:
+        countries: [
+          Timor-Leste, Indonesia, Papua New Guinea
+        ]
+    - IMAGE 3.4|Japan:
+        countries: Japan
+    - IMAGE 3.4|Korea Region:
+        countries: [
+          South Korea, North Korea
+        ]
+    - IMAGE 3.4|Middle East:
+        countries: [
+          Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine,
+          Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen
+        ]
+    - IMAGE 3.4|Mexico:
+        countries: Mexico
+    - IMAGE 3.4|Northern Africa:
+        countries: [
+          Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - IMAGE 3.4|Oceania:
+        countries: [
+          American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands,
+          Cook Islands, Fiji, French Polynesia, Guam, Kiribati, Marshall Islands,
+          Micronesia, Nauru, New Caledonia, New Zealand, Niue, Norfolk Island,
+          Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands, Tokelau,
+          Tonga, Tuvalu, Vanuatu, Wallis and Futuna
+        ]
+    - IMAGE 3.4|Central America:
+        countries: [
+          Anguilla, Aruba, Bahamas, Barbados, Belize, Bermuda, Cayman Islands,
+          Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe,
+          Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat,
+          Nicaragua, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
+          Saint Vincent and the Grenadines, Trinidad and Tobago, Turks and Caicos Islands,
+          British Virgin Islands, United States Virgin Islands, Antigua and Barbuda,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
+          Sint Maarten (Dutch part)
+        ]
+    - IMAGE 3.4|Rest of Southern Africa:
+        countries: [
+          Angola, Botswana, Lesotho, Malawi, Mozambique, Namibia, Eswatini, Tanzania,
+          Zambia, Zimbabwe
+        ]
+    - IMAGE 3.4|Rest of South America:
+        countries: [
+          Argentina, Bolivia, Chile, Colombia, Ecuador, Falkland Islands (Malvinas),
+          French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela
+        ]
+    - IMAGE 3.4|Rest of South Asia:
+        countries: [
+          Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka
+        ]
+    - IMAGE 3.4|Russia Region:
+        countries: [
+          Armenia, Azerbaijan, Georgia, Russian Federation
+        ]
+    - IMAGE 3.4|South Africa:
+        countries: South Africa
+    - IMAGE 3.4|Southeastern Asia:
+        countries: [
+          Brunei Darussalam, Cambodia, Laos, Malaysia, Myanmar, Philippines, Singapore,
+          Thailand, Viet Nam
+        ]
+    - IMAGE 3.4|Central Asia:
+        countries: [
+          Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan
+        ]
+    - IMAGE 3.4|Turkey:
+        countries: Turkey
+    - IMAGE 3.4|Ukraine Region:
+        countries: [
+          Belarus, Moldova, Ukraine
+        ]
+    - IMAGE 3.4|United States:
+        countries: [
+          Saint Pierre and Miquelon, United States
+        ]
+    - IMAGE 3.4|Western Africa:
+        countries: [
+          Benin, Burkina Faso, Cameroon, Cabo Verde, Central African Republic, Chad,
+          Congo, Democratic Republic of the Congo, Côte d'Ivoire,
+          Equatorial Guinea, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau,
+          Liberia, Mali, Mauritania, Niger, Nigeria, Sao Tome and Principe, Senegal,
+          Sierra Leone, "Saint Helena, Ascension and Tristan da Cunha", Togo
+        ]
+    - IMAGE 3.4|Western Europe:
+        countries: [
+          Åland Islands, Andorra, Austria, Belgium, Denmark, Faroe Islands, Finland,
+          France, Germany, Gibraltar, Greece, Greenland, Iceland, Ireland, Italy,
+          Liechtenstein, Luxembourg, Malta, Monaco, Netherlands, Norway, Portugal,
+          San Marino, Spain, Sweden, Switzerland, United Kingdom, Vatican, Guernsey,
+          Jersey, Isle of Man
+        ]
