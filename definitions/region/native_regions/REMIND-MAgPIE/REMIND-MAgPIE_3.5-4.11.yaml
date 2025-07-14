@@ -1,0 +1,79 @@
+- REMIND-MAgPIE 3.5-4.11:
+    - REMIND-MAgPIE 3.5-4.11|Canada, Australia, New Zealand:
+        countries: [
+          Australia, Canada, Heard Island and McDonald Islands, New Zealand,
+          Saint Pierre and Miquelon
+        ]
+    - REMIND-MAgPIE 3.5-4.11|China and Taiwan:
+        countries: [ China, Hong Kong, Macao, Taiwan ]
+    - REMIND-MAgPIE 3.5-4.11|India:
+        countries: India
+    - REMIND-MAgPIE 3.5-4.11|Japan:
+        countries: Japan
+    - REMIND-MAgPIE 3.5-4.11|Other Asia:
+        countries: [
+          Afghanistan, American Samoa, Bangladesh, Bhutan,
+          British Indian Ocean Territory, Brunei Darussalam, Cambodia, Christmas Island,
+          Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
+          French Southern Territories, Guam, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal,
+          New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands,
+          Pakistan, Palau, Papua New Guinea, Philippines, Pitcairn, Samoa, Singapore,
+          Solomon Islands, South Korea, Sri Lanka, Thailand, Timor-Leste, Tokelau,
+          Tonga, Tuvalu, United States Minor Outlying Islands, Vanuatu, Viet Nam,
+          Wallis and Futuna
+        ]
+    - REMIND-MAgPIE 3.5-4.11|Latin America and the Caribbean:
+        countries: [
+          Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
+          Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, Brazil, British Virgin Islands, Cayman Islands, Chile,
+          Colombia, Costa Rica, Cuba, Curaçao, Curaçao, Dominica, Dominican Republic,
+          Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
+          Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru,
+          Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), South Georgia and the South Sandwich Islands,
+          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - REMIND-MAgPIE 3.5-4.11|Middle East and North Africa:
+        countries: [
+          Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
+          Libya, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria,
+          Tunisia, United Arab Emirates, Western Sahara, Yemen
+        ]
+    - REMIND-MAgPIE 3.5-4.11|Russia and Reforming Economies:
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - REMIND-MAgPIE 3.5-4.11|Sub-Saharan Africa:
+        countries: [
+          Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Equatorial Guinea,
+          Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar, Malawi, Mali,
+          Mauritania, Mauritius, Mayotte, Mozambique, Namibia, Niger, Nigeria,
+          Rwanda, Réunion, "Saint Helena, Ascension and Tristan da Cunha",
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Africa, South Sudan, Tanzania, Togo, Uganda, Zambia, Zimbabwe
+        ]
+    - REMIND-MAgPIE 3.5-4.11|United States of America:
+        countries: United States
+    - REMIND-MAgPIE 3.5-4.11|EU 28:
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
+          Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Hungary,
+          Ireland, Isle of Man, Italy, Jersey, Latvia, Lithuania, Luxembourg, Malta,
+          Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden,
+          United Kingdom, Åland Islands
+        ]
+    - REMIND-MAgPIE 3.5-4.11|Non-EU28 Europe:
+        countries: [
+          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland, Kosovo,
+          Liechtenstein, Monaco, Montenegro, North Macedonia, Norway, San Marino,
+          Serbia, Svalbard and Jan Mayen, Switzerland, Turkey, Vatican
+        ]
