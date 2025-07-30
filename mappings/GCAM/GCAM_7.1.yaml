@@ -10,10 +10,16 @@ native_regions:
   - Argentina: GCAM 7.1|Argentina
   - Australia_NZ: GCAM 7.1|Australia and New Zealand
   - Brazil: GCAM 7.1|Brazil
+  # G20 member
+  - Brazil
   - Canada: GCAM 7.1|Canada
+  # G20 member
+  - Canada
   - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
   - Central Asia: GCAM 7.1|Central Asia
   - China: GCAM 7.1|China
+  # G20 member
+  - China
   - Colombia: GCAM 7.1|Colombia
   - EU-12: GCAM 7.1|EU-12
   - EU-15: GCAM 7.1|EU-15
@@ -21,8 +27,12 @@ native_regions:
   - Europe_Non_EU: GCAM 7.1|Europe_Non_EU
   - European Free Trade Association: GCAM 7.1|European Free Trade Association
   - India: GCAM 7.1|India
+  # G20 member
+  - India
   - Indonesia: GCAM 7.1|Indonesia
   - Japan: GCAM 7.1|Japan
+  # G20 member
+  - Japan
   - Mexico: GCAM 7.1|Mexico
   - Middle East: GCAM 7.1|Middle East
   - Pakistan: GCAM 7.1|Pakistan
@@ -32,6 +42,8 @@ native_regions:
   - South America_Southern: GCAM 7.1|South America_Southern
   - South Asia: GCAM 7.1|South Asia
   - South Korea: GCAM 7.1|South Korea
+  # G20 member
+  - South Korea
   - Southeast Asia: GCAM 7.1|Southeast Asia
   - Taiwan: GCAM 7.1|Taiwan
   - USA: GCAM 7.1|USA
@@ -198,18 +210,6 @@ common_regions:
       - Taiwan
 
   # G20 members
-  - Brazil:
-      - Brazil
-  - Canada:
-      - Canada
-  - China:
-      - China
-  - India:
-      - India
-  - Japan:
-      - Japan
-  - South Korea:
-      - South Korea
   - United States:
       - USA
   - African Union:
