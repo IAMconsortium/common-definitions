@@ -33,6 +33,14 @@ native_regions:
   - Southeast Asia: GCAM 6.0|Southeast Asia
   - Taiwan: GCAM 6.0|Taiwan
   - USA: GCAM 6.0|USA
+  # G20 members (without renaming)
+  - Brazil
+  - Canada
+  - China
+  - India
+  - Japan
+  - South Korea
+
 common_regions:
   - World:
       - Africa_Eastern
@@ -194,19 +202,7 @@ common_regions:
       - Southeast Asia
       - Taiwan
 
-  # G20 members
-  - Brazil:
-      - Brazil
-  - Canada:
-      - Canada
-  - China:
-      - China
-  - India:
-      - India
-  - Japan:
-      - Japan
-  - South Korea:
-      - South Korea
+  # G20 members (aggregation or renaming)
   - United States:
       - USA
   - African Union:
