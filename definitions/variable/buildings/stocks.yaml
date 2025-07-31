@@ -1,0 +1,47 @@
+- Building Stock|{Residential and Commercial}|Floor Space|{useful vs. gross}:
+    description: Standing stock of floor space
+      in residential and commercial buildings
+    unit: billion m2
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|Floor Space|{useful vs. gross}:
+    description: Standing stock of floor space
+      in Residential buildings, for urban and rural residential buildings
+    unit: billion m2
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|Floor Space|{Residential Building Type}|{useful vs. gross}:
+    description: Standing stock of floor space in residential (urban and rural)
+      buildings and residential building type (i.e. singly or multi family buildings)
+    unit: billion m2
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|Floor Space|{Residential Unit Type}|{useful vs. gross}:
+    description: Standing stock of floor space in residential (urban and rural)
+      buildings and residential unit type
+    unit: billion m2
+    tier: 2
+
+- Building Stock|{Residential and Commercial}|Renovation Rate:
+    description: Percentage of residential and commercial buildings undergoing 
+      renovation
+    unit: '%/yr'
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|Renovation Rate:
+    description: Percentage of urban and rural residential buildings 
+      undergoing renovation, for urban and rural residential buildings
+    unit: '%/yr'
+    tier: 2
+
+- Building Stock|{Residential and Commercial}|U-value:
+    description: Thermal conductivity of outer building shell, as a measure of
+      thermal energy efficiency
+    unit: W/m^2/K
+    tier: 2
+
+- Building Stock|Residential|{Urban and Rural}|U-value:
+    description: Thermal conductivity of outer building shell, as a measure of
+      thermal energy efficiency, for urban and rural residential buildings
+    unit: W/m^2/K
+    tier: 2

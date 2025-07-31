@@ -1,0 +1,31 @@
+- Appliance group:
+    - Cleaning:
+        description: Appliances used for cleaning, including vaccuum cleaners,
+            dish washers, washing machines, clothes dryers, etc.
+    - Cooling:
+        description: Appliances used for space cooling, including air coolers,
+            air conditioners, fans, etc.
+    - Entertainment:
+        description: Appliances used for entertainment, including televisions, 
+            computers, gaming, etc.
+    - Refrigeration:
+        description: Appliances used for food refregeration and preservation,
+            including refrigerators, freezers, etc.
+    - Other:
+        description: Appliances used in housseholds not falling under the other
+         categories
+
+- Appliance:
+    - Cleaning|Dish washer:
+        description: Dishwashers
+    - Cleaning|Washing machine:
+        description: Washing machine for clothes and fabrics
+    - Cleaning|Clothes dryer:
+        description: Clothes dryers
+    - Cooling|Air cooler:
+        description: Evaporative air coolers
+    - Cooling|Air conditioner:
+        description: Air conditioners and temperature control ventilation systems
+    - Cooling|Fan:
+        description: Fans and small ventilation systems without temperature control
+    

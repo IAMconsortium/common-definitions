@@ -1,0 +1,7 @@
+- useful vs. gross:
+    - Useful:
+        description: Useful floorspace (i.e. floosrpace that is heated and used 
+          directly)
+    - Gross:
+        description: Gross floorspace (i.e. useful floosrpace plus unused floosrpace
+          stocks)
