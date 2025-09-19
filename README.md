@@ -12,6 +12,12 @@ Read more about the [IAMC data format](https://docs.ece.iiasa.ac.at/iamc.html).
 This project uses the Python package [nomenclature-iamc](https://nomenclature-iamc.readthedocs.io)
 for management of codelists and validation of scenario data in the IAMC data format.
 
+> [!IMPORTANT]  
+> The list of variables defined in this repository are those that *can* be used in
+> model comparison projects and *can* be reported by modeling teams, but it is not required
+> that all variables are included when submitting scenario data.
+> You can filter by the "tier" attribute for an indication of the priority of specific variables.
+
 > [!TIP]
 > For *users not comfortable working with GitHub repositories and yaml files*,
 > the definitions for this project are available for download as an xlsx spreadsheet
