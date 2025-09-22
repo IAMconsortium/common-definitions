@@ -1,0 +1,107 @@
+- Emission Intensity|CO2|Industry|Iron and Steel:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the Iron and Steel industry
+    unit: Mt CO2/Mt
+    tier: 2
+- Emission Intensity|CO2|Industry|Iron and Steel({scope}):
+    description: Emission intensity of {scope} CO2 per output from the Iron and Steel industry
+    unit: Mt CO2/Mt
+    tier: 3
+
+- Emission Intensity|CO2|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the {Non-Metallic Minerals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 2
+- Emission Intensity|CO2|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}({scope}):
+    description: Emission intensity of {scope} CO2 per output from the {Non-Metallic Minerals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 3
+
+- Emission Intensity|CO2|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the {Non-Ferrous Metals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 2
+- Emission Intensity|CO2|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}({scope}):
+    description: Emission intensity of {scope} CO2 per output from the {Non-Ferrous Metals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 3
+
+- Emission Intensity|CO2|Industry|Chemicals|{Chemicals Commodity}:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the {Chemicals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 2
+- Emission Intensity|CO2|Industry|Chemicals|{Chemicals Commodity}({scope}):
+    description: Emission intensity of {scope} CO2 per output from the {Chemicals Commodity} industry
+    unit: Mt CO2/Mt
+    tier: 3
+
+- Emission Intensity|CO2|Transportation|Passenger|Road|Light-Duty Vehicle:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the passenger transport on roads in light duty vehicles
+    unit: Mt CO2/billion pkm
+    tier: 2
+- Emission Intensity|CO2|Transportation|Passenger|Road|Light-Duty Vehicle({scope}):
+    description: Emission intensity of {scope} CO2 per output from the passenger transport on roads in light duty vehicles
+    unit: Mt CO2/billion pkm
+    tier: 3
+
+- Emission Intensity|CO2|Transportation|Freight|Truck:
+    description: Emission intensity of direct energy-related CO2 (within Scope 1) per output from the freight transport on roads in trucks
+    unit: Mt CO2/billion tkm
+    tier: 2
+- Emission Intensity|CO2|Transportation|Freight|Truck({scope}):
+    description: Emission intensity of {scope} CO2 per output from the freight transport on roads in trucks
+    unit: Mt CO2/billion tkm
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Industry|Iron and Steel:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the Iron and Steel industry
+    unit: Mt CO2-equiv/Mt
+    tier: 2
+- Emission Intensity|Kyoto Gases|Industry|Iron and Steel({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the Iron and Steel industry
+    unit: Mt CO2-equiv/Mt
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the {Non-Metallic Minerals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 2
+- Emission Intensity|Kyoto Gases|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the {Non-Metallic Minerals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the {Non-Ferrous Metals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 2
+- Emission Intensity|Kyoto Gases|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the {Non-Ferrous Metals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Industry|Chemicals|{Chemicals Commodity}:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the {Chemicals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 2
+- Emission Intensity|Kyoto Gases|Industry|Chemicals|{Chemicals Commodity}({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the {Chemicals Commodity} industry
+    unit: Mt CO2-equiv/Mt
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Transportation|Passenger|Road|Light-Duty Vehicle:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the passenger transport on roads in light duty vehicles
+    unit: Mt CO2-equiv/billion pkm
+    tier: 2
+- Emission Intensity|Kyoto Gases|Transportation|Passenger|Road|Light-Duty Vehicle({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the passenger transport on roads in light duty vehicles
+    unit: Mt CO2-equiv/billion pkm
+    tier: 3
+
+- Emission Intensity|Kyoto Gases|Transportation|Freight|Truck:
+    description: Emission intensity of direct energy-related Kyoto Gases (within Scope 1) per output from the freight transport on roads in trucks
+    unit: Mt CO2-equiv/billion tkm
+    tier: 2
+- Emission Intensity|Kyoto Gases|Transportation|Freight|Truck({scope}):
+    description: Emission intensity of {scope} Kyoto Gases per output from the freight transport on roads in trucks
+    unit: Mt CO2-equiv/billion tkm
+    tier: 3
