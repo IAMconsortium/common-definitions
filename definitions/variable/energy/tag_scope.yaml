@@ -1,7 +1,0 @@
-- Scope:
-    - Process:
-        description: the scope of process emissions (within Scope 1)
-    - Indirect:
-        description: the scope of indirect emissions (i.e., Scope 2 emissions)
-    - Total:
-        description: the scope of direct energy-related, indirect energy-related, and process emissions (i.e., Scope 1 and Scope 2)
