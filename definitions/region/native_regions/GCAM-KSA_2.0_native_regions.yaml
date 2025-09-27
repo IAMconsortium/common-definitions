@@ -1,0 +1,37 @@
+model: GCAM-KSA
+version: "2.0"
+
+native_regions:
+  - GCAM-KSA v2.0|Africa_Eastern
+  - GCAM-KSA v2.0|Africa_Northern
+  - GCAM-KSA v2.0|Africa_Southern
+  - GCAM-KSA v2.0|Africa_Western
+  - GCAM-KSA v2.0|Argentina
+  - GCAM-KSA v2.0|Australia and New Zealand
+  - GCAM-KSA v2.0|Brazil
+  - GCAM-KSA v2.0|Canada
+  - GCAM-KSA v2.0|Central America and Caribbean
+  - GCAM-KSA v2.0|Central Asia
+  - GCAM-KSA v2.0|China
+  - GCAM-KSA v2.0|Colombia
+  - GCAM-KSA v2.0|EU-12
+  - GCAM-KSA v2.0|EU-15
+  - GCAM-KSA v2.0|Europe_Eastern
+  - GCAM-KSA v2.0|Europe_Non_EU
+  - GCAM-KSA v2.0|European Free Trade Association
+  - GCAM-KSA v2.0|India
+  - GCAM-KSA v2.0|Indonesia
+  - GCAM-KSA v2.0|Japan
+  - GCAM-KSA v2.0|Mexico
+  - GCAM-KSA v2.0|Middle East
+  - GCAM-KSA v2.0|Pakistan
+  - GCAM-KSA v2.0|Russia
+  - GCAM-KSA v2.0|South Africa
+  - GCAM-KSA v2.0|South America_Northern
+  - GCAM-KSA v2.0|South America_Southern
+  - GCAM-KSA v2.0|South Asia
+  - GCAM-KSA v2.0|South Korea
+  - GCAM-KSA v2.0|Southeast Asia
+  - GCAM-KSA v2.0|Taiwan
+  - GCAM-KSA v2.0|USA
+  - GCAM-KSA v2.0|Saudi Arabia
