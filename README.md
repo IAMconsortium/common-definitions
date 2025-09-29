@@ -13,8 +13,8 @@ This project uses the Python package [nomenclature-iamc](https://nomenclature-ia
 for management of codelists and validation of scenario data in the IAMC data format.
 
 > [!IMPORTANT]  
-> The list of variables defined in this repository are those that *can* be used in
-> model comparison projects and *can* be reported by modeling teams, but it is not required
+> The list of variables defined in this repository are those that **may** be used in
+> model comparison projects and **can** be reported by modeling teams, but it is **not required**
 > that all variables are included when submitting scenario data.
 > You can filter by the "tier" attribute for an indication of the priority of specific variables.
 
