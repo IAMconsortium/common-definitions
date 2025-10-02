@@ -334,6 +334,10 @@
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Industry|Solids|Biomass:
+    description: Emissions of {Level-2 Species} from solid biomass combustion in industry
+    unit: "{Level-2 Species}"
+    tier: 2
 - Gross Emissions|CO2|Energy|Demand|Industry:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
       not accounting for removals from the atmosphere
@@ -349,6 +353,11 @@
       and agriculture, forestry and fishing (AFOFI) (IPCC category 1A4c)
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial and AFOFI|Solids|Biomass:
+    description: Emissions of {Level-2 Species} from solid biomass combustion in residential,
+      commercial and institutional sectors, and agriculture, forestry and fishing (AFOFI)
+    unit: "{Level-2 Species}"
+    tier: 3
 - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial:
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
@@ -415,6 +424,11 @@
     unit: "{Level-3 Species}"
     tier: 1
     notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+- Emissions|{Level-2 Species}|Industrial Processes|Solids|Biomass:
+    description: Emissions of {Level-3 Species} from solid biomass use in industrial 
+      processes
+    unit: "{Level-2 Species}"
+    tier: 2
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
       (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions
