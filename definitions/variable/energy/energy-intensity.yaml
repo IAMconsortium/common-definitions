@@ -1,0 +1,24 @@
+- Energy Intensity|Industry|Iron and Steel:
+    description: Energy intensity of per output from the Iron and Steel industry
+    unit: EJ/Mt
+    tier: 2
+- Energy Intensity|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Energy intensity of per output from the {Non-Metallic Minerals Commodity} industry
+    unit: EJ/Mt
+    tier: 2
+- Energy Intensity|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Energy intensity of per output from the {Non-Ferrous Metals Commodity} industry
+    unit: EJ/Mt
+    tier: 2
+- Energy Intensity|Industry|Chemicals|{Chemicals Commodity}:
+    description: Energy intensity of per output from the {Chemicals Commodity} industry
+    unit: EJ/Mt
+    tier: 2
+- Energy Intensity|Transportation|Passenger|Road|Light-Duty Vehicle:
+    description: Energy intensity of per passenger-distance travelled on roads in light duty vehicles
+    unit: EJ/billion pkm
+    tier: 2
+- Energy Intensity|Transportation|Freight|Truck:
+    description: Energy intensity of per freight-distance travelled on roads in trucks
+    unit: EJ/billion tkm
+    tier: 2
