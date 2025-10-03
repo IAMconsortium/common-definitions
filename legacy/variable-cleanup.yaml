@@ -1,0 +1,4 @@
+dimension: variable
+rename:
+    # Variable `Production|Steel` isn't correctly mapped to `Production|Iron and Steel|Steel` in SHAPE.
+  - "Production|Steel": "Production|Iron and Steel|Steel"
