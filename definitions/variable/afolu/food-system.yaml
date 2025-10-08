@@ -4,12 +4,14 @@
     sdg: 2
     weight: Population
     tier: 1
+    engage: Food Demand
 - Food Availability|Crops [per capita]:
     description: Amount of food available from crops and secondary products
     unit: kcal/cap/day
     sdg: 2
     weight: Population
     tier: 1
+    engage: Food Demand|Crops
 - Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
     description: Amount of food available from {Crop Types w/o Energy Crops}
     unit: kcal/cap/day
@@ -28,6 +30,7 @@
     sdg: 2
     weight: Population
     tier: 1
+    engage: Food Demand|Livestock
 - Food Availability|Livestock|{Livestock Products} [per capita]:
     description: Amount of food available from {Livestock Products}
     unit: kcal/cap/day
