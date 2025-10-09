@@ -335,8 +335,8 @@
     unit: "{Level-2 Species}"
     tier: 2
 - Gross Emissions|CO2|Energy|Demand|Industry:
-    description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
-      not accounting for removals from the atmosphere
+    description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry
+      (IPCC category 1A2), not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
