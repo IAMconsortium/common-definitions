@@ -1,0 +1,110 @@
+- GCAM_China_CDR:
+    - GCAM_China_CDR|Africa_Eastern:
+        countries: [
+          Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
+          Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
+        ]
+    - GCAM_China_CDR|Africa_Northern:
+        countries: [
+          Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - GCAM_China_CDR|Africa_Southern:
+        countries: [
+          Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
+          Zambia, Zimbabwe
+        ]
+    - GCAM_China_CDR|Africa_Western:
+        countries: [
+          Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
+          Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
+          Guinea, Côte d'Ivoire, Liberia, Mali, Mauritania, Niger, Nigeria, Guinea-Bissau,
+          Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso
+        ]
+    - GCAM_China_CDR|Argentina:
+        countries: Argentina
+    - GCAM_China_CDR|Australia and New Zealand:
+        countries: [ Australia, New Zealand ]
+    - GCAM_China_CDR|Brazil:
+        countries: Brazil
+    - GCAM_China_CDR|Canada:
+        countries: Canada
+    - GCAM_China_CDR|Central America and Caribbean:
+        countries: [
+          Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
+          Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
+          Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
+          Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Guadeloupe,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
+          Sint Maarten (Dutch part)
+        ]
+    - GCAM_China_CDR|Central Asia:
+        countries: [
+          Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
+          Turkmenistan, Uzbekistan
+        ]
+    - GCAM_China_CDR|China:
+        countries: [ China, Hong Kong, Macao, Taiwan ]
+    - GCAM_China_CDR|Colombia:
+        countries: Colombia
+    - GCAM_China_CDR|EU-12:
+        countries: [
+          Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
+          Malta, Poland, Romania, Slovenia
+        ]
+    - GCAM_China_CDR|EU-15:
+        countries: [
+          Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
+          Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
+          Isle of Man, Luxembourg, Monaco, Netherlands, Portugal, Spain, Sweden,
+          United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
+          Turks and Caicos Islands, Guernsey, Jersey, Isle of Man, Vatican
+        ]
+    - GCAM_China_CDR|Europe_Eastern:
+        countries: [ Belarus, Moldova, Ukraine ]
+    - GCAM_China_CDR|Europe_Non_EU:
+        countries: [
+          Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
+          Turkey, Serbia
+        ]
+    - GCAM_China_CDR|European Free Trade Association:
+        countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
+    - GCAM_China_CDR|India:
+        countries: India
+    - GCAM_China_CDR|Indonesia:
+        countries: Indonesia
+    - GCAM_China_CDR|Japan:
+        countries: Japan
+    - GCAM_China_CDR|Mexico:
+        countries: Mexico
+    - GCAM_China_CDR|Middle East:
+        countries: [
+          Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, Yemen, United Arab Emirates
+        ]
+    - GCAM_China_CDR|Pakistan:
+        countries: Pakistan
+    - GCAM_China_CDR|Russia:
+        countries: Russian Federation
+    - GCAM_China_CDR|South Africa:
+        countries: South Africa
+    - GCAM_China_CDR|South America_Northern:
+        countries: [ French Guiana, Guyana, Suriname, Venezuela ]
+    - GCAM_China_CDR|South America_Southern:
+        countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
+    - GCAM_China_CDR|South Asia:
+        countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
+    - GCAM_China_CDR|South Korea:
+        countries: South Korea
+    - GCAM_China_CDR|Southeast Asia:
+        countries: [
+          American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
+          Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
+          Laos, Malaysia, New Caledonia, Niue, Northern Mariana Islands, Mayotte,
+          Norfolk Island, Cocos (Keeling) Islands, Christmas Island, Vanuatu, Nauru,
+          Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
+          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
+          Pitcairn, Wallis and Futuna
+        ]
+    - GCAM_China_CDR|USA:
+        countries: [ Puerto Rico, United States, United States Virgin Islands ]

@@ -1,0 +1,215 @@
+model:
+  - GCAM_China_CDR
+
+native_regions:
+  - Africa_Eastern: GCAM_China_CDR|Africa_Eastern
+  - Africa_Northern: GCAM_China_CDR|Africa_Northern
+  - Africa_Southern: GCAM_China_CDR|Africa_Southern
+  - Africa_Western: GCAM_China_CDR|Africa_Western
+  - Argentina: GCAM_China_CDR|Argentina
+  - Australia_NZ: GCAM_China_CDR|Australia and New Zealand
+  - Brazil: GCAM_China_CDR|Brazil
+  - Canada: GCAM_China_CDR|Canada
+  - Central America and Caribbean: GCAM_China_CDR|Central America and Caribbean
+  - Central Asia: GCAM_China_CDR|Central Asia
+  - China: GCAM_China_CDR|China
+  - Colombia: GCAM_China_CDR|Colombia
+  - EU-12: GCAM_China_CDR|EU-12
+  - EU-15: GCAM_China_CDR|EU-15
+  - Europe_Eastern: GCAM_China_CDR|Europe_Eastern
+  - Europe_Non_EU: GCAM_China_CDR|Europe_Non_EU
+  - European Free Trade Association: GCAM_China_CDR|European Free Trade Association
+  - India: GCAM_China_CDR|India
+  - Indonesia: GCAM_China_CDR|Indonesia
+  - Japan: GCAM_China_CDR|Japan
+  - Mexico: GCAM_China_CDR|Mexico
+  - Middle East: GCAM_China_CDR|Middle East
+  - Pakistan: GCAM_China_CDR|Pakistan
+  - Russia: GCAM_China_CDR|Russia
+  - South Africa: GCAM_China_CDR|South Africa
+  - South America_Northern: GCAM_China_CDR|South America_Northern
+  - South America_Southern: GCAM_China_CDR|South America_Southern
+  - South Asia: GCAM_China_CDR|South Asia
+  - South Korea: GCAM_China_CDR|South Korea
+  - Southeast Asia: GCAM_China_CDR|Southeast Asia
+  - Taiwan: GCAM_China_CDR|Taiwan
+  - USA: GCAM_China_CDR|USA
+  # G20 members (without renaming)
+  - Brazil
+  - Canada
+  - China
+  - India
+  - Japan
+  - South Korea
+
+common_regions:
+  - World:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Argentina
+      - Australia_NZ
+      - Brazil
+      - Canada
+      - Central America and Caribbean
+      - Central Asia
+      - China
+      - Colombia
+      - EU-12
+      - EU-15
+      - Europe_Eastern
+      - Europe_Non_EU
+      - European Free Trade Association
+      - India
+      - Indonesia
+      - Japan
+      - Mexico
+      - Middle East
+      - Pakistan
+      - Russia
+      - South Africa
+      - South America_Northern
+      - South America_Southern
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+      - USA
+
+  # R5 regions
+  - Asia (R5):
+      - China
+      - India
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+  - Latin America (R5):
+      - Brazil
+      - Central America and Caribbean
+      - Mexico
+      - South America_Northern
+      - South America_Southern
+      - Argentina
+      - Colombia
+  - Middle East & Africa (R5):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Middle East
+      - South Africa
+  - OECD & EU (R5):
+      - USA
+      - Australia_NZ
+      - Canada
+      - EU-12
+      - EU-15
+      - Europe_Non_EU
+      - European Free Trade Association
+      - Japan
+  - Reforming Economies (R5):
+      - Central Asia
+      - Europe_Eastern
+      - Russia
+
+  # R9 regions
+  - European Union (R9):
+      - EU-12
+      - EU-15
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - Canada
+      - Japan
+      - Australia_NZ
+      - Europe_Non_EU
+      - European Free Trade Association
+  - China (R9):
+      - China
+      - Taiwan
+  - India (R9):
+      - India
+  - Other Asia (R9):
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - South Korea
+      - Southeast Asia
+  - Reforming Economies (R9):
+      - Russia
+      - Central Asia
+      - Europe_Eastern
+  - Latin America (R9):
+      - Argentina
+      - South America_Northern
+      - South America_Southern
+      - Brazil
+      - Colombia
+      - Central America and Caribbean
+      - Mexico
+  - Middle East & Africa (R9):
+      - Middle East
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - South Africa
+
+  # R10 regions
+  - Africa (R10):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - South Africa
+  - China+ (R10):
+      - China
+      - South Korea
+      - Taiwan
+  - Europe (R10):
+      - EU-12
+      - EU-15
+      - Europe_Eastern
+      - Europe_Non_EU
+      - European Free Trade Association
+  - India+ (R10):
+      - India
+  - Latin America (R10):
+      - Argentina
+      - South America_Northern
+      - South America_Southern
+      - Brazil
+      - Colombia
+      - Central America and Caribbean
+      - Mexico
+  - Middle East (R10):
+      - Middle East
+  - North America (R10):
+      - Canada
+      - USA
+  - Pacific OECD (R10):
+      - Japan
+      - Australia_NZ
+  - Reforming Economies (R10):
+      - Russia
+      - Central Asia
+  - Rest of Asia (R10):
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - Southeast Asia
+  # G20 members (aggregation or renaming)
+  - United States:
+      - USA
+  - African Union:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+  - European Union and United Kingdom:
+      - EU-12
+      - EU-15
