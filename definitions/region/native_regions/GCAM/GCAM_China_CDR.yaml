@@ -106,5 +106,7 @@
           Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
           Pitcairn, Wallis and Futuna
         ]
+    - GCAM_China_CDR|Taiwan:
+        countries: Taiwan
     - GCAM_China_CDR|USA:
         countries: [ Puerto Rico, United States, United States Virgin Islands ]
