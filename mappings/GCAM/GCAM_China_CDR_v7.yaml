@@ -1,39 +1,39 @@
 model:
-  - GCAM_China_CDR
+  - GCAM China CDR v7
 
 native_regions:
-  - Africa_Eastern: GCAM_China_CDR|Africa_Eastern
-  - Africa_Northern: GCAM_China_CDR|Africa_Northern
-  - Africa_Southern: GCAM_China_CDR|Africa_Southern
-  - Africa_Western: GCAM_China_CDR|Africa_Western
-  - Argentina: GCAM_China_CDR|Argentina
-  - Australia_NZ: GCAM_China_CDR|Australia and New Zealand
-  - Brazil: GCAM_China_CDR|Brazil
-  - Canada: GCAM_China_CDR|Canada
-  - Central America and Caribbean: GCAM_China_CDR|Central America and Caribbean
-  - Central Asia: GCAM_China_CDR|Central Asia
-  - China: GCAM_China_CDR|China
-  - Colombia: GCAM_China_CDR|Colombia
-  - EU-12: GCAM_China_CDR|EU-12
-  - EU-15: GCAM_China_CDR|EU-15
-  - Europe_Eastern: GCAM_China_CDR|Europe_Eastern
-  - Europe_Non_EU: GCAM_China_CDR|Europe_Non_EU
-  - European Free Trade Association: GCAM_China_CDR|European Free Trade Association
-  - India: GCAM_China_CDR|India
-  - Indonesia: GCAM_China_CDR|Indonesia
-  - Japan: GCAM_China_CDR|Japan
-  - Mexico: GCAM_China_CDR|Mexico
-  - Middle East: GCAM_China_CDR|Middle East
-  - Pakistan: GCAM_China_CDR|Pakistan
-  - Russia: GCAM_China_CDR|Russia
-  - South Africa: GCAM_China_CDR|South Africa
-  - South America_Northern: GCAM_China_CDR|South America_Northern
-  - South America_Southern: GCAM_China_CDR|South America_Southern
-  - South Asia: GCAM_China_CDR|South Asia
-  - South Korea: GCAM_China_CDR|South Korea
-  - Southeast Asia: GCAM_China_CDR|Southeast Asia
-  - Taiwan: GCAM_China_CDR|Taiwan
-  - USA: GCAM_China_CDR|USA
+  - Africa_Eastern: GCAM China CDR v7|Africa_Eastern
+  - Africa_Northern: GCAM China CDR v7|Africa_Northern
+  - Africa_Southern: GCAM China CDR v7|Africa_Southern
+  - Africa_Western: GCAM China CDR v7|Africa_Western
+  - Argentina: GCAM China CDR v7|Argentina
+  - Australia_NZ: GCAM China CDR v7|Australia and New Zealand
+  - Brazil: GCAM China CDR v7|Brazil
+  - Canada: GCAM China CDR v7|Canada
+  - Central America and Caribbean: GCAM China CDR v7|Central America and Caribbean
+  - Central Asia: GCAM China CDR v7|Central Asia
+  - China: GCAM China CDR v7|China
+  - Colombia: GCAM China CDR v7|Colombia
+  - EU-12: GCAM China CDR v7|EU-12
+  - EU-15: GCAM China CDR v7|EU-15
+  - Europe_Eastern: GCAM China CDR v7|Europe_Eastern
+  - Europe_Non_EU: GCAM China CDR v7|Europe_Non_EU
+  - European Free Trade Association: GCAM China CDR v7|European Free Trade Association
+  - India: GCAM China CDR v7|India
+  - Indonesia: GCAM China CDR v7|Indonesia
+  - Japan: GCAM China CDR v7|Japan
+  - Mexico: GCAM China CDR v7|Mexico
+  - Middle East: GCAM China CDR v7|Middle East
+  - Pakistan: GCAM China CDR v7|Pakistan
+  - Russia: GCAM China CDR v7|Russia
+  - South Africa: GCAM China CDR v7|South Africa
+  - South America_Northern: GCAM China CDR v7|South America_Northern
+  - South America_Southern: GCAM China CDR v7|South America_Southern
+  - South Asia: GCAM China CDR v7|South Asia
+  - South Korea: GCAM China CDR v7|South Korea
+  - Southeast Asia: GCAM China CDR v7|Southeast Asia
+  - Taiwan: GCAM China CDR v7|Taiwan
+  - USA: GCAM China CDR v7|USA
   # G20 members (without renaming)
   - Brazil
   - Canada
