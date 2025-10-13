@@ -1,0 +1,112 @@
+- GCAM China CDR v7:
+    - GCAM China CDR v7|Africa_Eastern:
+        countries: [
+          Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
+          Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
+        ]
+    - GCAM China CDR v7|Africa_Northern:
+        countries: [
+          Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - GCAM China CDR v7|Africa_Southern:
+        countries: [
+          Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
+          Zambia, Zimbabwe
+        ]
+    - GCAM China CDR v7|Africa_Western:
+        countries: [
+          Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
+          Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
+          Guinea, Côte d'Ivoire, Liberia, Mali, Mauritania, Niger, Nigeria, Guinea-Bissau,
+          Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso
+        ]
+    - GCAM China CDR v7|Argentina:
+        countries: Argentina
+    - GCAM China CDR v7|Australia and New Zealand:
+        countries: [ Australia, New Zealand ]
+    - GCAM China CDR v7|Brazil:
+        countries: Brazil
+    - GCAM China CDR v7|Canada:
+        countries: Canada
+    - GCAM China CDR v7|Central America and Caribbean:
+        countries: [
+          Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
+          Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
+          Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
+          Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Guadeloupe,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
+          Sint Maarten (Dutch part)
+        ]
+    - GCAM China CDR v7|Central Asia:
+        countries: [
+          Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
+          Turkmenistan, Uzbekistan
+        ]
+    - GCAM China CDR v7|China:
+        countries: [ China, Hong Kong, Macao, Taiwan ]
+    - GCAM China CDR v7|Colombia:
+        countries: Colombia
+    - GCAM China CDR v7|EU-12:
+        countries: [
+          Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
+          Malta, Poland, Romania, Slovenia
+        ]
+    - GCAM China CDR v7|EU-15:
+        countries: [
+          Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
+          Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
+          Isle of Man, Luxembourg, Monaco, Netherlands, Portugal, Spain, Sweden,
+          United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
+          Turks and Caicos Islands, Guernsey, Jersey, Isle of Man, Vatican
+        ]
+    - GCAM China CDR v7|Europe_Eastern:
+        countries: [ Belarus, Moldova, Ukraine ]
+    - GCAM China CDR v7|Europe_Non_EU:
+        countries: [
+          Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
+          Turkey, Serbia
+        ]
+    - GCAM China CDR v7|European Free Trade Association:
+        countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
+    - GCAM China CDR v7|India:
+        countries: India
+    - GCAM China CDR v7|Indonesia:
+        countries: Indonesia
+    - GCAM China CDR v7|Japan:
+        countries: Japan
+    - GCAM China CDR v7|Mexico:
+        countries: Mexico
+    - GCAM China CDR v7|Middle East:
+        countries: [
+          Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, Yemen, United Arab Emirates
+        ]
+    - GCAM China CDR v7|Pakistan:
+        countries: Pakistan
+    - GCAM China CDR v7|Russia:
+        countries: Russian Federation
+    - GCAM China CDR v7|South Africa:
+        countries: South Africa
+    - GCAM China CDR v7|South America_Northern:
+        countries: [ French Guiana, Guyana, Suriname, Venezuela ]
+    - GCAM China CDR v7|South America_Southern:
+        countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
+    - GCAM China CDR v7|South Asia:
+        countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
+    - GCAM China CDR v7|South Korea:
+        countries: South Korea
+    - GCAM China CDR v7|Southeast Asia:
+        countries: [
+          American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
+          Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
+          Laos, Malaysia, New Caledonia, Niue, Northern Mariana Islands, Mayotte,
+          Norfolk Island, Cocos (Keeling) Islands, Christmas Island, Vanuatu, Nauru,
+          Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
+          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
+          Pitcairn, Wallis and Futuna
+        ]
+    - GCAM China CDR v7|Taiwan:
+        countries: Taiwan
+    - GCAM China CDR v7|USA:
+        countries: [ Puerto Rico, United States, United States Virgin Islands ]
