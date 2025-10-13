@@ -1,0 +1,251 @@
+model: OPEN-PROM 2.0.0-dev
+
+native_regions:
+  - AUT: OPEN-PROM 2.0.0-dev|Austria
+  - BEL: OPEN-PROM 2.0.0-dev|Belgium
+  - BGR: OPEN-PROM 2.0.0-dev|Bulgaria
+  - CYP: OPEN-PROM 2.0.0-dev|Cyprus
+  - CZE: OPEN-PROM 2.0.0-dev|Czech Republic	
+  - DNK: OPEN-PROM 2.0.0-dev|Denmark
+  - ESP: OPEN-PROM 2.0.0-dev|Spain
+  - FIN: OPEN-PROM 2.0.0-dev|Finland
+  - FRA: OPEN-PROM 2.0.0-dev|France
+  - DEU: OPEN-PROM 2.0.0-dev|Germany
+  - GBR: OPEN-PROM 2.0.0-dev|United Kingdom
+  - GRC: OPEN-PROM 2.0.0-dev|Greece
+  - HRV: OPEN-PROM 2.0.0-dev|Croatia
+  - HUN: OPEN-PROM 2.0.0-dev|Hungary
+  - IRL: OPEN-PROM 2.0.0-dev|Ireland
+  - ITA: OPEN-PROM 2.0.0-dev|Italy
+  - MLT: OPEN-PROM 2.0.0-dev|Malta
+  - NLD: OPEN-PROM 2.0.0-dev|Netherlands
+  - POL: OPEN-PROM 2.0.0-dev|Poland
+  - PRT: OPEN-PROM 2.0.0-dev|Portugal
+  - ROU: OPEN-PROM 2.0.0-dev|Romania
+  - SVK: OPEN-PROM 2.0.0-dev|Slovakia
+  - SVN: OPEN-PROM 2.0.0-dev|Slovenia
+  - SWE: OPEN-PROM 2.0.0-dev|Sweden
+  - ELL: OPEN-PROM 2.0.0-dev|Other EU27 Countries
+  - NEU: OPEN-PROM 2.0.0-dev|Non-EU Europe
+  - USA: OPEN-PROM 2.0.0-dev|United States
+  - CAZ: OPEN-PROM 2.0.0-dev|Canada, NZ, Australia
+  - LAM: OPEN-PROM 2.0.0-dev|Latin America and the Caribbean
+  - CHA: OPEN-PROM 2.0.0-dev|China, Taiwan and near area
+  - IND: OPEN-PROM 2.0.0-dev|India
+  - JPN: OPEN-PROM 2.0.0-dev|Japan
+  - OAS: OPEN-PROM 2.0.0-dev|Other Asia
+  - MEA: OPEN-PROM 2.0.0-dev|Middle East, North Africa, Central Asia
+  - SSA: OPEN-PROM 2.0.0-dev|Sub-Saharan Africa
+  - REF: OPEN-PROM 2.0.0-dev|Reforming Economies of Former Soviet Union
+
+common_regions:
+  - World:
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL
+      - NEU
+      - USA
+      - CAZ
+      - LAM
+      - CHA
+      - IND
+      - JPN
+      - OAS
+      - MEA
+      - SSA
+      - REF
+
+  # R5 regions
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - JPN
+      - USA
+      - CAZ
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL
+      - NEU
+  - Reforming Economies (R5):
+      - REF
+
+  # R9 regions
+  - European Union (R9):
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - JPN
+      - CAZ
+      - NEU
+  - China (R9):
+      - CHA
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - OAS
+  - Reforming Economies (R9):
+      - REF
+  - Middle East & Africa (R9):
+      - MEA
+      - SSA
+  - Latin America (R9):
+      - LAM
+
+  # R10 regions
+  - Africa (R10):
+      - SSA
+  - China+ (R10):
+      - CHA
+  - Europe (R10):
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - NEU
+      - ELL
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - LAM
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - USA
+  - Reforming Economies (R10):
+      - REF
+  - Rest of Asia (R10):
+      - OAS
+  - Pacific OECD (R10):
+      - JPN
+  - Other (R10):
+      - CAZ
+
+  # mapping for G20 members
+  - China:
+      - CHA
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - United States:
+      - USA
+  - European Union and United Kingdom:
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL

@@ -1,0 +1,125 @@
+- OPEN-PROM 2.0.0-dev:
+    - OPEN-PROM 2.0.0-dev|Austria:
+        countries: Austria    
+    - OPEN-PROM 2.0.0-dev|Belgium:
+        countries: Belgium    
+    - OPEN-PROM 2.0.0-dev|Bulgaria:
+        countries: Bulgaria     
+    - OPEN-PROM 2.0.0-dev|Cyprus:
+        countries: Cyprus  
+    - OPEN-PROM 2.0.0-dev|Czech Republic:
+        countries: Czech Republic         
+    - OPEN-PROM 2.0.0-dev|Denmark:
+        countries: Denmark  
+    - OPEN-PROM 2.0.0-dev|Spain:
+        countries: Spain  
+    - OPEN-PROM 2.0.0-dev|Finland:
+        countries: Finland  
+    - OPEN-PROM 2.0.0-dev|France:
+        countries: France  
+    - OPEN-PROM 2.0.0-dev|Germany:
+        countries: Germany
+    - OPEN-PROM 2.0.0-dev|United Kingdom:
+        countries: United Kingdom  
+    - OPEN-PROM 2.0.0-dev|Greece:
+        countries: Greece  
+    - OPEN-PROM 2.0.0-dev|Croatia:
+        countries: Croatia  
+    - OPEN-PROM 2.0.0-dev|Hungary:
+        countries: Hungary  
+    - OPEN-PROM 2.0.0-dev|Ireland:
+        countries: Ireland  
+    - OPEN-PROM 2.0.0-dev|Italy:
+        countries: Italy  
+    - OPEN-PROM 2.0.0-dev|Malta:
+        countries: Malta  
+    - OPEN-PROM 2.0.0-dev|Netherlands:
+        countries: Netherlands  
+    - OPEN-PROM 2.0.0-dev|Poland:
+        countries: Poland  
+    - OPEN-PROM 2.0.0-dev|Portugal:
+        countries: Portugal
+    - OPEN-PROM 2.0.0-dev|Romania:
+        countries: Romania 
+    - OPEN-PROM 2.0.0-dev|Slovakia:
+        countries: Slovakia 
+    - OPEN-PROM 2.0.0-dev|Slovenia:
+        countries: Slovenia 
+    - OPEN-PROM 2.0.0-dev|Sweden:
+        countries: Sweden
+    - OPEN-PROM 2.0.0-dev|Other EU27 Countries:
+        countries: [
+          Aland Islands, Estonia, Faroe Islands, Gibraltar, Guernsey,
+          Isle of Man, Jersey, Latvia, Lithuania, Luxembourg
+        ]
+    - OPEN-PROM 2.0.0-dev|Non-EU Europe:
+        countries: [
+          Albania, Andorra, Bosnia and Herzegovina, Greenland,
+          Iceland, Liechtenstein, Monaco, Macedonia, Montenegro,
+          Norway, Svalbard and Jan Mayen, San Marino, Serbia,
+          Switzerland, Turkey, Vatican City
+        ]
+    - OPEN-PROM 2.0.0-dev|United States of America:
+        countries: United States
+    - OPEN-PROM 2.0.0-dev|Canada, Australia, New Zealand:
+        countries: [
+          Australia, Canada, Heard Island and McDonald Islands, New Zealand,
+          Saint Pierre and Miquelon
+        ]
+    - OPEN-PROM 2.0.0-dev|Latin America and the Caribbean:
+        countries: [
+          Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
+          Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba,
+          Bouvet Island, Brazil, British Virgin Islands, Cayman Islands, Chile,
+          Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic,
+          Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
+          Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru,
+          Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), South Georgia and the South Sandwich Islands,
+          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - OPEN-PROM 2.0.0-dev|China, Taiwan and near area:
+        countries: [ China, Hong Kong, Macao, Taiwan]
+    - OPEN-PROM 2.0.0-dev|India:
+        countries: India
+    - OPEN-PROM 2.0.0-dev|Japan:
+        countries: Japan
+    - OPEN-PROM 2.0.0-dev|Other Asia:
+        countries: [
+          Afghanistan, American Samoa, Bangladesh, Bhutan,
+          British Indian Ocean Territory, Brunei Darussalam, Cambodia, Christmas Island,
+          Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
+          French Southern Territories, Guam, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal,
+          New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands,
+          Pakistan, Palau, Papua New Guinea, Philippines, Pitcairn, Samoa, Singapore,
+          Solomon Islands, South Korea, Sri Lanka, Thailand, Timor-Leste, Tokelau,
+          Tonga, Tuvalu, United States Minor Outlying Islands, Vanuatu, Viet Nam,
+          Wallis and Futuna
+        ]
+    - OPEN-PROM 2.0.0-dev|Middle East, North Africa, Central Asia:
+        countries: [
+          Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
+          Libya, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria,
+          Tunisia, United Arab Emirates, Western Sahara, Yemen
+        ]
+    - OPEN-PROM 2.0.0-dev|Sub-Saharan Africa:
+        countries: [
+          Angola, Benin, Botswana, Burkina Faso, Burundi, Cape Verde, Cameroon,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Equatorial Guinea,
+          Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar, Malawi, Mali,
+          Mauritania, Mauritius, Mayotte, Mozambique, Namibia, Niger, Nigeria,
+          Rwanda, Réunion, Saint Helena Ascension and Tristan da Cunha,
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Africa, South Sudan,Swaziland, Tanzania, Togo, Uganda, Zambia, Zimbabwe
+        ]
+    - OPEN-PROM 2.0.0-dev|Russia and Reforming Economies:
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
