@@ -61,7 +61,7 @@
         ]
     - OPEN-PROM 2.0|United States:
         countries: United States
-    - OPEN-PROM 2.0|Canada, NZ, Australia:
+    - OPEN-PROM 2.0|Canada, Australia, New Zealand:
         countries: [
           Australia, Canada, Heard Island and McDonald Islands, New Zealand,
           Saint Pierre and Miquelon
@@ -81,7 +81,7 @@
           Suriname, Trinidad and Tobago, Turks and Caicos Islands,
           United States Virgin Islands, Uruguay, Venezuela
         ]
-    - OPEN-PROM 2.0|China, Taiwan and near area:
+    - OPEN-PROM 2.0|China and Taiwan:
         countries: [ China, Hong Kong, Macao, Taiwan]
     - OPEN-PROM 2.0|India:
         countries: India

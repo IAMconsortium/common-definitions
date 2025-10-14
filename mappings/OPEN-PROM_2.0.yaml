@@ -28,9 +28,9 @@ native_regions:
   - ELL: OPEN-PROM 2.0|Other EU27 Countries
   - NEU: OPEN-PROM 2.0|Non-EU Europe
   - USA: OPEN-PROM 2.0|United States
-  - CAZ: OPEN-PROM 2.0|Canada, NZ, Australia
+  - CAZ: OPEN-PROM 2.0|Canada, Australia, New Zealand
   - LAM: OPEN-PROM 2.0|Latin America and the Caribbean
-  - CHA: OPEN-PROM 2.0|China, Taiwan and near area
+  - CHA: OPEN-PROM 2.0|China and Taiwan
   - IND: OPEN-PROM 2.0|India
   - JPN: OPEN-PROM 2.0|Japan
   - OAS: OPEN-PROM 2.0|Other Asia
