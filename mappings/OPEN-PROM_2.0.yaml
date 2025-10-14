@@ -1,0 +1,251 @@
+model: OPEN-PROM 2.0
+
+native_regions:
+  - AUT: OPEN-PROM 2.0|Austria
+  - BEL: OPEN-PROM 2.0|Belgium
+  - BGR: OPEN-PROM 2.0|Bulgaria
+  - CYP: OPEN-PROM 2.0|Cyprus
+  - CZE: OPEN-PROM 2.0|Czechia
+  - DNK: OPEN-PROM 2.0|Denmark
+  - ESP: OPEN-PROM 2.0|Spain
+  - FIN: OPEN-PROM 2.0|Finland
+  - FRA: OPEN-PROM 2.0|France
+  - DEU: OPEN-PROM 2.0|Germany
+  - GBR: OPEN-PROM 2.0|United Kingdom
+  - GRC: OPEN-PROM 2.0|Greece
+  - HRV: OPEN-PROM 2.0|Croatia
+  - HUN: OPEN-PROM 2.0|Hungary
+  - IRL: OPEN-PROM 2.0|Ireland
+  - ITA: OPEN-PROM 2.0|Italy
+  - MLT: OPEN-PROM 2.0|Malta
+  - NLD: OPEN-PROM 2.0|Netherlands
+  - POL: OPEN-PROM 2.0|Poland
+  - PRT: OPEN-PROM 2.0|Portugal
+  - ROU: OPEN-PROM 2.0|Romania
+  - SVK: OPEN-PROM 2.0|Slovakia
+  - SVN: OPEN-PROM 2.0|Slovenia
+  - SWE: OPEN-PROM 2.0|Sweden
+  - ELL: OPEN-PROM 2.0|Other EU27 Countries
+  - NEU: OPEN-PROM 2.0|Non-EU Europe
+  - USA: OPEN-PROM 2.0|United States
+  - CAZ: OPEN-PROM 2.0|Canada, Australia, New Zealand
+  - LAM: OPEN-PROM 2.0|Latin America and the Caribbean
+  - CHA: OPEN-PROM 2.0|China and Taiwan
+  - IND: OPEN-PROM 2.0|India
+  - JPN: OPEN-PROM 2.0|Japan
+  - OAS: OPEN-PROM 2.0|Other Asia
+  - MEA: OPEN-PROM 2.0|Middle East, North Africa, Central Asia
+  - SSA: OPEN-PROM 2.0|Sub-Saharan Africa
+  - REF: OPEN-PROM 2.0|Reforming Economies of Former Soviet Union
+
+common_regions:
+  - World:
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL
+      - NEU
+      - USA
+      - CAZ
+      - LAM
+      - CHA
+      - IND
+      - JPN
+      - OAS
+      - MEA
+      - SSA
+      - REF
+
+  # R5 regions
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - JPN
+      - USA
+      - CAZ
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL
+      - NEU
+  - Reforming Economies (R5):
+      - REF
+
+  # R9 regions
+  - European Union (R9):
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - JPN
+      - CAZ
+      - NEU
+  - China (R9):
+      - CHA
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - OAS
+  - Reforming Economies (R9):
+      - REF
+  - Middle East & Africa (R9):
+      - MEA
+      - SSA
+  - Latin America (R9):
+      - LAM
+
+  # R10 regions
+  - Africa (R10):
+      - SSA
+  - China+ (R10):
+      - CHA
+  - Europe (R10):
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - NEU
+      - ELL
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - LAM
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - USA
+  - Reforming Economies (R10):
+      - REF
+  - Rest of Asia (R10):
+      - OAS
+  - Pacific OECD (R10):
+      - JPN
+  - Other (R10):
+      - CAZ
+
+  # mapping for G20 members
+  - China:
+      - CHA
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - United States:
+      - USA
+  - European Union and United Kingdom:
+      - AUT
+      - BEL
+      - BGR
+      - CYP
+      - CZE
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - DEU
+      - GBR
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - MLT
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SVK
+      - SVN
+      - SWE
+      - ELL
