@@ -1,72 +1,72 @@
-- OPEN-PROM 2.0.0-dev:
-    - OPEN-PROM 2.0.0-dev|Austria:
+- OPEN-PROM 2.0:
+    - OPEN-PROM 2.0|Austria:
         countries: Austria    
-    - OPEN-PROM 2.0.0-dev|Belgium:
+    - OPEN-PROM 2.0|Belgium:
         countries: Belgium    
-    - OPEN-PROM 2.0.0-dev|Bulgaria:
+    - OPEN-PROM 2.0|Bulgaria:
         countries: Bulgaria     
-    - OPEN-PROM 2.0.0-dev|Cyprus:
+    - OPEN-PROM 2.0|Cyprus:
         countries: Cyprus  
-    - OPEN-PROM 2.0.0-dev|Czech Republic:
+    - OPEN-PROM 2.0|Czech Republic:
         countries: Czech Republic         
-    - OPEN-PROM 2.0.0-dev|Denmark:
+    - OPEN-PROM 2.0|Denmark:
         countries: Denmark  
-    - OPEN-PROM 2.0.0-dev|Spain:
+    - OPEN-PROM 2.0|Spain:
         countries: Spain  
-    - OPEN-PROM 2.0.0-dev|Finland:
+    - OPEN-PROM 2.0|Finland:
         countries: Finland  
-    - OPEN-PROM 2.0.0-dev|France:
+    - OPEN-PROM 2.0|France:
         countries: France  
-    - OPEN-PROM 2.0.0-dev|Germany:
+    - OPEN-PROM 2.0|Germany:
         countries: Germany
-    - OPEN-PROM 2.0.0-dev|United Kingdom:
+    - OPEN-PROM 2.0|United Kingdom:
         countries: United Kingdom  
-    - OPEN-PROM 2.0.0-dev|Greece:
+    - OPEN-PROM 2.0|Greece:
         countries: Greece  
-    - OPEN-PROM 2.0.0-dev|Croatia:
+    - OPEN-PROM 2.0|Croatia:
         countries: Croatia  
-    - OPEN-PROM 2.0.0-dev|Hungary:
+    - OPEN-PROM 2.0|Hungary:
         countries: Hungary  
-    - OPEN-PROM 2.0.0-dev|Ireland:
+    - OPEN-PROM 2.0|Ireland:
         countries: Ireland  
-    - OPEN-PROM 2.0.0-dev|Italy:
+    - OPEN-PROM 2.0|Italy:
         countries: Italy  
-    - OPEN-PROM 2.0.0-dev|Malta:
+    - OPEN-PROM 2.0|Malta:
         countries: Malta  
-    - OPEN-PROM 2.0.0-dev|Netherlands:
+    - OPEN-PROM 2.0|Netherlands:
         countries: Netherlands  
-    - OPEN-PROM 2.0.0-dev|Poland:
+    - OPEN-PROM 2.0|Poland:
         countries: Poland  
-    - OPEN-PROM 2.0.0-dev|Portugal:
+    - OPEN-PROM 2.0|Portugal:
         countries: Portugal
-    - OPEN-PROM 2.0.0-dev|Romania:
+    - OPEN-PROM 2.0|Romania:
         countries: Romania 
-    - OPEN-PROM 2.0.0-dev|Slovakia:
+    - OPEN-PROM 2.0|Slovakia:
         countries: Slovakia 
-    - OPEN-PROM 2.0.0-dev|Slovenia:
+    - OPEN-PROM 2.0|Slovenia:
         countries: Slovenia 
-    - OPEN-PROM 2.0.0-dev|Sweden:
+    - OPEN-PROM 2.0|Sweden:
         countries: Sweden
-    - OPEN-PROM 2.0.0-dev|Other EU27 Countries:
+    - OPEN-PROM 2.0|Other EU27 Countries:
         countries: [
           Aland Islands, Estonia, Faroe Islands, Gibraltar, Guernsey,
           Isle of Man, Jersey, Latvia, Lithuania, Luxembourg
         ]
-    - OPEN-PROM 2.0.0-dev|Non-EU Europe:
+    - OPEN-PROM 2.0|Non-EU Europe:
         countries: [
           Albania, Andorra, Bosnia and Herzegovina, Greenland,
           Iceland, Liechtenstein, Monaco, Macedonia, Montenegro,
           Norway, Svalbard and Jan Mayen, San Marino, Serbia,
           Switzerland, Turkey, Vatican City
         ]
-    - OPEN-PROM 2.0.0-dev|United States of America:
+    - OPEN-PROM 2.0|United States of America:
         countries: United States
-    - OPEN-PROM 2.0.0-dev|Canada, Australia, New Zealand:
+    - OPEN-PROM 2.0|Canada, Australia, New Zealand:
         countries: [
           Australia, Canada, Heard Island and McDonald Islands, New Zealand,
           Saint Pierre and Miquelon
         ]
-    - OPEN-PROM 2.0.0-dev|Latin America and the Caribbean:
+    - OPEN-PROM 2.0|Latin America and the Caribbean:
         countries: [
           Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
           Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba,
@@ -81,13 +81,13 @@
           Suriname, Trinidad and Tobago, Turks and Caicos Islands,
           United States Virgin Islands, Uruguay, Venezuela
         ]
-    - OPEN-PROM 2.0.0-dev|China, Taiwan and near area:
+    - OPEN-PROM 2.0|China, Taiwan and near area:
         countries: [ China, Hong Kong, Macao, Taiwan]
-    - OPEN-PROM 2.0.0-dev|India:
+    - OPEN-PROM 2.0|India:
         countries: India
-    - OPEN-PROM 2.0.0-dev|Japan:
+    - OPEN-PROM 2.0|Japan:
         countries: Japan
-    - OPEN-PROM 2.0.0-dev|Other Asia:
+    - OPEN-PROM 2.0|Other Asia:
         countries: [
           Afghanistan, American Samoa, Bangladesh, Bhutan,
           British Indian Ocean Territory, Brunei Darussalam, Cambodia, Christmas Island,
@@ -100,13 +100,13 @@
           Tonga, Tuvalu, United States Minor Outlying Islands, Vanuatu, Viet Nam,
           Wallis and Futuna
         ]
-    - OPEN-PROM 2.0.0-dev|Middle East, North Africa, Central Asia:
+    - OPEN-PROM 2.0|Middle East, North Africa, Central Asia:
         countries: [
           Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
           Libya, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria,
           Tunisia, United Arab Emirates, Western Sahara, Yemen
         ]
-    - OPEN-PROM 2.0.0-dev|Sub-Saharan Africa:
+    - OPEN-PROM 2.0|Sub-Saharan Africa:
         countries: [
           Angola, Benin, Botswana, Burkina Faso, Burundi, Cape Verde, Cameroon,
           Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
@@ -118,7 +118,7 @@
           Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
           South Africa, South Sudan,Swaziland, Tanzania, Togo, Uganda, Zambia, Zimbabwe
         ]
-    - OPEN-PROM 2.0.0-dev|Russia and Reforming Economies:
+    - OPEN-PROM 2.0|Russia and Reforming Economies:
         countries: [
           Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
           Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
