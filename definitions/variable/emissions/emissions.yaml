@@ -443,6 +443,11 @@
     description: Emissions of {Level-2 Species} from fuel combustion in other sectors
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-3 Species}|Energy|Demand|Other Sector|{Energy-Related Emissions By Fuel}:
+    description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
+      in other sectors
+    unit: "{Level-3 Species}"
+    tier: 2
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
