@@ -266,6 +266,11 @@
       processing, storage and transport (IPCC category 1B)
     unit: "{Level-2 Species}"
     tier: 3
+- Emissions|{Level-3 Species}|Energy|Supply|{Energy-Related Emissions By Fuel}:
+    description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel},
+      including electricity and heat production and distribution (IPCC category 1A1a)
+    unit: "{Level-3 Species}"
+    tier: 2
 - Emissions|{Level-2 Species}|Energy|Supply|Electricity:
     description: Emissions of {Level-2 Species} for electricity generation
     unit: "{Level-2 Species}"
