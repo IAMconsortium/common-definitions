@@ -1,19 +1,19 @@
-- GCAM 8:
-    - GCAM 8|Africa_Eastern:
+- GCAM 8s:
+    - GCAM 8s|Africa_Eastern:
         countries: [
           Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
           Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
         ]
-    - GCAM 8|Africa_Northern:
+    - GCAM 8s|Africa_Northern:
         countries: [
           Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
         ]
-    - GCAM 8|Africa_Southern:
+    - GCAM 8s|Africa_Southern:
         countries: [
           Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
           Zambia, Zimbabwe
         ]
-    - GCAM 8|Africa_Western:
+    - GCAM 8s|Africa_Western:
         countries: [
           Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
           Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
@@ -21,15 +21,15 @@
           Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso,
           "Saint Helena, Ascension and Tristan da Cunha"
         ]
-    - GCAM 8|Argentina:
+    - GCAM 8s|Argentina:
         countries: Argentina
-    - GCAM 8|Australia and New Zealand:
+    - GCAM 8s|Australia and New Zealand:
         countries: [ Australia, New Zealand ]
-    - GCAM 8|Brazil:
+    - GCAM 8s|Brazil:
         countries: Brazil
-    - GCAM 8|Canada:
+    - GCAM 8s|Canada:
         countries: Canada
-    - GCAM 8|Central America and Caribbean:
+    - GCAM 8s|Central America and Caribbean:
         countries: [
           Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
           Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
@@ -39,21 +39,21 @@
           "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
           Sint Maarten (Dutch part)
         ]
-    - GCAM 8|Central Asia:
+    - GCAM 8s|Central Asia:
         countries: [
           Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
           Turkmenistan, Uzbekistan
         ]
-    - GCAM 8|China:
+    - GCAM 8s|China:
         countries: [ China, Hong Kong, Macao ]
-    - GCAM 8|Colombia:
+    - GCAM 8s|Colombia:
         countries: Colombia
-    - GCAM 8|EU-12:
+    - GCAM 8s|EU-12:
         countries: [
           Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
           Malta, Poland, Romania, Slovenia
         ]
-    - GCAM 8|EU-15:
+    - GCAM 8s|EU-15:
         countries: [
           Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
           Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
@@ -61,43 +61,43 @@
           United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
           Turks and Caicos Islands, Guernsey, Jersey, Isle of Man, Vatican
         ]
-    - GCAM 8|Europe_Eastern:
+    - GCAM 8s|Europe_Eastern:
         countries: [ Belarus, Moldova, Ukraine ]
-    - GCAM 8|Europe_Non_EU:
+    - GCAM 8s|Europe_Non_EU:
         countries: [
           Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
           Turkey, Serbia
         ]
-    - GCAM 8|European Free Trade Association:
+    - GCAM 8s|European Free Trade Association:
         countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
-    - GCAM 8|India:
+    - GCAM 8s|India:
         countries: India
-    - GCAM 8|Indonesia:
+    - GCAM 8s|Indonesia:
         countries: Indonesia
-    - GCAM 8|Japan:
+    - GCAM 8s|Japan:
         countries: Japan
-    - GCAM 8|Mexico:
+    - GCAM 8s|Mexico:
         countries: Mexico
-    - GCAM 8|Middle East:
+    - GCAM 8s|Middle East:
         countries: [
           Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
           Saudi Arabia, Syria, Yemen, United Arab Emirates
         ]
-    - GCAM 8|Pakistan:
+    - GCAM 8s|Pakistan:
         countries: Pakistan
-    - GCAM 8|Russia:
+    - GCAM 8s|Russia:
         countries: Russian Federation
-    - GCAM 8|South Africa:
+    - GCAM 8s|South Africa:
         countries: South Africa
-    - GCAM 8|South America_Northern:
+    - GCAM 8s|South America_Northern:
         countries: [ French Guiana, Guyana, Suriname, Venezuela ]
-    - GCAM 8|South America_Southern:
+    - GCAM 8s|South America_Southern:
         countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
-    - GCAM 8|South Asia:
+    - GCAM 8s|South Asia:
         countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
-    - GCAM 8|South Korea:
+    - GCAM 8s|South Korea:
         countries: South Korea
-    - GCAM 8|Southeast Asia:
+    - GCAM 8s|Southeast Asia:
         countries: [
           American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
           Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
@@ -107,7 +107,7 @@
           Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
           Pitcairn, Wallis and Futuna
         ]
-    - GCAM 8|Taiwan:
+    - GCAM 8s|Taiwan:
         countries: Taiwan
-    - GCAM 8|USA:
+    - GCAM 8s|USA:
         countries: [ Puerto Rico, United States, United States Virgin Islands ]

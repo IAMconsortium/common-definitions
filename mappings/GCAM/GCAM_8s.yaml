@@ -1,39 +1,38 @@
-model:
-  - GCAM 8s
+model: GCAM 8s
 
 native_regions:
-  - Africa_Eastern: GCAM 8|Africa_Eastern
-  - Africa_Northern: GCAM 8|Africa_Northern
-  - Africa_Southern: GCAM 8|Africa_Southern
-  - Africa_Western: GCAM 8|Africa_Western
-  - Argentina: GCAM 8|Argentina
-  - Australia_NZ: GCAM 8|Australia and New Zealand
-  - Brazil: GCAM 8|Brazil
-  - Canada: GCAM 8|Canada
-  - Central America and Caribbean: GCAM 8|Central America and Caribbean
-  - Central Asia: GCAM 8|Central Asia
-  - China: GCAM 8|China
-  - Colombia: GCAM 8|Colombia
-  - EU-12: GCAM 8|EU-12
-  - EU-15: GCAM 8|EU-15
-  - Europe_Eastern: GCAM 8|Europe_Eastern
-  - Europe_Non_EU: GCAM 8|Europe_Non_EU
-  - European Free Trade Association: GCAM 8|European Free Trade Association
-  - India: GCAM 8|India
-  - Indonesia: GCAM 8|Indonesia
-  - Japan: GCAM 8|Japan
-  - Mexico: GCAM 8|Mexico
-  - Middle East: GCAM 8|Middle East
-  - Pakistan: GCAM 8|Pakistan
-  - Russia: GCAM 8|Russia
-  - South Africa: GCAM 8|South Africa
-  - South America_Northern: GCAM 8|South America_Northern
-  - South America_Southern: GCAM 8|South America_Southern
-  - South Asia: GCAM 8|South Asia
-  - South Korea: GCAM 8|South Korea
-  - Southeast Asia: GCAM 8|Southeast Asia
-  - Taiwan: GCAM 8|Taiwan
-  - USA: GCAM 8|USA
+  - Africa_Eastern: GCAM 8s|Africa_Eastern
+  - Africa_Northern: GCAM 8s|Africa_Northern
+  - Africa_Southern: GCAM 8s|Africa_Southern
+  - Africa_Western: GCAM 8s|Africa_Western
+  - Argentina: GCAM 8s|Argentina
+  - Australia_NZ: GCAM 8s|Australia and New Zealand
+  - Brazil: GCAM 8s|Brazil
+  - Canada: GCAM 8s|Canada
+  - Central America and Caribbean: GCAM 8s|Central America and Caribbean
+  - Central Asia: GCAM 8s|Central Asia
+  - China: GCAM 8s|China
+  - Colombia: GCAM 8s|Colombia
+  - EU-12: GCAM 8s|EU-12
+  - EU-15: GCAM 8s|EU-15
+  - Europe_Eastern: GCAM 8s|Europe_Eastern
+  - Europe_Non_EU: GCAM 8s|Europe_Non_EU
+  - European Free Trade Association: GCAM 8s|European Free Trade Association
+  - India: GCAM 8s|India
+  - Indonesia: GCAM 8s|Indonesia
+  - Japan: GCAM 8s|Japan
+  - Mexico: GCAM 8s|Mexico
+  - Middle East: GCAM 8s|Middle East
+  - Pakistan: GCAM 8s|Pakistan
+  - Russia: GCAM 8s|Russia
+  - South Africa: GCAM 8s|South Africa
+  - South America_Northern: GCAM 8s|South America_Northern
+  - South America_Southern: GCAM 8s|South America_Southern
+  - South Asia: GCAM 8s|South Asia
+  - South Korea: GCAM 8s|South Korea
+  - Southeast Asia: GCAM 8s|Southeast Asia
+  - Taiwan: GCAM 8s|Taiwan
+  - USA: GCAM 8s|USA
   # G20 members (without renaming)
   - Brazil
   - Canada
