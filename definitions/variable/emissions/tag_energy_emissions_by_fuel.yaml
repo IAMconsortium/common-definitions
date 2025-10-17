@@ -4,8 +4,8 @@
     # It follows the structure of `tag_secondary_energy_carriers_level-2.yaml`
     # but without the top-level category (Solids, Liquids, Gases)
     - Biomass:
-        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets),
-          not including traditional bioenergy
+        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets)
+          including traditional bioenergy (e.g., fuelwood)
         tier: ^1
     - Biomass|Modern:
         description: modern biomass including 2nd generation bioenergy crops, crop and
