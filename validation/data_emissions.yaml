@@ -1,0 +1,13 @@
+# validation bounds for historical CO2 emissions
+- Historical fossil CO2 emissions data:
+    variable: Emissions|CO2|Energy and Industrial Processes
+    World:
+      region: World
+      rtol: 5%
+      file: data_emissions_global.csv
+    # source for regional reference values: Our World in Data (2023)
+    Asia (R5):
+      region: Asia (R5)
+      year: 2020
+      rtol: 10%
+      value: 20520  # MtCO2
