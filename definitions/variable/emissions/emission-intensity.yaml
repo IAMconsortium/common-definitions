@@ -1,0 +1,35 @@
+- Emission Intensity|{Level-0 Species}|Industry|Iron and Steel:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per output from the iron and Steel industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per output from the {Non-Metallic Minerals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per output from the {Non-Ferrous Metals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industry|Chemicals|{Chemicals Commodity}:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per output from the {Chemicals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Transportation|Passenger|Road|Light-Duty Vehicle:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per passenger-distance travelled on roads in light-duty vehicles
+    unit: "{Level-0 Species}/billion pkm"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Transportation|Freight|Truck:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1 and Scope 2) per freight-distance travelled on roads in trucks
+    unit: "{Level-0 Species}/billion tkm"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Energy|Supply|Electricity:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      (within Scope 1) per output of power generation
+    unit: "{Level-0 Species}/EJ"
+    tier: 2
