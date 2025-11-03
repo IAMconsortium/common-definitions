@@ -402,8 +402,16 @@
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
     tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|{Transportation Sector}:
+    description: Emissions of {Level-2 Species} from fuel combustion by {Transportation Sector}
+    unit: "{Level-2 Species}"
+    tier: 2
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|{Transportation Mode}:
     description: Emissions of {Level-2 Species} from fuel combustion by {Transportation Mode}
+    unit: "{Level-2 Species}"
+    tier: 2
+- Emissions|{Level-2 Species}|Energy|Demand|Transportation|Other Transport:
+    description: Emissions of {Level-2 Species} from fuel combustion by off-road transport, active transport, pipeline transport, and other transport modes
     unit: "{Level-2 Species}"
     tier: 2
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Road|{Vehicle Type}:
