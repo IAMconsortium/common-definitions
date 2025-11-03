@@ -1,21 +1,54 @@
-- Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle:
-    description: Energy service demand for passenger transport on roads in light duty vehicles
+# Passenger
+- Energy Service|Transportation|Passenger:
+    description: Energy service demand for passenger transport including active transport (non-motorized transport)
     unit: billion pkm/yr
     tier: 2
-    navigate: Energy Service|Transportation|Road|LDV
+- Energy Service|Transportation|Passenger|{Transportation Mode}:
+    description: Energy service demand for passenger transport on {Transportation Mode}
+    unit: billion pkm/yr
+    tier: 3
+- Energy Service|Transportation|Passenger|Road|{Vehicle Type}:
+    description: Energy service demand for passenger transport on {Vehicle Type}
+    unit: billion pkm/yr
+    tier: 3
 - Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle|{Drive Type}:
     description: Energy service demand for passenger transport on roads in light duty vehicles
       with {Drive Type}
     unit: billion pkm/yr
-    tier: 2
-    navigate: Energy Service|Transportation|Road|LDV|{Drive Type}
-- Energy Service|Transportation|Freight|Truck:
-    description: Energy service demand for freight transport on roads in trucks
+    tier: 3
+- Energy Service|Transportation|Passenger|Road|Bus|{Drive Type}:
+    description: Energy service demand for passenger transport on roads in buses
+      with {Drive Type}
+    unit: billion pkm/yr
+    tier: 3
+# - Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle:
+#     description: Energy service demand for passenger transport on roads in light duty vehicles
+#     unit: billion pkm/yr
+#     tier: 2
+#     navigate: Energy Service|Transportation|Road|LDV
+# - Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle|{Drive Type}:
+#     description: Energy service demand for passenger transport on roads in light duty vehicles
+#       with {Drive Type}
+#     unit: billion pkm/yr
+#     tier: 2
+#     navigate: Energy Service|Transportation|Road|LDV|{Drive Type}
+
+# Freight
+- Energy Service|Transportation|Freight:
+    description: Energy service demand for freight transport
     unit: billion tkm/yr
     tier: 2
-- Energy Service|Transportation|Freight|Truck|{Drive Type}:
+- Energy Service|Transportation|Freight|{Transportation Mode}:
+    description: Energy service demand for freight transport on {Transportation Mode}
+    unit: billion tkm/yr
+    tier: 3
+- Energy Service|Transportation|Freight|Road|{Vehicle Type}:
+    description: Energy service demand for freight transport on {Vehicle Type}
+    unit: billion tkm/yr
+    tier: 3
+- Energy Service|Transportation|Freight|Road|Truck|{Drive Type}:
     description: Energy service demand for freight transport on roads in trucks
       with {Drive Type}
     unit: billion tkm/yr
-    tier: 2
+    tier: 3
     navigate: Energy Service|Transportation|Freight|Truck|{Drive Type}
