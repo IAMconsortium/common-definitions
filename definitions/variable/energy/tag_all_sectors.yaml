@@ -141,7 +141,7 @@
     - Transportation|Shipping:
         description: shipping sector excluding international bunkers
         tier: ^1
-    - Transportation|Other transport:
+    - Transportation|Other Transport:
         description: off-road transport, active transport, and pipeline transport
         tier: ^1
     - Transportation|Passenger:

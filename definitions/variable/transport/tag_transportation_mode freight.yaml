@@ -1,14 +1,14 @@
 - Transportation Mode Freight:
     - Aviation:
-        description: Aviation transport, excluding international bunkers
+        description: aviation transport, excluding international bunkers
     - Rail:
-        description: Rail transport
+        description: rail transport
     - Road:
-        description: Motorized road transport
+        description: motorized road transport
     - Off-Road:
-        description: Motorized off-road transport
+        description: motorized off-road transport
     - Shipping:
-        description: Water transport, excluding international bunkers
+        description: water transport, excluding international bunkers
     - Pipeline:
-        description: Pipeline transport
+        description: pipeline transport
 
