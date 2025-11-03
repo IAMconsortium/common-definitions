@@ -3,8 +3,8 @@
     description: Energy service demand for passenger transport including active transport (non-motorized transport)
     unit: billion pkm/yr
     tier: 2
-- Energy Service|Transportation|Passenger|{Transportation Mode}:
-    description: Energy service demand for passenger transport on {Transportation Mode}
+- Energy Service|Transportation|Passenger|{Transportation Mode Passenger}:
+    description: Energy service demand for passenger transport on {Transportation Mode Passenger}
     unit: billion pkm/yr
     tier: 3
 - Energy Service|Transportation|Passenger|Road|{Vehicle Type}:
@@ -38,8 +38,8 @@
     description: Energy service demand for freight transport
     unit: billion tkm/yr
     tier: 2
-- Energy Service|Transportation|Freight|{Transportation Mode}:
-    description: Energy service demand for freight transport on {Transportation Mode}
+- Energy Service|Transportation|Freight|{Transportation Mode Freight}:
+    description: Energy service demand for freight transport on {Transportation Mode Freight}
     unit: billion tkm/yr
     tier: 3
 - Energy Service|Transportation|Freight|Road|{Vehicle Type}:
