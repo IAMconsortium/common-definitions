@@ -120,23 +120,29 @@
           (see 'Bunkers')
     - Transportation (w/ bunkers):
         description: transportation sector including international aviation and shipping
-    - Transportation|Bus:
+    - Transportation|Road|Bus:
         description: transportation sector by bus
         tier: ^1
-    - Transportation|Light-Duty Vehicle:
+    - Transportation|Road|Light-Duty Vehicle:
         description: transportation sector with light-duty vehicles
         tier: ^1
-    - Transportation|Truck:
+    - Transportation|Road|Truck:
         description: trucking sector
+        tier: ^1
+    - Transportation|Road|Two/Three-Wheeled Vehicle:
+        description: transportation sector by two/three-wheeled vehicles
         tier: ^1
     - Transportation|Rail:
         description: rail transportation sector
         tier: ^1
-    - Transportation|Domestic Aviation:
-        description: domestic aviation sector
+    - Transportation|Aviation:
+        description: aviation sector excluding international bunkers
         tier: ^1
-    - Transportation|Domestic Shipping:
-        description: domestic shipping sector
+    - Transportation|Shipping:
+        description: shipping sector excluding international bunkers
+        tier: ^1
+    - Transportation|Other transport:
+        description: off-road transport, active transport, and pipeline transport
         tier: ^1
     - Transportation|Passenger:
         description: passenger transportation sector excluding international aviation
