@@ -46,6 +46,11 @@
     description: Energy service demand for freight transport on {Vehicle Type}
     unit: billion tkm/yr
     tier: 3
+- Energy Service|Transportation|Freight|Road|Light-Duty Vehicle|{Drive Type}:
+    description: Energy service demand for freight transport on roads in trucks
+      with {Drive Type}
+    unit: billion tkm/yr
+    tier: 3
 - Energy Service|Transportation|Freight|Road|Truck|{Drive Type}:
     description: Energy service demand for freight transport on roads in trucks
       with {Drive Type}
