@@ -1,6 +1,6 @@
 - Transportation Mode:
     - Aviation:
-        description: aviation transport, excluding international bunkers
+        description: aviation transport, excluding activities related to international bunkers
     - Rail:
         description: rail transport
     - Road:
@@ -10,6 +10,6 @@
     - Active:
         description: non-motorized transport
     - Shipping:
-        description: water transport, excluding international bunkers
+        description: water transport, excluding activities related to international bunkers
     - Pipeline:
         description: pipeline transport
