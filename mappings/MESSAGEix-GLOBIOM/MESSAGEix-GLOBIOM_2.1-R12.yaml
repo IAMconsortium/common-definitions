@@ -1,4 +1,5 @@
 model:
+  - MESSAGEix-GLOBIOM 2.1-R12
   - MESSAGEix-GLOBIOM 2.1-M-R12
 
 native_regions:
