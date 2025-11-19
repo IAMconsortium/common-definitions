@@ -1,3 +1,24 @@
+- Emission Intensity|{Level-0 Species}|Energy and Industrial Processes|Iron and Steel:
+    description: Emission intensity of {Level-0 Species} from energy use and industrial
+      processes (Scope 1) per output from the iron and Steel industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Energy and Industrial Processes|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Emission intensity of {Level-0 Species} from energy use and industrial
+      processes (Scope 1) per output from the {Non-Metallic Minerals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Energy and Industrial Processes|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Emission intensity of {Level-0 Species} from energy use and industrial
+      processes (Scope 1) per output from the {Non-Ferrous Metals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Energy and Industrial Processes|Chemicals|{Chemicals Commodity}:
+    description: Emission intensity of {Level-0 Species} from energy use and industrial
+      processes (Scope 1) per output from the {Chemicals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+
 - Emission Intensity|{Level-0 Species}|Energy|Demand|Industry|Iron and Steel:
     description: Emission intensity of direct energy-related {Level-0 Species}
       per output from the iron and Steel industry
@@ -15,6 +36,27 @@
     tier: 2
 - Emission Intensity|{Level-0 Species}|Energy|Demand|Industry|Chemicals|{Chemicals Commodity}:
     description: Emission intensity of direct energy-related {Level-0 Species}
+      per output from the {Chemicals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+
+- Emission Intensity|{Level-0 Species}|Industrial Processes|Iron and Steel:
+    description: Emission intensity of {Level-0 Species} from industrial processes
+      per output from the iron and Steel industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industrial Processes|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
+    description: Emission intensity of {Level-0 Species} from industrial processes
+      per output from the {Non-Metallic Minerals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industrial Processes|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
+    description: Emission intensity of {Level-0 Species} from industrial processes
+      per output from the {Non-Ferrous Metals Commodity} industry
+    unit: "{Level-0 Species}/Mt"
+    tier: 2
+- Emission Intensity|{Level-0 Species}|Industrial Processes|Chemicals|{Chemicals Commodity}:
+    description: Emission intensity of {Level-0 Species} from industrial processes
       per output from the {Chemicals Commodity} industry
     unit: "{Level-0 Species}/Mt"
     tier: 2
