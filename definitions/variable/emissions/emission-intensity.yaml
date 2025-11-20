@@ -66,13 +66,20 @@
     unit: "{Level-0 Species}/Mt"
     tier: 2
 
+- Emission Intensity|{Level-0 Species}|Energy|Demand|Transportation|Passenger|Road:
+    description: Emission intensity of CO2 per passenger-kilometer of passenger transportation
+    unit: "{Level-0 Species}/billion pkm"
 - Emission Intensity|{Level-0 Species}|Energy|Demand|Transportation|Passenger|Road|Light-Duty Vehicle:
     description: Emission intensity of direct energy-related {Level-0 Species}
-      per passenger-distance travelled on roads in light-duty vehicles
+      per passenger-distance travelled on roads using light-duty vehicles
     unit: "{Level-0 Species}/billion pkm"
-    tier: 2
-- Emission Intensity|{Level-0 Species}|Energy|Demand|Transportation|Freight|Truck:
+- Emission Intensity|{Level-0 Species}|Energy|Demand|Transportation|Freight|Road:
     description: Emission intensity of direct energy-related {Level-0 Species}
-      per freight-distance travelled on roads in trucks
+      per ton-kilometer of freight transportation on roads
     unit: "{Level-0 Species}/billion tkm"
-    tier: 2
+- Emission Intensity|{Level-0 Species}|Energy|Demand|Transportation|Freight|Road|Truck:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      per freight-distance travelled on roads using trucks
+    unit: "{Level-0 Species}/billion tkm"
+
+
