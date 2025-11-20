@@ -1,3 +1,8 @@
+- Emission Intensity|{Level-0 Species}|Energy|Supply|Electricity:
+    description: Emission intensity of direct energy-related {Level-0 Species}
+      per output of power generation
+    unit: "{Level-0 Species}/EJ"
+
 - Emission Intensity|{Level-0 Species}|Energy and Industrial Processes|Iron and Steel:
     description: Emission intensity of {Level-0 Species} from energy use and industrial
       processes (Scope 1) per output from the iron and Steel industry
@@ -70,9 +75,4 @@
     description: Emission intensity of direct energy-related {Level-0 Species}
       per freight-distance travelled on roads in trucks
     unit: "{Level-0 Species}/billion tkm"
-    tier: 2
-- Emission Intensity|{Level-0 Species}|Energy|Supply|Electricity:
-    description: Emission intensity of direct energy-related {Level-0 Species}
-      per output of power generation
-    unit: "{Level-0 Species}/EJ"
     tier: 2
