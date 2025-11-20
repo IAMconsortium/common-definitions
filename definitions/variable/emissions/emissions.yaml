@@ -451,26 +451,25 @@
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), including negative emissions such as
-      those from cement carbonation processes and other forms of capture and storage on
-      industrial processes
+      (IPCC categories 2A, 2B, 2C, 2E), including negative emissions such as those from
+      cement carbonation processes and other forms of capture and storage on industrial processes
     unit: "{Level-3 Species}"
     tier: 1
     notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), not accounting for negative emissions
+      (IPCC categories 2A, 2B, 2C, 2E), not accounting for negative emissions
       from carbon removal processes such as from cement production
     unit: Mt CO2/yr
     tier: 1
 - Emissions|{Level-3 Species}|Industrial Processes|{Non-Energy Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E) in the {Non-Energy Sector}
+      (IPCC categories 2A, 2B, 2C, 2E) in the {Non-Energy Sector}
     unit: "{Level-3 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|Industrial Processes|{Industrial-Process Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
-      (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E) in the {Industrial-Process Sector}
+      (IPCC categories 2A, 2B, 2C, 2E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
     tier: 2
 
