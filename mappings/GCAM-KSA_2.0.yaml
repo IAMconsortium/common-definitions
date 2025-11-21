@@ -1,5 +1,4 @@
-model: GCAM-KSA
-version: "2.0"
+model: GCAM-KSA v2.0
 
 mappings:
   GCAM-KSA v2.0|Africa_Eastern:
