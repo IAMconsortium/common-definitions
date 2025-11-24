@@ -1,0 +1,116 @@
+- GCAM-KSA v2.0:
+    - GCAM-KSA v2.0|Africa_Eastern:
+        countries: [
+          Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
+          Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
+        ]
+    - GCAM-KSA v2.0|Africa_Northern:
+        countries: [
+          Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - GCAM-KSA v2.0|Africa_Southern:
+        countries: [
+          Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
+          Zambia, Zimbabwe
+        ]
+    - GCAM-KSA v2.0|Africa_Western:
+        countries: [
+          Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
+          Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
+          Guinea, Côte d'Ivoire, Liberia, Mali, Mauritania, Niger, Nigeria, Guinea-Bissau,
+          Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso,
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ]
+    - GCAM-KSA v2.0|Argentina:
+        countries: Argentina
+    - GCAM-KSA v2.0|Australia and New Zealand:
+        countries: [ Australia, New Zealand ]
+    - GCAM-KSA v2.0|Brazil:
+        countries: Brazil
+    - GCAM-KSA v2.0|Canada:
+        countries: Canada
+    - GCAM-KSA v2.0|Central America and Caribbean:
+        countries: [
+          Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
+          Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
+          Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
+          Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Guadeloupe,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
+          Sint Maarten (Dutch part)
+        ]
+    - GCAM-KSA v2.0|Central Asia:
+        countries: [
+          Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
+          Turkmenistan, Uzbekistan
+        ]
+    - GCAM-KSA v2.0|China:
+        countries: [ China, Hong Kong, Macao ]
+    - GCAM-KSA v2.0|Colombia:
+        countries: Colombia
+    - GCAM-KSA v2.0|EU-12:
+        countries: [
+          Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
+          Malta, Poland, Romania, Slovenia
+        ]
+    - GCAM-KSA v2.0|EU-15:
+        countries: [
+          Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
+          Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
+          Isle of Man, Luxembourg, Monaco, Netherlands, Portugal, Spain, Sweden,
+          United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
+          Turks and Caicos Islands, Guernsey, Jersey, Isle of Man, Vatican
+        ]
+    - GCAM-KSA v2.0|Europe_Eastern:
+        countries: [ Belarus, Moldova, Ukraine ]
+    - GCAM-KSA v2.0|Europe_Non_EU:
+        countries: [
+          Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
+          Turkey, Serbia
+        ]
+    - GCAM-KSA v2.0|European Free Trade Association:
+        countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
+    - GCAM-KSA v2.0|India:
+        countries: India
+    - GCAM-KSA v2.0|Indonesia:
+        countries: Indonesia
+    - GCAM-KSA v2.0|Japan:
+        countries: Japan
+    - GCAM-KSA v2.0|Mexico:
+        countries: Mexico
+    - GCAM-KSA v2.0|Middle East excluding Saudi Arabia:
+        countries: [
+          Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, Yemen, United Arab Emirates
+        ]
+    - GCAM-KSA v2.0|Pakistan:
+        countries: Pakistan
+    - GCAM-KSA v2.0|Russia:
+        countries: Russian Federation
+    - GCAM-KSA v2.0|South Africa:
+        countries: South Africa
+    - GCAM-KSA v2.0|South America_Northern:
+        countries: [ French Guiana, Guyana, Suriname, Venezuela ]
+    - GCAM-KSA v2.0|South America_Southern:
+        countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
+    - GCAM-KSA v2.0|South Asia:
+        countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
+    - GCAM-KSA v2.0|South Korea:
+        countries: South Korea
+    - GCAM-KSA v2.0|Southeast Asia:
+        countries: [
+          American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
+          Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
+          Laos, Malaysia, New Caledonia, Niue, Northern Mariana Islands, Mayotte,
+          Norfolk Island, Cocos (Keeling) Islands, Christmas Island, Vanuatu, Nauru,
+          Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
+          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
+          Pitcairn, Wallis and Futuna
+        ]
+    - GCAM-KSA v2.0|Taiwan:
+        countries: Taiwan
+    - GCAM-KSA v2.0|USA:
+        countries: [ Puerto Rico, United States, United States Virgin Islands ]
+    - GCAM-KSA v2.0|Saudi Arabia:
+        countries: Saudi Arabia
+        
