@@ -78,7 +78,7 @@
         countries: Japan
     - GCAM-KSA v2.0|Mexico:
         countries: Mexico
-    - GCAM-KSA v2.0|Middle East:
+    - GCAM-KSA v2.0|Middle East excluding Saudi Arabia:
         countries: [
           Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
           Saudi Arabia, Syria, Yemen, United Arab Emirates
