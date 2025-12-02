@@ -1,0 +1,6 @@
+dimension: variable
+rename:
+ - Production|Iron and Steel|Volume: Production|Iron and Steel|Steel
+ - Value Added|Industry|Iron and Steel: Value Added|Industry|Iron and Steel
+ - Emissions|CO2|Energy|Demand|Industry|Steel: Emissions|CO2|Energy|Demand|Industry|Iron and Steel
+ - Emissions|CO2|Industrial Processes|Non-Metallic Minerals|Cement: Emissions|CO2|Industrial Processes|Cement
