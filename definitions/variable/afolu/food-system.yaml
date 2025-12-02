@@ -4,6 +4,7 @@
     sdg: 2
     weight: Population
     tier: 1
+    navigate: Food Demand
     engage: Food Demand
     shape: Food|Availability
 - Food Availability|Crops [per capita]:
@@ -12,6 +13,7 @@
     sdg: 2
     weight: Population
     tier: 1
+    navigate: Food Demand|Crops
     engage: Food Demand|Crops
     shape: Food|Availability|Crops
 - Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
@@ -32,6 +34,7 @@
     sdg: 2
     weight: Population
     tier: 1
+    navigate: Food Demand|Livestock
     engage: Food Demand|Livestock
     shape: Food|Availability|Livestock
 - Food Availability|Livestock|{Livestock Products} [per capita]:

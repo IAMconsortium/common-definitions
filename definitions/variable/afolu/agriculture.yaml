@@ -35,6 +35,7 @@
     unit: million t DM/yr
     agmip: Feed demand (FEED) - Crops (CRP)
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Crops|Feed
 - Agricultural Demand|Crops|Feed|{Crop Types w/o Energy Crops}:
     description: Demand for feed crops - {Crop Types w/o Energy Crops}
     unit: million t DM/yr
@@ -125,6 +126,7 @@
     description: Production of {Crop Types}
     unit: million t DM/yr
     tier: 2
+    navigate: Agricultural Production|{Crop Types}
     engage: Agricultural Production|{Crop Types}
 - Agricultural Production|Livestock:
     description: Production of livestock products (excluding fish)
