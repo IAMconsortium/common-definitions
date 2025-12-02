@@ -124,6 +124,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    navigate: Carbon Sequestration|CCS|Industrial Processes
 - Carbon Capture|Industrial Processes|{Industry Sector}:
     description: Captured carbon dioxide (CO2) from industrial processes
       in the {Industry Sector}, not including energy use
@@ -161,7 +162,7 @@
     lower_bound: 0
     notes: Captured CO2 that is reacted at the earth's surface (e.g., ex situ mineralization)
       should be reported under Carbon Capture|Other Storage
-    navigate: Carbon Capture|Storage
+    navigate: Carbon Sequestration|CCS
 - Carbon Capture|Geological Storage|{Carbon Capture Source}:
     description: Captured carbon dioxide (CO2) from {Carbon Capture Source} that is
       injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
@@ -169,7 +170,7 @@
     unit: Mt CO2/yr
     tier: 2
     lower_bound: 0
-    navigate: Carbon Capture|Storage|{Carbon Capture Source}
+    navigate: Carbon Sequestration|CCS|{Carbon Capture Source}
 - Carbon Capture|Geological Storage|Industrial Processes:
     description: Captured carbon dioxide (CO2) from industrial processes (e.g., cement production)
       that is injected into subsurface geological storage reservoirs (e.g., in situ mineralization),
