@@ -523,3 +523,4 @@
     notes: This timeseries should be reported as negative values so that subcategories
       of emissions add up to net emissions 'Emissions|{Level-3 Species}'.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+    navigate: Emissions|CO2|Other Removal
