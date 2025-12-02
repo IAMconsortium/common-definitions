@@ -16,20 +16,20 @@
     unit: million t DM/yr
     agmip:
     tier: 1
-    navigate: Agricultural Demand|Crops|Energy
+    navigate: Agricultural Demand|Energy|Crops
 - Agricultural Demand|Crops|Bioenergy|1st Generation:
     description: Demand for 1st generation bioenergy crops (sugar, starch and oil crops)
     unit: million t DM/yr
     agmip:
     tier: 2
-    navigate: Agricultural Demand|Crops|Energy|1st generation
+    navigate: Agricultural Demand|Energy|Crops|1st generation
 - Agricultural Demand|Crops|Bioenergy|2nd Generation:
     description: Demand for second-generation bioenergy crops
       (short rotation grasses, short rotation trees)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Energy Crops (ECP)
     tier: 1
-    navigate: Agricultural Demand|Crops|Energy|2nd generation
+    navigate: Agricultural Demand|Energy|Crops|2nd generation
 - Agricultural Demand|Crops|Feed:
     description: Demand for feed crops
     unit: million t DM/yr
@@ -45,16 +45,19 @@
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Crops (CRP)
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Crops|Food
 - Agricultural Demand|Crops|Food|{Crop Types w/o Energy Crops}:
     description: Demand for food crops - {Crop Types w/o Energy Crops}
     unit: million t DM/yr
     agmip:
     tier: 3
+    navigate: Agricultural Demand|Non-Energy|Crops|Food
 - Agricultural Demand|Crops|Other:
     description: Demand for crops for other uses
     unit: million t DM/yr
     agmip:
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Crops|Other
 - Agricultural Demand|Livestock:
     description: Demand for livestock products (excluding fish)
     unit: million t DM/yr
@@ -65,11 +68,13 @@
     unit: million t DM/yr
     agmip:
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Livestock
 - Agricultural Demand|Livestock|Food:
     description: Demand for livestock products used as food (excluding fish)
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Livestock (LSP)
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Livestock|Food
 - Agricultural Demand|Livestock|Food|{Livestock Products}:
     description: Demand for livestock products used as food - {Livestock Products}
     unit: million t DM/yr
@@ -80,6 +85,7 @@
     unit: million t DM/yr
     agmip:
     tier: 2
+    navigate: Agricultural Demand|Non-Energy|Livestock|Other
 - Agricultural Demand|Residues:
     description: Demand for residues from agricultural production for feed, bioenergy and
       other uses
@@ -96,6 +102,7 @@
     unit: million t DM/yr
     agmip:
     tier: 2
+    navigate: Agricultural Demand|Energy|Residues
 - Agricultural Demand|Residues|Other:
     description: Demand of residues for other uses
     unit: million t DM/yr
