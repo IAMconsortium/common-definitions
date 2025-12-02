@@ -7,3 +7,9 @@ rename:
  - Final Energy|Other Sector|Solids|Fossil: Final Energy|Other Sector|Solids|Coal
  - Final Energy|Solids|Fossil: Final Energy|Solids|Coal
  - Employment|Service: Employment|Services
+ - Carbon Sequestration|CCS|Biomass|Energy|Supply: Carbon Capture|Energy|Supply|Biomass
+ - Carbon Sequestration|CCS|Fossil|Energy|Demand|Industry: Carbon Capture|Energy|Demand|Industry
+ - Carbon Sequestration|CCS|Fossil|Energy|Supply: Carbon Capture|Energy|Supply|Fossil
+ - Carbon Sequestration|Land Use|Afforestation: Carbon Removal|Land Use|Re/Afforestation
+ - Carbon Sequestration|Direct Air Capture: Carbon Removal|Geological Storage|Direct Air Capture
+ - Carbon Sequestration|Enhanced Weathering: Carbon Removal|Enhanced Weathering
