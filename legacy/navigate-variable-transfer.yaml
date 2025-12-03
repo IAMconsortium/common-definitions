@@ -1,0 +1,11 @@
+dimension: variable
+rename:
+ - Production|Iron and Steel|Volume: Production|Iron and Steel|Steel
+ - Emissions|CO2|Energy|Demand|Industry|Steel: Emissions|CO2|Energy|Demand|Industry|Iron and Steel
+ - Emissions|CO2|Industrial Processes|Non-Metallic Minerals|Cement: Emissions|CO2|Industrial Processes|Cement
+ - Final Energy|Industry|Solids|Fossil: Final Energy|Industry|Solids|Coal
+ - Final Energy|Other Sector|Solids|Fossil: Final Energy|Other Sector|Solids|Coal
+ - Final Energy|Solids|Fossil: Final Energy|Solids|Coal
+ - Employment|Service: Labor Force|Employed|Services
+ - Secondary Energy|Solids|Fossil: Secondary Energy|Solids|Coal
+ - Carbon Removal|Land Use|Afforestation: Carbon Removal|Land Use|Re/Afforestation

@@ -35,6 +35,7 @@
     description: Production of the chemicals sector excluding feedstocks
     unit: Mt/yr
     tier: 2
+    navigate: Production|Chemicals|Volume
 - Production|Chemicals|{Chemicals Commodity}:
     description: Production of {Chemicals Commodity}
     unit: Mt/yr

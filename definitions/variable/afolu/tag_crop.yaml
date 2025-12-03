@@ -1,11 +1,14 @@
 - Crop Types:
     - Cereals:
         description: cereals (maize, rice, temperate cereals and tropical cereals)
+        navigate: Cereal
     - Oil Crops:
         description: oil crops (cotton seed, groundnuts, oilpalms,
           other oil crops incl rapeseed, soybean, sunflower)
+        navigate: Oilcrops
     - Sugar Crops:
         description: sugar crops (sugar beet, sugar cane)
+        navigate: Sugarcrops
     - Other Crops:
         description: other crops (fruits, vegetables, nuts, potatoes, pulses,
           tropical roots)

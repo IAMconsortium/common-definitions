@@ -27,7 +27,7 @@
     unit: '%'
     range: [ 0,100 ]
     weight: Land Cover
-    navigate: Terrestrial Biodiversity|MSA|Vertebrates
+    navigate: Terrestrial Biodiversity|MSA|Plants
     tier: 3
     notes: An indicator of naturalness or biodiversity intactness. It is defined as the mean abundance 
       of original species relative to their abundance in undisturbed ecosystems. An MSA 
