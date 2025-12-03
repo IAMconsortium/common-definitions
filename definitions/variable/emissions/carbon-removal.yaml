@@ -33,7 +33,6 @@
     tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
-    navigate: Carbon Sequestration|Land Use
 
 - Carbon Removal|Long-Lived Materials:
     description: Gross removals of carbon dioxide (CO2) through long-lived materials

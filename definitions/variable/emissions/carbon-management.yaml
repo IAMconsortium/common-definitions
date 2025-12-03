@@ -124,7 +124,6 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
-    navigate: Carbon Sequestration|CCS|Industrial Processes
 - Carbon Capture|Industrial Processes|{Industry Sector}:
     description: Captured carbon dioxide (CO2) from industrial processes
       in the {Industry Sector}, not including energy use
