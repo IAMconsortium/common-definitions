@@ -31,13 +31,12 @@ for management of codelists and validation of scenario data in the IAMC data for
 
 ## Codelists and mappings
 
-The folder `definitions` contains the "codelists", i.e., list of allowed variables and
-regions, for use in the validation workflow. In the IAMC community, the word
-"variable template" is also used to refer to the codelists for variables.
+The folder [definitions](definitions) contains the "codelists", i.e., list of allowed variables and regions, for use in
+the validation workflow. In the IAMC community, the word "variable template" is also used to refer to the codelists for
+variables.
 
-The folder `mappings` contains models-specific processing and automated
-aggregation of regions from "native model regions" (as reported by a model) to
-"common regions" used for comparison and analysis of results.
+The folder [mappings](mappings) contains models-specific processing and automated aggregation of regions from
+"native model regions" (as reported by a model) to "common regions" used for comparison and analysis of results.
 
 ## Model registration
 
@@ -51,6 +50,17 @@ Please make sure to follow the instructions completely, both the _Model mapping_
 4. Set [@danielhuppmann](https://github.com/danielhuppmann) and [@phackstock](https://github.com/phackstock)
    as reviewers (or mention them in the pull request text).
 5. Once everything is in order we will merge your pull request and your model will be registered.
+
+## Mapping of variables to legacy projects
+
+The variable codelists contain attributes to indicate that variables were renamed compared to earlier (legacy) projects.
+These attributes use lower-case spelling of the projects, and they can be used to create a renaming-mapping
+when transferring scenario data to the **common-definitions** variable list.
+
+There are also project-specific rename-mapping files in the [legacy](legacy) folder for cases where the variable
+attributes could not be used easily.
+
+For transferring the **SHAPE** project, use the variable attributes `shape` and `navigate`. 
 
 ## Funding acknowledgement
 
