@@ -397,14 +397,3 @@
     sdg: 17
     skip-region-aggregation: true
     shape: Price|Carbon|Ratio to OECD
-- Policy Cost|GDP Loss w/o Transfers:
-    description: GDP loss without international transfers in a policy scenario compared
-      to the corresponding baseline (losses should be reported as positive numbers)
-    unit: billion USD_2010/yr
-    sdg: 17
-    shape: Policy Cost|GDP Loss|w/o transfers
-- Policy Cost|Transfers:
-    description: Net international climate finance transfers (positive for inflow,
-      negative for payment)
-    unit: billion USD_2010/yr
-    sdg: 17
