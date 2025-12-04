@@ -15,8 +15,7 @@
     - Light-Duty Vehicle|Subcompact Car:
         description: subcompact cars
         tier: ^1
-    - Light-Duty Vehicle|Two-Wheeler:
-        description: two-wheelers
-        tier: ^1
+    - Two/Three-Wheeled Vehicle:
+        description: two/three-wheeled vehicles
     - Truck:
         description: trucks
