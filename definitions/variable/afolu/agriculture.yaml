@@ -17,12 +17,14 @@
     agmip:
     tier: 1
     navigate: Agricultural Demand|Energy|Crops
+    ngfs5: Agricultural Demand|Crops|Energy
 - Agricultural Demand|Crops|Bioenergy|1st Generation:
     description: Demand for 1st generation bioenergy crops (sugar, starch and oil crops)
     unit: million t DM/yr
     agmip:
     tier: 2
     navigate: Agricultural Demand|Energy|Crops|1st generation
+    ngfs5: Agricultural Demand|Crops|Energy|1st generation
 - Agricultural Demand|Crops|Bioenergy|2nd Generation:
     description: Demand for second-generation bioenergy crops
       (short rotation grasses, short rotation trees)
@@ -30,6 +32,7 @@
     agmip: Domestic use (CONS) - Energy Crops (ECP)
     tier: 1
     navigate: Agricultural Demand|Energy|Crops|2nd generation
+    ngfs5: Agricultural Demand|Crops|Energy|2nd generation
 - Agricultural Demand|Crops|Feed:
     description: Demand for feed crops
     unit: million t DM/yr
