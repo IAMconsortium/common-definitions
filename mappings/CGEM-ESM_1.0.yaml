@@ -1,0 +1,125 @@
+model: CGEM-ESM 1.0
+native_regions:
+  - R17_CHN: CGEM-ESM 1.0|China
+  - R17_USA: CGEM-ESM 1.0|United States of America
+  - R17_EUR: CGEM-ESM 1.0|Europe
+  - R17_JPN: CGEM-ESM 1.0|Japan
+  - R17_KOR: CGEM-ESM 1.0|South Korea
+  - R17_RUS: CGEM-ESM 1.0|Russia
+  - R17_IND: CGEM-ESM 1.0|India
+  - R17_ZAF: CGEM-ESM 1.0|South Africa
+  - R17_SEA: CGEM-ESM 1.0|Southeast Asia
+  - R17_AFR: CGEM-ESM 1.0|Rest of Africa
+  - R17_CAN: CGEM-ESM 1.0|Canada
+  - R17_ANZ: CGEM-ESM 1.0|Australia and New Zealand
+  - R17_BRA: CGEM-ESM 1.0|Brasil
+  - R17_MEX: CGEM-ESM 1.0|Mexico
+  - R17_RAE: CGEM-ESM 1.0|Rest of Asia and Europe or Eurasia
+  - R17_MES: CGEM-ESM 1.0|Middle East
+  - R17_LAM: CGEM-ESM 1.0|Rest of Latin America
+common_regions:
+  - Asia (R5):
+      - R17_CHN
+      - R17_KOR
+      - R17_IND
+      - R17_SEA
+  - Latin America (R5):
+      - R17_BRA
+      - R17_MEX
+      - R17_LAM
+  - Middle East & Africa (R5):
+      - R17_ZAF
+      - R17_AFR
+      - R17_MES
+  - OECD & EU (R5):
+      - R17_USA
+      - R17_EUR
+      - R17_JPN
+      - R17_CAN
+      - R17_ANZ
+  - Reforming Economies (R5):
+      - R17_RUS
+      - R17_RAE
+
+  - China (R9):
+      - R17_CHN
+  - European Union (R9):
+      - R17_EUR
+  - India (R9):
+      - R17_IND
+  - Latin America (R9):
+      - R17_BRA
+      - R17_MEX
+      - R17_LAM
+  - Middle East & Africa (R9):
+      - R17_ZAF
+      - R17_AFR
+      - R17_MES
+  - Other Asia (R9):
+      - R17_KOR
+      - R17_SEA
+  - Other OECD (R9):
+      - R17_JPN
+      - R17_CAN
+      - R17_ANZ
+  - Reforming Economies (R9):
+      - R17_RUS
+      - R17_RAE
+  - USA (R9):
+      - R17_USA
+
+  - Africa (R10):
+      - R17_ZAF
+      - R17_AFR
+  - China+ (R10):
+      - R17_CHN
+      - R17_KOR
+  - Europe (R10):
+      - R17_EUR
+  - India+ (R10):
+      - R17_IND
+  - Latin America (R10):
+      - R17_BRA
+      - R17_MEX
+      - R17_LAM
+  - Middle East (R10):
+      - R17_MES
+  - North America (R10):
+      - R17_USA
+      - R17_CAN
+  - Pacific OECD (R10):
+      - R17_JPN
+      - R17_ANZ
+  - Reforming Economies (R10):
+      - R17_RUS
+      - R17_RAE
+  - Rest of Asia (R10):
+      - R17_SEA
+
+  # G20 members
+  - Brazil:
+      - R17_BRA
+  - Canada:
+      - R17_CAN
+  - China:
+      - R17_CHN
+  - India:
+      - R17_IND
+  - Japan:
+      - R17_JPN
+  - Mexico:
+      - R17_MEX
+  - Russian Federation:
+      - R17_RUS
+  - South Africa:
+      - R17_ZAF
+  - South Korea:
+      - R17_KOR
+  - United States:
+      - R17_USA
+
+  - African Union:
+      - R17_ZAF
+      - R17_AFR
+  - European Union and United Kingdom:
+      - R17_EUR

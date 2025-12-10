@@ -1,0 +1,277 @@
+- CGEM-ESM 1.0:
+    - CGEM-ESM 1.0|China:
+        countries:
+          - China
+          - Hong Kong
+          - Macao
+    - CGEM-ESM 1.0|United States of America:
+        countries: United States
+    - CGEM-ESM 1.0|Europe:
+        countries:
+          - Åland Islands
+          - Austria
+          - Belgium
+          - Bulgaria
+          - Cyprus
+          - Czechia
+          - Denmark
+          - Estonia
+          - Finland
+          - France
+          - Germany
+          - Greece
+          - Guernsey
+          - Hungary
+          - Iceland
+          - Ireland
+          - Italy
+          - Latvia
+          - Liechtenstein
+          - Lithuania
+          - Luxembourg
+          - Malta
+          - Netherlands
+          - Norway
+          - Poland
+          - Portugal
+          - Romania
+          - Slovakia
+          - Slovenia
+          - Spain
+          - Svalbard and Jan Mayen
+          - Sweden
+          - Switzerland
+          - United Kingdom
+          - Vatican
+    - CGEM-ESM 1.0|Japan:
+        countries: Japan
+    - CGEM-ESM 1.0|South Korea:
+        countries: South Korea
+    - CGEM-ESM 1.0|Russia:
+        countries: Russian Federation
+    - CGEM-ESM 1.0|India:
+        countries: India
+    - CGEM-ESM 1.0|South Africa:
+        countries: South Africa
+    - CGEM-ESM 1.0|Southeast Asia:
+        countries:
+          - Brunei Darussalam
+          - Cambodia
+          - Indonesia
+          - Laos
+          - Malaysia
+          - Myanmar
+          - Philippines
+          - Singapore
+          - Thailand
+          - Timor-Leste
+          - Viet Nam
+    - CGEM-ESM 1.0|Rest of Africa:
+        countries:
+          - Algeria
+          - Angola
+          - Benin
+          - Botswana
+          - Burkina Faso
+          - Burundi
+          - Cabo Verde
+          - Cameroon
+          - Central African Republic
+          - Chad
+          - Comoros
+          - Congo
+          - Côte d'Ivoire
+          - Democratic Republic of the Congo
+          - Djibouti
+          - Egypt
+          - Equatorial Guinea
+          - Eritrea
+          - Eswatini
+          - Ethiopia
+          - Gabon
+          - Gambia
+          - Ghana
+          - Guinea
+          - Guinea-Bissau
+          - Kenya
+          - Lesotho
+          - Liberia
+          - Libya
+          - Madagascar
+          - Malawi
+          - Mali
+          - Mauritania
+          - Mauritius
+          - Mayotte
+          - Morocco
+          - Mozambique
+          - Namibia
+          - Niger
+          - Nigeria
+          - Réunion
+          - Rwanda
+          - Saint Helena, Ascension and Tristan da Cunha
+          - Sao Tome and Principe
+          - Senegal
+          - Seychelles
+          - Sierra Leone
+          - Somalia
+          - South Sudan
+          - Sudan
+          - Tanzania
+          - Togo
+          - Tunisia
+          - Uganda
+          - Western Sahara
+          - Zambia
+          - Zimbabwe
+    - CGEM-ESM 1.0|Canada:
+        countries:
+          - Canada
+    - CGEM-ESM 1.0|Australia and New Zealand:
+        countries:
+          - American Samoa
+          - Antarctica
+          - Australia
+          - Bouvet Island
+          - British Indian Ocean Territory
+          - Christmas Island
+          - Cocos (Keeling) Islands
+          - Cook Islands
+          - Fiji
+          - French Polynesia
+          - French Southern Territories
+          - Guam
+          - Heard Island and McDonald Islands
+          - Kiribati
+          - Marshall Islands
+          - Micronesia
+          - Nauru
+          - New Caledonia
+          - New Zealand
+          - Niue
+          - Norfolk Island
+          - Northern Mariana Islands
+          - Palau
+          - Papua New Guinea
+          - Pitcairn
+          - Samoa
+          - Solomon Islands
+          - Tokelau
+          - Tonga
+          - Tuvalu
+          - United States Minor Outlying Islands
+          - Vanuatu
+          - Wallis and Futuna
+    - CGEM-ESM 1.0|Brasil:
+        countries: Brazil
+    - CGEM-ESM 1.0|Mexico:
+        countries: Mexico
+    - CGEM-ESM 1.0|Rest of Asia and Europe or Eurasia:
+        countries:
+          - Afghanistan
+          - Albania
+          - Andorra
+          - Armenia
+          - Azerbaijan
+          - Bangladesh
+          - Belarus
+          - Bhutan
+          - Bosnia and Herzegovina
+          - Croatia
+          - Faroe Islands
+          - Georgia
+          - Gibraltar
+          - Isle of Man
+          - Jersey
+          - Kazakhstan
+          - Kosovo
+          - Kyrgyzstan
+          - Maldives
+          - Moldova
+          - Monaco
+          - Mongolia
+          - Montenegro
+          - Nepal
+          - North Korea
+          - North Macedonia
+          - Pakistan
+          - San Marino
+          - Serbia
+          - Sri Lanka
+          - Taiwan
+          - Tajikistan
+          - Turkey
+          - Turkmenistan
+          - Ukraine
+          - Uzbekistan
+    - CGEM-ESM 1.0|Middle East:
+        countries:
+          - Bahrain
+          - Iran
+          - Iraq
+          - Israel
+          - Jordan
+          - Kuwait
+          - Lebanon
+          - Oman
+          - Palestine
+          - Qatar
+          - Saudi Arabia
+          - Syria
+          - United Arab Emirates
+          - Yemen
+    - CGEM-ESM 1.0|Rest of Latin America:
+        countries:
+          - Anguilla
+          - Antigua and Barbuda
+          - Argentina
+          - Aruba
+          - Bahamas
+          - Barbados
+          - Belize
+          - Bermuda
+          - Bolivia
+          - Bonaire, Sint Eustatius and Saba
+          - British Virgin Islands
+          - Cayman Islands
+          - Chile
+          - Colombia
+          - Costa Rica
+          - Cuba
+          - Curaçao
+          - Dominica
+          - Dominican Republic
+          - Ecuador
+          - El Salvador
+          - Falkland Islands (Malvinas)
+          - French Guiana
+          - Greenland
+          - Grenada
+          - Guadeloupe
+          - Guatemala
+          - Guyana
+          - Haiti
+          - Honduras
+          - Jamaica
+          - Martinique
+          - Montserrat
+          - Nicaragua
+          - Panama
+          - Paraguay
+          - Peru
+          - Puerto Rico
+          - Saint Barthélemy
+          - Saint Kitts and Nevis
+          - Saint Lucia
+          - Saint Martin (French part)
+          - Saint Pierre and Miquelon
+          - Saint Vincent and the Grenadines
+          - Sint Maarten (Dutch part)
+          - South Georgia and the South Sandwich Islands
+          - Suriname
+          - Trinidad and Tobago
+          - Turks and Caicos Islands
+          - United States Virgin Islands
+          - Uruguay
+          - Venezuela
