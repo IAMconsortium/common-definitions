@@ -1,0 +1,20 @@
+model: MINES 0.1.0
+native_regions:
+  - R6_DEV: MINES 0.1.0|Developed Countries
+  - R6_EEA: MINES 0.1.0|Eastern Europe and West-Central Asia
+  - R6_LAM: MINES 0.1.0|Latin America and Caribbean
+  - R6_AFR: MINES 0.1.0|Africa
+  - R6_ME: MINES 0.1.0|Middle East
+  - R6_APC: MINES 0.1.0|Asia and Pacific
+common_regions:
+  - Asia (R5):
+      - R6_APC
+  - Latin America (R5):
+      - R6_LAM
+  - Middle East & Africa (R5):
+      - R6_AFR
+      - R6_ME
+  - OECD & EU (R5):
+      - R6_DEV
+  - Reforming Economies (R5):
+      - R6_EEA

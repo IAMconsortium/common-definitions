@@ -1,0 +1,222 @@
+- MINES 0.1.0:
+    - MINES 0.1.0|Developed Countries:
+        countries:
+          - Albania
+          - Australia
+          - Austria
+          - Belgium
+          - Bosnia and Herzegovina
+          - Bulgaria
+          - Canada
+          - Croatia
+          - Cyprus
+          - Czechia
+          - Denmark
+          - Estonia
+          - Finland
+          - France
+          - Germany
+          - Greece
+          - Guam
+          - Hungary
+          - Iceland
+          - Ireland
+          - Italy
+          - Japan
+          - Kosovo
+          - Latvia
+          - Lithuania
+          - Luxembourg
+          - Malta
+          - Montenegro
+          - Netherlands
+          - New Zealand
+          - North Macedonia
+          - Norway
+          - Poland
+          - Portugal
+          - Romania
+          - Serbia
+          - Slovakia
+          - Slovenia
+          - Spain
+          - Sweden
+          - Switzerland
+          - Turkey
+          - United Kingdom
+          - United States
+    - MINES 0.1.0|Eastern Europe and West-Central Asia:
+        countries:
+          - Armenia
+          - Azerbaijan
+          - Belarus
+          - Georgia
+          - Kazakhstan
+          - Kyrgyzstan
+          - Moldova
+          - Russian Federation
+          - Tajikistan
+          - Turkmenistan
+          - Ukraine
+          - Uzbekistan
+    - MINES 0.1.0|Latin America and Caribbean:
+        countries:
+          - Antigua and Barbuda
+          - Argentina
+          - Aruba
+          - Bahamas
+          - Barbados
+          - Belize
+          - Bolivia
+          - Brazil
+          - Chile
+          - Colombia
+          - Costa Rica
+          - Cuba
+          - Curaçao
+          - Dominican Republic
+          - Ecuador
+          - El Salvador
+          - French Guiana
+          - Grenada
+          - Guadeloupe
+          - Guatemala
+          - Guyana
+          - Haiti
+          - Honduras
+          - Jamaica
+          - Martinique
+          - Mexico
+          - Nicaragua
+          - Panama
+          - Paraguay
+          - Peru
+          - Puerto Rico
+          - Saint Kitts and Nevis
+          - Saint Lucia
+          - Saint Vincent and the Grenadines
+          - Sint Maarten (Dutch part)
+          - Suriname
+          - Trinidad and Tobago
+          - United States Virgin Islands
+          - Uruguay
+          - Venezuela
+    - MINES 0.1.0|Africa:
+        countries:
+          - Algeria
+          - Angola
+          - Benin
+          - Botswana
+          - Burkina Faso
+          - Burundi
+          - Cabo Verde
+          - Cameroon
+          - Central African Republic
+          - Chad
+          - Comoros
+          - Congo
+          - Côte d'Ivoire
+          - Democratic Republic of the Congo
+          - Djibouti
+          - Egypt
+          - Equatorial Guinea
+          - Eritrea
+          - Eswatini
+          - Ethiopia
+          - Gabon
+          - Gambia
+          - Ghana
+          - Guinea
+          - Guinea-Bissau
+          - Kenya
+          - Lesotho
+          - Liberia
+          - Libya
+          - Madagascar
+          - Malawi
+          - Mali
+          - Mauritania
+          - Mauritius
+          - Mayotte
+          - Morocco
+          - Mozambique
+          - Namibia
+          - Niger
+          - Nigeria
+          - Réunion
+          - Rwanda
+          - Sao Tome and Principe
+          - Senegal
+          - Seychelles
+          - Sierra Leone
+          - Somalia
+          - South Africa
+          - South Sudan
+          - Sudan
+          - Tanzania
+          - Togo
+          - Tunisia
+          - Uganda
+          - Western Sahara
+          - Zambia
+          - Zimbabwe
+    - MINES 0.1.0|Middle East:
+        countries:
+          - Bahrain
+          - Iran
+          - Iraq
+          - Israel
+          - Jordan
+          - Kuwait
+          - Lebanon
+          - Oman
+          - Palestine
+          - Qatar
+          - Saudi Arabia
+          - Syria
+          - United Arab Emirates
+          - Yemen
+    - MINES 0.1.0|Asia and Pacific:
+        countries:
+          - Afghanistan
+          - Bangladesh
+          - Bhutan
+          - Brunei Darussalam
+          - Cambodia
+          - China
+          - Cook Islands
+          - Fiji
+          - French Polynesia
+          - Hong Kong
+          - India
+          - Indonesia
+          - Kiribati
+          - Laos
+          - Macao
+          - Malaysia
+          - Maldives
+          - Marshall Islands
+          - Micronesia
+          - Mongolia
+          - Myanmar
+          - Nauru
+          - Nepal
+          - New Caledonia
+          - Niue
+          - North Korea
+          - Pakistan
+          - Palau
+          - Papua New Guinea
+          - Philippines
+          - Samoa
+          - Singapore
+          - Solomon Islands
+          - South Korea
+          - Sri Lanka
+          - Taiwan
+          - Thailand
+          - Timor-Leste
+          - Tonga
+          - Tuvalu
+          - Vanuatu
+          - Viet Nam
