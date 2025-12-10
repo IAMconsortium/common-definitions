@@ -95,3 +95,31 @@ common_regions:
       - R17_RAE
   - Rest of Asia (R10):
       - R17_SEA
+
+  # G20 members
+  - Brazil:
+      - R17_BRA
+  - Canada:
+      - R17_CAN
+  - China:
+      - R17_CHN
+  - India:
+      - R17_IND
+  - Japan:
+      - R17_JPN
+  - Mexico:
+      - R17_MEX
+  - Russian Federation:
+      - R17_RUS
+  - South Africa:
+      - R17_ZAF
+  - South Korea:
+      - R17_KOR
+  - United States:
+      - R17_USA
+
+  - African Union:
+      - R17_ZAF
+      - R17_AFR
+  - European Union and United Kingdom:
+      - R17_EUR
