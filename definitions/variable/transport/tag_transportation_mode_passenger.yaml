@@ -1,0 +1,11 @@
+- Transportation Mode Passenger:
+    - Aviation:
+        description: aviation transport, excluding international bunkers
+    - Rail:
+        description: rail transport
+    - Road:
+        description: motorized road transport
+    - Active:
+        description: non-motorized transport
+    - Shipping:
+        description: water transport, excluding international bunkers
