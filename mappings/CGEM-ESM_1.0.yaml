@@ -17,7 +17,27 @@ native_regions:
   - R17_RAE: CGEM-ESM 1.0|Rest of Asia and Europe or Eurasia
   - R17_MES: CGEM-ESM 1.0|Middle East
   - R17_LAM: CGEM-ESM 1.0|Rest of Latin America
+
 common_regions:
+  - World:
+      - R17_CHN
+      - R17_USA
+      - R17_EUR
+      - R17_JPN
+      - R17_KOR
+      - R17_RUS
+      - R17_IND
+      - R17_ZAF
+      - R17_SEA
+      - R17_AFR
+      - R17_CAN
+      - R17_ANZ
+      - R17_BRA
+      - R17_MEX
+      - R17_RAE
+      - R17_MES
+      - R17_LAM
+
   - Asia (R5):
       - R17_CHN
       - R17_KOR

@@ -6,7 +6,16 @@ native_regions:
   - R6_AFR: MINES 0.1.0|Africa
   - R6_ME: MINES 0.1.0|Middle East
   - R6_APC: MINES 0.1.0|Asia and Pacific
+
 common_regions:
+  - World:
+      - R6_DEV
+      - R6_EEA
+      - R6_LAM
+      - R6_AFR
+      - R6_ME
+      - R6_APC
+
   - Asia (R5):
       - R6_APC
   - Latin America (R5):
