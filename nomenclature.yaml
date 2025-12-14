@@ -1,1 +1,2 @@
+legacy-projects: [ "engage", "navigate", "shape", "ngfs5" ]
 illegal_characters: [ ";", ":", '"', "`" ]
