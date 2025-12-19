@@ -1,0 +1,109 @@
+model: REMIND-MAgPIE 3.2-4.8
+
+native_regions:
+  - CAZ: REMIND-MAgPIE 3.2-4.8|Canada, Australia, New Zealand
+  - CHA: REMIND-MAgPIE 3.2-4.8|China and Taiwan
+  - IND: REMIND-MAgPIE 3.2-4.8|India
+  - JPN: REMIND-MAgPIE 3.2-4.8|Japan
+  - OAS: REMIND-MAgPIE 3.2-4.8|Other Asia
+  - LAM: REMIND-MAgPIE 3.2-4.8|Latin America and the Caribbean
+  - MEA: REMIND-MAgPIE 3.2-4.8|Middle East and North Africa
+  - REF: REMIND-MAgPIE 3.2-4.8|Russia and Reforming Economies
+  - SSA: REMIND-MAgPIE 3.2-4.8|Sub-Saharan Africa
+  - USA: REMIND-MAgPIE 3.2-4.8|United States of America
+  - EUR: REMIND-MAgPIE 3.2-4.8|EU 28
+  - NEU: REMIND-MAgPIE 3.2-4.8|Non-EU28 Europe
+
+common_regions:
+  - World:
+      - CAZ
+      - CHA
+      - IND
+      - JPN
+      - OAS
+      - LAM
+      - MEA
+      - REF
+      - SSA
+      - USA
+      - EUR
+      - NEU
+
+  # R5 regions
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - JPN
+      - USA
+      - CAZ
+      - EUR
+      - NEU
+  - Reforming Economies (R5):
+      - REF
+
+  # R9 regions
+  - European Union (R9):
+      - EUR
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - JPN
+      - CAZ
+      - NEU
+  - China (R9):
+      - CHA
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - OAS
+  - Reforming Economies (R9):
+      - REF
+  - Middle East & Africa (R9):
+      - MEA
+      - SSA
+  - Latin America (R9):
+      - LAM
+
+  # R10 regions
+  - Africa (R10):
+      - SSA
+  - China+ (R10):
+      - CHA
+  - Europe (R10):
+      - EUR
+      - NEU
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - LAM
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - USA
+  - Reforming Economies (R10):
+      - REF
+  - Rest of Asia (R10):
+      - OAS
+  - Pacific OECD (R10):
+      - JPN
+  - Other (R10):
+      - CAZ
+
+  # mapping for G20 members
+  - China:
+      - CHA
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - United States:
+      - USA
+  - European Union and United Kingdom:
+      - EUR
