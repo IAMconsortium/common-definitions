@@ -62,6 +62,11 @@ attributes could not be used easily.
 
 For transferring the **SHAPE** project, use the variable attributes `shape` and `navigate`. 
 
+## IAMC common regions (R5, R9, R10) geojsons
+
+The geojson files for the common regions (R5, R9, R10) are available 
+in the [scse-geojson](https://github.com/iiasa/scse-geojson) repository.
+
 ## Funding acknowledgement
 
 <img src="./_static/prisma-logo.png" width="200" align="right" alt="PRISMA logo" />
