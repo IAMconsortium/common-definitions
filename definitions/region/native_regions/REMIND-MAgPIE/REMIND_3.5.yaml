@@ -1,0 +1,114 @@
+- REMIND 3.5:
+    - REMIND 3.5|Canada, Australia, New Zealand:
+        countries: [
+          Australia, Canada, Heard Island and McDonald Islands, New Zealand,
+          Saint Pierre and Miquelon
+        ]
+    - REMIND 3.5|China and Taiwan:
+        countries: [ China, Hong Kong, Macao, Taiwan ]
+    - REMIND 3.5|India:
+        countries: India
+    - REMIND 3.5|Japan:
+        countries: Japan
+    - REMIND 3.5|Other Asia:
+        countries: [
+          Afghanistan, American Samoa, Bangladesh, Bhutan,
+          British Indian Ocean Territory, Brunei Darussalam, Cambodia, Christmas Island,
+          Cocos (Keeling) Islands, Cook Islands, Fiji, French Polynesia,
+          French Southern Territories, Guam, Indonesia, Kiribati, Laos, Malaysia,
+          Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal,
+          New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands,
+          Pakistan, Palau, Papua New Guinea, Philippines, Pitcairn, Samoa, Singapore,
+          Solomon Islands, South Korea, Sri Lanka, Thailand, Timor-Leste, Tokelau,
+          Tonga, Tuvalu, United States Minor Outlying Islands, Vanuatu, Viet Nam,
+          Wallis and Futuna
+        ]
+    - REMIND 3.5|Latin America and the Caribbean:
+        countries: [
+          Anguilla, Antarctica, Antigua and Barbuda, Argentina, Aruba, Bahamas,
+          Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, Brazil, British Virgin Islands, Cayman Islands, Chile,
+          Colombia, Costa Rica, Cuba, Curaçao, Curaçao, Dominica, Dominican Republic,
+          Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
+          Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru,
+          Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), South Georgia and the South Sandwich Islands,
+          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - REMIND 3.5|Middle East and North Africa:
+        countries: [
+          Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon,
+          Libya, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria,
+          Tunisia, United Arab Emirates, Western Sahara, Yemen
+        ]
+    - REMIND 3.5|Russia and Reforming Economies:
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - REMIND 3.5|Sub-Saharan Africa:
+        countries: [
+          Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon,
+          Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire,
+          Democratic Republic of the Congo, Djibouti, Equatorial Guinea,
+          Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar, Malawi, Mali,
+          Mauritania, Mauritius, Mayotte, Mozambique, Namibia, Niger, Nigeria,
+          Rwanda, Réunion, "Saint Helena, Ascension and Tristan da Cunha",
+          Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia,
+          South Africa, South Sudan, Tanzania, Togo, Uganda, Zambia, Zimbabwe
+        ]
+    - REMIND 3.5|United States of America:
+        countries: United States
+
+
+    # 12-region version of REMIND
+    - REMIND 3.5|EU 28:
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
+          Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Hungary,
+          Ireland, Isle of Man, Italy, Jersey, Latvia, Lithuania, Luxembourg, Malta,
+          Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden,
+          United Kingdom, Åland Islands
+        ]
+    - REMIND 3.5|Non-EU28 Europe:
+        countries: [
+          Albania, Andorra, Bosnia and Herzegovina, Greenland, Iceland, Kosovo,
+          Liechtenstein, Monaco, Montenegro, North Macedonia, Norway, San Marino,
+          Serbia, Svalbard and Jan Mayen, Switzerland, Turkey, Vatican
+        ]
+
+    # 21-region version of REMIND
+    - REMIND 3.5|Germany:
+        countries: Germany
+    - REMIND 3.5|France:
+        countries: France
+    - REMIND 3.5|United Kingdom and Ireland:
+        countries: [
+          Gibraltar, Guernsey, Ireland, Isle of Man, Jersey, United Kingdom
+        ]
+    - REMIND 3.5|EU Center-East Europe:
+        countries: [ Czechia, Estonia, Latvia, Lithuania, Poland, Slovakia ]
+    - REMIND 3.5|EU Center-South Europe:
+        countries: [ Bulgaria, Croatia, Hungary, Romania, Slovenia ]
+    - REMIND 3.5|EU North-Center Europe:
+        countries: [ Denmark, Faroe Islands, Finland, Sweden, Åland Islands ]
+    - REMIND 3.5|EU South-Center Europe:
+        countries: [ Cyprus, Greece, Italy, Malta ]
+    - REMIND 3.5|EU South-West Europe:
+        countries: [ Portugal, Spain ]
+    - REMIND 3.5|EU North-West Europe:
+        countries: [ Austria, Belgium, Luxembourg, Netherlands ]
+    - REMIND 3.5|Non-EU Northern Europe:
+        countries: [
+          Greenland, Iceland, Liechtenstein, Norway, Svalbard and Jan Mayen,
+          Switzerland
+        ]
+    - REMIND 3.5|Non-EU Southern Europe:
+        countries: [
+          Albania, Andorra, Bosnia and Herzegovina, Kosovo, Monaco, Montenegro,
+          North Macedonia, San Marino, Serbia, Turkey, Vatican
+        ]
