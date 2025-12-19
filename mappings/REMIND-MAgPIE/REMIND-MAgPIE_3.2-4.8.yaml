@@ -1,4 +1,6 @@
-model: REMIND-MAgPIE 3.2-4.8
+model:
+  - REMIND-MAgPIE 3.2-4.8
+  - REMIND-MAgPIE 3.2.0-4.8.0
 
 native_regions:
   - CAZ: REMIND-MAgPIE 3.2-4.8|Canada, Australia, New Zealand
