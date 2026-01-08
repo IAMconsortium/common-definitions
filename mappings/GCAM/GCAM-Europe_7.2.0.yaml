@@ -1,0 +1,410 @@
+model: GCAM-Europe 7.2.0
+
+native_regions:
+  - Africa_Eastern: GCAM-Europe 7.2.0|Africa_Eastern
+  - Africa_Northern: GCAM-Europe 7.2.0|Africa_Northern
+  - Africa_Southern: GCAM-Europe 7.2.0|Africa_Southern
+  - Africa_Western: GCAM-Europe 7.2.0|Africa_Western
+  - Argentina: GCAM-Europe 7.2.0|Argentina
+  - Australia_NZ: GCAM-Europe 7.2.0|Australia and New Zealand
+  - Brazil: GCAM-Europe 7.2.0|Brazil
+  - Canada: GCAM-Europe 7.2.0|Canada
+  - Central America and Caribbean: GCAM-Europe 7.2.0|Central America and Caribbean
+  - Central Asia: GCAM-Europe 7.2.0|Central Asia
+  - China: GCAM-Europe 7.2.0|China
+  - Colombia: GCAM-Europe 7.2.0|Colombia
+  - Bulgaria: GCAM-Europe 7.2.0|Bulgaria
+  - Cyprus: GCAM-Europe 7.2.0|Cyprus
+  - Czech Republic: GCAM-Europe 7.2.0|Czech Republic
+  - Estonia: GCAM-Europe 7.2.0|Estonia
+  - Hungary: GCAM-Europe 7.2.0|Hungary
+  - Latvia: GCAM-Europe 7.2.0|Latvia
+  - Lithuania: GCAM-Europe 7.2.0|Lithuania
+  - Malta: GCAM-Europe 7.2.0|Malta
+  - Poland: GCAM-Europe 7.2.0|Poland
+  - Romania: GCAM-Europe 7.2.0|Romania
+  - Slovakia: GCAM-Europe 7.2.0|Slovakia
+  - Slovenia: GCAM-Europe 7.2.0|Slovenia
+  - Austria: GCAM-Europe 7.2.0|Austria
+  - Belgium: GCAM-Europe 7.2.0|Belgium
+  - Denmark: GCAM-Europe 7.2.0|Denmark
+  - Finland: GCAM-Europe 7.2.0|Finland
+  - France: GCAM-Europe 7.2.0|France
+  - Germany: GCAM-Europe 7.2.0|Germany
+  - Greece: GCAM-Europe 7.2.0|Greece
+  - Ireland: GCAM-Europe 7.2.0|Ireland
+  - Italy: GCAM-Europe 7.2.0|Italy
+  - Luxembourg: GCAM-Europe 7.2.0|Luxembourg
+  - Netherlands: GCAM-Europe 7.2.0|Netherlands
+  - Portugal: GCAM-Europe 7.2.0|Portugal
+  - Spain: GCAM-Europe 7.2.0|Spain
+  - Sweden: GCAM-Europe 7.2.0|Sweden
+  - UK: GCAM-Europe 7.2.0|UK
+  - Belarus: GCAM-Europe 7.2.0|Belarus
+  - Moldova: GCAM-Europe 7.2.0|Moldova
+  - Ukraine: GCAM-Europe 7.2.0|Ukraine
+  - Albania: GCAM-Europe 7.2.0|Albania
+  - Bosnia and Herzegovina: GCAM-Europe 7.2.0|Bosnia and Herzegovina
+  - Croatia: GCAM-Europe 7.2.0|Croatia
+  - Macedonia: GCAM-Europe 7.2.0|Macedonia
+  - Serbia and Montenegro: GCAM-Europe 7.2.0|Serbia and Montenegro
+  - Turkey: GCAM-Europe 7.2.0|Turkey
+  - Iceland: GCAM-Europe 7.2.0|Iceland
+  - Norway: GCAM-Europe 7.2.0|Norway
+  - Switzerland: GCAM-Europe 7.2.0|Switzerland
+  - India: GCAM-Europe 7.2.0|India
+  - Indonesia: GCAM-Europe 7.2.0|Indonesia
+  - Japan: GCAM-Europe 7.2.0|Japan
+  - Mexico: GCAM-Europe 7.2.0|Mexico
+  - Middle East: GCAM-Europe 7.2.0|Middle East
+  - Pakistan: GCAM-Europe 7.2.0|Pakistan
+  - Russia: GCAM-Europe 7.2.0|Russia
+  - South Africa: GCAM-Europe 7.2.0|South Africa
+  - South America_Northern: GCAM-Europe 7.2.0|South America_Northern
+  - South America_Southern: GCAM-Europe 7.2.0|South America_Southern
+  - South Asia: GCAM-Europe 7.2.0|South Asia
+  - South Korea: GCAM-Europe 7.2.0|South Korea
+  - Southeast Asia: GCAM-Europe 7.2.0|Southeast Asia
+  - Taiwan: GCAM-Europe 7.2.0|Taiwan
+  - USA: GCAM-Europe 7.2.0|USA
+  # G20 members (without renaming)
+  - Brazil
+  - Canada
+  - China
+  - India
+  - Japan
+  - South Korea
+
+common_regions:
+  - World:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Argentina
+      - Australia_NZ
+      - Brazil
+      - Canada
+      - Central America and Caribbean
+      - Central Asia
+      - China
+      - Colombia
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - UK
+      - Belarus
+      - Moldova
+      - Ukraine
+      - Albania
+      - Bosnia and Herzegovina
+      - Croatia
+      - Macedonia
+      - Serbia and Montenegro
+      - Turkey
+      - Iceland
+      - Norway
+      - Switzerland
+      - India
+      - Indonesia
+      - Japan
+      - Mexico
+      - Middle East
+      - Pakistan
+      - Russia
+      - South Africa
+      - South America_Northern
+      - South America_Southern
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+      - USA
+
+  # R5 regions
+  - Asia (R5):
+      - China
+      - India
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+  - Latin America (R5):
+      - Brazil
+      - Central America and Caribbean
+      - Mexico
+      - South America_Northern
+      - South America_Southern
+      - Argentina
+      - Colombia
+  - Middle East & Africa (R5):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - Middle East
+      - South Africa
+  - OECD & EU (R5):
+      - USA
+      - Australia_NZ
+      - Canada
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - UK
+      - Albania
+      - Bosnia and Herzegovina
+      - Croatia
+      - Macedonia
+      - Serbia and Montenegro
+      - Turkey
+      - Iceland
+      - Norway
+      - Switzerland
+      - Japan
+  - Reforming Economies (R5):
+      - Central Asia
+      - Belarus
+      - Moldova
+      - Ukraine
+      - Russia
+
+  # R9 regions
+  - European Union (R9):
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - UK
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - Canada
+      - Japan
+      - Australia_NZ
+      - Albania
+      - Bosnia and Herzegovina
+      - Croatia
+      - Macedonia
+      - Serbia and Montenegro
+      - Turkey
+      - Iceland
+      - Norway
+      - Switzerland
+  - China (R9):
+      - China
+  - India (R9):
+      - India
+  - Other Asia (R9):
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - South Korea
+      - Southeast Asia
+      - Taiwan
+  - Reforming Economies (R9):
+      - Russia
+      - Central Asia
+      - Belarus
+      - Moldova
+      - Ukraine
+  - Latin America (R9):
+      - Argentina
+      - South America_Northern
+      - South America_Southern
+      - Brazil
+      - Colombia
+      - Central America and Caribbean
+      - Mexico
+  - Middle East & Africa (R9):
+      - Middle East
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - South Africa
+
+  # R10 regions
+  - Africa (R10):
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+      - South Africa
+  - China+ (R10):
+      - China
+      - South Korea
+  - Europe (R10):
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - UK
+      - Belarus
+      - Moldova
+      - Ukraine
+      - Albania
+      - Bosnia and Herzegovina
+      - Croatia
+      - Macedonia
+      - Serbia and Montenegro
+      - Turkey
+      - Iceland
+      - Norway
+      - Switzerland
+  - India+ (R10):
+      - India
+  - Latin America (R10):
+      - Argentina
+      - South America_Northern
+      - South America_Southern
+      - Brazil
+      - Colombia
+      - Central America and Caribbean
+      - Mexico
+  - Middle East (R10):
+      - Middle East
+  - North America (R10):
+      - Canada
+      - USA
+  - Pacific OECD (R10):
+      - Japan
+      - Australia_NZ
+  - Reforming Economies (R10):
+      - Russia
+      - Central Asia
+  - Rest of Asia (R10):
+      - Indonesia
+      - Pakistan
+      - South Asia
+      - Southeast Asia
+      - Taiwan
+
+  # G20 members (aggregation or renaming)
+  - United States:
+      - USA
+  - African Union:
+      - Africa_Eastern
+      - Africa_Northern
+      - Africa_Southern
+      - Africa_Western
+  - European Union and United Kingdom:
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - UK
