@@ -245,7 +245,7 @@ common_regions:
       - Portugal
       - Spain
       - Sweden
-      - UK
+      - Croatia
   - USA (R9):
       - USA
   - Other OECD (R9):
@@ -254,13 +254,13 @@ common_regions:
       - Australia_NZ
       - Albania
       - Bosnia and Herzegovina
-      - Croatia
       - Macedonia
       - Serbia and Montenegro
       - Turkey
       - Iceland
       - Norway
       - Switzerland
+      - UK
   - China (R9):
       - China
   - India (R9):
@@ -407,4 +407,5 @@ common_regions:
       - Portugal
       - Spain
       - Sweden
+      - Croatia
       - UK
