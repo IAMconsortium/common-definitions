@@ -1,0 +1,55 @@
+- GCAM-Europe [EU27] 7.2.0:
+    - GCAM-Europe [EU27] 7.2.0|Bulgaria:
+        countries: [ Bulgaria ]
+    - GCAM-Europe [EU27] 7.2.0|Cyprus:
+        countries: [ Cyprus ]
+    - GCAM-Europe [EU27] 7.2.0|Czech Republic:
+        countries: [ Czechia ]
+    - GCAM-Europe [EU27] 7.2.0|Estonia:
+        countries: [ Estonia ]
+    - GCAM-Europe [EU27] 7.2.0|Hungary:
+        countries: [ Hungary ]
+    - GCAM-Europe [EU27] 7.2.0|Latvia:
+        countries: [ Latvia ]
+    - GCAM-Europe [EU27] 7.2.0|Lithuania:
+        countries: [ Lithuania ]
+    - GCAM-Europe [EU27] 7.2.0|Malta:
+        countries: [ Malta ]
+    - GCAM-Europe [EU27] 7.2.0|Poland:
+        countries: [ Poland ]
+    - GCAM-Europe [EU27] 7.2.0|Romania:
+        countries: [ Romania ]
+    - GCAM-Europe [EU27] 7.2.0|Slovakia:
+        countries: [ Slovakia ]
+    - GCAM-Europe [EU27] 7.2.0|Slovenia:
+        countries: [ Slovenia ]
+    - GCAM-Europe [EU27] 7.2.0|Austria:
+        countries: [ Austria ]
+    - GCAM-Europe [EU27] 7.2.0|Belgium:
+        countries: [ Belgium ]
+    - GCAM-Europe [EU27] 7.2.0|Denmark:
+        countries: [ Denmark, Greenland, Faroe Islands ]
+    - GCAM-Europe [EU27] 7.2.0|Finland:
+        countries: [ Finland ]
+    - GCAM-Europe [EU27] 7.2.0|France:
+        countries: [ France, Monaco ]
+    - GCAM-Europe [EU27] 7.2.0|Germany:
+        countries: [ Germany ]
+    - GCAM-Europe [EU27] 7.2.0|Greece:
+        countries: [ Greece ]
+    - GCAM-Europe [EU27] 7.2.0|Ireland:
+        countries: [ Ireland ]
+    - GCAM-Europe [EU27] 7.2.0|Italy:
+        countries: [ Italy, San Marino, Vatican ]
+    - GCAM-Europe [EU27] 7.2.0|Luxembourg:
+        countries: [ Luxembourg ]
+    - GCAM-Europe [EU27] 7.2.0|Netherlands:
+        countries: [ Netherlands ]
+    - GCAM-Europe [EU27] 7.2.0|Portugal:
+        countries: [ Portugal ]
+    - GCAM-Europe [EU27] 7.2.0|Spain:
+        countries: [ Spain, Andorra ]
+    - GCAM-Europe [EU27] 7.2.0|Sweden:
+        countries: [ Sweden ]
+    - GCAM-Europe [EU27] 7.2.0|Croatia:
+        countries: [ Croatia ]
