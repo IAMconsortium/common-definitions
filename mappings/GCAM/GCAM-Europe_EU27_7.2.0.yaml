@@ -28,3 +28,33 @@ native_regions:
   - Spain: GCAM-Europe [EU27] 7.2.0|Spain
   - Sweden: GCAM-Europe [EU27] 7.2.0|Sweden
   - Croatia: GCAM-Europe [EU27] 7.2.0|Croatia
+
+common_regions:
+  - European Union:
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - Croatia
