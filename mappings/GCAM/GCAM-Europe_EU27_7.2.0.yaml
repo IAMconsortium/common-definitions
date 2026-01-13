@@ -1,0 +1,60 @@
+model: GCAM-Europe [EU27] 7.2.0
+
+native_regions:
+  - Bulgaria: GCAM-Europe [EU27] 7.2.0|Bulgaria
+  - Cyprus: GCAM-Europe [EU27] 7.2.0|Cyprus
+  - Czech Republic: GCAM-Europe [EU27] 7.2.0|Czech Republic
+  - Estonia: GCAM-Europe [EU27] 7.2.0|Estonia
+  - Hungary: GCAM-Europe [EU27] 7.2.0|Hungary
+  - Latvia: GCAM-Europe [EU27] 7.2.0|Latvia
+  - Lithuania: GCAM-Europe [EU27] 7.2.0|Lithuania
+  - Malta: GCAM-Europe [EU27] 7.2.0|Malta
+  - Poland: GCAM-Europe [EU27] 7.2.0|Poland
+  - Romania: GCAM-Europe [EU27] 7.2.0|Romania
+  - Slovakia: GCAM-Europe [EU27] 7.2.0|Slovakia
+  - Slovenia: GCAM-Europe [EU27] 7.2.0|Slovenia
+  - Austria: GCAM-Europe [EU27] 7.2.0|Austria
+  - Belgium: GCAM-Europe [EU27] 7.2.0|Belgium
+  - Denmark: GCAM-Europe [EU27] 7.2.0|Denmark
+  - Finland: GCAM-Europe [EU27] 7.2.0|Finland
+  - France: GCAM-Europe [EU27] 7.2.0|France
+  - Germany: GCAM-Europe [EU27] 7.2.0|Germany
+  - Greece: GCAM-Europe [EU27] 7.2.0|Greece
+  - Ireland: GCAM-Europe [EU27] 7.2.0|Ireland
+  - Italy: GCAM-Europe [EU27] 7.2.0|Italy
+  - Luxembourg: GCAM-Europe [EU27] 7.2.0|Luxembourg
+  - Netherlands: GCAM-Europe [EU27] 7.2.0|Netherlands
+  - Portugal: GCAM-Europe [EU27] 7.2.0|Portugal
+  - Spain: GCAM-Europe [EU27] 7.2.0|Spain
+  - Sweden: GCAM-Europe [EU27] 7.2.0|Sweden
+  - Croatia: GCAM-Europe [EU27] 7.2.0|Croatia
+
+common_regions:
+  - European Union:
+      - Bulgaria
+      - Cyprus
+      - Czech Republic
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - Croatia
