@@ -53,6 +53,25 @@
     range: [ 0, 100 ]
     sdg: 1
     weight: GDP|PPP
+- Expenditure|Households|Residential Energy [Share]:
+    description: Share of expenditures on residential energy in total income (including value added from energy processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 7
+    weight: Population
+- Expenditure|Households|Residential Energy|{Population Deciles} [Share]:
+    description: Share of expenditures on residential energy in total income (including value added from energy processing chain) accruing to the {Population Deciles} decile
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 7
+    skip-region-aggregation: true
+    shape: Expenditure Share|Residential Energy
+- Expenditure|Households|Residential Energy and Food [Share]:
+    description: Share of expenditures on residential energy and food in total income (including value added from energy and food processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 1
+    weight: Population
 - Population|Prevalence of Underweight:
     description: Number of adults with body mass index (BMI) lower than 18.5 and
       children with BMI lower than two standard deviations from reference
