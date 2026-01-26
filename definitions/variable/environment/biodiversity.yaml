@@ -103,3 +103,13 @@
     tier: 3
     notes: The Shannon index is a an index of crop diversity. Both the number of species and their distribution are 
       included in the calculation. Higher values indicate higher crop diversity. Typical values generally range between 1.5 and 3.5.
+- Terrestrial Biodiversity|Potential Species Loss:
+    description: Number of plant and vertebrate species committed to extinction due to habitat loss
+    unit: number of species
+    min: 0
+    sdg: 15
+    tier: 3
+    notes: The Potential Species Loss (PSL) indicator represents the number of species that could become committed to 
+      global extinction, estimated for each ecoregions and taxonomic levels (mammals, birds, amphibians, reptiles, and plants). 
+      It combines theoriginal species count in the ecoregion and the reduction in natural habitat,the threat level for each 
+      ecoregion and taxon, the taxon endemism, and thespecies' preference for new artificial habitat induced by land use changes.
