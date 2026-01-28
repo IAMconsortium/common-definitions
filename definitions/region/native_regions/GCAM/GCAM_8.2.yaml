@@ -63,7 +63,7 @@
         ]
     - GCAM 8.2|Ukraine:
         countries: [ Ukraine ]
-    - GCAM 8.2|Europe_Non_EU:
+    - GCAM 8.2|Europe_Southeast:
         countries: [
           Albania, Bosnia and Herzegovina, Belarus, Croatia,  Moldova, Kosovo, North Macedonia, Montenegro,
           Turkey, Serbia

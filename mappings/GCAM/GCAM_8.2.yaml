@@ -16,7 +16,7 @@ native_regions:
   - EU-12: GCAM 8.2|EU-12
   - EU-15: GCAM 8.2|EU-15
   - Ukraine: GCAM 8.2|Ukraine
-  - Europe_Non_EU: GCAM 8.2|Europe_Non_EU
+  - Europe_Non_EU: GCAM 8.2|Europe_Southeast
   - European Free Trade Association: GCAM 8.2|European Free Trade Association
   - India: GCAM 8.2|India
   - Indonesia: GCAM 8.2|Indonesia
