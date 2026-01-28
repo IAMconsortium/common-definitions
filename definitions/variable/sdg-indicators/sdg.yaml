@@ -65,7 +65,6 @@
     range: [ 0, 100 ]
     sdg: 7
     skip-region-aggregation: true
-    shape: Expenditure Share|Residential Energy
 - Expenditure|Households|Residential Energy and Food [Share]:
     description: Share of expenditures on residential energy and food in total income (including value added from energy and food processing chain)
     unit: '%'
