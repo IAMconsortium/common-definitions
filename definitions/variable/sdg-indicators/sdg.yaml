@@ -117,7 +117,7 @@
       exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
     unit: million
     sdg: 3
-- Health|Premature Deaths|O3:
+- Health|Premature Deaths|Ozone:
     description: Number of premature deaths associated with increased health risks from
       exposure to air pollution of ozone (O3)
     unit: million
