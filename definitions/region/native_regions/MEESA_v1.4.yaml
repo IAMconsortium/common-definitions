@@ -1,0 +1,29 @@
+- MEESA v1.4:
+  - MEESA v1.4|Benelux and Ireland:
+        countries: [
+          Belgium, Netherlands, Luxembourg, Ireland
+        ]
+  - MEESA v1.4|Central Europe:
+        countries: [
+          Austria, Czechia, Hungary, Slovakia, Slovenia, Switzerland
+        ]
+  - MEESA v1.4|South-West Europe:
+        countries: [
+          Spain, Portugal, Italy, Malta
+        ]
+  - MEESA v1.4|North and Baltic Europe:
+        countries: [
+          Denmark, Sweden, Finland, Lithuania, Latvia, Estonia, Norway
+        ]
+  - MEESA v1.4|South-East Europe:
+        countries: [
+          Croatia, Greece, Romania, Bulgaria, Cyprus
+        ]
+  - MEESA v1.4|United Kingdom:
+        countries: United Kingdom
+  - MEESA v1.4|Germany:
+        countries: Germany
+  - MEESA v1.4|France:
+        countries: France
+  - MEESA v1.4|Poland:
+        countries: Poland
