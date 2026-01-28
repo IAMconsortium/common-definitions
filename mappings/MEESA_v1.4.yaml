@@ -10,7 +10,7 @@ native_regions:
   - FRA: MEESA v1.4|France
   - POL: MEESA v1.4|Poland
 common_regions:
-  - EU27 & UK:
+  - European Union and United Kingdom:
       - BENI
       - CEU
       - IBI
