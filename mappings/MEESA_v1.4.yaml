@@ -30,7 +30,7 @@ common_regions:
       - DEU
       - FRA
       - POL
-  - EU27 (*):
+  - European Union:
       - BENI
       - CEU
       - IBI
