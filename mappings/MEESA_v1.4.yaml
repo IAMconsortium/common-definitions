@@ -1,0 +1,41 @@
+model: MEESA v1.4
+native_regions:
+  - BENI: MEESA v1.4|Benelux and Ireland
+  - CEU: MEESA v1.4|Center Europe
+  - IBI: MEESA v1.4|South-West Europe
+  - NTH: MEESA v1.4|North and Baltic Europe
+  - STH: MEESA v1.4|South-East Europe
+  - UK: MEESA v1.4|United Kingdom
+  - DEU: MEESA v1.4|Germany
+  - FRA: MEESA v1.4|France
+  - POL: MEESA v1.4|Poland
+common_regions:
+  - EU27 & UK:
+      - BENI
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - UK
+      - DEU
+      - FRA
+      - POL
+  - EU27 & UK (*):
+      - BENI
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - UK
+      - DEU
+      - FRA
+      - POL
+  - EU27 (*):
+      - BENI
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - DEU
+      - FRA
+      - POL
