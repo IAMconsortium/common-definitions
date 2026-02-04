@@ -1,0 +1,109 @@
+model:
+  - GCAM-USA 7.1 SoCDR
+
+native_regions:
+  - Alaska: USA|Alaska
+  - Alabama: USA|Alabama
+  - Arkansas: USA|Arkansas
+  - Arizona: USA|Arizona
+  - California: USA|California
+  - Colorado: USA|Colorado
+  - Connecticut: USA|Connecticut
+  - District of Columbia: USA|District of Columbia
+  - Delaware: USA|Delaware
+  - Florida: USA|Florida
+  - Georgia: USA|Georgia
+  - Hawaii: USA|Hawaii
+  - Iowa: USA|Iowa
+  - Idaho: USA|Idaho
+  - Illinois: USA|Illinois
+  - Indiana: USA|Indiana
+  - Kansas: USA|Kansas
+  - Kentucky: USA|Kentucky
+  - Louisiana: USA|Louisiana
+  - Massachusets: USA|Massachusets
+  - Maryland: USA|Maryland
+  - Maine: USA|Maine
+  - Michigan: USA|Michigan
+  - Minnesota: USA|Minnesota
+  - Missouri: USA|Missouri
+  - Mississippi: USA|Mississippi
+  - Montana: USA|Montana
+  - North Carolina: USA|North Carolina
+  - North Dakota: USA|North Dakota
+  - Nebraska: USA|Nebraska
+  - New Hampshire: USA|New Hampshire
+  - New Jersery: USA|New Jersery
+  - New Mexico: USA|New Mexico
+  - Nevada: USA|Nevada
+  - New York: USA|New York
+  - Ohio: USA|Ohio
+  - Oklahoma: USA|Oklahoma
+  - Oregon: USA|Oregon
+  - Pennsylvania: USA|Pennsylvania
+  - Rhode Island: USA|Rhode Island
+  - South Carolina: USA|South Carolina
+  - South Dakota: USA|South Dakota
+  - Tennessee: USA|Tennessee
+  - Texas: USA|Texas
+  - Utah: USA|Utah
+  - Virginia: USA|Virginia
+  - Vermont: USA|Vermont
+  - Washington: USA|Washington
+  - Wisconsin: USA|Wisconsin
+  - West Virginia: USA|West Virginia
+  - Wyoming: USA|Wyoming
+
+common_regions:
+  - United States:
+      - Alaska
+      - Alabama
+      - Arkansas
+      - Arizona
+      - California
+      - Colorado
+      - Connecticut
+      - District of Columbia
+      - Delaware
+      - Florida
+      - Georgia
+      - Hawaii
+      - Iowa
+      - Idaho
+      - Illinois
+      - Indiana
+      - Kansas
+      - Kentucky
+      - Louisiana
+      - Massachusets
+      - Maryland
+      - Maine
+      - Michigan
+      - Minnesota
+      - Missouri
+      - Mississippi
+      - Montana
+      - North Carolina
+      - North Dakota
+      - Nebraska
+      - New Hampshire
+      - New Jersery
+      - New Mexico
+      - Nevada
+      - New York
+      - Ohio
+      - Oklahoma
+      - Oregon
+      - Pennsylvania
+      - Rhode Island
+      - South Carolina
+      - South Dakota
+      - Tennessee
+      - Texas
+      - Utah
+      - Virginia
+      - Vermont
+      - Washington
+      - Wisconsin
+      - West Virginia
+      - Wyoming
