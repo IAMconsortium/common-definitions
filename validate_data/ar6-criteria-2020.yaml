@@ -1,0 +1,39 @@
+# Validation criteria from IPCC AR6 WG3
+# Annex III: "Scenarios and Modelling Methods", Table 11, Page 1883
+# https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Annex-III.pdf
+
+# This implementation applies the narrower ranges as used for the IMP vetting
+
+# Historical emissions (sources: EDGAR V6 IPCC and CEDS, 2019 values
+- region: World
+  variable: Emissions|CO2
+  year: 2020
+  value: 44251  # unit Mt CO2/yr
+  rtol: 0.20
+- region: World
+  variable: Emissions|CO2|Energy and Industrial Processes
+  year: 2020
+  value: 37646  # Mt CO2/yr
+  rtol: 0.10
+- region: World
+  variable: Emissions|CH4
+  year: 2020
+  value: 379  # Mt CH4/yr
+  rtol: 0.20
+- region: World
+  variable: Carbon Capture
+  year: 2020
+  upper_bound: 100  # Mt CO2/yr
+  lower_bound: 0  # Mt CO2/yr
+
+# Historical energy production (sources: IEA 2019; IRENA; BP; EMBERS)
+- region: World
+  variable: Primary Energy
+  year: 2020
+  value: 578  # EJ/yr
+  rtol: 0.10
+- region: World
+  variable: Secondary Energy|Electricity|Nuclear
+  year: 2020
+  value: 9.77  # EJ/yr
+  rtol: 0.20
