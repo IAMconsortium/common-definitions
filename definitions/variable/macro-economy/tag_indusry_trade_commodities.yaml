@@ -1,0 +1,19 @@
+- Industry Trade Commodities:
+    - Industry|Iron and Steel:
+        description: iron and steel
+    - Industry|Iron and Steel|Primary Steel:
+        description: primary steel
+    - Industry|Iron and Steel|Secondary Steel:
+        description: secondary steel
+    - Industry|Non-Ferrous Metals:
+        description: non-ferrous metals
+    - Industry|Non-Ferrous Metals|Aluminum:
+        description: aluminium
+    - Industry|Non-Metallic Minerals:
+        description: non-metallic minerals
+    - Industry|Non-Metallic Minerals|Cement:
+        description: cement
+    - Industry|Chemicals|Plastics:
+        description: plastics
+    - Industry|Chemicals|High Value Chemicals:
+        description: high value chemicals
