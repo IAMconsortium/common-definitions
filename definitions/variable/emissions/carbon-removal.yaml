@@ -55,7 +55,7 @@
 - Carbon Removal|Ocean:
     description: Gross removals of carbon dioxide (CO2) through ocean sinks
     unit: Mt CO2/yr
-    tier: 1
+    tier: 2
     lower_bound: 0
     notes: Values should be reported as positive numbers.
 - Carbon Removal|Ocean|{Ocean Removal Option}:
