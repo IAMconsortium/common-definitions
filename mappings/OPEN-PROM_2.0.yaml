@@ -11,12 +11,16 @@ native_regions:
   - FIN: OPEN-PROM 2.0|Finland
   - FRA: OPEN-PROM 2.0|France
   - DEU: OPEN-PROM 2.0|Germany
+  - EST: OPEN-PROM 2.0|Estonia
   - GBR: OPEN-PROM 2.0|United Kingdom
   - GRC: OPEN-PROM 2.0|Greece
   - HRV: OPEN-PROM 2.0|Croatia
   - HUN: OPEN-PROM 2.0|Hungary
   - IRL: OPEN-PROM 2.0|Ireland
   - ITA: OPEN-PROM 2.0|Italy
+  - LTU: OPEN-PROM 2.0|Lithuania
+  - LUX: OPEN-PROM 2.0|Luxembourg
+  - LVA: OPEN-PROM 2.0|Latvia
   - MLT: OPEN-PROM 2.0|Malta
   - NLD: OPEN-PROM 2.0|Netherlands
   - POL: OPEN-PROM 2.0|Poland
@@ -25,7 +29,6 @@ native_regions:
   - SVK: OPEN-PROM 2.0|Slovakia
   - SVN: OPEN-PROM 2.0|Slovenia
   - SWE: OPEN-PROM 2.0|Sweden
-  - ELL: OPEN-PROM 2.0|Other EU27 Countries
   - NEU: OPEN-PROM 2.0|Non-EU Europe
   - USA: OPEN-PROM 2.0|United States
   - CAZ: OPEN-PROM 2.0|Canada, Australia, New Zealand
@@ -50,12 +53,16 @@ common_regions:
       - FIN
       - FRA
       - DEU
+      - EST
       - GBR
       - GRC
       - HRV
       - HUN
       - IRL
       - ITA
+      - LTU
+      - LUX
+      - LVA
       - MLT
       - NLD
       - POL
@@ -64,7 +71,6 @@ common_regions:
       - SVK
       - SVN
       - SWE
-      - ELL
       - NEU
       - USA
       - CAZ
@@ -98,6 +104,7 @@ common_regions:
       - CZE
       - DNK
       - ESP
+      - EST
       - FIN
       - FRA
       - DEU
@@ -107,6 +114,9 @@ common_regions:
       - HUN
       - IRL
       - ITA
+      - LTU
+      - LUX
+      - LVA
       - MLT
       - NLD
       - POL
@@ -115,7 +125,6 @@ common_regions:
       - SVK
       - SVN
       - SWE
-      - ELL
       - NEU
   - Reforming Economies (R5):
       - REF
@@ -129,6 +138,7 @@ common_regions:
       - CZE
       - DNK
       - ESP
+      - EST
       - FIN
       - FRA
       - DEU
@@ -137,6 +147,9 @@ common_regions:
       - HUN
       - IRL
       - ITA
+      - LTU
+      - LUX
+      - LVA
       - MLT
       - NLD
       - POL
@@ -178,6 +191,7 @@ common_regions:
       - CZE
       - DNK
       - ESP
+      - EST
       - FIN
       - FRA
       - DEU
@@ -187,6 +201,9 @@ common_regions:
       - HUN
       - IRL
       - ITA
+      - LTU
+      - LUX
+      - LVA
       - MLT
       - NLD
       - POL
@@ -196,7 +213,6 @@ common_regions:
       - SVN
       - SWE
       - NEU
-      - ELL
   - India+ (R10):
       - IND
   - Latin America (R10):
@@ -234,12 +250,16 @@ common_regions:
       - FIN
       - FRA
       - DEU
+      - EST
       - GBR
       - GRC
       - HRV
       - HUN
       - IRL
       - ITA
+      - LTU
+      - LUX
+      - LVA
       - MLT
       - NLD
       - POL
@@ -248,4 +268,3 @@ common_regions:
       - SVK
       - SVN
       - SWE
-      - ELL

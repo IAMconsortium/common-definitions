@@ -1,57 +1,60 @@
 - OPEN-PROM 2.0:
     - OPEN-PROM 2.0|Austria:
-        countries: Austria    
+        countries: Austria
     - OPEN-PROM 2.0|Belgium:
-        countries: Belgium    
+        countries: Belgium
     - OPEN-PROM 2.0|Bulgaria:
-        countries: Bulgaria     
+        countries: Bulgaria
     - OPEN-PROM 2.0|Cyprus:
-        countries: Cyprus  
+        countries: Cyprus
     - OPEN-PROM 2.0|Czechia:
-        countries: Czechia         
+        countries: Czechia
     - OPEN-PROM 2.0|Denmark:
-        countries: Denmark  
+        countries: Denmark
     - OPEN-PROM 2.0|Spain:
-        countries: Spain  
+        countries: Spain
     - OPEN-PROM 2.0|Finland:
-        countries: Finland  
+        countries: Finland
     - OPEN-PROM 2.0|France:
-        countries: France  
+        countries: France
     - OPEN-PROM 2.0|Germany:
         countries: Germany
+    - OPEN-PROM 2.0|Estonia:
+        countries: Estonia
     - OPEN-PROM 2.0|United Kingdom:
-        countries: United Kingdom  
+        countries: United Kingdom
     - OPEN-PROM 2.0|Greece:
-        countries: Greece  
+        countries: Greece
     - OPEN-PROM 2.0|Croatia:
-        countries: Croatia  
+        countries: Croatia
     - OPEN-PROM 2.0|Hungary:
-        countries: Hungary  
+        countries: Hungary
     - OPEN-PROM 2.0|Ireland:
-        countries: Ireland  
+        countries: Ireland
     - OPEN-PROM 2.0|Italy:
-        countries: Italy  
+        countries: Italy
+    - OPEN-PROM 2.0|Lithuania:
+        countries: Lithuania
+    - OPEN-PROM 2.0|Luxembourg:
+        countries: Luxembourg
+    - OPEN-PROM 2.0|Latvia:
+        countries: Latvia
     - OPEN-PROM 2.0|Malta:
-        countries: Malta  
+        countries: Malta
     - OPEN-PROM 2.0|Netherlands:
-        countries: Netherlands  
+        countries: Netherlands
     - OPEN-PROM 2.0|Poland:
-        countries: Poland  
+        countries: Poland
     - OPEN-PROM 2.0|Portugal:
         countries: Portugal
     - OPEN-PROM 2.0|Romania:
-        countries: Romania 
+        countries: Romania
     - OPEN-PROM 2.0|Slovakia:
-        countries: Slovakia 
+        countries: Slovakia
     - OPEN-PROM 2.0|Slovenia:
-        countries: Slovenia 
+        countries: Slovenia
     - OPEN-PROM 2.0|Sweden:
         countries: Sweden
-    - OPEN-PROM 2.0|Other EU27 Countries:
-        countries: [
-          Åland Islands, Estonia, Faroe Islands, Gibraltar, Guernsey,
-          Isle of Man, Jersey, Latvia, Lithuania, Luxembourg
-        ]
     - OPEN-PROM 2.0|Non-EU Europe:
         countries: [
           Albania, Andorra, Bosnia and Herzegovina, Greenland,
@@ -82,7 +85,7 @@
           United States Virgin Islands, Uruguay, Venezuela
         ]
     - OPEN-PROM 2.0|China and Taiwan:
-        countries: [ China, Hong Kong, Macao, Taiwan]
+        countries: [ China, Hong Kong, Macao, Taiwan ]
     - OPEN-PROM 2.0|India:
         countries: India
     - OPEN-PROM 2.0|Japan:
