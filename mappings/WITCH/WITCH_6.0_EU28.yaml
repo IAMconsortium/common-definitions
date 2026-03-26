@@ -1,0 +1,126 @@
+model:
+  - WITCH 6.0-EU28
+native_regions:
+  - brazil: WITCH 6.0-EU28|Brazil
+  - canada: WITCH 6.0-EU28|Canada
+  - china: WITCH 6.0-EU28|China
+  - eu28: WITCH 6.0-EU28|EU27 and UK
+  - othereurope: WITCH 6.0-EU28|European countries outside the EU28
+  - india: WITCH 6.0-EU28|India
+  - indonesia: WITCH 6.0-EU28|Indonesia
+  - jpnkor: WITCH 6.0-EU28|Japan and Korea
+  - laca: WITCH 6.0-EU28|Latin America and the Caribbean
+  - mena: WITCH 6.0-EU28|Middle East and North Africa
+  - mexico: WITCH 6.0-EU28|Mexico
+  - oceania: WITCH 6.0-EU28|Australia, New Zealand, and Oceania islands
+  - sasia: WITCH 6.0-EU28|South Asia
+  - seasia: WITCH 6.0-EU28|South East Asia
+  - southafrica: WITCH 6.0-EU28|South Africa
+  - ssa: WITCH 6.0-EU28|Sub-Saharan Africa
+  - te: WITCH 6.0-EU28|Non-EU Eastern European and Transition Countries
+  - usa: WITCH 6.0-EU28|United States
+common_regions:
+  - World:
+      - brazil
+      - canada
+      - china
+      - eu28
+      - othereurope
+      - india
+      - indonesia
+      - jpnkor
+      - laca
+      - mena
+      - mexico
+      - oceania
+      - sasia
+      - seasia
+      - southafrica
+      - ssa
+      - te
+      - usa
+
+  # R5 regions
+  - Asia (R5):
+      - china
+      - india
+      - indonesia
+      - sasia
+      - seasia
+  - Latin America (R5):
+      - brazil
+      - laca
+      - mexico
+  - Middle East & Africa (R5):
+      - mena
+      - southafrica
+      - ssa
+  - OECD & EU (R5):
+      - canada
+      - eu28
+      - othereurope
+      - jpnkor
+      - oceania
+      - usa
+  - Reforming Economies (R5):
+      - te
+
+  # R9 regions 
+  - China (R9):
+      - china
+  - European Union (R9):
+      - eu28
+  - India (R9):
+      - india
+  - Latin America (R9):
+      - brazil
+      - laca
+      - mexico
+  - Middle East & Africa (R9):
+      - mena
+      - southafrica
+      - ssa
+  - Other Asia (R9):
+      - indonesia
+      - sasia
+      - seasia
+  - Other OECD (R9):
+      - canada
+      - jpnkor
+      - oceania
+      - othereurope
+  - Reforming Economies (R9):
+      - te
+  - USA (R9):
+      - usa
+
+  # R10 regions 
+  - Africa (R10):
+      - southafrica
+      - ssa
+  - China+ (R10):
+      - china
+  - Europe (R10):
+      - eu28
+      - othereurope
+  - India+ (R10):
+      - india
+      - sasia
+  - Latin America (R10):
+      - brazil
+      - laca
+      - mexico
+  - Middle East (R10):
+      - mena
+  - North America (R10):
+      - canada
+      - usa
+  - Pacific OECD (R10):
+      - jpnkor
+      - oceania
+  - Reforming Economies (R10):
+      - te
+  - Rest of Asia (R10):
+      - indonesia
+      - seasia
+
