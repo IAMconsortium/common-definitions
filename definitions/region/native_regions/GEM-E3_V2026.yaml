@@ -1,0 +1,346 @@
+- GEM-E3 V2026:
+  - GEM-E3 V2026|World
+  - GEM-E3 V2026|Austria:
+      countries:
+      - Austria
+  - GEM-E3 V2026|Belgium:
+      countries:
+      - Belgium
+  - GEM-E3 V2026|Bulgaria:
+      countries:
+      - Bulgaria
+  - GEM-E3 V2026|Cyprus:
+      countries:
+      - Cyprus
+  - GEM-E3 V2026|Croatia:
+      countries:
+      - Croatia
+  - GEM-E3 V2026|Czech Republic:
+      countries:
+      - Czechia
+  - GEM-E3 V2026|Germany:
+      countries:
+      - Germany
+  - GEM-E3 V2026|Denmark:
+      countries:
+      - Denmark
+  - GEM-E3 V2026|Spain:
+      countries:
+      - Spain
+  - GEM-E3 V2026|Estonia:
+      countries:
+      - Estonia
+  - GEM-E3 V2026|Finland:
+      countries:
+      - Finland
+  - GEM-E3 V2026|France:
+      countries:
+      - France
+  - GEM-E3 V2026|United Kingdom:
+      countries:
+      - United Kingdom
+  - GEM-E3 V2026|Greece:
+      countries:
+      - Greece
+  - GEM-E3 V2026|Hungary:
+      countries:
+      - Hungary
+  - GEM-E3 V2026|Ireland:
+      countries:
+      - Ireland
+  - GEM-E3 V2026|Italy:
+      countries:
+      - Italy
+  - GEM-E3 V2026|Lithuania:
+      countries:
+      - Lithuania
+  - GEM-E3 V2026|Luxembourg:
+      countries:
+      - Luxembourg
+  - GEM-E3 V2026|Latvia:
+      countries:
+      - Latvia
+  - GEM-E3 V2026|Malta:
+      countries:
+      - Malta
+  - GEM-E3 V2026|Netherlands:
+      countries:
+      - Netherlands
+  - GEM-E3 V2026|Poland:
+      countries:
+      - Poland
+  - GEM-E3 V2026|Portugal:
+      countries:
+      - Portugal
+  - GEM-E3 V2026|Slovakia:
+      countries:
+      - Slovakia
+  - GEM-E3 V2026|Slovenia:
+      countries:
+      - Slovenia
+  - GEM-E3 V2026|Sweden:
+      countries:
+      - Sweden
+  - GEM-E3 V2026|Romania:
+      countries:
+      - Romania
+  - GEM-E3 V2026|USA:
+      countries:
+      - United States
+  - GEM-E3 V2026|Japan:
+      countries:
+      - Japan
+  - GEM-E3 V2026|Canada:
+      countries:
+      - Canada
+  - GEM-E3 V2026|Brazil:
+      countries:
+      - Brazil
+  - GEM-E3 V2026|China:
+      countries:
+      - China
+  - GEM-E3 V2026|India:
+      countries:
+      - India
+  - GEM-E3 V2026|South Korea
+  - GEM-E3 V2026|Indonesia:
+      countries:
+      - Indonesia
+  - GEM-E3 V2026|Mexico:
+      countries:
+      - Mexico
+  - GEM-E3 V2026|Argentina:
+      countries:
+      - Argentina
+  - GEM-E3 V2026|Turkey:
+      countries:
+      - Turkey
+  - GEM-E3 V2026|Saudi Arabia:
+      countries:
+      - Saudi Arabia
+  - GEM-E3 V2026|Oceania:
+      countries:
+      - Australia
+      - New Zealand
+  - GEM-E3 V2026|Russian federation:
+      countries:
+      - Russian Federation
+  - GEM-E3 V2026|United Arab Emirates:
+      countries:
+      - United Arab Emirates
+  - GEM-E3 V2026|Rest of energy producing countries:
+      countries:
+      - Algeria
+      - Azerbaijan
+      - Iran
+      - Iraq
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Libya
+      - Nigeria
+      - Qatar
+      - Syria
+      - Venezuela
+      - Western Sahara
+      - Yemen
+  - GEM-E3 V2026|South Africa:
+      countries:
+      - South Africa
+  - GEM-E3 V2026|Rest of Europe:
+      countries:
+      - Belarus
+      - Bosnia and Herzegovina
+      - Iceland
+      - Kosovo
+      - Liechtenstein
+      - Moldova
+      - Monaco
+      - Montenegro
+      - North Macedonia
+      - Norway
+      - Serbia
+      - Switzerland
+      - Ukraine
+      - Vatican
+  - GEM-E3 V2026|Rest of the World:
+      countries:
+      - Afghanistan
+      - Åland Islands
+      - Albania
+      - American Samoa
+      - Andorra
+      - Angola
+      - Anguilla
+      - Antarctica
+      - Antigua and Barbuda
+      - Armenia
+      - Aruba
+      - Bahamas
+      - Bahrain
+      - Bangladesh
+      - Barbados
+      - Belize
+      - Benin
+      - Bermuda
+      - Bhutan
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Botswana
+      - Bouvet Island
+      - British Indian Ocean Territory
+      - British Virgin Islands
+      - Brunei Darussalam
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cambodia
+      - Cameroon
+      - Cayman Islands
+      - Central African Republic
+      - Chad
+      - Chile
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Colombia
+      - Comoros
+      - Congo
+      - Cook Islands
+      - Costa Rica
+      - Côte d'Ivoire
+      - Cuba
+      - Curaçao
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - Egypt
+      - El Salvador
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Falkland Islands (Malvinas)
+      - Faroe Islands
+      - Fiji
+      - French Guiana
+      - French Polynesia
+      - French Southern Territories
+      - Gabon
+      - Gambia
+      - Georgia
+      - Ghana
+      - Gibraltar
+      - Greenland
+      - Grenada
+      - Guadeloupe
+      - Guam
+      - Guatemala
+      - Guernsey
+      - Guinea
+      - Guinea-Bissau
+      - Guyana
+      - Haiti
+      - Heard Island and McDonald Islands
+      - Honduras
+      - Hong Kong
+      - Isle of Man
+      - Israel
+      - Jamaica
+      - Jersey
+      - Kazakhstan
+      - Kenya
+      - Kiribati
+      - Kyrgyzstan
+      - Laos
+      - Lesotho
+      - Liberia
+      - Macao
+      - Madagascar
+      - Malawi
+      - Malaysia
+      - Maldives
+      - Mali
+      - Marshall Islands
+      - Martinique
+      - Mauritania
+      - Mauritius
+      - Mayotte
+      - Micronesia
+      - Mongolia
+      - Montserrat
+      - Morocco
+      - Mozambique
+      - Myanmar
+      - Namibia
+      - Nauru
+      - Nepal
+      - New Caledonia
+      - Nicaragua
+      - Niger
+      - Niue
+      - Norfolk Island
+      - North Korea
+      - Northern Mariana Islands
+      - Oman
+      - Pakistan
+      - Palau
+      - Palestine
+      - Panama
+      - Papua New Guinea
+      - Paraguay
+      - Peru
+      - Philippines
+      - Pitcairn
+      - Puerto Rico
+      - Réunion
+      - Rwanda
+      - Saint Barthélemy
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Pierre and Miquelon
+      - Saint Vincent and the Grenadines
+      - Samoa
+      - San Marino
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Singapore
+      - Sint Maarten (Dutch part)
+      - Solomon Islands
+      - Somalia
+      - South Georgia and the South Sandwich Islands
+      - South Korea
+      - South Sudan
+      - Sri Lanka
+      - Sudan
+      - Suriname
+      - Svalbard and Jan Mayen
+      - Taiwan
+      - Tajikistan
+      - Tanzania
+      - Thailand
+      - Timor-Leste
+      - Togo
+      - Tokelau
+      - Tonga
+      - Trinidad and Tobago
+      - Tunisia
+      - Turkmenistan
+      - Turks and Caicos Islands
+      - Tuvalu
+      - Uganda
+      - United States Minor Outlying Islands
+      - United States Virgin Islands
+      - Uruguay
+      - Uzbekistan
+      - Vanuatu
+      - Viet Nam
+      - Wallis and Futuna
+      - Zambia
+      - Zimbabwe
+  - GEM-E3 V2026|EU27
