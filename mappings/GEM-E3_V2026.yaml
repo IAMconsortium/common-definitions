@@ -1,6 +1,5 @@
 model: GEM-E3 V2026
 native_regions:
-- WORLD: World
 - AUT: GEM-E3 V2026|Austria
 - BEL: GEM-E3 V2026|Belgium
 - BGR: GEM-E3 V2026|Bulgaria
