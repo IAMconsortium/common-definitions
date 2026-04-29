@@ -42,13 +42,13 @@ native_regions:
 - TUR: GEM-E3 V2026|Turkey
 - SAR: GEM-E3 V2026|Saudi Arabia
 - OCE: GEM-E3 V2026|Oceania
-- RUS: GEM-E3 V2026|Russian federation
+- RUS: GEM-E3 V2026|Russian Federation
 - ARE: GEM-E3 V2026|United Arab Emirates
-- REP: GEM-E3 V2026|Rest of energy producing countries
+- REP: GEM-E3 V2026|Other Major Fossil-Exporting Countries
 - SAF: GEM-E3 V2026|South Africa
 - REU: GEM-E3 V2026|Rest of Europe
 - ROW: GEM-E3 V2026|Rest of the World
-- EU27: GEM-E3 V2026|EU27
+- EU27: European Union
 common_regions:
 - World:
   - ARE
