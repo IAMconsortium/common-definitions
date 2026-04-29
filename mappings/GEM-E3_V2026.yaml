@@ -66,7 +66,6 @@ common_regions:
   - DNK
   - ESP
   - EST
-  - EU27
   - FIN
   - FRA
   - GBR
@@ -148,7 +147,6 @@ common_regions:
   - TUR
   - OCE
   - REU
-  - EU27
 - Other (R5):
   - ROW
 - Reforming Economies (R5):
@@ -189,7 +187,6 @@ common_regions:
   - ROU
   - TUR
   - REU
-  - EU27
 - India+ (R10):
   - IND
 - Latin America (R10):
@@ -242,7 +239,6 @@ common_regions:
   - SVN
   - SWE
   - ROU
-  - EU27
 - India (R9):
   - IND
 - Latin America (R9):
