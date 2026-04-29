@@ -1,0 +1,267 @@
+model: GEM-E3 V2026
+native_regions:
+- AUT: GEM-E3 V2026|Austria
+- BEL: GEM-E3 V2026|Belgium
+- BGR: GEM-E3 V2026|Bulgaria
+- CYP: GEM-E3 V2026|Cyprus
+- CRO: GEM-E3 V2026|Croatia
+- CZE: GEM-E3 V2026|Czech Republic
+- DEU: GEM-E3 V2026|Germany
+- DNK: GEM-E3 V2026|Denmark
+- ESP: GEM-E3 V2026|Spain
+- EST: GEM-E3 V2026|Estonia
+- FIN: GEM-E3 V2026|Finland
+- FRA: GEM-E3 V2026|France
+- GBR: GEM-E3 V2026|United Kingdom
+- GRC: GEM-E3 V2026|Greece
+- HUN: GEM-E3 V2026|Hungary
+- IRL: GEM-E3 V2026|Ireland
+- ITA: GEM-E3 V2026|Italy
+- LTU: GEM-E3 V2026|Lithuania
+- LUX: GEM-E3 V2026|Luxembourg
+- LVA: GEM-E3 V2026|Latvia
+- MLT: GEM-E3 V2026|Malta
+- NLD: GEM-E3 V2026|Netherlands
+- POL: GEM-E3 V2026|Poland
+- PRT: GEM-E3 V2026|Portugal
+- SVK: GEM-E3 V2026|Slovakia
+- SVN: GEM-E3 V2026|Slovenia
+- SWE: GEM-E3 V2026|Sweden
+- ROU: GEM-E3 V2026|Romania
+- USA: GEM-E3 V2026|USA
+- JPN: GEM-E3 V2026|Japan
+- CAN: GEM-E3 V2026|Canada
+- BRA: GEM-E3 V2026|Brazil
+- CHN: GEM-E3 V2026|China
+- IND: GEM-E3 V2026|India
+- KOR: GEM-E3 V2026|South Korea
+- IDN: GEM-E3 V2026|Indonesia
+- MEX: GEM-E3 V2026|Mexico
+- ARG: GEM-E3 V2026|Argentina
+- TUR: GEM-E3 V2026|Turkey
+- SAR: GEM-E3 V2026|Saudi Arabia
+- OCE: GEM-E3 V2026|Oceania
+- RUS: GEM-E3 V2026|Russian Federation
+- ARE: GEM-E3 V2026|United Arab Emirates
+- REP: GEM-E3 V2026|Other Major Fossil-Exporting Countries
+- SAF: GEM-E3 V2026|South Africa
+- REU: GEM-E3 V2026|Rest of Europe
+- ROW: GEM-E3 V2026|Rest of the World
+- EU27: European Union
+common_regions:
+- World:
+  - ARE
+  - ARG
+  - AUT
+  - BEL
+  - BGR
+  - BRA
+  - CAN
+  - CHN
+  - CRO
+  - CYP
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GBR
+  - GRC
+  - HUN
+  - IDN
+  - IND
+  - IRL
+  - ITA
+  - JPN
+  - KOR
+  - LTU
+  - LUX
+  - LVA
+  - MEX
+  - MLT
+  - NLD
+  - OCE
+  - POL
+  - PRT
+  - REP
+  - REU
+  - ROU
+  - ROW
+  - RUS
+  - SAF
+  - SAR
+  - SVK
+  - SVN
+  - SWE
+  - TUR
+  - USA
+- Asia (R5):
+  - CHN
+  - IND
+  - KOR
+  - IDN
+- Latin America (R5):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R5):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- OECD & EU (R5):
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GBR
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
+  - USA
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Other (R5):
+  - ROW
+- Reforming Economies (R5):
+  - RUS
+- Africa (R10):
+  - SAF
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GBR
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
+  - TUR
+  - REU
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - BRA
+  - MEX
+  - ARG
+- Middle East (R10):
+  - SAR
+  - ARE
+  - REP
+- North America (R10):
+  - USA
+  - CAN
+- Other (R10):
+  - ROW
+- Pacific OECD (R10):
+  - JPN
+  - OCE
+- Reforming Economies (R10):
+  - RUS
+- Rest of Asia (R10):
+  - IDN
+- China (R9):
+  - CHN
+- European Union (R9):
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
+- India (R9):
+  - IND
+- Latin America (R9):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R9):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- Other (R9):
+  - ROW
+- Other Asia (R9):
+  - KOR
+  - IDN
+- Other OECD (R9):
+  - GBR
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Reforming Economies (R9):
+  - RUS
+- USA (R9):
+  - USA
