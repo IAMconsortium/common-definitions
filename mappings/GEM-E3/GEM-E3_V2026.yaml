@@ -271,3 +271,70 @@ common_regions:
   - RUS
 - Rest of Asia (R10):
   - IDN
+
+# individual countries and key regions
+- European Union and United Kingdom:
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GBR
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
+- Argentina:
+  - ARG
+- Brazil:
+  - BRA
+- Canada:
+  - CAN
+- China:
+  - CHN
+- France:
+  - FRA
+- Germany:
+  - DEU
+- India:
+  - IND
+- Indonesia:
+  - IDN
+- Italy:
+  - ITA
+- Japan:
+  - JPN
+- Mexico:
+  - MEX
+- Russian Federation:
+  - RUS
+- Saudi Arabia:
+  - SAR
+- South Africa:
+  - SAF
+- South Korea:
+  - KOR
+- Turkey:
+  - TUR
+- United Kingdom:
+  - GBR
+- United States:
+  - USA
