@@ -101,7 +101,9 @@
   - GEM-E3 V2026|India:
       countries:
       - India
-  - GEM-E3 V2026|South Korea
+  - GEM-E3 V2026|South Korea:
+      countries:
+      - South Korea
   - GEM-E3 V2026|Indonesia:
       countries:
       - Indonesia
@@ -313,7 +315,6 @@
       - Solomon Islands
       - Somalia
       - South Georgia and the South Sandwich Islands
-      - South Korea
       - South Sudan
       - Sri Lanka
       - Sudan

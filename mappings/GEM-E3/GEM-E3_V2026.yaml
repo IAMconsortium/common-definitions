@@ -97,6 +97,8 @@ common_regions:
   - SWE
   - TUR
   - USA
+
+# R5 regions
 - Asia (R5):
   - CHN
   - IND
@@ -150,6 +152,67 @@ common_regions:
   - ROW
 - Reforming Economies (R5):
   - RUS
+
+# R9 regions
+- China (R9):
+  - CHN
+- European Union (R9):
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
+- India (R9):
+  - IND
+- Latin America (R9):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R9):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- Other (R9):
+  - ROW
+- Other Asia (R9):
+  - KOR
+  - IDN
+- Other OECD (R9):
+  - GBR
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Reforming Economies (R9):
+  - RUS
+- USA (R9):
+  - USA
+
+# R10 regions
 - Africa (R10):
   - SAF
 - China+ (R10):
@@ -208,9 +271,9 @@ common_regions:
   - RUS
 - Rest of Asia (R10):
   - IDN
-- China (R9):
-  - CHN
-- European Union (R9):
+
+# individual countries and key regions
+- European Union and United Kingdom:
   - AUT
   - BEL
   - BGR
@@ -223,6 +286,7 @@ common_regions:
   - EST
   - FIN
   - FRA
+  - GBR
   - GRC
   - HUN
   - IRL
@@ -238,30 +302,39 @@ common_regions:
   - SVN
   - SWE
   - ROU
-- India (R9):
-  - IND
-- Latin America (R9):
-  - BRA
-  - MEX
+- Argentina:
   - ARG
-- Middle East & Africa (R9):
-  - SAR
-  - ARE
-  - REP
-  - SAF
-- Other (R9):
-  - ROW
-- Other Asia (R9):
-  - KOR
-  - IDN
-- Other OECD (R9):
-  - GBR
-  - JPN
+- Brazil:
+  - BRA
+- Canada:
   - CAN
-  - TUR
-  - OCE
-  - REU
-- Reforming Economies (R9):
+- China:
+  - CHN
+- France:
+  - FRA
+- Germany:
+  - DEU
+- India:
+  - IND
+- Indonesia:
+  - IDN
+- Italy:
+  - ITA
+- Japan:
+  - JPN
+- Mexico:
+  - MEX
+- Russian Federation:
   - RUS
-- USA (R9):
+- Saudi Arabia:
+  - SAR
+- South Africa:
+  - SAF
+- South Korea:
+  - KOR
+- Turkey:
+  - TUR
+- United Kingdom:
+  - GBR
+- United States:
   - USA
