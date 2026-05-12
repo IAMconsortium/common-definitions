@@ -47,7 +47,6 @@ native_regions:
 - SAF: GEM-E3 V2026|South Africa
 - REU: GEM-E3 V2026|Rest of Europe
 - ROW: GEM-E3 V2026|Rest of the World
-- EU27: European Union
 common_regions:
 - World:
   - ARE
@@ -273,6 +272,34 @@ common_regions:
   - IDN
 
 # individual countries and key regions
+- European Union:
+  - AUT
+  - BEL
+  - BGR
+  - CYP
+  - CRO
+  - CZE
+  - DEU
+  - DNK
+  - ESP
+  - EST
+  - FIN
+  - FRA
+  - GRC
+  - HUN
+  - IRL
+  - ITA
+  - LTU
+  - LUX
+  - LVA
+  - MLT
+  - NLD
+  - POL
+  - PRT
+  - SVK
+  - SVN
+  - SWE
+  - ROU
 - European Union and United Kingdom:
   - AUT
   - BEL
