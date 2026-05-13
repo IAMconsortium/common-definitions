@@ -1,0 +1,280 @@
+# Extension of 'emissions.yaml' for AFOLU sector
+# Emissions reporting guidance follows IPCC guidance, referring to 
+# 2006 categories: https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/1_Volume1/19R_V1_Ch08_Reporting_Guidance.pdf
+# 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
+
+
+# Total AFOLU emissions
+- Emissions|CO2|AFOLU:
+    description: Emissions of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      including agricultural emissions from livestock, rice cultivation and soil management
+      as well as emissions from land use and land-use change such as deforestation,
+      conversion of non-forest natural land, and drained peatlands
+    unit: "Mt CO2/yr"
+    tier: 1
+    notes: This variable reports the sum of sources and sinks including land-use methods
+      such as soil carbon sequestration, biochar, forestry, and re/afforestation and
+      agroforestry. It uses the model/scientific definition of AFOLU, and does not align
+      with the reporting of national greenhouse gas inventories (NGHGI).
+      For NGHGI-aligned reporting, see 'Emissions|*|AFOLU [NGHGI]'. Emissions reported
+      in this category represent fluxes to/from the atmosphere from/to the land pool.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+    components:
+      - Emissions|CO2|AFOLU|LULUCF
+      - Emissions|CO2|AFOLU|Other
+- Emissions|{Level-2 Species w/o CO2}|AFOLU:
+    description: Emissions of {Level-2 Species w/o CO2} from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      including agricultural emissions from livestock, rice cultivation and soil management
+      as well as emissions from land use and land-use change such as deforestation,
+      conversion of non-forest natural land, and drained peatlands
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 1
+    components:
+      - Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture
+      - Emissions|{Level-2 Species w/o CO2}|AFOLU|Agricultural Waste Burning
+      - Emissions|{Level-2 Species w/o CO2}|AFOLU|LULUCF
+      - Emissions|{Level-2 Species w/o CO2}|AFOLU|Other
+
+
+# NGHGI-aligned Emissions & Correction Terms
+- Emissions|Kyoto Gases|AFOLU [NGHGI]:
+    description: Emissions of Kyoto GHG emissions, including CO2, CH4, N2O and F-gases from agriculture, forestry and other
+      land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3) in line with the
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2-equiv/yr"
+    tier: 2
+    notes: This variable is optional, for instance used for comparison with national
+      greenhouse gas inventories, but is not used for driving climate model simulations,
+      and also not a component of 'Emissions|*', for which the variable
+      'Emissions|*|AFOLU' with a model/scientific definition is used.
+    components:
+      - Emissions|Kyoto Gases|AFOLU|Agriculture
+      - Emissions|Kyoto Gases|AFOLU|Agricultural Waste Burning
+      - Emissions|Kyoto Gases|AFOLU|LULUCF
+      - Emissions|Kyoto Gases|AFOLU|Other
+      - Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land
+- Emissions|CO2|AFOLU [NGHGI]:
+    description: Emissions of carbon dioxide (CO2) from agriculture, forestry and other
+      land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3) in line with the
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 2
+    notes: This variable is optional, for instance used for comparison with national
+      greenhouse gas inventories, but is not used for driving climate model simulations,
+      and also not a component of 'Emissions|*', for which the variable
+      'Emissions|*|AFOLU' with a model/scientific definition is used.
+    components:
+      - Emissions|CO2|AFOLU|LULUCF
+      - Emissions|CO2|AFOLU|Other
+      - Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land
+
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land:
+    description: Emissions and removals of carbon dioxide (CO2) over managed land, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 2
+    notes: This only includes natural processes, i.e. the ecosystems' response to 
+      environmental changes such as atmospheric CO2, climate, nitrogen deposition, etc. Should be reported negative if a carbon removal.
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Forest Land:
+    description: Emissions and removals of carbon dioxide (CO2) over managed forest land, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 2
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Cropland:
+    description: Emissions and removals of carbon dioxide (CO2) over cropland, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 3
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Grassland:
+    description: Emissions and removals of carbon dioxide (CO2) over managed grassland, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 3
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Settlements:
+    description: Emissions and removals of carbon dioxide (CO2) over settlements, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 3
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Other Land:
+    description: Emissions and removals of carbon dioxide (CO2) over other managed land, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 3
+- Emissions|CO2|AFOLU [NGHGI]|Natural Flux Over Managed Land|Wetlands:
+    description: Emissions and removals of carbon dioxide (CO2) over managed wetlands, 
+      needed to align the model/scientific definition with that of the 
+      national greenhouse gas inventories (NGHGI)
+    unit: "Mt CO2/yr"
+    tier: 3
+
+
+# Subcategories including CO2
+- Emissions|{Level-2 Species}|AFOLU|LULUCF:
+    description: Emissions of {Level-2 Species} from forestry and other land use and
+      land use change. Removals in this variable include agroforestry, re/afforestation,
+      biochar, soil carbon management and forest management.
+    unit: "{Level-2 Species}"
+    tier: 1
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Deforestation:
+    description: Emissions and removals from any land converted from forest to any other land,
+      except wetlands (IPCC 2006 categories 3B2bi, 3B3bi, 3B5bi, 3B6bi).
+    unit: "{Level-2 Species}"
+    tier: 2
+    notes: All lands converted from Forest should go here, excluding wetlands-related transitions. 
+      This also excludes Harvest Wood Products.
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Forest Land:
+    description: Emissions and removals from forest remaining forest and any conversions to forest, 
+     except from wetlands (IPCC 2006 category 3B1 except 3B1biii).
+    unit: "{Level-2 Species}"
+    tier: 2
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Cropland:
+    description: Emissions and removals from cropland remaining cropland and any conversions to cropland, 
+     except from forest or wetlands (IPCC 2006 category 3B2 except 3B2bi and 3B2biii).
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Grassland:
+    description: Emissions and removals from grassland remaining grassland and any conversions to grassland, 
+     except from forest or wetlands (IPCC 2006 category 3B3 except 3B3bi and 3B3biii).
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Settlements:
+    description: Emissions and removals from settlements remaining settlements and any conversions to settlements, 
+     except from forest or wetlands (IPCC 2006 category 3B5 except 3B5bi and 3B5biii).
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Other Land:
+    description: Emissions and removals from other land remaining other land and any conversions to other land, 
+     except from forest or wetlands (IPCC 2006 category 3B6 except 3B6bi and 3B6biii).
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Wetlands:
+    description: Emissions from managed wetlands (e.g., peatland),
+      including emissions from drained wetlands used for agriculture, forestry or other uses
+      (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv),
+      and emissions from rewetted wetlands (IPCC 2006 category 3B4)
+    unit: "{Level-2 Species}"
+    tier: 3
+    notes: Includes reservoirs as a managed sub-division and
+      natural rivers and lakes as unmanaged sub-divisions. Includes drained
+      and rewetted wetlands, does not include natural emissions from intact wetlands.
+- Emissions|{Level-2 Species}|AFOLU|LULUCF|Harvested Wood Products:
+    description: Emissions and removals from harvested wood products (HWP)
+      (no clear IPCC 1996 category - IPCC 2006 category 3D1)
+    unit: "{Level-2 Species}"
+    tier: 3
+- Emissions|{Level-2 Species}|AFOLU|Other:
+    description: Emissions and removals in AFOLU sector that cannot be accommodated in other
+      categories (no clear IPCC 1996 category - IPCC 2006 category 3D2)
+    unit: "{Level-2 Species}"
+    tier: 3
+
+
+# Subcategories excluding CO2
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture:
+    description: Emissions of {Level-2 Species w/o CO2} from the agriculture sector
+      (IPCC 1996 category 4 - IPCC 2006 category 3A and 3C except 3C1)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 2
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture|Livestock:
+    description: Emissions of {Level-2 Species w/o CO2} from livestock in the agriculture sector
+      (IPCC 1996 category 4A and 4B - IPCC 2006 category 3A)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 2
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
+    description: Emissions of {Level-2 Species w/o CO2} from enteric fermentation of livestock
+      (IPCC 1996 category 4A - IPCC 2006 category 3A1)
+      in the agriculture sector
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture|Livestock|Manure Management:
+    description: Emissions of {Level-2 Species w/o CO2} from processes involving
+      manure (waste) management in Livestock in the agriculture sector
+      (IPCC 1996 category 4B - IPCC 2006 category 3A2)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture|Rice:
+    description: Emissions of {Level-2 Species w/o CO2} from rice cultivation
+      (IPCC 1996 category 4C - IPCC 2006 category 3C7)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agriculture|Managed Soils:
+    description: Emissions of {Level-2 Species w/o CO2} from soil management practices
+      in the agriculture sector (IPCC 1996 category 4D - IPCC 2006 category 3C4 and 3C5)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|AFOLU|Agricultural Waste Burning:
+    description: Emissions from agricultural waste burning
+      (IPCC 1996 category 4F - partially IPCC 2006 category 3C1)
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 2
+    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
+
+
+# Fire Emissions only for Non-CO2
+# /!\ Moved out of AFOLU because current definition is unclear.
+- Emissions|{Level-2 Species w/o CO2}|Fires:
+    description: Emissions from land fires and deforestation & degradation fires
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|Fires|Peat Burning:
+    description: Emissions from peat fires
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|Fires|Forest Burning:
+    description: Emissions from boreal forest fires, temperate forest fires,
+      and tropical deforestation & degradation fires
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+- Emissions|{Level-2 Species w/o CO2}|Fires|Grassland Burning:
+    description: Emissions from savanna, grassland, and shrubland fires
+    unit: "{Level-2 Species w/o CO2}"
+    tier: 3
+
+
+# Gross Emissions & Removals
+- Gross Emissions|CO2|AFOLU:
+    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      not including any removals from the atmosphere (e.g., biochar)
+    unit: Mt CO2/yr
+    tier: 1
+    notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+- Gross Removals|CO2|AFOLU:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      including intentional carbon dioxide removals ('Carbon Removal|Land Use')
+      and all un-intentional or indirect removals,
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
+      after wood harvest or regrowth of timber plantations
+    unit: Mt CO2/yr
+    tier: 1
+    components:
+      - Gross Removals|CO2|AFOLU|Intentional
+      - Gross Removals|CO2|AFOLU|Unintentional
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+- Gross Removals|CO2|AFOLU|Intentional:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      due to intentional carbon dioxide removals ('Carbon Removal|Land Use')
+    unit: Mt CO2/yr
+    tier: 2
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
+- Gross Removals|CO2|AFOLU|Unintentional:
+    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
+      due to unintentional or indirect removals,
+      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
+      after wood harvest or regrowth of timber plantations
+    unit: Mt CO2/yr
+    tier: 2
+    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
