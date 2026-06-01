@@ -1,40 +1,46 @@
 model:
-  - GCAM 7.1
-  - GCAM 7.1 scenarioMIP
+  - GCAM 7.4 SoCDR # Branch for the third edition of the State of CDR report
 
 native_regions:
-  - Africa_Eastern: GCAM 7.1|Africa_Eastern
-  - Africa_Northern: GCAM 7.1|Africa_Northern
-  - Africa_Southern: GCAM 7.1|Africa_Southern
-  - Africa_Western: GCAM 7.1|Africa_Western
-  - Argentina: GCAM 7.1|Argentina
-  - Australia_NZ: GCAM 7.1|Australia_NZ
-  - Brazil: GCAM 7.1|Brazil
-  - Canada: GCAM 7.1|Canada
-  - Central America and Caribbean: GCAM 7.1|Central America and Caribbean
-  - Central Asia: GCAM 7.1|Central Asia
-  - China: GCAM 7.1|China
-  - Colombia: GCAM 7.1|Colombia
-  - EU-12: GCAM 7.1|EU-12
-  - EU-15: GCAM 7.1|EU-15
-  - Europe_Eastern: GCAM 7.1|Europe_Eastern
-  - Europe_Non_EU: GCAM 7.1|Europe_Non_EU
-  - European Free Trade Association: GCAM 7.1|European Free Trade Association
-  - India: GCAM 7.1|India
-  - Indonesia: GCAM 7.1|Indonesia
-  - Japan: GCAM 7.1|Japan
-  - Mexico: GCAM 7.1|Mexico
-  - Middle East: GCAM 7.1|Middle East
-  - Pakistan: GCAM 7.1|Pakistan
-  - Russia: GCAM 7.1|Russia
-  - South Africa: GCAM 7.1|South Africa
-  - South America_Northern: GCAM 7.1|South America_Northern
-  - South America_Southern: GCAM 7.1|South America_Southern
-  - South Asia: GCAM 7.1|South Asia
-  - South Korea: GCAM 7.1|South Korea
-  - Southeast Asia: GCAM 7.1|Southeast Asia
-  - Taiwan: GCAM 7.1|Taiwan
-  - USA: GCAM 7.1|USA
+  - Africa_Eastern: GCAM 7.4|Africa_Eastern
+  - Africa_Northern: GCAM 7.4|Africa_Northern
+  - Africa_Southern: GCAM 7.4|Africa_Southern
+  - Africa_Western: GCAM 7.4|Africa_Western
+  - Argentina: GCAM 7.4|Argentina
+  - Australia_NZ: GCAM 7.4|Australia and New Zealand
+  - Brazil: GCAM 7.4|Brazil
+  - Canada: GCAM 7.4|Canada
+  - Central America and Caribbean: GCAM 7.4|Central America and Caribbean
+  - Central Asia: GCAM 7.4|Central Asia
+  - China: GCAM 7.4|China
+  - Colombia: GCAM 7.4|Colombia
+  - EU-12: GCAM 7.4|EU-12
+  - EU-15: GCAM 7.4|EU-15
+  - Europe_Eastern: GCAM 7.4|Europe_Eastern
+  - Europe_Non_EU: GCAM 7.4|Europe_Non_EU
+  - European Free Trade Association: GCAM 7.4|European Free Trade Association
+  - India: GCAM 7.4|India
+  - Indonesia: GCAM 7.4|Indonesia
+  - Japan: GCAM 7.4|Japan
+  - Mexico: GCAM 7.4|Mexico
+  - Middle East: GCAM 7.4|Middle East
+  - Pakistan: GCAM 7.4|Pakistan
+  - Russia: GCAM 7.4|Russia
+  - South Africa: GCAM 7.4|South Africa
+  - South America_Northern: GCAM 7.4|South America_Northern
+  - South America_Southern: GCAM 7.4|South America_Southern
+  - South Asia: GCAM 7.4|South Asia
+  - South Korea: GCAM 7.4|South Korea
+  - Southeast Asia: GCAM 7.4|Southeast Asia
+  - Taiwan: GCAM 7.4|Taiwan
+  - USA: GCAM 7.4|USA
+  # G20 members (without renaming)
+  - Brazil
+  - Canada
+  - China
+  - India
+  - Japan
+  - South Korea
 
 common_regions:
   - World:
@@ -70,10 +76,9 @@ common_regions:
       - Southeast Asia
       - Taiwan
       - USA
-            
-    # R5 regions
+
+  # R5 regions
   - Asia (R5):
-      - Central Asia
       - China
       - India
       - Indonesia
@@ -101,15 +106,16 @@ common_regions:
       - USA
       - Australia_NZ
       - Canada
+      - EU-12
       - EU-15
       - Europe_Non_EU
       - European Free Trade Association
       - Japan
   - Reforming Economies (R5):
-      - EU-12
+      - Central Asia
       - Europe_Eastern
       - Russia
-      
+
   # R9 regions
   - European Union (R9):
       - EU-12
@@ -120,7 +126,6 @@ common_regions:
       - Canada
       - Japan
       - Australia_NZ
-      - South Korea
       - Europe_Non_EU
       - European Free Trade Association
   - China (R9):
@@ -131,17 +136,18 @@ common_regions:
       - Indonesia
       - Pakistan
       - South Asia
+      - South Korea
       - Southeast Asia
       - Taiwan
   - Reforming Economies (R9):
       - Russia
-      - Central Asia   
+      - Central Asia
       - Europe_Eastern
   - Latin America (R9):
       - Argentina
       - South America_Northern
       - South America_Southern
-      - Brazil   
+      - Brazil
       - Colombia
       - Central America and Caribbean
       - Mexico
@@ -152,8 +158,8 @@ common_regions:
       - Africa_Southern
       - Africa_Western
       - South Africa
-      
-    # R10 regions
+
+  # R10 regions
   - Africa (R10):
       - Africa_Eastern
       - Africa_Northern
@@ -162,6 +168,7 @@ common_regions:
       - South Africa
   - China+ (R10):
       - China
+      - South Korea
   - Europe (R10):
       - EU-12
       - EU-15
@@ -174,7 +181,7 @@ common_regions:
       - Argentina
       - South America_Northern
       - South America_Southern
-      - Brazil   
+      - Brazil
       - Colombia
       - Central America and Caribbean
       - Mexico
@@ -186,28 +193,17 @@ common_regions:
   - Pacific OECD (R10):
       - Japan
       - Australia_NZ
-      - South Korea
   - Reforming Economies (R10):
       - Russia
-      - Central Asia   
+      - Central Asia
   - Rest of Asia (R10):
       - Indonesia
       - Pakistan
       - South Asia
       - Southeast Asia
       - Taiwan
-      
-  # mapping for G20 members
-  - Brazil:
-      - Brazil
-  - Canada:
-      - Canada
-  - China:
-      - China
-  - India:
-      - India
-  - Japan:
-      - Japan
+
+  # G20 members (aggregation or renaming)
   - United States:
       - USA
   - African Union:

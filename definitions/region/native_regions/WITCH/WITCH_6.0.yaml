@@ -1,0 +1,280 @@
+- WITCH 6.0:
+    - WITCH 6.0|Brazil:
+        countries: Brazil
+    - WITCH 6.0|Canada:
+        countries:
+          - Canada
+          - Saint Pierre and Miquelon
+    - WITCH 6.0|China:
+        countries:
+          - China
+          - Hong Kong
+          - Macao
+          - Taiwan
+    - WITCH 6.0|Europe:
+        countries:
+          - Bulgaria
+          - Cyprus
+          - Czechia
+          - Estonia
+          - Hungary
+          - Lithuania
+          - Latvia
+          - Poland
+          - Romania
+          - Slovakia
+          - Slovenia
+          - Malta
+          - Croatia
+          - Austria
+          - Belgium
+          - Germany
+          - Denmark
+          - Spain
+          - Finland
+          - France
+          - United Kingdom
+          - Greece
+          - Ireland
+          - Italy
+          - Luxembourg
+          - Netherlands
+          - Portugal
+          - Sweden
+          - Liechtenstein
+          - Norway
+          - Switzerland
+          - Greenland
+          - Iceland
+          - Faroe Islands
+          - Åland Islands
+          - Andorra
+          - Guernsey
+          - Gibraltar
+          - Isle of Man
+          - Jersey
+          - Monaco
+          - Svalbard and Jan Mayen
+          - San Marino
+          - Vatican
+          - Bosnia and Herzegovina
+          - Albania
+          - North Macedonia
+          - Montenegro
+          - Serbia
+          - Kosovo
+    - WITCH 6.0|India:
+        countries: India
+    - WITCH 6.0|Indonesia:
+        countries: Indonesia
+    - WITCH 6.0|Japan and Korea:
+        countries:
+          - Japan
+          - South Korea
+          - North Korea
+    - WITCH 6.0|Latin America and the Caribbean:
+        countries:
+          - Antarctica
+          - Bermuda
+          - South Georgia and the South Sandwich Islands
+          - Turks and Caicos Islands
+          - British Virgin Islands
+          - United States Virgin Islands
+          - Aruba
+          - Anguilla
+          - Argentina
+          - Antigua and Barbuda
+          - Bonaire, Sint Eustatius and Saba
+          - Bahamas
+          - Saint Barthélemy
+          - Belize
+          - Bolivia
+          - Barbados
+          - Chile
+          - Colombia
+          - Costa Rica
+          - Cuba
+          - Curaçao
+          - Cayman Islands
+          - Dominica
+          - Dominican Republic
+          - Ecuador
+          - Falkland Islands (Malvinas)
+          - Guadeloupe
+          - Grenada
+          - Guatemala
+          - French Guiana
+          - Guyana
+          - Honduras
+          - Haiti
+          - Jamaica
+          - Saint Kitts and Nevis
+          - Saint Lucia
+          - Saint Martin (French part)
+          - Montserrat
+          - Martinique
+          - Nicaragua
+          - Panama
+          - Peru
+          - Puerto Rico
+          - Paraguay
+          - El Salvador
+          - Suriname
+          - Sint Maarten (Dutch part)
+          - Trinidad and Tobago
+          - Uruguay
+          - Saint Vincent and the Grenadines
+          - Venezuela
+    - WITCH 6.0|Middle East and North Africa:
+        countries:
+          - United Arab Emirates
+          - Bahrain
+          - Algeria
+          - Egypt
+          - Western Sahara
+          - Iran
+          - Iraq
+          - Israel
+          - Jordan
+          - Kuwait
+          - Lebanon
+          - Libya
+          - Morocco
+          - Oman
+          - Palestine
+          - Qatar
+          - Saudi Arabia
+          - Syria
+          - Tunisia
+          - Yemen
+    - WITCH 6.0|Mexico:
+        countries: Mexico
+    - WITCH 6.0|Australia, New Zealand, and Oceania islands:
+        countries:
+          - New Zealand
+          - Australia
+          - Christmas Island
+          - Cook Islands
+          - Heard Island and McDonald Islands
+          - Norfolk Island
+          - Niue
+          - Nauru
+          - Pitcairn
+          - Tokelau
+          - Tuvalu
+          - United States Minor Outlying Islands
+          - Wallis and Futuna
+          - Fiji
+          - Papua New Guinea
+          - Micronesia
+          - Guam
+          - American Samoa
+          - Timor-Leste
+          - French Polynesia
+          - Kiribati
+          - Northern Mariana Islands
+          - Marshall Islands
+          - New Caledonia
+          - Palau
+          - Samoa
+          - Solomon Islands
+          - Tonga
+          - Vanuatu
+    - WITCH 6.0|South Asia:
+        countries:
+          - Afghanistan
+          - Bangladesh
+          - Bhutan
+          - Sri Lanka
+          - Maldives
+          - Nepal
+          - Pakistan
+    - WITCH 6.0|South East Asia:
+        countries:
+          - Brunei Darussalam
+          - Cocos (Keeling) Islands
+          - Cambodia
+          - Laos
+          - Myanmar
+          - Malaysia
+          - Philippines
+          - Singapore
+          - Thailand
+          - Viet Nam
+    - WITCH 6.0|South Africa:
+        countries:
+          - South Africa
+    - WITCH 6.0|Sub-Saharan Africa:
+        countries:
+          - Djibouti
+          - British Indian Ocean Territory
+          - Bouvet Island
+          - French Southern Territories
+          - Angola
+          - Benin
+          - Botswana
+          - Burkina Faso
+          - Burundi
+          - Cameroon
+          - Cabo Verde
+          - Central African Republic
+          - Chad
+          - Comoros
+          - Congo
+          - Democratic Republic of the Congo
+          - Côte d'Ivoire
+          - Equatorial Guinea
+          - Eritrea
+          - Ethiopia
+          - Gabon
+          - Gambia
+          - Ghana
+          - Guinea
+          - Guinea-Bissau
+          - Kenya
+          - Lesotho
+          - Liberia
+          - Madagascar
+          - Malawi
+          - Mali
+          - Mauritania
+          - Mauritius
+          - Mayotte
+          - Mozambique
+          - Namibia
+          - Niger
+          - Nigeria
+          - Réunion
+          - Rwanda
+          - Sao Tome and Principe
+          - Senegal
+          - Seychelles
+          - Saint Helena, Ascension and Tristan da Cunha
+          - Sierra Leone
+          - Somalia
+          - South Sudan
+          - Sudan
+          - Eswatini
+          - Tanzania
+          - Togo
+          - Uganda
+          - Zambia
+          - Zimbabwe
+    - WITCH 6.0|Non-EU Eastern European and Transition Countries:
+        countries:
+          - Mongolia
+          - Armenia
+          - Azerbaijan
+          - Belarus
+          - Georgia
+          - Kazakhstan
+          - Kyrgyzstan
+          - Moldova
+          - Russian Federation
+          - Tajikistan
+          - Turkey
+          - Turkmenistan
+          - Ukraine
+          - Uzbekistan
+    - WITCH 6.0|United States:
+        countries: United States

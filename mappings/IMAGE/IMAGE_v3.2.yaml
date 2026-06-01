@@ -1,33 +1,33 @@
 model:
-  - IMAGE 3.4
+  - IMAGE 3.2
 
 native_regions:
-  - BRA: IMAGE 3.4|Brazil
-  - CAN: IMAGE 3.4|Canada
-  - CEU: IMAGE 3.4|Central Europe
-  - CHN: IMAGE 3.4|China Region
-  - EAF: IMAGE 3.4|Eastern Africa
-  - INDIA: IMAGE 3.4|India
-  - INDO: IMAGE 3.4|Indonesia Region
-  - JAP: IMAGE 3.4|Japan
-  - KOR: IMAGE 3.4|Korea Region
-  - ME: IMAGE 3.4|Middle East
-  - MEX: IMAGE 3.4|Mexico
-  - NAF: IMAGE 3.4|Northern Africa
-  - OCE: IMAGE 3.4|Oceania
-  - RCAM: IMAGE 3.4|Central America
-  - RSAF: IMAGE 3.4|Rest of Southern Africa
-  - RSAM: IMAGE 3.4|Rest of South America
-  - RSAS: IMAGE 3.4|Rest of South Asia
-  - RUS: IMAGE 3.4|Russia Region
-  - SAF: IMAGE 3.4|South Africa
-  - SEAS: IMAGE 3.4|Southeastern Asia
-  - STAN: IMAGE 3.4|Central Asia
-  - TUR: IMAGE 3.4|Turkey
-  - UKR: IMAGE 3.4|Ukraine Region
-  - USA: IMAGE 3.4|United States
-  - WAF: IMAGE 3.4|Western Africa
-  - WEU: IMAGE 3.4|Western Europe
+  - BRA: IMAGE 3.2|Brazil
+  - CAN: IMAGE 3.2|Canada
+  - CEU: IMAGE 3.2|Central Europe
+  - CHN: IMAGE 3.2|China Region
+  - EAF: IMAGE 3.2|Eastern Africa
+  - INDIA: IMAGE 3.2|India
+  - INDO: IMAGE 3.2|Indonesia Region
+  - JAP: IMAGE 3.2|Japan
+  - KOR: IMAGE 3.2|Korea Region
+  - ME: IMAGE 3.2|Middle East
+  - MEX: IMAGE 3.2|Mexico
+  - NAF: IMAGE 3.2|Northern Africa
+  - OCE: IMAGE 3.2|Oceania
+  - RCAM: IMAGE 3.2|Central America
+  - RSAF: IMAGE 3.2|Rest of Southern Africa
+  - RSAM: IMAGE 3.2|Rest of South America
+  - RSAS: IMAGE 3.2|Rest of South Asia
+  - RUS: IMAGE 3.2|Russia Region
+  - SAF: IMAGE 3.2|South Africa
+  - SEAS: IMAGE 3.2|Southeastern Asia
+  - STAN: IMAGE 3.2|Central Asia
+  - TUR: IMAGE 3.2|Turkey
+  - UKR: IMAGE 3.2|Ukraine Region
+  - USA: IMAGE 3.2|United States
+  - WAF: IMAGE 3.2|Western Africa
+  - WEU: IMAGE 3.2|Western Europe
 
 common_regions:
   - World:

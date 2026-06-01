@@ -1,0 +1,189 @@
+model:
+  - IMAGE 3.4
+
+native_regions:
+  - BRA: IMAGE 3.4|Brazil
+  - CAN: IMAGE 3.4|Canada
+  - CEU: IMAGE 3.4|Central Europe
+  - CHN: IMAGE 3.4|China Region
+  - EAF: IMAGE 3.4|Eastern Africa
+  - INDIA: IMAGE 3.4|India
+  - INDO: IMAGE 3.4|Indonesia Region
+  - JAP: IMAGE 3.4|Japan
+  - KOR: IMAGE 3.4|Korea Region
+  - ME: IMAGE 3.4|Middle East
+  - MEX: IMAGE 3.4|Mexico
+  - NAF: IMAGE 3.4|Northern Africa
+  - OCE: IMAGE 3.4|Oceania
+  - RCAM: IMAGE 3.4|Central America
+  - RSAF: IMAGE 3.4|Rest of Southern Africa
+  - RSAM: IMAGE 3.4|Rest of South America
+  - RSAS: IMAGE 3.4|Rest of South Asia
+  - RUS: IMAGE 3.4|Russia Region
+  - SAF: IMAGE 3.4|South Africa
+  - SEAS: IMAGE 3.4|Southeastern Asia
+  - STAN: IMAGE 3.4|Central Asia
+  - TUR: IMAGE 3.4|Turkey
+  - UKR: IMAGE 3.4|Ukraine Region
+  - USA: IMAGE 3.4|United States
+  - WAF: IMAGE 3.4|Western Africa
+  - WEU: IMAGE 3.4|Western Europe
+
+common_regions:
+  - World:
+      - WEU
+      - CEU
+      - BRA
+      - CAN
+      - CHN
+      - EAF
+      - INDIA
+      - INDO
+      - JAP
+      - KOR
+      - ME
+      - MEX
+      - NAF
+      - OCE
+      - RCAM
+      - RSAF
+      - RSAM
+      - RSAS
+      - RUS
+      - SAF
+      - SEAS
+      - STAN
+      - TUR
+      - UKR
+      - USA
+      - WAF
+
+  # R5 regions
+  - OECD & EU (R5):
+      - CAN
+      - CEU
+      - JAP
+      - OCE
+      - TUR
+      - USA
+      - WEU
+  - Reforming Economies (R5):
+      - RUS
+      - STAN
+      - UKR
+  - Asia (R5):
+      - CHN
+      - INDIA
+      - INDO
+      - KOR
+      - RSAS
+      - SEAS
+  - Middle East & Africa (R5):
+      - EAF
+      - ME
+      - NAF
+      - RSAF
+      - SAF
+      - WAF
+  - Latin America (R5):
+      - BRA
+      - MEX
+      - RCAM
+      - RSAM
+
+  # R9 regions
+  - European Union (R9):
+      - CEU
+      - WEU
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - CAN
+      - JAP
+      - OCE
+      - TUR
+  - China (R9):
+      - CHN
+  - India (R9):
+      - INDIA
+  - Other Asia (R9):
+      - INDO
+      - KOR
+      - RSAS
+      - SEAS
+  - Reforming Economies (R9):
+      - RUS
+      - STAN
+      - UKR
+  - Latin America (R9):
+      - BRA
+      - MEX
+      - RCAM
+      - RSAM
+  - Middle East & Africa (R9):
+      - EAF
+      - ME
+      - NAF
+      - RSAF
+      - SAF
+      - WAF
+
+  # R10 regions
+  - Africa (R10):
+      - EAF
+      - NAF
+      - RSAF
+      - SAF
+      - WAF
+  - China+ (R10):
+      - CHN
+      - KOR
+  - Europe (R10):
+      - CEU
+      - TUR
+      - WEU
+  - India+ (R10):
+      - INDIA
+      - RSAS
+  - Latin America (R10):
+      - MEX
+      - RCAM
+      - RSAM
+      - BRA
+  - Middle East (R10):
+      - ME
+  - North America (R10):
+      - CAN
+      - USA
+  - Pacific OECD (R10):
+      - JAP
+      - OCE
+  - Reforming Economies (R10):
+      - RUS
+      - STAN
+      - UKR
+  - Rest of Asia (R10):
+      - INDO
+      - SEAS
+
+  # mapping for G20 members
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHN
+  - India:
+      - INDIA
+  - Japan:
+      - JAP
+  - South Korea:
+      - KOR
+  - United States:
+      - USA
+  - African Union:
+      - EAF
+      - NAF
+      - RSAF
+      - SAF
+      - WAF

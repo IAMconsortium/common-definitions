@@ -1,0 +1,109 @@
+model: AIM/CGE V2.2
+native_regions:
+  - BRA: AIM/CGE V2.2|Brazil
+  - CAN: AIM/CGE V2.2|Canada
+  - CHN: AIM/CGE V2.2|China
+  - CIS: AIM/CGE V2.2|Former USSR
+  - IND: AIM/CGE V2.2|India
+  - JPN: AIM/CGE V2.2|Japan
+  - TUR: AIM/CGE V2.2|Turkey
+  - USA: AIM/CGE V2.2|USA
+  - XAF: AIM/CGE V2.2|Other Africa
+  - XE25: AIM/CGE V2.2|EU
+  - XER: AIM/CGE V2.2|Rest of Europe
+  - XLM: AIM/CGE V2.2|Rest of Brazil
+  - XME: AIM/CGE V2.2|Middle East
+  - XNF: AIM/CGE V2.2|North Africa
+  - XOC: AIM/CGE V2.2|New Zealand and Australia
+  - XSA: AIM/CGE V2.2|Rest of Asia
+  - XSE: AIM/CGE V2.2|Rest of East and South East Asia
+common_regions:
+  - World:
+      - USA
+      - XE25
+      - XER
+      - TUR
+      - XOC
+      - CHN
+      - IND
+      - JPN
+      - XSE
+      - XSA
+      - CAN
+      - BRA
+      - XLM
+      - CIS
+      - XME
+      - XNF
+      - XAF
+
+  # R5 regions
+  - Asia (R5):
+      - CHN
+      - IND
+      - XSE
+      - XSA
+  - Latin America (R5):
+      - BRA
+      - XLM
+  - Middle East & Africa (R5):
+      - XME
+      - XNF
+      - XAF
+  - OECD & EU (R5):
+      - USA
+      - XE25
+      - TUR
+      - XOC
+      - JPN
+      - CAN
+      - XER
+  - Reforming Economies (R5):
+      - CIS
+
+  # R10 regions
+  - Africa (R10):
+      - XNF
+      - XAF
+  - China+ (R10):
+      - CHN
+  - Europe (R10):
+      - XE25
+      - TUR
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - BRA
+      - XLM
+  - Middle East (R10):
+      - XME
+  - North America (R10):
+      - USA
+      - CAN
+  - Reforming Economies (R10):
+      - CIS
+      - XER
+  - Rest of Asia (R10):
+      - XSE
+      - XSA
+  - Pacific OECD (R10):
+      - JPN
+      - XOC
+
+  # G20 members
+  - Brazil:
+      - BRA
+  - China:
+      - CHN
+  - European Union and United Kingdom:
+      - XE25
+      - TUR
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - Russian Federation:
+      - CIS
+  - United States:
+      - USA
+
