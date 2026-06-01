@@ -22,7 +22,7 @@ native regions:
   - BIH: IFs 8.54|Bosnia and Herzegovina
   - BLR: IFs 8.54|Belarus
   - BLZ: IFs 8.54|Belize
-  - BOL: IFs 8.54|Bolivia (Plurinational State of)
+  - BOL: IFs 8.54|Bolivia
   - BRA: IFs 8.54|Brazil
   - BRB: IFs 8.54|Barbados
   - BRN: IFs 8.54|Brunei Darussalam
@@ -58,9 +58,9 @@ native regions:
   - FIN: IFs 8.54|Finland
   - FJI: IFs 8.54|Fiji
   - FRA: IFs 8.54|France
-  - FSM: IFs 8.54|Micronesia (Federated States of)
+  - FSM: IFs 8.54|Micronesia
   - GAB: IFs 8.54|Gabon
-  - GBR: IFs 8.54|United Kingdom of Great Britain and Northern Ireland 
+  - GBR: IFs 8.54|United Kingdom
   - GEO: IFs 8.54|Georgia
   - GHA: IFs 8.54|Ghana
   - GIN: IFs 8.54|Guinea
@@ -79,7 +79,7 @@ native regions:
   - IDN: IFs 8.54|Indonesia
   - IND: IFs 8.54|India
   - IRL: IFs 8.54|Ireland
-  - IRN: IFs 8.54|Iran (Islamic Republic of)
+  - IRN: IFs 8.54|Iran
   - IRQ: IFs 8.54|Iraq
   - ISL: IFs 8.54|Iceland
   - ISR: IFs 8.54|Israel
@@ -92,10 +92,10 @@ native regions:
   - KGZ: IFs 8.54|Kyrgyzstan
   - KHM: IFs 8.54|Cambodia
   - KIR: IFs 8.54|Kiribati
-  - KOR: IFs 8.54|Korea (the Republic of)
+  - KOR: IFs 8.54|South Korea
   - KSV: IFs 8.54|Kosovo
   - KWT: IFs 8.54|Kuwait
-  - LAO: IFs 8.54|Lao People's Democratic Republic 
+  - LAO: IFs 8.54|Laos 
   - LBN: IFs 8.54|Lebanon
   - LBR: IFs 8.54|Liberia
   - LBY: IFs 8.54|Libya
@@ -106,11 +106,11 @@ native regions:
   - LUX: IFs 8.54|Luxembourg
   - LVA: IFs 8.54|Latvia
   - MAR: IFs 8.54|Morocco
-  - MDA: IFs 8.54|Moldova (the Republic of)
+  - MDA: IFs 8.54|Moldova
   - MDG: IFs 8.54|Madagascar
   - MDV: IFs 8.54|Maldives
   - MEX: IFs 8.54|Mexico
-  - MKD: IFs 8.54|Republic of North Macedonia
+  - MKD: IFs 8.54|North Macedonia
   - MLI: IFs 8.54|Mali
   - MLT: IFs 8.54|Malta
   - MMR: IFs 8.54|Myanmar
@@ -136,12 +136,12 @@ native regions:
   - PNG: IFs 8.54|Papua New Guinea
   - POL: IFs 8.54|Poland
   - PRI: IFs 8.54|Puerto Rico
-  - PRK: IFs 8.54|Korea (the Democratic People's Republic of)
+  - PRK: IFs 8.54|North Korea
   - PRT: IFs 8.54|Portugal
   - PRY: IFs 8.54|Paraguay
   - QAT: IFs 8.54|Qatar
   - ROM: IFs 8.54|Romania
-  - RUS: IFs 8.54|Russian Federation 
+  - RUS: IFs 8.54|Russia
   - RWA: IFs 8.54|Rwanda
   - SAU: IFs 8.54|Saudi Arabia
   - SDN: IFs 8.54|Sudan 
@@ -159,7 +159,7 @@ native regions:
   - SWE: IFs 8.54|Sweden
   - SWZ: IFs 8.54|Eswatini
   - SYC: IFs 8.54|Seychelles
-  - SYR: IFs 8.54|Syrian arab Republic
+  - SYR: IFs 8.54|Syria
   - TCD: IFs 8.54|Chad
   - TGO: IFs 8.54|Togo
   - THA: IFs 8.54|Thailand
@@ -170,15 +170,15 @@ native regions:
   - TTO: IFs 8.54|Trinidad and Tobago
   - TUN: IFs 8.54|Tunisia
   - TUR: IFs 8.54|Turkiye
-  - TWN: IFs 8.54|Taiwan (Province of China)
-  - TZA: IFs 8.54|Tanzania, United Republic of
+  - TWN: IFs 8.54|Taiwan
+  - TZA: IFs 8.54|Tanzania
   - UGA: IFs 8.54|Uganda
   - UKR: IFs 8.54|Ukraine
   - URY: IFs 8.54|Uruguay
   - USA: IFs 8.54|United States of America 
   - UZB: IFs 8.54|Uzbekistan
   - VCT: IFs 8.54|Saint Vincent and the Grenadines
-  - VEN: IFs 8.54|Venezuela (Bolivarian Republic of)
+  - VEN: IFs 8.54|Venezuela
   - VNM: IFs 8.54|Viet Nam
   - VUT: IFs 8.54|Vanuatu
   - WBG: IFs 8.54|West Bank and Gaza

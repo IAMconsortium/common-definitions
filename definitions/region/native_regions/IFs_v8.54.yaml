@@ -43,8 +43,8 @@
       countries: Belarus
   - IFs 8.54|Belize:
       countries: Belize
-  - IFs 8.54|Bolivia (Plurinational State of):
-      countries: Bolivia (Plurinational State of)
+  - IFs 8.54|Bolivia:
+      countries: Bolivia
   - IFs 8.54|Brazil:
       countries: Brazil
   - IFs 8.54|Barbados:
@@ -115,12 +115,12 @@
       countries: Fiji
   - IFs 8.54|France:
       countries: France
-  - IFs 8.54|Micronesia (Federated States of):
-      countries: Micronesia (Federated States of)
+  - IFs 8.54|Micronesia:
+      countries: Micronesia
   - IFs 8.54|Gabon:
       countries: Gabon
-  - IFs 8.54|United Kingdom of Great Britain and Northern:
-      countries: United Kingdom of Great Britain and Northern
+  - IFs 8.54|United Kingdom:
+      countries: United Kingdom
   - IFs 8.54|Georgia:
       countries: Georgia
   - IFs 8.54|Ghana:
@@ -157,8 +157,8 @@
       countries: India
   - IFs 8.54|Ireland:
       countries: Ireland
-  - IFs 8.54|Iran (Islamic Republic of):
-      countries: Iran (Islamic Republic of)
+  - IFs 8.54|Iran:
+      countries: Iran
   - IFs 8.54|Iraq:
       countries: Iraq
   - IFs 8.54|Iceland:
@@ -183,14 +183,14 @@
       countries: Cambodia
   - IFs 8.54|Kiribati:
       countries: Kiribati
-  - IFs 8.54|Korea (the Republic of):
-      countries: Korea (the Republic of)
+  - IFs 8.54|South Korea:
+      countries: South Korea
   - IFs 8.54|Kosovo:
       countries: Kosovo
   - IFs 8.54|Kuwait:
       countries: Kuwait
-  - IFs 8.54|Lao People's Democratic Republic:
-      countries: Lao People's Democratic Republic 
+  - IFs 8.54|Laos:
+      countries: Laos
   - IFs 8.54|Lebanon:
       countries: Lebanon
   - IFs 8.54|Liberia:
@@ -211,16 +211,16 @@
       countries: Latvia
   - IFs 8.54|Morocco:
       countries: Morocco
-  - IFs 8.54|Moldova (the Republic of):
-      countries: Moldova (the Republic of)
+  - IFs 8.54|Moldova:
+      countries: Moldova
   - IFs 8.54|Madagascar:
       countries: Madagascar
   - IFs 8.54|Maldives:
       countries: Maldives
   - IFs 8.54|Mexico:
       countries: Mexico
-  - IFs 8.54|Republic of North Macedonia:
-      countries: Republic of North Macedonia
+  - IFs 8.54|North Macedonia:
+      countries: North Macedonia
   - IFs 8.54|Mali:
       countries: Mali
   - IFs 8.54|Malta:
@@ -271,8 +271,8 @@
       countries: Poland
   - IFs 8.54|Puerto Rico:
       countries: Puerto Rico
-  - IFs 8.54|Korea (the Democratic People's Republic of):
-      countries: Korea (the Democratic People's Republic of)
+  - IFs 8.54|North Korea:
+      countries: North Korea
   - IFs 8.54|Portugal:
       countries: Portugal
   - IFs 8.54|Paraguay:
@@ -281,8 +281,8 @@
       countries: Qatar
   - IFs 8.54|Romania:
       countries: Romania
-  - IFs 8.54|Russian Federation:
-      countries: Russian Federation 
+  - IFs 8.54|Russia:
+      countries: Russia 
   - IFs 8.54|Rwanda:
       countries: Rwanda
   - IFs 8.54|Saudi Arabia:
@@ -317,8 +317,8 @@
       countries: Eswatini
   - IFs 8.54|Seychelles:
       countries: Seychelles
-  - IFs 8.54|Syrian arab Republic:
-      countries: Syrian arab Republic
+  - IFs 8.54|Syria:
+      countries: Syria
   - IFs 8.54|Chad:
       countries: Chad
   - IFs 8.54|Togo:
@@ -340,9 +340,9 @@
   - IFs 8.54|Turkiye:
       countries: Turkiye
   - IFs 8.54|Taiwan (Province of China):
-      countries: Taiwan (Province of China)
-  - IFs 8.54|Tanzania, United Republic of:
-      countries: Tanzania, United Republic of
+      countries: Taiwan
+  - IFs 8.54|Tanzania:
+      countries: Tanzania
   - IFs 8.54|Uganda:
       countries: Uganda
   - IFs 8.54|Ukraine:
@@ -355,8 +355,8 @@
       countries: Uzbekistan
   - IFs 8.54|Saint Vincent and the Grenadines:
       countries: Saint Vincent and the Grenadines
-  - IFs 8.54|Venezuela (Bolivarian Republic of):
-      countries: Venezuela (Bolivarian Republic of)
+  - IFs 8.54|Venezuela:
+      countries: Venezuela
   - IFs 8.54|Viet Nam:
       countries: Viet Nam
   - IFs 8.54|Vanuatu:
