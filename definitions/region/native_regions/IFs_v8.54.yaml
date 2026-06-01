@@ -4,18 +4,18 @@
   - IFs 8.54|Afghanistan:
       countries:
       - Afghanistan
-  - IFs 8.54|Afghanistan:
+  - IFs 8.54|Belgium:
       countries:
-      - Afghanistan
+      - Belgium
   - IFs 8.54|Angola:
       countries:
       - Angola
   - IFs 8.54|Albania:
       countries:
       - Albania
-  - IFs 8.54|United Arab Emirates (the):
+  - IFs 8.54|United Arab Emirates:
       countries:
-      - United Arab Emirates (the)
+      - United Arab Emirates
   - IFs 8.54|Argentina:
       countries:
       - Argenitia
@@ -52,9 +52,9 @@
   - IFs 8.54|Bahrain:
       countries:
       - Bahrain
-  - IFs 8.54|Bahamas (the):
+  - IFs 8.54|Bahamas:
       countries:
-      - Bahamas (the)
+      - Bahamas 
   - IFs 8.54|Bosnia and Herzegovina:
       countries:
       - Bosnia and Herzegovina
@@ -82,9 +82,9 @@
   - IFs 8.54|Botswana:
       countries:
       - Botswana
-  - IFs 8.54|Central African Republic (the):
+  - IFs 8.54|Central African Republic:
       countries:
-      - Central African Republic (the)
+      - Central African Republic 
   - IFs 8.54|Canada:
       countries:
       - Canada
@@ -103,9 +103,9 @@
   - IFs 8.54|Cameroon:
       countries:
       - Cameroon
-  - IFs 8.54|Congo (the Democratic Republic of):
+  - IFs 8.54|Democratic Republic of the Congo
       countries:
-      - Congo (the Democratic Republic of)
+      - Democratic Republic of the Congo
   - IFs 8.54|Colombia:
       countries:
       - Colombia
@@ -136,9 +136,9 @@
   - IFs 8.54|Denmark:
       countries:
       - Denmark
-  - IFs 8.54|Dominican Republic (the):
+  - IFs 8.54|Dominican Republic:
       countries:
-      - Dominican Republic (the)
+      - Dominican Republic 
   - IFs 8.54|Algeria:
       countries:
       - Algeria
@@ -190,9 +190,9 @@
   - IFs 8.54|Guinea:
       countries:
       - Guinea
-  - IFs 8.54|Gambia (the):
+  - IFs 8.54|Gambia:
       countries:
-      - Gambia (the)
+      - Gambia 
   - IFs 8.54|Guinea-Bissau:
       countries:
       - Guinea-Bissau
@@ -283,9 +283,9 @@
   - IFs 8.54|Kuwait:
       countries:
       - Kuwait
-  - IFs 8.54|Lao People's Democratic Republic (the):
+  - IFs 8.54|Lao People's Democratic Republic:
       countries:
-      - Lao People's Democratic Republic (the)
+      - Lao People's Democratic Republic 
   - IFs 8.54|Lebanon:
       countries:
       - Lebanon
@@ -361,18 +361,18 @@
   - IFs 8.54|Namibia:
       countries:
       - Namibia
-  - IFs 8.54|Niger (the):
+  - IFs 8.54|Niger:
       countries:
-      - Niger (the)
+      - Niger 
   - IFs 8.54|Nigeria:
       countries:
       - Nigeria
   - IFs 8.54|Nicaragua:
       countries:
       - Nicaragua
-  - IFs 8.54|Netherlands (the):
+  - IFs 8.54|Netherlands:
       countries:
-      - Netherlands (the)
+      - Netherlands 
   - IFs 8.54|Norway:
       countries:
       - Norway
@@ -394,9 +394,9 @@
   - IFs 8.54|Peru:
       countries:
       - Peru
-  - IFs 8.54|Philippines (the):
+  - IFs 8.54|Philippines:
       countries:
-      - Philippines (the)
+      - Philippines 
   - IFs 8.54|Papua New Guinea:
       countries:
       - Papua New Guinea
@@ -421,18 +421,18 @@
   - IFs 8.54|Romania:
       countries:
       - Romania
-  - IFs 8.54|Russian Federation (the):
+  - IFs 8.54|Russian Federation:
       countries:
-      - Russian Federation (the)
+      - Russian Federation 
   - IFs 8.54|Rwanda:
       countries:
       - Rwanda
   - IFs 8.54|Saudi Arabia:
       countries:
       - Saudi Arabia
-  - IFs 8.54|Sudan (the):
+  - IFs 8.54|Sudan:
       countries:
-      - Sudan (the)
+      - Sudan 
   - IFs 8.54|Senegal:
       countries:
       - Senegal
@@ -523,9 +523,9 @@
   - IFs 8.54|Uruguay:
       countries:
       - Uruguay
-  - IFs 8.54|United States of America (the):
+  - IFs 8.54|United States of America:
       countries:
-      - United States of America (the)
+      - United States of America 
   - IFs 8.54|Uzbekistan:
       countries:
       - Uzbekistan

@@ -5,7 +5,7 @@ native regions:
   - AFG: IFs 8.54|Afghanistan
   - AGO: IFs 8.54|Angola
   - ALB: IFs 8.54|Albania
-  - ARE: IFs 8.54|United Arab Emirates (the)
+  - ARE: IFs 8.54|United Arab Emirates
   - ARG: IFs 8.54|Argentina
   - ARM: IFs 8.54|Armenia
   - AUS: IFs 8.54|Australia
@@ -18,7 +18,7 @@ native regions:
   - BGD: IFs 8.54|Bangladesh
   - BGR: IFs 8.54|Bulgaria
   - BHR: IFs 8.54|Bahrain
-  - BHS: IFs 8.54|Bahamas (the)
+  - BHS: IFs 8.54|Bahamas 
   - BIH: IFs 8.54|Bosnia and Herzegovina
   - BLR: IFs 8.54|Belarus
   - BLZ: IFs 8.54|Belize
@@ -28,14 +28,14 @@ native regions:
   - BRN: IFs 8.54|Brunei Darussalam
   - BTN: IFs 8.54|Bhutan
   - BWA: IFs 8.54|Botswana
-  - CAF: IFs 8.54|Central African Republic (the)
+  - CAF: IFs 8.54|Central African Republic 
   - CAN: IFs 8.54|Canada
   - CHE: IFs 8.54|Switzerland
   - CHL: IFs 8.54|Chile
   - CHN: IFs 8.54|China
   - CIV: IFs 8.54|Cote d'Ivoire
   - CMR: IFs 8.54|Cameroon
-  - COG: IFs 8.54|Congo (the Democratic Republic of)
+  - COG: IFs 8.54|Democratic Republic of the Congo
   - COL: IFs 8.54|Colombia
   - COM: IFs 8.54|Comoros
   - CPV: IFs 8.54|Cabo Verde
@@ -46,7 +46,7 @@ native regions:
   - DEU: IFs 8.54|Germany
   - DJI: IFs 8.54|Djibouti
   - DNK: IFs 8.54|Denmark
-  - DOM: IFs 8.54|Dominican Republic (the)
+  - DOM: IFs 8.54|Dominican Republic 
   - DZA: IFs 8.54|Algeria
   - ECU: IFs 8.54|Ecuador
   - EGY: IFs 8.54|Egypt
@@ -60,11 +60,11 @@ native regions:
   - FRA: IFs 8.54|France
   - FSM: IFs 8.54|Micronesia (Federated States of)
   - GAB: IFs 8.54|Gabon
-  - GBR: IFs 8.54|United Kingdom of Great Britain and Northern Ireland (the)
+  - GBR: IFs 8.54|United Kingdom of Great Britain and Northern Ireland 
   - GEO: IFs 8.54|Georgia
   - GHA: IFs 8.54|Ghana
   - GIN: IFs 8.54|Guinea
-  - GMB: IFs 8.54|Gambia (the)
+  - GMB: IFs 8.54|Gambia 
   - GNB: IFs 8.54|Guinea-Bissau
   - GNQ: IFs 8.54|Equatorial Guinea
   - GRC: IFs 8.54|Greece
@@ -95,7 +95,7 @@ native regions:
   - KOR: IFs 8.54|Korea (the Republic of)
   - KSV: IFs 8.54|Kosovo
   - KWT: IFs 8.54|Kuwait
-  - LAO: IFs 8.54|Lao People's Democratic Republic (the)
+  - LAO: IFs 8.54|Lao People's Democratic Republic 
   - LBN: IFs 8.54|Lebanon
   - LBR: IFs 8.54|Liberia
   - LBY: IFs 8.54|Libya
@@ -121,10 +121,10 @@ native regions:
   - MWI: IFs 8.54|Malawi
   - MYS: IFs 8.54|Malaysia
   - NAM: IFs 8.54|Namibia
-  - NER: IFs 8.54|Niger (the)
+  - NER: IFs 8.54|Niger 
   - NGA: IFs 8.54|Nigeria
   - NIC: IFs 8.54|Nicaragua
-  - NLD: IFs 8.54|Netherlands (the)
+  - NLD: IFs 8.54|Netherlands 
   - NOR: IFs 8.54|Norway
   - NPL: IFs 8.54|Nepal
   - NZL: IFs 8.54|New Zealand
@@ -132,7 +132,7 @@ native regions:
   - PAK: IFs 8.54|Pakistan
   - PAN: IFs 8.54|Panama
   - PER: IFs 8.54|Peru
-  - PHL: IFs 8.54|Philippines (the)
+  - PHL: IFs 8.54|Philippines 
   - PNG: IFs 8.54|Papua New Guinea
   - POL: IFs 8.54|Poland
   - PRI: IFs 8.54|Puerto Rico
@@ -141,10 +141,10 @@ native regions:
   - PRY: IFs 8.54|Paraguay
   - QAT: IFs 8.54|Qatar
   - ROM: IFs 8.54|Romania
-  - RUS: IFs 8.54|Russian Federation (the)
+  - RUS: IFs 8.54|Russian Federation 
   - RWA: IFs 8.54|Rwanda
   - SAU: IFs 8.54|Saudi Arabia
-  - SDN: IFs 8.54|Sudan (the)
+  - SDN: IFs 8.54|Sudan 
   - SEN: IFs 8.54|Senegal
   - SGP: IFs 8.54|Singapore
   - SLB: IFs 8.54|Solomon Islands
@@ -175,7 +175,7 @@ native regions:
   - UGA: IFs 8.54|Uganda
   - UKR: IFs 8.54|Ukraine
   - URY: IFs 8.54|Uruguay
-  - USA: IFs 8.54|United States of America (the)
+  - USA: IFs 8.54|United States of America 
   - UZB: IFs 8.54|Uzbekistan
   - VCT: IFs 8.54|Saint Vincent and the Grenadines
   - VEN: IFs 8.54|Venezuela (Bolivarian Republic of)
