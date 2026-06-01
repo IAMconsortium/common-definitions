@@ -1,7 +1,7 @@
 model:
   -IFs 8.54
 
-native regions:
+native_regions:
   - AFG: IFs 8.54|Afghanistan
   - AGO: IFs 8.54|Angola
   - ALB: IFs 8.54|Albania
