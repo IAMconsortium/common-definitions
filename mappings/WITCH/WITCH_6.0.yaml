@@ -119,3 +119,20 @@ common_regions:
       - indonesia
       - seasia
 
+  # G20 Members:
+  - Brazil:
+      - brazil
+  - Canada:
+      - canada
+  - China:
+      - china
+  - India:
+      - india
+  - Indonesia:
+      - indonesia
+  - Mexico:
+      - mexico
+  - South Africa:
+      - southafrica
+  - United States:
+      - usa

@@ -1,0 +1,77 @@
+model: PROMETHEUS V1
+
+native_regions:
+  - CHN: PROMETHEUS V1|China
+  - CIS: PROMETHEUS V1|Russia and Reforming Economies
+  - EMRG: PROMETHEUS V1|Emerging Economies
+  - EPROD: PROMETHEUS V1|Middle East and North Africa
+  - EU28: PROMETHEUS V1|European Union
+  - IND: PROMETHEUS V1|India
+  - NOAM: PROMETHEUS V1|North America
+  - RESTW: PROMETHEUS V1|Rest of the World
+  - WPAC: PROMETHEUS V1|Western Pacific
+  - World
+
+common_regions:
+  # R5 regions
+  - Asia (R5):
+      - CHN
+      - IND
+  - Latin America (R5):
+      - EMRG
+  - Middle East & Africa (R5):
+      - EPROD
+  - OECD & EU (R5):
+      - EU28
+      - WPAC
+      - NOAM
+  - Reforming Economies (R5):
+      - CIS
+  - Other (R5):
+      - RESTW
+
+  # R9 regions
+  - European Union (R9):
+      - EU28
+  - USA (R9):
+      - NOAM
+  - Other OECD (R9):
+      - WPAC
+  - China (R9):
+      - CHN
+  - India (R9):
+      - IND
+  - Reforming Economies (R9):
+      - CIS
+  - Latin America (R9):
+      - EMRG
+  - Middle East & Africa (R9):
+      - EPROD
+  - Other (R9):
+      - RESTW
+
+  # R10 regions
+  - China+ (R10):
+      - CHN
+  - Europe (R10):
+      - EU28
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - EMRG
+  - Middle East (R10):
+      - EPROD
+  - North America (R10):
+      - NOAM
+  - Pacific OECD (R10):
+      - WPAC
+  - Reforming Economies (R10):
+      - CIS
+
+  # G20 members
+  - China:
+      - CHN
+  - European Union and United Kingdom:
+      - EU28
+  - India:
+      - IND

@@ -27,6 +27,7 @@
     tier: 1
     lower_bound: 0
     notes: Values should be reported as positive numbers.
+    ngfs5: Carbon Sequestration|Land Use
 - Carbon Removal|Land Use|{Land Removal Option}:
     description: Gross removals of carbon dioxide (CO2) through {Land Removal Option}
     unit: Mt CO2/yr

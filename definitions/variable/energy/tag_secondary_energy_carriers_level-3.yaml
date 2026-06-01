@@ -62,8 +62,7 @@
         description: solid energy carriers, including coal, briquettes, coke,
           and wood pellets
     - Solids|Biomass:
-        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets),
-          not including traditional bioenergy
+        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets)
         tier: ^1
     - Solids|Coal:
         description: coal, lignite, and derived products (e.g., coke, briquettes)

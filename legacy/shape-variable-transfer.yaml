@@ -1,0 +1,10 @@
+dimension: variable
+rename:
+# the variable 'Production|Steel' is a duplicate of the variable below and not consistently reported
+ - Production|Iron and Steel|Volume: Production|Iron and Steel|Steel
+ - Emissions|CO2|Energy|Demand|Industry|Steel: Emissions|CO2|Energy|Demand|Industry|Iron and Steel
+ - Emissions|CO2|Industrial Processes|Non-Metallic Minerals|Cement: Emissions|CO2|Industrial Processes|Cement
+ - Final Energy|Industry|Solids|Fossil: Final Energy|Industry|Solids|Coal
+ - Final Energy|Other Sector|Solids|Fossil: Final Energy|Other Sector|Solids|Coal
+ - Final Energy|Solids|Fossil: Final Energy|Solids|Coal
+ - Agricultural Production|Energy|Crops: Agricultural Production|Crops|Energy Crops

@@ -1,0 +1,13 @@
+dimension: variable
+rename:
+ - Carbon Removal|Land Use|Afforestation: Carbon Removal|Land Use|Re/Afforestation
+ - Secondary Energy|Gases|Natural Gas: Secondary Energy|Gases|Gas
+ - Carbon Sequestration|Land Use|Afforestation: Carbon Removal|Land Use|Re/Afforestation
+ - Carbon Sequestration|CCS|Biomass|Energy|Supply: Carbon Capture|Energy|Supply|Biomass
+ - Carbon Sequestration|CCS|Fossil|Energy|Demand|Industry: Carbon Capture|Energy|Demand|Industry
+ - Carbon Sequestration|CCS|Fossil|Energy|Supply: Carbon Capture|Energy|Supply|Fossil
+ - Final Energy|Non-Energy Use|Coal: Final Energy|Non-Energy Use|Solids|Coal
+ - Final Energy|Non-Energy Use|Gas: Final Energy|Non-Energy Use|Gases|Fossil
+ - Final Energy|Non-Energy Use|Oil:  Final Energy|Non-Energy Use|Liquids|Oil
+ - Agricultural Production|Energy|Crops: Agricultural Production|Crops|Energy Crops
+ - Final Energy|Industry|Chemicals|Ammonia|Solids|Fossil: Final Energy|Industry|Chemicals|Ammonia|Solids|Coal

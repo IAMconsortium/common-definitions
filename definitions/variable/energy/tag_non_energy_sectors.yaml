@@ -7,7 +7,9 @@
     - Non-Ferrous Metals:
         description: non-ferrous metals sector
     - Non-Metallic Minerals:
-        description: non-metallic minerals sector excluding cement
+        description: non-metallic minerals sector including cement
+    - Non-Metallic Minerals|Cement:
+        description: cement production
     - Chemicals:
         description: chemical sector
     # keep consistent with the sub-categories of `Industry|Chemicals` in the `Sector` tag list

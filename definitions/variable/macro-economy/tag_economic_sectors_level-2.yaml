@@ -10,8 +10,7 @@
         description: the aggregated services sector (ISIC Rev.4 - Section G-X)
         navigate: Commercial
     - Industry|Mining:
-        description: mining and quarrying (ISIC Rev.4 - Section B,
-          equivalent to Div. 05-09)
+        description: mining and quarrying (ISIC Rev.4 - Section B, equivalent to Div. 05-09)
         tier: ^1
     - Industry|Manufacturing:
         description: manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33)
