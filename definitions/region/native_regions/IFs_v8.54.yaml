@@ -2,563 +2,376 @@
 
 - IFs 8.54:
   - IFs 8.54|Afghanistan:
-      countries:
-      - Afghanistan
+      countries: Afghanistan
   - IFs 8.54|Belgium:
-      countries:
-      - Belgium
+      countries: Belgium
   - IFs 8.54|Angola:
-      countries:
-      - Angola
+      countries: Angola
   - IFs 8.54|Albania:
-      countries:
-      - Albania
+      countries: Albania
   - IFs 8.54|United Arab Emirates:
-      countries:
-      - United Arab Emirates
+      countries: United Arab Emirates
   - IFs 8.54|Argentina:
-      countries:
-      - Argenitia
+      countries: Argenitia
   - IFs 8.54|Armenia:
-      countries:
-      - Armenia
+      countries: Armenia
   - IFs 8.54|Australia:
-      countries:
-      - Australia
+      countries: Australia
   - IFs 8.54|Austria:
-      countries:
-      - Austria
+      countries: Austria
   - IFs 8.54|Azerbaijan:
-      countries:
-      - Azerbaijan
+      countries: Azerbaijan
   - IFs 8.54|Burundi:
-      countries:
-      - Burundi
+      countries: Burundi
   - IFs 8.54|Belgium:
-      countries:
-      - Belgium
+      countries: Belgium
   - IFs 8.54|Benin:
-      countries:
-      - Benin
+      countries: Benin
   - IFs 8.54|Burkina Faso:
-      countries:
-      - Burkina Faso
+      countries: Burkina Faso
   - IFs 8.54|Bangladesh:
-      countries:
-      - Bangladesh
+      countries: Bangladesh
   - IFs 8.54|Bulgaria:
-      countries:
-      - Bulgaria
+      countries: Bulgaria
   - IFs 8.54|Bahrain:
-      countries:
-      - Bahrain
+      countries: Bahrain
   - IFs 8.54|Bahamas:
-      countries:
-      - Bahamas 
+      countries: Bahamas 
   - IFs 8.54|Bosnia and Herzegovina:
-      countries:
-      - Bosnia and Herzegovina
+      countries: Bosnia and Herzegovina
   - IFs 8.54|Belarus:
-      countries:
-      - Belarus
+      countries: Belarus
   - IFs 8.54|Belize:
-      countries:
-      - Belize
+      countries: Belize
   - IFs 8.54|Bolivia (Plurinational State of):
-      countries:
-      - Bolivia (Plurinational State of)
+      countries: Bolivia (Plurinational State of)
   - IFs 8.54|Brazil:
-      countries:
-      - Brazil
+      countries: Brazil
   - IFs 8.54|Barbados:
-      countries:
-      - Barbados
+      countries: Barbados
   - IFs 8.54|Brunei Darussalam:
-      countries:
-      - Brunei Darussalam
+      countries: Brunei Darussalam
   - IFs 8.54|Bhutan:
-      countries:
-      - Bhutan
+      countries: Bhutan
   - IFs 8.54|Botswana:
-      countries:
-      - Botswana
+      countries: Botswana
   - IFs 8.54|Central African Republic:
-      countries:
-      - Central African Republic 
+      countries: Central African Republic 
   - IFs 8.54|Canada:
-      countries:
-      - Canada
+      countries: Canada
   - IFs 8.54|Switzerland:
-      countries:
-      - Switzerland
+      countries: Switzerland
   - IFs 8.54|Chile:
-      countries:
-      - Chile
+      countries: Chile
   - IFs 8.54|China:
-      countries:
-      - China
+      countries: China
   - IFs 8.54|Cote d'Ivoire:
-      countries:
-      - Cote d'Ivoire
+      countries: Cote d'Ivoire
   - IFs 8.54|Cameroon:
-      countries:
-      - Cameroon
+      countries: Cameroon
   - IFs 8.54|Democratic Republic of the Congo:
-      countries:
-      - Democratic Republic of the Congo
+      countries: Democratic Republic of the Congo
   - IFs 8.54|Colombia:
-      countries:
-      - Colombia
+      countries: Colombia
   - IFs 8.54|Comoros:
-      countries:
-      - Comoros
+      countries: Comoros
   - IFs 8.54|Cabo Verde:
-      countries:
-      - Cabo Verde
+      countries: Cabo Verde
   - IFs 8.54|Costa Rica:
-      countries:
-      - Costa Rica
+      countries: Costa Rica
   - IFs 8.54|Cuba:
-      countries:
-      - Cuba
+      countries: Cuba
   - IFs 8.54|Cyprus:
-      countries:
-      - Cyprus
+      countries: Cyprus
   - IFs 8.54|Czechia:
-      countries:
-      - Czechia
+      countries: Czechia
   - IFs 8.54|Germany:
-      countries:
-      - Germany
+      countries: Germany
   - IFs 8.54|Djibouti:
-      countries:
-      - Djibouti
+      countries: Djibouti
   - IFs 8.54|Denmark:
-      countries:
-      - Denmark
+      countries: Denmark
   - IFs 8.54|Dominican Republic:
-      countries:
-      - Dominican Republic 
+      countries: Dominican Republic 
   - IFs 8.54|Algeria:
-      countries:
-      - Algeria
+      countries: Algeria
   - IFs 8.54|Ecuador:
-      countries:
-      - Ecuador
+      countries: Ecuador
   - IFs 8.54|Egypt:
-      countries:
-      - Egypt
+      countries: Egypt
   - IFs 8.54|Eritrea:
-      countries:
-      - Eritrea
+      countries: Eritrea
   - IFs 8.54|Western Sahara:
-      countries:
-      - Western Sahara
+      countries: Western Sahara
   - IFs 8.54|Spain:
-      countries:
-      - Spain
+      countries: Spain
   - IFs 8.54|Estonia:
-      countries:
-      - Estonia
+      countries: Estonia
   - IFs 8.54|Ethiopia:
-      countries:
-      - Ethiopia
+      countries: Ethiopia
   - IFs 8.54|Finland:
-      countries:
-      - Finland
+      countries: Finland
   - IFs 8.54|Fiji:
-      countries:
-      - Fiji
+      countries: Fiji
   - IFs 8.54|France:
-      countries:
-      - France
+      countries: France
   - IFs 8.54|Micronesia (Federated States of):
-      countries:
-      - Micronesia (Federated States of)
+      countries: Micronesia (Federated States of)
   - IFs 8.54|Gabon:
-      countries:
-      - Gabon
+      countries: Gabon
   - IFs 8.54|United Kingdom of Great Britain and Northern:
-      countries:
-      - United Kingdom of Great Britain and Northern
+      countries: United Kingdom of Great Britain and Northern
   - IFs 8.54|Georgia:
-      countries:
-      - Georgia
+      countries: Georgia
   - IFs 8.54|Ghana:
-      countries:
-      - Ghana
+      countries: Ghana
   - IFs 8.54|Guinea:
-      countries:
-      - Guinea
+      countries: Guinea
   - IFs 8.54|Gambia:
-      countries:
-      - Gambia 
+      countries: Gambia 
   - IFs 8.54|Guinea-Bissau:
-      countries:
-      - Guinea-Bissau
+      countries: Guinea-Bissau
   - IFs 8.54|Equatorial Guinea:
-      countries:
-      - Equatorial Guinea
+      countries: Equatorial Guinea
   - IFs 8.54|Greece:
-      countries:
-      - Greece
+      countries: Greece
   - IFs 8.54|Grenada:
-      countries:
-      - Grenada
+      countries: Grenada
   - IFs 8.54|Guatemala:
-      countries:
-      - Guatemala
+      countries: Guatemala
   - IFs 8.54|Guyana:
-      countries:
-      - Guyana
+      countries: Guyana
   - IFs 8.54|Hong Kong:
-      countries:
-      - Hong Kong
+      countries: Hong Kong
   - IFs 8.54|Honduras:
-      countries:
-      - Honduras
+      countries: Honduras
   - IFs 8.54|Croatia:
-      countries:
-      - Croatia
+      countries: Croatia
   - IFs 8.54|Haiti:
-      countries:
-      - Haiti
+      countries: Haiti
   - IFs 8.54|Hungary:
-      countries:
-      - Hungary
+      countries: Hungary
   - IFs 8.54|Indonesia:
-      countries:
-      - Indonesia
+      countries: Indonesia
   - IFs 8.54|India:
-      countries:
-      - India
+      countries: India
   - IFs 8.54|Ireland:
-      countries:
-      - Ireland
+      countries: Ireland
   - IFs 8.54|Iran (Islamic Republic of):
-      countries:
-      - Iran (Islamic Republic of)
+      countries: Iran (Islamic Republic of)
   - IFs 8.54|Iraq:
-      countries:
-      - Iraq
+      countries: Iraq
   - IFs 8.54|Iceland:
-      countries:
-      - Iceland
+      countries: Iceland
   - IFs 8.54|Israel:
-      countries:
-      - Israel
+      countries: Israel
   - IFs 8.54|Italy:
-      countries:
-      - Italy
+      countries: Italy
   - IFs 8.54|Jamaica:
-      countries:
-      - Jamaica
+      countries: Jamaica
   - IFs 8.54|Jordan:
-      countries:
-      - Jordan
+      countries: Jordan
   - IFs 8.54|Japan:
-      countries:
-      - Japan
+      countries: Japan
   - IFs 8.54|Kazakhstan:
-      countries:
-      - Kazakhstan
+      countries: Kazakhstan
   - IFs 8.54|Kenya:
-      countries:
-      - Kenya
+      countries: Kenya
   - IFs 8.54|Kyrgyzstan:
-      countries:
-      - Kyrgyzstan
+      countries: Kyrgyzstan
   - IFs 8.54|Cambodia:
-      countries:
-      - Cambodia
+      countries: Cambodia
   - IFs 8.54|Kiribati:
-      countries:
-      - Kiribati
+      countries: Kiribati
   - IFs 8.54|Korea (the Republic of):
-      countries:
-      - Korea (the Republic of)
+      countries: Korea (the Republic of)
   - IFs 8.54|Kosovo:
-      countries:
-      - Kosovo
+      countries: Kosovo
   - IFs 8.54|Kuwait:
-      countries:
-      - Kuwait
+      countries: Kuwait
   - IFs 8.54|Lao People's Democratic Republic:
-      countries:
-      - Lao People's Democratic Republic 
+      countries: Lao People's Democratic Republic 
   - IFs 8.54|Lebanon:
-      countries:
-      - Lebanon
+      countries: Lebanon
   - IFs 8.54|Liberia:
-      countries:
-      - Liberia
+      countries: Liberia
   - IFs 8.54|Libya:
-      countries:
-      - Libya
+      countries: Libya
   - IFs 8.54|Saint Lucia:
-      countries:
-      - Saint Lucia
+      countries: Saint Lucia
   - IFs 8.54|Sri Lanka:
-      countries:
-      - Sri Lanka
+      countries: Sri Lanka
   - IFs 8.54|Lesotho:
-      countries:
-      - Lesotho
+      countries: Lesotho
   - IFs 8.54|Lithuania:
-      countries:
-      - Lithuania
+      countries: Lithuania
   - IFs 8.54|Luxembourg:
-      countries:
-      - Luxembourg
+      countries: Luxembourg
   - IFs 8.54|Latvia:
-      countries:
-      - Latvia
+      countries: Latvia
   - IFs 8.54|Morocco:
-      countries:
-      - Morocco
+      countries: Morocco
   - IFs 8.54|Moldova (the Republic of):
-      countries:
-      - Moldova (the Republic of)
+      countries: Moldova (the Republic of)
   - IFs 8.54|Madagascar:
-      countries:
-      - Madagascar
+      countries: Madagascar
   - IFs 8.54|Maldives:
-      countries:
-      - Maldives
+      countries: Maldives
   - IFs 8.54|Mexico:
-      countries:
-      - Mexico
+      countries: Mexico
   - IFs 8.54|Republic of North Macedonia:
-      countries:
-      - Republic of North Macedonia
+      countries: Republic of North Macedonia
   - IFs 8.54|Mali:
-      countries:
-      - Mali
+      countries: Mali
   - IFs 8.54|Malta:
-      countries:
-      - Malta
+      countries: Malta
   - IFs 8.54|Myanmar:
-      countries:
-      - Myanmar
+      countries: Myanmar
   - IFs 8.54|Mongolia:
-      countries:
-      - Mongolia
+      countries: Mongolia
   - IFs 8.54|Mozambique:
-      countries:
-      - Mozambique
+      countries: Mozambique
   - IFs 8.54|Mauritania:
-      countries:
-      - Mauritania
+      countries: Mauritania
   - IFs 8.54|Mauritius:
-      countries:
-      - Mauritius
+      countries: Mauritius
   - IFs 8.54|Malawi:
-      countries:
-      - Malawi
+      countries: Malawi
   - IFs 8.54|Malaysia:
-      countries:
-      - Malaysia
+      countries: Malaysia
   - IFs 8.54|Namibia:
-      countries:
-      - Namibia
+      countries: Namibia
   - IFs 8.54|Niger:
-      countries:
-      - Niger 
+      countries: Niger 
   - IFs 8.54|Nigeria:
-      countries:
-      - Nigeria
+      countries: Nigeria
   - IFs 8.54|Nicaragua:
-      countries:
-      - Nicaragua
+      countries: Nicaragua
   - IFs 8.54|Netherlands:
-      countries:
-      - Netherlands 
+      countries: Netherlands 
   - IFs 8.54|Norway:
-      countries:
-      - Norway
+      countries: Norway
   - IFs 8.54|Nepal:
-      countries:
-      - Nepal
+      countries: Nepal
   - IFs 8.54|New Zealand:
-      countries:
-      - New Zealand
+      countries: New Zealand
   - IFs 8.54|Oman:
-      countries:
-      - Oman
+      countries: Oman
   - IFs 8.54|Pakistan:
-      countries:
-      - Pakistan
+      countries: Pakistan
   - IFs 8.54|Panama:
-      countries:
-      - Panama
+      countries: Panama
   - IFs 8.54|Peru:
-      countries:
-      - Peru
+      countries: Peru
   - IFs 8.54|Philippines:
-      countries:
-      - Philippines 
+      countries: Philippines 
   - IFs 8.54|Papua New Guinea:
-      countries:
-      - Papua New Guinea
+      countries: Papua New Guinea
   - IFs 8.54|Poland:
-      countries:
-      - Poland
+      countries: Poland
   - IFs 8.54|Puerto Rico:
-      countries:
-      - Puerto Rico
+      countries: Puerto Rico
   - IFs 8.54|Korea (the Democratic People's Republic of):
-      countries:
-      - Korea (the Democratic People's Republic of)
+      countries: Korea (the Democratic People's Republic of)
   - IFs 8.54|Portugal:
-      countries:
-      - Portugal
+      countries: Portugal
   - IFs 8.54|Paraguay:
-      countries:
-      - Paraguay
+      countries: Paraguay
   - IFs 8.54|Qatar:
-      countries:
-      - Qatar
+      countries: Qatar
   - IFs 8.54|Romania:
-      countries:
-      - Romania
+      countries: Romania
   - IFs 8.54|Russian Federation:
-      countries:
-      - Russian Federation 
+      countries: Russian Federation 
   - IFs 8.54|Rwanda:
-      countries:
-      - Rwanda
+      countries: Rwanda
   - IFs 8.54|Saudi Arabia:
-      countries:
-      - Saudi Arabia
+      countries: Saudi Arabia
   - IFs 8.54|Sudan:
-      countries:
-      - Sudan 
+      countries: Sudan 
   - IFs 8.54|Senegal:
-      countries:
-      - Senegal
+      countries: Senegal
   - IFs 8.54|Singapore:
-      countries:
-      - Singapore
+      countries: Singapore
   - IFs 8.54|Solomon Islands:
-      countries:
-      - Solomon Islands
+      countries: Solomon Islands
   - IFs 8.54|Sierra Leone:
-      countries:
-      - Sierra Leone
+      countries: Sierra Leone
   - IFs 8.54|El Salvador:
-      countries:
-      - El Salvador
+      countries: El Salvador
   - IFs 8.54|Somalia:
-      countries:
-      - Somalia
+      countries: Somalia
   - IFs 8.54|South Sudan:
-      countries:
-      - South Sudan
+      countries: South Sudan
   - IFs 8.54|Sao Tome and Principe:
-      countries:
-      - Sao Tome and Principe
+      countries: Sao Tome and Principe
   - IFs 8.54|Suriname:
-      countries:
-      - Suriname
+      countries: Suriname
   - IFs 8.54|Slovakia:
-      countries:
-      - Slovakia
+      countries: Slovakia
   - IFs 8.54|Slovenia:
-      countries:
-      - Slovenia
+      countries: Slovenia
   - IFs 8.54|Sweden:
-      countries:
-      - Sweden
+      countries: Sweden
   - IFs 8.54|Eswatini:
-      countries:
-      - Eswatini
+      countries: Eswatini
   - IFs 8.54|Seychelles:
-      countries:
-      - Seychelles
+      countries: Seychelles
   - IFs 8.54|Syrian arab Republic:
-      countries:
-      - Syrian arab Republic
+      countries: Syrian arab Republic
   - IFs 8.54|Chad:
-      countries:
-      - Chad
+      countries: Chad
   - IFs 8.54|Togo:
-      countries:
-      - Togo
+      countries: Togo
   - IFs 8.54|Thailand:
-      countries:
-      - Thailand
+      countries: Thailand
   - IFs 8.54|Tajikistan:
-      countries:
-      - Tajikistan
+      countries: Tajikistan
   - IFs 8.54|Turkmenistan:
-      countries:
-      - Turkmenistan
+      countries: Turkmenistan
   - IFs 8.54|East Timor:
-      countries:
-      - East Timor
+      countries: East Timor
   - IFs 8.54|Tonga:
-      countries:
-      - Tonga
+      countries: Tonga
   - IFs 8.54|Trinidad and Tobago:
-      countries:
-      - Trinidad and Tobago
+      countries: Trinidad and Tobago
   - IFs 8.54|Tunisia:
-      countries:
-      - Tunisia
+      countries: Tunisia
   - IFs 8.54|Turkiye:
-      countries:
-      - Turkiye
+      countries: Turkiye
   - IFs 8.54|Taiwan (Province of China):
-      countries:
-      - Taiwan (Province of China)
+      countries: Taiwan (Province of China)
   - IFs 8.54|Tanzania, United Republic of:
-      countries:
-      - Tanzania, United Republic of
+      countries: Tanzania, United Republic of
   - IFs 8.54|Uganda:
-      countries:
-      - Uganda
+      countries: Uganda
   - IFs 8.54|Ukraine:
-      countries:
-      - Ukraine
+      countries: Ukraine
   - IFs 8.54|Uruguay:
-      countries:
-      - Uruguay
+      countries: Uruguay
   - IFs 8.54|United States of America:
-      countries:
-      - United States of America 
+      countries: United States of America 
   - IFs 8.54|Uzbekistan:
-      countries:
-      - Uzbekistan
+      countries: Uzbekistan
   - IFs 8.54|Saint Vincent and the Grenadines:
-      countries:
-      - Saint Vincent and the Grenadines
+      countries: Saint Vincent and the Grenadines
   - IFs 8.54|Venezuela (Bolivarian Republic of):
-      countries:
-      - Venezuela (Bolivarian Republic of)
+      countries: Venezuela (Bolivarian Republic of)
   - IFs 8.54|Viet Nam:
-      countries:
-      - Viet Nam
+      countries: Viet Nam
   - IFs 8.54|Vanuatu:
-      countries:
-      - Vanuatu
+      countries: Vanuatu
   - IFs 8.54|West Bank and Gaza:
-      countries:
-      - West Bank and Gaza
+      countries: West Bank and Gaza
   - IFs 8.54|Samoa:
-      countries:
-      - Samoa
+      countries: Samoa
   - IFs 8.54|Yemen:
-      countries:
-      - Yemen
+      countries: Yemen
   - IFs 8.54|South Africa:
-      countries:
-      - South Africa
+      countries: South Africa
   - IFs 8.54|Zaire:
-      countries:
-      - Zaire
+      countries: Zaire
   - IFs 8.54|Zambia:
-      countries:
-      - Zambia
+      countries: Zambia
   - IFs 8.54|Zimbabwe:
-      countries:
-      - Zimbabwe
+      countries: Zimbabwe
