@@ -1,0 +1,891 @@
+model:
+  -IFs 8.54
+
+native regions:
+  - AFG: IFs 8.54|Afghanistan
+  - AGO: IFs 8.54|Angola
+  - ALB: IFs 8.54|Albania
+  - ARE: IFs 8.54|United Arab Emirates (the)
+  - ARG: IFs 8.54|Argentina
+  - ARM: IFs 8.54|Armenia
+  - AUS: IFs 8.54|Australia
+  - AUT: IFs 8.54|Austria
+  - AZE: IFs 8.54|Azerbaijan
+  - BDI: IFs 8.54|Burundi
+  - BEL: IFs 8.54|Belgium
+  - BEN: IFs 8.54|Benin
+  - BFA: IFs 8.54|Burkina Faso
+  - BGD: IFs 8.54|Bangladesh
+  - BGR: IFs 8.54|Bulgaria
+  - BHR: IFs 8.54|Bahrain
+  - BHS: IFs 8.54|Bahamas (the)
+  - BIH: IFs 8.54|Bosnia and Herzegovina
+  - BLR: IFs 8.54|Belarus
+  - BLZ: IFs 8.54|Belize
+  - BOL: IFs 8.54|Bolivia (Plurinational State of)
+  - BRA: IFs 8.54|Brazil
+  - BRB: IFs 8.54|Barbados
+  - BRN: IFs 8.54|Brunei Darussalam
+  - BTN: IFs 8.54|Bhutan
+  - BWA: IFs 8.54|Botswana
+  - CAF: IFs 8.54|Central African Republic (the)
+  - CAN: IFs 8.54|Canada
+  - CHE: IFs 8.54|Switzerland
+  - CHL: IFs 8.54|Chile
+  - CHN: IFs 8.54|China
+  - CIV: IFs 8.54|Cote d'Ivoire
+  - CMR: IFs 8.54|Cameroon
+  - COG: IFs 8.54|Congo (the Democratic Republic of)
+  - COL: IFs 8.54|Colombia
+  - COM: IFs 8.54|Comoros
+  - CPV: IFs 8.54|Cabo Verde
+  - CRI: IFs 8.54|Costa Rica
+  - CUB: IFs 8.54|Cuba
+  - CYP: IFs 8.54|Cyprus
+  - CZE: IFs 8.54|Czechia
+  - DEU: IFs 8.54|Germany
+  - DJI: IFs 8.54|Djibouti
+  - DNK: IFs 8.54|Denmark
+  - DOM: IFs 8.54|Dominican Republic (the)
+  - DZA: IFs 8.54|Algeria
+  - ECU: IFs 8.54|Ecuador
+  - EGY: IFs 8.54|Egypt
+  - ERI: IFs 8.54|Eritrea
+  - ESH: IFs 8.54|Western Sahara
+  - ESP: IFs 8.54|Spain
+  - EST: IFs 8.54|Estonia
+  - ETH: IFs 8.54|Ethiopia
+  - FIN: IFs 8.54|Finland
+  - FJI: IFs 8.54|Fiji
+  - FRA: IFs 8.54|France
+  - FSM: IFs 8.54|Micronesia (Federated States of)
+  - GAB: IFs 8.54|Gabon
+  - GBR: IFs 8.54|United Kingdom of Great Britain and Northern Ireland (the)
+  - GEO: IFs 8.54|Georgia
+  - GHA: IFs 8.54|Ghana
+  - GIN: IFs 8.54|Guinea
+  - GMB: IFs 8.54|Gambia (the)
+  - GNB: IFs 8.54|Guinea-Bissau
+  - GNQ: IFs 8.54|Equatorial Guinea
+  - GRC: IFs 8.54|Greece
+  - GRD: IFs 8.54|Grenada
+  - GTM: IFs 8.54|Guatemala
+  - GUY: IFs 8.54|Guyana
+  - HKG: IFs 8.54|Hong Kong
+  - HND: IFs 8.54|Honduras
+  - HRV: IFs 8.54|Croatia
+  - HTI: IFs 8.54|Haiti
+  - HUN: IFs 8.54|Hungary
+  - IDN: IFs 8.54|Indonesia
+  - IND: IFs 8.54|India
+  - IRL: IFs 8.54|Ireland
+  - IRN: IFs 8.54|Iran (Islamic Republic of)
+  - IRQ: IFs 8.54|Iraq
+  - ISL: IFs 8.54|Iceland
+  - ISR: IFs 8.54|Israel
+  - ITA: IFs 8.54|Italy
+  - JAM: IFs 8.54|Jamaica
+  - JOR: IFs 8.54|Jordan
+  - JPN: IFs 8.54|Japan
+  - KAZ: IFs 8.54|Kazakhstan
+  - KEN: IFs 8.54|Kenya
+  - KGZ: IFs 8.54|Kyrgyzstan
+  - KHM: IFs 8.54|Cambodia
+  - KIR: IFs 8.54|Kiribati
+  - KOR: IFs 8.54|Korea (the Republic of)
+  - KSV: IFs 8.54|Kosovo
+  - KWT: IFs 8.54|Kuwait
+  - LAO: IFs 8.54|Lao People's Democratic Republic (the)
+  - LBN: IFs 8.54|Lebanon
+  - LBR: IFs 8.54|Liberia
+  - LBY: IFs 8.54|Libya
+  - LCA: IFs 8.54|Saint Lucia
+  - LKA: IFs 8.54|Sri Lanka
+  - LSO: IFs 8.54|Lesotho
+  - LTU: IFs 8.54|Lithuania
+  - LUX: IFs 8.54|Luxembourg
+  - LVA: IFs 8.54|Latvia
+  - MAR: IFs 8.54|Morocco
+  - MDA: IFs 8.54|Moldova (the Republic of)
+  - MDG: IFs 8.54|Madagascar
+  - MDV: IFs 8.54|Maldives
+  - MEX: IFs 8.54|Mexico
+  - MKD: IFs 8.54|Republic of North Macedonia
+  - MLI: IFs 8.54|Mali
+  - MLT: IFs 8.54|Malta
+  - MMR: IFs 8.54|Myanmar
+  - MNG: IFs 8.54|Mongolia
+  - MOZ: IFs 8.54|Mozambique
+  - MRT: IFs 8.54|Mauritania
+  - MUS: IFs 8.54|Mauritius
+  - MWI: IFs 8.54|Malawi
+  - MYS: IFs 8.54|Malaysia
+  - NAM: IFs 8.54|Namibia
+  - NER: IFs 8.54|Niger (the)
+  - NGA: IFs 8.54|Nigeria
+  - NIC: IFs 8.54|Nicaragua
+  - NLD: IFs 8.54|Netherlands (the)
+  - NOR: IFs 8.54|Norway
+  - NPL: IFs 8.54|Nepal
+  - NZL: IFs 8.54|New Zealand
+  - OMN: IFs 8.54|Oman
+  - PAK: IFs 8.54|Pakistan
+  - PAN: IFs 8.54|Panama
+  - PER: IFs 8.54|Peru
+  - PHL: IFs 8.54|Philippines (the)
+  - PNG: IFs 8.54|Papua New Guinea
+  - POL: IFs 8.54|Poland
+  - PRI: IFs 8.54|Puerto Rico
+  - PRK: IFs 8.54|Korea (the Democratic People's Republic of)
+  - PRT: IFs 8.54|Portugal
+  - PRY: IFs 8.54|Paraguay
+  - QAT: IFs 8.54|Qatar
+  - ROM: IFs 8.54|Romania
+  - RUS: IFs 8.54|Russian Federation (the)
+  - RWA: IFs 8.54|Rwanda
+  - SAU: IFs 8.54|Saudi Arabia
+  - SDN: IFs 8.54|Sudan (the)
+  - SEN: IFs 8.54|Senegal
+  - SGP: IFs 8.54|Singapore
+  - SLB: IFs 8.54|Solomon Islands
+  - SLE: IFs 8.54|Sierra Leone
+  - SLV: IFs 8.54|El Salvador
+  - SOM: IFs 8.54|Somalia
+  - SSD: IFs 8.54|South Sudan
+  - STP: IFs 8.54|Sao Tome and Principe
+  - SUR: IFs 8.54|Suriname
+  - SVK: IFs 8.54|Slovakia
+  - SVN: IFs 8.54|Slovenia
+  - SWE: IFs 8.54|Sweden
+  - SWZ: IFs 8.54|Eswatini
+  - SYC: IFs 8.54|Seychelles
+  - SYR: IFs 8.54|Syrian arab Republic
+  - TCD: IFs 8.54|Chad
+  - TGO: IFs 8.54|Togo
+  - THA: IFs 8.54|Thailand
+  - TJK: IFs 8.54|Tajikistan
+  - TKM: IFs 8.54|Turkmenistan
+  - TMP: IFs 8.54|East Timor
+  - TON: IFs 8.54|Tonga
+  - TTO: IFs 8.54|Trinidad and Tobago
+  - TUN: IFs 8.54|Tunisia
+  - TUR: IFs 8.54|Turkiye
+  - TWN: IFs 8.54|Taiwan (Province of China)
+  - TZA: IFs 8.54|Tanzania, United Republic of
+  - UGA: IFs 8.54|Uganda
+  - UKR: IFs 8.54|Ukraine
+  - URY: IFs 8.54|Uruguay
+  - USA: IFs 8.54|United States of America (the)
+  - UZB: IFs 8.54|Uzbekistan
+  - VCT: IFs 8.54|Saint Vincent and the Grenadines
+  - VEN: IFs 8.54|Venezuela (Bolivarian Republic of)
+  - VNM: IFs 8.54|Viet Nam
+  - VUT: IFs 8.54|Vanuatu
+  - WBG: IFs 8.54|West Bank and Gaza
+  - WSM: IFs 8.54|Samoa
+  - YEM: IFs 8.54|Yemen
+  - ZAF: IFs 8.54|South Africa
+  - ZAR: IFs 8.54|Zaire
+  - ZMB: IFs 8.54|Zambia
+  - ZWE: IFs 8.54|Zimbabwe
+
+common_regions:
+  - World:
+    - AFG
+    - AGO
+    - ALB
+    - ARE
+    - ARG
+    - ARM
+    - AUS
+    - AUT
+    - AZE
+    - BDI
+    - BEL
+    - BEN
+    - BFA
+    - BGD
+    - BGR
+    - BHR
+    - BHS
+    - BIH
+    - BLR
+    - BLZ
+    - BOL
+    - BRA
+    - BRB
+    - BRN
+    - BTN
+    - BWA
+    - CAF
+    - CAN
+    - CHE
+    - CHL
+    - CHN
+    - CIV
+    - CMR
+    - COG
+    - COL
+    - COM
+    - CPV
+    - CRI
+    - CUB
+    - CYP
+    - CZE
+    - DEU
+    - DJI
+    - DNK
+    - DOM
+    - DZA
+    - ECU
+    - EGY
+    - ERI
+    - ESH
+    - ESP
+    - EST
+    - ETH
+    - FIN
+    - FJI
+    - FRA
+    - FSM
+    - GAB
+    - GBR
+    - GEO
+    - GHA
+    - GIN
+    - GMB
+    - GNB
+    - GNQ
+    - GRC
+    - GRD
+    - GTM
+    - GUY
+    - HKG
+    - HND
+    - HRV
+    - HTI
+    - HUN
+    - IDN
+    - IND
+    - IRL
+    - IRN
+    - IRQ
+    - ISL
+    - ISR
+    - ITA
+    - JAM
+    - JOR
+    - JPN
+    - KAZ
+    - KEN
+    - KGZ
+    - KHM
+    - KIR
+    - KOR
+    - KSV
+    - KWT
+    - LAO
+    - LBN
+    - LBR
+    - LBY
+    - LCA
+    - LKA
+    - LSO
+    - LTU
+    - LUX
+    - LVA
+    - MAR
+    - MDA
+    - MDG
+    - MDV
+    - MEX
+    - MKD
+    - MLI
+    - MLT
+    - MMR
+    - MNG
+    - MOZ
+    - MRT
+    - MUS
+    - MWI
+    - MYS
+    - NAM
+    - NER
+    - NGA
+    - NIC
+    - NLD
+    - NOR
+    - NPL
+    - NZL
+    - OMN
+    - PAK
+    - PAN
+    - PER
+    - PHL
+    - PNG
+    - POL
+    - PRI
+    - PRK
+    - PRT
+    - PRY
+    - QAT
+    - ROM
+    - RUS
+    - RWA
+    - SAU
+    - SDN
+    - SEN
+    - SGP
+    - SLB
+    - SLE
+    - SLV
+    - SOM
+    - SSD
+    - STP
+    - SUR
+    - SVK
+    - SVN
+    - SWE
+    - SWZ
+    - SYC
+    - SYR
+    - TCD
+    - TGO
+    - THA
+    - TJK
+    - TKM
+    - TMP
+    - TON
+    - TTO
+    - TUN
+    - TUR
+    - TWN
+    - TZA
+    - UGA
+    - UKR
+    - URY
+    - USA
+    - UZB
+    - VCT
+    - VEN
+    - VNM
+    - VUT
+    - WBG
+    - WSM
+    - YEM
+    - ZAF
+    - ZAR
+    - ZMB
+    - ZWE
+  
+  # R5 regions
+  - OECD & EU (R5):
+    - AUT
+    - BEL
+    - CAN
+    - CHE
+    - CHL
+    - COL
+    - CRI
+    - DEU
+    - DNK
+    - ESP
+    - EST
+    - FIN
+    - FRA
+    - GBR
+    - GRC
+    - HUN
+    - IRL
+    - ISL
+    - ISR
+    - ITA
+    - JPN
+    - KOR
+    - LTU
+    - LUX
+    - LVA
+    - MEX
+    - NLD
+    - NOR
+    - NZL
+    - POL
+    - PRT
+    - SVK
+    - SVN
+    - SWE
+    - TUR
+    - USA
+    - AUS
+
+  - Reforming Economies (R5):
+    - ALB
+    - ARM
+    - AZE
+    - BLR
+    - BIH
+    - GEO
+    - KAZ
+    - KGZ
+    - MKD
+    - MDA
+    - MNG
+    - RUS
+    - SRB
+    - TJK
+    - TKM
+    - UKR
+    - UZB
+
+  - Asia (R5):
+    - AFG
+    - BGD
+    - CHN
+    - HKG
+    - IDN
+    - IND
+    - KHM
+    - LAO
+    - MMR
+    - MYS
+    - NPL
+    - PAK
+    - PHL
+    - SGP
+    - THA
+    - VNM
+
+  - Middle East & Africa (R5):
+    - AGO
+    - BDI
+    - BEN
+    - BFA
+    - BHR
+    - BWA
+    - CAF
+    - CIV
+    - CMR
+    - COG
+    - CPV
+    - DJI
+    - DZA
+    - EGY
+    - ERI
+    - ETH
+    - GAB
+    - GHA
+    - GIN
+    - GMB
+    - GNB
+    - GNQ
+    - IRN
+    - IRQ
+    - JOR
+    - KEN
+    - KWT
+    - LBN
+    - LBR
+    - LBY
+    - LSO
+    - MAR
+    - MDG
+    - MLI
+    - MOZ
+    - MRT
+    - MUS
+    - MWI
+    - NAM
+    - NER
+    - NGA
+    - OMN
+    - QAT
+    - RWA
+    - SAU
+    - SDN
+    - SEN
+    - SLE
+    - SOM
+    - SSD
+    - STP
+    - SWZ
+    - SYC
+    - TCD
+    - TGO
+    - TUN
+    - TZA
+    - UGA
+    - YEM
+    - ZAF
+    - ZMB
+    - ZWE
+
+  - Latin America (R5):
+    - ARG
+    - BHS
+    - BLZ
+    - BOL
+    - BRA
+    - BRB
+    - CHL
+    - COL
+    - CUB
+    - DOM
+    - ECU
+    - GTM
+    - GUY
+    - HND
+    - HTI
+    - JAM
+    - NIC
+    - PAN
+    - PER
+    - PRY
+    - SLV
+    - SUR
+    - TTO
+    - URY
+    - VEN
+    - MEX
+
+# R9 regions
+  - European Union (R9):
+    - AUT
+    - BEL
+    - BGR
+    - HRV
+    - CYP
+    - CZE
+    - DNK
+    - EST
+    - FIN
+    - FRA
+    - DEU
+    - GRC
+    - HUN
+    - IRL
+    - ITA
+    - LVA
+    - LTU
+    - LUX
+    - MLT
+    - NLD
+    - POL
+    - PRT
+    - ROU
+    - SVK
+    - SVN
+    - ESP
+    - SWE
+  - USA (R9):
+    - USA
+
+  - Other OECD (R9):
+    - CAN
+    - AUS
+    - NZL
+    - JPN
+    - KOR
+    - NOR
+    - ISL
+    - CHE
+    - GBR
+    - TUR
+    - MEX
+
+  - China (R9):
+    - CHN
+
+  - India (R9):
+      - IND
+
+  - Other Asia (R9):
+    - IDN
+    - THA
+    - VNM
+    - MYS
+    - PHL
+    - SGP
+    - KHM
+    - LAO
+    - MMR
+    - BRN
+    - PRK
+
+  - Reforming Economies (R9):
+    - RUS
+    - UKR
+    - BLR
+    - KAZ
+    - KGZ
+    - TJK
+    - TKM
+    - UZB
+    - MNG
+
+  - Latin America (R9):
+    - ARG
+    - BOL
+    - BRA
+    - CHL
+    - COL
+    - ECU
+    - PER
+    - PRY
+    - URY
+    - VEN
+    - MEX
+    - GTM
+    - SLV
+    - HND
+    - NIC
+    - CRI
+    - PAN
+    - CUB
+    - DOM
+    - HTI
+    - JAM
+    - TTO
+    - BRB
+    - BHS
+    - GUY
+    - SUR
+
+  - Middle East & Africa (R9):
+    - AFG
+    - BGD
+    - BHR
+    - IRN
+    - IRQ
+    - ISR
+    - JOR
+    - KWT
+    - LBN
+    - OMN
+    - QAT
+    - SAU
+    - ARE
+    - YEM
+    - DZA
+    - EGY
+    - MAR
+    - TUN
+    - LBY
+    - ESH
+    - NGA
+    - ZAF
+    - ETH
+    - KEN
+    - UGA
+    - TZA
+    - SOM
+    - SDN
+    - SSD
+    - AGO
+    - ZMB
+    - ZWE
+    - MOZ
+    - MWI
+    - NAM
+    - BWA
+    - LSO
+    - SWZ
+
+# R10 regions
+  - Africa (R10):
+    - DZA
+    - AGO
+    - BEN
+    - BFA
+    - BWA
+    - BDI
+    - CMR
+    - CAF
+    - TCD
+    - CIV
+    - COG
+    - COM
+    - CPV
+    - DJI
+    - EGY
+    - ERI
+    - ETH
+    - GAB
+    - GHA
+    - GIN
+    - GMB
+    - GNB
+    - GNQ
+    - KEN
+    - LBR
+    - LBY
+    - LSO
+    - MDG
+    - MLI
+    - MAR
+    - MRT
+    - MUS
+    - MWI
+    - MOZ
+    - NAM
+    - NER
+    - NGA
+    - RWA
+    - SEN
+    - SLE
+    - SOM
+    - SSD
+    - SDN
+    - SWZ
+    - SYC
+    - TCD
+    - TGO
+    - TUN
+    - TZA
+    - UGA
+    - ZAF
+    - ZMB
+    - ZWE
+
+  - China+ (R10):
+    - CHN
+    - KOR
+
+  - Europe (R10):
+    - AUT
+    - BEL
+    - BGR
+    - HRV
+    - CYP
+    - CZE
+    - DNK
+    - EST
+    - FIN
+    - FRA
+    - DEU
+    - GRC
+    - HUN
+    - IRL
+    - ITA
+    - LVA
+    - LTU
+    - LUX
+    - MLT
+    - NLD
+    - POL
+    - PRT
+    - ROU
+    - SVK
+    - SVN
+    - ESP
+    - SWE
+    - GBR
+    - CHE
+    - NOR
+    - ISL
+    - TUR
+
+  - India+ (R10):
+    - IND
+    - BGD
+    - PAK
+    - LKA
+    - NPL
+    - BTN
+    - AFG
+
+  - Latin America (R10):
+    - ARG
+    - BOL
+    - BRA
+    - CHL
+    - COL
+    - ECU
+    - PER
+    - PRY
+    - URY
+    - VEN
+    - MEX
+    - GTM
+    - SLV
+    - HND
+    - NIC
+    - CRI
+    - PAN
+    - CUB
+    - DOM
+    - HTI
+    - JAM
+    - TTO
+    - BRB
+    - BHS
+    - GUY
+    - SUR
+
+  - Middle East (R10):
+    - BHR
+    - IRN
+    - IRQ
+    - ISR
+    - JOR
+    - KWT
+    - LBN
+    - OMN
+    - QAT
+    - SAU
+    - ARE
+    - YEM
+
+  - North America (R10):
+    - USA
+    - CAN
+
+  - Pacific OECD (R10):
+    - AUS
+    - JPN
+    - NZL
+
+  - Reforming Economies (R10):
+    - RUS
+    - UKR
+    - BLR
+    - KAZ
+    - KGZ
+    - TJK
+    - TKM
+    - UZB
+    - MNG
+
+  - Rest of Asia (R10):
+    - IDN
+    - THA
+    - VNM
+    - MYS
+    - PHL
+    - SGP
+    - KHM
+    - LAO
+    - MMR
+    - BRN
+    - PRK
+
+#mapping for G20
+  - G20:
+    - ARG
+    - AUS
+    - BRA
+    - CAN
+    - CHN
+    - DEU
+    - FRA
+    - GBR
+    - IND
+    - IDN
+    - ITA
+    - JPN
+    - KOR
+    - MEX
+    - RUS
+    - SAU
+    - ZAF
+    - TUR
+    - USA
