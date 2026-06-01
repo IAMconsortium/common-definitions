@@ -185,7 +185,6 @@ native regions:
   - WSM: IFs 8.54|Samoa
   - YEM: IFs 8.54|Yemen
   - ZAF: IFs 8.54|South Africa
-  - ZAR: IFs 8.54|Zaire
   - ZMB: IFs 8.54|Zambia
   - ZWE: IFs 8.54|Zimbabwe
 
@@ -374,7 +373,6 @@ common_regions:
     - WSM
     - YEM
     - ZAF
-    - ZAR
     - ZMB
     - ZWE
   
