@@ -4,29 +4,6 @@
   - IFs 8.54|Afghanistan:
       countries:
       - Afghanistan
-  - GEM-E3 V2026|Belgium:
-      countries:
-      - Belgium
-  - GEM-E3 V2026|Bulgaria:
-      countries:
-      - Bulgaria
-  - GEM-E3 V2026|Cyprus:
-      countries:
-      - Cyprus
-  - GEM-E3 V2026|Croatia:
-      countries:
-      - Croatia
-  - GEM-E3 V2026|Czech Republic:
-      countries:
-      - Czechia
-  - GEM-E3 V2026|Germany:
-      countries:
-      - Germany
-
-- IFs 8.54:
-  - IFs 8.54|Afghanistan:
-      countries:
-      - Afghanistan
   - IFs 8.54|Afghanistan:
       countries:
       - Afghanistan
@@ -38,97 +15,97 @@
        - Albania
   - IFs 8.54|United Arab Emirates (the):
       countries:
-         - United Arab Emirates (the)
+      - United Arab Emirates (the)
   - IFs 8.54|Argentina:
       countries:
-       - Argenitia
+      - Argenitia
   - IFs 8.54|Armenia:
       countries:
-       - Armenia
+      - Armenia
   - IFs 8.54|Australia:
       countries:
-       - Australia
+      - Australia
   - IFs 8.54|Austria:
       countries:
-       - Austria
+      - Austria
   - IFs 8.54|Azerbaijan:
       countries:
-       - Azerbaijan
+      - Azerbaijan
   - IFs 8.54|Burundi:
       countries:
-     - Burundi
+      - Burundi
   - IFs 8.54|Belgium:
       countries:
-     - Belgium
+      - Belgium
   - IFs 8.54|Benin:
       countries:
-     - Benin
+      - Benin
   - IFs 8.54|Burkina Faso:
       countries:
-     - Burkina Faso
+      - Burkina Faso
   - IFs 8.54|Bangladesh:
       countries:
-     - Bangladesh
+      - Bangladesh
   - IFs 8.54|Bulgaria:
       countries:
-     - Bulgaria
+      - Bulgaria
   - IFs 8.54|Bahrain:
       countries:
-     - Bahrain
+      - Bahrain
   - IFs 8.54|Bahamas (the):
       countries:
-     - Bahamas (the)
+      - Bahamas (the)
   - IFs 8.54|Bosnia and Herzegovina:
       countries:
-     - Bosnia and Herzegovina
+      - Bosnia and Herzegovina
   - IFs 8.54|Belarus:
       countries:
-     - Belarus
+      - Belarus
   - IFs 8.54|Belize:
       countries:
-     - Belize
+      - Belize
   - IFs 8.54|Bolivia (Plurinational State of):
       countries:
-     - Bolivia (Plurinational State of)
+      - Bolivia (Plurinational State of)
   - IFs 8.54|Brazil:
       countries:
-     - Brazil
+      - Brazil
   - IFs 8.54|Barbados:
       countries:
-     - Barbados
+      - Barbados
   - IFs 8.54|Brunei Darussalam:
       countries:
-     - Brunei Darussalam
+      - Brunei Darussalam
   - IFs 8.54|Bhutan:
       countries:
-     - Bhutan
+      - Bhutan
   - IFs 8.54|Botswana:
       countries:
-     - Botswana
+      - Botswana
   - IFs 8.54|Central African Republic (the):
       countries:
-     - Central African Republic (the)
+      - Central African Republic (the)
   - IFs 8.54|Canada:
       countries:
-     - Canada
+      - Canada
   - IFs 8.54|Switzerland:
       countries:
-     - Switzerland
+      - Switzerland
   - IFs 8.54|Chile:
       countries:
-     - Chile
+      - Chile
   - IFs 8.54|China:
       countries:
-     - China
+      - China
   - IFs 8.54|Cote d'Ivoire:
       countries:
-     - Cote d'Ivoire
+      - Cote d'Ivoire
   - IFs 8.54|Cameroon:
       countries:
-     - Cameroon
+      - Cameroon
   - IFs 8.54|Congo (the Democratic Republic of):
       countries:
-      - Congo (the Democratic Republic of)
+       - Congo (the Democratic Republic of)
   - IFs 8.54|Colombia:
       countries:
       - Colombia
