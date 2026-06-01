@@ -339,7 +339,7 @@
       countries: Tunisia
   - IFs 8.54|Turkey:
       countries: Turkey
-  - IFs 8.54|Taiwan (Province of China):
+  - IFs 8.54|Taiwan:
       countries: Taiwan
   - IFs 8.54|Tanzania:
       countries: Tanzania
@@ -349,8 +349,8 @@
       countries: Ukraine
   - IFs 8.54|Uruguay:
       countries: Uruguay
-  - IFs 8.54|United States of America:
-      countries: United States of America 
+  - IFs 8.54|United States:
+      countries: United States 
   - IFs 8.54|Uzbekistan:
       countries: Uzbekistan
   - IFs 8.54|Saint Vincent and the Grenadines:
