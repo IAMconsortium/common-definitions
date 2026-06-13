@@ -1,4 +1,5 @@
 model:
+  - GCAM 6.0
   - GCAM 6.0 NGFS
 native_regions:
   - Africa_Eastern: GCAM 6.0|Africa_Eastern
