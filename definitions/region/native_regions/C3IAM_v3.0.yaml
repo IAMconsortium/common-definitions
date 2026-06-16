@@ -1,0 +1,64 @@
+# The model documentation and regional aggregation for C3IAM version 3.0 can be found at https://www.iamcdocumentation.eu/Model_Documentation_-_C3IAM
+- C3IAM 3.0:
+    - C3IAM 3.0|USA:
+        countries: United States of America
+    - C3IAM 3.0|China:
+        countries: [
+          China, Hong Kong, Taiwan
+        ]
+    - C3IAM 3.0|Japan:
+        countries: Japan
+    - C3IAM 3.0|Russia:
+        countries: Russian Federation
+    - C3IAM 3.0|India:
+        countries: India
+    - C3IAM 3.0|OBU:
+        countries: [
+          Australia, New Zealand, Rest of Oceania, Canada
+        ]
+    - C3IAM 3.0|EU:
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia,
+          Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
+          Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
+          Spain, Sweden
+        ]
+    - C3IAM 3.0|OWE:
+        countries: [
+          United Kingdom, Switzerland, Norway, Rest of EFTA, Albania, Rest of Europe,
+          Turkey
+        ]
+    - C3IAM 3.0|EES:
+        countries: [
+          Serbia, Belarus, Ukraine, Rest of Eastern Europe, Kazakhstan, Kyrgyztan,
+          Tajikistan, Uzbekistan, Rest of Former Soviet Union, Armenia, Azerbaijan,
+          Georgia
+        ]
+    - C3IAM 3.0|ASIA:
+        countries: [
+          Korea, Mongolia, Rest of East Asia, Brunei Darussalam, Cambodia, Indonesia,
+          Lao People's Democratic Republ, Malaysia, Philippines, Singapore, Thailand,
+          Viet Nam, Rest of Southeast Asia, Afghanistan, Bangladesh, Nepal, Pakistan,
+          Sri Lanka, Rest of South Asia
+        ]
+    - C3IAM 3.0|MAF:
+        countries: [
+          Bahrain, Iran Islamic Republic of, Iraq, Israel, Jordan, Kuwait, Lebanon,
+          Oman, State of Palestine, Qatar, Saudi Arabia, Syria, United Arab Emirates,
+          Rest of Western Asia, Algeria, Egypt, Morocco, Tunisia, Rest of North Africa,
+          Benin, Burkina Faso, Cameroon, Cote d'Ivoire, Ghana, Guinea, Mali, Niger,
+          Nigeria, Senegal, Togo, Rest of Western Africa, Central African Republic,
+          Chad, Congo, Congo the Democratic Republic, Equatorial Guinea, Gabon,
+          Rest of South and Central Afri, Comoros, Ethiopia, Kenya, Madagascar, Malawi,
+          Mauritius, Mozambique, Rwanda, Sudan, Tanzania, Uganda, Zambia, Zimbabwe,
+          Rest of Eastern Africa, Botswana, Eswatini, Namibia, South Africa,
+          Rest of South African Customs, Rest of the World
+        ]
+    - C3IAM 3.0|LAM:
+        countries: [
+          Argentina, Bolivia, Brazil, Caribbean, Chile, Colombia, Costa Rica,
+          Dominican Republic, Ecuador, El Salvador, Guatemala, Haiti, Honduras, Jamaica,
+          Mexico, Nicaragua, Panama, Paraguay, Peru, Puerto Rico,
+          Rest of Central America, Rest of North America, Rest of South America,
+          Trinidad and Tobago, Uruguay, Venezuela
+        ]
