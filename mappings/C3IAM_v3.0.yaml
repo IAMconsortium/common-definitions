@@ -5,15 +5,15 @@ native_regions:
   - USA: C3IAM 3.0|USA
   - China: C3IAM 3.0|China
   - Japan: C3IAM 3.0|Japan
-  - Russia: C3IAM 3.0|Russia
+  - Russia: C3IAM 3.0|Russia   # Russian Federation
   - India: C3IAM 3.0|India
-  - OBU: C3IAM 3.0|OBU
-  - EU: C3IAM 3.0|EU
-  - OWE: C3IAM 3.0|OWE
-  - EES: C3IAM 3.0|EES
-  - ASIA: C3IAM 3.0|ASIA
-  - MAF: C3IAM 3.0|MAF
-  - LAM: C3IAM 3.0|LAM
+  - OBU: C3IAM 3.0|OBU     # Other Branches of Umbrella Group
+  - EU: C3IAM 3.0|EU     #European Union
+  - OWE: C3IAM 3.0|OWE     #Other West European Developed Countries
+  - EES: C3IAM 3.0|EES     #Eastern European CIS excluding Russian Federation
+  - ASIA: C3IAM 3.0|ASIA     #Asia excluding China, India, Japan
+  - MAF: C3IAM 3.0|MAF     #Middle East and Africa
+  - LAM: C3IAM 3.0|LAM     #Latin America
 
 common_regions:
   - World:
