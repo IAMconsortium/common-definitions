@@ -8,43 +8,43 @@
         ]
     - C3IAM 3.0|Japan:
         countries: Japan
-    - C3IAM 3.0|Russia:
+    - C3IAM 3.0|Russia: # Russian Federation
         countries: Russian Federation
     - C3IAM 3.0|India:
         countries: India
-    - C3IAM 3.0|OBU:
+    - C3IAM 3.0|OBU: # Other Branches of Umbrella Group
         countries: [
           Australia, New Zealand, American Samoa, Cook Islands, Fiji, Micronesia,
           Guam, Kiribati, Marshall Islands, Northern Mariana Islands, New Caledonia,
           Niue, Nauru, Palau, Papua New Guinea, French Polynesia, Solomon Islands,
           Tokelau, Tonga, Tuvalu, Vanuatu, Wallis and Futuna, Samoa, Canada
         ]
-    - C3IAM 3.0|EU:
+    - C3IAM 3.0|EU: #European Union
         countries: [
           Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
           Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
           Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
           Spain, Sweden
         ]
-    - C3IAM 3.0|OWE:
+    - C3IAM 3.0|OWE: #Other West European Developed Countries
         countries: [
           United Kingdom, Switzerland, Norway, Iceland, Liechtenstein, Albania, Andorra,
           Bosnia and Herzegovina, Faroe Islands, Gibraltar, Monaco, North Macedonia,
           Montenegro, San Marino, Turkey
         ]
-    - C3IAM 3.0|EES:
+    - C3IAM 3.0|EES: #Eastern European CIS excluding Russian Federation
         countries: [
           Serbia, Belarus, Ukraine, Moldova, Kazakhstan, Kyrgyzstan, Tajikistan,
           Uzbekistan, Turkmenistan, Armenia, Azerbaijan, Georgia
         ]
-    - C3IAM 3.0|ASIA:
+    - C3IAM 3.0|ASIA: #Asia excluding China, India, Japan
         countries: [
           South Korea, Mongolia, Macao, North Korea, Brunei Darussalam, Cambodia,
           Indonesia, Laos, Malaysia, Philippines, Singapore, Thailand, Viet Nam,
           Myanmar, Timor-Leste, Afghanistan, Bangladesh, Nepal, Pakistan, Sri Lanka,
           Bhutan, Maldives
         ]
-    - C3IAM 3.0|MAF:
+    - C3IAM 3.0|MAF: #Middle East and Africa
         countries: [
           Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
           Saudi Arabia, Syria, United Arab Emirates, Yemen, Algeria, Egypt, Morocco,
@@ -58,7 +58,7 @@
           Namibia, South Africa, Lesotho, "Saint Helena, Ascension and Tristan da Cunha",
           Antarctica
         ]
-    - C3IAM 3.0|LAM:
+    - C3IAM 3.0|LAM: #Latin America
         countries: [
           Argentina, Bolivia, Brazil, Aruba, Anguilla, "Bonaire, Sint Eustatius and Saba",
           Curaçao, Sint Maarten (Dutch part), Antigua and Barbuda, Bahamas, Barbados,
