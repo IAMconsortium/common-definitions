@@ -1,0 +1,7 @@
+model:
+  - FRIDA v3.1
+native_regions:
+  - Global: FRIDA v3.1|Global
+common_regions:
+  - World: 
+    - Global
