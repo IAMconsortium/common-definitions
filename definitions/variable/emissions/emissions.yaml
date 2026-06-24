@@ -45,6 +45,7 @@
       conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
+    lower_bound: "{Level-2 Species}"
     notes: This variable reports the sum of sources and sinks including land-use methods
       such as soil carbon sequestration, forestry, and re/afforestation and
       agroforestry. Biochar should be reported separately, if possible. The variable is
