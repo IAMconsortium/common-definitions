@@ -100,95 +100,11 @@
     lower_bound: 0
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 
-- Emissions|{Level-3 Species}|AFOLU|Agriculture:
-    description: Emissions of {Level-3 Species} from the agriculture sector
-      (IPCC 1996 category 4 - IPCC 2006 category 3A and 3C except 3C1)
+- Emissions|{Level-3 Species}|AFOLU|{AFOLU Emissions}:
+    description: Emissions of {Level-3 Species} from {AFOLU Emissions}
     unit: "{Level-3 Species}"
     tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
-    description: Emissions of {Level-3 Species} from livestock in the agriculture sector
-      (IPCC 1996 category 4A and 4B - IPCC 2006 category 3A)
-    unit: "{Level-3 Species}"
-    tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
-    description: Emissions of {Level-3 Species} from enteric fermentation of livestock
-      (IPCC 1996 category 4A - IPCC 2006 category 3A1)
-      in the agriculture sector
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Manure Management:
-    description: Emissions of {Level-3 Species} from processes involving
-      manure (waste) management in Livestock in the agriculture sector
-      (IPCC 1996 category 4B - IPCC 2006 category 3A2)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Rice:
-    description: Emissions of {Level-3 Species} from rice cultivation
-      (IPCC 1996 category 4C - IPCC 2006 category 3C7)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Managed Soils:
-    description: Emissions of {Level-3 Species} from soil management practices
-      in the agriculture sector (IPCC 1996 category 4D - IPCC 2006 category 3C4 and 3C5)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning:
-    description: Emissions from agricultural waste burning
-      (IPCC 1996 category 4F - partially IPCC 2006 category 3C1)
-    unit: "{Level-3 Species}"
-    tier: 2
-    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
-- Emissions|{Level-3 Species}|AFOLU|Land:
-    description: Emissions of {Level-3 Species} from forestry and other land use and
-      land use change. Removals in this variable include agroforestry, re/afforestation,
-      biochar, soil carbon management and forest management.
-    unit: "{Level-3 Species}"
-    tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
-    description: Emissions and removals from forest land, cropland, grassland,
-      settlements and other natural land (partially IPCC 1996 category 5 -
-      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
-    unit: "{Level-3 Species}"
-    tier: 3
-    notes: This variable only includes anthropogenic emissions, but does not include
-      emissions from managed or rewetted wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
-    description: Emissions of {Level-3 Species} from managed wetlands (e.g., peatland),
-      including emissions from drained wetlands used for agriculture, forestry or other uses
-      (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv),
-      and emissions from rewetted wetlands (IPCC 2006 category 3B4)
-    unit: "{Level-3 Species}"
-    tier: 3
-    notes: Includes reservoirs as a managed sub-division and
-      natural rivers and lakes as unmanaged sub-divisions. Includes drained
-      and rewetted wetlands, does not include natural emissions from intact wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires:
-    description: Emissions from land fires and deforestation & degradation fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
-    description: Emissions from peat fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning:
-    description: Emissions from boreal forest fires, temperate forest fires,
-      and tropical deforestation & degradation fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
-    description: Emissions from savanna, grassland, and shrubland fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products:
-    description: Emissions and removals from harvested wood products (HWP)
-      (no clear IPCC 1996 category - IPCC 2006 category 3D1)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Other:
-    description: Emissions and removals from land that cannot be  accommodated in other
-      categories (no clear IPCC 1996 category - IPCC 2006 category 3D2)
-    unit: "{Level-3 Species}"
-    tier: 3
+    lower_bound: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|AFOLU [NGHGI]:
     description: Emissions of {Level-2 Species} from agriculture, forestry and other
@@ -196,6 +112,7 @@
       national greenhouse gas inventories (NGHGI)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
     notes: This variable is optional, for instance used for comparison with national
       greenhouse gas inventories, but is not used for driving climate model simulations,
       and also not a component of 'Emissions|*', for which the variable
