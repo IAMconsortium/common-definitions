@@ -1,5 +1,6 @@
 model:
   - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+  - MESSAGEix-GLOBIOM-GAINS 2.1-BMT-R12
 
 native_regions:
   - R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa
