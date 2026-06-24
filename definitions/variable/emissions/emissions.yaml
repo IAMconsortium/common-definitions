@@ -45,6 +45,7 @@
       conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
+    lower_bound: "{Level-2 Species}"
     notes: This variable reports the sum of sources and sinks including land-use methods
       such as soil carbon sequestration, biochar, forestry, and re/afforestation and
       agroforestry. It uses the model/scientific definition of AFOLU, and does not align
@@ -62,6 +63,7 @@
       not including any removals from the atmosphere (e.g., biochar)
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
       Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU:
@@ -73,6 +75,7 @@
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     components:
       - Gross Removals|CO2|AFOLU|Intentional
       - Gross Removals|CO2|AFOLU|Unintentional
@@ -84,6 +87,7 @@
       due to intentional carbon dioxide removals ('Carbon Removal|Land Use')
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 - Gross Removals|CO2|AFOLU|Unintentional:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
@@ -93,6 +97,7 @@
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
