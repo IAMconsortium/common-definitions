@@ -9,6 +9,7 @@
     description: Emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
+    lower_bound: "{Level-1 Species}"
     notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
@@ -25,6 +26,7 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
@@ -32,6 +34,7 @@
       and agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
