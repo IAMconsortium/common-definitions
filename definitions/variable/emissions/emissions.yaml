@@ -10,8 +10,6 @@
     unit: "{Level-1 Species}"
     tier: 1
     lower_bound: "{Level-1 Species}"
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
-      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -27,7 +25,7 @@
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Gross Removals|CO2'.
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
       including removals from bioenergy with CCS (BECCS), direct air carbon capture
@@ -35,7 +33,7 @@
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
@@ -65,7 +63,7 @@
     tier: 1
     lower_bound: 0
     notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' - 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
@@ -80,7 +78,7 @@
       - Gross Removals|CO2|AFOLU|Intentional
       - Gross Removals|CO2|AFOLU|Unintentional
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' - 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU|Intentional:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
