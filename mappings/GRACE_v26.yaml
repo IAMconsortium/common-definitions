@@ -1,0 +1,61 @@
+model: GRACE v26
+native_regions:
+- OCE: GRACE v26|Oceania
+- EAS: GRACE v26|East Asia
+- SEAS: GRACE v26|South-East Asia
+- SAS: GRACE v26|South Asia
+- WAS: GRACE v26|West Asia
+- NAMR: GRACE v26|North America
+- SAMR: GRACE v26|South America
+- EU: GRACE v26|Europe
+- AFR: GRACE v26|Africa
+- RoW: GRACE v26|Rest of the World
+common_regions:
+- World:
+  - OCE
+  - EAS
+  - SEAS
+  - SAS
+  - WAS
+  - NAMR
+  - SAMR
+  - EU
+  - AFR
+  - RoW
+# R5 regions
+- OECD & EU (R5):
+  - OCE
+  - NAMR
+  - EU
+- Reforming Economies (R5):
+  - RoW
+- Asia (R5):
+  - EAS
+  - SEAS
+  - SAS  
+- Latin America (R5):
+  - SAMR
+- Middle East & Africa (R5):
+  - WAS
+  - AFR
+# R10 regions
+- Pacific OECD (R10):
+  - OCE
+- Europe (R10):
+  - EU
+- Latin America (R10):
+  - SAMR
+- Middle East (R10):
+  - WAS
+- North America (R10):
+  - NAMR
+- Africa (R10):
+  - AFR
+- Reforming Economies (R10):
+  - RoW
+- India+ (R10):
+  - SAS
+- China+ (R10):   
+  - EAS
+- Rest of Asia (R10):   
+  - SEAS

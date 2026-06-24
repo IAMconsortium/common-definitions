@@ -1,0 +1,272 @@
+- GRACE v26:
+  - GRACE v26|Oceania:
+      countries:
+      - American Samoa
+      - Australia
+      - Fiji
+      - French Polynesia
+      - Guam
+      - Kiribati
+      - Marshall Islands
+      - Micronesia
+      - Nauru
+      - New Caledonia
+      - New Zealand
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Samoa
+      - Solomon Islands
+      - Tonga
+      - Tuvalu
+      - Vanuatu
+  - GRACE v26|East Asia:
+      countries:
+      - China
+      - Hong Kong
+      - Japan
+      - Macao
+      - Mongolia
+      - North Korea
+      - South Korea
+      - Taiwan
+  - GRACE v26|South-East Asia:
+      countries:
+      - Brunei Darussalam
+      - Cambodia
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thailand
+      - Timor-Leste
+      - Viet Nam
+  - GRACE v26|South Asia:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Bhutan
+      - India
+      - Maldives
+      - Nepal
+      - Pakistan
+      - Sri Lanka
+  - GRACE v26|West Asia:
+      countries:
+      - Bahrain
+      - Cyprus
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - Turkey
+      - United Arab Emirates
+      - Yemen
+  - GRACE v26|North America:
+      countries:
+      - Bermuda
+      - Canada
+      - Greenland
+      - Mexico
+      - United States
+  - GRACE v26|South America:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Argentina
+      - Belize
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Brazil
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Puerto Rico
+      - Suriname
+      - Trinidad and Tobago
+      - Uruguay
+      - Venezuela
+  - GRACE v26|Europe:
+      countries:
+      - Åland Islands
+      - Albania
+      - Austria
+      - Belgium
+      - Bulgaria
+      - Croatia
+      - Czechia
+      - Denmark
+      - Estonia
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Hungary
+      - Iceland
+      - Ireland
+      - Italy
+      - Latvia
+      - Liechtenstein
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Norway
+      - Poland
+      - Portugal
+      - Romania
+      - Serbia
+      - Slovakia
+      - Slovenia
+      - Spain
+      - Sweden
+      - Switzerland
+      - United Kingdom
+  - GRACE v26|Africa:
+      countries:
+      - Algeria
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Egypt
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Libya
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Morocco
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Rwanda
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Tunisia
+      - Uganda
+      - Western Sahara
+      - Zambia
+      - Zimbabwe
+  - GRACE v26|Rest of the World:
+      countries:
+      - Andorra
+      - Antarctica
+      - Armenia
+      - Aruba
+      - Azerbaijan
+      - Bahamas
+      - Barbados
+      - Belarus
+      - Bosnia and Herzegovina
+      - Bouvet Island
+      - British Indian Ocean Territory
+      - British Virgin Islands
+      - Cayman Islands
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Cook Islands
+      - Faroe Islands
+      - French Southern Territories
+      - Georgia
+      - Gibraltar
+      - Grenada
+      - Guadeloupe
+      - Guernsey
+      - Heard Island and McDonald Islands
+      - Isle of Man
+      - Jersey
+      - Kazakhstan
+      - Kosovo
+      - Kyrgyzstan
+      - Mayotte
+      - Moldova
+      - Monaco
+      - Montenegro
+      - Niue
+      - Norfolk Island
+      - North Macedonia
+      - Pitcairn
+      - Réunion
+      - Russian Federation
+      - Saint Barthélemy
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Pierre and Miquelon
+      - Saint Vincent and the Grenadines
+      - San Marino
+      - Sint Maarten (Dutch part)
+      - South Georgia and the South Sandwich Islands
+      - Svalbard and Jan Mayen
+      - Tajikistan
+      - Tokelau
+      - Turkmenistan
+      - Turks and Caicos Islands
+      - Ukraine
+      - United States Minor Outlying Islands
+      - United States Virgin Islands
+      - Uzbekistan
+      - Vatican
+      - Wallis and Futuna
+
