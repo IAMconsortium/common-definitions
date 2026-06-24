@@ -134,11 +134,11 @@
     unit: Mt CO2/yr
     tier: 2
 
-- Emissions|{Level-3 Species}|AFOLU|Agriculture:
-    description: Emissions of {Level-3 Species} from the agriculture sector
-      (IPCC 1996 category 4 - IPCC 2006 category 3A and 3C except 3C1)
+- Emissions|{Level-3 Species}|AFOLU|{AFOLU Emissions}:
+    description: Emissions of {Level-3 Species} from {AFOLU Emissions}
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
     description: Emissions of {Level-3 Species} from livestock in the agriculture sector
       (IPCC 1996 category 4A and 4B - IPCC 2006 category 3A)
@@ -231,6 +231,7 @@
       national greenhouse gas inventories (NGHGI)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
     notes: This variable is optional, for instance used for comparison with national
       greenhouse gas inventories, but is not used for driving climate model simulations,
       and also not a component of 'Emissions|*', for which the variable
