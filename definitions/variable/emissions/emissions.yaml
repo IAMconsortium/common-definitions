@@ -9,6 +9,7 @@
     description: Net emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
+    lower_bound: "{Level-1 Species}"
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -25,6 +26,7 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
 - Net Carbon Cycling:
     description: Net carbon dioxide (CO2) flux to the atmosphere that is neither a gross
       emission nor carbon removal, e.g., wood harvest followed by regrowth
