@@ -4,12 +4,12 @@
     - CO2:
         description: carbon dioxide (CO2)
         unit: Mt CO2/yr
-        lower_bound: None
+        lower_bound:  # no lower bound
     - Kyoto Gases:
         description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
         notes: Preferably use AR4 100-year GWPs for aggregation of different gases
         unit: Mt CO2-equiv/yr
-        lower_bound: None
+        lower_bound:  # no lower bound
     - CH4:
         description: methane (CH4)
         unit: Mt CH4/yr
