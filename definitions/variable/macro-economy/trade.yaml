@@ -1,8 +1,64 @@
+# Trade variables
+# Use "Export" for gross exports, "Import" for gross imports and "Trade" for net exports (exports minus imports)
+
+# Export - ISIC economic sectors
+- Export [Value]:
+    description: Total exports measured in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Export
+    engage: Export
+- Export|{Economic Sectors Level 2} [Value]:
+    description: Export of {Economic Sectors Level 2} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Export|{Economic Sectors Level 2}
+    engage: Export|{Economic Sectors Level 2}
+# Export - industrial commodities
+- Export|{Industry Trade Commodities} [Value]:
+    description: Export of {Industry Trade Commodities} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Export|{Industry Trade Commodities}
+    engage: Export|{Industry Trade Commodities}
+- Export|{Industry Trade Commodities} [Volume]:
+    description: Export of {Industry Trade Commodities} in physical quantities
+    unit: Mt/yr
+    tier: 2
+    navigate: Export|{Industry Trade Commodities}|Volume
+    engage: Export|{Industry Trade Commodities}|Volume
+# Import - ISIC economic sectors
+- Import [Value]:
+    description: Total imports measured in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Import
+    engage: Import
+- Import|{Economic Sectors Level 2} [Value]:
+    description: Import of {Economic Sectors Level 2} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Import|{Economic Sectors Level 2}
+    engage: Import|{Economic Sectors Level 2}
+# Import - industrial commodities
+- Import|{Industry Trade Commodities} [Value]:
+    description: Import of {Industry Trade Commodities} in monetary quantities
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Import|{Industry Trade Commodities}
+    engage: Import|{Industry Trade Commodities}
+- Import|{Industry Trade Commodities} [Volume]:
+    description: Import of {Industry Trade Commodities} in physical quantities
+    unit: Mt/yr
+    tier: 2
+    navigate: Import|{Industry Trade Commodities}|Volume
+    engage: Import|{Industry Trade Commodities}|Volume
+
 # trade in goods
 - Trade|Goods [Value]:
     description: Net exports of all goods measured in monetary quantities
     unit: billion USD_2010/yr
-    tier: 1
+    tier: 2
     navigate: Trade
     engage: Trade
 
@@ -60,3 +116,26 @@
       At the global level these should add up to the trade losses.
     engage: Trade|Secondary Energy|Liquids|{Energy Trade Type}
     navigate: Trade|Secondary Energy|Liquids|{Energy Trade Type}
+- Trade|Uranium [Value]:
+    description: Net exports of Uranium measured in monetary quantities
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    unit: billion USD_2010/yr
+    navigate: Trade|Uranium|Value
+    engage: Trade|Uranium|Value
+- Trade|Uranium [Volume]:
+    description: Net exports of uranium measured in physical energy quantities
+    notes: Negative values indicate that imports exceed exports.
+      At the global level these should add up to the trade losses.
+    unit: kt U/yr
+    navigate: Trade|Uranium|Mass
+    engage: Trade|Uranium|Mass
+
+# Tariffs
+- Tariffs|Imports [Average]:
+    description: Weighted average tariffs for imports 
+    unit: '%'
+    tier: 2
+    skip-region-aggregation: true
+    navigate: Tariffs|Average|Imports
+    engage: Tariffs|Average|Imports
