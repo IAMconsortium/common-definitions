@@ -1,0 +1,104 @@
+model: ODYM-RECC 2.5
+native_regions:
+  - R32CAN: ODYM-RECC 2.5|R32CAN
+  - R32CHN: ODYM-RECC 2.5|R32CHN
+  - R32EU12-M: ODYM-RECC 2.5|R32EU12-M
+  - R32IND: ODYM-RECC 2.5|R32IND
+  - R32JPN: ODYM-RECC 2.5|R32JPN
+  - R32USA: ODYM-RECC 2.5|R32USA
+  - France: ODYM-RECC 2.5|France
+  - Germany: ODYM-RECC 2.5|Germany
+  - Italy: ODYM-RECC 2.5|Italy
+  - Poland: ODYM-RECC 2.5|Poland
+  - Spain: ODYM-RECC 2.5|Spain
+  - UK: ODYM-RECC 2.5|UK
+  - Oth_R32EU15: ODYM-RECC 2.5|Oth_R32EU15
+  - Oth_R32EU12-H: ODYM-RECC 2.5|Oth_R32EU12-H
+  - R5.2OECD_Other: ODYM-RECC 2.5|R5.2OECD_Other
+  - R5.2REF_Other: ODYM-RECC 2.5|R5.2REF_Other
+  - R5.2ASIA_Other: ODYM-RECC 2.5|R5.2ASIA_Other
+  - R5.2MNF_Other: ODYM-RECC 2.5|R5.2MNF_Other
+  - R5.2SSA_Other: ODYM-RECC 2.5|R5.2SSA_Other
+  - R5.2LAM_Other: ODYM-RECC 2.5|R5.2LAM_Other
+common_regions:
+  - World:
+      - R32CAN
+      - R32CHN
+      - R32EU12-M
+      - R32IND
+      - R32JPN
+      - R32USA
+      - France
+      - Germany
+      - Italy
+      - Poland
+      - Spain
+      - UK
+      - Oth_R32EU15
+      - Oth_R32EU12-H
+      - R5.2OECD_Other
+      - R5.2REF_Other
+      - R5.2ASIA_Other
+      - R5.2MNF_Other
+      - R5.2SSA_Other
+      - R5.2LAM_Other
+
+  # R5 regions
+  - Asia (R5):
+      - R32CHN
+      - R32IND
+      - R5.2ASIA_Other
+  - Latin America (R5):
+      - R5.2LAM_Other
+  - Middle East & Africa (R5):
+      - R5.2MNF_Other
+      - R5.2SSA_Other
+  - OECD & EU (R5):
+      - R32CAN
+      - R32EU12-M
+      - R32JPN
+      - R32USA
+      - France
+      - Germany
+      - Italy
+      - Poland
+      - Spain
+      - UK
+      - Oth_R32EU15
+      - Oth_R32EU12-H
+      - R5.2OECD_Other
+  - Reforming Economies (R5):
+      - R5.2REF_Other
+
+  # R10 regions
+  - Africa (R10):
+      - R5.2SSA_Other
+  - China+ (R10):
+      - R32CHN
+  - Europe (R10):
+      - R32EU12-M
+      - France
+      - Germany
+      - Italy
+      - Poland
+      - Spain
+      - UK
+      - Oth_R32EU15
+      - Oth_R32EU12-H
+  - India+ (R10):
+      - R32IND
+  - Latin America (R10):
+      - R5.2LAM_Other
+  - Middle East (R10):
+      - R5.2MNF_Other
+  - North America (R10):
+      - R32USA
+      - R32CAN
+  - Pacific OECD (R10):
+      - R32JPN
+  - Reforming Economies (R10):
+      - R5.2REF_Other
+  - Rest of Asia (R10):
+      - R5.2ASIA_Other
+  - Other (R10):
+      - R5.2OECD_Other
