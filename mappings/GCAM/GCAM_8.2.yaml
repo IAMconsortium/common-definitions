@@ -1,4 +1,6 @@
-model: GCAM 8.2
+model:
+  - GCAM 8.2
+  - GCAM-China-SDU 8.2
 
 native_regions:
   - Africa_Eastern: GCAM 8.2|Africa_Eastern
