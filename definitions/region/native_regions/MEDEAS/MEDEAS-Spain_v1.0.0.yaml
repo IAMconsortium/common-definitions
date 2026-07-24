@@ -1,0 +1,6 @@
+- MEDEAS-Spain_v1.0.0:
+  - Spain:
+      description: Native region representing Spain
+      iso3_codes: ESP
+      countries:
+      - Spain
