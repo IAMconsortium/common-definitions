@@ -1,0 +1,40 @@
+# Aggregate variable
+- Material Footprint:
+    description: Total material footprint
+    unit: Mt/yr
+
+# Material footprint - Biomass
+- Material Footprint|Biomass:
+    description: Total material footprint of biomass
+    unit: Mt/yr
+- Material Footprint|Biomass|Primary Crops:
+    description: Total material footprint of primary crops
+    unit: Mt/yr
+- Material Footprint|Biomass|Crop Residues:
+    description: Total material footprint of crop residues
+    unit: Mt/yr
+- Material Footprint|Biomass|Grazed Biomass:
+    description: Total material footprint of grazed biomass
+    unit: Mt/yr
+- Material Footprint|Biomass|Forestry:
+    description: Total material footprint of forestry products (wood, timber, etc.)
+    unit: Mt/yr
+- Material Footprint|Biomass|Fishery:
+    description: Total material footprint in terms of fish catch, other aquatic animals, and aquatic plants
+    unit: Mt/yr
+
+# Material footprint - Mineral materials
+- Material Footprint|Mineral Materials:
+    description: Total material footprint due to the extraction of mineral materials
+    unit: Mt/yr
+- Material Footprint|Mineral Materials|Non-metallic Minerals:
+    description: Total material footprint due to the extraction of non-metallic minerals
+    unit: Mt/yr
+- Material Footprint|Mineral Materials|Metal Ores:
+    description: Total material footprint due to the extraction of metallic ores
+    unit: Mt/yr
+
+# Material footprint - Fossil fuels
+- Material Footprint|{Primary Fossil Fuel}:
+    description: Total material footprint due to the extraction of {Primary Fossil Fuel}
+    unit: Mt/yr

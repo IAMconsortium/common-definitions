@@ -1,0 +1,112 @@
+# Aggregate variables
+- Final Energy Footprint:
+    description: Final energy footprint by all fuels,
+      including non-energy use, excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 1
+- Primary Energy Footprint:
+    description: Primary energy footprint (direct equivalent)
+    unit: EJ/yr
+    tier: 1
+
+# Final energy footprint, Non-energy use
+- Final Energy Footprint|Non-Energy Use:
+    description: Final energy footprint in non-combustion processes
+    unit: EJ/yr
+    tier: 2
+
+# Final energy footprint by fuel
+- Final Energy Footprint|Electricity:
+    description: Final energy footprint of electricity (including on-site solar PV),
+      excluding transmission/distribution losses
+    unit: EJ/yr
+    tier: 1
+- Final Energy Footprint|{Secondary Fuel Level 1}:
+    description: Final energy footprint of {Secondary Fuel Level 2}
+    unit: EJ/yr
+    tier: 1
+- Final Energy Footprint|Geothermal:
+    description: Final energy footprint of geothermal energy (e.g., from decentralized
+      or small-scale geothermal heating systems) excluding geothermal heat pumps
+    unit: EJ/yr
+    tier: 1
+- Final Energy Footprint|Waste:
+    description: Final energy footprint of non-renewable waste
+    unit: EJ/yr
+    tier: 1
+- Final Energy Footprint|Solar:
+    description: Final energy footprint of solar-thermal heat
+      (e.g., from roof-top solar hot water collector systems)
+    unit: EJ/yr
+    tier: 1
+- Final Energy Footprint|Other:
+    description: Final energy footprint of other energy sources
+    unit: EJ/yr
+    tier: 2
+
+# Primary energy footprint by primary energy source
+- Primary Energy Footprint|Biomass:
+    description: Primary energy footprint of 2nd generation bioenergy crops, crop
+      and forestry residue, municipal solid waste bioenergy and traditional biomass
+    unit: EJ/yr
+    tier: 1
+- Primary Energy|Biomass|Modern:
+    description: Primary energy footprint of modern biomass, including 2nd generation
+      bioenergy crops, crop and forestry residue and municipal solid waste bioenergy
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|Traditional:
+    description: Primary energy footprint of traditional biomass including fuelwood
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|1st Generation:
+    description: Primary energy footprint from 1st generation biofuel crops
+      (e.g., sugar cane, rapeseed oil, maize, sugar beet)
+    unit: EJ/yr
+    tier: 1
+- Primary Energy|Biomass|Energy Crops:
+    description: Primary energy footprint from 2nd generation bioenergy crops
+      (short-rotation grasses and trees)
+    unit: EJ/yr
+    tier: 1
+- Primary Energy|Biomass|Residues:
+    description: Primary energy footprint from residues (crop, forest, other)
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|Residues|Crop Residues:
+    description: Primary energy footprint from crop residues
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|Residues|Forest Residues:
+    description: Primary energy footprint from forest residues
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|Residues|Other Residues:
+    description: Primary energy footprint from other residues
+    unit: EJ/yr
+    tier: 2
+- Primary Energy|Biomass|Other:
+    description: Primary energy footprint from other biomass sources
+    unit: EJ/yr
+    tier: 2
+
+- Primary Energy Footprint|Non-Biomass Renewables:
+    description: Primary energy footprint of renewable energy exluding biomass
+    unit: EJ/yr
+- Primary Energy Footprint|{Primary Non-Biomass Renewables}:
+    description: Primary energy footprint of {Primary Non-Biomass Renewables}
+    unit: EJ/yr
+
+- Primary Energy Footprint|Nuclear:
+    description: Primary energy footprint of nuclear power (direct equivalent),
+      includes electricity, heat and hydrogen production from nuclear energy)
+    unit: EJ/yr
+
+- Primary Energy Footprint|{Primary Fossil Fuel}:
+    description: Primary energy footprint of {Primary Fossil Fuel}
+    unit: EJ/yr
+
+- Primary Energy Footprint|Other:
+    description: Primary energy footprint from sources that do not fit any other
+      category (direct equivalent)
+    unit: EJ/yr

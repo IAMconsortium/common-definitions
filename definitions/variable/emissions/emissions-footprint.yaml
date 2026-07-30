@@ -1,0 +1,12 @@
+# Aggregate variables
+- Emissions Footprint|{Level-1 Species}:
+    description: Footprint in terms of emissions of {Level-1 Species} to the atmosphere
+    unit: "{Level-1 Species}"
+    tier: 1
+
+- Gross Emissions Footprint|CO2:
+    description: Footprint in terms of gross emissions of carbon dioxide (CO2), not accounting for
+      negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture
+      or agriculture, forestry and other land use (AFOLU)
+    unit: Mt CO2/yr
+    tier: 1
