@@ -22,7 +22,7 @@
     unit: EJ/yr
     tier: 1
 - Final Energy Footprint|{Secondary Fuel Level 1}:
-    description: Final energy footprint of {Secondary Fuel Level 2}
+    description: Final energy footprint of {Secondary Fuel Level 1}
     unit: EJ/yr
     tier: 1
 - Final Energy Footprint|Geothermal:
@@ -50,42 +50,42 @@
       and forestry residue, municipal solid waste bioenergy and traditional biomass
     unit: EJ/yr
     tier: 1
-- Primary Energy|Biomass|Modern:
+- Primary Energy Footprint|Biomass|Modern:
     description: Primary energy footprint of modern biomass, including 2nd generation
       bioenergy crops, crop and forestry residue and municipal solid waste bioenergy
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|Traditional:
+- Primary Energy Footprint|Biomass|Traditional:
     description: Primary energy footprint of traditional biomass including fuelwood
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|1st Generation:
+- Primary Energy Footprint|Biomass|1st Generation:
     description: Primary energy footprint from 1st generation biofuel crops
       (e.g., sugar cane, rapeseed oil, maize, sugar beet)
     unit: EJ/yr
     tier: 1
-- Primary Energy|Biomass|Energy Crops:
+- Primary Energy Footprint|Biomass|Energy Crops:
     description: Primary energy footprint from 2nd generation bioenergy crops
       (short-rotation grasses and trees)
     unit: EJ/yr
     tier: 1
-- Primary Energy|Biomass|Residues:
+- Primary Energy Footprint|Biomass|Residues:
     description: Primary energy footprint from residues (crop, forest, other)
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|Residues|Crop Residues:
+- Primary Energy Footprint|Biomass|Residues|Crop Residues:
     description: Primary energy footprint from crop residues
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|Residues|Forest Residues:
+- Primary Energy Footprint|Biomass|Residues|Forest Residues:
     description: Primary energy footprint from forest residues
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|Residues|Other Residues:
+- Primary Energy Footprint|Biomass|Residues|Other Residues:
     description: Primary energy footprint from other residues
     unit: EJ/yr
     tier: 2
-- Primary Energy|Biomass|Other:
+- Primary Energy Footprint|Biomass|Other:
     description: Primary energy footprint from other biomass sources
     unit: EJ/yr
     tier: 2
