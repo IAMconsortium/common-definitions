@@ -1,5 +1,5 @@
-- GTIMES-Tsinghua V2.0:
-  - GTIMES-Tsinghua V2.0|Africa:
+- GTIMES-Tsinghua v2.0:
+  - GTIMES-Tsinghua v2.0|Africa:
       countries:
       - Algeria
       - Angola
@@ -57,18 +57,18 @@
       - Western Sahara
       - Zambia
       - Zimbabwe
-  - GTIMES-Tsinghua V2.0|Australia & New Zealand:
+  - GTIMES-Tsinghua v2.0|Australia & New Zealand:
       countries:
       - Australia
       - Heard Island and McDonald Islands
       - New Zealand
-  - GTIMES-Tsinghua V2.0|Canada:
+  - GTIMES-Tsinghua v2.0|Canada:
       countries:
       - Canada
-  - GTIMES-Tsinghua V2.0|China:
+  - GTIMES-Tsinghua v2.0|China:
       countries:
       - China
-  - GTIMES-Tsinghua V2.0|Non European:
+  - GTIMES-Tsinghua v2.0|Non European:
       countries:
       - Albania
       - Andorra
@@ -88,7 +88,7 @@
       - Svalbard and Jan Mayen
       - Switzerland
       - Turkey
-  - GTIMES-Tsinghua V2.0|Former Soviet Union:
+  - GTIMES-Tsinghua v2.0|Former Soviet Union:
       countries:
       - Armenia
       - Azerbaijan
@@ -101,16 +101,16 @@
       - Turkmenistan
       - Ukraine
       - Uzbekistan
-  - GTIMES-Tsinghua V2.0|India:
+  - GTIMES-Tsinghua v2.0|India:
       countries:
       - India
-  - GTIMES-Tsinghua V2.0|Japan:
+  - GTIMES-Tsinghua v2.0|Japan:
       countries:
       - Japan
-  - GTIMES-Tsinghua V2.0|Korea:
+  - GTIMES-Tsinghua v2.0|Korea:
       countries:
       - South Korea
-  - GTIMES-Tsinghua V2.0|Latin America:
+  - GTIMES-Tsinghua v2.0|Latin America:
       countries:
       - Antarctica
       - Antigua and Barbuda
@@ -160,7 +160,7 @@
       - Turks and Caicos Islands
       - Uruguay
       - Venezuela
-  - GTIMES-Tsinghua V2.0|Middle East:
+  - GTIMES-Tsinghua v2.0|Middle East:
       countries:
       - Bahrain
       - Iran
@@ -176,7 +176,7 @@
       - Syria
       - United Arab Emirates
       - Yemen
-  - GTIMES-Tsinghua V2.0|Southeast Asia:
+  - GTIMES-Tsinghua v2.0|Southeast Asia:
       countries:
       - Afghanistan
       - Åland Islands
@@ -233,7 +233,7 @@
       - Vanuatu
       - Viet Nam
       - Wallis and Futuna
-  - GTIMES-Tsinghua V2.0|United States:
+  - GTIMES-Tsinghua v2.0|United States:
       countries:
       - American Samoa
       - Guam
@@ -242,7 +242,7 @@
       - United States
       - United States Minor Outlying Islands
       - United States Virgin Islands
-  - GTIMES-Tsinghua V2.0|European:
+  - GTIMES-Tsinghua v2.0|European:
       countries:
       - Austria
       - Belgium
@@ -277,4 +277,3 @@
       - Sweden
       - United Kingdom
       - Vatican
-  - GTIMES-Tsinghua V2.0|world

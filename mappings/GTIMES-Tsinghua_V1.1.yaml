@@ -1,20 +1,19 @@
-model: GTIMES-Tsinghua V1.1
+model: GTIMES-Tsinghua v1.1
 native_regions:
-- AFR: GTIMES-Tsinghua V1.1|Africa
-- ANZ: GTIMES-Tsinghua V1.1|Australia & New Zealand
-- CAN: GTIMES-Tsinghua V1.1|Canada
-- CHN: GTIMES-Tsinghua V1.1|China
-- EEU: GTIMES-Tsinghua V1.1|East Europe
-- FSU: GTIMES-Tsinghua V1.1|Former Soviet Union
-- IND: GTIMES-Tsinghua V1.1|India
-- JAP: GTIMES-Tsinghua V1.1|Japan
-- KOR: GTIMES-Tsinghua V1.1|Korea
-- LAM: GTIMES-Tsinghua V1.1|Latin America
-- MEA: GTIMES-Tsinghua V1.1|Middle East
-- ODA: GTIMES-Tsinghua V1.1|Southeast Asia
-- USA: GTIMES-Tsinghua V1.1|United States
-- WEU: GTIMES-Tsinghua V1.1|West Europe
-- world: GTIMES-Tsinghua V1.1|world
+- AFR: GTIMES-Tsinghua v1.1|Africa
+- ANZ: GTIMES-Tsinghua v1.1|Australia & New Zealand
+- CAN: GTIMES-Tsinghua v1.1|Canada
+- CHN: GTIMES-Tsinghua v1.1|China
+- EEU: GTIMES-Tsinghua v1.1|East Europe
+- FSU: GTIMES-Tsinghua v1.1|Former Soviet Union
+- IND: GTIMES-Tsinghua v1.1|India
+- JAP: GTIMES-Tsinghua v1.1|Japan
+- KOR: GTIMES-Tsinghua v1.1|Korea
+- LAM: GTIMES-Tsinghua v1.1|Latin America
+- MEA: GTIMES-Tsinghua v1.1|Middle East
+- ODA: GTIMES-Tsinghua v1.1|Southeast Asia
+- USA: GTIMES-Tsinghua v1.1|United States
+- WEU: GTIMES-Tsinghua v1.1|West Europe
 common_regions:
 - World:
   - AFR
