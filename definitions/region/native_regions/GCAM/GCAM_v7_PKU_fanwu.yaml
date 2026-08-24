@@ -1,0 +1,114 @@
+- GCAM-v7-PKU-fanwu:
+    - GCAM-v7-PKU-fanwu|Africa_Eastern:
+        countries: [
+          Burundi, Comoros, Djibouti, Eritrea, Ethiopia, Kenya, Madagascar, Mauritius,
+          Réunion, Rwanda, Somalia, Sudan, South Sudan, Uganda
+        ]
+    - GCAM-v7-PKU-fanwu|Africa_Northern:
+        countries: [
+          Algeria, Egypt, Libya, Morocco, Tunisia, Western Sahara
+        ]
+    - GCAM-v7-PKU-fanwu|Africa_Southern:
+        countries: [
+          Angola, Mozambique, Malawi, Lesotho, Botswana, Tanzania, Namibia, Eswatini,
+          Zambia, Zimbabwe
+        ]
+    - GCAM-v7-PKU-fanwu|Africa_Western:
+        countries: [
+          Benin, Congo, Democratic Republic of the Congo, Cameroon, Chad,
+          Central African Republic, Cabo Verde, Equatorial Guinea, Gambia, Gabon, Ghana,
+          Guinea, Côte d'Ivoire, Liberia, Mali, Mauritania, Niger, Nigeria, Guinea-Bissau,
+          Senegal, Sierra Leone, Togo, Sao Tome and Principe, Burkina Faso,
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ]
+    - GCAM-v7-PKU-fanwu|Argentina:
+        countries: Argentina
+    - GCAM-v7-PKU-fanwu|Australia and New Zealand:
+        countries: [ Australia, New Zealand ]
+    - GCAM-v7-PKU-fanwu|Brazil:
+        countries: Brazil
+    - GCAM-v7-PKU-fanwu|Canada:
+        countries: Canada
+    - GCAM-v7-PKU-fanwu|Central America and Caribbean:
+        countries: [
+          Antigua and Barbuda, Barbados, Bermuda, Bahamas, Belize, Cayman Islands,
+          Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala,
+          Haiti, Honduras, Jamaica, Martinique, Montserrat, Aruba, Anguilla, Nicaragua,
+          Panama, Saint Kitts and Nevis, Saint Lucia, Trinidad and Tobago,
+          Saint Vincent and the Grenadines, Guadeloupe,
+          "Bonaire, Sint Eustatius and Saba", Curaçao, Saint Martin (French part),
+          Sint Maarten (Dutch part)
+        ]
+    - GCAM-v7-PKU-fanwu|Central Asia:
+        countries: [
+          Azerbaijan, Armenia, Georgia, Kyrgyzstan, Kazakhstan, Mongolia, Tajikistan,
+          Turkmenistan, Uzbekistan
+        ]
+    - GCAM-v7-PKU-fanwu|China:
+        countries: [ China, Hong Kong, Macao ]
+    - GCAM-v7-PKU-fanwu|Colombia:
+        countries: Colombia
+    - GCAM-v7-PKU-fanwu|EU-12:
+        countries: [
+          Bulgaria, Cyprus, Estonia, Czechia, Hungary, Latvia, Lithuania, Slovakia,
+          Malta, Poland, Romania, Slovenia
+        ]
+    - GCAM-v7-PKU-fanwu|EU-15:
+        countries: [
+          Denmark, Ireland, Austria, Finland, Falkland Islands (Malvinas), France,
+          Greenland, Germany, Greece, Italy, Belgium, Faroe Islands, Andorra, Gibraltar,
+          Isle of Man, Luxembourg, Monaco, Netherlands, Portugal, Spain, Sweden,
+          United Kingdom, British Virgin Islands, Saint Pierre and Miquelon, San Marino,
+          Turks and Caicos Islands, Guernsey, Jersey, Vatican
+        ]
+    - GCAM-v7-PKU-fanwu|Europe_Eastern:
+        countries: [ Belarus, Moldova, Ukraine ]
+    - GCAM-v7-PKU-fanwu|Europe_Non_EU:
+        countries: [
+          Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro,
+          Turkey, Serbia
+        ]
+    - GCAM-v7-PKU-fanwu|European Free Trade Association:
+        countries: [ Iceland, Liechtenstein, Norway, Switzerland, Svalbard and Jan Mayen ]
+    - GCAM-v7-PKU-fanwu|India:
+        countries: India
+    - GCAM-v7-PKU-fanwu|Indonesia:
+        countries: Indonesia
+    - GCAM-v7-PKU-fanwu|Japan:
+        countries: Japan
+    - GCAM-v7-PKU-fanwu|Mexico:
+        countries: Mexico
+    - GCAM-v7-PKU-fanwu|Middle East:
+        countries: [
+          Bahrain, Iran, Israel, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar,
+          Saudi Arabia, Syria, Yemen, United Arab Emirates
+        ]
+    - GCAM-v7-PKU-fanwu|Pakistan:
+        countries: Pakistan
+    - GCAM-v7-PKU-fanwu|Russia:
+        countries: Russian Federation
+    - GCAM-v7-PKU-fanwu|South Africa:
+        countries: South Africa
+    - GCAM-v7-PKU-fanwu|South America_Northern:
+        countries: [ French Guiana, Guyana, Suriname, Venezuela ]
+    - GCAM-v7-PKU-fanwu|South America_Southern:
+        countries: [ Bolivia, Chile, Ecuador, Paraguay, Peru, Uruguay ]
+    - GCAM-v7-PKU-fanwu|South Asia:
+        countries: [ Bangladesh, Sri Lanka, Afghanistan, Bhutan, Maldives, Nepal ]
+    - GCAM-v7-PKU-fanwu|South Korea:
+        countries: South Korea
+    - GCAM-v7-PKU-fanwu|Southeast Asia:
+        countries: [
+          American Samoa, Myanmar, Solomon Islands, Brunei Darussalam, Cambodia,
+          Cook Islands, Fiji, Micronesia, French Polynesia, Guam, North Korea, Kiribati,
+          Laos, Malaysia, New Caledonia, Niue, Northern Mariana Islands, Mayotte,
+          Norfolk Island, Cocos (Keeling) Islands, Christmas Island, Vanuatu, Nauru,
+          Papua New Guinea, Philippines, Seychelles, Singapore, Thailand, Tokelau,
+          Tonga, Tuvalu, Viet Nam, Samoa, Timor-Leste, Palau, Marshall Islands,
+          Pitcairn, Wallis and Futuna
+        ]
+    - GCAM-v7-PKU-fanwu|Taiwan:
+        countries: Taiwan
+    - GCAM-v7-PKU-fanwu|USA:
+        countries: [ Puerto Rico, United States, United States Virgin Islands ]
+
