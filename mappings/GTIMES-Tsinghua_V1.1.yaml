@@ -4,7 +4,7 @@ native_regions:
 - ANZ: GTIMES-Tsinghua v1.1|Australia & New Zealand
 - CAN: GTIMES-Tsinghua v1.1|Canada
 - CHN: GTIMES-Tsinghua v1.1|China
-- EEU: GTIMES-Tsinghua v1.1|East Europe
+- EEU: GTIMES-Tsinghua v1.1|Eastern Europe
 - FSU: GTIMES-Tsinghua v1.1|Former Soviet Union
 - IND: GTIMES-Tsinghua v1.1|India
 - JAP: GTIMES-Tsinghua v1.1|Japan
@@ -13,7 +13,7 @@ native_regions:
 - MEA: GTIMES-Tsinghua v1.1|Middle East
 - ODA: GTIMES-Tsinghua v1.1|Southeast Asia
 - USA: GTIMES-Tsinghua v1.1|United States
-- WEU: GTIMES-Tsinghua v1.1|West Europe
+- WEU: GTIMES-Tsinghua v1.1|Western Europe
 common_regions:
 - World:
   - AFR

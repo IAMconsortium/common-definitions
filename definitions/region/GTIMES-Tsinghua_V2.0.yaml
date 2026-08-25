@@ -68,7 +68,7 @@
   - GTIMES-Tsinghua v2.0|China:
       countries:
       - China
-  - GTIMES-Tsinghua v2.0|Non European:
+  - GTIMES-Tsinghua v2.0|Non-EU Europe:
       countries:
       - Albania
       - Andorra
@@ -242,7 +242,7 @@
       - United States
       - United States Minor Outlying Islands
       - United States Virgin Islands
-  - GTIMES-Tsinghua v2.0|European:
+  - GTIMES-Tsinghua v2.0|European Union:
       countries:
       - Austria
       - Belgium
