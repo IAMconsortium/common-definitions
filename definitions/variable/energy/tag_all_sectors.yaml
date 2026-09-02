@@ -24,6 +24,7 @@
     - Industry|Non-Metallic Minerals|Cement:
         description: cement sector
         tier: ^1
+        ngfs5: Industry|Cement
     - Industry|Non-Metallic Minerals|Other Minerals:
         description: non-metallic minerals sector excluding cement
         tier: ^1
