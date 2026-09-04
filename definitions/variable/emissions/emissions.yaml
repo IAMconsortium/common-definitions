@@ -11,6 +11,9 @@
     tier: 1
     notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+      Emissions from bunker fuels used in international aviation and international shipping
+      are not included in national or regional totals, but should be included in global
+      totals.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
