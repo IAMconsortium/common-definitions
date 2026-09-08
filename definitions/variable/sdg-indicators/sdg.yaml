@@ -53,6 +53,24 @@
     range: [ 0, 100 ]
     sdg: 1
     weight: GDP|PPP
+- Expenditure|Households|Residential Energy [Share]:
+    description: Share of expenditures on residential energy in total income (including value added from energy processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 7
+    weight: Population
+- Expenditure|Households|Residential Energy|{Population Deciles} [Share]:
+    description: Share of expenditures on residential energy in total income (including value added from energy processing chain) accruing to the {Population Deciles} decile
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 7
+    skip-region-aggregation: true
+- Expenditure|Households|Residential Energy and Food [Share]:
+    description: Share of expenditures on residential energy and food in total income (including value added from energy and food processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 1
+    weight: Population
 - Population|Prevalence of Underweight:
     description: Number of adults with body mass index (BMI) lower than 18.5 and
       children with BMI lower than two standard deviations from reference
@@ -97,6 +115,11 @@
 - Health|Premature Deaths|PM2.5:
     description: Number of premature deaths associated with increased health risks from
       exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
+    unit: million
+    sdg: 3
+- Health|Premature Deaths|Ozone:
+    description: Number of premature deaths associated with increased health risks from
+      exposure to air pollution of ozone (O3)
     unit: million
     sdg: 3
 - Health|Disability-Adjusted Life Years|PM2.5:
