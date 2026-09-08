@@ -10,11 +10,11 @@
     description: Total value added
     unit: billion USD_2010/yr
     tier: 1
-- Value Added|{Economic Sectors Level 2}:
-    description: Value added by the {Economic Sectors Level 2}
+- Value Added|{Economic Sectors Level 3}:
+    description: Value added by the {Economic Sectors Level 3}
     unit: billion USD_2010/yr
     tier: 1
-    navigate: Value Added|{Economic Sectors Level 2}
+    navigate: Value Added|{Economic Sectors Level 3}
 - Capital Formation:
     description: Net additions to the physical capital stock
     unit: billion USD_2010/yr
