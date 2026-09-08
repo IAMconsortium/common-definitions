@@ -11,3 +11,5 @@ rename:
  - Final Energy|Non-Energy Use|Oil:  Final Energy|Non-Energy Use|Liquids|Oil
  - Agricultural Production|Energy|Crops: Agricultural Production|Crops|Energy Crops
  - Final Energy|Industry|Chemicals|Ammonia|Solids|Fossil: Final Energy|Industry|Chemicals|Ammonia|Solids|Coal
+ - Transport|Stock|Road|Passenger|Bus: Stocks|Transportation|Bus
+ - Transport|Stock|Road|Passenger|LDV: Stocks|Transportation|Light-Duty Vehicle

@@ -370,6 +370,7 @@
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
     unit: "{Level-2 Species}"
     tier: 2
+    ngfs5: Emissions|{Level-2 Species}|Residential and Commercial
 - Emissions|{Level-3 Species}|Energy|Demand|Residential and Commercial|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in residential, commercial and institutional sectors (IPCC category 1A4a and 1A4b)
