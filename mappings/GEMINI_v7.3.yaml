@@ -1,0 +1,89 @@
+model:
+- GEMINI 7.3
+native_regions:
+- ASI: GEMINI 7.3|ASI
+- CHI: GEMINI 7.3|CHI
+- ROW: GEMINI 7.3|ROW
+- IND: GEMINI 7.3|IND
+- USA: GEMINI 7.3|USA
+- CSA: GEMINI 7.3|CSA
+- EU27: GEMINI 7.3|EU27
+- RUS: GEMINI 7.3|RUS
+- MID: GEMINI 7.3|MID
+- AFR: GEMINI 7.3|AFR
+common_regions:
+- World:
+  - ASI
+  - CHI
+  - ROW
+  - IND
+  - USA
+  - CSA
+  - EU27
+  - RUS
+  - MID
+  - AFR
+
+  # R5 regions
+- OECD & EU (R5):
+  - EU27
+  - USA
+- Reforming Economies (R5):
+  - RUS
+- Asia (R5):
+  - CHI
+  - IND
+  - ASI
+- Middle East & Africa (R5):
+  - MID
+  - AFR
+- Latin America (R5):
+  - CSA
+
+  # R9 regions
+- European Union (R9):
+  - EU27
+- USA (R9):
+  - USA
+- China (R9):
+  - CHI
+- India (R9):
+  - IND
+- Other Asia (R9):
+  - ASI
+- Reforming Economies (R9):
+  - RUS
+- Latin America (R9):
+  - CSA
+- Middle East & Africa (R9):
+  - MID
+  - AFR
+
+
+  # R10 regions
+- Africa (R10):
+  - AFR
+- China+ (R10):
+  - CHI
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - CSA
+- Middle East (R10):
+  - MID
+- North America (R10):
+  - USA
+- Reforming Economies (R10):
+  - RUS
+
+# mapping for G20 members
+- China:
+  - CHI
+- India:
+  - IND
+- United States:
+  - USA
+- European Union:
+  - EU27
+- African Union:
+  - AFR
