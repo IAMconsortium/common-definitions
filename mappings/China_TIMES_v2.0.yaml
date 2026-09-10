@@ -1,0 +1,10 @@
+model: China TIMES v2.0
+native_regions:
+- China: China TIMES v2.0|China
+common_regions:
+- Asia (R5):
+  - China
+- China+ (R10):
+  - China
+- China (R9):
+  - China
