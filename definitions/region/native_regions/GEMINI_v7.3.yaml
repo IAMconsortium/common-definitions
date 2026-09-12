@@ -3,12 +3,10 @@
       countries:
       - Australia
       - New Zealand
-      - Rest of Oceania
       - Japan
-      - Korea
+      - South Korea
       - Mongolia
-      - Taiwan Province of China
-      - Rest of East Asia
+      - Taiwan
       - Brunei Darussalam
       - Cambodia
       - Indonesia
@@ -33,7 +31,6 @@
       - United Kingdom
       - Switzerland
       - Norway
-      - Rest of EFTA
       - Albania
       - Serbia
       - Belarus
@@ -46,13 +43,13 @@
       - Azerbaijan
       - Georgia
       - Israel
-      - T rkiye
+      - Turkey
   - GEMINI 7.3|IND:
       countries:
       - India
   - GEMINI 7.3|USA:
       countries:
-      - United States of America
+      - United States
   - GEMINI 7.3|CSA:
       countries:
       - Mexico
@@ -77,7 +74,6 @@
       - Jamaica
       - Puerto Rico
       - Trinidad and Tobago
-      - Caribbean
   - GEMINI 7.3|EU27:
       countries:
       - Austria
@@ -113,7 +109,7 @@
   - GEMINI 7.3|MID:
       countries:
       - Bahrain
-      - Iran (Islamic Republic of)
+      - Iran
       - Iraq
       - Jordan
       - Kuwait
@@ -122,7 +118,7 @@
       - Palestine
       - Qatar
       - Saudi Arabia
-      - Syrian Arab Republic
+      - Syria
       - United Arab Emirates
   - GEMINI 7.3|AFR:
       countries:
@@ -133,7 +129,7 @@
       - Benin
       - Burkina Faso
       - Cameroon
-      - C te d'Ivoire
+      - Côte d'Ivoire
       - Ghana
       - Guinea
       - Mali
@@ -144,10 +140,9 @@
       - Central African Republic
       - Chad
       - Congo
-      - Democratic Republic of the Con
+      - Democratic Republic of the Congo
       - Equatorial Guinea
       - Gabon
-      - South-Central Africa
       - Comoros
       - Ethiopia
       - Kenya
@@ -157,13 +152,11 @@
       - Mozambique
       - Rwanda
       - Sudan
-      - United Republic of Tanzania
+      - Tanzania
       - Uganda
       - Zambia
       - Zimbabwe
-      - Rest of Eastern Africa
       - Botswana
       - Eswatini
       - Namibia
       - South Africa
-      - Rest of Southern African Custo
