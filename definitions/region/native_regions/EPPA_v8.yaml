@@ -1,0 +1,74 @@
+# The model documentation and regional aggregation for EPPA version 8 can be found
+# at https://www.scirp.org/journal/paperinformation?paperid=118216
+- EPPA 8:
+    - EPPA 8|United States:
+        countries: United States
+    - EPPA 8|Canada:
+        countries: Canada
+    - EPPA 8|Mexico:
+        countries: Mexico
+    - EPPA 8|Japan:
+        countries: Japan
+    - EPPA 8|Australia and New Zealand:
+        countries: [
+          Australia, New Zealand
+        ]
+    - EPPA 8|Europe:
+        countries: [
+          Austria, Belgium, Bulgaria, Switzerland, Cyprus, Czechia, Germany, Denmark,
+          Spain, Estonia, Finland, France, United Kingdom, Greece, Croatia, Hungary,
+          Ireland, Italy, Lithuania, Luxembourg, Latvia, Malta, Netherlands, Norway,
+          Poland, Portugal, Romania, Slovakia, Slovenia, Sweden, Iceland, Liechtenstein
+        ]
+    - EPPA 8|Rest of Europe:
+        countries: [
+          Albania, Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan,
+          Turkey, Ukraine, Moldova, Andorra, Bosnia and Herzegovina, Faroe Islands,
+          Gibraltar, Guernsey, Isle of Man, Jersey, Kosovo, Monaco, Montenegro,
+          North Macedonia, San Marino, Turkmenistan
+        ]
+    - EPPA 8|Russia:
+        countries: Russian Federation
+    - EPPA 8|East Asia:
+        countries: [
+          Malaysia, Philippines, Singapore, Taiwan, Thailand
+        ]
+    - EPPA 8|China:
+        countries: [
+          China, Hong Kong
+        ]
+    - EPPA 8|India:
+        countries: India
+    - EPPA 8|Brazil:
+        countries: Brazil
+    - EPPA 8|Africa:
+        countries: [
+          Benin, Burkina Faso, Botswana, Côte d'Ivoire, Cameroon, Egypt, Ethiopia,
+          Ghana, Guinea, Kenya, Morocco, Madagascar, Mozambique, Mauritius, Malawi,
+          Namibia, Nigeria, Rwanda, Senegal, Togo, Tunisia, Tanzania, Uganda, Djibouti,
+          Eritrea, Mayotte, Seychelles, Somalia, South Sudan, Libya, Western Sahara,
+          Lesotho, Cabo Verde, Gambia, Guinea-Bissau, Liberia, Sierra Leone,
+          South Africa, Zambia, Zimbabwe
+        ]
+    - EPPA 8|Middle East:
+        countries: [
+          United Arab Emirates, Bahrain, Iran, Israel, Jordan, Kuwait, Oman, Qatar,
+          Saudi Arabia, Yemen
+        ]
+    - EPPA 8|Latin America:
+        countries: [
+          Argentina, Bolivia, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador,
+          Guatemala, Honduras, Jamaica, Nicaragua, Panama, Peru, Puerto Rico, Paraguay,
+          El Salvador, Trinidad and Tobago, Uruguay, Venezuela, Belize, Bermuda,
+          Greenland, Saint Pierre and Miquelon, Falkland Islands (Malvinas),
+          French Guiana, Guyana, South Georgia and the South Sandwich Islands, Suriname
+        ]
+    - EPPA 8|Rest of Asia:
+        countries: [
+          Bangladesh, Brunei Darussalam, Cambodia, Laos, Sri Lanka, Mongolia, Nepal, Pakistan,
+          Viet Nam, Macao, North Korea, Bhutan, Maldives, Myanmar, Timor-Leste
+        ]
+    - EPPA 8|South Korea:
+        countries: South Korea
+    - EPPA 8|Indonesia:
+        countries: Indonesia
