@@ -11,21 +11,21 @@
         countries: Japan
     - EPPA 8|Australia and New Zealand:
         countries: [
-          Australia, New zealand
+          Australia, New Zealand
         ]
     - EPPA 8|Europe:
         countries: [
-          Austria, Belgium, Bulgaria, Switzerland, Cyprus, Czech Republic, Germany, Denmark, 
+          Austria, Belgium, Bulgaria, Switzerland, Cyprus, Czechia, Germany, Denmark,
           Spain, Estonia, Finland, France, United Kingdom, Greece, Croatia, Hungary,
           Ireland, Italy, Lithuania, Luxembourg, Latvia, Malta, Netherlands, Norway,
           Poland, Portugal, Romania, Slovakia, Slovenia, Sweden, Iceland, Liechtenstein
         ]
     - EPPA 8|Rest of Europe:
         countries: [
-          Albania, Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Turkey,
-          Ukraine, Republic of Moldova, Andorra, Bosnia and Herzegovina, Faroe Islands, Gibraltar, Guernsey, Holy See, 
-          Isle of Man, Jersey, Kosovo, Monaco, Montenegro, North Macedonia, San Marino, Sark, 
-          Turkmenistan
+          Albania, Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan,
+          Turkey, Ukraine, Moldova, Andorra, Bosnia and Herzegovina, Faroe Islands,
+          Gibraltar, Guernsey, Isle of Man, Jersey, Kosovo, Monaco, Montenegro,
+          North Macedonia, San Marino, Turkmenistan
         ]
     - EPPA 8|Russia:
         countries: Russian Federation
@@ -43,32 +43,32 @@
         countries: Brazil
     - EPPA 8|Africa:
         countries: [
-          Benin, Burkina Faso, Botswana, Cote d'Ivoire, Cameroon, Egypt, Ethiopia, Ghana,
-          Guinea, Kenya, Morocco, Madagascar, Mozambique, Mauritius, Malawi, Namibia, 
-          Nigeria, Rwanda, Senegal, Togo, Tunisia, Tanzania United Republic of, Uganda, South Central Africa,
-          Central Africa, Djibouti, Eritrea, Mayotte, Seychelles, Somalia, South Sudan, Libya, 
-          Western Sahara, Lesotho, Cabo Verde, Gambia, Guinea-Bissau, Liberia, Saint Helena, Sierra Leone, 
+          Benin, Burkina Faso, Botswana, Côte d'Ivoire, Cameroon, Egypt, Ethiopia,
+          Ghana, Guinea, Kenya, Morocco, Madagascar, Mozambique, Mauritius, Malawi,
+          Namibia, Nigeria, Rwanda, Senegal, Togo, Tunisia, Tanzania, Uganda, Djibouti,
+          Eritrea, Mayotte, Seychelles, Somalia, South Sudan, Libya, Western Sahara,
+          Lesotho, Cabo Verde, Gambia, Guinea-Bissau, Liberia, Sierra Leone,
           South Africa, Zambia, Zimbabwe
         ]
     - EPPA 8|Middle East:
         countries: [
-          United Arab Emirates, Bahrain, Iran Islamic Republic of, Israel, Jordan, Kuwait, Oman, Qatar,
+          United Arab Emirates, Bahrain, Iran, Israel, Jordan, Kuwait, Oman, Qatar,
           Saudi Arabia, Yemen
         ]
     - EPPA 8|Latin America:
         countries: [
-          Argentina, Plurinational Republic of Bolivia, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala,
-          Honduras, Jamaica, Nicaragua, Panama, Peru, Puerto Rico, Paraguay, El Salvador,
-          Trinidad and Tobago, Uruguay, Venezuela, Belize, Caribbean, Bermuda, Greenland, Saint Pierre and Miquelon, 
-          Falkland Islands (Malvinas), French Guiana, Guyana, South Georgia and the South Sandwich Islands, Suriname
+          Argentina, Bolivia, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador,
+          Guatemala, Honduras, Jamaica, Nicaragua, Panama, Peru, Puerto Rico, Paraguay,
+          El Salvador, Trinidad and Tobago, Uruguay, Venezuela, Belize, Bermuda,
+          Greenland, Saint Pierre and Miquelon, Falkland Islands (Malvinas),
+          French Guiana, Guyana, South Georgia and the South Sandwich Islands, Suriname
         ]
     - EPPA 8|Rest of Asia:
         countries: [
-          Bangladesh, Brunei, Cambodia, Lao People's Democratic Republic, Sri Lanka, Mongolia, Nepal, Pakistan,
-          Viet Nam, Macao Special Administrative Region of China, Democratic People's Republic of Korea, Bhutan, Maldives, Myanmar, Timor-Leste
+          Bangladesh, Brunei Darussalam, Cambodia, Laos, Sri Lanka, Mongolia, Nepal, Pakistan,
+          Viet Nam, Macao, North Korea, Bhutan, Maldives, Myanmar, Timor-Leste
         ]
     - EPPA 8|Korea:
         countries: South Korea
     - EPPA 8|Indonesia:
         countries: Indonesia
-
