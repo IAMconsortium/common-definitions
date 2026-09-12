@@ -1,8 +1,8 @@
 # The model documentation and regional aggregation for EPPA version 8 can be found
 # at https://www.scirp.org/journal/paperinformation?paperid=118216
 - EPPA 8:
-    - EPPA 8|USA:
-        countries: USA
+    - EPPA 8|United States:
+        countries: United States
     - EPPA 8|Canada:
         countries: Canada
     - EPPA 8|Mexico:
@@ -68,7 +68,7 @@
           Bangladesh, Brunei Darussalam, Cambodia, Laos, Sri Lanka, Mongolia, Nepal, Pakistan,
           Viet Nam, Macao, North Korea, Bhutan, Maldives, Myanmar, Timor-Leste
         ]
-    - EPPA 8|Korea:
+    - EPPA 8|South Korea:
         countries: South Korea
     - EPPA 8|Indonesia:
         countries: Indonesia
