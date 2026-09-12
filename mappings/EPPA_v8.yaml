@@ -1,0 +1,146 @@
+model:
+  - EPPA 8
+
+native_regions:
+  - USA: EPPA 8|United States
+  - CAN: EPPA 8|Canada
+  - MEX: EPPA 8|Mexico
+  - JPN: EPPA 8|Japan
+  - ANZ: EPPA 8|Australia - New Zealand
+  - EUR: EPPA 8|Europe
+  - ROE: EPPA 8|Rest of Europe
+  - RUS: EPPA 8|Russia
+  - ASI: EPPA 8|East Asia
+  - CHN: EPPA 8|China
+  - IND: EPPA 8|India
+  - BRA: EPPA 8|Brazil
+  - AFR: EPPA 8|Africa
+  - MES: EPPA 8|Middle East
+  - LAM: EPPA 8|Latin America
+  - REA: EPPA 8|Rest of Asia
+  - KOR: EPPA 8|South Korea
+  - IDZ: EPPA 8|Indonesia
+
+common_regions:
+  - World:
+      - USA	
+      - CAN	
+      - MEX	
+      - JPN	
+      - ANZ	
+      - EUR	
+      - ROE	
+      - RUS	
+      - ASI	
+      - CHN	
+      - IND	
+      - BRA	
+      - AFR	
+      - MES	
+      - LAM	
+      - REA	
+      - KOR	
+      - IDZ	
+
+  # R5 regions
+  - OECD & EU (R5):
+      - USA
+      - CAN
+      - EUR
+      - JPN
+      - ANZ
+  - Reforming Economies (R5):
+      - RUS
+      - ROE
+  - Asia (R5):
+      - JPN
+      - ASI
+      - IND
+      - IDZ
+      - KOR
+      - REA
+      - CHN
+  - Middle East & Africa (R5):
+      - MES
+      - AFR
+  - Latin America (R5):
+      - BRA
+      - LAM
+
+  # R9 regions
+  - European Union (R9):
+      - EUR
+
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - CAN
+      - JPN
+      - ANZ
+  - China (R9):
+      - CHN
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - ASI
+      - IDZ
+      - KOR
+      - REA
+  - Reforming Economies (R9):
+      - RUS
+      - ROE
+  - Latin America (R9):
+      - BRA
+      - MEX
+      - LAM
+  - Middle East & Africa (R9):
+      - MES
+      - AFR
+
+  # R10 regions
+  - Africa (R10):
+      - AFR
+  - China+ (R10):
+      - CHN
+      - KOR
+  - Europe (R10):
+      - EUR
+      - ROE
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - MEX
+      - LAM
+      - BRA
+  - Middle East (R10):
+      - MES
+  - North America (R10):
+      - USA
+      - CAN
+  - Pacific OECD (R10):
+      - JPN
+      - ANZ
+  - Reforming Economies (R10):
+      - RUS
+      - ROE
+  - Rest of Asia (R10):
+      - ASI
+      - REA
+
+  # mapping for G20 members
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHN
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - South Korea:
+      - KOR
+  - United States:
+      - USA
+  - African Union:
+      - AFR
