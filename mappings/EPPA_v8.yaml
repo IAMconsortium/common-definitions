@@ -23,24 +23,24 @@ native_regions:
 
 common_regions:
   - World:
-      - USA	
-      - CAN	
-      - MEX	
-      - JPN	
-      - ANZ	
-      - EUR	
-      - ROE	
-      - RUS	
-      - ASI	
-      - CHN	
-      - IND	
-      - BRA	
-      - AFR	
-      - MES	
-      - LAM	
-      - REA	
-      - KOR	
-      - IDZ	
+      - USA
+      - CAN
+      - MEX
+      - JPN
+      - ANZ
+      - EUR
+      - ROE
+      - RUS
+      - ASI
+      - CHN
+      - IND
+      - BRA
+      - AFR
+      - MES
+      - LAM
+      - REA
+      - KOR
+      - IDZ
 
   # R5 regions
   - OECD & EU (R5):
