@@ -84,3 +84,16 @@ rename:
  - Emissions|Kyoto Gases|Steel: Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel
  - Emissions|Kyoto Gases|Supply: Emissions|Kyoto Gases|Energy|Supply
  - Emissions|Kyoto Gases|Transportation: Emissions|Kyoto Gases|Energy|Demand|Transportation
+ - Energy Service|Transportation|Aviation: Energy Service|Transportation|Passenger|Aviation
+ - Energy Service|Transportation|Freight|International Shipping: Energy Service|Transportation|Freight|International Shipping
+ - Energy Service|Transportation|Freight|Navigation: Energy Service|Transportation|Freight|Navigation
+ - Energy Service|Transportation|Freight|Railways: Energy Service|Transportation|Freight|Rail
+ - Energy Service|Transportation|Freight|Road: Energy Service|Transportation|Freight|Road
+ - Energy Service|Transportation|Navigation: Energy Service|Transportation|Freight|Navigation
+ - Energy Service|Transportation|Passenger|Aviation: Energy Service|Transportation|Passenger|Aviation
+ - Energy Service|Transportation|Passenger|Bicycling and Walking: Energy Service|Transportation|Passenger|Active Transport
+ - Energy Service|Transportation|Passenger|Railways: Energy Service|Transportation|Passenger|Rail
+ - Energy Service|Transportation|Passenger|Road|Bus: Energy Service|Transportation|Passenger|Road|Bus
+ - Energy Service|Transportation|Passenger|Road|LDV: Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle
+ - Energy Service|Transportation|Rail: Energy Service|Transportation|Rail
+ - Energy Service|Transportation|Road: Energy Service|Transportation|Road
