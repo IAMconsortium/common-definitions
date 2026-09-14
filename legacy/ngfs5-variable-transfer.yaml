@@ -97,3 +97,55 @@ rename:
  - Energy Service|Transportation|Passenger|Road|LDV: Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle
  - Energy Service|Transportation|Rail: Energy Service|Transportation|Rail
  - Energy Service|Transportation|Road: Energy Service|Transportation|Road
+ - Final Energy|Industry|Chemicals|High value chemicals: Final Energy|Industry|Chemicals|High-Value Chemicals
+ - Final Energy|Industry|Chemicals|High value chemicals|Electricity: Final Energy|Industry|Chemicals|High-Value Chemicals|Electricity
+ - Final Energy|Industry|Chemicals|High value chemicals|Gases: Final Energy|Industry|Chemicals|High-Value Chemicals|Gases
+ - Final Energy|Industry|Chemicals|High value chemicals|Heat: Final Energy|Industry|Chemicals|High-Value Chemicals|Heat
+ - Final Energy|Industry|Chemicals|High value chemicals|Hydrogen: Final Energy|Industry|Chemicals|High-Value Chemicals|Hydrogen
+ - Final Energy|Industry|Chemicals|High value chemicals|Liquids: Final Energy|Industry|Chemicals|High-Value Chemicals|Liquids
+ - Final Energy|Industry|Chemicals|High value chemicals|Solids: Final Energy|Industry|Chemicals|High-Value Chemicals|Solids
+ - Final Energy|Industry|Chemicals|Solids|Bioenergy: Final Energy|Industry|Chemicals|Solids|Biomass
+ - Final Energy|Industry|Electricity|Share: Final Energy|Industry|Electricity|Share
+ - Final Energy|Industry|Gases|Bioenergy: Final Energy|Industry|Gases|Biomass
+ - Final Energy|Industry|Gases|Hydrogen synfuel: Final Energy|Industry|Gases|Hydrogen
+ - Final Energy|Industry|Non-ferrous metals: Final Energy|Industry|Non-Ferrous Metals
+ - Final Energy|Industry|Non-ferrous metals|Electricity: Final Energy|Industry|Non-Ferrous Metals|Electricity
+ - Final Energy|Industry|Non-ferrous metals|Gases: Final Energy|Industry|Non-Ferrous Metals|Gases
+ - Final Energy|Industry|Non-ferrous metals|Heat: Final Energy|Industry|Non-Ferrous Metals|Heat
+ - Final Energy|Industry|Non-ferrous metals|Hydrogen: Final Energy|Industry|Non-Ferrous Metals|Hydrogen
+ - Final Energy|Industry|Non-ferrous metals|Liquids: Final Energy|Industry|Non-Ferrous Metals|Liquids
+ - Final Energy|Industry|Non-ferrous metals|Solids: Final Energy|Industry|Non-Ferrous Metals|Solids
+ - Final Energy|Industry|Non-ferrous metals|Solids|Bioenergy: Final Energy|Industry|Non-Ferrous Metals|Solids|Biomass
+ - Final Energy|Industry|Non-ferrous metals|Solids|Fossil: Final Energy|Industry|Non-Ferrous Metals|Solids|Coal
+ - Final Energy|Industry|Other|Electricity: Final Energy|Industry|Other Sector|Electricity
+ - Final Energy|Industry|Other|Gases: Final Energy|Industry|Other Sector|Gases
+ - Final Energy|Industry|Other|Heat: Final Energy|Industry|Other Sector|Heat
+ - Final Energy|Industry|Other|Hydrogen: Final Energy|Industry|Other Sector|Hydrogen
+ - Final Energy|Industry|Other|Liquids: Final Energy|Industry|Other Sector|Liquids
+ - Final Energy|Industry|Other|Solids: Final Energy|Industry|Other Sector|Solids
+ - Final Energy|Industry|Steel: Final Energy|Industry|Iron and Steel
+ - Final Energy|Industry|Steel|Electricity: Final Energy|Industry|Iron and Steel|Electricity
+ - Final Energy|Industry|Steel|Gases: Final Energy|Industry|Iron and Steel|Gases
+ - Final Energy|Industry|Steel|Heat: Final Energy|Industry|Iron and Steel|Heat
+ - Final Energy|Industry|Steel|Hydrogen: Final Energy|Industry|Iron and Steel|Hydrogen
+ - Final Energy|Industry|Steel|Liquids: Final Energy|Industry|Iron and Steel|Liquids
+ - Final Energy|Industry|Steel|Solids: Final Energy|Industry|Iron and Steel|Solids
+ - Final Energy|Industry|Steel|Solids|Bioenergy: Final Energy|Industry|Iron and Steel|Solids|Biomass
+ - Final Energy|Industry|Steel|Solids|Fossil: Final Energy|Industry|Iron and Steel|Solids|Coal
+ - Final Energy|Non-Energy Use|Biomass: Final Energy|Non-Energy Use|Biomass
+ - Final Energy|Residential and Commercial|Cooling: Final Energy|Residential and Commercial|Space Cooling
+ - Final Energy|Residential and Commercial|Gases|Natural Gas: Final Energy|Residential and Commercial|Gases|Gas
+ - Final Energy|Residential and Commercial|Heating: Final Energy|Residential and Commercial|Heating
+ - Final Energy|Residential and Commercial|Heating|Space: Final Energy|Residential and Commercial|Space Heating
+ - Final Energy|Residential and Commercial|Solids|Biomass|Traditional: Final Energy|Residential and Commercial|Solids|Biomass|Traditional Biomass
+ - Final Energy|Solids|Biomass|Traditional: Final Energy|Solids|Biomass|Traditional Biomass
+ - Final Energy|Transportation|Aviation: Final Energy|Transportation|Domestic Aviation
+ - Final Energy|Transportation|Aviation|Passenger: Final Energy|Transportation|Domestic Aviation
+ - Final Energy|Transportation|Gases|Bioenergy: Final Energy|Transportation|Gases|Biomass
+ - Final Energy|Transportation|Liquids|Bioenergy: Final Energy|Transportation|Liquids|Biomass
+ - Final Energy|Transportation|Liquids|Natural Gas: Final Energy|Transportation|Liquids|Gas
+ - Final Energy|Transportation|Maritime: Final Energy|Transportation|Domestic Shipping
+ - Final Energy|Transportation|Maritime|Freight: Final Energy|Transportation|Domestic Shipping
+ - Final Energy|Transportation|Road|Freight: Final Energy|Transportation|Road|Freight
+ - Final Energy|Transportation|Road|Freight|Electric: Final Energy|Transportation|Road|Freight|Electricity
+ - Final Energy|Transportation|Road|Freight|FC: Final Energy|Transportation|Road|Freight|Hydrogen
