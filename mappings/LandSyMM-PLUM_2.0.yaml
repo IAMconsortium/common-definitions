@@ -1,0 +1,818 @@
+model: LandSyMM-PLUM 2.0
+native_regions:
+- Afghanistan: LandSyMM-PLUM 2.0|Afghanistan
+- Albania: LandSyMM-PLUM 2.0|Albania
+- Algeria: LandSyMM-PLUM 2.0|Algeria
+- Angola: LandSyMM-PLUM 2.0|Angola
+- Argentina: LandSyMM-PLUM 2.0|Argentina
+- Armenia: LandSyMM-PLUM 2.0|Armenia
+- Australia: LandSyMM-PLUM 2.0|Australia
+- Austria: LandSyMM-PLUM 2.0|Austria
+- Azerbaijan: LandSyMM-PLUM 2.0|Azerbaijan
+- Bahrain & Qatar: LandSyMM-PLUM 2.0|Bahrain & Qatar
+- Bangladesh: LandSyMM-PLUM 2.0|Bangladesh
+- Belarus: LandSyMM-PLUM 2.0|Belarus
+- Belgium & Luxembourg: LandSyMM-PLUM 2.0|Belgium & Luxembourg
+- Benin: LandSyMM-PLUM 2.0|Benin
+- Bhutan: LandSyMM-PLUM 2.0|Bhutan
+- Bolivia: LandSyMM-PLUM 2.0|Bolivia
+- Bosnia and Herzegovina: LandSyMM-PLUM 2.0|Bosnia and Herzegovina
+- Botswana: LandSyMM-PLUM 2.0|Botswana
+- Brazil: LandSyMM-PLUM 2.0|Brazil
+- Bulgaria: LandSyMM-PLUM 2.0|Bulgaria
+- Burkina Faso: LandSyMM-PLUM 2.0|Burkina Faso
+- Burundi: LandSyMM-PLUM 2.0|Burundi
+- Cambodia: LandSyMM-PLUM 2.0|Cambodia
+- Cameroon: LandSyMM-PLUM 2.0|Cameroon
+- Canada: LandSyMM-PLUM 2.0|Canada
+- Caribbean Other: LandSyMM-PLUM 2.0|Caribbean Other
+- Central African Republic: LandSyMM-PLUM 2.0|Central African Republic
+- Chad: LandSyMM-PLUM 2.0|Chad
+- Chile: LandSyMM-PLUM 2.0|Chile
+- China: LandSyMM-PLUM 2.0|China
+- Colombia: LandSyMM-PLUM 2.0|Colombia
+- Congo: LandSyMM-PLUM 2.0|Congo
+- Costa Rica: LandSyMM-PLUM 2.0|Costa Rica
+- Cote dIvoire: LandSyMM-PLUM 2.0|Cote dIvoire
+- Croatia: LandSyMM-PLUM 2.0|Croatia
+- Cuba: LandSyMM-PLUM 2.0|Cuba
+- Cyprus: LandSyMM-PLUM 2.0|Cyprus
+- Czechia: LandSyMM-PLUM 2.0|Czechia
+- Denmark: LandSyMM-PLUM 2.0|Denmark
+- Djibouti: LandSyMM-PLUM 2.0|Djibouti
+- Dominican Republic: LandSyMM-PLUM 2.0|Dominican Republic
+- DR Congo: LandSyMM-PLUM 2.0|DR Congo
+- Ecuador: LandSyMM-PLUM 2.0|Ecuador
+- Egypt: LandSyMM-PLUM 2.0|Egypt
+- El Salvador: LandSyMM-PLUM 2.0|El Salvador
+- Equatorial Guinea: LandSyMM-PLUM 2.0|Equatorial Guinea
+- Eritrea: LandSyMM-PLUM 2.0|Eritrea
+- Estonia: LandSyMM-PLUM 2.0|Estonia
+- Eswatini: LandSyMM-PLUM 2.0|Eswatini
+- Ethiopia: LandSyMM-PLUM 2.0|Ethiopia
+- Finland: LandSyMM-PLUM 2.0|Finland
+- France: LandSyMM-PLUM 2.0|France
+- Gabon & Sao Tome: LandSyMM-PLUM 2.0|Gabon & Sao Tome
+- Georgia: LandSyMM-PLUM 2.0|Georgia
+- Germany: LandSyMM-PLUM 2.0|Germany
+- Ghana: LandSyMM-PLUM 2.0|Ghana
+- Greece: LandSyMM-PLUM 2.0|Greece
+- Guatemala & Belize: LandSyMM-PLUM 2.0|Guatemala & Belize
+- Guinea: LandSyMM-PLUM 2.0|Guinea
+- Guinea-Bissau: LandSyMM-PLUM 2.0|Guinea-Bissau
+- Guyana: LandSyMM-PLUM 2.0|Guyana
+- Haiti: LandSyMM-PLUM 2.0|Haiti
+- Honduras: LandSyMM-PLUM 2.0|Honduras
+- Hungary: LandSyMM-PLUM 2.0|Hungary
+- Iceland: LandSyMM-PLUM 2.0|Iceland
+- India: LandSyMM-PLUM 2.0|India
+- Indonesia: LandSyMM-PLUM 2.0|Indonesia
+- Iran: LandSyMM-PLUM 2.0|Iran
+- Iraq: LandSyMM-PLUM 2.0|Iraq
+- Ireland: LandSyMM-PLUM 2.0|Ireland
+- Israel: LandSyMM-PLUM 2.0|Israel
+- Italy & Malta: LandSyMM-PLUM 2.0|Italy & Malta
+- Japan: LandSyMM-PLUM 2.0|Japan
+- Jordan: LandSyMM-PLUM 2.0|Jordan
+- Kazakhstan: LandSyMM-PLUM 2.0|Kazakhstan
+- Kenya: LandSyMM-PLUM 2.0|Kenya
+- Kuwait: LandSyMM-PLUM 2.0|Kuwait
+- Kyrgyzstan: LandSyMM-PLUM 2.0|Kyrgyzstan
+- Laos: LandSyMM-PLUM 2.0|Laos
+- Latvia: LandSyMM-PLUM 2.0|Latvia
+- Lebanon: LandSyMM-PLUM 2.0|Lebanon
+- Lesotho: LandSyMM-PLUM 2.0|Lesotho
+- Liberia: LandSyMM-PLUM 2.0|Liberia
+- Libya: LandSyMM-PLUM 2.0|Libya
+- Lithuania: LandSyMM-PLUM 2.0|Lithuania
+- Madagascar & Indian Ocean: LandSyMM-PLUM 2.0|Madagascar & Indian Ocean
+- Malawi: LandSyMM-PLUM 2.0|Malawi
+- Malaysia Singapore & Brunei: LandSyMM-PLUM 2.0|Malaysia Singapore & Brunei
+- Mali: LandSyMM-PLUM 2.0|Mali
+- Mauritania: LandSyMM-PLUM 2.0|Mauritania
+- Mexico: LandSyMM-PLUM 2.0|Mexico
+- Moldova: LandSyMM-PLUM 2.0|Moldova
+- Mongolia: LandSyMM-PLUM 2.0|Mongolia
+- Montenegro: LandSyMM-PLUM 2.0|Montenegro
+- Morocco: LandSyMM-PLUM 2.0|Morocco
+- Mozambique: LandSyMM-PLUM 2.0|Mozambique
+- Myanmar: LandSyMM-PLUM 2.0|Myanmar
+- Namibia: LandSyMM-PLUM 2.0|Namibia
+- Nepal: LandSyMM-PLUM 2.0|Nepal
+- Netherlands: LandSyMM-PLUM 2.0|Netherlands
+- New Zealand: LandSyMM-PLUM 2.0|New Zealand
+- Nicaragua: LandSyMM-PLUM 2.0|Nicaragua
+- Niger: LandSyMM-PLUM 2.0|Niger
+- Nigeria: LandSyMM-PLUM 2.0|Nigeria
+- North Korea: LandSyMM-PLUM 2.0|North Korea
+- North Macedonia: LandSyMM-PLUM 2.0|North Macedonia
+- Norway: LandSyMM-PLUM 2.0|Norway
+- Oman: LandSyMM-PLUM 2.0|Oman
+- Pacific Other: LandSyMM-PLUM 2.0|Pacific Other
+- Pakistan: LandSyMM-PLUM 2.0|Pakistan
+- Panama: LandSyMM-PLUM 2.0|Panama
+- Papua New Guinea: LandSyMM-PLUM 2.0|Papua New Guinea
+- Paraguay: LandSyMM-PLUM 2.0|Paraguay
+- Peru: LandSyMM-PLUM 2.0|Peru
+- Philippines: LandSyMM-PLUM 2.0|Philippines
+- Poland: LandSyMM-PLUM 2.0|Poland
+- Portugal: LandSyMM-PLUM 2.0|Portugal
+- Romania: LandSyMM-PLUM 2.0|Romania
+- Russia: LandSyMM-PLUM 2.0|Russia
+- Rwanda: LandSyMM-PLUM 2.0|Rwanda
+- Saudi Arabia: LandSyMM-PLUM 2.0|Saudi Arabia
+- Senegal Gambia & Cabo Verde: LandSyMM-PLUM 2.0|Senegal Gambia & Cabo Verde
+- Serbia: LandSyMM-PLUM 2.0|Serbia
+- Sierra Leone: LandSyMM-PLUM 2.0|Sierra Leone
+- Slovakia: LandSyMM-PLUM 2.0|Slovakia
+- Slovenia: LandSyMM-PLUM 2.0|Slovenia
+- Somalia: LandSyMM-PLUM 2.0|Somalia
+- South Africa: LandSyMM-PLUM 2.0|South Africa
+- South Korea: LandSyMM-PLUM 2.0|South Korea
+- South Sudan: LandSyMM-PLUM 2.0|South Sudan
+- Spain: LandSyMM-PLUM 2.0|Spain
+- Sri Lanka & Maldives: LandSyMM-PLUM 2.0|Sri Lanka & Maldives
+- Sudan: LandSyMM-PLUM 2.0|Sudan
+- Suriname: LandSyMM-PLUM 2.0|Suriname
+- Sweden: LandSyMM-PLUM 2.0|Sweden
+- Switzerland: LandSyMM-PLUM 2.0|Switzerland
+- Syria: LandSyMM-PLUM 2.0|Syria
+- Taiwan: LandSyMM-PLUM 2.0|Taiwan
+- Tajikistan: LandSyMM-PLUM 2.0|Tajikistan
+- Tanzania: LandSyMM-PLUM 2.0|Tanzania
+- Thailand: LandSyMM-PLUM 2.0|Thailand
+- Timor-Leste: LandSyMM-PLUM 2.0|Timor-Leste
+- Togo: LandSyMM-PLUM 2.0|Togo
+- Tunisia: LandSyMM-PLUM 2.0|Tunisia
+- Turkiye: LandSyMM-PLUM 2.0|Turkiye
+- Turkmenistan: LandSyMM-PLUM 2.0|Turkmenistan
+- Uganda: LandSyMM-PLUM 2.0|Uganda
+- Ukraine: LandSyMM-PLUM 2.0|Ukraine
+- United Arab Emirates: LandSyMM-PLUM 2.0|United Arab Emirates
+- United Kingdom: LandSyMM-PLUM 2.0|United Kingdom
+- United States of America: LandSyMM-PLUM 2.0|United States of America
+- Uruguay: LandSyMM-PLUM 2.0|Uruguay
+- Uzbekistan: LandSyMM-PLUM 2.0|Uzbekistan
+- Venezuela: LandSyMM-PLUM 2.0|Venezuela
+- Viet Nam: LandSyMM-PLUM 2.0|Viet Nam
+- Yemen: LandSyMM-PLUM 2.0|Yemen
+- Zambia: LandSyMM-PLUM 2.0|Zambia
+- Zimbabwe: LandSyMM-PLUM 2.0|Zimbabwe
+common_regions:
+- World:
+  - Afghanistan
+  - Albania
+  - Algeria
+  - Angola
+  - Argentina
+  - Armenia
+  - Australia
+  - Austria
+  - Azerbaijan
+  - Bahrain & Qatar
+  - Bangladesh
+  - Belarus
+  - Belgium & Luxembourg
+  - Benin
+  - Bhutan
+  - Bolivia
+  - Bosnia and Herzegovina
+  - Botswana
+  - Brazil
+  - Bulgaria
+  - Burkina Faso
+  - Burundi
+  - Cambodia
+  - Cameroon
+  - Canada
+  - Caribbean Other
+  - Central African Republic
+  - Chad
+  - Chile
+  - China
+  - Colombia
+  - Congo
+  - Costa Rica
+  - Cote dIvoire
+  - Croatia
+  - Cuba
+  - Cyprus
+  - Czechia
+  - DR Congo
+  - Denmark
+  - Djibouti
+  - Dominican Republic
+  - Ecuador
+  - Egypt
+  - El Salvador
+  - Equatorial Guinea
+  - Eritrea
+  - Estonia
+  - Eswatini
+  - Ethiopia
+  - Finland
+  - France
+  - Gabon & Sao Tome
+  - Georgia
+  - Germany
+  - Ghana
+  - Greece
+  - Guatemala & Belize
+  - Guinea
+  - Guinea-Bissau
+  - Guyana
+  - Haiti
+  - Honduras
+  - Hungary
+  - Iceland
+  - India
+  - Indonesia
+  - Iran
+  - Iraq
+  - Ireland
+  - Israel
+  - Italy & Malta
+  - Japan
+  - Jordan
+  - Kazakhstan
+  - Kenya
+  - Kuwait
+  - Kyrgyzstan
+  - Laos
+  - Latvia
+  - Lebanon
+  - Lesotho
+  - Liberia
+  - Libya
+  - Lithuania
+  - Madagascar & Indian Ocean
+  - Malawi
+  - Malaysia Singapore & Brunei
+  - Mali
+  - Mauritania
+  - Mexico
+  - Moldova
+  - Mongolia
+  - Montenegro
+  - Morocco
+  - Mozambique
+  - Myanmar
+  - Namibia
+  - Nepal
+  - Netherlands
+  - New Zealand
+  - Nicaragua
+  - Niger
+  - Nigeria
+  - North Korea
+  - North Macedonia
+  - Norway
+  - Oman
+  - Pacific Other
+  - Pakistan
+  - Panama
+  - Papua New Guinea
+  - Paraguay
+  - Peru
+  - Philippines
+  - Poland
+  - Portugal
+  - Romania
+  - Russia
+  - Rwanda
+  - Saudi Arabia
+  - Senegal Gambia & Cabo Verde
+  - Serbia
+  - Sierra Leone
+  - Slovakia
+  - Slovenia
+  - Somalia
+  - South Africa
+  - South Korea
+  - South Sudan
+  - Spain
+  - Sri Lanka & Maldives
+  - Sudan
+  - Suriname
+  - Sweden
+  - Switzerland
+  - Syria
+  - Taiwan
+  - Tajikistan
+  - Tanzania
+  - Thailand
+  - Timor-Leste
+  - Togo
+  - Tunisia
+  - Turkiye
+  - Turkmenistan
+  - Uganda
+  - Ukraine
+  - United Arab Emirates
+  - United Kingdom
+  - United States of America
+  - Uruguay
+  - Uzbekistan
+  - Venezuela
+  - Viet Nam
+  - Yemen
+  - Zambia
+  - Zimbabwe
+- Asia (R5):
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - Cambodia
+  - China
+  - India
+  - Indonesia
+  - Laos
+  - Malaysia Singapore & Brunei
+  - Mongolia
+  - Myanmar
+  - Nepal
+  - North Korea
+  - Pacific Other
+  - Pakistan
+  - Papua New Guinea
+  - Philippines
+  - South Korea
+  - Sri Lanka & Maldives
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Viet Nam
+- Latin America (R5):
+  - Argentina
+  - Bolivia
+  - Brazil
+  - Caribbean Other
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Guatemala & Belize
+  - Guyana
+  - Haiti
+  - Honduras
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Suriname
+  - Uruguay
+  - Venezuela
+- Middle East & Africa (R5):
+  - Algeria
+  - Angola
+  - Bahrain & Qatar
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Central African Republic
+  - Chad
+  - Congo
+  - Cote dIvoire
+  - Djibouti
+  - DR Congo
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Eswatini
+  - Ethiopia
+  - Gabon & Sao Tome
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Iran
+  - Iraq
+  - Israel
+  - Jordan
+  - Kenya
+  - Kuwait
+  - Lebanon
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar & Indian Ocean
+  - Malawi
+  - Mali
+  - Mauritania
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Oman
+  - Rwanda
+  - Saudi Arabia
+  - Senegal Gambia & Cabo Verde
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Syria
+  - Tanzania
+  - Togo
+  - Tunisia
+  - Uganda
+  - United Arab Emirates
+  - Yemen
+  - Zambia
+  - Zimbabwe
+- OECD & EU (R5):
+  - Albania
+  - Australia
+  - Austria
+  - Belgium & Luxembourg
+  - Bosnia and Herzegovina
+  - Bulgaria
+  - Canada
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Iceland
+  - Ireland
+  - Italy & Malta
+  - Japan
+  - Latvia
+  - Lithuania
+  - Montenegro
+  - Netherlands
+  - New Zealand
+  - North Macedonia
+  - Norway
+  - Poland
+  - Portugal
+  - Romania
+  - Serbia
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Switzerland
+  - Turkiye
+  - United Kingdom
+  - United States of America
+- Reforming Economies (R5):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russia
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- Africa (R10):
+  - Algeria
+  - Angola
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Central African Republic
+  - Chad
+  - Congo
+  - Cote dIvoire
+  - Djibouti
+  - DR Congo
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Eswatini
+  - Ethiopia
+  - Gabon & Sao Tome
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Kenya
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar & Indian Ocean
+  - Malawi
+  - Mali
+  - Mauritania
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Rwanda
+  - Senegal Gambia & Cabo Verde
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Tanzania
+  - Togo
+  - Tunisia
+  - Uganda
+  - Zambia
+  - Zimbabwe
+- China+ (R10):
+  - China
+  - Mongolia
+  - North Korea
+  - South Korea
+- Europe (R10):
+  - Albania
+  - Austria
+  - Belgium & Luxembourg
+  - Bosnia and Herzegovina
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Iceland
+  - Ireland
+  - Italy & Malta
+  - Latvia
+  - Lithuania
+  - Montenegro
+  - Netherlands
+  - North Macedonia
+  - Norway
+  - Poland
+  - Portugal
+  - Romania
+  - Serbia
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Switzerland
+  - Turkiye
+  - United Kingdom
+- India+ (R10):
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - India
+  - Nepal
+  - Pakistan
+  - Sri Lanka & Maldives
+- Latin America (R10):
+  - Argentina
+  - Bolivia
+  - Brazil
+  - Caribbean Other
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Guatemala & Belize
+  - Guyana
+  - Haiti
+  - Honduras
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Suriname
+  - Uruguay
+  - Venezuela
+- Middle East (R10):
+  - Bahrain & Qatar
+  - Iran
+  - Iraq
+  - Israel
+  - Jordan
+  - Kuwait
+  - Lebanon
+  - Oman
+  - Saudi Arabia
+  - Syria
+  - United Arab Emirates
+  - Yemen
+- North America (R10):
+  - Canada
+  - United States of America
+- Pacific OECD (R10):
+  - Australia
+  - Japan
+  - New Zealand
+- Reforming Economies (R10):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russia
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- Rest of Asia (R10):
+  - Cambodia
+  - Indonesia
+  - Laos
+  - Malaysia Singapore & Brunei
+  - Myanmar
+  - Pacific Other
+  - Papua New Guinea
+  - Philippines
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Viet Nam
+- China (R9):
+  - China
+- European Union (R9):
+  - Austria
+  - Belgium & Luxembourg
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Ireland
+  - Italy & Malta
+  - Latvia
+  - Lithuania
+  - Netherlands
+  - Poland
+  - Portugal
+  - Romania
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+- India (R9):
+  - India
+- Latin America (R9):
+  - Argentina
+  - Bolivia
+  - Brazil
+  - Caribbean Other
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Guatemala & Belize
+  - Guyana
+  - Haiti
+  - Honduras
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Suriname
+  - Uruguay
+  - Venezuela
+- Middle East & Africa (R9):
+  - Algeria
+  - Angola
+  - Bahrain & Qatar
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Central African Republic
+  - Chad
+  - Congo
+  - Cote dIvoire
+  - Djibouti
+  - DR Congo
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Eswatini
+  - Ethiopia
+  - Gabon & Sao Tome
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Iran
+  - Iraq
+  - Israel
+  - Jordan
+  - Kenya
+  - Kuwait
+  - Lebanon
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar & Indian Ocean
+  - Malawi
+  - Mali
+  - Mauritania
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Oman
+  - Rwanda
+  - Saudi Arabia
+  - Senegal Gambia & Cabo Verde
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Syria
+  - Tanzania
+  - Togo
+  - Tunisia
+  - Uganda
+  - United Arab Emirates
+  - Yemen
+  - Zambia
+  - Zimbabwe
+- Other Asia (R9):
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - Cambodia
+  - Indonesia
+  - Laos
+  - Malaysia Singapore & Brunei
+  - Mongolia
+  - Myanmar
+  - Nepal
+  - North Korea
+  - Pacific Other
+  - Pakistan
+  - Papua New Guinea
+  - Philippines
+  - South Korea
+  - Sri Lanka & Maldives
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Viet Nam
+- Other OECD (R9):
+  - Albania
+  - Australia
+  - Bosnia and Herzegovina
+  - Canada
+  - Iceland
+  - Japan
+  - Montenegro
+  - New Zealand
+  - North Macedonia
+  - Norway
+  - Serbia
+  - Switzerland
+  - Turkiye
+  - United Kingdom
+- Reforming Economies (R9):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russia
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- USA (R9):
+  - United States of America
