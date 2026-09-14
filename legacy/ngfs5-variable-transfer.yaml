@@ -10,6 +10,11 @@ rename:
  - Final Energy|Non-Energy Use|Gas: Final Energy|Non-Energy Use|Gases|Fossil
  - Final Energy|Non-Energy Use|Oil:  Final Energy|Non-Energy Use|Liquids|Oil
  - Agricultural Production|Energy|Crops: Agricultural Production|Crops|Energy Crops
+ - Agricultural Production|Energy: Agricultural Production|Crops|Energy Crops
+ - Agricultural Production|Energy|Residues: Agricultural Production|Residues
+ - Agricultural Production|Non-Energy: Agricultural Production
+ - Agricultural Production|Non-Energy|Crops: Agricultural Production|Crops
+ - Agricultural Production|Non-Energy|Livestock: Agricultural Production|Livestock
  - Final Energy|Industry|Chemicals|Ammonia|Solids|Fossil: Final Energy|Industry|Chemicals|Ammonia|Solids|Coal
  - Transport|Stock|Road|Passenger|Bus: Stocks|Transportation|Bus
  - Transport|Stock|Road|Passenger|LDV: Stocks|Transportation|Light-Duty Vehicle
