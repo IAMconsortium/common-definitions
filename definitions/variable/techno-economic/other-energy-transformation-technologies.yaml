@@ -2,6 +2,11 @@
     description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
     unit: USD_2010/kW
     skip-region-aggregation: true
+- Capital Cost|{Secondary Fuel Level 3}|{CCS}:
+    description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
+      {CCS}
+    unit: USD_2010/kW
+    skip-region-aggregation: true
 - Capital Cost|{Secondary Fuel Level 3}|*:
     description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
       for a specific technology
