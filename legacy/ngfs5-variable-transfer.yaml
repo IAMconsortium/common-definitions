@@ -13,3 +13,4 @@ rename:
  - Final Energy|Industry|Chemicals|Ammonia|Solids|Fossil: Final Energy|Industry|Chemicals|Ammonia|Solids|Coal
  - Transport|Stock|Road|Passenger|Bus: Stocks|Transportation|Bus
  - Transport|Stock|Road|Passenger|LDV: Stocks|Transportation|Light-Duty Vehicle
+ - Capacity Additions|Electricity|Storage Capacity: Capacity Additions|Electricity|Storage
