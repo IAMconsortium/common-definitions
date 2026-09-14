@@ -58,3 +58,29 @@ rename:
  - Emissions|VOC|Energy|Supply|Gases|Extraction: Emissions|VOC|Energy|Supply|Gases|Fugitive
  - Emissions|VOC|Energy|Supply|Liquids|Extraction: Emissions|VOC|Energy|Supply|Liquids|Fugitive
  - Emissions|VOC|Energy|Supply|Solids|Extraction: Emissions|VOC|Energy|Supply|Solids|Fugitive
+ - Emissions|CO2|Energy|Demand|Industry|Cement: Emissions|CO2|Energy|Demand|Industry|Non-Metallic Minerals|Cement
+ - Emissions|CO2|Energy|Demand|Industry|Chemicals|High value chemicals: Emissions|CO2|Energy|Demand|Industry|Chemicals|High-Value Chemicals
+ - Emissions|CO2|Energy|Demand|Industry|Non-ferrous metals: Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals
+ - Emissions|CO2|Energy|Demand|Industry|Other: Emissions|CO2|Energy|Demand|Industry|Other Sector
+ - Emissions|CO2|Energy|Demand|Industry|Steel: Emissions|CO2|Energy|Demand|Industry|Iron and Steel
+ - Emissions|CO2|Energy|Demand|Transportation|Aviation: Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation
+ - Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger: Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation
+ - Emissions|CO2|Energy|Demand|Transportation|Freight: Emissions|CO2|Energy|Demand|Transportation|Freight
+ - Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight: Emissions|CO2|Energy|Demand|Transportation|Domestic Shipping
+ - Emissions|CO2|Energy|Demand|Transportation|Passenger: Emissions|CO2|Energy|Demand|Transportation|Passenger
+ - Emissions|CO2|Energy|Demand|Transportation|Rail|Freight: Emissions|CO2|Energy|Demand|Transportation|Rail|Freight
+ - Emissions|CO2|Energy|Demand|Transportation|Rail|Passenger: Emissions|CO2|Energy|Demand|Transportation|Rail|Passenger
+ - Emissions|CO2|Energy|Demand|Transportation|Road: Emissions|CO2|Energy|Demand|Transportation|Road
+ - Emissions|CO2|Energy|Demand|Transportation|Road|Freight: Emissions|CO2|Energy|Demand|Transportation|Road|Freight
+ - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger: Emissions|CO2|Energy|Demand|Transportation|Road|Passenger
+ - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus: Emissions|CO2|Energy|Demand|Transportation|Bus
+ - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV: Emissions|CO2|Energy|Demand|Transportation|Light-Duty Vehicle
+ - Emissions|Kyoto Gases|Cement: Emissions|Kyoto Gases|Energy|Demand|Industry|Non-Metallic Minerals|Cement
+ - Emissions|Kyoto Gases|Chemicals: Emissions|Kyoto Gases|Energy|Demand|Industry|Chemicals
+ - Emissions|Kyoto Gases|Electricity: Emissions|Kyoto Gases|Energy|Supply|Electricity
+ - Emissions|Kyoto Gases|Industry: Emissions|Kyoto Gases|Energy|Demand|Industry
+ - Emissions|Kyoto Gases|Other Energy Supply: Emissions|Kyoto Gases|Energy|Supply|Other
+ - Emissions|Kyoto Gases|Other Industry: Emissions|Kyoto Gases|Energy|Demand|Industry|Other Sector
+ - Emissions|Kyoto Gases|Steel: Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel
+ - Emissions|Kyoto Gases|Supply: Emissions|Kyoto Gases|Energy|Supply
+ - Emissions|Kyoto Gases|Transportation: Emissions|Kyoto Gases|Energy|Demand|Transportation
