@@ -26,3 +26,35 @@ rename:
  - Transport|Stock|Road|Passenger|Bus: Stocks|Transportation|Bus
  - Transport|Stock|Road|Passenger|LDV: Stocks|Transportation|Light-Duty Vehicle
  - Capacity Additions|Electricity|Storage Capacity: Capacity Additions|Electricity|Storage
+ - Emissions|BC|Energy|Supply|Gases|Extraction: Emissions|BC|Energy|Supply|Gases|Fugitive
+ - Emissions|BC|Energy|Supply|Liquids|Extraction: Emissions|BC|Energy|Supply|Liquids|Fugitive
+ - Emissions|BC|Energy|Supply|Solids|Extraction: Emissions|BC|Energy|Supply|Solids|Fugitive
+ - Emissions|CH4|Energy|Supply|Gases|Extraction: Emissions|CH4|Energy|Supply|Gases|Fugitive
+ - Emissions|CH4|Energy|Supply|Liquids|Extraction: Emissions|CH4|Energy|Supply|Liquids|Fugitive
+ - Emissions|CH4|Energy|Supply|Solids|Extraction: Emissions|CH4|Energy|Supply|Solids|Fugitive
+ - Emissions|CO|Energy|Supply|Gases|Extraction: Emissions|CO|Energy|Supply|Gases|Fugitive
+ - Emissions|CO|Energy|Supply|Liquids|Extraction: Emissions|CO|Energy|Supply|Liquids|Fugitive
+ - Emissions|CO|Energy|Supply|Solids|Extraction: Emissions|CO|Energy|Supply|Solids|Fugitive
+ - Emissions|CO2|Energy|Supply|Extraction: Emissions|CO2|Energy|Supply|Fugitive
+ - Emissions|CO2|Energy|Supply|Gases|Extraction: Emissions|CO2|Energy|Supply|Gases|Fugitive
+ - Emissions|CO2|Energy|Supply|Liquids|Extraction: Emissions|CO2|Energy|Supply|Liquids|Fugitive
+ - Emissions|CO2|Energy|Supply|Other Sector: Emissions|CO2|Energy|Supply|Other
+ - Emissions|CO2|Energy|Supply|Solids|Extraction: Emissions|CO2|Energy|Supply|Solids|Fugitive
+ - Emissions|N2O|Energy|Supply|Gases|Extraction: Emissions|N2O|Energy|Supply|Gases|Fugitive
+ - Emissions|N2O|Energy|Supply|Liquids|Extraction: Emissions|N2O|Energy|Supply|Liquids|Fugitive
+ - Emissions|N2O|Energy|Supply|Solids|Extraction: Emissions|N2O|Energy|Supply|Solids|Fugitive
+ - Emissions|NH3|Energy|Supply|Gases|Extraction: Emissions|NH3|Energy|Supply|Gases|Fugitive
+ - Emissions|NH3|Energy|Supply|Liquids|Extraction: Emissions|NH3|Energy|Supply|Liquids|Fugitive
+ - Emissions|NH3|Energy|Supply|Solids|Extraction: Emissions|NH3|Energy|Supply|Solids|Fugitive
+ - Emissions|NOx|Energy|Supply|Gases|Extraction: Emissions|NOx|Energy|Supply|Gases|Fugitive
+ - Emissions|NOx|Energy|Supply|Liquids|Extraction: Emissions|NOx|Energy|Supply|Liquids|Fugitive
+ - Emissions|NOx|Energy|Supply|Solids|Extraction: Emissions|NOx|Energy|Supply|Solids|Fugitive
+ - Emissions|OC|Energy|Supply|Gases|Extraction: Emissions|OC|Energy|Supply|Gases|Fugitive
+ - Emissions|OC|Energy|Supply|Liquids|Extraction: Emissions|OC|Energy|Supply|Liquids|Fugitive
+ - Emissions|OC|Energy|Supply|Solids|Extraction: Emissions|OC|Energy|Supply|Solids|Fugitive
+ - Emissions|Sulfur|Energy|Supply|Gases|Extraction: Emissions|Sulfur|Energy|Supply|Gases|Fugitive
+ - Emissions|Sulfur|Energy|Supply|Liquids|Extraction: Emissions|Sulfur|Energy|Supply|Liquids|Fugitive
+ - Emissions|Sulfur|Energy|Supply|Solids|Extraction: Emissions|Sulfur|Energy|Supply|Solids|Fugitive
+ - Emissions|VOC|Energy|Supply|Gases|Extraction: Emissions|VOC|Energy|Supply|Gases|Fugitive
+ - Emissions|VOC|Energy|Supply|Liquids|Extraction: Emissions|VOC|Energy|Supply|Liquids|Fugitive
+ - Emissions|VOC|Energy|Supply|Solids|Extraction: Emissions|VOC|Energy|Supply|Solids|Fugitive
