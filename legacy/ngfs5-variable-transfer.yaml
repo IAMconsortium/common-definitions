@@ -30,24 +30,24 @@ rename:
  - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger: Emissions|CO2|Energy|Demand|Transportation|Road|Passenger
  - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus: Emissions|CO2|Energy|Demand|Transportation|Bus
  - Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV: Emissions|CO2|Energy|Demand|Transportation|Light-Duty Vehicle
- - Emissions|Kyoto Gases|Cement: Emissions|Kyoto Gases|Energy|Demand|Industry|Non-Metallic Minerals|Cement
- - Emissions|Kyoto Gases|Chemicals: Emissions|Kyoto Gases|Energy|Demand|Industry|Chemicals
+ - Emissions|Kyoto Gases|Cement: Emissions|Kyoto Gases|Cement
+ - Emissions|Kyoto Gases|Chemicals: Emissions|Kyoto Gases|Chemicals
  - Emissions|Kyoto Gases|Electricity: Emissions|Kyoto Gases|Energy|Supply|Electricity
  - Emissions|Kyoto Gases|Industry: Emissions|Kyoto Gases|Energy|Demand|Industry
  - Emissions|Kyoto Gases|Other Energy Supply: Emissions|Kyoto Gases|Energy|Supply|Other
- - Emissions|Kyoto Gases|Other Industry: Emissions|Kyoto Gases|Energy|Demand|Industry|Other Sector
- - Emissions|Kyoto Gases|Steel: Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel
+ - Emissions|Kyoto Gases|Other Industry: Emissions|Kyoto Gases|Other Industry
+ - Emissions|Kyoto Gases|Steel: Emissions|Kyoto Gases|Steel
  - Emissions|Kyoto Gases|Supply: Emissions|Kyoto Gases|Energy|Supply
  - Emissions|Kyoto Gases|Transportation: Emissions|Kyoto Gases|Energy|Demand|Transportation
- - Energy Service|Transportation|Aviation: Energy Service|Transportation|Passenger|Aviation
+ - Energy Service|Transportation|Aviation: Energy Service|Transportation|Aviation
  - Energy Service|Transportation|Freight|International Shipping: Energy Service|Transportation|Freight|International Shipping
  - Energy Service|Transportation|Freight|Navigation: Energy Service|Transportation|Freight|Navigation
- - Energy Service|Transportation|Freight|Railways: Energy Service|Transportation|Freight|Rail
+ - Energy Service|Transportation|Freight|Railways: Energy Service|Transportation|Freight|Railways
  - Energy Service|Transportation|Freight|Road: Energy Service|Transportation|Freight|Road
- - Energy Service|Transportation|Navigation: Energy Service|Transportation|Freight|Navigation
+ - Energy Service|Transportation|Navigation: Energy Service|Transportation|Navigation
  - Energy Service|Transportation|Passenger|Aviation: Energy Service|Transportation|Passenger|Aviation
- - Energy Service|Transportation|Passenger|Bicycling and Walking: Energy Service|Transportation|Passenger|Active Transport
- - Energy Service|Transportation|Passenger|Railways: Energy Service|Transportation|Passenger|Rail
+ - Energy Service|Transportation|Passenger|Bicycling and Walking: Energy Service|Transportation|Passenger|Bicycling and Walking
+ - Energy Service|Transportation|Passenger|Railways: Energy Service|Transportation|Passenger|Railways
  - Energy Service|Transportation|Passenger|Road|Bus: Energy Service|Transportation|Passenger|Road|Bus
  - Energy Service|Transportation|Passenger|Road|LDV: Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle
  - Energy Service|Transportation|Rail: Energy Service|Transportation|Rail

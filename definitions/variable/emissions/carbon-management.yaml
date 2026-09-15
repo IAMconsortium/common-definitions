@@ -104,7 +104,6 @@
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|Industry|{Carbon Capture Source}
     engage: Carbon Capture|Industry|{Carbon Capture Source}
-    ngfs5: Carbon Sequestration|CCS|{Carbon Capture Source}|Energy|Demand|Industry
 - Carbon Capture|Energy|Demand|Industry|{Industry Sector}:
     description: Captured carbon dioxide (CO2) during energy consumption in {Industry Sector}
     unit: Mt CO2/yr
