@@ -43,12 +43,12 @@
         countries: Brazil
     - EPPA 8|Africa:
         countries: [
-          Benin, Burkina Faso, Botswana, Côte d'Ivoire, Cameroon, Egypt, Ethiopia,
-          Ghana, Guinea, Kenya, Morocco, Madagascar, Mozambique, Mauritius, Malawi,
-          Namibia, Nigeria, Rwanda, Senegal, Togo, Tunisia, Tanzania, Uganda, Djibouti,
-          Eritrea, Mayotte, Seychelles, Somalia, South Sudan, Libya, Western Sahara,
-          Lesotho, Cabo Verde, Gambia, Guinea-Bissau, Liberia, Sierra Leone,
-          South Africa, Zambia, Zimbabwe
+          Angola, Benin, Burkina Faso, Botswana, Côte d'Ivoire, Cameroon, Egypt,
+          Ethiopia, Ghana, Guinea, Kenya, Morocco, Madagascar, Mozambique, Mauritius,
+          Malawi, Namibia, Nigeria, Rwanda, Senegal, Togo, Tunisia, Tanzania, Uganda,
+          Djibouti, Eritrea, Mayotte, Sao Tome and Principe, Seychelles, Somalia,
+          South Sudan, Libya, Western Sahara, Lesotho, Cabo Verde, Gambia,
+          Guinea-Bissau, Liberia, Sierra Leone, South Africa, Zambia, Zimbabwe
         ]
     - EPPA 8|Middle East:
         countries: [
