@@ -144,3 +144,5 @@ common_regions:
       - USA
   - African Union:
       - AFR
+  - European Union and United Kingdom:
+      - EUR
