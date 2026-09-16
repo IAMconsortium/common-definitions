@@ -1,0 +1,193 @@
+model: AIM-Technology 2.0
+native_regions:
+- JPN: AIM-Technology 2.0|Japan
+- CHN: AIM-Technology 2.0|China
+- IND: AIM-Technology 2.0|India
+- IDN: AIM-Technology 2.0|Indonesia
+- KOR: AIM-Technology 2.0|South Korea
+- THA: AIM-Technology 2.0|Thailand
+- MYS: AIM-Technology 2.0|Malaysia
+- VNM: AIM-Technology 2.0|Viet Nam
+- XSE: AIM-Technology 2.0|Other Southeast Asia
+- XSA: AIM-Technology 2.0|Other South Asia
+- XEA: AIM-Technology 2.0|Other East Asia
+- XCS: AIM-Technology 2.0|Central Asia
+- XME: AIM-Technology 2.0|Middle East
+- AUS: AIM-Technology 2.0|Australia
+- NZL: AIM-Technology 2.0|New Zealand
+- XOC: AIM-Technology 2.0|Other Oceania
+- CAN: AIM-Technology 2.0|Canada
+- USA: AIM-Technology 2.0|USA
+- XE15: AIM-Technology 2.0|EU-15
+- XE10: AIM-Technology 2.0|EU-10
+- XE3: AIM-Technology 2.0|EU-3
+- TUR: AIM-Technology 2.0|Turkey
+- XEWI: AIM-Technology 2.0|Other Western Europe (Annex I)
+- XEEI: AIM-Technology 2.0|Other Eastern Europe (Annex I)
+- XENI: AIM-Technology 2.0|Other Europe
+- RUS: AIM-Technology 2.0|Russia
+- MEX: AIM-Technology 2.0|Mexico
+- ARG: AIM-Technology 2.0|Argentina
+- BRA: AIM-Technology 2.0|Brazil
+- XLM: AIM-Technology 2.0|Other Latin America
+- ZAF: AIM-Technology 2.0|South Africa
+- XAF: AIM-Technology 2.0|Sub-Saharan Africa
+- XNF: AIM-Technology 2.0|North Africa
+common_regions:
+- World:
+  - ARG
+  - AUS
+  - BRA
+  - CAN
+  - CHN
+  - IDN
+  - IND
+  - JPN
+  - KOR
+  - MEX
+  - MYS
+  - NZL
+  - RUS
+  - THA
+  - TUR
+  - USA
+  - VNM
+  - XAF
+  - XCS
+  - XE10
+  - XE15
+  - XE3
+  - XEA
+  - XEEI
+  - XENI
+  - XEWI
+  - XLM
+  - XME
+  - XNF
+  - XOC
+  - XSA
+  - XSE
+  - ZAF
+- Asia (R5):
+  - CHN
+  - IND
+  - IDN
+  - KOR
+  - THA
+  - MYS
+  - VNM
+  - XSE
+  - XSA
+  - XEA
+- Latin America (R5):
+  - MEX
+  - ARG
+  - BRA
+  - XLM
+- Middle East & Africa (R5):
+  - XME
+  - ZAF
+  - XAF
+  - XNF
+- OECD & EU (R5):
+  - JPN
+  - AUS
+  - NZL
+  - XOC
+  - CAN
+  - USA
+  - XE15
+  - XE10
+  - XE3
+  - TUR
+  - XEWI
+  - XENI
+- Reforming Economies (R5):
+  - XCS
+  - XEEI
+  - RUS
+- Africa (R10):
+  - ZAF
+  - XAF
+  - XNF
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - XE15
+  - XE10
+  - XE3
+  - TUR
+  - XEWI
+  - XENI
+- India+ (R10):
+  - IND
+  - XSA
+- Latin America (R10):
+  - MEX
+  - ARG
+  - BRA
+  - XLM
+- Middle East (R10):
+  - XME
+- North America (R10):
+  - CAN
+  - USA
+- Pacific OECD (R10):
+  - JPN
+  - AUS
+  - NZL
+  - XOC
+- Reforming Economies (R10):
+  - XCS
+  - XEEI
+  - RUS
+- Rest of Asia (R10):
+  - IDN
+  - THA
+  - MYS
+  - VNM
+  - XSE
+  - XEA
+- China (R9):
+  - CHN
+- European Union (R9):
+  - XE15
+  - XE10
+  - XE3
+- India (R9):
+  - IND
+- Latin America (R9):
+  - MEX
+  - ARG
+  - BRA
+  - XLM
+- Middle East & Africa (R9):
+  - XME
+  - ZAF
+  - XAF
+  - XNF
+- Other Asia (R9):
+  - IDN
+  - KOR
+  - THA
+  - MYS
+  - VNM
+  - XSE
+  - XSA
+  - XEA
+- Other OECD (R9):
+  - JPN
+  - AUS
+  - NZL
+  - XOC
+  - CAN
+  - TUR
+  - XEWI
+  - XENI
+- Reforming Economies (R9):
+  - XCS
+  - XEEI
+  - RUS
+- USA (R9):
+  - USA
