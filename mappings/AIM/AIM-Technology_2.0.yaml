@@ -191,3 +191,34 @@ common_regions:
   - RUS
 - USA (R9):
   - USA
+# mapping for G20 members
+- Argentina:
+  - ARG
+- Australia:
+  - AUS
+- Brazil:
+  - BRA
+- Canada:
+  - CAN
+- China:
+  - CHN
+- India:
+  - IND
+- Japan:
+  - JPN
+- Mexico:
+  - MEX
+- Russian Federation:
+  - RUS
+- South Africa:
+  - ZAF
+- South Korea:
+  - KOR
+- Turkey:
+  - TUR
+- United States:
+  - USA
+- European Union and United Kingdom:
+  - XE15
+  - XE10
+  - XE3
