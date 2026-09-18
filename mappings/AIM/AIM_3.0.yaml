@@ -1,4 +1,7 @@
-model: AIM 3.0
+model:
+  - AIM 3.0
+  - AIM-Hub 3.0
+  - AIM-Hub-Plum-Tech 3.0
 
 native_regions:
   - BRA: AIM 3.0|Brazil
