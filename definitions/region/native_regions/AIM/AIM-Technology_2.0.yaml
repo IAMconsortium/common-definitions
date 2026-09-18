@@ -1,0 +1,316 @@
+- AIM-Technology 2.0:
+  - AIM-Technology 2.0|Japan:
+      countries:
+      - Japan
+  - AIM-Technology 2.0|China:
+      countries:
+      - China
+      - Hong Kong
+      - Macao
+  - AIM-Technology 2.0|India:
+      countries:
+      - India
+  - AIM-Technology 2.0|Indonesia:
+      countries:
+      - Indonesia
+  - AIM-Technology 2.0|South Korea:
+      countries:
+      - South Korea
+  - AIM-Technology 2.0|Thailand:
+      countries:
+      - Thailand
+  - AIM-Technology 2.0|Malaysia:
+      countries:
+      - Malaysia
+  - AIM-Technology 2.0|Viet Nam:
+      countries:
+      - Viet Nam
+  - AIM-Technology 2.0|Other Southeast Asia:
+      countries:
+      - Brunei Darussalam
+      - Cambodia
+      - Laos
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Timor-Leste
+  - AIM-Technology 2.0|Other South Asia:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Bhutan
+      - British Indian Ocean Territory
+      - Maldives
+      - Nepal
+      - Pakistan
+      - Sri Lanka
+  - AIM-Technology 2.0|Other East Asia:
+      countries:
+      - Mongolia
+      - North Korea
+      - Taiwan
+  - AIM-Technology 2.0|Central Asia:
+      countries:
+      - Kazakhstan
+      - Kyrgyzstan
+      - Tajikistan
+      - Turkmenistan
+      - Uzbekistan
+  - AIM-Technology 2.0|Middle East:
+      countries:
+      - Bahrain
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - United Arab Emirates
+      - Yemen
+  - AIM-Technology 2.0|Australia:
+      countries:
+      - Australia
+  - AIM-Technology 2.0|New Zealand:
+      countries:
+      - New Zealand
+  - AIM-Technology 2.0|Other Oceania:
+      countries:
+      - American Samoa
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Cook Islands
+      - Fiji
+      - French Polynesia
+      - French Southern Territories
+      - Guam
+      - Heard Island and McDonald Islands
+      - Kiribati
+      - Marshall Islands
+      - Micronesia
+      - Nauru
+      - New Caledonia
+      - Niue
+      - Norfolk Island
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Pitcairn
+      - Samoa
+      - Solomon Islands
+      - Tokelau
+      - Tonga
+      - Tuvalu
+      - United States Minor Outlying Islands
+      - Vanuatu
+      - Wallis and Futuna
+  - AIM-Technology 2.0|Canada:
+      countries:
+      - Canada
+  - AIM-Technology 2.0|USA:
+      countries:
+      - United States
+  - AIM-Technology 2.0|EU-15:
+      countries:
+      - Åland Islands
+      - Austria
+      - Belgium
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Guernsey
+      - Ireland
+      - Isle of Man
+      - Italy
+      - Jersey
+      - Luxembourg
+      - Netherlands
+      - Portugal
+      - Spain
+      - Sweden
+      - United Kingdom
+  - AIM-Technology 2.0|EU-10:
+      countries:
+      - Cyprus
+      - Czechia
+      - Estonia
+      - Hungary
+      - Latvia
+      - Lithuania
+      - Malta
+      - Poland
+      - Slovakia
+      - Slovenia
+  - AIM-Technology 2.0|EU-3:
+      countries:
+      - Bulgaria
+      - Croatia
+      - Romania
+  - AIM-Technology 2.0|Turkey:
+      countries:
+      - Turkey
+  - AIM-Technology 2.0|Other Western Europe (Annex I):
+      countries:
+      - Andorra
+      - Faroe Islands
+      - Greenland
+      - Iceland
+      - Liechtenstein
+      - Monaco
+      - Norway
+      - San Marino
+      - Svalbard and Jan Mayen
+      - Switzerland
+      - Vatican
+  - AIM-Technology 2.0|Other Eastern Europe (Annex I):
+      countries:
+      - Belarus
+      - Ukraine
+  - AIM-Technology 2.0|Other Europe:
+      countries:
+      - Albania
+      - Armenia
+      - Azerbaijan
+      - Bosnia and Herzegovina
+      - Georgia
+      - Gibraltar
+      - Kosovo
+      - Moldova
+      - Montenegro
+      - North Macedonia
+      - Serbia
+  - AIM-Technology 2.0|Russia:
+      countries:
+      - Russian Federation
+  - AIM-Technology 2.0|Mexico:
+      countries:
+      - Mexico
+  - AIM-Technology 2.0|Argentina:
+      countries:
+      - Argentina
+  - AIM-Technology 2.0|Brazil:
+      countries:
+      - Brazil
+  - AIM-Technology 2.0|Other Latin America:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bermuda
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Bouvet Island
+      - British Virgin Islands
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Grenada
+      - Guadeloupe
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Puerto Rico
+      - Saint Barthélemy
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Pierre and Miquelon
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - South Georgia and the South Sandwich Islands
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - United States Virgin Islands
+      - Uruguay
+      - Venezuela
+  - AIM-Technology 2.0|South Africa:
+      countries:
+      - South Africa
+  - AIM-Technology 2.0|Sub-Saharan Africa:
+      countries:
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Mayotte
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Réunion
+      - Rwanda
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Uganda
+      - Zambia
+      - Zimbabwe
+  - AIM-Technology 2.0|North Africa:
+      countries:
+      - Algeria
+      - Egypt
+      - Libya
+      - Morocco
+      - Tunisia
+      - Western Sahara
