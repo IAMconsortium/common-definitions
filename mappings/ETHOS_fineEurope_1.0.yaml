@@ -1,0 +1,33 @@
+model: ETHOS.fineEurope 1.0
+
+native_regions:
+  - Austria: ETHOS.fineEurope 1.0|Austria
+  - Belgium: ETHOS.fineEurope 1.0|Belgium
+  - Bulgaria: ETHOS.fineEurope 1.0|Bulgaria
+  - Croatia: ETHOS.fineEurope 1.0|Croatia
+  - Cyprus: ETHOS.fineEurope 1.0|Cyprus
+  - Czechia: ETHOS.fineEurope 1.0|Czechia
+  - Denmark: ETHOS.fineEurope 1.0|Denmark
+  - Estonia: ETHOS.fineEurope 1.0|Estonia
+  - Finland: ETHOS.fineEurope 1.0|Finland
+  - France: ETHOS.fineEurope 1.0|France
+  - Germany: ETHOS.fineEurope 1.0|Germany
+  - Greece: ETHOS.fineEurope 1.0|Greece
+  - Hungary: ETHOS.fineEurope 1.0|Hungary
+  - Ireland: ETHOS.fineEurope 1.0|Ireland
+  - Italy: ETHOS.fineEurope 1.0|Italy
+  - Latvia: ETHOS.fineEurope 1.0|Latvia
+  - Lithuania: ETHOS.fineEurope 1.0|Lithuania
+  - Luxembourg: ETHOS.fineEurope 1.0|Luxembourg
+  - Netherlands: ETHOS.fineEurope 1.0|Netherlands
+  - Norway: ETHOS.fineEurope 1.0|Norway
+  - Poland: ETHOS.fineEurope 1.0|Poland
+  - Portugal: ETHOS.fineEurope 1.0|Portugal
+  - Romania: ETHOS.fineEurope 1.0|Romania
+  - Slovakia: ETHOS.fineEurope 1.0|Slovakia
+  - Slovenia: ETHOS.fineEurope 1.0|Slovenia
+  - Spain: ETHOS.fineEurope 1.0|Spain
+  - Sweden: ETHOS.fineEurope 1.0|Sweden
+  - Switzerland: ETHOS.fineEurope 1.0|Switzerland
+  - United Kingdom: ETHOS.fineEurope 1.0|United Kingdom
+  - ETHOS.fineEurope|Europe: ETHOS.fineEurope 1.0|Europe
