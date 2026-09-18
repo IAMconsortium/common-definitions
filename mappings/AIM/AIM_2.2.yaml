@@ -1,26 +1,24 @@
 model:
-  - AIM 3.0
-  - AIM-Hub 3.0
-  - AIM-Hub-Plum-Tech 3.0
+  - AIM-Hub-MESSAGEix 2.2
 
 native_regions:
-  - BRA: AIM 3.0|Brazil
-  - CAN: AIM 3.0|Canada
-  - CHN: AIM 3.0|China
-  - CIS: AIM 3.0|Former USSR
-  - IND: AIM 3.0|India
-  - JPN: AIM 3.0|Japan
-  - TUR: AIM 3.0|Turkey
-  - USA: AIM 3.0|USA
-  - XAF: AIM 3.0|Other Africa
-  - XE25: AIM 3.0|EU & UK
-  - XER: AIM 3.0|Rest of Europe
-  - XLM: AIM 3.0|Rest of Latin America
-  - XME: AIM 3.0|Middle East
-  - XNF: AIM 3.0|North Africa
-  - XOC: AIM 3.0|New Zealand and Australia
-  - XSA: AIM 3.0|Rest of Asia
-  - XSE: AIM 3.0|Rest of East and South East Asia
+  - BRA: AIM 2.2|Brazil
+  - CAN: AIM 2.2|Canada
+  - CHN: AIM 2.2|China
+  - CIS: AIM 2.2|Former USSR
+  - IND: AIM 2.2|India
+  - JPN: AIM 2.2|Japan
+  - TUR: AIM 2.2|Turkey
+  - USA: AIM 2.2|USA
+  - XAF: AIM 2.2|Other Africa
+  - XE25: AIM 2.2|EU & UK
+  - XER: AIM 2.2|Rest of Europe
+  - XLM: AIM 2.2|Rest of Latin America
+  - XME: AIM 2.2|Middle East
+  - XNF: AIM 2.2|North Africa
+  - XOC: AIM 2.2|New Zealand and Australia
+  - XSA: AIM 2.2|Rest of Asia
+  - XSE: AIM 2.2|Rest of East and South East Asia
 
 common_regions:
   - World:
