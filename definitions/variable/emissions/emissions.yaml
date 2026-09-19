@@ -9,8 +9,7 @@
     description: Emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
-      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+    lower_bound: "{Level-1 Species}"
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -25,14 +24,16 @@
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+    lower_bound: 0
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Gross Removals|CO2'.
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
       including removals from bioenergy with CCS (BECCS), direct air carbon capture
       and agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+    lower_bound: 0
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
@@ -42,6 +43,7 @@
       conversion of non-forest natural land, and drained peatlands
     unit: "{Level-2 Species}"
     tier: 1
+    lower_bound: "{Level-2 Species}"
     notes: This variable reports the sum of sources and sinks including land-use methods
       such as soil carbon sequestration, biochar, forestry, and re/afforestation and
       agroforestry. It uses the model/scientific definition of AFOLU, and does not align
@@ -59,8 +61,9 @@
       not including any removals from the atmosphere (e.g., biochar)
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' - 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
@@ -70,17 +73,19 @@
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     components:
       - Gross Removals|CO2|AFOLU|Intentional
       - Gross Removals|CO2|AFOLU|Unintentional
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' - 'Gross Removals|CO2|AFOLU'.
 - Gross Removals|CO2|AFOLU|Intentional:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
       due to intentional carbon dioxide removals ('Carbon Removal|Land Use')
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 - Gross Removals|CO2|AFOLU|Unintentional:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
@@ -90,97 +95,14 @@
       after wood harvest or regrowth of timber plantations
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
     notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 
-- Emissions|{Level-3 Species}|AFOLU|Agriculture:
-    description: Emissions of {Level-3 Species} from the agriculture sector
-      (IPCC 1996 category 4 - IPCC 2006 category 3A and 3C except 3C1)
+- Emissions|{Level-3 Species}|AFOLU|{AFOLU Emissions}:
+    description: Emissions of {Level-3 Species} from {AFOLU Emissions}
     unit: "{Level-3 Species}"
     tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock:
-    description: Emissions of {Level-3 Species} from livestock in the agriculture sector
-      (IPCC 1996 category 4A and 4B - IPCC 2006 category 3A)
-    unit: "{Level-3 Species}"
-    tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Enteric Fermentation:
-    description: Emissions of {Level-3 Species} from enteric fermentation of livestock
-      (IPCC 1996 category 4A - IPCC 2006 category 3A1)
-      in the agriculture sector
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Livestock|Manure Management:
-    description: Emissions of {Level-3 Species} from processes involving
-      manure (waste) management in Livestock in the agriculture sector
-      (IPCC 1996 category 4B - IPCC 2006 category 3A2)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Rice:
-    description: Emissions of {Level-3 Species} from rice cultivation
-      (IPCC 1996 category 4C - IPCC 2006 category 3C7)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agriculture|Managed Soils:
-    description: Emissions of {Level-3 Species} from soil management practices
-      in the agriculture sector (IPCC 1996 category 4D - IPCC 2006 category 3C4 and 3C5)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Agricultural Waste Burning:
-    description: Emissions from agricultural waste burning
-      (IPCC 1996 category 4F - partially IPCC 2006 category 3C1)
-    unit: "{Level-3 Species}"
-    tier: 2
-    notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
-- Emissions|{Level-3 Species}|AFOLU|Land:
-    description: Emissions of {Level-3 Species} from forestry and other land use and
-      land use change. Removals in this variable include agroforestry, re/afforestation,
-      biochar, soil carbon management and forest management.
-    unit: "{Level-3 Species}"
-    tier: 2
-- Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
-    description: Emissions and removals from forest land, cropland, grassland,
-      settlements and other natural land (partially IPCC 1996 category 5 -
-      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
-    unit: "{Level-3 Species}"
-    tier: 3
-    notes: This variable only includes anthropogenic emissions, but does not include
-      emissions from managed or rewetted wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Wetlands:
-    description: Emissions of {Level-3 Species} from managed wetlands (e.g., peatland),
-      including emissions from drained wetlands used for agriculture, forestry or other uses
-      (IPCC 2006 categories 3B1biii, 3B2biii and 3B3biii, 3B5biv, 3B6biv),
-      and emissions from rewetted wetlands (IPCC 2006 category 3B4)
-    unit: "{Level-3 Species}"
-    tier: 3
-    notes: Includes reservoirs as a managed sub-division and
-      natural rivers and lakes as unmanaged sub-divisions. Includes drained
-      and rewetted wetlands, does not include natural emissions from intact wetlands.
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires:
-    description: Emissions from land fires and deforestation & degradation fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Peat Burning:
-    description: Emissions from peat fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Forest Burning:
-    description: Emissions from boreal forest fires, temperate forest fires,
-      and tropical deforestation & degradation fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Fires|Grassland Burning:
-    description: Emissions from savanna, grassland, and shrubland fires
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Harvested Wood Products:
-    description: Emissions and removals from harvested wood products (HWP)
-      (no clear IPCC 1996 category - IPCC 2006 category 3D1)
-    unit: "{Level-3 Species}"
-    tier: 3
-- Emissions|{Level-3 Species}|AFOLU|Land|Other:
-    description: Emissions and removals from land that cannot be  accommodated in other
-      categories (no clear IPCC 1996 category - IPCC 2006 category 3D2)
-    unit: "{Level-3 Species}"
-    tier: 3
+    lower_bound: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|AFOLU [NGHGI]:
     description: Emissions of {Level-2 Species} from agriculture, forestry and other
@@ -188,6 +110,7 @@
       national greenhouse gas inventories (NGHGI)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
     notes: This variable is optional, for instance used for comparison with national
       greenhouse gas inventories, but is not used for driving climate model simulations,
       and also not a component of 'Emissions|*', for which the variable
@@ -200,6 +123,7 @@
       includes negative emisisons in these sectors, for instance from bioenergy with CCS (BECCS)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
     notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-3 Species}|Energy
@@ -211,6 +135,7 @@
       removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
     components:
       - Gross Emissions|CO2|Energy
       - Gross Emissions|CO2|Industrial Processes
@@ -233,6 +158,7 @@
       removals from the atmosphere
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
 
 - Emissions|{Level-2 Species}|Energy|Supply:
     description: Emissions of {Level-2 Species} from fuel combustion and fugitive emissions
@@ -243,6 +169,7 @@
       transport and storage (IPCC category 1C)
     unit: "{Level-2 Species}"
     tier: 1
+    lower_bound: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion and fugitive emissions
       from fuels, including electricity and heat production and distribution (IPCC category 1A1a),
@@ -253,6 +180,7 @@
       removals from the atmosphere
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
 - Emissions|{Level-2 Species}|Energy|Supply|Combustion:
     description: Emissions of {Level-2 Species} from fuel combustion in energy supply,
       including electricity and heat production and distribution (IPCC category 1A1a),
@@ -261,44 +189,53 @@
       emissions from carbon dioxide transport and storage (IPCC category 1C)
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Supply|Fugitive:
     description: Fugitive emissions of {Level-2 Species} from fuels in energy extraction,
       processing, storage and transport (IPCC category 1B)
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Supply|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel},
       including electricity and heat production and distribution (IPCC category 1A1a)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Supply|Electricity:
     description: Emissions of {Level-2 Species} for electricity generation
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Electricity:
     description: Gross emissions of carbon dioxide (CO2) for electricity generation,
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 2}:
     description: Emissions of {Level-2 Species} for production of {Secondary Fuel Level 2}
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 1}|Combustion:
     description: Emissions of {Level-2 Species} from fuel combustion during production
       of {Secondary Fuel Level 1}
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Supply|{Secondary Fuel Level 1}|Fugitive:
     description: Fugitive emissions of {Level-2 Species} during production
       of {Secondary Fuel Level 1}
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|{Secondary Fuel Level 2}:
     description: Gross emissions of carbon dioxide (CO2) for production of {Secondary Fuel Level 2},
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
 - Emissions|CO2|Energy|Supply|Autoproduction:
     description: Emissions of carbon dioxide (CO2) for own-use energy supply
     unit: Mt CO2/yr
@@ -308,15 +245,18 @@
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
 - Emissions|{Level-2 Species}|Energy|Supply|Other:
     description: Emissions of {Level-2 Species} for other categories of energy supply
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Supply|Other:
     description: Gross emissions of carbon dioxide (CO2) for other categories of energy supply,
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
 
 - Emissions|{Level-2 Species}|Energy|Demand:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2),
@@ -327,6 +267,7 @@
       of bioenergy with CCS (BECCS)
     unit: "{Level-2 Species}"
     tier: 1
+    lower_bound: "{Level-2 Species}"
 - Gross Emissions|CO2|Energy|Demand:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry (IPCC category 1A2),
       residential, commercial, institutional sectors and agriculture, forestry,
@@ -335,20 +276,24 @@
       not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
 - Emissions|{Level-2 Species}|Energy|Demand|Industry:
     description: Emissions of {Level-2 Species} from fuel combustion in industry (IPCC category 1A2)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Industry|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in industry (IPCC category 1A2)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Gross Emissions|CO2|Energy|Demand|Industry:
     description: Gross emissions of carbon dioxide (CO2) from fuel combustion in industry
       (IPCC category 1A2), not accounting for removals from the atmosphere
     unit: Mt CO2/yr
     tier: 2
+    lower_bound: 0
 - Emissions|CO2|Energy|Demand|Industry|{Non-Energy Sector}:
     description: Emissions of carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
     unit: Mt CO2/yr
@@ -359,95 +304,114 @@
       and agriculture, forestry and fishing (AFOFI) (IPCC category 1A4c)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Residential and Commercial and AFOFI|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in residential, commercial and institutional sectors (IPCC category 1A4a and 1A4b)
       and agriculture, forestry and fishing (AFOFI) (IPCC category 1A4c)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial:
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Residential and Commercial|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in residential, commercial and institutional sectors (IPCC category 1A4a and 1A4b)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Residential:
     description: Emissions of {Level-2 Species} from fuel combustion in the residential
       sector (IPCC category 1A4b)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Residential|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in the residential sector (IPCC category 1A4b)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Commercial:
     description: Emissions of {Level-2 Species} from fuel combustion in the commercial
       and institutional sectors (IPCC category 1A4a)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Commercial|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in the commercial and institutional sectors (IPCC category 1A4a)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation:
     description: Emissions of {Level-2 Species} from fuel combustion in transportation (IPCC category 1A3),
       excluding emissions from international bunker fuels (IPCC category 1A3ai and 1A3di),
       excluding pipeline emissions (IPCC category 1A3ei)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|{Vehicle Type}:
     description: Emissions of {Level-2 Species} from fuel combustion by {Vehicle Type}
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Rail:
     description: Emissions of {Level-2 Species} from fuel combustion by railways
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Aviation:
     description: Emissions of {Level-2 Species} from fuel combustion in domestic aviation,
       excluding emissions from bunker fuels in international aviation
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Transportation|Domestic Shipping:
     description: Emissions of {Level-2 Species} from fuel combustion in domestic shipping,
       excluding emissions from bunker fuels in international shipping
     unit: "{Level-2 Species}"
     tier: 3
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in agriculture,
       forestry, fishing (AFOFI) (IPCC category 1A4c)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|AFOFI|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of
       {Energy-Related Emissions By Fuel} in agriculture, forestry, fishing (AFOFI)
       (IPCC category 1A4c)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Bunkers:
     description: Emissions of {Level-2 Species} from international bunker fuels
       (IPCC category 1A3ai and 1A3di)
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Bunkers|{Bunker Sector}:
     description: Emissions of {Level-2 Species} from bunker fuels for {Bunker Sector}
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-2 Species}|Energy|Demand|Other Sector:
     description: Emissions of {Level-2 Species} from fuel combustion in other sectors
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 - Emissions|{Level-3 Species}|Energy|Demand|Other Sector|{Energy-Related Emissions By Fuel}:
     description: Emissions of {Level-3 Species} from combustion of {Energy-Related Emissions By Fuel}
       in other sectors
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Industrial Processes:
     description: Emissions of {Level-3 Species} from industrial processes
@@ -455,6 +419,7 @@
       cement carbonation processes and other forms of capture and storage on industrial processes
     unit: "{Level-3 Species}"
     tier: 1
+    lower_bound: "{Level-3 Species}"
     notes: For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross emissions of carbon dioxide (CO2) from industrial processes
@@ -462,40 +427,48 @@
       from carbon removal processes such as from cement production
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
 - Emissions|{Level-3 Species}|Industrial Processes|{Non-Energy Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
       (IPCC categories 2A, 2B, 2C, 2E) in the {Non-Energy Sector}
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Industrial Processes|{Industrial-Process Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
       (IPCC categories 2A, 2B, 2C, 2E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 
 - Emissions|{Level-3 Species}|Product Use:
     description: Emissions of {Level-3 Species} from product use (IPCC category 2D, 2F
       and 2G)
     unit: "{Level-3 Species}"
     tier: 2
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Product Use|Non-Energy Use:
     description: Emissions of {Level-3 Species} from non-energy products from fuels
       (IPCC category 2D1 and 2D2)
     unit: "{Level-3 Species}"
     tier: 3
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Product Use|Solvents:
     description: Emissions of {Level-3 Species} from solvents use (IPCC category 2D3)
     unit: "{Level-3 Species}"
     tier: 3
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Product Use|ODS Substitutes:
     description: Emissions of {Level-3 Species} from use of substitutes of ozone
       depleting substances (ODS) (IPCC categories 2F)
     unit: "{Level-3 Species}"
     tier: 3
+    lower_bound: "{Level-3 Species}"
 - Emissions|{Level-3 Species}|Product Use|Other:
     description: Emissions of {Level-3 Species} from other product use or manufacturing
     unit: "{Level-3 Species}"
     tier: 3
+    lower_bound: "{Level-3 Species}"
 
 - Emissions|{Level-2 Species}|Waste:
     description: Emissions of {Level-2 Species} from waste of fossil-based products through
@@ -503,6 +476,7 @@
       not including emissions from organic waste handling and decay
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 
 - Emissions|{Level-2 Species}|Other:
     description: Emissions of {Level-2 Species} from other sources (IPCC 1996 category 7 -
@@ -511,6 +485,7 @@
     notes: This will be treated as a flux from the fossil reservoir to the atmosphere in climate models.
     unit: "{Level-2 Species}"
     tier: 2
+    lower_bound: "{Level-2 Species}"
 
 - Emissions|{Level-3 Species}|Other Capture and Removal:
     description: Capture and removal of atmospheric {Level-3 Species} using other net-negative
@@ -520,6 +495,7 @@
       ocean alkalinity enhancement (OAE), and direct ocean capture.
     unit: "{Level-3 Species}"
     tier: 2
+    upper_bound: 0
     notes: This timeseries should be reported as negative values so that subcategories
       of emissions add up to net emissions 'Emissions|{Level-3 Species}'.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
