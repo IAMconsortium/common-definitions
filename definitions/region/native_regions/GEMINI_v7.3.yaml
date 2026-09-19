@@ -1,0 +1,162 @@
+- GEMINI 7.3:
+  - GEMINI 7.3|ASI:
+      countries:
+      - Australia
+      - New Zealand
+      - Japan
+      - South Korea
+      - Mongolia
+      - Taiwan
+      - Brunei Darussalam
+      - Cambodia
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Philippines
+      - Singapore
+      - Thailand
+      - Viet Nam
+      - Nepal
+      - Pakistan
+      - Sri Lanka
+  - GEMINI 7.3|CHI:
+      countries:
+      - China
+      - Hong Kong
+  - GEMINI 7.3|ROW:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Canada
+      - United Kingdom
+      - Switzerland
+      - Norway
+      - Albania
+      - Serbia
+      - Belarus
+      - Ukraine
+      - Kazakhstan
+      - Kyrgyzstan
+      - Tajikistan
+      - Uzbekistan
+      - Armenia
+      - Azerbaijan
+      - Georgia
+      - Israel
+      - Turkey
+  - GEMINI 7.3|IND:
+      countries:
+      - India
+  - GEMINI 7.3|USA:
+      countries:
+      - United States
+  - GEMINI 7.3|CSA:
+      countries:
+      - Mexico
+      - Argentina
+      - Bolivia
+      - Brazil
+      - Chile
+      - Colombia
+      - Ecuador
+      - Paraguay
+      - Peru
+      - Uruguay
+      - Venezuela
+      - Costa Rica
+      - Guatemala
+      - Honduras
+      - Nicaragua
+      - Panama
+      - El Salvador
+      - Dominican Republic
+      - Haiti
+      - Jamaica
+      - Puerto Rico
+      - Trinidad and Tobago
+  - GEMINI 7.3|EU27:
+      countries:
+      - Austria
+      - Belgium
+      - Bulgaria
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Denmark
+      - Estonia
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Hungary
+      - Ireland
+      - Italy
+      - Latvia
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Poland
+      - Portugal
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Spain
+      - Sweden
+  - GEMINI 7.3|RUS:
+      countries:
+      - Russian Federation
+  - GEMINI 7.3|MID:
+      countries:
+      - Bahrain
+      - Iran
+      - Iraq
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - United Arab Emirates
+  - GEMINI 7.3|AFR:
+      countries:
+      - Algeria
+      - Egypt
+      - Morocco
+      - Tunisia
+      - Benin
+      - Burkina Faso
+      - Cameroon
+      - Côte d'Ivoire
+      - Ghana
+      - Guinea
+      - Mali
+      - Niger
+      - Nigeria
+      - Senegal
+      - Togo
+      - Central African Republic
+      - Chad
+      - Congo
+      - Democratic Republic of the Congo
+      - Equatorial Guinea
+      - Gabon
+      - Comoros
+      - Ethiopia
+      - Kenya
+      - Madagascar
+      - Malawi
+      - Mauritius
+      - Mozambique
+      - Rwanda
+      - Sudan
+      - Tanzania
+      - Uganda
+      - Zambia
+      - Zimbabwe
+      - Botswana
+      - Eswatini
+      - Namibia
+      - South Africa
