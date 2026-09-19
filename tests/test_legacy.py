@@ -23,5 +23,5 @@ def test_legacy_variables():
         ]
 
         raise ValueError(
-            "Deprecated variables from legacy projects:\n" f"{''.join(error)}"
+            f"Deprecated variables from legacy projects:\n{''.join(error)}"
         )
