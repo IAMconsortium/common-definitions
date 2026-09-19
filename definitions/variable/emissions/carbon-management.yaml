@@ -234,3 +234,12 @@
     tier: 2
     lower_bound: 0
     navigate: Carbon Capture|Usage|{Carbon Utilization Type}
+
+
+- Feedstock Embedded Carbon:
+    description: Total amount of carbon dioxide (CO2) that is embedded in industrial feedstocks without the use of flue gas capture equipment (e.g., biomass, natural gas or petroleum-derived carbon that is embedded in industrial products as opposed to being emitted during their manufacture). 
+    unit: Mt CO2/yr
+    tier: 1
+    lower_bound: 0
+    components:
+    notes: Values should be reported on a CO2 basis if the embedded carbon were to be combusted
