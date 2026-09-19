@@ -1,0 +1,19 @@
+- Transportation Infrastructure Types:
+    - Road|Length:
+        description: Paved or unpaved pathways for vehicle transportation
+        unit: km
+    - Road|Area:
+        description: Paved or unpaved pathways for vehicle transportation
+        unit: km^2
+    - Rail:
+        description: Tracks for train-based passenger and freight transport
+        unit: km
+    - Bridge:
+        description: Structures spanning obstacles to support transportation routes
+        unit: km
+    - Tunnel:
+        description: Underground or submerged passages for transport routes
+        unit: km
+    - Parking:
+        description: Designated areas for vehicle storage and parking
+        unit: km^2
