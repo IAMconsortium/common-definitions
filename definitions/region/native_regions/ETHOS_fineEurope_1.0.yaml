@@ -1,0 +1,70 @@
+- ETHOS.fineEurope 1.0:
+    - ETHOS.fineEurope 1.0|Austria:
+        countries: Austria
+    - ETHOS.fineEurope 1.0|Belgium:
+        countries: Belgium
+    - ETHOS.fineEurope 1.0|Bulgaria:
+        countries: Bulgaria
+    - ETHOS.fineEurope 1.0|Croatia:
+        countries: Croatia
+    - ETHOS.fineEurope 1.0|Cyprus:
+        countries: Cyprus
+    - ETHOS.fineEurope 1.0|Czechia:
+        countries: Czechia
+    - ETHOS.fineEurope 1.0|Denmark:
+        countries: Denmark
+    - ETHOS.fineEurope 1.0|Estonia:
+        countries: Estonia
+    - ETHOS.fineEurope 1.0|Finland:
+        countries: Finland
+    - ETHOS.fineEurope 1.0|France:
+        countries: France
+    - ETHOS.fineEurope 1.0|Germany:
+        countries: Germany
+    - ETHOS.fineEurope 1.0|Greece:
+        countries: Greece
+    - ETHOS.fineEurope 1.0|Hungary:
+        countries: Hungary
+    - ETHOS.fineEurope 1.0|Ireland:
+        countries: Ireland
+    - ETHOS.fineEurope 1.0|Italy:
+        countries: Italy
+    - ETHOS.fineEurope 1.0|Latvia:
+        countries: Latvia
+    - ETHOS.fineEurope 1.0|Lithuania:
+        countries: Lithuania
+    - ETHOS.fineEurope 1.0|Luxembourg:
+        countries: Luxembourg
+    - ETHOS.fineEurope 1.0|Netherlands:
+        countries: Netherlands
+    - ETHOS.fineEurope 1.0|Norway:
+        countries: Norway
+    - ETHOS.fineEurope 1.0|Poland:
+        countries: Poland
+    - ETHOS.fineEurope 1.0|Portugal:
+        countries: Portugal
+    - ETHOS.fineEurope 1.0|Romania:
+        countries: Romania
+    - ETHOS.fineEurope 1.0|Slovakia:
+        countries: Slovakia
+    - ETHOS.fineEurope 1.0|Slovenia:
+        countries: Slovenia
+    - ETHOS.fineEurope 1.0|Spain:
+        countries: Spain
+    - ETHOS.fineEurope 1.0|Sweden:
+        countries: Sweden
+    - ETHOS.fineEurope 1.0|Switzerland:
+        countries: Switzerland
+    - ETHOS.fineEurope 1.0|United Kingdom:
+        countries: United Kingdom
+    - ETHOS.fineEurope 1.0|Europe:
+        description: >
+          Aggregate model region covering the European countries
+          represented in ETHOS.fineEurope 1.0.
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark,
+          Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy,
+          Latvia, Lithuania, Luxembourg, Netherlands, Norway, Poland,
+          Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland,
+          United Kingdom
+        ]
