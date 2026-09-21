@@ -1,0 +1,107 @@
+model: IMED_V1.0
+native_regions:
+- AFR: IMED_V1.0|Africa
+- ANZ: IMED_V1.0|Australia&NZ
+- CAN: IMED_V1.0|Canada
+- CHN: IMED_V1.0|China
+- EEU: IMED_V1.0|Eastern Europe
+- FSU: IMED_V1.0|Former Soviet Union
+- IND: IMED_V1.0|India
+- JPN: IMED_V1.0|Japan
+- KOR: IMED_V1.0|South Korea
+- LAM: IMED_V1.0|Latin America
+- MEA: IMED_V1.0|Middle East
+- ODA: IMED_V1.0|Other asia
+- USA: IMED_V1.0|United States
+- WEU: IMED_V1.0|Western Europe
+- ROW: IMED_V1.0|Rest of World
+common_regions:
+- World:
+  - ROW
+  - AFR
+  - ANZ
+  - CAN
+  - CHN
+  - EEU
+  - FSU
+  - IND
+  - JPN
+  - KOR
+  - LAM
+  - MEA
+  - ODA
+  - USA
+  - WEU
+- Asia (R5):
+  - CHN
+  - IND
+  - KOR
+  - ODA
+- Latin America (R5):
+  - LAM
+- Middle East & Africa (R5):
+  - AFR
+  - MEA
+- OECD & EU (R5):
+  - ANZ
+  - CAN
+  - EEU
+  - JPN
+  - USA
+  - WEU
+- Reforming Economies (R5):
+  - FSU
+- Africa (R10):
+  - AFR
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - EEU
+  - WEU
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - LAM
+- Middle East (R10):
+  - MEA
+- North America (R10):
+  - CAN
+  - USA
+- Pacific OECD (R10):
+  - ANZ
+  - JPN
+- Reforming Economies (R10):
+  - FSU
+- Rest of Asia (R10):
+  - ODA
+- China (R9):
+  - CHN
+- European Union (R9):
+  - WEU
+- India (R9):
+  - IND
+- Latin America (R9):
+  - LAM
+- Middle East & Africa (R9):
+  - AFR
+  - MEA
+- Other Asia (R9):
+  - KOR
+  - ODA
+- Other OECD (R9):
+  - ANZ
+  - CAN
+  - EEU
+  - JPN
+- Reforming Economies (R9):
+  - FSU
+- USA (R9):
+  - USA
+
+- Other (R5):
+  - ROW
+- Other (R10):
+  - ROW
+- Other (R9):
+  - ROW
