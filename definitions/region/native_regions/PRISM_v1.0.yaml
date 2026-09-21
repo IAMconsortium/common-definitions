@@ -1,0 +1,285 @@
+- PRISM v1.0:
+  - PRISM v1.0|Korea:
+      countries:
+      - South Korea
+  - PRISM v1.0|China:
+      countries:
+      - China
+  - PRISM v1.0|Japan:
+      countries:
+      - Japan
+  - PRISM v1.0|Russian Federation:
+      countries:
+      - Russian Federation
+  - PRISM v1.0|Mongolia:
+      countries:
+      - Mongolia
+  - PRISM v1.0|Peoples Republic of Korea:
+      countries:
+      - North Korea
+  - PRISM v1.0|North America:
+      countries:
+      - Bermuda
+      - Canada
+      - Saint Pierre and Miquelon
+      - United States
+  - PRISM v1.0|Latin America and the Caribbean:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Argentina
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Brazil
+      - British Virgin Islands
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Grenada
+      - Guadeloupe
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Mexico
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Puerto Rico
+      - Saint Barthélemy
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - South Georgia and the South Sandwich Islands
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - United States Virgin Islands
+      - Uruguay
+      - Venezuela
+  - PRISM v1.0|Western Europe:
+      countries:
+      - Åland Islands
+      - Andorra
+      - Austria
+      - Belgium
+      - Bouvet Island
+      - Cyprus
+      - Denmark
+      - Faroe Islands
+      - Finland
+      - France
+      - Germany
+      - Gibraltar
+      - Greece
+      - Greenland
+      - Guernsey
+      - Iceland
+      - Ireland
+      - Isle of Man
+      - Italy
+      - Jersey
+      - Liechtenstein
+      - Luxembourg
+      - Malta
+      - Monaco
+      - Netherlands
+      - Norway
+      - Portugal
+      - San Marino
+      - Spain
+      - Svalbard and Jan Mayen
+      - Sweden
+      - Switzerland
+      - United Kingdom
+      - Vatican
+  - PRISM v1.0|Central and Eastern Europe:
+      countries:
+      - Albania
+      - Belarus
+      - Bosnia and Herzegovina
+      - Bulgaria
+      - Croatia
+      - Czechia
+      - Estonia
+      - Hungary
+      - Kosovo
+      - Latvia
+      - Lithuania
+      - Moldova
+      - Montenegro
+      - North Macedonia
+      - Poland
+      - Romania
+      - Serbia
+      - Slovakia
+      - Slovenia
+      - Ukraine
+  - PRISM v1.0|Central Asia Surrounds:
+      countries:
+      - Afghanistan
+      - Armenia
+      - Azerbaijan
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Tajikistan
+      - Turkmenistan
+      - Uzbekistan
+  - PRISM v1.0|Middle East and North Africa:
+      countries:
+      - Algeria
+      - Bahrain
+      - Egypt
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Libya
+      - Morocco
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - Tunisia
+      - Turkey
+      - United Arab Emirates
+      - Yemen
+  - PRISM v1.0|Sub-Saharan Africa:
+      countries:
+      - Angola
+      - Benin
+      - Botswana
+      - British Indian Ocean Territory
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - French Southern Territories
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Mayotte
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Réunion
+      - Rwanda
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Uganda
+      - Western Sahara
+      - Zambia
+      - Zimbabwe
+  - PRISM v1.0|Cambodia Laos Vietnam:
+      countries:
+      - Cambodia
+      - Laos
+      - Viet Nam
+  - PRISM v1.0|South Asia:
+      countries:
+      - Bangladesh
+      - Bhutan
+      - India
+      - Maldives
+      - Nepal
+      - Pakistan
+      - Sri Lanka
+  - PRISM v1.0|Asia-Pacific:
+      countries:
+      - American Samoa
+      - Antarctica
+      - Brunei Darussalam
+      - Cook Islands
+      - Fiji
+      - French Polynesia
+      - Guam
+      - Hong Kong
+      - Indonesia
+      - Kiribati
+      - Macao
+      - Malaysia
+      - Marshall Islands
+      - Micronesia
+      - Myanmar
+      - Nauru
+      - New Caledonia
+      - Niue
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Philippines
+      - Pitcairn
+      - Samoa
+      - Singapore
+      - Solomon Islands
+      - Taiwan
+      - Thailand
+      - Timor-Leste
+      - Tokelau
+      - Tonga
+      - Tuvalu
+      - United States Minor Outlying Islands
+      - Vanuatu
+      - Wallis and Futuna
+  - PRISM v1.0|Australia and New Zealand:
+      countries:
+      - Australia
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Heard Island and McDonald Islands
+      - New Zealand
+      - Norfolk Island
