@@ -12,6 +12,9 @@
     - Other Crops:
         description: other crops (fruits, vegetables, nuts, potatoes, pulses,
           tropical roots)
+    - Fodder Crops:
+        description: fodder crops (forage and silage crops such as maize, grasses,
+          clover and alfalfa, fodder roots and vegetables)
     - Energy Crops:
         description: second-generation bioenergy crops
           (short rotation grasses, short rotation trees)
