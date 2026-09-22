@@ -1,23 +1,21 @@
-model: IMED_V1.0
+model: IMED V1.0
 native_regions:
-- AFR: IMED_V1.0|Africa
-- ANZ: IMED_V1.0|Australia&NZ
-- CAN: IMED_V1.0|Canada
-- CHN: IMED_V1.0|China
-- EEU: IMED_V1.0|Eastern Europe
-- FSU: IMED_V1.0|Former Soviet Union
-- IND: IMED_V1.0|India
-- JPN: IMED_V1.0|Japan
-- KOR: IMED_V1.0|South Korea
-- LAM: IMED_V1.0|Latin America
-- MEA: IMED_V1.0|Middle East
-- ODA: IMED_V1.0|Other asia
-- USA: IMED_V1.0|United States
-- WEU: IMED_V1.0|Western Europe
-- ROW: IMED_V1.0|Rest of World
+- AFR: IMED V1.0|Africa
+- ANZ: IMED V1.0|Australia & New Zealand
+- CAN: IMED V1.0|Canada
+- CHN: IMED V1.0|China
+- EEU: IMED V1.0|Eastern Europe
+- FSU: IMED V1.0|Former Soviet Union
+- IND: IMED V1.0|India
+- JPN: IMED V1.0|Japan
+- KOR: IMED V1.0|South Korea
+- LAM: IMED V1.0|Latin America
+- MEA: IMED V1.0|Middle East
+- ODA: IMED V1.0|Other Asia
+- USA: IMED V1.0|United States
+- WEU: IMED V1.0|Western Europe
 common_regions:
 - World:
-  - ROW
   - AFR
   - ANZ
   - CAN
@@ -98,10 +96,3 @@ common_regions:
   - FSU
 - USA (R9):
   - USA
-
-- Other (R5):
-  - ROW
-- Other (R10):
-  - ROW
-- Other (R9):
-  - ROW

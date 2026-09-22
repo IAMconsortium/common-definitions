@@ -1,173 +1,151 @@
-# Native country/aggregate labels supplied for IMED_V1.0.
-- IMED_V1.0:
-  - IMED_V1.0|Africa:
+# Native country/aggregate labels supplied for IMED V1.0.
+- IMED V1.0:
+  - IMED V1.0|Africa:
       countries:
-      - 'Benin'
-      - 'Botswana'
-      - 'Burkina Faso'
-      - 'Côte d''Ivoire'
-      - 'Cameroon'
-      - 'Egypt'
-      - 'Ethiopia'
-      - 'Ghana'
-      - 'Guinea'
-      - 'Kenya'
-      - 'Madagascar'
-      - 'Malawi'
-      - 'Mauritius'
-      - 'Morocco'
-      - 'Mozambique'
-      - 'Namibia'
-      - 'Nigeria'
-      - 'Rest of central africa'
-      - 'rest of eastern african'
-      - 'rest of north africa'
-      - 'rest of south african customs union'
-      - 'Rest of western africa'
-      - 'Rwanda'
-      - 'Senegal'
-      - 'South Africa'
-      - 'south central africa'
-      - 'Togo'
-      - 'Tunisia'
-      - 'Uganda'
-      - 'United Republic of Tanzania'
-      - 'Zambia'
-      - 'Zimbabwe'
-  - IMED_V1.0|Australia&NZ:
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Côte d'Ivoire
+      - Cameroon
+      - Egypt
+      - Ethiopia
+      - Ghana
+      - Guinea
+      - Kenya
+      - Madagascar
+      - Malawi
+      - Mauritius
+      - Morocco
+      - Mozambique
+      - Namibia
+      - Nigeria
+      - Rwanda
+      - Senegal
+      - South Africa
+      - Togo
+      - Tunisia
+      - Uganda
+      - Tanzania
+      - Zambia
+      - Zimbabwe
+  - IMED V1.0|Australia & New Zealand:
       countries:
-      - 'Australia'
-      - 'New Zealand'
-  - IMED_V1.0|Canada:
+      - Australia
+      - New Zealand
+  - IMED V1.0|Canada:
       countries:
-      - 'Canada'
-  - IMED_V1.0|China:
+      - Canada
+  - IMED V1.0|China:
       countries:
-      - 'China, Hong Kong SAR'
-      - 'China, Taiwan Province of China'
-      - 'China,mainland'
-  - IMED_V1.0|Eastern Europe:
+      - China
+      - Hong Kong
+      - Taiwan
+  - IMED V1.0|Eastern Europe:
       countries:
-      - 'Albania'
-      - 'Bulgaria'
-      - 'Croatia'
-      - 'Czechia'
-      - 'Hungary'
-      - 'Poland'
-      - 'rest of eastern europe'
-      - 'Rest of europe'
-      - 'Romania'
-      - 'Slovakia'
-      - 'Slovenia'
-  - IMED_V1.0|Former Soviet Union:
+      - Albania
+      - Bulgaria
+      - Croatia
+      - Czechia
+      - Hungary
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+  - IMED V1.0|Former Soviet Union:
       countries:
-      - 'Armenia'
-      - 'Azerbaijan'
-      - 'Belarus'
-      - 'Estonia'
-      - 'Georgia'
-      - 'Kazakhstan'
-      - 'Kyrgyzstan'
-      - 'Latvia'
-      - 'Lithuania'
-      - 'Rest of Former Soviet Union'
-      - 'Russian Federation'
-      - 'Tajikistan'
-      - 'Ukraine'
-  - IMED_V1.0|India:
+      - Armenia
+      - Azerbaijan
+      - Belarus
+      - Estonia
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Latvia
+      - Lithuania
+      - Russian Federation
+      - Tajikistan
+      - Ukraine
+  - IMED V1.0|India:
       countries:
-      - 'India'
-  - IMED_V1.0|Japan:
+      - India
+  - IMED V1.0|Japan:
       countries:
-      - 'Japan'
-  - IMED_V1.0|South Korea:
+      - Japan
+  - IMED V1.0|South Korea:
       countries:
-      - 'Republic of Korea'
-  - IMED_V1.0|Latin America:
+      - South Korea
+  - IMED V1.0|Latin America:
       countries:
-      - 'Argentina'
-      - 'Bolivia (Plurinational State of)'
-      - 'Brazil'
-      - 'Chile'
-      - 'Colombia'
-      - 'Costa Rica'
-      - 'Dominican Republic'
-      - 'Ecuador'
-      - 'El Salvador'
-      - 'Guatemala'
-      - 'Honduras'
-      - 'Jamaica'
-      - 'Mexico'
-      - 'Nicaragua'
-      - 'Panama'
-      - 'Paraguay'
-      - 'Peru'
-      - 'Rest of Caribbean'
-      - 'Rest of central america'
-      - 'rest of north american'
-      - 'rest of south america'
-      - 'Trinidad and Tobago'
-      - 'Uruguay'
-      - 'Venezuela (Bolivarian Republic of)'
-  - IMED_V1.0|Middle East:
+      - Argentina
+      - Bolivia
+      - Brazil
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Guatemala
+      - Honduras
+      - Jamaica
+      - Mexico
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Trinidad and Tobago
+      - Uruguay
+      - Venezuela
+  - IMED V1.0|Middle East:
       countries:
-      - 'Bahrain'
-      - 'Iran (Islamic Republic of)'
-      - 'Israel'
-      - 'Jordan'
-      - 'Kuwait'
-      - 'Oman'
-      - 'Qatar'
-      - 'rest of western asian'
-      - 'Saudi Arabia'
-      - 'Turkey'
-      - 'United Arab Emirates'
-  - IMED_V1.0|Other asia:
+      - Bahrain
+      - Iran
+      - Israel
+      - Jordan
+      - Kuwait
+      - Oman
+      - Qatar
+      - Saudi Arabia
+      - Turkey
+      - United Arab Emirates
+  - IMED V1.0|Other Asia:
       countries:
-      - 'Bangladesh'
-      - 'Brunei Darussalam'
-      - 'Cambodia'
-      - 'Indonesia'
-      - 'Lao People''s Democratic Republic'
-      - 'Malaysia'
-      - 'Mongolia'
-      - 'Nepal'
-      - 'Pakistan'
-      - 'Philippines'
-      - 'rest of east asia'
-      - 'Rest of Oceania'
-      - 'Rest of south asia'
-      - 'Rest of southeast asia'
-      - 'Singapore'
-      - 'Sri Lanka'
-      - 'Thailand'
-      - 'Viet Nam'
-  - IMED_V1.0|United States:
+      - Bangladesh
+      - Brunei Darussalam
+      - Cambodia
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Mongolia
+      - Nepal
+      - Pakistan
+      - Philippines
+      - Singapore
+      - Sri Lanka
+      - Thailand
+      - Viet Nam
+  - IMED V1.0|United States:
       countries:
-      - 'Puerto Rico'
-      - 'United States of America'
-  - IMED_V1.0|Western Europe:
+      - Puerto Rico
+      - United States
+  - IMED V1.0|Western Europe:
       countries:
-      - 'Austria'
-      - 'Belgium'
-      - 'Cyprus'
-      - 'Denmark'
-      - 'Finland'
-      - 'France'
-      - 'Germany'
-      - 'Great Bratain'
-      - 'Greece'
-      - 'Ireland'
-      - 'Italy'
-      - 'Luxembourg'
-      - 'Malta'
-      - 'Netherlands'
-      - 'Norway'
-      - 'Portugal'
-      - 'Rest of European Free Trade Association'
-      - 'Spain'
-      - 'Sweden'
-      - 'Switzerland'
-  - IMED_V1.0|Rest of World:
-      countries:
-      - 'rest of world'
+      - Austria
+      - Belgium
+      - Cyprus
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - United Kingdom
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Norway
+      - Portugal
+      - Spain
+      - Sweden
+      - Switzerland
