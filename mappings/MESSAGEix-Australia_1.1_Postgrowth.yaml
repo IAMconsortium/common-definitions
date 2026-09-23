@@ -2,14 +2,6 @@ model: MESSAGEix-Australia 1.1 Postgrowth
 native_regions:
   - AUS: MESSAGEix-Australia 1.1 Postgrowth|Australia
 common_regions:
-  - World:
-      - AUS
-
-  - OECD & EU (R5):
-      - AUS
-
-  - Other OECD (R9):
-      - AUS
-
-  - Pacific OECD (R10):
+  # national model: only the country-level common region is fully covered
+  - Australia:
       - AUS
