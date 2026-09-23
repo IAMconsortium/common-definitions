@@ -1,0 +1,129 @@
+model: MAgPIE 4.7.3-FSEC
+
+native_regions:
+  - ANZ: MAgPIE 4.7.3-FSEC|Australia and New Zealand
+  - BRA: MAgPIE 4.7.3-FSEC|Brazil
+  - CAN: MAgPIE 4.7.3-FSEC|Canada
+  - CHA: MAgPIE 4.7.3-FSEC|China and Taiwan
+  - EUR: MAgPIE 4.7.3-FSEC|EU 27
+  - IND: MAgPIE 4.7.3-FSEC|India
+  - JKO: MAgPIE 4.7.3-FSEC|Japan and South Korea
+  - LAM: MAgPIE 4.7.3-FSEC|Latin America and the Caribbean excluding Brazil
+  - MEA: MAgPIE 4.7.3-FSEC|Middle East and North Africa
+  - NEA: MAgPIE 4.7.3-FSEC|Reforming Economies, Mongolia and North Korea
+  - NEU: MAgPIE 4.7.3-FSEC|Non-EU Europe
+  - OAS: MAgPIE 4.7.3-FSEC|Other Asia
+  - SSA: MAgPIE 4.7.3-FSEC|Sub-Saharan Africa
+  - USA: MAgPIE 4.7.3-FSEC|United States of America
+
+common_regions:
+  - World:
+      - ANZ
+      - BRA
+      - CAN
+      - CHA
+      - EUR
+      - IND
+      - JKO
+      - LAM
+      - MEA
+      - NEA
+      - NEU
+      - OAS
+      - SSA
+      - USA
+
+  # R5 regions
+  # NEA includes Mongolia and North Korea, which belong to Asia (R5)
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - BRA
+      - LAM
+  - Middle East & Africa (R5):
+      - MEA
+      - SSA
+  - OECD & EU (R5):
+      - ANZ
+      - CAN
+      - EUR
+      - NEU
+      - USA
+  - Reforming Economies (R5):
+      - NEA
+  # JKO combines Japan (OECD & EU) and South Korea (Asia)
+  - Other (R5):
+      - JKO
+
+  # R9 regions
+  # NEA includes Mongolia and North Korea, which belong to Other Asia (R9)
+  - European Union (R9):
+      - EUR
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - ANZ
+      - CAN
+      - NEU
+  - China (R9):
+      - CHA
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - OAS
+  - Reforming Economies (R9):
+      - NEA
+  - Middle East & Africa (R9):
+      - MEA
+      - SSA
+  - Latin America (R9):
+      - BRA
+      - LAM
+  # JKO combines Japan (Other OECD) and South Korea (Other Asia)
+  - Other (R9):
+      - JKO
+
+  # R10 regions
+  # NEA includes Mongolia and North Korea, which belong to China+ (R10)
+  - Africa (R10):
+      - SSA
+  - China+ (R10):
+      - CHA
+  - Europe (R10):
+      - EUR
+      - NEU
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - BRA
+      - LAM
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - CAN
+      - USA
+  - Pacific OECD (R10):
+      - ANZ
+  - Reforming Economies (R10):
+      - NEA
+  - Rest of Asia (R10):
+      - OAS
+  # JKO combines Japan (Pacific OECD) and South Korea (China+)
+  - Other (R10):
+      - JKO
+
+  # mapping for G20 members
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHA
+  - India:
+      - IND
+  - United States:
+      - USA
+  - European Union:
+      - EUR
