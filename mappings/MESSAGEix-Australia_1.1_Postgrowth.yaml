@@ -1,6 +1,6 @@
-model: MESSAGEix-Australia 1.0
+model: MESSAGEix-Australia 1.1 Postgrowth
 native_regions:
-  - AUS: MESSAGEix-Australia 1.0|Australia
+  - AUS: MESSAGEix-Australia 1.1 Postgrowth|Australia
 common_regions:
   - World:
       - AUS
