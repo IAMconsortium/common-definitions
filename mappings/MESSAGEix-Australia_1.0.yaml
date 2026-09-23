@@ -1,0 +1,15 @@
+model: MESSAGEix-Australia 1.0
+native_regions:
+  - AUS: MESSAGEix-Australia 1.0|Australia
+common_regions:
+  - World:
+      - AUS
+
+  - OECD & EU (R5):
+      - AUS
+
+  - Other OECD (R9):
+      - AUS
+
+  - Pacific OECD (R10):
+      - AUS
