@@ -1,0 +1,247 @@
+- GJP 1.0.0:
+  - GJP 1.0.0|Europe:
+      countries:
+      - Albania
+      - Andorra
+      - Austria
+      - Belgium
+      - Bosnia and Herzegovina
+      - Bulgaria
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Denmark
+      - Estonia
+      - Faroe Islands
+      - Finland
+      - France
+      - Germany
+      - Gibraltar
+      - Greece
+      - Guernsey
+      - Hungary
+      - Iceland
+      - Ireland
+      - Isle of Man
+      - Italy
+      - Jersey
+      - Kosovo
+      - Latvia
+      - Liechtenstein
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Moldova
+      - Monaco
+      - Montenegro
+      - Netherlands
+      - North Macedonia
+      - Norway
+      - Poland
+      - Portugal
+      - Romania
+      - San Marino
+      - Serbia
+      - Slovakia
+      - Slovenia
+      - Spain
+      - Sweden
+      - Switzerland
+      - United Kingdom
+      - Vatican
+  - GJP 1.0.0|Sub-Saharan Africa:
+      countries:
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Rwanda
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Uganda
+      - Zambia
+      - Zimbabwe
+  - GJP 1.0.0|South & South-East Asia:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Bhutan
+      - Brunei Darussalam
+      - Cambodia
+      - India
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Maldives
+      - Myanmar
+      - Nepal
+      - Pakistan
+      - Philippines
+      - Singapore
+      - Sri Lanka
+      - Thailand
+      - Timor-Leste
+      - Viet Nam
+  - GJP 1.0.0|North America & Oceania:
+      countries:
+      - American Samoa
+      - Australia
+      - Bermuda
+      - Canada
+      - Cook Islands
+      - Fiji
+      - French Polynesia
+      - Greenland
+      - Guam
+      - Kiribati
+      - Marshall Islands
+      - Micronesia
+      - Nauru
+      - New Caledonia
+      - New Zealand
+      - Niue
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Saint Pierre and Miquelon
+      - Samoa
+      - Solomon Islands
+      - Tokelau
+      - Tonga
+      - Tuvalu
+      - United States
+      - Vanuatu
+      - Wallis and Futuna
+  - GJP 1.0.0|MENA:
+      countries:
+      - Algeria
+      - Bahrain
+      - Egypt
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Libya
+      - Morocco
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - Tunisia
+      - Turkey
+      - United Arab Emirates
+      - Western Sahara
+      - Yemen
+  - GJP 1.0.0|Latin America:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Argentina
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Brazil
+      - British Virgin Islands
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - Grenada
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Mexico
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Puerto Rico
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - United States Virgin Islands
+      - Uruguay
+      - Venezuela
+  - GJP 1.0.0|East Asia:
+      countries:
+      - China
+      - Hong Kong
+      - Japan
+      - Macao
+      - Mongolia
+      - North Korea
+      - South Korea
+      - Taiwan
+  - GJP 1.0.0|Russia & Central Asia:
+      countries:
+      - Armenia
+      - Azerbaijan
+      - Belarus
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Russian Federation
+      - Tajikistan
+      - Turkmenistan
+      - Ukraine
+      - Uzbekistan
