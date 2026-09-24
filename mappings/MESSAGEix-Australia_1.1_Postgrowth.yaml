@@ -1,7 +1,3 @@
 model: MESSAGEix-Australia 1.1 Postgrowth
 native_regions:
-  - AUS: MESSAGEix-Australia 1.1 Postgrowth|Australia
-common_regions:
-  # national model: only the country-level common region is fully covered
-  - Australia:
-      - AUS
+  - AUS: Australia
