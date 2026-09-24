@@ -1,0 +1,33 @@
+model: GJP 1.0.0
+native_regions:
+- Europe: GJP 1.0.0|Europe
+- Sub-Saharan Africa: GJP 1.0.0|Sub-Saharan Africa
+- South & South-East Asia: GJP 1.0.0|South & South-East Asia
+- North America & Oceania: GJP 1.0.0|North America & Oceania
+- MENA: GJP 1.0.0|Middle East & North Africa
+- Latin America: GJP 1.0.0|Latin America
+- East Asia: GJP 1.0.0|East Asia
+- Russia & Central Asia: GJP 1.0.0|Russia & Central Asia
+common_regions:
+- World:
+  - Europe
+  - Sub-Saharan Africa
+  - South & South-East Asia
+  - North America & Oceania
+  - MENA
+  - Latin America
+  - East Asia
+  - Russia & Central Asia
+- OECD & EU (R5):
+  - Europe
+  - North America & Oceania
+- Reforming Economies (R5):
+  - Russia & Central Asia
+- Asia (R5):
+  - South & South-East Asia
+  - East Asia
+- Middle East & Africa (R5):
+  - Sub-Saharan Africa
+  - MENA
+- Latin America (R5):
+  - Latin America
