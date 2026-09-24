@@ -1,4 +1,6 @@
-model: MESSAGEix-GLOBIOM 1.1
+model:
+  - MESSAGEix-GLOBIOM 1.1
+  - MESSAGEix-GLOBIOM 1.1 Postgrowth
 native_regions:
   - R11_AFR: MESSAGEix-GLOBIOM 1.1|Sub-Saharan Africa
   - R11_CPA: MESSAGEix-GLOBIOM 1.1|Centrally Planned Asia and China
