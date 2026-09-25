@@ -27,7 +27,7 @@ jobs:
           python-version: 3.14
 
       - name: Install requirements
-        run: pip install ${{ matrix.nomenclature }}
+        run: pip install ${{ matrix.nomenclature }} "SQLAlchemy<2.1.0"
 
       - name: Install pytest
         run: pip install pytest
