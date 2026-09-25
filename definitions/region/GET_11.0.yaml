@@ -1,0 +1,268 @@
+- GET 11.0:
+  - GET 11.0|Sub-Saharan Africa:
+      countries:
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Rwanda
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - Tanzania
+      - Togo
+      - Uganda
+      - Western Sahara
+      - Zambia
+      - Zimbabwe
+  - GET 11.0|Centrally Planned Asia and China:
+      countries:
+      - Cambodia
+      - China
+      - Hong Kong
+      - Laos
+      - Macao
+      - Mongolia
+      - North Korea
+      - Viet Nam
+  - GET 11.0|Europe:
+      countries:
+      - Åland Islands
+      - Albania
+      - Andorra
+      - Austria
+      - Belgium
+      - Bosnia and Herzegovina
+      - British Indian Ocean Territory
+      - British Virgin Islands
+      - Bulgaria
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Denmark
+      - Estonia
+      - Faroe Islands
+      - Finland
+      - France
+      - Germany
+      - Gibraltar
+      - Greece
+      - Greenland
+      - Guernsey
+      - Hungary
+      - Iceland
+      - Ireland
+      - Isle of Man
+      - Italy
+      - Jersey
+      - Kosovo
+      - Latvia
+      - Liechtenstein
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Mayotte
+      - Monaco
+      - Montenegro
+      - Netherlands
+      - Norfolk Island
+      - North Macedonia
+      - Norway
+      - Pitcairn
+      - Poland
+      - Portugal
+      - Réunion
+      - Romania
+      - Saint Barthélemy
+      - Saint Martin (French part)
+      - Saint Pierre and Miquelon
+      - San Marino
+      - Serbia
+      - Slovakia
+      - Slovenia
+      - South Georgia and the South Sandwich Islands
+      - Spain
+      - Svalbard and Jan Mayen
+      - Sweden
+      - Switzerland
+      - Turkey
+      - United Kingdom
+      - Vatican
+      - Wallis and Futuna
+  - GET 11.0|Former Soviet Union:
+      countries:
+      - Armenia
+      - Azerbaijan
+      - Belarus
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Moldova
+      - Russian Federation
+      - Tajikistan
+      - Turkmenistan
+      - Ukraine
+      - Uzbekistan
+  - GET 11.0|Latin America and the Caribbean:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Argentina
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bermuda
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Brazil
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Grenada
+      - Guadeloupe
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Mexico
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - Uruguay
+      - Venezuela
+  - GET 11.0|Middle East and North Africa:
+      countries:
+      - Algeria
+      - Bahrain
+      - Egypt
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Libya
+      - Morocco
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - South Sudan
+      - Sudan
+      - Syria
+      - Tunisia
+      - United Arab Emirates
+      - Yemen
+  - GET 11.0|North America:
+      countries:
+      - Canada
+      - Guam
+      - Puerto Rico
+      - United States
+      - United States Minor Outlying Islands
+      - United States Virgin Islands
+  - GET 11.0|Pacific OECD:
+      countries:
+      - Australia
+      - Christmas Island
+      - Heard Island and McDonald Islands
+      - Japan
+      - New Zealand
+      - Tokelau
+  - GET 11.0|Other Pacific Asia:
+      countries:
+      - American Samoa
+      - Brunei Darussalam
+      - Cocos (Keeling) Islands
+      - Cook Islands
+      - Fiji
+      - French Polynesia
+      - Indonesia
+      - Kiribati
+      - Malaysia
+      - Marshall Islands
+      - Micronesia
+      - Myanmar
+      - Nauru
+      - New Caledonia
+      - Niue
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Philippines
+      - Samoa
+      - Singapore
+      - Solomon Islands
+      - South Korea
+      - Taiwan
+      - Thailand
+      - Timor-Leste
+      - Tonga
+      - Tuvalu
+      - Vanuatu
+  - GET 11.0|South Asia:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Bhutan
+      - India
+      - Maldives
+      - Nepal
+      - Pakistan
+      - Sri Lanka
