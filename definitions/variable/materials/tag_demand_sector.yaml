@@ -1,0 +1,11 @@
+- Demand Sector:
+    - Transportation:
+        description: All modes of transporting people and goods, including road, rail, air, and water transport
+    - Buildings:
+        description: All structures used for human activities, including residential, commercial, and industrial purposes
+    - Electricity:
+        description: Sector encompassing the generation, transmission, distribution, and storage of electricity
+    - Transportation Infrastructure:
+        description: Infrastructure supporting the movement of people and goods, including roads, railways, airports, seaports, and related services
+    - Other:
+        description: Demand sectors not explicitly represented in other categories.

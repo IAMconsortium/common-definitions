@@ -1,0 +1,4 @@
+- Material Stock|{Engineered Material}|{Demand Sector Disaggregated}:
+    description: Amount of (Engineered Material) embedded/in use in (Demand Sector),
+      S_7 - In-use stock of (Engineered Material) in (Demand Sector)
+    unit: Mt
