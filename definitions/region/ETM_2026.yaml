@@ -125,7 +125,7 @@
   - ETM 2026|Japan:
       countries:
       - Japan
-  - ETM 2026|Middle East Asia:
+  - ETM 2026|Middle East:
       countries:
       - Bahrain
       - Iran
@@ -145,7 +145,7 @@
   - ETM 2026|Mexico:
       countries:
       - Mexico
-  - ETM 2026|Other Development Asia:
+  - ETM 2026|Other Asia:
       countries:
       - Afghanistan
       - American Samoa
@@ -206,7 +206,7 @@
       - Vanuatu
       - Viet Nam
       - Wallis and Futuna
-  - ETM 2026|Other Easter Europe:
+  - ETM 2026|Other Eastern Europe:
       countries:
       - Albania
       - Belarus
@@ -273,7 +273,7 @@
       - United States Virgin Islands
       - Uruguay
       - Venezuela
-  - ETM 2026|Rusia:
+  - ETM 2026|Russia:
       countries:
       - Russian Federation
   - ETM 2026|South Korea:

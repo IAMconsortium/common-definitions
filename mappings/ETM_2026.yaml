@@ -9,12 +9,12 @@ native_regions:
 - EUR: ETM 2026|Europe
 - IND: ETM 2026|India
 - JPN: ETM 2026|Japan
-- MEA: ETM 2026|Middle East Asia
+- MEA: ETM 2026|Middle East
 - MEX: ETM 2026|Mexico
-- ODA: ETM 2026|Other Development Asia
-- OEE: ETM 2026|Other Easter Europe
+- ODA: ETM 2026|Other Asia
+- OEE: ETM 2026|Other Eastern Europe
 - OLA: ETM 2026|Other Latin America
-- RUS: ETM 2026|Rusia
+- RUS: ETM 2026|Russia
 - SKO: ETM 2026|South Korea
 - USA: ETM 2026|USA
 common_regions:
