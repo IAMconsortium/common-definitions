@@ -1,22 +1,22 @@
-model: ETM_2026
+model: ETM 2026
 native_regions:
-- AFR: ETM_2026|Africa
-- AUS: ETM_2026|Australia
-- BRA: ETM_2026|Brazil
-- CAC: ETM_2026|Caucasus
-- CAN: ETM_2026|Canada
-- CHI: ETM_2026|China
-- EUR: ETM_2026|Europe
-- IND: ETM_2026|India
-- JPN: ETM_2026|Japan
-- MEA: ETM_2026|Middle East Asia
-- MEX: ETM_2026|Mexico
-- ODA: ETM_2026|Other Development Asia
-- OEE: ETM_2026|Other Easter Europe
-- OLA: ETM_2026|Other Latin America
-- RUS: ETM_2026|Rusia
-- SKO: ETM_2026|South Korea
-- USA: ETM_2026|USA
+- AFR: ETM 2026|Africa
+- AUS: ETM 2026|Australia
+- BRA: ETM 2026|Brazil
+- CAC: ETM 2026|Caucasus
+- CAN: ETM 2026|Canada
+- CHI: ETM 2026|China
+- EUR: ETM 2026|Europe
+- IND: ETM 2026|India
+- JPN: ETM 2026|Japan
+- MEA: ETM 2026|Middle East Asia
+- MEX: ETM 2026|Mexico
+- ODA: ETM 2026|Other Development Asia
+- OEE: ETM 2026|Other Easter Europe
+- OLA: ETM 2026|Other Latin America
+- RUS: ETM 2026|Rusia
+- SKO: ETM 2026|South Korea
+- USA: ETM 2026|USA
 common_regions:
 - World:
   - AFR

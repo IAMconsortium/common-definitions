@@ -1,5 +1,5 @@
-- ETM_2026:
-  - ETM_2026|Africa:
+- ETM 2026:
+  - ETM 2026|Africa:
       countries:
       - Algeria
       - Angola
@@ -57,24 +57,24 @@
       - Western Sahara
       - Zambia
       - Zimbabwe
-  - ETM_2026|Australia:
+  - ETM 2026|Australia:
       countries:
       - Australia
-  - ETM_2026|Brazil:
+  - ETM 2026|Brazil:
       countries:
       - Brazil
-  - ETM_2026|Caucasus:
+  - ETM 2026|Caucasus:
       countries:
       - Armenia
       - Azerbaijan
       - Georgia
-  - ETM_2026|Canada:
+  - ETM 2026|Canada:
       countries:
       - Canada
-  - ETM_2026|China:
+  - ETM 2026|China:
       countries:
       - China
-  - ETM_2026|Europe:
+  - ETM 2026|Europe:
       countries:
       - Åland Islands
       - Andorra
@@ -119,13 +119,13 @@
       - Switzerland
       - United Kingdom
       - Vatican
-  - ETM_2026|India:
+  - ETM 2026|India:
       countries:
       - India
-  - ETM_2026|Japan:
+  - ETM 2026|Japan:
       countries:
       - Japan
-  - ETM_2026|Middle East Asia:
+  - ETM 2026|Middle East Asia:
       countries:
       - Bahrain
       - Iran
@@ -142,10 +142,10 @@
       - Turkey
       - United Arab Emirates
       - Yemen
-  - ETM_2026|Mexico:
+  - ETM 2026|Mexico:
       countries:
       - Mexico
-  - ETM_2026|Other Development Asia:
+  - ETM 2026|Other Development Asia:
       countries:
       - Afghanistan
       - American Samoa
@@ -206,7 +206,7 @@
       - Vanuatu
       - Viet Nam
       - Wallis and Futuna
-  - ETM_2026|Other Easter Europe:
+  - ETM 2026|Other Easter Europe:
       countries:
       - Albania
       - Belarus
@@ -220,7 +220,7 @@
       - Slovakia
       - Slovenia
       - Ukraine
-  - ETM_2026|Other Latin America:
+  - ETM 2026|Other Latin America:
       countries:
       - Anguilla
       - Antigua and Barbuda
@@ -273,12 +273,12 @@
       - United States Virgin Islands
       - Uruguay
       - Venezuela
-  - ETM_2026|Rusia:
+  - ETM 2026|Rusia:
       countries:
       - Russian Federation
-  - ETM_2026|South Korea:
+  - ETM 2026|South Korea:
       countries:
       - South Korea
-  - ETM_2026|USA:
+  - ETM 2026|USA:
       countries:
       - United States
