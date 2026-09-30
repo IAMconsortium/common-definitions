@@ -1,0 +1,284 @@
+- ETM_2026:
+  - ETM_2026|Africa:
+      countries:
+      - Algeria
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Djibouti
+      - Egypt
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Libya
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Mayotte
+      - Morocco
+      - Mozambique
+      - Namibia
+      - Niger
+      - Réunion
+      - Rwanda
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Tunisia
+      - Uganda
+      - Western Sahara
+      - Zambia
+      - Zimbabwe
+  - ETM_2026|Australia:
+      countries:
+      - Australia
+  - ETM_2026|Brazil:
+      countries:
+      - Brazil
+  - ETM_2026|Caucasus:
+      countries:
+      - Armenia
+      - Azerbaijan
+      - Georgia
+  - ETM_2026|Canada:
+      countries:
+      - Canada
+  - ETM_2026|China:
+      countries:
+      - China
+  - ETM_2026|Europe:
+      countries:
+      - Åland Islands
+      - Andorra
+      - Austria
+      - Belgium
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Democratic Republic of the Congo
+      - Denmark
+      - Estonia
+      - Faroe Islands
+      - Finland
+      - France
+      - Germany
+      - Gibraltar
+      - Greece
+      - Greenland
+      - Guernsey
+      - Hungary
+      - Iceland
+      - Ireland
+      - Isle of Man
+      - Italy
+      - Jersey
+      - Latvia
+      - Liechtenstein
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Monaco
+      - Netherlands
+      - Nigeria
+      - Norway
+      - Poland
+      - Portugal
+      - Romania
+      - San Marino
+      - Spain
+      - Svalbard and Jan Mayen
+      - Sweden
+      - Switzerland
+      - United Kingdom
+      - Vatican
+  - ETM_2026|India:
+      countries:
+      - India
+  - ETM_2026|Japan:
+      countries:
+      - Japan
+  - ETM_2026|Middle East Asia:
+      countries:
+      - Bahrain
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - Turkey
+      - United Arab Emirates
+      - Yemen
+  - ETM_2026|Mexico:
+      countries:
+      - Mexico
+  - ETM_2026|Other Development Asia:
+      countries:
+      - Afghanistan
+      - American Samoa
+      - Antarctica
+      - Bangladesh
+      - Bhutan
+      - Bouvet Island
+      - British Indian Ocean Territory
+      - Brunei Darussalam
+      - Cambodia
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Cook Islands
+      - French Polynesia
+      - French Southern Territories
+      - Guam
+      - Heard Island and McDonald Islands
+      - Hong Kong
+      - Indonesia
+      - Kazakhstan
+      - Kiribati
+      - Kyrgyzstan
+      - Laos
+      - Macao
+      - Malaysia
+      - Maldives
+      - Marshall Islands
+      - Micronesia
+      - Mongolia
+      - Myanmar
+      - Nauru
+      - Nepal
+      - New Caledonia
+      - New Zealand
+      - Niue
+      - Norfolk Island
+      - North Korea
+      - Northern Mariana Islands
+      - Pakistan
+      - Palau
+      - Papua New Guinea
+      - Philippines
+      - Pitcairn
+      - Samoa
+      - Singapore
+      - Solomon Islands
+      - Sri Lanka
+      - Taiwan
+      - Tajikistan
+      - Thailand
+      - Timor-Leste
+      - Tokelau
+      - Tonga
+      - Turkmenistan
+      - Tuvalu
+      - United States Minor Outlying Islands
+      - Uzbekistan
+      - Vanuatu
+      - Viet Nam
+      - Wallis and Futuna
+  - ETM_2026|Other Easter Europe:
+      countries:
+      - Albania
+      - Belarus
+      - Bosnia and Herzegovina
+      - Bulgaria
+      - Kosovo
+      - Moldova
+      - Montenegro
+      - North Macedonia
+      - Serbia
+      - Slovakia
+      - Slovenia
+      - Ukraine
+  - ETM_2026|Other Latin America:
+      countries:
+      - Anguilla
+      - Antigua and Barbuda
+      - Argentina
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bermuda
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - British Virgin Islands
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Grenada
+      - Guadeloupe
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Puerto Rico
+      - Saint Barthélemy
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Pierre and Miquelon
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - South Georgia and the South Sandwich Islands
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - United States Virgin Islands
+      - Uruguay
+      - Venezuela
+  - ETM_2026|Rusia:
+      countries:
+      - Russian Federation
+  - ETM_2026|South Korea:
+      countries:
+      - South Korea
+  - ETM_2026|USA:
+      countries:
+      - United States

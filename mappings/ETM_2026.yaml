@@ -1,0 +1,114 @@
+model: ETM_2026
+native_regions:
+- AFR: ETM_2026|Africa
+- AUS: ETM_2026|Australia
+- BRA: ETM_2026|Brazil
+- CAC: ETM_2026|Caucasus
+- CAN: ETM_2026|Canada
+- CHI: ETM_2026|China
+- EUR: ETM_2026|Europe
+- IND: ETM_2026|India
+- JPN: ETM_2026|Japan
+- MEA: ETM_2026|Middle East Asia
+- MEX: ETM_2026|Mexico
+- ODA: ETM_2026|Other Development Asia
+- OEE: ETM_2026|Other Easter Europe
+- OLA: ETM_2026|Other Latin America
+- RUS: ETM_2026|Rusia
+- SKO: ETM_2026|South Korea
+- USA: ETM_2026|USA
+common_regions:
+- World:
+  - AFR
+  - AUS
+  - BRA
+  - CAC
+  - CAN
+  - CHI
+  - EUR
+  - IND
+  - JPN
+  - MEA
+  - MEX
+  - ODA
+  - OEE
+  - OLA
+  - RUS
+  - SKO
+  - USA
+- Asia (R5):
+  - CHI
+  - IND
+  - ODA
+  - SKO
+- Latin America (R5):
+  - BRA
+  - MEX
+  - OLA
+- Middle East & Africa (R5):
+  - AFR
+  - MEA
+- OECD & EU (R5):
+  - AUS
+  - CAN
+  - EUR
+  - JPN
+  - OEE
+  - USA
+- Reforming Economies (R5):
+  - CAC
+  - RUS
+
+- China (R9):
+  - CHI
+- European Union (R9):
+  - EUR
+  - OEE
+- India (R9):
+  - IND
+- Latin America (R9):
+  - BRA
+  - MEX
+  - OLA
+- Middle East & Africa (R9):
+  - AFR
+  - MEA
+- Other Asia (R9):
+  - ODA
+  - SKO
+- Other OECD (R9):
+  - AUS
+  - CAN
+  - JPN
+- Reforming Economies (R9):
+  - CAC
+  - RUS
+- USA (R9):
+  - USA
+- Africa (R10):
+  - AFR
+- China+ (R10:
+  - CHI
+  - SKO
+- Europe (R10):
+  - EUR
+  - OEE
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - BRA
+  - MEX
+  - OLA
+- Middle East (R10):
+  - MEA
+- North America (R10):
+  - CAN
+  - USA
+- Pacific OECD (R10):
+  - AUS
+  - JPN
+- Reforming Economies (R10):
+  - CAC
+  - RUS
+- Rest of Asia (R10):
+  - ODA
