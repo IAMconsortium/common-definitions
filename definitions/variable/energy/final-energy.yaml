@@ -82,6 +82,8 @@
     description: Final energy consumption by the {Sector}
     unit: EJ/yr
     tier: 1
+    # Only when `Sector` == "Industry|Iron and Steel"
+    ngfs_phase_5: Final Energy|Industry|Steel
 - Final Energy|{Sector}|Electricity:
     description: Final energy consumption by the {Sector} of electricity
     unit: EJ/yr
@@ -90,6 +92,8 @@
     description: Final energy consumption by the {Sector} of {Secondary Fuel Level 2}
     unit: EJ/yr
     tier: 1
+    # Only when `Sector` == "Industry|Iron and Steel" and `Secondary Fuel Level 2` == "Solids|Coal"
+    ngfs_phase_5: Final Energy|Industry|Steel|Solids|Fossil
 - Final Energy|{Sector}|Other:
     description: Final energy consumption by the {Sector} of other energy sources
     unit: EJ/yr
