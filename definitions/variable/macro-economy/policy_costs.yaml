@@ -1,0 +1,46 @@
+- Policy Cost|Additional Total Energy System Cost:
+    description: Additional energy system cost associated with the policy
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Area under MAC Curve:
+    description: Total costs of the policy, i.e. the area under the Marginal Abatement
+      Cost (MAC) curve
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Consumption Loss:
+    description: Consumption loss in a policy scenario compared to the corresponding
+      baseline (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Equivalent Variation:
+    description: Equivalent variation associated with the given policy
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|GDP Loss|PPP:
+    description: GDP (PPP) loss in a policy scenario compared to the corresponding baseline
+      (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    tier: 2
+    navigate: Policy Cost|GDP Loss
+    engage: Policy Cost|GDP Loss
+- Policy Cost|GDP Loss|MER:
+    description: GDP (MER) loss in a policy scenario compared to the corresponding baseline
+      (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Welfare Change:
+    description: Welfare loss measured as change in balanced growth equivalents
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Default:
+    description: Total costs of the policy in the default metric (consumption losses
+      for GE models, area under MAC curve for PE models if available) to be used for
+      calculation of Cost over Abatement Value (CAV) indicator. Must be identical
+      to the policy costs in one of the reported metrics.
+    unit: billion USD_2010/yr
+    tier: 2
+- Policy Cost|Other:
+    description: Any other indicator of policy cost (e.g., compensated variation).
+      (please indicate what type of policy cost is measured on the 'comments' tab)
+    unit: billion USD_2010/yr
+    tier: 2
