@@ -1,0 +1,43 @@
+# Level-0 Land Cover Change Matrix
+- Land Cover Change Matrix|from {Level-0a Land Cover} to {Level-0b Land Cover}:
+    description: Annual gross area transition from {Level-0a Land Cover} to {Level-0b Land Cover}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 2
+
+# Level-1 Forest
+- Land Cover Change Matrix|from Forest to {Level-0b Land Cover}|from {Level-1 Forest Type} to {Level-0b Land Cover}:
+    description: Annual gross area transition from {Level-1 Forest Type} to {Level-0b Land Cover}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+- Land Cover Change Matrix|from {Level-0a Land Cover} to Forest|from {Level-0a Land Cover} to {Level-1 Forest Type}:
+    description: Annual gross area transition from {Level-0a Land Cover} to {Level-1 Forest Type}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+
+# Level-1 Non-Forest
+- Land Cover Change Matrix|from Other Natural to {Level-0b Land Cover}|from {Level-1 Non-Forest Type} to {Level-0b Land Cover}:
+    description: Annual gross area transition from {Level-1 Non-Forest Type} to {Level-0b Land Cover}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+- Land Cover Change Matrix|from {Level-0a Land Cover} to Other Natural|from {Level-0a Land Cover} to {Level-1 Non-Forest Type}:
+    description: Annual gross area transition from {Level-0a Land Cover} to {Level-1 Non-Forest Type}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+
+# Level-1 Forest & Non-Forest
+- Land Cover Change Matrix|from Forest to Non-Forest|from {Level-1 Forest Type} to {Level-1 Non-Forest Type}:
+    description: Annual gross area transition from {Level-1 Forest Type} to {Level-1 Non-Forest Type}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+- Land Cover Change Matrix|from Non-Forest to Forest|from {Level-1 Non-Forest Type} to {Level-1 Forest Type}:
+    description: Annual gross area transition from {Level-1 Non-Forest Type} to {Level-1 Forest Type}
+    notes: This variable should be computed as yearly average change between the previous and the current reported time step. It should be computed at the finest spatial resolution possible (e.g. grid level).
+    unit: million ha/yr
+    tier: 3
+
