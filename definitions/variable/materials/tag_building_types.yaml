@@ -1,0 +1,25 @@
+- Building Types:
+    - Residential:
+        description: Buildings used for private living spaces
+    - Residential|Detached Houses:
+        description: Single-family residential buildings that stand alone, not connected to other dwellings
+    - Residential|Semi-Detached Houses:
+        description: Single-family residential buildings sharing one common wall with an adjacent dwelling
+    - Residential|Apartments:
+        description: Multi-family residential buildings with individual units, typically in low- to mid-rise structures
+    - Residential|Residential High-Rise:
+        description: Multi-family residential buildings in high-rise structures, often with shared amenities
+    - Residential|Informal:
+        description: Residential structures in informal settlements, including slums or unregulated housing types
+    - Commercial:
+        description: Buildings used for business activities
+    - Commercial|Retail:
+        description: Buildings primarily used for the sale of goods and services, including shops, malls, and supermarkets
+    - Commercial|Hotels:
+        description: Buildings used for accommodation services, including hotels, motels, and related facilities like restaurants
+    - Commercial|Offices:
+        description: Buildings designed for administrative, professional, or clerical work, including business and corporate offices
+    - Commercial|Public Buildings:
+        description: Buildings used for public services, such as schools, universities, government offices, and other civic institutions
+    - Commercial|Other:
+        description: Other commercial buildings that do not fit into specific categories, such as health and manufacturing facilities
