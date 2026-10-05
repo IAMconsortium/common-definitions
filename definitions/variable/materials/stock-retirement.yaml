@@ -1,0 +1,36 @@
+# Product stock retirement, outflow of products from use phase, process 7, to process 8
+# in CIRCOMOD material cycle system definition, by end-use sector and by product type
+- Stock Retirement|Transportation|{Vehicle Types}:
+    description: Number of {Vehicle Types} retired in a year, F_7_8 - flow of {Vehicle Types}
+      from process 7, Use phase, to market and transport process 8, Used
+      products trade
+    unit: thousand/yr
+- Stock Retirement|Buildings|{Building Types}:
+    description: Useful floor space of {Building Types} demolished in a year, F_7_8
+      - flow of {Building Types} from process 7, Use phase, to market and
+      transport process 8, Used products trade
+    unit: m^2/yr
+    notes: If not specified differently, this includes useful floor space of
+      permanently occupied building units only
+- Stock Retirement|Transportation Infrastructure|{Transportation Infrastructure Types}:
+    description: Length (if unit is km) or area (if unit is km^2) of transportation infrastructure retired in a year, F_7_8 -
+      flow of {Transportation Infrastructure Types} from process 7, Use phase, to
+      market and transport process 8, Used products trade
+    unit: "{Transportation Infrastructure Types}/yr"
+- Stock Retirement|Electricity|{Electricity Types}:
+    description: Stocks of electricity infrastructure (generation, transmission, and storage) retired in a year, F_7_8 -
+      flow of {Electricity Types} from process 7, Use phase, to
+      market and transport process 8, Used products trade
+    unit: "{Electricity Types}/yr"
+# Product stock retirement, outflow of products from use phase, process 7, to process 8
+# in CIRCOMOD material cycle system definition, by end-use sector 
+- Stock Retirement|Buildings:
+    description: Total useful floor space (residential and commercial) demolished in a
+      year, F_7_8 - flow useful floor space from process 7, Use phase, to market and
+      transport process 8, Used products trade
+    unit: m^2/yr
+    notes: If not specified differently, this includes useful floor space of
+      permanently occupied building units only
+    components:
+      - Stock Retirement|Buildings|Residential
+      - Stock Retirement|Buildings|Commercial

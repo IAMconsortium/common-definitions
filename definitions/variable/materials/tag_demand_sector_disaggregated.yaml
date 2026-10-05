@@ -1,0 +1,87 @@
+- Demand Sector Disaggregated:
+    - Transportation:
+        description: All modes of transporting people and goods, including road, rail, air, and water transport
+    - Transportation|Road:
+        description: Transportation vehicles that operate on paved or unpaved roads, including motorized and non-motorized vehicles
+    - Transportation|Road|Cars:
+        description: Light-Duty vehicles such as compact cars, large cars, SUVs, midsize cars, subcompact cars, two-wheelers
+    - Transportation|Road|Buses:
+        description: Heavy-duty vehicles designed to carry multiple passengers
+    - Transportation|Road|Trucks:
+        description: Heavy-duty vehicles primarily designed for the transportation of goods, including light, medium, and heavy-duty trucks
+    - Transportation|Road|Bicycles: 
+        description: Non-motorized two-wheeled vehicles
+    - Transportation|Rail:
+        description: Vehicles operating on fixed tracks for transportation of passengers or goods
+    - Transportation|Rail|Passenger:
+        description: Trains designed to transport people, including high-speed rail, intercity rail, and urban transit systems
+    - Transportation|Rail|Cargo:
+        description: Trains specifically designed for the transportation of goods, typically comprising multiple freight cars
+    - Transportation|Air|Passenger:
+        description: Aircraft designed to carry passengers, including domestic and international flights operated by commercial airlines
+    - Transportation|Air|Cargo:
+        description: Aircraft specifically designed or modified to transport freight, including parcels, bulk goods, and other cargo
+    - Transportation|Water|Ships:
+        description: Waterborne vessels used for the transportation of passengers or goods, including cargo ships, tankers, ferries, and cruise ships
+    - Buildings:
+        description: All structures used for human activities, including residential, commercial, and industrial purposes
+    - Buildings|Residential:
+        description: Private single and multi-family living spaces
+    - Buildings|Residential|Detached Houses:
+        description: Single-family residential buildings that stand alone, not connected to other dwellings
+    - Buildings|Residential|Semi-Detached Houses:
+        description: Single-family residential buildings sharing one common wall with an adjacent dwelling
+    - Buildings|Residential|Apartments:
+        description: Multi-family residential buildings with individual units, typically in low- to mid-rise structures
+    - Buildings|Residential|Residential High-Rise:
+        description: Multi-family residential buildings in high-rise structures, often with shared amenities
+    - Buildings|Residential|Informal:
+        description: Residential structures in informal settlements, including slums or unregulated housing typeS
+    - Buildings|Commercial:
+        description: Buildings used for business activities
+    - Buildings|Commercial|Retail:
+        description: Buildings primarily used for the sale of goods and services, including shops, malls, and supermarkets
+    - Buildings|Commercial|Hotels:
+        description: Buildings used for accommodation services, including hotels, motels, and related facilities like restaurants
+    - Buildings|Commercial|Offices:
+        description: Buildings designed for administrative, professional, or clerical work, including business and corporate offices
+    - Buildings|Commercial|Public Buildings:
+        description: Buildings used for public services, such as schools, universities, government offices, and other civic institutions
+    - Buildings|Commercial|Other:
+        description: Other commercial buildings that do not fit into specific categories, such as health and manufacturing facilities 
+    - Electricity:
+        description: Sector encompassing the generation, transmission, distribution, and storage of electricity
+    - Electricity|Generation:
+          description: Electricity generation from various sources
+    - Electricity|Generation|Nuclear:
+          description: Nuclear Power Plants
+    - Electricity|Generation|Solar:
+          description: Solar PV
+    - Electricity|Generation|Wind:
+          description: Wind power plants
+    - Electricity|Generation|Gas:
+          description: Gas power plants
+    - Electricity|Generation|Coal:
+          description: Coal power plants
+    - Electricity|Generation|Biomass:
+          description: Biomass power plants
+    - Electricity|Generation|Hydro:
+          description: Hydropower plant
+    - Electricity|Transmission and Distribution:
+          description: Infrastructure involved in delivering electricity from generation facilities to end users, including high-voltage transmission lines and local distribution networks
+    - Electricity|Storage:
+          description: Technologies and systems used to store electricity for later use, including batteries, pumped hydro storage, and other energy storage methods
+    - Transportation Infrastructure:
+        description: Infrastructure supporting the movement of people and goods, including roads, railways, airports, seaports, and related services
+    - Transportation Infrastructure|Road:
+        description: Paved or unpaved pathways for vehicle transportation
+    - Transportation Infrastructure|Rail:
+        description: Tracks for train-based passenger and freight transport
+    - Transportation Infrastructure|Bridge:
+        description: Structures spanning obstacles to support transportation routes
+    - Transportation Infrastructure|Tunnel:
+        description: Underground or submerged passages for transport routes
+    - Transportation Infrastructure|Parking:
+        description: Designated areas for vehicle storage and parking
+    - Other:
+        description: Demand sectors not explicitly represented in other categories.
