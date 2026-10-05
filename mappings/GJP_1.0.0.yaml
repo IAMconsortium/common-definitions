@@ -8,6 +8,54 @@ native_regions:
 - Latin America: GJP 1.0.0|Latin America
 - East Asia: GJP 1.0.0|East Asia
 - Russia & Central Asia: GJP 1.0.0|Russia & Central Asia
+- Algeria
+- Argentina
+- Australia
+- Bangladesh
+- Brazil
+- Canada
+- Chile
+- China
+- Colombia
+- Côte d'Ivoire
+- Democratic Republic of the Congo
+- Denmark
+- Egypt
+- Ethiopia
+- France
+- Germany
+- India
+- Indonesia
+- Iran
+- Italy
+- Japan
+- Kenya
+- Mali
+- Mexico
+- Morocco
+- Myanmar
+- Netherlands
+- New Zealand
+- Niger
+- Nigeria
+- Norway
+- Pakistan
+- Philippines
+- Russian Federation
+- Rwanda
+- Saudi Arabia
+- South Africa
+- South Korea
+- Spain
+- Sudan
+- Sweden
+- Taiwan
+- Thailand
+- Turkey
+- United Arab Emirates
+- United Kingdom
+- United States
+- Viet Nam
 common_regions:
 - World:
   - Europe
