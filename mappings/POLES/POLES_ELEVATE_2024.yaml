@@ -1,0 +1,171 @@
+model: POLES ELEVATE 2024
+native_regions:
+- ARG MAP: POLES ELEVATE 2024|Argentina
+- AUS MAP: POLES ELEVATE 2024|Australia
+- BRA MAP: POLES ELEVATE 2024|Brazil
+- CAN MAP: POLES ELEVATE 2024|Canada
+- CHN MAP: POLES ELEVATE 2024|China
+- EU MAP: POLES ELEVATE 2024|EU27
+- GBR MAP: POLES ELEVATE 2024|United Kingdom
+- IDN MAP: POLES ELEVATE 2024|Indonesia
+- IND MAP: POLES ELEVATE 2024|India
+- JPN MAP: POLES ELEVATE 2024|Japan
+- KOR MAP: POLES ELEVATE 2024|Republic of Korea
+- MEX MAP: POLES ELEVATE 2024|Mexico
+- RASIA MAP: POLES ELEVATE 2024|Rest of South-East Asia
+- REUR MAP: POLES ELEVATE 2024|Rest of Europe
+- RLAM MAP: POLES ELEVATE 2024|Rest of Latin America
+- RME MAP: POLES ELEVATE 2024|Rest of Middle East
+- RPACI MAP: POLES ELEVATE 2024|Rest of Pacific
+- RREF MAP: POLES ELEVATE 2024|Rest of Reforming Economies
+- RAFR MAP: POLES ELEVATE 2024|Rest of Africa
+- RSAS MAP: POLES ELEVATE 2024|Rest of South Asia
+- RUS MAP: POLES ELEVATE 2024|Russia
+- SAF MAP: POLES ELEVATE 2024|South Africa
+- SAU MAP: POLES ELEVATE 2024|Saudi Arabia
+- THA MAP: POLES ELEVATE 2024|Thailand
+- TUR MAP: POLES ELEVATE 2024|Turkey
+- USA MAP: POLES ELEVATE 2024|United States
+- VNM MAP: POLES ELEVATE 2024|Vietnam
+- BUNK MAP: POLES ELEVATE 2024|International transport
+common_regions:
+- Asia (R5):
+  - CHN MAP
+  - IDN MAP
+  - IND MAP
+  - KOR MAP
+  - RASIA MAP
+  - RSAS MAP
+  - THA MAP
+  - VNM MAP
+- Latin America (R5):
+  - ARG MAP
+  - BRA MAP
+  - MEX MAP
+  - RLAM MAP
+- Middle East & Africa (R5):
+  - RME MAP
+  - RAFR MAP
+  - SAF MAP
+  - SAU MAP
+- OECD & EU (R5):
+  - AUS MAP
+  - CAN MAP
+  - EU MAP
+  - GBR MAP
+  - JPN MAP
+  - REUR MAP
+  - RPACI MAP
+  - TUR MAP
+  - USA MAP
+- Reforming Economies (R5):
+  - RREF MAP
+  - RUS MAP
+- Other (R5):
+  - BUNK MAP
+- Africa (R10):
+  - RAFR MAP
+  - SAF MAP
+- China+ (R10):
+  - CHN MAP
+- Europe (R10):
+  - EU MAP
+  - GBR MAP
+  - REUR MAP
+  - TUR MAP
+- India+ (R10):
+  - IND MAP
+  - RSAS MAP
+- Latin America (R10):
+  - ARG MAP
+  - BRA MAP
+  - MEX MAP
+  - RLAM MAP
+- Middle East (R10):
+  - RME MAP
+  - SAU MAP
+- North America (R10):
+  - CAN MAP
+  - USA MAP
+- Pacific OECD (R10):
+  - AUS MAP
+  - JPN MAP
+  - KOR MAP
+  - RPACI MAP
+- Reforming Economies (R10):
+  - RREF MAP
+  - RUS MAP
+- Rest of Asia (R10):
+  - IDN MAP
+  - RASIA MAP
+  - THA MAP
+  - VNM MAP
+- Other (R10):
+  - BUNK MAP
+- China (R9):
+  - CHN MAP
+- European Union (R9):
+  - EU MAP
+- India (R9):
+  - IND MAP
+- Latin America (R9):
+  - ARG MAP
+  - BRA MAP
+  - MEX MAP
+  - RLAM MAP
+- Middle East & Africa (R9):
+  - RME MAP
+  - RAFR MAP
+  - SAF MAP
+  - SAU MAP
+- Other Asia (R9):
+  - IDN MAP
+  - KOR MAP
+  - RASIA MAP
+  - RSAS MAP
+  - THA MAP
+  - VNM MAP
+- Other OECD (R9):
+  - AUS MAP
+  - CAN MAP
+  - GBR MAP
+  - JPN MAP
+  - REUR MAP
+  - RPACI MAP
+  - TUR MAP
+- Reforming Economies (R9):
+  - RREF MAP
+  - RUS MAP
+- Other (R9):
+  - BUNK MAP
+- USA (R9):
+  - USA MAP
+- World:
+  - ARG MAP
+  - AUS MAP
+  - BRA MAP
+  - CAN MAP
+  - CHN MAP
+  - EU MAP
+  - GBR MAP
+  - IDN MAP
+  - IND MAP
+  - JPN MAP
+  - KOR MAP
+  - MEX MAP
+  - RASIA MAP
+  - REUR MAP
+  - RLAM MAP
+  - RME MAP
+  - RPACI MAP
+  - RREF MAP
+  - RAFR MAP
+  - RSAS MAP
+  - RUS MAP
+  - SAF MAP
+  - SAU MAP
+  - THA MAP
+  - TUR MAP
+  - USA MAP
+  - VNM MAP
+  - BUNK MAP
