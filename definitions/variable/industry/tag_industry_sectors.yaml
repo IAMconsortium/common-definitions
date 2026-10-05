@@ -1,13 +1,21 @@
 - Industry Sector:
     - Chemicals:
-        description: production of chemicals
+        description: production of chemicals, chemical products,
+          basic pharmaceutical products and
+          pharmaceutical preparations (ISIC Rev.4 - Div. 21-22)
     - Iron and Steel:
-        description: production of iron and steel
+        description: production of iron and steel, including casting
+          (ISIC Rev.4 - Group 241 and Classe 2431)
     - Non-Ferrous Metals:
         description: production of non-ferrous metals including aluminium
+          and casting (ISIC Rev.4 - Group 242 and Classe 2432)
     - Non-Metallic Minerals:
         description: production of non-metallic minerals including cement
+          (ISIC Rev.4 - Div. 23)
     - Pulp and Paper:
-        description: production of pulp and paper
+        description: production of pulp and paper (ISIC Rev.4 - Div. 17)
     - Other Sector:
-        description: other industrial sectors
+        description: other industrial sectors 
+        note: By default, Other Sector is interpreted as manufacturing sectors
+          not mentionned elsewhere (ISIC Rev.4 - Div. 10-16, 18-20, 25-33).
+          If not, please specify the ISIC categories in comments.
