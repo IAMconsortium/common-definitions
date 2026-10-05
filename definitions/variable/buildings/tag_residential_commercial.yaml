@@ -1,7 +1,9 @@
 - Residential and Commercial:
     - Residential:
         description: residential
+        ngfs5: Residential and Commercial|Residential
     - Commercial:
         description: commercial
+        ngfs5: Residential and Commercial|Commercial
     - Residential and Commercial:
         description: all
