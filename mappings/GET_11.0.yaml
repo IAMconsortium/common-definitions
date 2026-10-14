@@ -1,0 +1,59 @@
+model: GET 11.0
+native_regions:
+- AFR: GET 11.0|Sub-Saharan Africa
+- CPA: GET 11.0|Centrally Planned Asia and China
+- EUR: GET 11.0|Europe
+- FSU: GET 11.0|Former Soviet Union
+- LAM: GET 11.0|Latin America and the Caribbean
+- MEA: GET 11.0|Middle East and North Africa
+- NAM: GET 11.0|North America
+- PAO: GET 11.0|Pacific OECD
+- PAS: GET 11.0|Other Pacific Asia
+- SAS: GET 11.0|South Asia
+common_regions:
+- World:
+  - AFR
+  - CPA
+  - EUR
+  - FSU
+  - LAM
+  - MEA
+  - NAM
+  - PAO
+  - PAS
+  - SAS
+- Asia (R5):
+  - CPA
+  - PAS
+  - SAS
+- Latin America (R5):
+  - LAM
+- Middle East & Africa (R5):
+  - AFR
+  - MEA
+- OECD & EU (R5):
+  - EUR
+  - NAM
+  - PAO
+- Reforming Economies (R5):
+  - FSU
+- Africa (R10):
+  - AFR
+- China+ (R10):
+  - CPA
+- Europe (R10):
+  - EUR
+- India+ (R10):
+  - SAS
+- Latin America (R10):
+  - LAM
+- Middle East (R10):
+  - MEA
+- North America (R10):
+  - NAM
+- Pacific OECD (R10):
+  - PAO
+- Reforming Economies (R10):
+  - FSU
+- Rest of Asia (R10):
+  - PAS

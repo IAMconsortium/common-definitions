@@ -1,0 +1,98 @@
+model: GTIMES-Tsinghua v2.0
+native_regions:
+- AFR: GTIMES-Tsinghua v2.0|Africa
+- ANZ: GTIMES-Tsinghua v2.0|Australia & New Zealand
+- CAN: GTIMES-Tsinghua v2.0|Canada
+- CHN: GTIMES-Tsinghua v2.0|China
+- NEU: GTIMES-Tsinghua v2.0|Non-EU Europe
+- FSU: GTIMES-Tsinghua v2.0|Former Soviet Union
+- IND: GTIMES-Tsinghua v2.0|India
+- JAP: GTIMES-Tsinghua v2.0|Japan
+- KOR: GTIMES-Tsinghua v2.0|Korea
+- LAM: GTIMES-Tsinghua v2.0|Latin America
+- MEA: GTIMES-Tsinghua v2.0|Middle East
+- ODA: GTIMES-Tsinghua v2.0|Southeast Asia
+- USA: GTIMES-Tsinghua v2.0|United States
+- EUR: GTIMES-Tsinghua v2.0|European Union
+common_regions:
+- World:
+  - AFR
+  - ANZ
+  - CAN
+  - CHN
+  - EUR
+  - FSU
+  - IND
+  - JAP
+  - KOR
+  - LAM
+  - MEA
+  - NEU
+  - ODA
+  - USA
+- Asia (R5):
+  - CHN
+  - IND
+  - KOR
+  - ODA
+- Latin America (R5):
+  - LAM
+- Middle East & Africa (R5):
+  - AFR
+  - MEA
+- OECD & EU (R5):
+  - ANZ
+  - CAN
+  - NEU
+  - JAP
+  - USA
+  - EUR
+- Reforming Economies (R5):
+  - FSU
+- Africa (R10):
+  - AFR
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - NEU
+  - EUR
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - LAM
+- Middle East (R10):
+  - MEA
+- North America (R10):
+  - CAN
+  - USA
+- Pacific OECD (R10):
+  - ANZ
+  - JAP
+- Reforming Economies (R10):
+  - FSU
+- Rest of Asia (R10):
+  - ODA
+- China (R9):
+  - CHN
+- European Union (R9):
+  - EUR
+- India (R9):
+  - IND
+- Latin America (R9):
+  - LAM
+- Middle East & Africa (R9):
+  - AFR
+  - MEA
+- Other Asia (R9):
+  - KOR
+  - ODA
+- Other OECD (R9):
+  - ANZ
+  - CAN
+  - NEU
+  - JAP
+- Reforming Economies (R9):
+  - FSU
+- USA (R9):
+  - USA

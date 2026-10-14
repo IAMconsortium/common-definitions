@@ -1,0 +1,279 @@
+- GTIMES-Tsinghua v2.0:
+  - GTIMES-Tsinghua v2.0|Africa:
+      countries:
+      - Algeria
+      - Angola
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cameroon
+      - Central African Republic
+      - Chad
+      - Comoros
+      - Congo
+      - Côte d'Ivoire
+      - Democratic Republic of the Congo
+      - Djibouti
+      - Egypt
+      - Equatorial Guinea
+      - Eritrea
+      - Eswatini
+      - Ethiopia
+      - Gabon
+      - Gambia
+      - Ghana
+      - Guinea
+      - Guinea-Bissau
+      - Kenya
+      - Lesotho
+      - Liberia
+      - Libya
+      - Madagascar
+      - Malawi
+      - Mali
+      - Mauritania
+      - Mauritius
+      - Morocco
+      - Mozambique
+      - Namibia
+      - Niger
+      - Nigeria
+      - Réunion
+      - Rwanda
+      - Sao Tome and Principe
+      - Senegal
+      - Seychelles
+      - Sierra Leone
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Sudan
+      - Tanzania
+      - Togo
+      - Tunisia
+      - Uganda
+      - Western Sahara
+      - Zambia
+      - Zimbabwe
+  - GTIMES-Tsinghua v2.0|Australia & New Zealand:
+      countries:
+      - Australia
+      - Heard Island and McDonald Islands
+      - New Zealand
+  - GTIMES-Tsinghua v2.0|Canada:
+      countries:
+      - Canada
+  - GTIMES-Tsinghua v2.0|China:
+      countries:
+      - China
+  - GTIMES-Tsinghua v2.0|Non-EU Europe:
+      countries:
+      - Albania
+      - Andorra
+      - Bosnia and Herzegovina
+      - Faroe Islands
+      - Iceland
+      - Isle of Man
+      - Kosovo
+      - Liechtenstein
+      - Moldova
+      - Monaco
+      - Montenegro
+      - North Macedonia
+      - Norway
+      - San Marino
+      - Serbia
+      - Svalbard and Jan Mayen
+      - Switzerland
+      - Turkey
+  - GTIMES-Tsinghua v2.0|Former Soviet Union:
+      countries:
+      - Armenia
+      - Azerbaijan
+      - Belarus
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Russian Federation
+      - Tajikistan
+      - Turkmenistan
+      - Ukraine
+      - Uzbekistan
+  - GTIMES-Tsinghua v2.0|India:
+      countries:
+      - India
+  - GTIMES-Tsinghua v2.0|Japan:
+      countries:
+      - Japan
+  - GTIMES-Tsinghua v2.0|Korea:
+      countries:
+      - South Korea
+  - GTIMES-Tsinghua v2.0|Latin America:
+      countries:
+      - Antarctica
+      - Antigua and Barbuda
+      - Argentina
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Belize
+      - Bermuda
+      - Bolivia
+      - Bonaire, Sint Eustatius and Saba
+      - Bouvet Island
+      - Brazil
+      - British Virgin Islands
+      - Cayman Islands
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Cuba
+      - Dominica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Grenada
+      - Guadeloupe
+      - Guatemala
+      - Guyana
+      - Haiti
+      - Honduras
+      - Jamaica
+      - Martinique
+      - Mexico
+      - Montserrat
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Pierre and Miquelon
+      - Saint Vincent and the Grenadines
+      - South Georgia and the South Sandwich Islands
+      - Suriname
+      - Trinidad and Tobago
+      - Turks and Caicos Islands
+      - Uruguay
+      - Venezuela
+  - GTIMES-Tsinghua v2.0|Middle East:
+      countries:
+      - Bahrain
+      - Iran
+      - Iraq
+      - Israel
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - United Arab Emirates
+      - Yemen
+  - GTIMES-Tsinghua v2.0|Southeast Asia:
+      countries:
+      - Afghanistan
+      - Åland Islands
+      - Anguilla
+      - Bangladesh
+      - Bhutan
+      - British Indian Ocean Territory
+      - Brunei Darussalam
+      - Cambodia
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Cook Islands
+      - Curaçao
+      - Fiji
+      - French Polynesia
+      - French Southern Territories
+      - Greenland
+      - Hong Kong
+      - Indonesia
+      - Kiribati
+      - Laos
+      - Macao
+      - Malaysia
+      - Maldives
+      - Marshall Islands
+      - Mayotte
+      - Micronesia
+      - Mongolia
+      - Myanmar
+      - Nauru
+      - Nepal
+      - New Caledonia
+      - Niue
+      - Norfolk Island
+      - North Korea
+      - Pakistan
+      - Palau
+      - Papua New Guinea
+      - Philippines
+      - Pitcairn
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Saint Martin (French part)
+      - Samoa
+      - Singapore
+      - Sint Maarten (Dutch part)
+      - Solomon Islands
+      - Sri Lanka
+      - Taiwan
+      - Thailand
+      - Timor-Leste
+      - Tokelau
+      - Tonga
+      - Tuvalu
+      - Vanuatu
+      - Viet Nam
+      - Wallis and Futuna
+  - GTIMES-Tsinghua v2.0|United States:
+      countries:
+      - American Samoa
+      - Guam
+      - Northern Mariana Islands
+      - Puerto Rico
+      - United States
+      - United States Minor Outlying Islands
+      - United States Virgin Islands
+  - GTIMES-Tsinghua v2.0|European Union:
+      countries:
+      - Austria
+      - Belgium
+      - Bulgaria
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Denmark
+      - Estonia
+      - Finland
+      - France
+      - Germany
+      - Gibraltar
+      - Greece
+      - Guernsey
+      - Hungary
+      - Ireland
+      - Italy
+      - Jersey
+      - Latvia
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Poland
+      - Portugal
+      - Romania
+      - Saint Barthélemy
+      - Slovakia
+      - Slovenia
+      - Spain
+      - Sweden
+      - United Kingdom
+      - Vatican

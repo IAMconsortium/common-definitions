@@ -1,0 +1,498 @@
+- LandSyMM-PLUM 2.0:
+  - LandSyMM-PLUM 2.0|Afghanistan:
+      countries:
+      - Afghanistan
+  - LandSyMM-PLUM 2.0|Albania:
+      countries:
+      - Albania
+  - LandSyMM-PLUM 2.0|Algeria:
+      countries:
+      - Algeria
+  - LandSyMM-PLUM 2.0|Angola:
+      countries:
+      - Angola
+  - LandSyMM-PLUM 2.0|Argentina:
+      countries:
+      - Argentina
+  - LandSyMM-PLUM 2.0|Armenia:
+      countries:
+      - Armenia
+  - LandSyMM-PLUM 2.0|Australia:
+      countries:
+      - Australia
+  - LandSyMM-PLUM 2.0|Austria:
+      countries:
+      - Austria
+  - LandSyMM-PLUM 2.0|Azerbaijan:
+      countries:
+      - Azerbaijan
+  - LandSyMM-PLUM 2.0|Bahrain & Qatar:
+      countries:
+      - Bahrain
+      - Qatar
+  - LandSyMM-PLUM 2.0|Bangladesh:
+      countries:
+      - Bangladesh
+  - LandSyMM-PLUM 2.0|Belarus:
+      countries:
+      - Belarus
+  - LandSyMM-PLUM 2.0|Belgium & Luxembourg:
+      countries:
+      - Belgium
+      - Luxembourg
+  - LandSyMM-PLUM 2.0|Benin:
+      countries:
+      - Benin
+  - LandSyMM-PLUM 2.0|Bhutan:
+      countries:
+      - Bhutan
+  - LandSyMM-PLUM 2.0|Bolivia:
+      countries:
+      - Bolivia
+  - LandSyMM-PLUM 2.0|Bosnia and Herzegovina:
+      countries:
+      - Bosnia and Herzegovina
+  - LandSyMM-PLUM 2.0|Botswana:
+      countries:
+      - Botswana
+  - LandSyMM-PLUM 2.0|Brazil:
+      countries:
+      - Brazil
+  - LandSyMM-PLUM 2.0|Bulgaria:
+      countries:
+      - Bulgaria
+  - LandSyMM-PLUM 2.0|Burkina Faso:
+      countries:
+      - Burkina Faso
+  - LandSyMM-PLUM 2.0|Burundi:
+      countries:
+      - Burundi
+  - LandSyMM-PLUM 2.0|Cambodia:
+      countries:
+      - Cambodia
+  - LandSyMM-PLUM 2.0|Cameroon:
+      countries:
+      - Cameroon
+  - LandSyMM-PLUM 2.0|Canada:
+      countries:
+      - Canada
+  - LandSyMM-PLUM 2.0|Caribbean Other:
+      countries:
+      - Bahamas
+      - Barbados
+      - Grenada
+      - Jamaica
+      - Saint Lucia
+      - Saint Vincent and the Grenadines
+      - Trinidad and Tobago
+  - LandSyMM-PLUM 2.0|Central African Republic:
+      countries:
+      - Central African Republic
+  - LandSyMM-PLUM 2.0|Chad:
+      countries:
+      - Chad
+  - LandSyMM-PLUM 2.0|Chile:
+      countries:
+      - Chile
+  - LandSyMM-PLUM 2.0|China:
+      countries:
+      - China
+  - LandSyMM-PLUM 2.0|Colombia:
+      countries:
+      - Colombia
+  - LandSyMM-PLUM 2.0|Congo:
+      countries:
+      - Congo
+  - LandSyMM-PLUM 2.0|Costa Rica:
+      countries:
+      - Costa Rica
+  - LandSyMM-PLUM 2.0|Cote dIvoire:
+      countries:
+      - Côte d'Ivoire
+  - LandSyMM-PLUM 2.0|Croatia:
+      countries:
+      - Croatia
+  - LandSyMM-PLUM 2.0|Cuba:
+      countries:
+      - Cuba
+  - LandSyMM-PLUM 2.0|Cyprus:
+      countries:
+      - Cyprus
+  - LandSyMM-PLUM 2.0|Czechia:
+      countries:
+      - Czechia
+  - LandSyMM-PLUM 2.0|Denmark:
+      countries:
+      - Denmark
+  - LandSyMM-PLUM 2.0|Djibouti:
+      countries:
+      - Djibouti
+  - LandSyMM-PLUM 2.0|Dominican Republic:
+      countries:
+      - Dominican Republic
+  - LandSyMM-PLUM 2.0|DR Congo:
+      countries:
+      - Democratic Republic of the Congo
+  - LandSyMM-PLUM 2.0|Ecuador:
+      countries:
+      - Ecuador
+  - LandSyMM-PLUM 2.0|Egypt:
+      countries:
+      - Egypt
+  - LandSyMM-PLUM 2.0|El Salvador:
+      countries:
+      - El Salvador
+  - LandSyMM-PLUM 2.0|Equatorial Guinea:
+      countries:
+      - Equatorial Guinea
+  - LandSyMM-PLUM 2.0|Eritrea:
+      countries:
+      - Eritrea
+  - LandSyMM-PLUM 2.0|Estonia:
+      countries:
+      - Estonia
+  - LandSyMM-PLUM 2.0|Eswatini:
+      countries:
+      - Eswatini
+  - LandSyMM-PLUM 2.0|Ethiopia:
+      countries:
+      - Ethiopia
+  - LandSyMM-PLUM 2.0|Finland:
+      countries:
+      - Finland
+  - LandSyMM-PLUM 2.0|France:
+      countries:
+      - France
+  - LandSyMM-PLUM 2.0|Gabon & Sao Tome:
+      countries:
+      - Gabon
+      - Sao Tome and Principe
+  - LandSyMM-PLUM 2.0|Georgia:
+      countries:
+      - Georgia
+  - LandSyMM-PLUM 2.0|Germany:
+      countries:
+      - Germany
+  - LandSyMM-PLUM 2.0|Ghana:
+      countries:
+      - Ghana
+  - LandSyMM-PLUM 2.0|Greece:
+      countries:
+      - Greece
+  - LandSyMM-PLUM 2.0|Guatemala & Belize:
+      countries:
+      - Belize
+      - Guatemala
+  - LandSyMM-PLUM 2.0|Guinea:
+      countries:
+      - Guinea
+  - LandSyMM-PLUM 2.0|Guinea-Bissau:
+      countries:
+      - Guinea-Bissau
+  - LandSyMM-PLUM 2.0|Guyana:
+      countries:
+      - Guyana
+  - LandSyMM-PLUM 2.0|Haiti:
+      countries:
+      - Haiti
+  - LandSyMM-PLUM 2.0|Honduras:
+      countries:
+      - Honduras
+  - LandSyMM-PLUM 2.0|Hungary:
+      countries:
+      - Hungary
+  - LandSyMM-PLUM 2.0|Iceland:
+      countries:
+      - Iceland
+  - LandSyMM-PLUM 2.0|India:
+      countries:
+      - India
+  - LandSyMM-PLUM 2.0|Indonesia:
+      countries:
+      - Indonesia
+  - LandSyMM-PLUM 2.0|Iran:
+      countries:
+      - Iran
+  - LandSyMM-PLUM 2.0|Iraq:
+      countries:
+      - Iraq
+  - LandSyMM-PLUM 2.0|Ireland:
+      countries:
+      - Ireland
+  - LandSyMM-PLUM 2.0|Israel:
+      countries:
+      - Israel
+  - LandSyMM-PLUM 2.0|Italy & Malta:
+      countries:
+      - Italy
+      - Malta
+  - LandSyMM-PLUM 2.0|Japan:
+      countries:
+      - Japan
+  - LandSyMM-PLUM 2.0|Jordan:
+      countries:
+      - Jordan
+  - LandSyMM-PLUM 2.0|Kazakhstan:
+      countries:
+      - Kazakhstan
+  - LandSyMM-PLUM 2.0|Kenya:
+      countries:
+      - Kenya
+  - LandSyMM-PLUM 2.0|Kuwait:
+      countries:
+      - Kuwait
+  - LandSyMM-PLUM 2.0|Kyrgyzstan:
+      countries:
+      - Kyrgyzstan
+  - LandSyMM-PLUM 2.0|Laos:
+      countries:
+      - Laos
+  - LandSyMM-PLUM 2.0|Latvia:
+      countries:
+      - Latvia
+  - LandSyMM-PLUM 2.0|Lebanon:
+      countries:
+      - Lebanon
+  - LandSyMM-PLUM 2.0|Lesotho:
+      countries:
+      - Lesotho
+  - LandSyMM-PLUM 2.0|Liberia:
+      countries:
+      - Liberia
+  - LandSyMM-PLUM 2.0|Libya:
+      countries:
+      - Libya
+  - LandSyMM-PLUM 2.0|Lithuania:
+      countries:
+      - Lithuania
+  - LandSyMM-PLUM 2.0|Madagascar & Indian Ocean:
+      countries:
+      - Comoros
+      - Madagascar
+      - Mauritius
+  - LandSyMM-PLUM 2.0|Malawi:
+      countries:
+      - Malawi
+  - LandSyMM-PLUM 2.0|Malaysia Singapore & Brunei:
+      countries:
+      - Brunei Darussalam
+      - Malaysia
+      - Singapore
+  - LandSyMM-PLUM 2.0|Mali:
+      countries:
+      - Mali
+  - LandSyMM-PLUM 2.0|Mauritania:
+      countries:
+      - Mauritania
+  - LandSyMM-PLUM 2.0|Mexico:
+      countries:
+      - Mexico
+  - LandSyMM-PLUM 2.0|Moldova:
+      countries:
+      - Moldova
+  - LandSyMM-PLUM 2.0|Mongolia:
+      countries:
+      - Mongolia
+  - LandSyMM-PLUM 2.0|Montenegro:
+      countries:
+      - Montenegro
+  - LandSyMM-PLUM 2.0|Morocco:
+      countries:
+      - Morocco
+  - LandSyMM-PLUM 2.0|Mozambique:
+      countries:
+      - Mozambique
+  - LandSyMM-PLUM 2.0|Myanmar:
+      countries:
+      - Myanmar
+  - LandSyMM-PLUM 2.0|Namibia:
+      countries:
+      - Namibia
+  - LandSyMM-PLUM 2.0|Nepal:
+      countries:
+      - Nepal
+  - LandSyMM-PLUM 2.0|Netherlands:
+      countries:
+      - Netherlands
+  - LandSyMM-PLUM 2.0|New Zealand:
+      countries:
+      - New Zealand
+  - LandSyMM-PLUM 2.0|Nicaragua:
+      countries:
+      - Nicaragua
+  - LandSyMM-PLUM 2.0|Niger:
+      countries:
+      - Niger
+  - LandSyMM-PLUM 2.0|Nigeria:
+      countries:
+      - Nigeria
+  - LandSyMM-PLUM 2.0|North Korea:
+      countries:
+      - North Korea
+  - LandSyMM-PLUM 2.0|North Macedonia:
+      countries:
+      - North Macedonia
+  - LandSyMM-PLUM 2.0|Norway:
+      countries:
+      - Norway
+  - LandSyMM-PLUM 2.0|Oman:
+      countries:
+      - Oman
+  - LandSyMM-PLUM 2.0|Pacific Other:
+      countries:
+      - Fiji
+      - French Polynesia
+      - New Caledonia
+      - Samoa
+      - Solomon Islands
+      - Vanuatu
+  - LandSyMM-PLUM 2.0|Pakistan:
+      countries:
+      - Pakistan
+  - LandSyMM-PLUM 2.0|Panama:
+      countries:
+      - Panama
+  - LandSyMM-PLUM 2.0|Papua New Guinea:
+      countries:
+      - Papua New Guinea
+  - LandSyMM-PLUM 2.0|Paraguay:
+      countries:
+      - Paraguay
+  - LandSyMM-PLUM 2.0|Peru:
+      countries:
+      - Peru
+  - LandSyMM-PLUM 2.0|Philippines:
+      countries:
+      - Philippines
+  - LandSyMM-PLUM 2.0|Poland:
+      countries:
+      - Poland
+  - LandSyMM-PLUM 2.0|Portugal:
+      countries:
+      - Portugal
+  - LandSyMM-PLUM 2.0|Romania:
+      countries:
+      - Romania
+  - LandSyMM-PLUM 2.0|Russia:
+      countries:
+      - Russian Federation
+  - LandSyMM-PLUM 2.0|Rwanda:
+      countries:
+      - Rwanda
+  - LandSyMM-PLUM 2.0|Saudi Arabia:
+      countries:
+      - Saudi Arabia
+  - LandSyMM-PLUM 2.0|Senegal Gambia & Cabo Verde:
+      countries:
+      - Cabo Verde
+      - Gambia
+      - Senegal
+  - LandSyMM-PLUM 2.0|Serbia:
+      countries:
+      - Serbia
+  - LandSyMM-PLUM 2.0|Sierra Leone:
+      countries:
+      - Sierra Leone
+  - LandSyMM-PLUM 2.0|Slovakia:
+      countries:
+      - Slovakia
+  - LandSyMM-PLUM 2.0|Slovenia:
+      countries:
+      - Slovenia
+  - LandSyMM-PLUM 2.0|Somalia:
+      countries:
+      - Somalia
+  - LandSyMM-PLUM 2.0|South Africa:
+      countries:
+      - South Africa
+  - LandSyMM-PLUM 2.0|South Korea:
+      countries:
+      - South Korea
+  - LandSyMM-PLUM 2.0|South Sudan:
+      countries:
+      - South Sudan
+  - LandSyMM-PLUM 2.0|Spain:
+      countries:
+      - Spain
+  - LandSyMM-PLUM 2.0|Sri Lanka & Maldives:
+      countries:
+      - Maldives
+      - Sri Lanka
+  - LandSyMM-PLUM 2.0|Sudan:
+      countries:
+      - Sudan
+  - LandSyMM-PLUM 2.0|Suriname:
+      countries:
+      - Suriname
+  - LandSyMM-PLUM 2.0|Sweden:
+      countries:
+      - Sweden
+  - LandSyMM-PLUM 2.0|Switzerland:
+      countries:
+      - Switzerland
+  - LandSyMM-PLUM 2.0|Syria:
+      countries:
+      - Syria
+  - LandSyMM-PLUM 2.0|Taiwan:
+      countries:
+      - Taiwan
+  - LandSyMM-PLUM 2.0|Tajikistan:
+      countries:
+      - Tajikistan
+  - LandSyMM-PLUM 2.0|Tanzania:
+      countries:
+      - Tanzania
+  - LandSyMM-PLUM 2.0|Thailand:
+      countries:
+      - Thailand
+  - LandSyMM-PLUM 2.0|Timor-Leste:
+      countries:
+      - Timor-Leste
+  - LandSyMM-PLUM 2.0|Togo:
+      countries:
+      - Togo
+  - LandSyMM-PLUM 2.0|Tunisia:
+      countries:
+      - Tunisia
+  - LandSyMM-PLUM 2.0|Turkiye:
+      countries:
+      - Turkey
+  - LandSyMM-PLUM 2.0|Turkmenistan:
+      countries:
+      - Turkmenistan
+  - LandSyMM-PLUM 2.0|Uganda:
+      countries:
+      - Uganda
+  - LandSyMM-PLUM 2.0|Ukraine:
+      countries:
+      - Ukraine
+  - LandSyMM-PLUM 2.0|United Arab Emirates:
+      countries:
+      - United Arab Emirates
+  - LandSyMM-PLUM 2.0|United Kingdom:
+      countries:
+      - United Kingdom
+  - LandSyMM-PLUM 2.0|United States of America:
+      countries:
+      - United States
+  - LandSyMM-PLUM 2.0|Uruguay:
+      countries:
+      - Uruguay
+  - LandSyMM-PLUM 2.0|Uzbekistan:
+      countries:
+      - Uzbekistan
+  - LandSyMM-PLUM 2.0|Venezuela:
+      countries:
+      - Venezuela
+  - LandSyMM-PLUM 2.0|Viet Nam:
+      countries:
+      - Viet Nam
+  - LandSyMM-PLUM 2.0|Yemen:
+      countries:
+      - Yemen
+  - LandSyMM-PLUM 2.0|Zambia:
+      countries:
+      - Zambia
+  - LandSyMM-PLUM 2.0|Zimbabwe:
+      countries:
+      - Zimbabwe

@@ -1,6 +1,7 @@
 model:
   - GCAM 7.1
   - GCAM 7.1 scenarioMIP
+  - GCAM-BC3 7.1
 
 native_regions:
   - Africa_Eastern: GCAM 7.1|Africa_Eastern

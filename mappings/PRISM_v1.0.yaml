@@ -1,0 +1,119 @@
+model: PRISM v1.0
+native_regions:
+- 01_KOR: PRISM v1.0|Korea
+- 02_CHN: PRISM v1.0|China
+- 03_JPN: PRISM v1.0|Japan
+- 04_RUS: PRISM v1.0|Russian Federation
+- 05_MNG: PRISM v1.0|Mongolia
+- 06_PRK: PRISM v1.0|Peoples Republic of Korea
+- 07_NAM: PRISM v1.0|North America
+- 08_LAM: PRISM v1.0|Latin America and the Caribbean
+- 09_WEU: PRISM v1.0|Western Europe
+- 10_EEU: PRISM v1.0|Central and Eastern Europe
+- 11_CAS: PRISM v1.0|Central Asia Surrounds
+- 12_MEA: PRISM v1.0|Middle East and North Africa
+- 13_AFR: PRISM v1.0|Sub-Saharan Africa
+- 14_CLV: PRISM v1.0|Cambodia Laos Vietnam
+- 15_SAS: PRISM v1.0|South Asia
+- 16_APC: PRISM v1.0|Asia-Pacific
+- 17_ANZ: PRISM v1.0|Australia and New Zealand
+common_regions:
+- World:
+  - 01_KOR
+  - 02_CHN
+  - 03_JPN
+  - 04_RUS
+  - 05_MNG
+  - 06_PRK
+  - 07_NAM
+  - 08_LAM
+  - 09_WEU
+  - 10_EEU
+  - 11_CAS
+  - 12_MEA
+  - 13_AFR
+  - 14_CLV
+  - 15_SAS
+  - 16_APC
+  - 17_ANZ
+
+# R5 regions
+- Asia (R5):
+  - 02_CHN
+  - 05_MNG
+  - 06_PRK
+  - 14_CLV
+  - 15_SAS
+  - 16_APC
+- Latin America (R5):
+  - 08_LAM
+- Middle East & Africa (R5):
+  - 12_MEA
+  - 13_AFR
+- OECD & EU (R5):
+  - 01_KOR
+  - 03_JPN
+  - 07_NAM
+  - 09_WEU
+  - 17_ANZ
+- Reforming Economies (R5):
+  - 04_RUS
+  - 10_EEU
+  - 11_CAS
+
+# R9 regions
+- China (R9):
+  - 02_CHN
+  - 05_MNG
+- European Union (R9):
+  - 09_WEU
+  - 10_EEU
+- India (R9):
+  - 15_SAS
+- Latin America (R9):
+  - 08_LAM
+- Middle East & Africa (R9):
+  - 12_MEA
+  - 13_AFR
+- Other Asia (R9):
+  - 06_PRK
+  - 14_CLV
+  - 16_APC
+- Other OECD (R9):
+  - 01_KOR
+  - 03_JPN
+  - 17_ANZ
+- Reforming Economies (R9):
+  - 04_RUS
+  - 11_CAS
+- USA (R9):
+  - 07_NAM
+
+# R10 regions
+- Africa (R10):
+  - 13_AFR
+- China+ (R10):
+  - 02_CHN
+  - 05_MNG
+- Europe (R10):
+  - 09_WEU
+  - 10_EEU
+- India+ (R10):
+  - 15_SAS
+- Latin America (R10):
+  - 08_LAM
+- Middle East (R10):
+  - 12_MEA
+- North America (R10):
+  - 07_NAM
+- Pacific OECD (R10):
+  - 01_KOR
+  - 03_JPN
+  - 17_ANZ
+- Reforming Economies (R10):
+  - 04_RUS
+  - 11_CAS
+- Rest of Asia (R10):
+  - 06_PRK
+  - 14_CLV
+  - 16_APC

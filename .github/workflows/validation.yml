@@ -20,15 +20,15 @@ jobs:
           - "git+https://github.com/IAMconsortium/nomenclature"
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
-      - name: Set up Python 3.13
-        uses: actions/setup-python@v6
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v7
         with:
-          python-version: 3.13
+          python-version: 3.14
 
       - name: Install requirements
-        run: pip install ${{ matrix.nomenclature }}
+        run: pip install ${{ matrix.nomenclature }} "SQLAlchemy<2.1.0"
 
       - name: Quickfix for pint https://github.com/hgrecco/pint/issues/1969
         run: pip install git+https://github.com/hgrecco/pint.git

@@ -1,0 +1,99 @@
+model:
+  - C3IAM 3.0
+
+native_regions:
+  - USA: C3IAM 3.0|USA
+  - China: C3IAM 3.0|China
+  - Japan: C3IAM 3.0|Japan
+  - Russia: C3IAM 3.0|Russia   # Russian Federation
+  - India: C3IAM 3.0|India
+  - OBU: C3IAM 3.0|OBU     # Other Branches of Umbrella Group
+  - EU: C3IAM 3.0|EU     #European Union
+  - OWE: C3IAM 3.0|OWE     #Other West European Developed Countries
+  - EES: C3IAM 3.0|EES     #Eastern European CIS excluding Russian Federation
+  - ASIA: C3IAM 3.0|ASIA     #Asia excluding China, India, Japan
+  - MAF: C3IAM 3.0|MAF     #Middle East and Africa
+  - LAM: C3IAM 3.0|LAM     #Latin America
+
+common_regions:
+  - World:
+      - USA
+      - China
+      - Japan
+      - Russia
+      - India
+      - OBU
+      - EU
+      - OWE
+      - EES
+      - ASIA
+      - MAF
+      - LAM
+
+  # R5 regions
+  - OECD & EU (R5):
+      - USA
+      - Japan
+      - OBU
+      - EU
+      - OWE
+  - Reforming Economies (R5):
+      - Russia
+      - EES
+  - Asia (R5):
+      - China
+      - India
+      - ASIA
+  - Middle East & Africa (R5):
+      - MAF
+  - Latin America (R5):
+      - LAM
+
+  # R9 regions
+  - European Union (R9):
+      - EU
+  - USA (R9):
+      - USA
+  - Other OECD (R9):
+      - Japan
+      - OBU
+      - OWE
+  - China (R9):
+      - China
+  - India (R9):
+      - India
+  - Other Asia (R9):
+      - ASIA
+  - Reforming Economies (R9):
+      - Russia
+      - EES
+  - Latin America (R9):
+      - LAM
+  - Middle East & Africa (R9):
+      - MAF
+
+  # R10 regions
+  - Africa (R10):
+      - MAF
+  - China+ (R10):
+      - China
+  - Europe (R10):
+      - EU
+      - OWE
+      - EES
+  - India+ (R10):
+      - India
+  - Latin America (R10):
+      - LAM
+  - Middle East (R10):
+      - MAF
+  - North America (R10):
+      - USA
+  - Pacific OECD (R10):
+      - Japan
+      - OBU
+  - Reforming Economies (R10):
+      - Russia
+      - EES
+  - Rest of Asia (R10):
+      - ASIA

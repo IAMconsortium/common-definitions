@@ -1,0 +1,264 @@
+- GEMINI 7.3:
+  - GEMINI 7.3|ASI:
+      countries:
+      - Australia
+      - New Zealand
+      - Japan
+      - South Korea
+      - Mongolia
+      - Taiwan
+      - Brunei Darussalam
+      - Cambodia
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Philippines
+      - Singapore
+      - Thailand
+      - Viet Nam
+      - Nepal
+      - Pakistan
+      - Sri Lanka
+      - American Samoa
+      - Cook Islands
+      - Fiji
+      - French Polynesia
+      - Guam
+      - Kiribati
+      - Marshall Islands
+      - Micronesia
+      - Nauru
+      - New Caledonia
+      - Niue
+      - Northern Mariana Islands
+      - Palau
+      - Papua New Guinea
+      - Pitcairn
+      - Samoa
+      - Solomon Islands
+      - Tokelau
+      - Tonga
+      - Tuvalu
+      - United States Minor Outlying Islands
+      - Vanuatu
+      - Wallis and Futuna
+      - Macao
+      - North Korea
+      - Myanmar
+      - Timor-Leste
+      - Bhutan
+      - Maldives
+      - Yemen
+      - Christmas Island
+      - Cocos (Keeling) Islands
+      - Heard Island and McDonald Islands
+      - Norfolk Island
+  - GEMINI 7.3|CHI:
+      countries:
+      - China
+      - Hong Kong
+  - GEMINI 7.3|ROW:
+      countries:
+      - Afghanistan
+      - Bangladesh
+      - Canada
+      - United Kingdom
+      - Switzerland
+      - Norway
+      - Albania
+      - Serbia
+      - Belarus
+      - Ukraine
+      - Kazakhstan
+      - Kyrgyzstan
+      - Tajikistan
+      - Uzbekistan
+      - Armenia
+      - Azerbaijan
+      - Georgia
+      - Israel
+      - Turkey
+      - Bermuda
+      - Greenland
+      - Saint Pierre and Miquelon
+      - Moldova
+      - Iceland
+      - Liechtenstein
+      - Andorra
+      - Bosnia and Herzegovina
+      - Faroe Islands
+      - Gibraltar
+      - Guernsey
+      - Vatican
+      - Isle of Man
+      - Jersey
+      - Kosovo
+      - Monaco
+      - Montenegro
+      - North Macedonia
+      - San Marino
+      - Turkmenistan
+      - Antarctica
+      - Bouvet Island
+      - British Indian Ocean Territory
+      - French Southern Territories
+  - GEMINI 7.3|IND:
+      countries:
+      - India
+  - GEMINI 7.3|USA:
+      countries:
+      - United States
+  - GEMINI 7.3|CSA:
+      countries:
+      - Mexico
+      - Argentina
+      - Bolivia
+      - Brazil
+      - Chile
+      - Colombia
+      - Ecuador
+      - Paraguay
+      - Peru
+      - Uruguay
+      - Venezuela
+      - Costa Rica
+      - Guatemala
+      - Honduras
+      - Nicaragua
+      - Panama
+      - El Salvador
+      - Dominican Republic
+      - Haiti
+      - Jamaica
+      - Puerto Rico
+      - Trinidad and Tobago
+      - Falkland Islands (Malvinas)
+      - French Guiana
+      - Guyana
+      - South Georgia and the South Sandwich Islands
+      - Suriname
+      - Anguilla
+      - Antigua and Barbuda
+      - Aruba
+      - Bahamas
+      - Barbados
+      - Bonaire, Sint Eustatius and Saba
+      - British Virgin Islands
+      - Cayman Islands
+      - Cuba
+      - Curaçao
+      - Dominica
+      - Grenada
+      - Montserrat
+      - Saint Barthélemy
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Martin (French part)
+      - Saint Vincent and the Grenadines
+      - Sint Maarten (Dutch part)
+      - Turks and Caicos Islands
+      - United States Virgin Islands
+  - GEMINI 7.3|EU27:
+      countries:
+      - Austria
+      - Belgium
+      - Bulgaria
+      - Croatia
+      - Cyprus
+      - Czechia
+      - Denmark
+      - Estonia
+      - Finland
+      - France
+      - Germany
+      - Greece
+      - Hungary
+      - Ireland
+      - Italy
+      - Latvia
+      - Lithuania
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Poland
+      - Portugal
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Spain
+      - Sweden
+  - GEMINI 7.3|RUS:
+      countries:
+      - Russian Federation
+  - GEMINI 7.3|MID:
+      countries:
+      - Bahrain
+      - Iran
+      - Iraq
+      - Jordan
+      - Kuwait
+      - Lebanon
+      - Oman
+      - Palestine
+      - Qatar
+      - Saudi Arabia
+      - Syria
+      - United Arab Emirates
+  - GEMINI 7.3|AFR:
+      countries:
+      - Algeria
+      - Egypt
+      - Morocco
+      - Tunisia
+      - Benin
+      - Burkina Faso
+      - Cameroon
+      - Côte d'Ivoire
+      - Ghana
+      - Guinea
+      - Mali
+      - Niger
+      - Nigeria
+      - Senegal
+      - Togo
+      - Central African Republic
+      - Chad
+      - Congo
+      - Democratic Republic of the Congo
+      - Equatorial Guinea
+      - Gabon
+      - Comoros
+      - Ethiopia
+      - Kenya
+      - Madagascar
+      - Malawi
+      - Mauritius
+      - Mozambique
+      - Rwanda
+      - Sudan
+      - Tanzania
+      - Uganda
+      - Zambia
+      - Zimbabwe
+      - Botswana
+      - Eswatini
+      - Namibia
+      - South Africa
+      - Libya
+      - Western Sahara
+      - Cabo Verde
+      - Gambia
+      - Guinea-Bissau
+      - Liberia
+      - Mauritania
+      - Saint Helena, Ascension and Tristan da Cunha
+      - Sierra Leone
+      - Angola
+      - Sao Tome and Principe
+      - Burundi
+      - Djibouti
+      - Eritrea
+      - Mayotte
+      - Seychelles
+      - Somalia
+      - South Sudan

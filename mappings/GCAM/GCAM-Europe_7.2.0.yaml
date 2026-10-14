@@ -1,4 +1,6 @@
-model: GCAM-Europe 7.2.0
+model:
+  - GCAM-Europe 7.2.0
+  - GCAM-Europe-BC3 7.2.0
 
 native_regions:
   - Africa_Eastern: GCAM-Europe 7.2.0|Africa_Eastern

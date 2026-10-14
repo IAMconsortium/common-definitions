@@ -1,0 +1,260 @@
+model:
+  - TIAM-ECN 2.1
+
+native_regions:
+  - ACE: TIAM-ECN 2.1|Central Africa
+  - AEA: TIAM-ECN 2.1|Eastern Africa
+  - AGO: TIAM-ECN 2.1|Angola
+  - ARG: TIAM-ECN 2.1|Argentina
+  - ASE: TIAM-ECN 2.1|Southeast Africa
+  - ASO: TIAM-ECN 2.1|Southern Africa
+  - AUS: TIAM-ECN 2.1|Australia
+  - AWE: TIAM-ECN 2.1|Western Africa
+  - BRA: TIAM-ECN 2.1|Brazil
+  - CAN: TIAM-ECN 2.1|Canada
+  - CHI: TIAM-ECN 2.1|China
+  - CHL: TIAM-ECN 2.1|Chile
+  - COD: TIAM-ECN 2.1|Congo DR
+  - COL: TIAM-ECN 2.1|Colombia
+  - DZA: TIAM-ECN 2.1|Algeria
+  - EEU: TIAM-ECN 2.1|Eastern Europe
+  - EGY: TIAM-ECN 2.1|Egypt
+  - ETH: TIAM-ECN 2.1|Ethiopia
+  - FSU: TIAM-ECN 2.1|Former Soviet Union
+  - IND: TIAM-ECN 2.1|India
+  - JPN: TIAM-ECN 2.1|Japan
+  - KEN: TIAM-ECN 2.1|Kenya
+  - LBY: TIAM-ECN 2.1|Libya
+  - MAR: TIAM-ECN 2.1|Morocco
+  - MDG: TIAM-ECN 2.1|Madagascar
+  - MEA: TIAM-ECN 2.1|Middle East
+  - MEX: TIAM-ECN 2.1|Mexico
+  - NGA: TIAM-ECN 2.1|Nigeria
+  - ODA: TIAM-ECN 2.1|Other Developing Asia
+  - OLA: TIAM-ECN 2.1|Other Latin America
+  - SKO: TIAM-ECN 2.1|South Korea
+  - TUN: TIAM-ECN 2.1|Tunisia
+  - USA: TIAM-ECN 2.1|USA
+  - VEN: TIAM-ECN 2.1|Venezuela
+  - WEU: TIAM-ECN 2.1|Western Europe
+  - ZAF: TIAM-ECN 2.1|South Africa
+
+common_regions:
+  - World:
+      - ACE
+      - AEA
+      - AGO
+      - ARG
+      - ASE
+      - ASO
+      - AUS
+      - AWE
+      - BRA
+      - CAN
+      - CHI
+      - CHL
+      - COD
+      - COL
+      - DZA
+      - EEU
+      - EGY
+      - ETH
+      - FSU
+      - IND
+      - JPN
+      - KEN
+      - LBY
+      - MAR
+      - MDG
+      - MEA
+      - MEX
+      - NGA
+      - ODA
+      - OLA
+      - SKO
+      - TUN
+      - USA
+      - VEN
+      - WEU
+      - ZAF
+
+  # R5 regions
+  - OECD & EU (R5):
+      - AUS
+      - CAN
+      - JPN
+      - SKO
+      - USA
+      - WEU
+  - Reforming Economies (R5):
+      - FSU
+      - EEU
+  - Asia (R5):
+      - CHI
+      - IND
+      - ODA
+  - Middle East & Africa (R5):
+      - ACE
+      - AEA
+      - AGO
+      - ASE
+      - ASO
+      - AWE
+      - COD
+      - DZA
+      - EGY
+      - ETH
+      - KEN
+      - LBY
+      - MAR
+      - MDG
+      - MEA
+      - NGA
+      - TUN
+      - ZAF
+  - Latin America (R5):
+      - ARG
+      - BRA
+      - CHL
+      - COL
+      - MEX
+      - OLA
+      - VEN
+  
+  # R9 regions
+  - Other OECD (R9):
+      - AUS
+      - CAN
+      - JPN
+      - SKO
+      - USA
+      - WEU
+  - China (R9):
+      - CHI
+  - India (R9):
+      - IND
+  - Other Asia (R9):
+      - ODA
+  - Reforming Economies (R9):
+      - FSU
+      - EEU
+  - Latin America (R9):
+      - ARG
+      - BRA
+      - CHL
+      - COL
+      - MEX
+      - OLA
+      - VEN
+  - Middle East & Africa (R9):
+      - ACE
+      - AEA
+      - AGO
+      - ASE
+      - ASO
+      - AWE
+      - COD
+      - DZA
+      - EGY
+      - ETH
+      - KEN
+      - LBY
+      - MAR
+      - MEA
+      - MDG
+      - NGA
+      - TUN
+      - ZAF
+
+  # R10 regions
+  - Africa (R10):
+      - ACE
+      - AEA
+      - AGO
+      - ASE
+      - ASO
+      - AWE
+      - COD
+      - DZA
+      - EGY
+      - ETH
+      - KEN
+      - LBY
+      - MAR
+      - MDG
+      - NGA
+      - TUN
+      - ZAF
+  - China+ (R10):
+      - CHI
+  - Europe (R10):
+      - EEU
+      - WEU
+  - India+ (R10):
+      - IND
+  - Latin America (R10):
+      - ARG
+      - BRA
+      - CHL
+      - COL
+      - MEX
+      - OLA
+      - VEN
+  - Middle East (R10):
+      - MEA
+  - North America (R10):
+      - CAN
+      - USA
+  - Pacific OECD (R10):
+      - AUS
+      - JPN
+      - SKO
+  - Reforming Economies (R10):
+      - FSU
+  - Rest of Asia (R10):
+      - ODA
+
+  # Mapping for G20 members
+  - Argentina:
+      - ARG
+  - Australia:
+      - AUS
+  - Brazil:
+      - BRA
+  - Canada:
+      - CAN
+  - China:
+      - CHI
+  - India:
+      - IND
+  - Japan:
+      - JPN
+  - Mexico:
+      - MEX
+  - South Africa:
+      - ZAF
+  - South Korea:
+      - SKO
+  - United States:
+      - USA
+  - European Union:
+      - WEU
+      - EEU
+  - African Union:
+      - ACE
+      - AEA
+      - AGO
+      - ASE
+      - ASO
+      - AWE
+      - COD
+      - DZA
+      - EGY
+      - ETH
+      - KEN
+      - LBY
+      - MAR
+      - MDG
+      - NGA
+      - TUN
+      - ZAF

@@ -1,0 +1,151 @@
+# Native country/aggregate labels supplied for IMED V1.0.
+- IMED V1.0:
+  - IMED V1.0|Africa:
+      countries:
+      - Benin
+      - Botswana
+      - Burkina Faso
+      - Côte d'Ivoire
+      - Cameroon
+      - Egypt
+      - Ethiopia
+      - Ghana
+      - Guinea
+      - Kenya
+      - Madagascar
+      - Malawi
+      - Mauritius
+      - Morocco
+      - Mozambique
+      - Namibia
+      - Nigeria
+      - Rwanda
+      - Senegal
+      - South Africa
+      - Togo
+      - Tunisia
+      - Uganda
+      - Tanzania
+      - Zambia
+      - Zimbabwe
+  - IMED V1.0|Australia & New Zealand:
+      countries:
+      - Australia
+      - New Zealand
+  - IMED V1.0|Canada:
+      countries:
+      - Canada
+  - IMED V1.0|China:
+      countries:
+      - China
+      - Hong Kong
+      - Taiwan
+  - IMED V1.0|Eastern Europe:
+      countries:
+      - Albania
+      - Bulgaria
+      - Croatia
+      - Czechia
+      - Hungary
+      - Poland
+      - Romania
+      - Slovakia
+      - Slovenia
+  - IMED V1.0|Former Soviet Union:
+      countries:
+      - Armenia
+      - Azerbaijan
+      - Belarus
+      - Estonia
+      - Georgia
+      - Kazakhstan
+      - Kyrgyzstan
+      - Latvia
+      - Lithuania
+      - Russian Federation
+      - Tajikistan
+      - Ukraine
+  - IMED V1.0|India:
+      countries:
+      - India
+  - IMED V1.0|Japan:
+      countries:
+      - Japan
+  - IMED V1.0|South Korea:
+      countries:
+      - South Korea
+  - IMED V1.0|Latin America:
+      countries:
+      - Argentina
+      - Bolivia
+      - Brazil
+      - Chile
+      - Colombia
+      - Costa Rica
+      - Dominican Republic
+      - Ecuador
+      - El Salvador
+      - Guatemala
+      - Honduras
+      - Jamaica
+      - Mexico
+      - Nicaragua
+      - Panama
+      - Paraguay
+      - Peru
+      - Trinidad and Tobago
+      - Uruguay
+      - Venezuela
+  - IMED V1.0|Middle East:
+      countries:
+      - Bahrain
+      - Iran
+      - Israel
+      - Jordan
+      - Kuwait
+      - Oman
+      - Qatar
+      - Saudi Arabia
+      - Turkey
+      - United Arab Emirates
+  - IMED V1.0|Other Asia:
+      countries:
+      - Bangladesh
+      - Brunei Darussalam
+      - Cambodia
+      - Indonesia
+      - Laos
+      - Malaysia
+      - Mongolia
+      - Nepal
+      - Pakistan
+      - Philippines
+      - Singapore
+      - Sri Lanka
+      - Thailand
+      - Viet Nam
+  - IMED V1.0|United States:
+      countries:
+      - Puerto Rico
+      - United States
+  - IMED V1.0|Western Europe:
+      countries:
+      - Austria
+      - Belgium
+      - Cyprus
+      - Denmark
+      - Finland
+      - France
+      - Germany
+      - United Kingdom
+      - Greece
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Malta
+      - Netherlands
+      - Norway
+      - Portugal
+      - Spain
+      - Sweden
+      - Switzerland

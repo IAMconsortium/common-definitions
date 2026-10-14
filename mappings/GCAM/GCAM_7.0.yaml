@@ -1,5 +1,6 @@
 model:
   - GCAM 7.0
+  - GCAM-PKU 7.0
 
 native_regions:
   - Africa_Eastern: GCAM 7.0|Africa_Eastern
