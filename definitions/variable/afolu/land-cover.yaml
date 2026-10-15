@@ -22,6 +22,26 @@
     unit: million ha
     agmip: Land Cover (LAND) - All crops (CRP)
     tier: 1
+    components:
+      - Land Cover|Cropland|Croparea
+      - Land Cover|Cropland|Fallow
+      - Land Cover|Cropland|Trees
+- Land Cover|Cropland|Croparea:
+    description: Cropland used for crop production (physical area),
+      excluding fallow land and trees on cropland
+    unit: million ha
+    tier: 2
+    components:
+      - By crop type:
+          - Land Cover|Cropland|Cereals
+          - Land Cover|Cropland|Oil Crops
+          - Land Cover|Cropland|Sugar Crops
+          - Land Cover|Cropland|Other Crops
+          - Land Cover|Cropland|Fodder Crops
+          - Land Cover|Cropland|Energy Crops
+      - By water supply:
+          - Land Cover|Cropland|Rainfed
+          - Land Cover|Cropland|Irrigated
 - Land Cover|Cropland|{Crop Types}:
     description: Cropland for {Crop Types}
     unit: million ha

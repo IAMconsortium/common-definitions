@@ -1,4 +1,4 @@
-- Crop Types w/o Energy Crops:
+- Feed Crop Types:
     - Cereals:
         description: cereals (maize, rice, temperate cereals and tropical cereals)
     - Oil Crops:
@@ -8,3 +8,6 @@
         description: sugar crops (sugar beet, sugar cane)
     - Other Crops:
         description: other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots)
+    - Fodder Crops:
+        description: fodder crops (forage maize, forage grasses and legumes,
+          fodder roots)

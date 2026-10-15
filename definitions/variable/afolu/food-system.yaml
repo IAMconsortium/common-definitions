@@ -14,8 +14,8 @@
     tier: 1
     navigate: Food Demand|Crops
     engage: Food Demand|Crops
-- Food Availability|Crops|{Crop Types w/o Energy Crops} [per capita]:
-    description: Amount of food available from {Crop Types w/o Energy Crops}
+- Food Availability|Crops|{Food Crop Types} [per capita]:
+    description: Amount of food available from {Food Crop Types}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
@@ -53,8 +53,8 @@
     sdg: 2
     weight: Population
     tier: 2
-- Food Intake|Crops|{Crop Types w/o Energy Crops} [per capita]:
-    description: Amount of food intake from {Crop Types w/o Energy Crops}
+- Food Intake|Crops|{Food Crop Types} [per capita]:
+    description: Amount of food intake from {Food Crop Types}
     unit: kcal/cap/day
     sdg: 2
     weight: Population
