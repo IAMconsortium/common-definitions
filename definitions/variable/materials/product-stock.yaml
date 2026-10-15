@@ -1,0 +1,20 @@
+# In-use product stock, in process 7 in CIRCOMOD material cycle system definition,
+# by end-use sector and by product type
+- Product Stock|Transportation|{Vehicle Types}:
+    description: Number of {Vehicle Types} currently in use, S_7 - In-use stock of
+      {Vehicle Types}
+    unit: thousand
+- Product Stock|Buildings|{Building Types}:
+    description: Useful floor space of {Building Types} currently in use, S_7 -
+      In-use stock of {Building Types}
+    unit: m^2
+    notes: If not specified differently, this includes useful floor space of
+      permanently occupied building units only
+- Product Stock|Transportation Infrastructure|{Transportation Infrastructure Types}:
+    description: Total length (if unit is km) or area (if unit is km^2) of {Transportation Infrastructure Types} currently in use,
+      S_7 - In-use stock of {Transportation Infrastructure Types}
+    unit: "{Transportation Infrastructure Types}"
+- Product Stock|Electricity|{Electricity Types}:
+    description: Stocks of electricity infrastructure (generation, transmission, and storage) currently in use,
+      S_7 - In-use stock of {Electricity Types} 
+    unit: "{Electricity Types}"
