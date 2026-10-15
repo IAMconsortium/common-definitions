@@ -119,47 +119,47 @@ common_regions:
       - Russia
 
   # R9 regions
-  - European Union (R9):
-      - EU-12
-      - EU-15
-  - USA (R9):
-      - USA
-  - Other OECD (R9):
-      - Canada
-      - Japan
-      - Australia_NZ
-      - Europe_Non_EU
-      - European Free Trade Association
-  - China (R9):
-      - China
-  - India (R9):
-      - India
-  - Other Asia (R9):
-      - Indonesia
-      - Pakistan
-      - South Asia
-      - South Korea
-      - Southeast Asia
-      - Taiwan
-  - Reforming Economies (R9):
-      - Russia
-      - Central Asia
-      - Europe_Eastern
-  - Latin America (R9):
-      - Argentina
-      - South America_Northern
-      - South America_Southern
-      - Brazil
-      - Colombia
-      - Central America and Caribbean
-      - Mexico
-  - Middle East & Africa (R9):
-      - Middle East
-      - Africa_Eastern
-      - Africa_Northern
-      - Africa_Southern
-      - Africa_Western
-      - South Africa
+#  - European Union (R9):
+#      - EU-12
+#      - EU-15
+#  - USA (R9):
+#      - USA
+#  - Other OECD (R9):
+#      - Canada
+#      - Japan
+#      - Australia_NZ
+#      - Europe_Non_EU
+#      - European Free Trade Association
+#  - China (R9):
+#      - China
+#  - India (R9):
+#      - India
+#  - Other Asia (R9):
+#      - Indonesia
+#      - Pakistan
+#      - South Asia
+#      - South Korea
+#      - Southeast Asia
+#      - Taiwan
+#  - Reforming Economies (R9):
+#      - Russia
+#      - Central Asia
+#      - Europe_Eastern
+#  - Latin America (R9):
+#      - Argentina
+#      - South America_Northern
+#      - South America_Southern
+#      - Brazil
+#      - Colombia
+#      - Central America and Caribbean
+#      - Mexico
+#  - Middle East & Africa (R9):
+#      - Middle East
+#      - Africa_Eastern
+#      - Africa_Northern
+#      - Africa_Southern
+#      - Africa_Western
+#      - South Africa
 
   # R10 regions
   - Africa (R10):
