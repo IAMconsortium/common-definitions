@@ -1,0 +1,25 @@
+- Engineered Material:
+    - Cement:
+        description: A binder for construction, primarily used in concrete
+    - Concrete:
+        description: A mix of cement, aggregates, and water for construction
+    - Glass:
+        description: A transparent material made from silica
+    - Steel:
+        description: An alloy of iron used in construction and manufacturing
+    - Aluminum:
+        description: A lightweight, corrosion-resistant metal
+    - Copper:
+        description: A conductive metal used in wiring and electronics
+    - Chemicals|Plastics:
+        description: Synthetic polymers used in various applications
+    - Construction Wood:
+        description: Processed timber for building structures
+    - Aggregates:
+        description: Crushed stone, gravel, or sand used in construction for concrete, road bases, or other applications
+    - Asphalt:
+        description: A mixture of aggregates and bitumen used for road surfacing and roofing applications
+    - Brick:
+        description: Hardened clay or other materials used as building blocks in construction
+    - Stone:
+        description: Natural or processed rock used for construction, masonry, or decorative purposes
