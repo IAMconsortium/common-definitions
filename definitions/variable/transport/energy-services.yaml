@@ -2,13 +2,21 @@
     description: Energy service demand for passenger transport on roads in light duty vehicles
     unit: billion pkm/yr
     tier: 2
-    navigate: Energy Service|Transportation|Road|LDV
+    navigate: Energy Service|Transportation|Passenger|Road|LDV
+    ngfs5: Energy Service|Transportation|Passenger|Road|LDV
+    shape: Energy Service|Transportation|Passenger|Road|LDV
 - Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle|{Drive Type}:
     description: Energy service demand for passenger transport on roads in light duty vehicles
       with {Drive Type}
     unit: billion pkm/yr
     tier: 2
     navigate: Energy Service|Transportation|Road|LDV|{Drive Type}
+- Energy Service|Transportation|Passenger|Aviation:
+    description: Energy service demand for passenger transport on through aviation
+    unit: billion pkm/yr
+    tier: 2
+    navigate: Energy Service|Bunkers|Passenger|International Aviation
+    ngfs5: Energy Service|Transportation|Passenger|Aviation
 - Energy Service|Transportation|Freight|Truck:
     description: Energy service demand for freight transport on roads in trucks
     unit: billion tkm/yr
@@ -19,3 +27,14 @@
     unit: billion tkm/yr
     tier: 2
     navigate: Energy Service|Transportation|Freight|Truck|{Drive Type}
+- Energy Service|Transportation|Freight|International Aviation:
+    description: Energy service demand for freight transport through international aviation
+    unit: billion tkm/yr
+    tier: 2
+    navigate: Energy Service|Bunkers|Freight|International Aviation
+- Energy Service|Transportation|Freight|International Shipping:
+    description: Energy service demand for freight transport through international shipping
+    unit: billion tkm/yr
+    tier: 2
+    navigate: Energy Service|Bunkers|Freight|International Shipping
+    ngfs5: Energy Service|Transportation|Freight|International Shipping
