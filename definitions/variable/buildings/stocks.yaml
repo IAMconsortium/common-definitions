@@ -3,6 +3,7 @@
       in residential and commercial buildings
     unit: billion m2
     tier: 2
+    ngfs5: Energy Service|{Residential and Commercial}|Floor Space
 
 - Building Stock|Residential|{Urban and Rural}|Floor Space|{useful vs. gross}:
     description: Standing stock of floor space
