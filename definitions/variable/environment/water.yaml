@@ -51,3 +51,11 @@
     definition: Water consumption for livestock
     unit: km3/yr
     tier: 3
+
+- Water Ecosystems|Water Scarcity Index:
+    description: Ratio of water withdrawals to renewable water supply, weighted average of all water basins, weighted by withdrawals
+    unit: 
+    tier: 2
+    sdg: 6
+    weight: Water Withdrawal
+    notes: Values above 1 indicate reliance on non-renewable groundwater, desalination, or other non-renewable sources, reflecting unsustainable water use
