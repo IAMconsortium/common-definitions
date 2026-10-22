@@ -1,27 +1,27 @@
-model: GEM-E3_V2026_EU
+model: GEM-E3 V2026-EU
 native_regions:
-- WORLD: GEM-E3_V2026_EU|World
-- EU27: GEM-E3_V2026_EU|European Union
-- GBR: GEM-E3_V2026_EU|United Kingdom
-- USA: GEM-E3_V2026_EU|USA
-- JPN: GEM-E3_V2026_EU|Japan
-- CAN: GEM-E3_V2026_EU|Canada
-- BRA: GEM-E3_V2026_EU|Brazil
-- CHN: GEM-E3_V2026_EU|China
-- IND: GEM-E3_V2026_EU|India
-- KOR: GEM-E3_V2026_EU|South Korea
-- IDN: GEM-E3_V2026_EU|Indonesia
-- MEX: GEM-E3_V2026_EU|Mexico
-- ARG: GEM-E3_V2026_EU|Argentina
-- TUR: GEM-E3_V2026_EU|Turkey
-- SAR: GEM-E3_V2026_EU|Saudi Arabia
-- OCE: GEM-E3_V2026_EU|Oceania
-- RUS: GEM-E3_V2026_EU|Russian Federation
-- ARE: GEM-E3_V2026_EU|United Arab Emirates
-- REP: GEM-E3_V2026_EU|Rest of Energy Producing Countries
-- SAF: GEM-E3_V2026_EU|South Africa
-- REU: GEM-E3_V2026_EU|Rest of Europe
-- ROW: GEM-E3_V2026_EU|Rest of the World
+- WORLD: GEM-E3 V2026-EU|World
+- EU27: GEM-E3 V2026-EU|European Union
+- GBR: GEM-E3 V2026-EU|United Kingdom
+- USA: GEM-E3 V2026-EU|USA
+- JPN: GEM-E3 V2026-EU|Japan
+- CAN: GEM-E3 V2026-EU|Canada
+- BRA: GEM-E3 V2026-EU|Brazil
+- CHN: GEM-E3 V2026-EU|China
+- IND: GEM-E3 V2026-EU|India
+- KOR: GEM-E3 V2026-EU|South Korea
+- IDN: GEM-E3 V2026-EU|Indonesia
+- MEX: GEM-E3 V2026-EU|Mexico
+- ARG: GEM-E3 V2026-EU|Argentina
+- TUR: GEM-E3 V2026-EU|Turkey
+- SAR: GEM-E3 V2026-EU|Saudi Arabia
+- OCE: GEM-E3 V2026-EU|Oceania
+- RUS: GEM-E3 V2026-EU|Russian Federation
+- ARE: GEM-E3 V2026-EU|United Arab Emirates
+- REP: GEM-E3 V2026-EU|Other Major Fossil-Exporting Countries
+- SAF: GEM-E3 V2026-EU|South Africa
+- REU: GEM-E3 V2026-EU|Rest of Europe
+- ROW: GEM-E3 V2026-EU|Rest of the World
 common_regions:
 - World:
   - ARE
@@ -134,4 +134,37 @@ common_regions:
 - Reforming Economies (R9):
   - RUS
 - USA (R9):
+  - USA
+# mapping for G20 members
+- Argentina:
+  - ARG
+- Brazil:
+  - BRA
+- Canada:
+  - CAN
+- China:
+  - CHN
+- India:
+  - IND
+- Indonesia:
+  - IDN
+- Japan:
+  - JPN
+- Mexico:
+  - MEX
+- Russian Federation:
+  - RUS
+- Saudi Arabia:
+  - SAR
+- South Africa:
+  - SAF
+- South Korea:
+  - KOR
+- Turkey:
+  - TUR
+- United Arab Emirates:
+  - ARE
+- United Kingdom:
+  - GBR
+- United States:
   - USA

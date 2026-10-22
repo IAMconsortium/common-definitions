@@ -1,6 +1,6 @@
-- GEM-E3_V2026_EU:
-  - GEM-E3_V2026_EU|World
-  - GEM-E3_V2026_EU|European Union:
+- GEM-E3 V2026-EU:
+  - GEM-E3 V2026-EU|World
+  - GEM-E3 V2026-EU|European Union:
       countries:
       - Austria
       - Belgium
@@ -29,54 +29,56 @@
       - Slovenia
       - Spain
       - Sweden
-  - GEM-E3_V2026_EU|United Kingdom:
+  - GEM-E3 V2026-EU|United Kingdom:
       countries:
       - United Kingdom
-  - GEM-E3_V2026_EU|USA:
+  - GEM-E3 V2026-EU|USA:
       countries:
       - United States
-  - GEM-E3_V2026_EU|Japan:
+  - GEM-E3 V2026-EU|Japan:
       countries:
       - Japan
-  - GEM-E3_V2026_EU|Canada:
+  - GEM-E3 V2026-EU|Canada:
       countries:
       - Canada
-  - GEM-E3_V2026_EU|Brazil:
+  - GEM-E3 V2026-EU|Brazil:
       countries:
       - Brazil
-  - GEM-E3_V2026_EU|China:
+  - GEM-E3 V2026-EU|China:
       countries:
       - China
-  - GEM-E3_V2026_EU|India:
+  - GEM-E3 V2026-EU|India:
       countries:
       - India
-  - GEM-E3_V2026_EU|South Korea
-  - GEM-E3_V2026_EU|Indonesia:
+  - GEM-E3 V2026-EU|South Korea:
+        countries:
+        - South Korea
+  - GEM-E3 V2026-EU|Indonesia:
       countries:
       - Indonesia
-  - GEM-E3_V2026_EU|Mexico:
+  - GEM-E3 V2026-EU|Mexico:
       countries:
       - Mexico
-  - GEM-E3_V2026_EU|Argentina:
+  - GEM-E3 V2026-EU|Argentina:
       countries:
       - Argentina
-  - GEM-E3_V2026_EU|Turkey:
+  - GEM-E3 V2026-EU|Turkey:
       countries:
       - Turkey
-  - GEM-E3_V2026_EU|Saudi Arabia:
+  - GEM-E3 V2026-EU|Saudi Arabia:
       countries:
       - Saudi Arabia
-  - GEM-E3_V2026_EU|Oceania:
+  - GEM-E3 V2026-EU|Oceania:
       countries:
       - Australia
       - New Zealand
-  - GEM-E3_V2026_EU|Russian Federation:
+  - GEM-E3 V2026-EU|Russian Federation:
       countries:
       - Russian Federation
-  - GEM-E3_V2026_EU|United Arab Emirates:
+  - GEM-E3 V2026-EU|United Arab Emirates:
       countries:
       - United Arab Emirates
-  - GEM-E3_V2026_EU|Rest of Energy Producing Countries:
+  - GEM-E3 V2026-EU|Other Major Fossil-Exporting Countries:
       countries:
       - Algeria
       - Azerbaijan
@@ -92,10 +94,10 @@
       - Venezuela
       - Western Sahara
       - Yemen
-  - GEM-E3_V2026_EU|South Africa:
+  - GEM-E3 V2026-EU|South Africa:
       countries:
       - South Africa
-  - GEM-E3_V2026_EU|Rest of Europe:
+  - GEM-E3 V2026-EU|Rest of Europe:
       countries:
       - Belarus
       - Bosnia and Herzegovina
@@ -111,7 +113,7 @@
       - Switzerland
       - Ukraine
       - Vatican
-  - GEM-E3_V2026_EU|Rest of the World:
+  - GEM-E3 V2026-EU|Rest of the World:
       countries:
       - Afghanistan
       - Åland Islands
