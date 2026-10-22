@@ -1,0 +1,137 @@
+model: GEM-E3_V2026_EU
+native_regions:
+- WORLD: GEM-E3_V2026_EU|World
+- EU27: GEM-E3_V2026_EU|European Union
+- GBR: GEM-E3_V2026_EU|United Kingdom
+- USA: GEM-E3_V2026_EU|USA
+- JPN: GEM-E3_V2026_EU|Japan
+- CAN: GEM-E3_V2026_EU|Canada
+- BRA: GEM-E3_V2026_EU|Brazil
+- CHN: GEM-E3_V2026_EU|China
+- IND: GEM-E3_V2026_EU|India
+- KOR: GEM-E3_V2026_EU|South Korea
+- IDN: GEM-E3_V2026_EU|Indonesia
+- MEX: GEM-E3_V2026_EU|Mexico
+- ARG: GEM-E3_V2026_EU|Argentina
+- TUR: GEM-E3_V2026_EU|Turkey
+- SAR: GEM-E3_V2026_EU|Saudi Arabia
+- OCE: GEM-E3_V2026_EU|Oceania
+- RUS: GEM-E3_V2026_EU|Russian Federation
+- ARE: GEM-E3_V2026_EU|United Arab Emirates
+- REP: GEM-E3_V2026_EU|Rest of Energy Producing Countries
+- SAF: GEM-E3_V2026_EU|South Africa
+- REU: GEM-E3_V2026_EU|Rest of Europe
+- ROW: GEM-E3_V2026_EU|Rest of the World
+common_regions:
+- World:
+  - ARE
+  - ARG
+  - BRA
+  - CAN
+  - CHN
+  - EU27
+  - GBR
+  - IDN
+  - IND
+  - JPN
+  - KOR
+  - MEX
+  - OCE
+  - REP
+  - REU
+  - ROW
+  - RUS
+  - SAF
+  - SAR
+  - TUR
+  - USA
+- Asia (R5):
+  - CHN
+  - IND
+  - KOR
+  - IDN
+- Latin America (R5):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R5):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- OECD & EU (R5):
+  - EU27
+  - GBR
+  - USA
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Other (R5):
+  - ROW
+- Reforming Economies (R5):
+  - RUS
+- Africa (R10):
+  - SAF
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - EU27
+  - GBR
+  - TUR
+  - REU
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - BRA
+  - MEX
+  - ARG
+- Middle East (R10):
+  - SAR
+  - ARE
+  - REP
+- North America (R10):
+  - USA
+  - CAN
+- Other (R10):
+  - ROW
+- Pacific OECD (R10):
+  - JPN
+  - OCE
+- Reforming Economies (R10):
+  - RUS
+- Rest of Asia (R10):
+  - IDN
+- China (R9):
+  - CHN
+- European Union (R9):
+  - EU27
+- India (R9):
+  - IND
+- Latin America (R9):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R9):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- Other (R9):
+  - ROW
+- Other Asia (R9):
+  - KOR
+  - IDN
+- Other OECD (R9):
+  - GBR
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Reforming Economies (R9):
+  - RUS
+- USA (R9):
+  - USA
