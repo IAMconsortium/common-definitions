@@ -1,0 +1,174 @@
+model: GEM-E3 V2026-EU
+native_regions:
+- EU27: GEM-E3 V2026-EU|European Union
+- GBR: GEM-E3 V2026-EU|United Kingdom
+- USA: GEM-E3 V2026-EU|USA
+- JPN: GEM-E3 V2026-EU|Japan
+- CAN: GEM-E3 V2026-EU|Canada
+- BRA: GEM-E3 V2026-EU|Brazil
+- CHN: GEM-E3 V2026-EU|China
+- IND: GEM-E3 V2026-EU|India
+- KOR: GEM-E3 V2026-EU|South Korea
+- IDN: GEM-E3 V2026-EU|Indonesia
+- MEX: GEM-E3 V2026-EU|Mexico
+- ARG: GEM-E3 V2026-EU|Argentina
+- TUR: GEM-E3 V2026-EU|Turkey
+- SAR: GEM-E3 V2026-EU|Saudi Arabia
+- OCE: GEM-E3 V2026-EU|Oceania
+- RUS: GEM-E3 V2026-EU|Russian Federation
+- ARE: GEM-E3 V2026-EU|United Arab Emirates
+- REP: GEM-E3 V2026-EU|Other Major Fossil-Exporting Countries
+- SAF: GEM-E3 V2026-EU|South Africa
+- REU: GEM-E3 V2026-EU|Rest of Europe
+- ROW: GEM-E3 V2026-EU|Rest of the World
+common_regions:
+- World:
+  - ARE
+  - ARG
+  - BRA
+  - CAN
+  - CHN
+  - EU27
+  - GBR
+  - IDN
+  - IND
+  - JPN
+  - KOR
+  - MEX
+  - OCE
+  - REP
+  - REU
+  - ROW
+  - RUS
+  - SAF
+  - SAR
+  - TUR
+  - USA
+- Asia (R5):
+  - CHN
+  - IND
+  - KOR
+  - IDN
+- Latin America (R5):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R5):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- OECD & EU (R5):
+  - EU27
+  - GBR
+  - USA
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Other (R5):
+  - ROW
+- Reforming Economies (R5):
+  - RUS
+- Africa (R10):
+  - SAF
+- China+ (R10):
+  - CHN
+  - KOR
+- Europe (R10):
+  - EU27
+  - GBR
+  - TUR
+  - REU
+- India+ (R10):
+  - IND
+- Latin America (R10):
+  - BRA
+  - MEX
+  - ARG
+- Middle East (R10):
+  - SAR
+  - ARE
+  - REP
+- North America (R10):
+  - USA
+  - CAN
+- Other (R10):
+  - ROW
+- Pacific OECD (R10):
+  - JPN
+  - OCE
+- Reforming Economies (R10):
+  - RUS
+- Rest of Asia (R10):
+  - IDN
+- China (R9):
+  - CHN
+- European Union (R9):
+  - EU27
+- India (R9):
+  - IND
+- Latin America (R9):
+  - BRA
+  - MEX
+  - ARG
+- Middle East & Africa (R9):
+  - SAR
+  - ARE
+  - REP
+  - SAF
+- Other (R9):
+  - ROW
+- Other Asia (R9):
+  - KOR
+  - IDN
+- Other OECD (R9):
+  - GBR
+  - JPN
+  - CAN
+  - TUR
+  - OCE
+  - REU
+- Reforming Economies (R9):
+  - RUS
+- USA (R9):
+  - USA
+# G20 members and key regions
+- Argentina:
+  - ARG
+- Brazil:
+  - BRA
+- Canada:
+  - CAN
+- China:
+  - CHN
+- European Union:
+  - EU27
+- European Union and United Kingdom:
+  - EU27
+  - GBR
+- India:
+  - IND
+- Indonesia:
+  - IDN
+- Japan:
+  - JPN
+- Mexico:
+  - MEX
+- Russian Federation:
+  - RUS
+- Saudi Arabia:
+  - SAR
+- South Africa:
+  - SAF
+- South Korea:
+  - KOR
+- Turkey:
+  - TUR
+- United Arab Emirates:
+  - ARE
+- United Kingdom:
+  - GBR
+- United States:
+  - USA
