@@ -1,6 +1,5 @@
 model: GEM-E3 V2026-EU
 native_regions:
-- WORLD: GEM-E3 V2026-EU|World
 - EU27: GEM-E3 V2026-EU|European Union
 - GBR: GEM-E3 V2026-EU|United Kingdom
 - USA: GEM-E3 V2026-EU|USA
@@ -135,7 +134,7 @@ common_regions:
   - RUS
 - USA (R9):
   - USA
-# mapping for G20 members
+# G20 members and key regions
 - Argentina:
   - ARG
 - Brazil:
@@ -144,6 +143,11 @@ common_regions:
   - CAN
 - China:
   - CHN
+- European Union:
+  - EU27
+- European Union and United Kingdom:
+  - EU27
+  - GBR
 - India:
   - IND
 - Indonesia:
