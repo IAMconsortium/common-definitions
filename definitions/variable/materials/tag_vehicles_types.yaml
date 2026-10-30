@@ -1,0 +1,23 @@
+- Vehicle Types:
+    - Road:
+        description: Transportation vehicles that operate on paved or unpaved roads, including motorized and non-motorized vehicles
+    - Road|Cars:
+        description: Light-Duty vehicles such as compact cars, large cars, SUVs, midsize cars, subcompact cars, two-wheelers
+    - Road|Buses:
+        description: Heavy-duty vehicles designed to carry multiple passengers
+    - Road|Trucks:
+        description: Heavy-duty vehicles primarily designed for the transportation of goods, including light, medium, and heavy-duty trucks
+    - Road|Bicycles:
+        description: Non-motorized two-wheeled vehicles
+    - Rail:
+        description: Vehicles operating on fixed tracks for transportation of passengers or goods
+    - Rail|Passenger:
+        description: Trains designed to transport people, including high-speed rail, intercity rail, and urban transit systems
+    - Rail|Cargo:
+        description: Trains specifically designed for the transportation of goods, typically comprising multiple freight cars
+    - Air|Passenger:
+        description: Aircraft designed to carry passengers, including domestic and international flights operated by commercial airlines
+    - Air|Cargo:
+        description: Aircraft specifically designed or modified to transport freight, including parcels, bulk goods, and other cargo
+    - Water|Ships:
+        description: Waterborne vessels used for the transportation of passengers or goods, including cargo ships, tankers, ferries, and cruise ships
