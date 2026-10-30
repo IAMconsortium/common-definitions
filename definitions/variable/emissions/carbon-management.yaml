@@ -43,6 +43,7 @@
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply
     engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply
+    ngfs5: Carbon Sequestration|CCS|{Carbon Capture Source}|Energy|Supply
 - Carbon Capture|Energy|Supply|Electricity:
     description: Captured carbon dioxide (CO2) during electricity generation
     unit: Mt CO2/yr
@@ -58,6 +59,7 @@
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
     engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|Electricity
+    ngfs5: Carbon Sequestration|CCS|{Carbon Capture Source}|Energy|Supply|Electricity
 - Carbon Capture|Energy|Supply|{Secondary Fuel Level 1}:
     description: Captured carbon dioxide (CO2) during production of {Secondary Fuel Level 1}
     unit: Mt CO2/yr
@@ -73,6 +75,7 @@
     notes: Values should be reported as positive numbers.
     navigate: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
     engage: Carbon Capture|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
+    ngfs5: Carbon Sequestration|CCS|{Carbon Capture Source}|Energy|Supply|{Secondary Fuel Level 1}
 
 - Carbon Capture|Energy|Demand:
     description: Captured carbon dioxide (CO2) during energy consumption
