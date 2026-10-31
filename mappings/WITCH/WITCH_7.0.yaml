@@ -1,23 +1,23 @@
 model:
-  - WITCH 6.0
+  - WITCH 7.0
 native_regions:
-  - brazil: WITCH 6.0|Brazil
-  - canada: WITCH 6.0|Canada
-  - china: WITCH 6.0|China
-  - europe: WITCH 6.0|Europe
-  - india: WITCH 6.0|India
-  - indonesia: WITCH 6.0|Indonesia
-  - jpnkor: WITCH 6.0|Japan and Korea
-  - laca: WITCH 6.0|Latin America and the Caribbean
-  - mena: WITCH 6.0|Middle East and North Africa
-  - mexico: WITCH 6.0|Mexico
-  - oceania: WITCH 6.0|Australia, New Zealand, and Oceania islands
-  - sasia: WITCH 6.0|South Asia
-  - seasia: WITCH 6.0|South East Asia
-  - southafrica: WITCH 6.0|South Africa
-  - ssa: WITCH 6.0|Sub-Saharan Africa
-  - te: WITCH 6.0|Non-EU Eastern European and Transition Countries
-  - usa: WITCH 6.0|United States
+  - brazil: WITCH 7.0|Brazil
+  - canada: WITCH 7.0|Canada
+  - china: WITCH 7.0|China
+  - europe: WITCH 7.0|Europe
+  - india: WITCH 7.0|India
+  - indonesia: WITCH 7.0|Indonesia
+  - jpnkor: WITCH 7.0|Japan and Korea
+  - laca: WITCH 7.0|Latin America and the Caribbean
+  - mena: WITCH 7.0|Middle East and North Africa
+  - mexico: WITCH 7.0|Mexico
+  - oceania: WITCH 7.0|Australia, New Zealand, and Oceania islands
+  - sasia: WITCH 7.0|South Asia
+  - seasia: WITCH 7.0|South East Asia
+  - southafrica: WITCH 7.0|South Africa
+  - ssa: WITCH 7.0|Sub-Saharan Africa
+  - te: WITCH 7.0|Non-EU Eastern European and Transition Countries
+  - usa: WITCH 7.0|United States
 common_regions:
   - World:
       - brazil

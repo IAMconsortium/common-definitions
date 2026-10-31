@@ -1,17 +1,17 @@
-- WITCH 6.0:
-    - WITCH 6.0|Brazil:
+- WITCH 7.0:
+    - WITCH 7.0|Brazil:
         countries: Brazil
-    - WITCH 6.0|Canada:
+    - WITCH 7.0|Canada:
         countries:
           - Canada
           - Saint Pierre and Miquelon
-    - WITCH 6.0|China:
+    - WITCH 7.0|China:
         countries:
           - China
           - Hong Kong
           - Macao
           - Taiwan
-    - WITCH 6.0|Europe:
+    - WITCH 7.0|Europe:
         countries:
           - Bulgaria
           - Cyprus
@@ -63,16 +63,16 @@
           - Montenegro
           - Serbia
           - Kosovo
-    - WITCH 6.0|India:
+    - WITCH 7.0|India:
         countries: India
-    - WITCH 6.0|Indonesia:
+    - WITCH 7.0|Indonesia:
         countries: Indonesia
-    - WITCH 6.0|Japan and Korea:
+    - WITCH 7.0|Japan and Korea:
         countries:
           - Japan
           - South Korea
           - North Korea
-    - WITCH 6.0|Latin America and the Caribbean:
+    - WITCH 7.0|Latin America and the Caribbean:
         countries:
           - Antarctica
           - Bermuda
@@ -125,7 +125,7 @@
           - Uruguay
           - Saint Vincent and the Grenadines
           - Venezuela
-    - WITCH 6.0|Middle East and North Africa:
+    - WITCH 7.0|Middle East and North Africa:
         countries:
           - United Arab Emirates
           - Bahrain
@@ -147,9 +147,9 @@
           - Syria
           - Tunisia
           - Yemen
-    - WITCH 6.0|Mexico:
+    - WITCH 7.0|Mexico:
         countries: Mexico
-    - WITCH 6.0|Australia, New Zealand, and Oceania islands:
+    - WITCH 7.0|Australia, New Zealand, and Oceania islands:
         countries:
           - New Zealand
           - Australia
@@ -180,7 +180,7 @@
           - Solomon Islands
           - Tonga
           - Vanuatu
-    - WITCH 6.0|South Asia:
+    - WITCH 7.0|South Asia:
         countries:
           - Afghanistan
           - Bangladesh
@@ -189,7 +189,7 @@
           - Maldives
           - Nepal
           - Pakistan
-    - WITCH 6.0|South East Asia:
+    - WITCH 7.0|South East Asia:
         countries:
           - Brunei Darussalam
           - Cocos (Keeling) Islands
@@ -201,10 +201,10 @@
           - Singapore
           - Thailand
           - Viet Nam
-    - WITCH 6.0|South Africa:
+    - WITCH 7.0|South Africa:
         countries:
           - South Africa
-    - WITCH 6.0|Sub-Saharan Africa:
+    - WITCH 7.0|Sub-Saharan Africa:
         countries:
           - Djibouti
           - British Indian Ocean Territory
@@ -260,7 +260,7 @@
           - Uganda
           - Zambia
           - Zimbabwe
-    - WITCH 6.0|Non-EU Eastern European and Transition Countries:
+    - WITCH 7.0|Non-EU Eastern European and Transition Countries:
         countries:
           - Mongolia
           - Armenia
@@ -276,5 +276,5 @@
           - Turkmenistan
           - Ukraine
           - Uzbekistan
-    - WITCH 6.0|United States:
+    - WITCH 7.0|United States:
         countries: United States
