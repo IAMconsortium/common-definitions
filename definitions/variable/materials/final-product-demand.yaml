@@ -1,0 +1,33 @@
+# Final product demand, product flow from process 6 to 7 in CIRCOMOD material cycle
+# system definition, by end-use sector and by product type
+- Final Product Demand|Transportation|{Vehicle Types}:
+    description: Number of new {Vehicle Types} registered/commissioned in a year, F_6_7 -
+      flow of {Vehicle Types} from market and transport process 6, Final products
+      trade, to process 7, Use phase
+    unit: thousand/yr
+- Final Product Demand|Buildings|{Building Types}:
+    description: New useful floor space of {Building Types} built in a year, F_6_7 -
+      flow of {Building Types} from market and transport process 6, Final
+      products trade, to process 7, Use phase
+    unit: m^2/yr
+- Final Product Demand|Transportation Infrastructure|{Transportation Infrastructure Types}:
+    description: New length (if unit is km) or area (if unit is km^2) of {Transportation Infrastructure Types} built in a year,
+      F_6_7 - flow of {Transportation Infrastructure Types} from market and transport
+      process 6, Final products trade, to process 7, Use phase
+    unit: "{Transportation Infrastructure Types}"
+- Final Product Demand|Electricity|{Electricity Types}:
+    description: New stocks of electricity infrastructure (generation, transmission, and storage) built in a year,
+      F_6_7 - flow of {Electricity Types} from market and transport
+      process 6, Final products trade, to process 7, Use phase
+    unit: "{Electricity Types}"
+
+# Final product demand, product flow from process 6 to 7 in CIRCOMOD material cycle
+# system definition, by end-use sector
+- Final Product Demand|Buildings:
+    description: Total new useful floor space (residential and commercial) built in
+      a year, F_6_7 - flow of total useful floor space from market and transport
+      process 6, Final products trade, to process 7, Use phase
+    unit: m^2/yr
+    components:
+      - Final Product Demand|Buildings|Residential
+      - Final Product Demand|Buildings|Commercial

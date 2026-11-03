@@ -1,0 +1,10 @@
+# Material losses by engineered material
+- Material Losses|{Engineered Material}:
+    description: Amount of (Engineered Material) going into landfills and sinks,
+      F_9_19 + F_11_19 - flows of (Engineered Material) from market and
+      transport process 9, Waste & scrap recovery, and process 11, Material
+      Recycling, to process 19, Landfills and sinks
+    unit: Mt/yr
+    notes: Flows to landfills considered as losses (material recovery from landfills
+      not considered here), unused recyclable/reused material can be stored and
+      used later, thus not considered as loss here
