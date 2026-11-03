@@ -4,12 +4,15 @@
 - Non-Energy Sector:
     - Iron and Steel:
         description: iron and steel sector
+        ngfs5: Steel
     - Non-Ferrous Metals:
         description: non-ferrous metals sector
+        ngfs5: Non-ferrous metals
     - Non-Metallic Minerals:
         description: non-metallic minerals sector including cement
     - Non-Metallic Minerals|Cement:
         description: cement production
+        ngfs5: Cement
     - Chemicals:
         description: chemical sector
     # keep consistent with the sub-categories of `Industry|Chemicals` in the `Sector` tag list
@@ -22,6 +25,7 @@
     - Chemicals|High-Value Chemicals:
         description: high-value-chemicals sector
         tier: ^1
+        ngfs5: Chemicals|High value chemicals
     - Chemicals|Other Sector:
         description: other use in the chemical sector
         tier: ^1
@@ -30,3 +34,4 @@
     - Other Sector:
         description: other industries
         tier: ^1
+        ngfs5: Other
