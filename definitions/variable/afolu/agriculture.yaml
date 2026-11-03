@@ -39,8 +39,8 @@
     agmip: Feed demand (FEED) - Crops (CRP)
     tier: 2
     navigate: Agricultural Demand|Non-Energy|Crops|Feed
-- Agricultural Demand|Crops|Feed|{Crop Types w/o Energy Crops}:
-    description: Demand for feed crops - {Crop Types w/o Energy Crops}
+- Agricultural Demand|Crops|Feed|{Feed Crop Types}:
+    description: Demand for feed crops - {Feed Crop Types}
     unit: million t DM/yr
     agmip:
     tier: 3
@@ -50,8 +50,8 @@
     agmip: Food demand (FOOD) - Crops (CRP)
     tier: 2
     navigate: Agricultural Demand|Non-Energy|Crops|Food
-- Agricultural Demand|Crops|Food|{Crop Types w/o Energy Crops}:
-    description: Demand for food crops - {Crop Types w/o Energy Crops}
+- Agricultural Demand|Crops|Food|{Food Crop Types}:
+    description: Demand for food crops - {Food Crop Types}
     unit: million t DM/yr
     agmip:
     tier: 3
