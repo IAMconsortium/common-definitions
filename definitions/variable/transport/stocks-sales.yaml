@@ -2,6 +2,8 @@
     description: Number of sold {Vehicle Type}
     unit: million
     tier: 2
+    # Only if `Vehicle Type` == Light-Duty Vehicle
+    ngfs5: Transport|Stock|Road|Passenger|LDV
 - Sales|Transportation|{Vehicle Type}|{Drive Type}:
     description: Number of sold {Vehicle Type} with {Drive Type}
     unit: million

@@ -10,6 +10,7 @@
     navigate: Production|Iron and Steel|{Iron Commodity}|Volume
     engage: Production|Iron and Steel|{Iron Commodity}|Volume
     ngfs5: Production|{Iron Commodity}
+    shape: Production|{Iron Commodity}
 
 - Production|Non-Metallic Minerals:
     description: Production of Non-Metallic Minerals
@@ -23,6 +24,8 @@
     navigate: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
     engage: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
     ngfs5: Production|{Non-Metallic Minerals Commodity}
+    # Is this needed? The variable seems to be already imported successfully.
+    shape: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}|Volume
 
 - Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
     description: Production of {Non-Ferrous Metals Commodity}
