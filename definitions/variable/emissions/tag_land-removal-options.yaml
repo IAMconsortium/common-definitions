@@ -9,9 +9,6 @@
     - Re/Afforestation|Plantation:
         description: reforestation and/or afforestation for carbon sequestration with
           non-native species and/or as monoculture plantation
-    - Biochar:
-        description: conversion of biomass to recalcitrant carbon via pyrolysis and its
-          subsequent application to croplands to increase soil carbon stocks
     - Soil Carbon Management:
         description: enhancing the carbon content of soils
     - Soil Carbon Management|Cropland:
