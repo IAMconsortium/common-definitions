@@ -1,5 +1,10 @@
 - Other Carbon Removal Option:
     - Enhanced Weathering:
         description: terrestrial application of alkalinity to increase CO2 uptake on land
+    - Biomass Burial:
+        description: burial of biomass on land
+    - Biochar:
+        description: conversion of biomass to recalcitrant carbon via pyrolysis and its
+          subsequent application to croplands to increase soil carbon stocks
     - Other:
         description: other CDR methods and techniques
