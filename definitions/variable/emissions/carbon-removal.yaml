@@ -3,8 +3,8 @@
       or biomass through deliberate human activities
     unit: Mt CO2/yr
     tier: 1
-    lower_bound: 0
-    notes: Values should be reported as positive numbers.
+    notes: Values should be reported as positive numbers. This variable can be computed
+      as 'Carbon Removal' = 'Gross Emissions|CO2' - 'Emissions|CO2'.
 
 - Carbon Removal|Geological Storage:
     description: Gross removals of carbon dioxide (CO2) from atmospheric origin
