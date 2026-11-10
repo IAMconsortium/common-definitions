@@ -342,6 +342,11 @@
     sdg: 10
     weight: Population
     shape: Inequality|Bottom 40% average income|Ratio
+- Inequality|Gini index:
+    description: Measure of income inequality within a population, ranging from 0 (perfect equality) to 100 (perfect inequality)
+    unit: '-'
+    sdg: 10
+    shape: Inequality|Gini index
 - Population|Informal Settlements:
     description: Number of people living in informal settlements, e.g., slums
     unit: million
@@ -428,5 +433,13 @@
     sdg: 17
 - Policy Cost|Consumption Loss:
     description: Consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    sdg: 17
+- Policy Cost|Consumption Loss Rate w/o Transfers:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline without international transfers (losses should be reported as positive numbers)
+    unit: %
+    sdg: 17
+- Policy Cost|Consumption Loss w/o Transfers:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline without international transfers (losses should be reported as positive numbers)
     unit: billion USD_2010/yr
     sdg: 17
