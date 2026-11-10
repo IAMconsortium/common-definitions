@@ -1,19 +1,34 @@
 - Population|Poverty|Extreme Poverty:
     description: Number of people living in extreme poverty with income
-      below USD_2017 2.15 PPP per day (World Bank definition)
+      below USD_2021 3.00 PPP per day (World Bank definition)
     unit: million
     sdg: 1
     shape: Population|Extreme Poverty|International poverty line
 - Population|Poverty|LMIC Poverty Line:
     description: Number of people living in poverty with income with income
-      below USD_2017 3.65 PPP per day (World Bank LMIC definition)
+      below USD_2021 4.20 PPP per day (World Bank LMIC definition)
     unit: million
     sdg: 1
 - Population|Poverty|UMIC Poverty Line:
     description: Number of people living in poverty with income
-      below USD_2017 6.85 PPP per day (World Bank UMIC definition)
+      below USD_2021 8.30 PPP per day (World Bank UMIC definition)
     unit: million
     sdg: 1
+- Poverty|Headcount Ratio|Extreme Poverty:
+    description: Share of population living below the international poverty line
+    unit: '%'
+    sdg: 1
+    weight: Population
+- Poverty|Headcount Ratio|LMIC Poverty Line:
+    description: Share of population living below the LMIC poverty line
+    unit: '%'
+    sdg: 1
+    weight: Population
+- Poverty|Headcount Ratio|UMIC Poverty Line:
+    description: Share of population living below the UMIC poverty line
+    unit: '%'
+    sdg: 1
+    weight: Population
 - Population|Risk of Hunger:
     description: Population at risk of hunger, calculated by multipling total population
       and prevalence of undernourishment which is computed from a probability distribution
@@ -327,6 +342,11 @@
     sdg: 10
     weight: Population
     shape: Inequality|Bottom 40% average income|Ratio
+- Inequality|Gini index:
+    description: Measure of income inequality within a population, ranging from 0 (perfect equality) to 100 (perfect inequality)
+    unit: '-'
+    sdg: 10
+    shape: Inequality|Gini index
 - Population|Informal Settlements:
     description: Number of people living in informal settlements, e.g., slums
     unit: million
@@ -404,7 +424,22 @@
     sdg: 17
     shape: Policy Cost|GDP Loss|w/o transfers
 - Policy Cost|Transfers:
-    description: Net international climate finance transfers (positive for inflow,
-      negative for payment)
+    description: Net international climate finance transfers (positive for inflow, negative for payment)
+    unit: billion USD_2010/yr
+    sdg: 17
+- Policy Cost|Consumption Loss Rate:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as positive numbers)
+    unit: %
+    sdg: 17
+- Policy Cost|Consumption Loss:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    sdg: 17
+- Policy Cost|Consumption Loss Rate w/o Transfers:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline without international transfers (losses should be reported as positive numbers)
+    unit: %
+    sdg: 17
+- Policy Cost|Consumption Loss w/o Transfers:
+    description: Consumption loss in a policy scenario compared to the corresponding baseline without international transfers (losses should be reported as positive numbers)
     unit: billion USD_2010/yr
     sdg: 17
