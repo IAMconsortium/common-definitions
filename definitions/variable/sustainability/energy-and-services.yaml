@@ -115,7 +115,7 @@
     sdg: 7
     skip-region-aggregation: true
     tier: 2
-    weight: Energy Service|Residential|Floor Space
+    #weight: Energy Service|Residential|Floor Space
 
 - Energy Service|Residential|Heating Degree Days:
     description: Measure of how cold the temperature was over a given period
@@ -124,7 +124,7 @@
     sdg: 7
     skip-region-aggregation: true
     tier: 2
-    weight: Energy Service|Residential|Floor Space
+    #weight: Energy Service|Residential|Floor Space
 
 - Final Energy|Industry|Electricity [Share]:
     description: Share of electricity in final energy demand for industry
