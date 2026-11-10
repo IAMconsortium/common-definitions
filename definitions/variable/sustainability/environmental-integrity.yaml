@@ -1,0 +1,56 @@
+- Agricultural Material Footprint [per capita]:
+    description: Biomass usage per capita excluding pasture and forestry
+    unit: t DM/cap/yr
+    sdg: 12
+    weight: Population
+    shape: Agricultural Material Footprint
+
+- Freshwater|Environmental Flow Violations:
+    description: Water withdrawals at the expense of environmental flow requirements
+    unit: km3/yr
+    sdg: 6
+    tier: 2
+
+- Material Recycling|{Recycled Materials}:
+    description: Production of recycled {Recycled Materials}
+    unit: Mt/yr
+    sdg: 12
+
+- Material Recycling|{Recycled Materials} [Share]:
+    description: Share of recycled {Recycled Materials}
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 12
+    skip-region-aggregation: true
+    #     weight: Production|Iron and Steel|Volume
+    shape: Material recycling|{Recycled Materials}|Share
+
+- Ocean|Acidification:
+    description: Ocean acidification
+    unit: pH
+    sdg: 14
+    skip-region-aggregation: true
+    shape: Ocean|pH value
+
+- Ocean|Carbonate Saturation|Aragonite:
+    description: Saturation state of aragonite (Omega A)
+    unit:
+    sdg: 14
+    skip-region-aggregation: true
+
+- Ocean|Carbonate Saturation|Calcite:
+    description: Saturation state of calcite (Omega C)
+    unit:
+    sdg: 14
+    skip-region-aggregation: true
+
+- Water Quality|Nitrogen Concentration:
+    description: Concentration of nitrogen in water at river mouths
+    unit: mg N/l
+    sdg: 6
+
+- Water Quality|Phosphorus Concentration:
+    description: Concentration of phosphorus in water at river mouths
+    unit: mg P/l
+    sdg: 6
+
