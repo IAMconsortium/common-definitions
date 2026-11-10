@@ -1,0 +1,56 @@
+- Expenditure|Households|Food [Share]:
+    description: Share of food expenditure in total income (including value added from food processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 1
+    weight: GDP|PPP
+    shape: Expenditure Share|Food
+
+- Expenditure|Households|Food|Agriculture [Share]:
+    description: Expenditure share for agricultural products in total income based on farm-gate prices (without value added from food processing chain)
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 1
+    weight: GDP|PPP
+
+- GDP|PPP [Growth Rate per capita]:
+    description: Annual growth rate of GDP-per-capita (PPP)
+    unit: '%'
+    sdg: 8
+    weight: GDP|PPP
+    shape: GDPpcap|PPP|Growth rate
+    tier: 2
+
+- GDP|PPP [per capita relative to OECD]:
+    description: Ratio of GDP-per-capita (PPP) relative to OECD average
+    unit: '%'
+    sdg: 8
+    weight: Population
+    shape: GDPpcap|PPP|Ratio to OECD
+
+- Inequality|Average Income|Bottom 40% [Ratio]:
+    description: Average income of bottom 40% of population relative to national average
+    unit: '%'
+    sdg: 10
+    weight: Population
+    shape: Inequality|Bottom 40% average income|Ratio
+
+- Price|Carbon [relative to OECD]:
+    description: Carbon price relative to OECD carbon price
+    unit: '%'
+    sdg: 17
+    skip-region-aggregation: true
+    shape: Price|Carbon|Ratio to OECD
+
+- Policy Cost|GDP Loss w/o Transfers:
+    description: GDP loss without international transfers in a policy scenario compared
+      to the corresponding baseline (losses should be reported as positive numbers)
+    unit: billion USD_2010/yr
+    sdg: 17
+    shape: Policy Cost|GDP Loss|w/o transfers
+
+- Policy Cost|Transfers:
+    description: Net international climate finance transfers (positive for inflow,
+      negative for payment)
+    unit: billion USD_2010/yr
+    sdg: 17
