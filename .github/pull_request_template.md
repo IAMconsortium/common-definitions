@@ -1,8 +1,4 @@
-# Project information
-
-**Project name:**
-
-# Model information
+# Documentation and scientific reference
 
 **Model name and version:** Example Model v1.0
 
@@ -16,11 +12,16 @@
 
 **Point of contact:**
 
-| Name | E-mail | Permission       | IIASA Manager username | GitHub username |
-|------|--------|------------------|------------------------|-----------------|
-|      |        | View/Submit/Edit |                        |                 |
-|      |        | View/Submit/Edit |                        |                 |
-|      |        | View/Submit/Edit |                        |                 |
+| Name | E-mail | IIASA Manager username | GitHub username |
+|------|--------|------------------------|-----------------|
+|      |        |                        |                 |
+|      |        |                        |                 |
+|      |        |                        |                 |
+
+# Project
+
+**Please specify for which project(s) this model registration is intended (for now):**
+- Project
 
 # Definitions and mappings
 
