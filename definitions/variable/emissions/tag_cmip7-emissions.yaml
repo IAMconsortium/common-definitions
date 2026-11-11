@@ -1,0 +1,124 @@
+# Species and sectors of the CMIP7-ScenarioMIP gridded emissions dataset.
+# Sector names follow the netCDF files published on ESGF (input4MIPs);
+# species names and units follow the IAMC conventions in `Level-2 Species`.
+# Documentation: https://doi.org/10.5281/zenodo.19730076
+
+- CMIP7 Species:
+    - BC:
+        description: black carbon (soot, BC)
+        unit: Mt BC/yr
+    - CH4:
+        description: methane (CH4)
+        unit: Mt CH4/yr
+    - CO:
+        description: carbon monoxide (CO)
+        unit: Mt CO/yr
+    - CO2:
+        description: carbon dioxide (CO2)
+        unit: Mt CO2/yr
+    - N2O:
+        description: nitrous oxide (N2O)
+        unit: kt N2O/yr
+    - NH3:
+        description: ammonia (NH3)
+        unit: Mt NH3/yr
+    - NOx:
+        description: nitrogen oxides (NOx, reported as NO2)
+        unit: Mt NO2/yr
+    - OC:
+        description: organic carbon (OC)
+        unit: Mt OC/yr
+    - Sulfur:
+        description: sulfur (reported as SO2)
+        unit: Mt SO2/yr
+    - VOC:
+        description: non-methane volatile organic compounds (NMVOC)
+        unit: Mt VOC/yr
+
+- CMIP7 Non-CO2 Species:
+    - BC:
+        description: black carbon (soot, BC)
+        unit: Mt BC/yr
+    - CH4:
+        description: methane (CH4)
+        unit: Mt CH4/yr
+    - CO:
+        description: carbon monoxide (CO)
+        unit: Mt CO/yr
+    - N2O:
+        description: nitrous oxide (N2O)
+        unit: kt N2O/yr
+    - NH3:
+        description: ammonia (NH3)
+        unit: Mt NH3/yr
+    - NOx:
+        description: nitrogen oxides (NOx, reported as NO2)
+        unit: Mt NO2/yr
+    - OC:
+        description: organic carbon (OC)
+        unit: Mt OC/yr
+    - Sulfur:
+        description: sulfur (reported as SO2)
+        unit: Mt SO2/yr
+    - VOC:
+        description: non-methane volatile organic compounds (NMVOC)
+        unit: Mt VOC/yr
+
+# Sectors of the `em_anthro` files, excluding Agriculture, which is defined
+# separately because it is not provided for CO2. Each sector aggregates CEDS
+# working sectors, following the CEDS 59-to-9 sector mapping in
+# iiasa/emissions_harmonization_historical
+# (data/national/ceds/data_aux/sector_mapping.xlsx, sheet CEDS Mapping 2024).
+# Category codes and names follow the 2006 IPCC Guidelines for National
+# Greenhouse Gas Inventories, Volume 1, Chapter 8, Table 8.2.
+- CMIP7 Anthropogenic Sector:
+    - Energy:
+        description: fuel combustion in energy industries (main activity and
+          autoproducer electricity and heat production, petroleum refining,
+          manufacture of solid fuels and other energy industries) and fugitive
+          emissions from solid fuels (including uncontrolled combustion and burning
+          coal dumps) and from oil and natural gas (IPCC 2006 categories 1A1, 1B1
+          and 1B2)
+    - Industrial:
+        description: fuel combustion in manufacturing industries and construction,
+          non-specified fuel combustion, and process emissions from the mineral,
+          chemical and metal industries, the pulp and paper and food and beverages
+          industries, and other industrial processes (IPCC 2006 categories 1A2,
+          1A5, 2A, 2B, 2C and 2H)
+    - Transportation:
+        description: road transportation, railways, domestic water-borne navigation
+          and other transportation, excluding civil aviation and international
+          water-borne navigation (IPCC 2006 categories 1A3b, 1A3c, 1A3dii and
+          1A3e)
+    - Residential, Commercial, Other:
+        description: fuel combustion in commercial and institutional buildings, in
+          residential buildings, and in agriculture, forestry and fishing,
+          including off-road vehicles and fishing vessels (IPCC 2006 categories
+          1A4a, 1A4b and 1A4c)
+    - Solvents Production and Application:
+        description: solvent use, including degreasing and cleaning, paint
+          application, manufacture and processing of chemical products, and other
+          product use (IPCC 2006 category 2D3)
+    - Waste:
+        description: solid waste disposal, biological treatment of solid waste,
+          incineration and open burning of waste, wastewater treatment and
+          discharge, and other waste (IPCC 2006 category 4)
+    - International Shipping:
+        description: international water-borne navigation, including oil tanker
+          loading (IPCC 2006 category 1A3di), reported for the region International
+          only
+
+# Sectors of the `em_openburning` files (DRES-BB4CMIP7 sector aggregation).
+- CMIP7 Open Burning Sector:
+    - Agricultural Waste Burning:
+        description: burning of agricultural waste on fields (BB4CMIP7 sector AGRI,
+          part of IPCC 2006 category 3C1b)
+    - Forest Burning:
+        description: boreal and temperate forest fires and fires related to
+          deforestation (BB4CMIP7 sectors BORF, TEMF and DEFO, part of IPCC 2006
+          category 3C1a)
+    - Grassland Burning:
+        description: savanna and grassland fires (BB4CMIP7 sector SAVA, part of
+          IPCC 2006 category 3C1c)
+    - Peat Burning:
+        description: peat fires (BB4CMIP7 sector PEAT)
