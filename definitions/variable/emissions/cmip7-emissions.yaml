@@ -1,0 +1,58 @@
+# Harmonised emissions underlying the CMIP7-ScenarioMIP gridded emissions dataset.
+# One variable per species and sector of the netCDF files published on ESGF
+# (input4MIPs); the naming follows the CMIP6 precedent
+# (e.g., "CMIP6 Emissions|Sulfur|Forest Burning").
+# Documentation: https://doi.org/10.5281/zenodo.19730076
+
+- CMIP7 Emissions|{CMIP7 Species}|{CMIP7 Anthropogenic Sector}:
+    description: Harmonised emissions of {CMIP7 Species} from
+      {CMIP7 Anthropogenic Sector}, as gridded in the em_anthro files of the
+      CMIP7-ScenarioMIP emissions dataset
+    unit: "{CMIP7 Species}"
+    notes: Harmonised to CEDS-CMIP-2025-04-18 in 2023. International Shipping is
+      harmonised on the global total and reported for the region International.
+
+- CMIP7 Emissions|{CMIP7 Species}|Aircraft:
+    description: Harmonised emissions of {CMIP7 Species} from domestic and
+      international civil aviation (IPCC 2006 categories 1A3ai and 1A3aii), as gridded in the em_AIR_anthro files of the
+      CMIP7-ScenarioMIP emissions dataset
+    unit: "{CMIP7 Species}"
+    notes: Harmonised to CEDS-CMIP-2025-04-18 on the global total in 2023 and
+      reported for the region International.
+
+- CMIP7 Emissions|{CMIP7 Non-CO2 Species}|Agriculture:
+    description: Harmonised emissions of {CMIP7 Non-CO2 Species} from agriculture,
+      covering enteric fermentation and manure management, direct and indirect
+      N2O from managed soils and manure management, rice cultivation, other
+      agricultural sources, and indirect N2O from the atmospheric deposition of
+      nitrogen in NOx and NH3 from non-agricultural sources (IPCC 2006
+      categories 3A, 3C4 to 3C8, and 5A), as gridded in the em_anthro files of the CMIP7-ScenarioMIP emissions dataset
+    unit: "{CMIP7 Non-CO2 Species}"
+    notes: Not defined for CO2. CO2 from agriculture is set to zero in the gridded
+      files, because land-related CO2 is driven through the land-use product.
+
+- CMIP7 Emissions|{CMIP7 Non-CO2 Species}|{CMIP7 Open Burning Sector}:
+    description: Harmonised emissions of {CMIP7 Non-CO2 Species} from
+      {CMIP7 Open Burning Sector}, as gridded in the em_openburning files of the
+      CMIP7-ScenarioMIP emissions dataset
+    unit: "{CMIP7 Non-CO2 Species}"
+    notes: Harmonised to DRES-CMIP-BB4CMIP7-2-1 in 2023. Not defined for CO2, as
+      no CO2 open-burning files are provided, following CMIP6 practice.
+
+- CMIP7 Emissions|CO2|BECCS:
+    description: Harmonised CO2 removals by bioenergy with carbon capture and
+      storage (BECCS), as gridded in sector BECCS of the CO2 em_anthro files of
+      the CMIP7-ScenarioMIP emissions dataset
+    unit: Mt CO2/yr
+    notes: Removals are reported as negative values.
+
+- CMIP7 Emissions|CO2|Other Capture and Removal:
+    description: Harmonised CO2 removals by direct air capture with carbon storage
+      (DACCS), enhanced weathering, ocean CDR, biochar and soil carbon management,
+      as gridded in sector Other Capture and Removal of the CO2 em_anthro files
+      of the CMIP7-ScenarioMIP emissions dataset
+    unit: Mt CO2/yr
+    notes: Removals are reported as negative values. The sum can be positive in a
+      region where a method reported as net emissions outweighs the removals.
+      Removals in above-ground woody biomass (afforestation and reforestation,
+      agroforestry, forest management) are not included.
