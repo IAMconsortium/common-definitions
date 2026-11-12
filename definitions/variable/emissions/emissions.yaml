@@ -92,13 +92,13 @@
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use and
       land use change. Removals in this variable include agroforestry, re/afforestation,
-      biochar, soil carbon management and forest management.
+      biochar, soil carbon management and forest management
     unit: "{Level-3 Species}"
     tier: 2
 - Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
     description: Emissions and removals from forest land, cropland, grassland,
       settlements and other natural land (partially IPCC 1996 category 5 -
-      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
+      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4)
     unit: "{Level-3 Species}"
     tier: 3
     notes: This variable only includes anthropogenic emissions, but does not include
@@ -476,7 +476,7 @@
       technologies that are not directly linked to an emissions source, including direct air
       carbon capture and storage (DACCS) or enhanced weathering (EW), as well as durable wood
       products in building elements or plastics, mineral products, ocean fertilization,
-      ocean alkalinity enhancement (OAE), and direct ocean capture.
+      ocean alkalinity enhancement (OAE), and direct ocean capture
     unit: "{Level-3 Species}"
     tier: 2
     notes: This timeseries should be reported as negative values so that subcategories
