@@ -17,7 +17,7 @@
 - Population|Risk of Hunger:
     description: Population at risk of hunger, calculated by multipling total population
       and prevalence of undernourishment which is computed from a probability distribution
-      of daily dietary energy consumption and minimum dietary energy requirement.
+      of daily dietary energy consumption and minimum dietary energy requirement
     unit: million
 - Population|Electricity Access:
     description: Population with access to electricity
@@ -345,7 +345,7 @@
     weight: Population
     tier: 2
 - Air Pollution|PM2.5|Urban Population:
-    description: Urban population weighted annual average PM2.5 concentrations.
+    description: Urban population weighted annual average PM2.5 concentrations
     unit: ug/m3
     sdg: 11
     weight: Population|Urban
