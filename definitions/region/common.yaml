@@ -20,7 +20,11 @@
           Lithuania, Luxembourg, Malta, Montenegro, Netherlands, New Zealand,
           North Macedonia, Norway, Poland, Portugal, Puerto Rico, Romania, Serbia,
           Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom,
-          United States
+          United States,
+          Andorra, Faroe Islands, Gibraltar, Greenland, Guernsey, Isle of Man,
+          Jersey, Liechtenstein, Monaco, San Marino, Svalbard and Jan Mayen, Vatican,
+          Åland Islands, Saint Pierre and Miquelon,
+          Heard Island and McDonald Islands
         ]
     - Reforming Economies (R5):
         description: Countries from the Reforming Economies of the Former Soviet Union
@@ -42,7 +46,10 @@
           Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan,
           Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
           Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
-          Vanuatu, Viet Nam
+          Vanuatu, Viet Nam,
+          American Samoa, Christmas Island, Cocos (Keeling) Islands, Norfolk Island,
+          Northern Mariana Islands, Pitcairn, Tokelau,
+          United States Minor Outlying Islands, Wallis and Futuna
         ]
     - Middle East & Africa (R5):
         description: Countries of the Middle East and Africa
@@ -59,7 +66,9 @@
           Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles,
           Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
           Syria, Togo, Tunisia, Uganda, United Arab Emirates, Tanzania,
-          Western Sahara, Yemen, Zambia, Zimbabwe
+          Western Sahara, Yemen, Zambia, Zimbabwe,
+          British Indian Ocean Territory, French Southern Territories,
+          "Saint Helena, Ascension and Tristan da Cunha"
         ]
     - Latin America (R5):
         description: Latin and South American countries
@@ -72,7 +81,12 @@
           Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama,
           Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
           Saint Vincent and the Grenadines, Sint Maarten (Dutch part), Suriname, Trinidad and Tobago,
-          United States Virgin Islands, Uruguay, Venezuela
+          United States Virgin Islands, Uruguay, Venezuela,
+          Anguilla, Antarctica, Bermuda, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, British Virgin Islands, Cayman Islands, Dominica,
+          Falkland Islands (Malvinas), Montserrat, Saint Barthélemy,
+          Saint Martin (French part), South Georgia and the South Sandwich Islands,
+          Turks and Caicos Islands
         ]
     - Other (R5):
         description: Rest of the World, to be used only if a match with the R5 regions
@@ -91,7 +105,8 @@
           Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
           Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
           Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
-          Spain, Sweden
+          Spain, Sweden,
+          Åland Islands
         ]
         notes: Depending on the spatial resolution, reporting by some models may differ
           from the current list of EU27 members (2023).
@@ -107,7 +122,10 @@
         countries: [
           Albania, Australia, Bosnia and Herzegovina, Canada, Guam, Iceland,
           Japan, Kosovo, Montenegro, New Zealand, North Macedonia, Norway, Puerto Rico,
-          Serbia, United Kingdom, Switzerland, Turkey
+          Serbia, United Kingdom, Switzerland, Turkey,
+          Andorra, Faroe Islands, Gibraltar, Greenland, Guernsey, Isle of Man,
+          Jersey, Liechtenstein, Monaco, San Marino, Svalbard and Jan Mayen, Vatican,
+          Saint Pierre and Miquelon, Heard Island and McDonald Islands
         ]
         notes: This region is defined as 'OECD & EU (R5)' excluding EU and USA
     - China (R9):
@@ -128,7 +146,10 @@
           Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Niue,
           Nepal, New Caledonia, North Korea, Pakistan, Palau, Papua New Guinea,
           Philippines, South Korea, Samoa, Singapore, Solomon Islands, Sri Lanka,
-          Taiwan, Tuvalu, Thailand, Timor-Leste, Tonga, Vanuatu, Viet Nam
+          Taiwan, Tuvalu, Thailand, Timor-Leste, Tonga, Vanuatu, Viet Nam,
+          American Samoa, Christmas Island, Cocos (Keeling) Islands, Norfolk Island,
+          Northern Mariana Islands, Pitcairn, Tokelau,
+          United States Minor Outlying Islands, Wallis and Futuna
         ]
     - Reforming Economies (R9):
         description: Countries from the Reforming Economies of the Former Soviet Union
@@ -151,7 +172,9 @@
           Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles,
           Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Syria, Togo,
           Tunisia, Uganda, United Arab Emirates, Tanzania, Western Sahara, Yemen,
-          Zambia, Zimbabwe
+          Zambia, Zimbabwe,
+          British Indian Ocean Territory, French Southern Territories,
+          "Saint Helena, Ascension and Tristan da Cunha"
         ]
     - Latin America (R9):
         description: Latin and South American countries
@@ -162,7 +185,12 @@
           Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala, Guyana,
           Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay,
           Peru, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten (Dutch part),
-          Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela
+          Suriname, Trinidad and Tobago, United States Virgin Islands, Uruguay, Venezuela,
+          Anguilla, Antarctica, Bermuda, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, British Virgin Islands, Cayman Islands, Dominica,
+          Falkland Islands (Malvinas), Montserrat, Saint Barthélemy,
+          Saint Martin (French part), South Georgia and the South Sandwich Islands,
+          Turks and Caicos Islands
         ]
     - Other (R9):
         description: Rest of the World, used only if a match with the R9 regions can
@@ -186,7 +214,9 @@
           Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco,
           Mozambique, Namibia, Niger, Nigeria, Rwanda, Réunion, Sao Tome and Principe,
           Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan,
-          Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe
+          Eswatini, Togo, Tunisia, Uganda, Tanzania, Western Sahara, Zambia, Zimbabwe,
+          British Indian Ocean Territory, French Southern Territories,
+          "Saint Helena, Ascension and Tristan da Cunha"
         ]
         notes: Depending on the spatial resolution, some models report Northern Africa
           as part of the Middle East region.
@@ -202,7 +232,10 @@
           Cyprus, Czechia, Denmark, Estonia, France, Finland, Germany, Greece, Hungary,
           Iceland, Ireland, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta,
           Montenegro, Netherlands, North Macedonia, Norway, Portugal, Switzerland, Poland,
-          Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom
+          Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom,
+          Andorra, Faroe Islands, Gibraltar, Greenland, Guernsey, Isle of Man,
+          Jersey, Liechtenstein, Monaco, San Marino, Svalbard and Jan Mayen, Vatican,
+          Åland Islands
         ]
     - India+ (R10):
         description: South Asia, primarily India
@@ -221,7 +254,12 @@
           Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru,
           Puerto Rico, Saint Kitts and Nevis, Saint Lucia,
           Saint Vincent and the Grenadines, Sint Maarten (Dutch part), Suriname, Trinidad and Tobago,
-          United States Virgin Islands, Uruguay, Venezuela
+          United States Virgin Islands, Uruguay, Venezuela,
+          Anguilla, Antarctica, Bermuda, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, British Virgin Islands, Cayman Islands, Dominica,
+          Falkland Islands (Malvinas), Montserrat, Saint Barthélemy,
+          Saint Martin (French part), South Georgia and the South Sandwich Islands,
+          Turks and Caicos Islands
         ]
     - Middle East (R10):
         description: Middle East
@@ -235,11 +273,15 @@
     - North America (R10):
         description: United States and Canada
         ar6: R10NORTH_AM
-        countries: [ Canada, Guam, United States ]
+        countries: [
+          Canada, Guam, United States, Saint Pierre and Miquelon
+        ]
     - Pacific OECD (R10):
         description: Pacific OECD (membership status 1990) including Pacific islands
         ar6: R10PAC_OECD
-        countries: [ Australia, Japan, New Zealand ]
+        countries: [
+          Australia, Japan, New Zealand, Heard Island and McDonald Islands
+        ]
     - Reforming Economies (R10):
         description: Former Soviet Union countries not included in Europe
         ar6: R10REF_ECON
@@ -255,7 +297,10 @@
           Indonesia, Kiribati, Laos, Malaysia, Marshall Islands, Micronesia, Myanmar,
           Nauru, Niue, Palau, New Caledonia, Papua New Guinea, Philippines, Samoa,
           Singapore, Solomon Islands, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
-          Vanuatu, Viet Nam
+          Vanuatu, Viet Nam,
+          American Samoa, Christmas Island, Cocos (Keeling) Islands, Norfolk Island,
+          Northern Mariana Islands, Pitcairn, Tokelau,
+          United States Minor Outlying Islands, Wallis and Futuna
         ]
     - Other (R10):
         description: Rest of the World, to be used only if a match with the R10 regions
