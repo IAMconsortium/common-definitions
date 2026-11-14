@@ -9,7 +9,7 @@
     description: Emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Carbon Removal' + 'Net Carbon Cycling'.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-1 Species}|AFOLU
@@ -22,10 +22,18 @@
 - Gross Emissions|CO2:
     description: Gross emissions of carbon dioxide (CO2), not accounting for
       negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture
-      or agriculture, forestry and other land use (AFOLU)
+      or agriculture, forestry and other land use (AFOLU). For AFOLU, only permanent emissions
+      are included ('Gross Emissions|CO2|AFOLU')
     unit: Mt CO2/yr
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
+- Net Carbon Cycling:
+    description: Net carbon dioxide (CO2) flux to the atmosphere that is neither a gross
+      emission nor carbon removal, e.g., wood harvest followed by regrowth
+    unit: Mt CO2/yr
+    tier: 1
+    notes: Sign convention as 'Emissions|CO2', i.e. positive values are net emissions.
+    components:
+      - Net Carbon Cycling|AFOLU
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
       including removals from bioenergy with CCS (BECCS), direct air carbon capture
@@ -49,18 +57,79 @@
       For NGHGI-aligned reporting, see 'Emissions|*|AFOLU [NGHGI]'. Emissions reported
       in this category represent fluxes to/from the atmosphere from/to the land pool.
       For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
+      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' -
+      'Carbon Removal|Land Use' - 'Carbon Removal|Long-Lived Materials|Timber' +
+      'Net Carbon Cycling|AFOLU'.
     components:
       - Emissions|{Level-2 Species}|AFOLU|Agriculture
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
-    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
-      not including any removals from the atmosphere (e.g., biochar)
+    description: Permanent gross emissions of carbon dioxide (CO2) from agriculture, forestry
+      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), i.e. from
+      permanent deforestation (forest converted to another use or not expected to be
+      re-established within 5 years) and other land-use conversion, from drained and burning
+      peatlands, from the reversal of carbon removal on land (e.g., conversion of re/afforested
+      land to another use, but not harvest followed by regrowth), and from liming and urea
+      application
     unit: Mt CO2/yr
     tier: 1
+    lower_bound: 0
     notes: Emissions reported in this category represent fluxes from the land pool to the atmosphere.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
+      The first clearing of primary forest for shifting cultivation counts here, because the
+      cycle does not restore the primary forest carbon stock. Later clearings in the cycle are
+      'Net Carbon Cycling|AFOLU|Other'. On land converted to another
+      use, the carbon in slash and fuelwood counts here. Wood products made from roundwood of
+      this land count like those from wood harvest, in 'Net Carbon Cycling|AFOLU' and
+      'Carbon Removal|Long-Lived Materials|Timber' (IPCC 2006 Guidelines, Vol. 4, Ch. 2, and
+      2019 Refinement, Vol. 4, Ch. 12).
+- Net Carbon Cycling|AFOLU:
+    description: Net carbon dioxide (CO2) flux to the atmosphere from agriculture, forestry
+      and other land use that is neither a gross emission nor carbon removal, e.g., wood
+      harvest and regrowth, decay of wood products, shifting cultivation, crop residue
+      burning
+    unit: Mt CO2/yr
+    tier: 1
+    notes: The decay of all wood products, i.e. sawnwood, wood-based panels (e.g., plywood,
+      fiberboard), paper and paperboard, and other products of industrial roundwood, counts
+      here (part of IPCC 2006 category 3D1, see IPCC 2019 Refinement, Vol. 4, Ch. 12). The
+      carbon in newly produced sawnwood and wood-based panels also counts here as an emission
+      in the year of production, and in 'Carbon Removal|Long-Lived Materials|Timber' as a
+      removal of the same amount.
+    components:
+      - Net Carbon Cycling|AFOLU|Wood Harvest
+      - Net Carbon Cycling|AFOLU|Other
+- Net Carbon Cycling|AFOLU|Wood Harvest:
+    description: Net carbon dioxide (CO2) flux to the atmosphere from wood harvest, regrowth
+      after harvest and growth of timber plantations, including the decay of wood products
+    unit: Mt CO2/yr
+    tier: 3
+    components:
+      - Net Carbon Cycling|AFOLU|Wood Harvest|Emissions
+      - Net Carbon Cycling|AFOLU|Wood Harvest|Removals
+- Net Carbon Cycling|AFOLU|Wood Harvest|Emissions:
+    description: Carbon dioxide (CO2) losses from wood harvest, i.e. harvest residues,
+      fuelwood, decay of all wood products, including those from land converted to another
+      use, and carbon in newly produced sawnwood and wood-based panels
+    unit: Mt CO2/yr
+    tier: 3
+    lower_bound: 0
+    notes: Harvest residues and fuelwood, including wood used for bioenergy, count at harvest,
+      wood products when they decay, and the carbon in newly produced sawnwood and wood-based
+      panels in the year of production (see 'Net Carbon Cycling|AFOLU').
+- Net Carbon Cycling|AFOLU|Wood Harvest|Removals:
+    description: Carbon dioxide (CO2) uptake by regrowth of forests after wood harvest,
+      including on re/afforested land, and by growth of timber plantations, including their
+      first rotation
+    unit: Mt CO2/yr
+    tier: 3
+    notes: Values should be reported as negative numbers.
+- Net Carbon Cycling|AFOLU|Other:
+    description: Net carbon dioxide (CO2) flux to the atmosphere in 'Net Carbon Cycling|AFOLU'
+      other than from wood harvest, e.g., shifting cultivation, regrowth of abandoned land
+      to non-forest vegetation, crop residue burning
+    unit: Mt CO2/yr
+    tier: 3
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
@@ -515,9 +584,9 @@
 - Emissions|{Level-3 Species}|Other Capture and Removal:
     description: Capture and removal of atmospheric {Level-3 Species} using other net-negative
       technologies that are not directly linked to an emissions source, including direct air
-      carbon capture and storage (DACCS) or enhanced weathering (EW), as well as durable wood
-      products in building elements or plastics, mineral products, ocean fertilization,
-      ocean alkalinity enhancement (OAE), and direct ocean capture.
+      carbon capture and storage (DACCS) or enhanced weathering (EW), as well as durable
+      plastics, mineral products, ocean fertilization, ocean alkalinity enhancement (OAE),
+      and direct ocean capture.
     unit: "{Level-3 Species}"
     tier: 2
     notes: This timeseries should be reported as negative values so that subcategories
