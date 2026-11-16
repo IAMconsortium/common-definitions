@@ -23,11 +23,12 @@
 
 - Carbon Removal|Land Use:
     description: Gross removals of carbon dioxide (CO2) through land-based sinks
-      (e.g., afforestation, soil carbon enhancement, biochar)
+      (e.g., afforestation, soil carbon enhancement)
     unit: Mt CO2/yr
     tier: 1
     lower_bound: 0
-    notes: Values should be reported as positive numbers.
+    notes: Values should be reported as positive numbers. Biochar should be reported
+      separately, if possible.
     ngfs5: Carbon Sequestration|Land Use
 - Carbon Removal|Land Use|{Land Removal Option}:
     description: Gross removals of carbon dioxide (CO2) through {Land Removal Option}
