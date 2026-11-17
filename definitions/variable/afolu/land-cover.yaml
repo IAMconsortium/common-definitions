@@ -23,15 +23,6 @@
     agmip: Land Cover (LAND) - All crops (CRP)
     tier: 1
     components:
-      - Land Cover|Cropland|Croparea
-      - Land Cover|Cropland|Fallow
-      - Land Cover|Cropland|Trees
-- Land Cover|Cropland|Croparea:
-    description: Cropland used for crop production (physical area),
-      excluding fallow land and trees on cropland
-    unit: million ha
-    tier: 2
-    components:
       - By crop type:
           - Land Cover|Cropland|Cereals
           - Land Cover|Cropland|Oil Crops
@@ -39,9 +30,13 @@
           - Land Cover|Cropland|Other Crops
           - Land Cover|Cropland|Fodder Crops
           - Land Cover|Cropland|Energy Crops
+          - Land Cover|Cropland|Fallow
+          - Land Cover|Cropland|Trees
       - By water supply:
           - Land Cover|Cropland|Rainfed
           - Land Cover|Cropland|Irrigated
+          - Land Cover|Cropland|Fallow
+          - Land Cover|Cropland|Trees
 - Land Cover|Cropland|{Crop Types}:
     description: Cropland for {Crop Types}
     unit: million ha
@@ -51,7 +46,7 @@
     unit: million ha
     tier: 2
 - Land Cover|Cropland|Trees:
-    description: Trees on cropland for agroforesty
+    description: Cropland area covered by trees for agroforestry
     unit: million ha
     tier: 2
     notes: To prevent double-counting, this variable should include only the actual crop area specifically covered by trees, not the entire agroforestry landscape
