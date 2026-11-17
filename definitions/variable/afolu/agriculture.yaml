@@ -40,7 +40,7 @@
     tier: 2
     navigate: Agricultural Demand|Non-Energy|Crops|Feed
 - Agricultural Demand|Crops|Feed|{Feed Crop Types}:
-    description: Demand for feed crops - {Feed Crop Types}
+    description: Demand for {Feed Crop Types} used as animal feed
     unit: million t DM/yr
     agmip:
     tier: 3
@@ -51,7 +51,7 @@
     tier: 2
     navigate: Agricultural Demand|Non-Energy|Crops|Food
 - Agricultural Demand|Crops|Food|{Food Crop Types}:
-    description: Demand for food crops - {Food Crop Types}
+    description: Demand for {Food Crop Types} used for human consumption
     unit: million t DM/yr
     agmip:
     tier: 3

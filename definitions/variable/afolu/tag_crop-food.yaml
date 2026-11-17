@@ -1,3 +1,4 @@
+# This list must be a subset of 'Crop Types' (see `tag_crop.yaml`)
 - Food Crop Types:
     - Cereals:
         description: cereals (maize, rice, temperate cereals and tropical cereals)
