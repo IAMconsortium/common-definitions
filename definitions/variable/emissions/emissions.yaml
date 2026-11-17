@@ -22,8 +22,7 @@
 - Gross Emissions|CO2:
     description: Gross emissions of carbon dioxide (CO2), not accounting for
       negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture
-      or agriculture, forestry and other land use (AFOLU). For AFOLU, only permanent emissions
-      are included ('Gross Emissions|CO2|AFOLU')
+      or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
 - Net Carbon Cycling:
@@ -65,7 +64,7 @@
       - Emissions|{Level-2 Species}|AFOLU|Agricultural Waste Burning
       - Emissions|{Level-2 Species}|AFOLU|Land
 - Gross Emissions|CO2|AFOLU:
-    description: Permanent gross emissions of carbon dioxide (CO2) from agriculture, forestry
+    description: Gross emissions of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), i.e. from
       permanent deforestation (forest converted to another use or not expected to be
       re-established within 5 years) and other land-use conversion, from drained and burning
