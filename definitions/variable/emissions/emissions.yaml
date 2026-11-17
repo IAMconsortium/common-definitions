@@ -30,9 +30,10 @@
       emission nor carbon removal, e.g., wood harvest followed by regrowth
     unit: Mt CO2/yr
     tier: 1
-    notes: Sign convention as 'Emissions|CO2', i.e. positive values are net emissions.
+    notes: Same sign convention as 'Emissions|CO2', i.e. positive values are net emissions.
     components:
       - Net Carbon Cycling|AFOLU
+      - Net Carbon Cycling|Other
 - Gross Removals|CO2:
     description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
       including removals from bioenergy with CCS (BECCS), direct air carbon capture
@@ -130,6 +131,11 @@
       to non-forest vegetation, crop residue burning
     unit: Mt CO2/yr
     tier: 3
+- Net Carbon Cycling|Other:
+    description: Net carbon dioxide (CO2) flux to the atmosphere not covered by the other
+      components of 'Net Carbon Cycling'
+    unit: Mt CO2/yr
+    tier: 2
 - Gross Removals|CO2|AFOLU:
     description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
       and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
