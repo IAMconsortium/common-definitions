@@ -10,10 +10,10 @@
         description: non-ferrous metals sector
         tier: ^1
     - Industry|Non-Ferrous Metals|Aluminum:
-        description: aluminum
+        description: aluminum sector
         tier: ^1
     - Industry|Non-Ferrous Metals|Copper:
-        description: copper
+        description: copper sector
         tier: ^2
     - Industry|Non-Ferrous Metals|Other Metals:
         description: non-ferrous metals sector excluding aluminum and copper
@@ -47,7 +47,7 @@
         description: plastics sector
         tier: ^1
     - Industry|Pulp and Paper:
-        description: pulp and paper
+        description: pulp and paper sector
         tier: ^1
     - Industry|Other Sector:
         description: other industrial sectors
@@ -98,28 +98,37 @@
         description: residential and commercial sector
         tier: ^1
     - Residential and Commercial|Appliances:
-        description: residential and commercial sector appliances
+        description: residential and commercial sector for appliances
         tier: ^2
     - Residential and Commercial|Cooking:
-        description: residential and commercial sector cooking
+        description: residential and commercial sector for cooking
         tier: ^2
     - Residential and Commercial|Lighting:
-        description: residential and commercial sector lighting
+        description: residential and commercial sector for lighting
         tier: ^2
     - Residential and Commercial|Space Cooling:
-        description: residential and commercial sector space cooling
+        description: residential and commercial sector for space cooling
         tier: ^2
     - Residential and Commercial|Space Heating:
-        description: residential and commercial sector space heating
+        description: residential and commercial sector for space heating
         tier: ^2
     - Residential and Commercial|Water Heating:
-        description: residential and commercial sector space heating
+        description: residential and commercial sector for water heating
         tier: ^2
     - Transportation:
         description: transportation sector excluding international aviation and shipping
           (see 'Bunkers')
     - Transportation (w/ bunkers):
         description: transportation sector including international aviation and shipping
+    - Transportation|Road:
+        description: road-based transportation sector
+        tier: ^1
+    - Transportation|Road|Passenger:
+        description: road-based passenger transportation sector
+        tier: ^1
+    - Transportation|Road|Freight:
+        description: road-based freight transportation sector
+        tier: ^1
     - Transportation|Bus:
         description: transportation sector by bus
         tier: ^1
@@ -128,9 +137,6 @@
         tier: ^1
     - Transportation|Truck:
         description: trucking sector
-        tier: ^1
-    - Transportation|Road:
-        description: road transportation sector - both passenger and freight
         tier: ^1
     - Transportation|Rail:
         description: rail transportation sector
