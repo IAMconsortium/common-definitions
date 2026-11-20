@@ -353,6 +353,10 @@
     description: Emissions of carbon dioxide (CO2) from energy demand in the {Non-Energy Sector}
     unit: Mt CO2/yr
     tier: 2
+    # Only if `Non-Energy Sector` == "Iron and Steel"
+    navigate: Emissions|CO2|Energy|Demand|Industry|Steel
+    ngfs5: Emissions|CO2|Energy|Demand|Industry|Steel
+    shape: Emissions|CO2|Energy|Demand|Industry|Steel
 - Emissions|{Level-2 Species}|Energy|Demand|Residential and Commercial and AFOFI:
     description: Emissions of {Level-2 Species} from fuel combustion in residential,
       commercial and institutional sectors (IPCC category 1A4a and 1A4b)
@@ -467,11 +471,17 @@
       (IPCC categories 2A, 2B, 2C, 2E) in the {Non-Energy Sector}
     unit: "{Level-3 Species}"
     tier: 2
+    navigate: Emissions|{Level-3 Species}|Industrial Processes|{Non-Energy Sector}
+    # Only if `Non-Energy Sector` == "Iron and Steel"
+    ngfs5: Emissions|{Level-3 Species}|Steel
+    shape: Emissions|{Level-3 Species}|Industrial Processes|{Non-Energy Sector}
 - Emissions|{Level-3 Species}|Industrial Processes|{Industrial-Process Sector}:
     description: Emissions of {Level-3 Species} from industrial processes
       (IPCC categories 2A, 2B, 2C, 2E) in the {Industrial-Process Sector}
     unit: "{Level-3 Species}"
     tier: 2
+    # Only when `Industrial-Process Sector` == "Cement"
+    navigate: Emissions|{Level-3 Species}|Industrial Processes|Non-Metallic Minerals|Cement
 
 - Emissions|{Level-3 Species}|Product Use:
     description: Emissions of {Level-3 Species} from product use (IPCC category 2D, 2F
