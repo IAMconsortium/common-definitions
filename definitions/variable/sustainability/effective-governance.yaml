@@ -1,0 +1,14 @@
+- Gender Inequality Index:
+    description: Geometric average of reproductive health, empowerment and labor market
+      force participation rate (see Andrijevic et al., 2020)
+    unit:
+    sdg: 5
+    weight: Population
+
+- Political Institutions|Equality Before Law and Individual Liberty:
+    description: Aggregated 'Equality Before the Law and Individual Liberty' index as
+      defined by 'Varieties of Democracy' (V-DEM, Coppedge et al. 2022, Pemstein et al. 2022)
+    unit:
+    sdg: 16
+    weight: Population
+    shape: Political Institutions|Equality before law and individual liberty
