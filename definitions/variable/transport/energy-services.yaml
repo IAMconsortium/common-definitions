@@ -19,3 +19,55 @@
     unit: billion tkm/yr
     tier: 2
     navigate: Energy Service|Transportation|Freight|Truck|{Drive Type}
+
+# Energy service in international aviation and shipping ("Bunkers"), parallel to Final Energy|Bunkers|*.
+# There is no aggregate over {Bunker Sector}: passenger-km and tonne-km cannot be added.
+- Energy Service|Bunkers|Passenger:
+    description: Energy service demand for passenger transport in international aviation and shipping
+    unit: billion pkm/yr
+    tier: 2
+- Energy Service|Bunkers|Freight:
+    description: Energy service demand for freight transport in international aviation and shipping
+    unit: billion tkm/yr
+    tier: 2
+- Energy Service|Bunkers|{Bunker Sector}|Passenger:
+    description: Energy service demand for passenger transport in {Bunker Sector}
+    unit: billion pkm/yr
+    tier: 3
+- Energy Service|Bunkers|{Bunker Sector}|Freight:
+    description: Energy service demand for freight transport in {Bunker Sector}
+    unit: billion tkm/yr
+    tier: 3
+
+# Totals including international aviation and shipping, parallel to Final Energy|Transportation (w/ bunkers).
+# Energy Service|Transportation|{Passenger, Freight} are the totals excluding them.
+- Energy Service|Transportation (w/ bunkers)|Passenger:
+    description: Energy service demand for passenger transport including international aviation and shipping
+    unit: billion pkm/yr
+    tier: 2
+- Energy Service|Transportation (w/ bunkers)|Freight:
+    description: Energy service demand for freight transport including international aviation and shipping
+    unit: billion tkm/yr
+    tier: 2
+
+# Modes with a final-energy sector (Final Energy|Transportation|{Sector}) but no energy-service variable
+- Energy Service|Transportation|Passenger|Road|Bus:
+    description: Energy service demand for passenger transport on roads in buses
+    unit: billion pkm/yr
+    tier: 3
+- Energy Service|Transportation|Passenger|Rail:
+    description: Energy service demand for passenger transport by rail
+    unit: billion pkm/yr
+    tier: 3
+- Energy Service|Transportation|Passenger|Domestic Aviation:
+    description: Energy service demand for passenger transport by domestic aviation
+    unit: billion pkm/yr
+    tier: 3
+- Energy Service|Transportation|Freight|Rail:
+    description: Energy service demand for freight transport by rail
+    unit: billion tkm/yr
+    tier: 3
+- Energy Service|Transportation|Freight|Domestic Shipping:
+    description: Energy service demand for freight transport by domestic shipping
+    unit: billion tkm/yr
+    tier: 3
