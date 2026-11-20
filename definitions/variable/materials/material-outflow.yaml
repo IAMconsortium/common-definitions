@@ -1,0 +1,34 @@
+# Total material outflow from use phase by engineered material and by demand sector
+- Material Outflow|{Engineered Material}|{Demand Sector Disaggregated}:
+    description: Use phase outflow of (Engineered Material) from (Demand Sector),
+      F_7_8 - flow of (Engineered Material) from (Demand Sector), process 7, Use
+      phase, to market and transport process 8, Used products trade
+    unit: Mt/yr
+
+# Amount of reusable material in outflow from use phase (if full reuse potential 
+# exploited)
+- Material Outflow Potential|Secondary Material from Reuse|{Engineered Material}:
+    description: Amount of secondary (Engineered Material) that can be obtained by
+      reuse from use phase outflow, F_7_8(part) - flow of reusable (Engineered
+      Material) from process 7, Use phase, to market and transport process 8,
+      Used products trade
+    unit: Mt/yr
+    notes: Proxy flow F_13_6, assuming no import/export of reusable material
+      into/from process 8, and no flow of reusable material into/from process
+      17, Abandoned stocks, and demand for (Engineered Material) in process 6
+      larger or equal to supply of reusable (Engineered Material)
+
+# Amount of recyclable material in outflow from use phase (after deduction of reusable
+# material and if full recycling potential exploited)
+- Material Outflow Potential|Secondary Material from Recycling|{Engineered Material}:
+    description: Amount of secondary (Engineered Material) that can be obtained by
+      recycling from use phase outflow after deduction of secondary (Engineered
+      Material) that can be obtained by reuse from use phase outflow,
+      F_7_8(part) - flow of secondary (Engineered Material) that can be obtained
+      by recycling from use phase outflow from process 7, Use phase, to market
+      and transport process 8, Used products trade
+    unit: Mt/yr
+    notes: Proxy flow F_11_4, assuming no import/export and no flow into/from stock
+      of recyclable material between process 7 and 4, and demand for (Engineered
+      Material) in process 4 larger or equal to supply of secondary (Engineered
+      Material) from recycling
