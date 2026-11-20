@@ -6,9 +6,11 @@
     - Industry|Iron and Steel:
         description: iron and steel sector excluding feedstocks
         tier: ^1
+        ngfs5: Industry|Steel
     - Industry|Non-Ferrous Metals:
         description: non-ferrous metals sector
         tier: ^1
+        ngfs5: Industry|Non-ferrous metals
     - Industry|Non-Ferrous Metals|Aluminum:
         description: aluminum
         tier: ^1
@@ -24,6 +26,7 @@
     - Industry|Non-Metallic Minerals|Cement:
         description: cement sector
         tier: ^1
+        ngfs5: Industry|Cement
     - Industry|Non-Metallic Minerals|Other Minerals:
         description: non-metallic minerals sector excluding cement
         tier: ^1
@@ -40,6 +43,7 @@
     - Industry|Chemicals|High-Value Chemicals:
         description: high-value-chemicals sector
         tier: ^2
+        ngfs5: Industry|Chemicals|High value chemicals
     - Industry|Chemicals|Other Sector:
         description: other use in the chemical sector
         tier: ^2
@@ -52,6 +56,7 @@
     - Industry|Other Sector:
         description: other industrial sectors
         tier: ^1
+        ngfs5: Industry|Other
     - Residential:
         description: residential sector
         tier: ^1

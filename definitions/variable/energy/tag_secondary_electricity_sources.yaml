@@ -90,5 +90,7 @@
           storage (CCS)
     - Coal|w/o CCS:
         description: coal including lignite without carbon capture and storage (CCS)
+    - Storage:
+        description: energy storage technologies (e.g., batteries, pumped hydro)
     - Other:
         description: sources that do not fit any other category
