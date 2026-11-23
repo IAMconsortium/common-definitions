@@ -1,16 +1,34 @@
-- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliance group}:
+- Energy Service|Residential|Appliance Ownership|{Appliance group}:
     description: Ownership of appliances per household and appliance group
     unit: units/household
     tier: 3
 
-- Energy Service|Residential|{Urban and Rural}|Appliance Ownership|{Appliance}:
+- Energy Service|Residential|Appliance Ownership|{Appliance group}|{Urban and Rural}:
+    description: Ownership of appliances per household, appliance group, and 
+        Total/Urban/Rural demographic
+    unit: units/household
+    tier: 3
+
+- Energy Service|Residential|Appliance Ownership|{Appliance}:
     description: Ownership of appliances per household and appliance 
     unit: units/household
     tier: 3
 
-- Energy Service|Residential|{Urban and Rural}|Heating and Cooling|{Heating and Cooling Technologies}:
+- Energy Service|Residential|Appliance Ownership|{Appliance}|{Urban and Rural}:
+    description: Ownership of appliances per household, appliance, and 
+        Total/Urban/Rural demographic
+    unit: units/household
+    tier: 3
+
+- Energy Service|Residential|Heating and Cooling|{Heating and Cooling Technologies}:
     description: Households with specific heating and cooling technologies 
         as primary heating and cooling source
+    unit: million households
+    tier: 2
+
+- Energy Service|Residential|Heating and Cooling|{Heating and Cooling Technologies}|{Urban and Rural}:
+    description: Households with specific heating and cooling technologies 
+        as primary heating and cooling source, per Total/Urban/Rural demographic
     unit: million households
     tier: 2
 
@@ -19,8 +37,9 @@
     unit: million households
     tier: 2
 
-- Energy Service|Residential|{Urban and Rural}|Rooftop Photovoltaics:
-    description: Households with rooftop photovoltaic electricity generation
+- Energy Service|Residential|Rooftop Photovoltaics|{Urban and Rural}:
+    description: Households with rooftop photovoltaic electricity generation, 
+        per Total/Urban/Rural demographic
     unit: million households
     tier: 2
 
@@ -30,19 +49,31 @@
     unit: million buildings or households
     tier: 2
 
-- Energy Service|Residential|{Urban and Rural}|Zero Energy Building:
-    description: Households which have net-zero or positive energy balance 
+- Energy Service|Residential|Zero Energy Building|{Urban and Rural}:
+    description: Households which have net-zero or positive energy balance, 
+        per Total/Urban/Rural demographic 
     unit: households
     tier: 2
 
-- Population|Appliance Access|{Appliance group}|{Urban and Rural}:
+- Population|Appliance Access|{Appliance group}:
     description: Population with steady access to appliances per appliance
         category
     unit: million
     tier: 2
 
-- Population|Appliance Access|{Appliance}|{Urban and Rural}:
+- Population|Appliance Access|{Appliance group}|{Urban and Rural}:
     description: Population with steady access to appliances per appliance
-        category
+        category, per Total/Urban/Rural demographic
+    unit: million
+    tier: 2
+
+- Population|Appliance Access|{Appliance}:
+    description: Population with steady access to appliances per appliance
+    unit: million
+    tier: 2
+
+- Population|Appliance Access|{Appliance}|{Urban and Rural}:
+    description: Population with steady access to appliances per appliance, 
+        per Total/Urban/Rural demographic
     unit: million
     tier: 2
