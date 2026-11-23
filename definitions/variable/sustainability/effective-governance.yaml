@@ -16,7 +16,6 @@
 - Political Institutions|Corruption Perceptions Index:
     description: The perception of corruption measures the perceived levels of public sector 
         corruption, as defined by transparency international.
-        https://files.transparencycdn.org/images/CPI2010_long_methodology_En.pdf
     unit: Index
     sdg: 16
     weight: Population
@@ -25,7 +24,6 @@
     description: Captures perceptions of the quality of public services, the civil
         service, policy formulation and implementation, and the credibility of a government’s decisions.
         Based on the World Bank Governance Indicators.
-        https://www.worldbank.org/content/dam/sites/govindicators/doc/GE-2026.pdf
     unit: Index
     sdg: 16
     weight: Population
