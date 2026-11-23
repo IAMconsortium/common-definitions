@@ -37,6 +37,11 @@
     unit: million households
     tier: 2
 
+- Energy Service|Residential|Rooftop Photovoltaics:
+    description: Households with rooftop photovoltaic electricity generation
+    unit: million households
+    tier: 2
+
 - Energy Service|Residential|Rooftop Photovoltaics|{Urban and Rural}:
     description: Households with rooftop photovoltaic electricity generation, 
         per Total/Urban/Rural demographic
@@ -47,6 +52,11 @@
     description: Residential and commercial buildings which have net-zero or 
         positive energy balance 
     unit: million buildings or households
+    tier: 2
+
+- Energy Service|Residential|Zero Energy Building:
+    description: Households which have net-zero or positive energy balance
+    unit: households
     tier: 2
 
 - Energy Service|Residential|Zero Energy Building|{Urban and Rural}:
