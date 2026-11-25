@@ -6,11 +6,9 @@
 # 1996 categories: https://github.com/primap-community/climate_categories/blob/main/climate_categories/data/IPCC1996.yaml
 
 - Emissions|{Level-1 Species}:
-    description: Emissions of {Level-1 Species} to the atmosphere
+    description: Net emissions of {Level-1 Species} to the atmosphere
     unit: "{Level-1 Species}"
     tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Carbon Removal' + 'Net Carbon Cycling'.
-      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
     components:
       - Emissions|{Level-1 Species}|AFOLU
       - Emissions|{Level-1 Species}|Energy
@@ -19,9 +17,11 @@
       - Emissions|{Level-1 Species}|Other Capture and Removal
       - Emissions|{Level-1 Species}|Product Use
       - Emissions|{Level-1 Species}|Other
+    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' - 'Carbon Removal' + 'Net Carbon Cycling'.
+      For a breakdown of carbon removals, see the 'Carbon Removal|*' variables.
 - Gross Emissions|CO2:
-    description: Gross emissions of carbon dioxide (CO2), not accounting for
-      negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture
+    description: Gross emissions of carbon dioxide (CO2), not accounting for negative
+      emissions, for example from bioenergy with CCS (BECCS), direct air capture (DAC)
       or agriculture, forestry and other land use (AFOLU)
     unit: Mt CO2/yr
     tier: 1
@@ -34,13 +34,6 @@
     components:
       - Net Carbon Cycling|AFOLU
       - Net Carbon Cycling|Other
-- Gross Removals|CO2:
-    description: Gross removals of carbon dioxide (CO2) excluding positive emissions,
-      including removals from bioenergy with CCS (BECCS), direct air carbon capture
-      and agriculture, forestry and other land use (AFOLU)
-    unit: Mt CO2/yr
-    tier: 1
-    notes: Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.
 
 - Emissions|{Level-2 Species}|AFOLU:
     description: Emissions of {Level-2 Species} from agriculture, forestry
@@ -51,8 +44,9 @@
     unit: "{Level-2 Species}"
     tier: 1
     notes: This variable reports the sum of sources and sinks including land-use methods
-      such as soil carbon sequestration, biochar, forestry, and re/afforestation and
-      agroforestry. It uses the model/scientific definition of AFOLU, and does not align
+      such as soil carbon sequestration, forestry, and re/afforestation and
+      agroforestry. Biochar should be reported separately, if possible. The variable is
+      intended for the model/scientific definition of AFOLU, and does not align
       with the reporting of national greenhouse gas inventories (NGHGI).
       For NGHGI-aligned reporting, see 'Emissions|*|AFOLU [NGHGI]'. Emissions reported
       in this category represent fluxes to/from the atmosphere from/to the land pool.
@@ -136,36 +130,6 @@
       components of 'Net Carbon Cycling'
     unit: Mt CO2/yr
     tier: 2
-- Gross Removals|CO2|AFOLU:
-    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
-      including intentional carbon dioxide removals ('Carbon Removal|Land Use')
-      and all un-intentional or indirect removals,
-      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
-      after wood harvest or regrowth of timber plantations
-    unit: Mt CO2/yr
-    tier: 1
-    components:
-      - Gross Removals|CO2|AFOLU|Intentional
-      - Gross Removals|CO2|AFOLU|Unintentional
-    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
-      Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.
-- Gross Removals|CO2|AFOLU|Intentional:
-    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
-      due to intentional carbon dioxide removals ('Carbon Removal|Land Use')
-    unit: Mt CO2/yr
-    tier: 2
-    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
-- Gross Removals|CO2|AFOLU|Unintentional:
-    description: Gross removals of carbon dioxide (CO2) from agriculture, forestry
-      and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3),
-      due to unintentional or indirect removals,
-      e.g. from regrowth of natural vegetation after land abandonment, regrowth of forests
-      after wood harvest or regrowth of timber plantations
-    unit: Mt CO2/yr
-    tier: 2
-    notes: Removals reported in this category represent fluxes from the atmosphere to the land pool.
 
 - Emissions|{Level-3 Species}|AFOLU|Agriculture:
     description: Emissions of {Level-3 Species} from the agriculture sector
@@ -207,14 +171,15 @@
     notes: Also sometimes known as 'biomass burning' or 'open agricultural burning'
 - Emissions|{Level-3 Species}|AFOLU|Land:
     description: Emissions of {Level-3 Species} from forestry and other land use and
-      land use change. Removals in this variable include agroforestry, re/afforestation,
-      biochar, soil carbon management and forest management.
+      land use change, including removals through agroforestry, re/afforestation,
+      soil carbon management and forest management
     unit: "{Level-3 Species}"
     tier: 2
+    notes: Biochar should be reported separately, if possible.
 - Emissions|{Level-3 Species}|AFOLU|Land|Land Use and Land-Use Change:
     description: Emissions and removals from forest land, cropland, grassland,
       settlements and other natural land (partially IPCC 1996 category 5 -
-      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4).
+      IPCC 2006 category 3B except 3B1biii, 3B2biii, 3B3biii, 3B5biv, 3B6biv and 3B4)
     unit: "{Level-3 Species}"
     tier: 3
     notes: This variable only includes anthropogenic emissions, but does not include
