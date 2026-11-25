@@ -1,0 +1,34 @@
+- Electricity Types:
+    - Generation:
+        description: Electricity generation technologies from various sources
+        unit: GW
+    - Generation|Nuclear:
+        description: Nuclear power plants
+        unit: GW
+    - Generation|Solar:
+        description: Solar PV
+        unit: GW
+    - Generation|Wind: 
+        description: Wind poiwer plants
+        unit: GW
+    - Generation|Gas:
+        description: Gas power plants
+        unit: GW
+    - Generation|Coal:
+        description: Coal power plants
+        unit: GW
+    - Generation|Biomass:
+        description: Biomass power plants
+        unit: GW
+    - Generation|Hydro:
+        description: Hydro power plants
+        unit: GW
+    - Generation|Other:
+        description: Geothermal, Wave, and others not elsewhere defined.
+        unit: GW
+    - Transmission and Distribution:
+        description: Infrastructure involved in delivering electricity from generation facilities to end users, including high-voltage transmission lines and local distribution networks
+        unit: GWkm
+    - Storage:
+        description: Technologies and systems used to store electricity for later use, including batteries, pumped hydro storage, and other energy storage methods
+        unit: GWh

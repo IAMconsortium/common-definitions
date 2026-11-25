@@ -1,0 +1,60 @@
+# Total final material demand of use phase (process 7, CIRCOMOD material cycle system
+# definition) by engineered material
+- Final Material Demand|{Engineered Material}:
+    description: Total final consumption of (Engineered Material) across demand sectors, 
+      F_6_7 - flow of (Engineered Material) from market and transport process 6, 
+      Final products trade, to (Demand Sector), process 7, Use phase
+    unit: Mt/yr
+
+# Total final material demand of use phase (process 7, CIRCOMOD material cycle system
+# definition) by engineered material and by disaggregated demand sector
+- Final Material Demand|{Engineered Material}|{Demand Sector Disaggregated}:
+    description: Final consumption of (Engineered Material) in (Demand Sector), 
+      F_6_7 - flow of (Engineered Material) from market and transport process 6, 
+      Final products trade, to (Demand Sector), process 7, Use phase
+    unit: Mt/yr
+
+# Final material demand of use phase (process 7, CIRCOMOD material cycle system
+# definition) by engineered material, by demand sector and by material origin
+- Final Material Demand|{Engineered Material}|{Demand Sector}|Virgin Input:
+    description: Final consumption of virgin (Engineered Material) in (Demand
+      Sector), F_6_7(part) - flow of virgin (Engineered Material) from market
+      and transport process 6, Final products trade, to (Demand Sector), process
+      7, Use phase
+    unit: Mt/yr
+- Final Material Demand|{Engineered Material}|{Demand Sector}|Recycled:
+    description: Final consumption of recycled (Engineered Material) in (Demand
+      Sector), F_6_7(part) - flow of recycled (Engineered Material) from market
+      and transport process 6, Final products trade, to (Demand Sector), process
+      7, Use phase
+    unit: Mt/yr
+- Final Material Demand|{Engineered Material}|{Demand Sector}|Reused:
+    description: Final consumption of reused (Engineered Material) in (Demand
+      Sector), F_6_7(part) - flow of reused (Engineered Material) from market
+      and transport process 6, Final products trade, to (Demand Sector), process
+      7, Use phase
+    unit: Mt/yr
+    notes: Proxy flow F_13_6, assuming no import/export of reused material into/from
+      process 6
+- Final Material Demand|{Engineered Material}|{Demand Sector}|Other (Not Elsewhere Specified):
+    description: Final consumption of (Engineered Material) in (Demand Sector),
+      F_6_7(part) - flow of other (not elsewhere specified) (Engineered
+      Material) from market and transport process 6, Final products trade, to
+      (Demand Sector), process 7, Use phase
+    unit: Mt/yr
+
+# Circular economy input rates: reuse and recycling shares by engineered material and
+# by demand sector
+- Final Material Demand|Recycling Share|{Engineered Material}|{Demand Sector}:
+    description: Share of recycled (Engineered Material) in total (Engineered
+      Material) consumption by (Demand Sector), F_6_7(part)/F_6_7*100 -
+      percentage share of flow of recycled (Engineered Material) in flow of
+      total (Engineered Material) from process 6 to process 7
+    unit: "%"
+
+- Final Material Demand|Reuse Share|{Engineered Material}|{Demand Sector}:
+    description: Share of recycled (Engineered Material) in total (Engineered
+      Material) consumption by (Demand Sector), F_6_7(part)/F_6_7*100 -
+      percentage share of flow of recycled (Engineered Material) in flow of
+      total (Engineered Material) from process 6 to process 7
+    unit: "%"
