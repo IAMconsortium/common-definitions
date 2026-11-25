@@ -27,9 +27,9 @@
     navigate: Unemployment|Rate
 
 # Labor force employment status - by sector
-- Labor Force|Employed|{Economic Sectors Level 2}:
-    description: Employment by the {Economic Sectors Level 2}
+- Labor Force|Employed|{Economic Sectors Level 3}:
+    description: Employment by the {Economic Sectors Level 3}
     unit: million full-time equivalent workers
     tier: 1
     lower_bound: 0
-    navigate: Employment|{Economic Sectors Level 2}
+    navigate: Employment|{Economic Sectors Level 3}
