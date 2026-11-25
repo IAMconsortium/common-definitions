@@ -4,6 +4,7 @@
     agmip: Land Cover (LAND) - Total (TOT)
     tier: 1
 
+# Built-Up
 - Land Cover|Built-Up Area:
     description: Built-up land associated with human settlements
     unit: million ha
@@ -11,11 +12,13 @@
     navigate: Land Cover|Built-up Area
     tier: 1
 
+# Pasture
 - Land Cover|Pasture:
     description: Pasture and range land based on FAO definition of 'permanent meadows and pastures'
     unit: million ha
     tier: 1
 
+# Cropland
 - Land Cover|Cropland:
     description: Arable land, i.e. land in bioenergy crop, food, and feed/fodder crops,
       permanent crops as well as other arable land (physical area)
@@ -52,6 +55,7 @@
     unit: million ha
     tier: 3
 
+# Forest
 - Land Cover|Forest:
     description: Sum of primary, secondary and planted forest (FAO definition)
     unit: million ha
@@ -105,27 +109,33 @@
     unit: million ha
     tier: 2
 
+# Other Natural
 - Land Cover|Other Natural:
     description: Non-forest natural land including primary non-forest, restored and
       recovered natural land
     unit: million ha
     tier: 1
-- Land Cover|Other Natural|Primary Non-Forest:
+- Land Cover|Other Natural|Primary:
     description: Primary non-forest natural land without clearly visible indications of
       human activities
     unit: million ha
     tier: 2
-- Land Cover|Other Natural|Restored:
+- Land Cover|Other Natural|Secondary:
+    description: Secondary non-forest natural either from abandonment or purposeful restoration
+    unit: million ha
+    tier: 2
+- Land Cover|Other Natural|Secondary|Restored:
     description: Intentionally restored natural land for the purpose of nature and/or
       biodiversity conservation
     unit: million ha
     tier: 2
-- Land Cover|Other Natural|Recovered:
+- Land Cover|Other Natural|Secondary|Recovered:
     description: Recovered natural land due to the abandonment of agricultural or
       forestry land without intention for nature/biodiversity conservation
     unit: million ha
     tier: 2
 
+# Other Land
 - Land Cover|Other Land:
     description: Other land cover that does not fit into any other land cover category,
       e.g. ice and water bodies
