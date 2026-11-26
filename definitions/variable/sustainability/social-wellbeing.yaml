@@ -506,6 +506,14 @@
     sdg: 11
     shape: Population|substandard accommodation
 
+- Population|Rural [Share]:
+    description: Share of population living in rural areas
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 11
+    weight: Population
+    tier: 2
+
 - Population|Urban [Share]:
     description: Share of population living in urban areas
     unit: '%'
