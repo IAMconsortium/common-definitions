@@ -1,22 +1,310 @@
-- Air Pollution|PM2.5|Urban Population:
-    description: Urban population weighted annual average PM2.5 concentrations.
-    unit: ug/m3
+# --- Air Pollution (Concentrations) ---
+
+- Air Pollution|Outdoor|PM2.5:
+    description: Population-weighted annual average of outdoor fine particles with
+      a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Outdoor|PM2.5|Urban Population:
+    description: Urban population-weighted annual average of outdoor fine particles
+      with a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
     sdg: 11
     weight: Population|Urban
-    shape: Air Pollution|PM2.5|Urban population
+    min: 0
 
-- Health|Premature Deaths|PM2.5:
-    description: Number of premature deaths associated with increased health risks from
-      exposure to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
+- Air Pollution|Outdoor|PM2.5|Rural Population:
+    description: Rural population-weighted annual average of outdoor fine particles
+      with a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+- Air Pollution|Outdoor|O3:
+    description: Population-weighted annual average of outdoor ozone (O3) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Outdoor|O3|Urban Population:
+    description: Urban population-weighted annual average of outdoor ozone (O3) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Urban
+    min: 0
+
+- Air Pollution|Outdoor|O3|Rural Population:
+    description: Rural population-weighted annual average of outdoor ozone (O3) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+- Air Pollution|Outdoor|NO2:
+    description: Population-weighted annual average of outdoor nitrogen dioxide (NO2)
+      concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Outdoor|NO2|Urban Population:
+    description: Urban population-weighted annual average of outdoor nitrogen dioxide
+      (NO2) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Urban
+    min: 0
+
+- Air Pollution|Outdoor|NO2|Rural Population:
+    description: Rural population-weighted annual average of outdoor nitrogen dioxide
+      (NO2) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+- Air Pollution|Indoor|PM2.5:
+    description: Population-weighted annual average of indoor fine particles with
+      a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Indoor|PM2.5|Urban Population:
+    description: Urban population-weighted annual average of indoor fine particles
+      with a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Urban
+    min: 0
+
+- Air Pollution|Indoor|PM2.5|Rural Population:
+    description: Rural population-weighted annual average of indoor fine particles
+      with a diameter of 2.5 μm or less (PM2.5) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+- Air Pollution|Indoor|NOx:
+    description: Population-weighted annual average of indoor nitrogen oxides (NOx)
+      concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Indoor|NOx|Urban Population:
+    description: Urban population-weighted annual average of indoor nitrogen oxides
+      (NOx) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Urban
+    min: 0
+
+- Air Pollution|Indoor|NOx|Rural Population:
+    description: Rural population-weighted annual average of indoor nitrogen oxides
+      (NOx) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+- Air Pollution|Indoor|VOC:
+    description: Population-weighted annual average of indoor volatile organic compounds
+      (VOC) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population
+    min: 0
+
+- Air Pollution|Indoor|VOC|Urban Population:
+    description: Urban population-weighted annual average of indoor volatile organic
+      compounds (VOC) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Urban
+    min: 0
+
+- Air Pollution|Indoor|VOC|Rural Population:
+    description: Rural population-weighted annual average of indoor volatile organic
+      compounds (VOC) concentrations.
+    unit: μg/m3
+    sdg: 11
+    weight: Population|Rural
+    min: 0
+
+
+# --- Population Exposed to Air Pollution ---
+
+- Population|Air Pollution|Outdoor|PM2.5|{Urban and Rural}:
+    description: Population exposed to outdoor fine particles with a diameter
+      of 2.5 μm or less (PM2.5) concentrations above the WHO Global Air Quality Guidelines
+      (5 µg/m3 annual mean)
+    unit: million
+    min: 0
+
+- Population|Air Pollution|Outdoor|O3|{Urban and Rural}:
+    description: Population exposed to outdoor ozone (O3) concentrations above the WHO
+      Global Air Quality Guidelines (60 µg/m3 peak season mean, i.e. 6-month average
+      of daily maximum 8-hour mean)
+    unit: million
+    min: 0
+
+- Population|Air Pollution|Outdoor|NO2|{Urban and Rural}:
+    description: Population exposed to outdoor nitrogen dioxide (NO2) concentrations
+      above the WHO Global Air Quality Guidelines (10 µg/m3 annual mean)
+    unit: million
+    min: 0
+
+
+# --- Health | Disability-Adjusted Life Years ---
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Outdoor|PM2.5|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to outdoor air pollution of fine particles with a diameter of 2.5 μm or
+      less (PM2.5)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Outdoor|PM2.5
+    min: 0
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Outdoor|O3|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to outdoor air pollution of ozone (O3)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Outdoor|O3
+    min: 0
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Outdoor|NO2|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to outdoor air pollution of nitrogen dioxide (NO2)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Outdoor|NO2
+    min: 0
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Indoor|PM2.5|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to indoor air pollution of fine particles with a diameter of 2.5 μm or less
+      (PM2.5)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Indoor|PM2.5
+    min: 0
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Indoor|NOx|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to indoor air pollution of nitrogen oxides (NOx)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Indoor|NOx
+    min: 0
+
+- Health|Disability-Adjusted Life Years|Air Pollution|Indoor|VOC|{Urban and Rural}:
+    description: Disability-adjusted life years lost per year from health impacts
+      due to indoor air pollution of volatile organic compounds (VOC)
+    unit: DALY
+    sdg: 3
+    shape: Disability-Adjusted Life Year|Air Pollution|Indoor|VOC
+    min: 0
+
+
+# --- Health | Premature Deaths ---
+
+- Health|Premature Deaths|Air Pollution|Outdoor:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to outdoor air pollution
     unit: million
     sdg: 3
+    min: 0
 
-- Health|Disability-Adjusted Life Years|PM2.5:
-    description: Disability adjusted life years lost per year from health impacts
-      due to air pollution of fine particles with a diameter of 2.5 μm or less (PM2.5)
-    unit: DALY/yr
+- Health|Premature Deaths|Air Pollution|Outdoor|PM2.5|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to outdoor air pollution of fine particles with a diameter of
+      2.5 μm or less (PM2.5)
+    unit: million
     sdg: 3
-    shape: Disability-Adjusted Life Year|PM2.5
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Outdoor|O3|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to outdoor air pollution of ozone (O3)
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Outdoor|NO2|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to outdoor air pollution of nitrogen dioxide (NO2)
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Outdoor|Children:
+    description: Premature deaths per year among children (aged 0-14) associated with
+      increased health risks from exposure to outdoor air pollution
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Outdoor|Adults:
+    description: Premature deaths per year among adults (aged 15+) associated with
+      increased health risks from exposure to outdoor air pollution
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to indoor air pollution
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor|PM2.5|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to indoor air pollution of fine particles with a diameter of 2.5
+      μm or less (PM2.5)
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor|NOx|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to indoor air pollution of nitrogen oxides (NOx)
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor|VOC|{Urban and Rural}:
+    description: Premature deaths per year associated with increased health risks
+      from exposure to indoor air pollution of volatile organic compounds (VOC)
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor|Children:
+    description: Premature deaths per year among children (aged 0-14) associated with
+      increased health risks from exposure to indoor air pollution
+    unit: million
+    sdg: 3
+    min: 0
+
+- Health|Premature Deaths|Air Pollution|Indoor|Adults:
+    description: Premature deaths per year among adults (aged 15+) associated with
+      increased health risks from exposure to indoor air pollution
+    unit: million
+    sdg: 3
+    min: 0
 
 - Health|Child Mortality:
     description: Child mortality
@@ -29,6 +317,9 @@
     unit: million
     sdg: 3
     shape: Population|Child Mortality|Indoor Air Pollution
+
+
+# --- Population | Poverty ---
 
 - Population|Poverty|Extreme Poverty:
     description: Number of people living in extreme poverty with income
@@ -49,11 +340,29 @@
     unit: million
     sdg: 1
 
+- Population|Poverty|National Poverty Line [Share]:
+    description: Share of population living in relative poverty with income below their
+      respective national poverty lines
+    unit: '%'
+    sdg: 10
+    weight: Population
+    shape: Population|Relative Poverty|Share
+
+- Population|Poverty|Below 50% of National Median Income [Share]:
+    description: Share of population below 50% of median national income
+    unit: '%'
+    sdg: 10
+    weight: Population
+    shape: Population|Relative poverty|wrt median income|Share
+
 - Population|Risk of Hunger:
     description: Population at risk of hunger, calculated by multipling total population
       and prevalence of undernourishment which is computed from a probability distribution
       of daily dietary energy consumption and minimum dietary energy requirement.
     unit: million
+    sdg: 2
+
+# --- Population | Access ---
 
 - Population|Electricity Access:
     description: Population with access to electricity
@@ -80,6 +389,13 @@
 - Population|Drinking Water Access:
     description: Population with access to improved drinking  water sources
     unit: million
+
+- Population|Severe Water Stress:
+    description: Number of people living in areas with severe water stress
+    unit: million
+    sdg: 6
+
+# --- Population | Nutrition ---
 
 - Population|Prevalence of Underweight:
     description: Number of adults with body mass index (BMI) lower than 18.5 and
@@ -130,6 +446,8 @@
     unit: million
     sdg: 2
 
+# --- Population | Education ---
+
 - Population|Without Education [Share]:
     description: Share of people aged 15 or older without education,
       not counting those with incomplete primary education
@@ -174,25 +492,7 @@
     sdg: 5
     skip-region-aggregation: true
 
-- Population|Severe Water Stress:
-    description: Number of people living in areas with severe water stress
-    unit: million
-    sdg: 6
-
-- Population|Poverty|National Poverty Line [Share]:
-    description: Share of population living in relative poverty with income below their
-      respective national poverty lines
-    unit: '%'
-    sdg: 10
-    weight: Population
-    shape: Population|Relative Poverty|Share
-
-- Population|Poverty|Below 50% of National Median Income [Share]:
-    description: Share of population below 50% of median national income
-    unit: '%'
-    sdg: 10
-    weight: Population
-    shape: Population|Relative poverty|wrt median income|Share
+# --- Population | Settlements ---
 
 - Population|Informal Settlements:
     description: Number of people living in informal settlements, e.g., slums
@@ -205,6 +505,14 @@
     unit: million
     sdg: 11
     shape: Population|substandard accommodation
+
+- Population|Rural [Share]:
+    description: Share of population living in rural areas
+    unit: '%'
+    range: [ 0, 100 ]
+    sdg: 11
+    weight: Population
+    tier: 2
 
 - Population|Urban [Share]:
     description: Share of population living in urban areas
